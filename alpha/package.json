@@ -1,0 +1,13 @@
+{
+  "name": "arknights-alpha",
+  "version": "1.0.0",
+  "description": "Applies alpha channel to CG",
+  "scripts": {
+    "list": "node list.js",
+    "start": "http-server -p 61000"
+  },
+  "dependencies": {
+    "glob": "^7.1.2",
+    "http-server": "^0.11.1"
+  }
+}
