@@ -62,7 +62,7 @@ let googleTranslate = function(srcText){
   return axios.post('https://translation.googleapis.com/language/translate/v2?key='+GOOGLE_API_KEY, {
     q: [ srcText ],
     source: 'zh-CN',
-    target: 'en',
+    target: TARGET_LANGUAGE,
     format: 'text'
   })
   .then(result => {
