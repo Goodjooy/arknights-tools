@@ -2,6 +2,5 @@ config/default.json
 input/bg/*.png
 input/cg/*.png
 input/char/*.png
-input/locale/zh/*.json
 input/story/*.txt
 output/*.png
