@@ -4,7 +4,7 @@
   "description": "Applies alpha channel to CG",
   "scripts": {
     "list": "node list.js",
-    "start": "http-server -p 61000"
+    "start": "http-server -p 61001"
   },
   "dependencies": {
     "glob": "^7.1.2",
