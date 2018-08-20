@@ -2,15 +2,16 @@
 
 Applies alpha channel to CG and other assets
 
-### Requirements
+## Install
+#### Requirements
 * NodeJS 8+ / npm 5+
 
-### Install
+#### Install packages
 ```
 npm install
 ```
 
-### Prepare files
+## Prepare files
 * Place image files inside `/input`
 * File names are in this format:
   * `char_002_amiya_1.png`
@@ -19,8 +20,7 @@ npm install
 See `list.json` for more info
 * `list.json` only includes characters from main story
 
-
-### Run
+## Run
 ```
 npm run start
 ```
