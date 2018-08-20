@@ -21,7 +21,7 @@ module.exports = data => {
           quote.zh = playerMatch[1].trim()
         }
 
-        quote.tl = ''
+        if (!(/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(quote.zh))) quote.tl = ''
 
         if (quote.zh) data.processed.messages.push(quote)
       })
