@@ -18,7 +18,7 @@ npm install
 * Edit other options if desired
 
 #### Translations (_optional_)
-* Edit `input/tl/<lang>/<file>.json` for manual translations
+* Edit `input/locale/<lang>/<file>.json` for manual translations
   * Use the same language code used in config json file
 
 #### Images
