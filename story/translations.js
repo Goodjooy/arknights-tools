@@ -1,6 +1,8 @@
-let translations = [
-  {
-    zh: "阿米娅",
-    en: "Amiya"
-  }
-]
+let translations = {
+  en: [
+    {
+      zh: "阿米娅",
+      en: "Amiya"
+    }
+  ]
+}

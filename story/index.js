@@ -1,6 +1,6 @@
 data = data.trim().split('\n')
 
-translations.forEach(translation => {
+translations[TARGET_LANGUAGE].forEach(translation => {
   localStorage.setItem(translation.zh, translation.en)
 })
 
