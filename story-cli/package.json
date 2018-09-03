@@ -13,6 +13,7 @@
     "canvas-text-wrapper": "^0.10.2",
     "config": "^2.0.1",
     "glob": "^7.1.2",
+    "hex-rgb": "^3.0.0",
     "http-server": "^0.11.1"
   }
 }
