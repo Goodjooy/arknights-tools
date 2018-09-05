@@ -1,4 +1,5 @@
 const path = require('path')
+const Promise = require('bluebird')
 const Canvas = require('canvas')
 const Image = Canvas.Image
 const hexRgb = require('hex-rgb')
@@ -101,8 +102,25 @@ class Page {
       })
   }
 
-  canFit() {
-    return Math.random() < 0.5
+  canFit(part) {
+    return false
+    // return Math.random() < 0.5
+  }
+
+  addPart(part) {
+    console.log('PAGE.ADDPART');
+    try {
+      if (part.makeRenderer) {
+        let partRendererFnx = part.makeRenderer(this.foregroundY)
+        this.addForeground(partRendererFnx)
+        this.foregroundY += part.height
+      } else {
+        console.log('no rendrer');
+      }
+      return Promise.resolve()
+    } catch (err) {
+      return Promise.reject(err)
+    }
   }
 
   addBackground(drawFnx) {
@@ -110,12 +128,8 @@ class Page {
   }
 
   addForeground(drawFnx) {
+    console.log('addForeground', drawFnx);
     this.drawProceduresFG.push(drawFnx)
-  }
-
-  addPart() {
-    console.log('PAGE.ADDPART');
-    return Promise.resolve()
   }
 
   finish() {

@@ -41,11 +41,12 @@ Promise.coroutine(function*(){
 
   // Run through all lines one by one
   return Promise.each(lines, line => {
-    return new Promise(done => {
+    return Promise.coroutine(function*(){
       let part = new StoryPart(line, targetLanguage)
-      part.interpret()
-      chapter.add(part).then(done)
-    })
+      yield part.interpret()
+      console.log('interpret done');
+      yield chapter.add(part)
+    })()
   })
 
 })()
