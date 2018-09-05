@@ -3,4 +3,4 @@ input/bg/*.png
 input/cg/*.png
 input/char/*.png
 input/story/*.txt
-output/*.png
+output/**/*.png
