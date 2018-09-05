@@ -1,7 +1,7 @@
 {
   "google_api_key": "Axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "targetLanguage": "en",
-  "page": {
+  "pageOpts": {
     "width": 800,
     "height": 1200,
     "background": "#1A1A1A",

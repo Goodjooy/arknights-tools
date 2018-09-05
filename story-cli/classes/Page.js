@@ -1,4 +1,6 @@
+const path = require('path')
 const Canvas = require('canvas')
+const Image = Canvas.Image
 const hexRgb = require('hex-rgb')
 
 const loadImage = require('../modules/loadImage')
@@ -7,12 +9,18 @@ const saveImage = require('../modules/saveImage')
 class Page {
 
   constructor(opts) {
+    // Page config
+    this.background = opts.background
+    this.pageOpts = opts.pageOpts
+    this.outputPath = opts.outputPath
+
     // Initialize HTML5 canvas
-    this.canvas = new Canvas(opts.width, opts.height)
+    this.canvas = new Canvas(this.pageOpts.width, this.pageOpts.height)
     this.ctx = this.canvas.getContext('2d')
 
     // Page variables
-    this.backgroundHex = opts.background
+    this.acceptsBackground = true
+    this.backgroundHex = this.pageOpts.background
     this.drawProceduresBG = []
     this.drawProceduresFG = []
     this.foregroundY = 0
@@ -25,12 +33,18 @@ class Page {
     // Base background color
     this.addBackground(canvas => {
       let ctx = canvas.getContext('2d')
-      ctx.fillStyle = opts.background
+      ctx.fillStyle = this.pageOpts.background
       ctx.fillRect(0, 0, canvas.width, canvas.height)
     })
   }
 
+  getAcceptsBackground() {
+    return this.acceptsBackground
+  }
+
   setBackground(imageName) {
+    console.log('PAGE.setBackground', imageName)
+    this._acceptsBackground = false
     // Load desired background image file
     return loadImage('/bg/' + imageName + '.png')
       .then(imgEl => {
@@ -82,11 +96,13 @@ class Page {
           ctx.fillStyle = fade
           ctx.fillRect(drawX, drawY, drawWidth, drawHeight)
         })
+
+        console.log('PAGE.background draw prepared')
       })
   }
 
-  canFitNext() {
-
+  canFit() {
+    return Math.random() < 0.5
   }
 
   addBackground(drawFnx) {
@@ -97,13 +113,27 @@ class Page {
     this.drawProceduresFG.push(drawFnx)
   }
 
+  addPart() {
+    console.log('PAGE.ADDPART');
+    return Promise.resolve()
+  }
+
+  finish() {
+    console.log('PAGE.FINISH');
+    this.draw()
+    this.save()
+    return Promise.resolve()
+  }
+
   draw() {
+    console.log('PAGE.DRAW');
     this.drawProceduresBG.forEach(drawFnx => { drawFnx(this.canvas) })
     this.drawProceduresFG.forEach(drawFnx => { drawFnx(this.canvas) })
   }
 
-  save(savePath) {
-    return saveImage(savePath, this.canvas)
+  save() {
+    console.log('PAGE.SAVE');
+    return saveImage(this.outputPath, this.canvas)
   }
 
 }
