@@ -1,7 +1,6 @@
 const path = require('path')
 const Promise = require('bluebird')
 const Canvas = require('canvas')
-const Image = Canvas.Image
 const hexRgb = require('hex-rgb')
 
 const Utils = require('./Utils')

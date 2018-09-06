@@ -8,12 +8,6 @@ class Utils {
   static loadImage(inputPath) {
     let filePath = path.resolve(path.join(__dirname, '..', 'assets') + inputPath)
     return Canvas.loadImage(filePath)
-    // return new Promise((done, fail) => {
-    //   var img = new Image()
-    //   img.onload = () => { done(img) }
-    //   img.onerror = err => { fail(err) }
-    //   img.src = path.resolve(path.join(__dirname, '..', 'assets') + inputPath)
-    // })
   }
 
   static readFile(sourceFile) {

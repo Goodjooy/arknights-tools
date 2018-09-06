@@ -1,8 +1,8 @@
 const path = require('path')
 const Promise = require('bluebird')
 
-const Page = require('../classes/Page')
-const StoryPart = require('../classes/StoryPart')
+const Page = require('./Page')
+const StoryPart = require('./StoryPart')
 
 class Chapter {
 
