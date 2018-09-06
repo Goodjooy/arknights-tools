@@ -5,11 +5,6 @@ const Canvas = require('canvas')
 
 class Utils {
 
-  static loadImage(inputPath) {
-    let filePath = path.resolve(path.join(__dirname, '..', 'assets') + inputPath)
-    return Canvas.loadImage(filePath)
-  }
-
   static readFile(sourceFile) {
     return new Promise((done, fail) => {
       fs.readFile(sourceFile, 'utf8', (err, contents) => {
@@ -30,6 +25,10 @@ class Utils {
         else done()
       })
     })
+  }
+
+  static zeroPadPageNum() {
+    return num < 10 ? '0' + num : num
   }
 
 }

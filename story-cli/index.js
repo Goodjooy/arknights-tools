@@ -1,7 +1,6 @@
 const path = require('path')
 const config = require('config')
 const Promise = require('bluebird')
-const axios = require('axios')
 const rmrf = require('rimraf')
 const mkdirp = require('mkdirp')
 
@@ -29,7 +28,6 @@ Promise.coroutine(function*(){
   let sourcePath = path.resolve(path.join(__dirname, 'input', fileTitle + '.txt'))
   let destPath = path.resolve(path.join(__dirname, 'output', targetLanguage, fileTitle))
   yield new Promise(done => { rmrf(destPath, done) })
-  yield Promise.delay(1000)
   mkdirp.sync(destPath)
 
   // Read requested story file

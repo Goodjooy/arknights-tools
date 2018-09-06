@@ -45,7 +45,7 @@ class Page {
     console.log('Page.setBackground()', imageName)
     this._acceptsBackground = false
     // Load desired background image file
-    return Utils.loadImage('/bg/' + imageName + '.png')
+    return Canvas.loadImage(path.join(__dirname, '..', 'assets', 'bg', imageName + '.png'))
       .then(imgEl => {
         // Draw clear background in the header
         this.addBackground(canvas => {

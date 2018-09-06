@@ -3,6 +3,7 @@ const Promise = require('bluebird')
 
 const Page = require('./Page')
 const StoryPart = require('./StoryPart')
+const Utils = require('./Utils')
 
 class Chapter {
 
@@ -21,9 +22,7 @@ class Chapter {
     return Promise.coroutine(function*() {
       let currentPage = self.getCurrentPage()
 
-      if (part.type == StoryPart.TYPE_UNKNOWN) {
-
-      } else if (part.type == StoryPart.TYPE_BACKGROUND) {
+       if (part.type == StoryPart.TYPE_BACKGROUND) {
         // Set Background
         if (currentPage.getAcceptsBackground()) {
           console.log('  page getAcceptsBackground YES')
@@ -37,7 +36,7 @@ class Chapter {
         }
         self.background = part.background_name
 
-      } else {
+      } else if (part.type != StoryPart.TYPE_UNKNOWN) {
         console.log('  foreground', part.line.substring(0,30))
         // Foreground content
         if (currentPage.canFit(part)) {
@@ -61,13 +60,9 @@ class Chapter {
     return this.pages.length
   }
 
-  zeroPadPageNum(num) {
-    return num < 10 ? '0' + num : num
-  }
-
   newPage() {
     // Get zero-padded next page number as string for the filename output path
-    let pageNumString = this.zeroPadPageNum(  this.getCurrentPageNum() + 1 )
+    let pageNumString = Utils.zeroPadPageNum(  this.getCurrentPageNum() + 1 )
     // File output path for this specific new page
     let pageOutputPath = path.join(this.outputPath, pageNumString + '.png')
     // Create new page with desired page options and specific output path for the page
