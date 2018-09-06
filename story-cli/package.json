@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Creates images that depict story from raw data through CLI",
   "scripts": {
-    "gen": "node scripts/generate.js",
-    "txt": "node scripts/narrate.js"
+    "gen": "node index.js"
   },
   "dependencies": {
     "axios": "^0.18.0",
