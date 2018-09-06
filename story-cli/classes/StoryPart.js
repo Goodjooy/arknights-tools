@@ -3,7 +3,7 @@ const config = require('config')
 const Promise = require('bluebird')
 const CanvasTextWrapper = require('canvas-text-wrapper').CanvasTextWrapper
 const Canvas = require('canvas')
-// Canvas.registerFont(path.resolve(path.join(__dirname, '..', 'assets', 'font', 'wt011.ttf')), {family: 'Chinese'})
+Canvas.registerFont(path.resolve(path.join(__dirname, '..', 'assets', 'font', 'mint.ttf')), {family: 'Chinese'})
 
 class StoryPart {
   static get TYPE_UNKNOWN() { return 'unknown' }
@@ -67,7 +67,7 @@ class StoryPart {
           textCanvas.height = 300
           textContext.fillStyle = '#ffffff'
           CanvasTextWrapper(textCanvas, headerText, {
-            font:  '30px sans-serif',
+            font:  '30px Chinese',
             textAlign: 'center',
             verticalAlign: 'top',
             sizeToFill: false,
