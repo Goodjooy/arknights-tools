@@ -4,8 +4,7 @@ const Canvas = require('canvas')
 const Image = Canvas.Image
 const hexRgb = require('hex-rgb')
 
-const loadImage = require('../modules/loadImage')
-const saveImage = require('../modules/saveImage')
+const Utils = require('./Utils')
 
 class Page {
 
@@ -47,7 +46,7 @@ class Page {
     console.log('PAGE.setBackground', imageName)
     this._acceptsBackground = false
     // Load desired background image file
-    return loadImage('/bg/' + imageName + '.png')
+    return Utils.loadImage('/bg/' + imageName + '.png')
       .then(imgEl => {
         // Draw clear background in the header
         this.addBackground(canvas => {
@@ -147,7 +146,7 @@ class Page {
 
   save() {
     console.log('PAGE.SAVE');
-    return saveImage(this.outputPath, this.canvas)
+    return Utils.saveImage(this.outputPath, this.canvas)
   }
 
 }

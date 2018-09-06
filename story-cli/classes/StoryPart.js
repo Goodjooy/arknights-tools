@@ -5,8 +5,6 @@ const CanvasTextWrapper = require('canvas-text-wrapper').CanvasTextWrapper
 const Canvas = require('canvas')
 const Image = Canvas.Image
 
-const saveImage = require('../modules/saveImage')
-
 class StoryPart {
   static get TYPE_HEADER() { return 'header' }
   static get TYPE_BACKGROUND() { return 'background' }

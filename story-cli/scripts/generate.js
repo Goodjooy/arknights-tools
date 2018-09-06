@@ -4,9 +4,9 @@ const Promise = require('bluebird')
 const axios = require('axios')
 const mkdirp = require('mkdirp')
 
-const readFile = require('../modules/readFile')
 const Chapter = require('../classes/Chapter')
 const StoryPart = require('../classes/StoryPart')
+const Utils = require('../classes/Utils')
 
 Promise.coroutine(function*(){
   // Get arguments from command line
@@ -30,7 +30,7 @@ Promise.coroutine(function*(){
   mkdirp.sync(destPath)
 
   // Read requested story file
-  let contents = yield readFile(sourcePath)
+  let contents = yield Utils.readFile(sourcePath)
   let lines = contents.split('\n')
 
   // Create chapter for this story file
