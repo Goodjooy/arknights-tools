@@ -1,7 +1,7 @@
 {
-  "name": "arknights-story-cli",
+  "name": "arknights-story-tl",
   "version": "1.0.0",
-  "description": "Creates images that depict story from raw data through CLI",
+  "description": "Generates locale files for manual translators",
   "scripts": {
     "start": "node index.js"
   },

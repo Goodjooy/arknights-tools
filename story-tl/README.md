@@ -18,6 +18,6 @@ npm install
 ## Run
 * Run by executing command line
 ```
-npm run start"
+npm run start
 ```
-* See output in `/output/<title>.txt`
+* See output in `/output/<title>.json`
