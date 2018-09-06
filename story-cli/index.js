@@ -2,11 +2,12 @@ const path = require('path')
 const config = require('config')
 const Promise = require('bluebird')
 const axios = require('axios')
+const rmrf = require('rimraf')
 const mkdirp = require('mkdirp')
 
-const Chapter = require('../classes/Chapter')
-const StoryPart = require('../classes/StoryPart')
-const Utils = require('../classes/Utils')
+const Chapter = require('./classes/Chapter')
+const StoryPart = require('./classes/StoryPart')
+const Utils = require('./classes/Utils')
 
 Promise.coroutine(function*(){
   // Get arguments from command line
@@ -25,8 +26,10 @@ Promise.coroutine(function*(){
   // Global config
   let fileTitle = options.src
   let targetLanguage = options.lang || config.targetLanguage
-  let sourcePath = path.resolve(path.join(__dirname, '..', 'input', 'story', fileTitle + '.txt'))
-  let destPath = path.resolve(path.join(__dirname, '..', 'output', 'comic', targetLanguage, fileTitle))
+  let sourcePath = path.resolve(path.join(__dirname, 'input', fileTitle + '.txt'))
+  let destPath = path.resolve(path.join(__dirname, 'output', targetLanguage, fileTitle))
+  yield new Promise(done => { rmrf(destPath, done) })
+  yield Promise.delay(1000)
   mkdirp.sync(destPath)
 
   // Read requested story file
@@ -40,14 +43,15 @@ Promise.coroutine(function*(){
   })
 
   // Run through all lines one by one
-  return Promise.each(lines, line => {
+  yield Promise.each(lines, line => {
     return Promise.coroutine(function*(){
       let part = new StoryPart(line, targetLanguage)
       yield part.interpret()
-      console.log('interpret done');
       yield chapter.add(part)
     })()
   })
+
+  yield chapter.finish()
 
 })()
 .then(() => { console.log('[DONE]') })

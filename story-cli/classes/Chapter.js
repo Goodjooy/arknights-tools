@@ -12,17 +12,18 @@ class Chapter {
 
     this.background = null
     this.pages = []
-    this.addPage()
+    this.newPage()
   }
 
   add(part) {
-    console.log('ADD PART');
+    console.log('Chapter.add()');
     let self = this
     return Promise.coroutine(function*() {
       let currentPage = self.getCurrentPage()
 
-      if (part.type == StoryPart.TYPE_BACKGROUND) {
-        console.log('  part TYPE_BACKGROUND')
+      if (part.type == StoryPart.TYPE_UNKNOWN) {
+
+      } else if (part.type == StoryPart.TYPE_BACKGROUND) {
         // Set Background
         if (currentPage.getAcceptsBackground()) {
           console.log('  page getAcceptsBackground YES')
@@ -32,20 +33,20 @@ class Chapter {
           console.log('  page getAcceptsBackground NO')
           // Needs a new background, make a new page
           yield currentPage.finish()
-          self.addPage()
+          self.newPage()
         }
         self.background = part.background_name
 
       } else {
-        console.log('  part foreground')
+        console.log('  foreground', part.line.substring(0,30))
         // Foreground content
         if (currentPage.canFit(part)) {
-          console.log('  part canFit YES')
+          console.log('  canFit YES')
           yield currentPage.addPart(part)
         } else {
-          console.log('  part canFit NO')
+          console.log('  canFit NO')
           yield currentPage.finish()
-          self.addPage()
+          self.newPage()
           yield self.getCurrentPage().addPart(part)
         }
       }
@@ -64,7 +65,7 @@ class Chapter {
     return num < 10 ? '0' + num : num
   }
 
-  addPage() {
+  newPage() {
     // Get zero-padded next page number as string for the filename output path
     let pageNumString = this.zeroPadPageNum(  this.getCurrentPageNum() + 1 )
     // File output path for this specific new page
@@ -75,8 +76,7 @@ class Chapter {
       pageOpts: this.pageOpts,
       outputPath: pageOutputPath
     })
-    console.log('ADD PAGE')
-    console.log('  pageOpts', JSON.stringify( this.pageOpts))
+    console.log('Chapter.newPage()')
     console.log('  background', this.background)
     console.log('  pageNumString', pageNumString)
     console.log('  pageOutputPath', pageOutputPath)

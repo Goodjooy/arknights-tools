@@ -15,7 +15,7 @@ class Page {
     this.outputPath = opts.outputPath
 
     // Initialize HTML5 canvas
-    this.canvas = new Canvas(this.pageOpts.width, this.pageOpts.height)
+    this.canvas = new Canvas.createCanvas(this.pageOpts.width, this.pageOpts.height)
     this.ctx = this.canvas.getContext('2d')
 
     // Page variables
@@ -23,7 +23,7 @@ class Page {
     this.backgroundHex = this.pageOpts.background
     this.drawProceduresBG = []
     this.drawProceduresFG = []
-    this.foregroundY = 0
+    this.foregroundY = this.pageOpts.padding.top
 
     // Computed variables
     this.backgroundRgb = hexRgb(this.backgroundHex, {format: 'array'})
@@ -43,13 +43,14 @@ class Page {
   }
 
   setBackground(imageName) {
-    console.log('PAGE.setBackground', imageName)
+    console.log('Page.setBackground()', imageName)
     this._acceptsBackground = false
     // Load desired background image file
     return Utils.loadImage('/bg/' + imageName + '.png')
       .then(imgEl => {
         // Draw clear background in the header
         this.addBackground(canvas => {
+          console.log('    DRAW background image')
           let ctx = canvas.getContext('2d')
           let drawWidth = canvas.width
           let drawHeight = (canvas.width / imgEl.width) * imgEl.height
@@ -58,6 +59,7 @@ class Page {
 
         // Draw faded / blurred / enlarged background for the rest of the page
         this.addBackground(canvas => {
+          console.log('    DRAW background rest')
           let ctx = canvas.getContext('2d')
           let drawY = (canvas.width / imgEl.width) * imgEl.height
           let drawHeight = canvas.height - drawY
@@ -69,6 +71,7 @@ class Page {
 
         // Fade to bottom
         this.addBackground(canvas => {
+          console.log('    DRAW background fade')
           let ctx = canvas.getContext('2d')
           let drawWidth = canvas.width
           let drawHeight = (canvas.width / imgEl.width) * imgEl.height
@@ -81,6 +84,7 @@ class Page {
 
         // Fade and wash-out the larger background
         this.addBackground(canvas => {
+          console.log('    DRAW background fade 2')
           let ctx = canvas.getContext('2d')
           let drawY = (canvas.width / imgEl.width) * imgEl.height
           let drawHeight = canvas.height - drawY
@@ -96,21 +100,19 @@ class Page {
           ctx.fillStyle = fade
           ctx.fillRect(drawX, drawY, drawWidth, drawHeight)
         })
-
-        console.log('PAGE.background draw prepared')
       })
   }
 
   canFit(part) {
-    return false
-    // return Math.random() < 0.5
+    console.log('  Page.canFit()', this.foregroundY, '+', part.height, '<=', this.canvas.height, '-', this.pageOpts.padding.bottom)
+    return (this.foregroundY + part.height) <= (this.canvas.height - this.pageOpts.padding.bottom)
   }
 
   addPart(part) {
-    console.log('PAGE.ADDPART');
+    console.log('Page.addPart()', part.type, part.line.substring(0,30));
     try {
       if (part.makeRenderer) {
-        let partRendererFnx = part.makeRenderer(this.foregroundY)
+        let partRendererFnx = part.makeRenderer(this.pageOpts, this.foregroundY)
         this.addForeground(partRendererFnx)
         this.foregroundY += part.height
       } else {
@@ -127,25 +129,25 @@ class Page {
   }
 
   addForeground(drawFnx) {
-    console.log('addForeground', drawFnx);
+    // console.log('addForeground', drawFnx);
     this.drawProceduresFG.push(drawFnx)
   }
 
   finish() {
-    console.log('PAGE.FINISH');
+    console.log('Page.finish()');
     this.draw()
     this.save()
     return Promise.resolve()
   }
 
   draw() {
-    console.log('PAGE.DRAW');
+    console.log('Page.draw()');
     this.drawProceduresBG.forEach(drawFnx => { drawFnx(this.canvas) })
     this.drawProceduresFG.forEach(drawFnx => { drawFnx(this.canvas) })
   }
 
   save() {
-    console.log('PAGE.SAVE');
+    console.log('Page.save()');
     return Utils.saveImage(this.outputPath, this.canvas)
   }
 

@@ -8,12 +8,13 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bluebird": "^3.5.1",
-    "canvas": "^1.6.11",
+    "canvas": "^2.0.0-alpha.13",
     "canvas-text-wrapper": "^0.10.2",
     "config": "^2.0.1",
     "glob": "^7.1.2",
     "hex-rgb": "^3.0.0",
     "http-server": "^0.11.1",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
   }
 }
