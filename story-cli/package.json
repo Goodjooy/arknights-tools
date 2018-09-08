@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Creates images that depict story from raw data through CLI",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "cls && npm run start src=0"
   },
   "dependencies": {
     "axios": "^0.18.0",

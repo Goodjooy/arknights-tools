@@ -53,4 +53,4 @@ Promise.coroutine(function*(){
 
 })()
 .then(() => { console.log('[DONE]') })
-.catch(err => { console.log('[ERR]', err.message) })
+.catch(err => { console.log('[ERR]', err) })

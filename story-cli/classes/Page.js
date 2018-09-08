@@ -9,7 +9,6 @@ class Page {
 
   constructor(opts) {
     // Page config
-    this.background = opts.background
     this.pageOpts = opts.pageOpts
     this.outputPath = opts.outputPath
 
@@ -18,7 +17,10 @@ class Page {
     this.ctx = this.canvas.getContext('2d')
 
     // Page variables
+    this.characters = []
+    this.focusedCharacter = 1
     this.acceptsBackground = true
+    this.background = null
     this.backgroundHex = this.pageOpts.background
     this.drawProceduresBG = []
     this.drawProceduresFG = []
@@ -37,16 +39,33 @@ class Page {
     })
   }
 
+  setCharacters(characters) {
+    this.characters = characters
+  }
+
+  setFocusedCharacter(focusedCharacter) {
+    this.focusedCharacter = focusedCharacter
+  }
+
   getAcceptsBackground() {
     return this.acceptsBackground
   }
 
+  updateBackground(imageName) {
+    console.log('Page.updateBackground()', imageName)
+    this.acceptsBackground = false
+    return this.setBackground(imageName)
+  }
+
   setBackground(imageName) {
     console.log('Page.setBackground()', imageName)
-    this._acceptsBackground = false
     // Load desired background image file
-    return Canvas.loadImage(path.join(__dirname, '..', 'assets', 'bg', imageName + '.png'))
+    // return Canvas.loadImage(path.join(__dirname, '..', 'assets', 'bg', imageName + '.png'))
+    return Utils.loadImage(['bg', imageName + '.png'])
       .then(imgEl => {
+        // Clear previous rendering
+        this.clearBackgrounds()
+
         // Draw clear background in the header
         this.addBackground(canvas => {
           console.log('    DRAW background image')
@@ -111,6 +130,7 @@ class Page {
     console.log('Page.addPart()', part.type, part.line.substring(0,30));
     try {
       if (part.makeRenderer) {
+        this.acceptsBackground = false
         let partRendererFnx = part.makeRenderer(this.pageOpts, this.foregroundY)
         this.addForeground(partRendererFnx)
         this.foregroundY += part.height
@@ -125,6 +145,11 @@ class Page {
 
   addBackground(drawFnx) {
     this.drawProceduresBG.push(drawFnx)
+  }
+
+  clearBackgrounds() {
+    delete this.drawProceduresBG
+    this.drawProceduresBG = []
   }
 
   addForeground(drawFnx) {

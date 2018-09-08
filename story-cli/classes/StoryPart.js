@@ -27,7 +27,8 @@ class StoryPart {
 
     this.type = StoryPart.TYPE_UNKNOWN
     this.background_name = null
-    this.drawProcess = null
+    this.characters = [ null, null, null, null, null ]
+    this.focusedCharacter = 1
     this.height = 9000
   }
 
@@ -58,7 +59,6 @@ class StoryPart {
 
         return pageCanvas => {
           let maxWidth = pageCanvas.width - (pageOpts.padding.left + pageOpts.padding.right)
-
           console.log('    DRAW : header', headerText.substring(0,30), foregroundY);
           // Create text bubble
           let textCanvas = new Canvas.createCanvas(maxWidth, 300)
@@ -95,7 +95,14 @@ class StoryPart {
   character() {
     // Set type of this instance
     this.type = StoryPart.TYPE_CHARACTER
-
+    // Detect values
+    let char1 = /name="([a-zA-Z0-9_#]+)"/g.exec(this.line)
+    let char2 = /name2="([a-zA-Z0-9_#]+)"/g.exec(this.line)
+    let focus = /focus=([0-9]{1})/g.exec(this.line)
+    // Save values to properties for later access from outside
+    if (char1) this.characters[0] = Utils.fixCharName(char1[1])
+    if (char2) this.characters[1] = Utils.fixCharName(char2[1])
+    if (focus) this.focusedCharacter = focus[1]
     return Promise.resolve()
   }
 
@@ -118,10 +125,6 @@ class StoryPart {
     this.type = StoryPart.TYPE_CHOICE
 
     return Promise.resolve()
-  }
-
-  getDrawProcess() {
-    return this.drawProcess
   }
 
 }
