@@ -42,7 +42,7 @@ class Translation {
     return Promise.coroutine(function*(){
       if (!text) return ''
       if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(text))) return text
-      if (text == '？？？') return text
+      if (text == '？？？') return '???'
 
       // Manual in-string find-replace overrides
       self.overrides.forEach(override => {

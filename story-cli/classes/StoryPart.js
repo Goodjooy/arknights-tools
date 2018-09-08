@@ -66,6 +66,7 @@ class StoryPart {
     let self = this
     return Promise.coroutine(function*() {
       self.height = 300
+      headerText = yield self.translations.get(headerText)
       // Set the make renderer
       self.makeRenderer = (pageOpts, foregroundY) => {
         return pageCanvas => {
