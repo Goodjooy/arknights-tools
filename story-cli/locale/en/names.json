@@ -1,5 +1,5 @@
 {
-  "messages": [
+  "names": [
     {
       "zh": "PLAYER",
       "tl": "PLAYER"
@@ -9,8 +9,24 @@
       "tl": "Amiya"
     },
     {
+      "zh": "凯尔希",
+      "tl": "Kal'tsit"
+    },
+    {
       "zh": "杜宾",
       "tl": "Dobermann"
+    },
+    {
+      "zh": "医疗干员",
+      "tl": "Medical staff"
+    },
+    {
+      "zh": "罗德岛干员",
+      "tl": "Rhodes Island Operator"
+    },
+    {
+      "zh": "整合运动成员",
+      "tl": "Reunion Movement Member"
     }
   ]
 }

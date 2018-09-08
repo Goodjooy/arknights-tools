@@ -35,6 +35,10 @@ class Translation {
     if (parsed.overrides) parsed.overrides.forEach(message => {
       self.overrides.push(message)
     })
+    if (parsed.names) parsed.names.forEach(name => {
+      self.messages[name.zh] = name.tl
+      self.overrides.push({ find: name.zh, replace: name.tl })
+    })
   }
 
   get(text) {
@@ -44,19 +48,20 @@ class Translation {
       if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(text))) return text
       if (text == '？？？') return '???'
 
-      // Manual in-string find-replace overrides
-      self.overrides.forEach(override => {
-        text = text.replace(override.find, override.replace)
-      })
-
       // Translations from JSON files
       if (self.messages[text]) return self.messages[text]
 
       // Translations from Google cache
       if (self.googleCache[text]) return self.googleCache[text]
 
+      // Manual in-string find-replace overrides
+      let googleRequestText = String(text) // copy
+      self.overrides.forEach(override => {
+        googleRequestText = googleRequestText.replace(override.find, override.replace)
+      })
+
       // Last fallback, Google Translate
-      return yield self.google(text)
+      return yield self.google(googleRequestText)
         .then(result => {
           return result[0]
         })
