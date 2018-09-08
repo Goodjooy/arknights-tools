@@ -77,7 +77,7 @@ class StoryPart {
           textCanvas.height = 300
           textContext.fillStyle = '#ffffff'
           CanvasTextWrapper(textCanvas, headerText, {
-            font:  config.part.headerSize + 'px ' + (config.font || 'Chinese'),
+            font:  config.pageOpts.part.headerSize + 'px ' + (config.font || 'Chinese'),
             textAlign: 'center',
             verticalAlign: 'top',
             sizeToFill: false,
@@ -146,15 +146,15 @@ class StoryPart {
           pageCtx.shadowColor = "#000000"
           pageCtx.shadowBlur = 10
           if (charThumbs[0]) {
-            if (self.focusedCharacter == 2) pageCtx.filter = 'opacity(0.5)'
+            if (self.focusedCharacter == 2) pageCtx.globalAlpha = 0.3
             pageCtx.drawImage(charThumbs[0], 0, 0, charThumbs[0].width, charThumbs[0].height, pageOpts.padding.left, foregroundY, charThumbSize, charThumbSize)
-            pageCtx.filter = ''
+            pageCtx.globalAlpha = 1
           }
           if (charThumbs[1]) {
             let drawX = pageOpts.width - (pageOpts.padding.right + charThumbSize)
-            if (self.focusedCharacter == 1) pageCtx.filter = 'opacity(0.5)'
+            if (self.focusedCharacter == 1) pageCtx.globalAlpha = 0.3
             pageCtx.drawImage(charThumbs[1], 0, 0, charThumbs[1].width, charThumbs[1].height, drawX, foregroundY, charThumbSize, charThumbSize)
-            pageCtx.filter = ''
+            pageCtx.globalAlpha = 1
           }
           pageCtx.shadowColor = "none"
           pageCtx.shadowBlur = 0
