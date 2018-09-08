@@ -1,0 +1,99 @@
+const fs = require('fs')
+const path = require('path')
+const glob = require('glob')
+const config = require('config')
+const axios = require('axios')
+const Promise = require('bluebird')
+
+const Utils = require('./Utils')
+
+class Translation {
+
+  constructor(opts) {
+    this.targetLanguage = opts.targetLanguage || config.targetLanguage
+    this.messages = {}
+    this.overrides = []
+    this.googleCache = {}
+  }
+
+  loadLocale() {
+    let self = this
+    return Promise.coroutine(function*(){
+      let localeDir = path.join(__dirname, '..', 'locale', self.targetLanguage)
+      let files = yield new Promise(done => { glob(localeDir + '/**/*.json', (err, files) => { done(files) }) })
+      // files = files.filter(file => file.substring(file.length - 14) != 'overrides.json')
+
+      let fileContents = yield Promise.all(files.map(file => { return Utils.readFile(file) }))
+
+      fileContents.forEach(fileContent => {
+        self.useMessages(fileContent)
+      })
+
+      console.log('MESSAGES', self.messages);
+      console.log('OVERRIDES', self.overrides);
+    })()
+  }
+
+  useMessages(content) {
+    let self = this
+    let parsed = JSON.parse(content)
+    if (parsed.messages) parsed.messages.forEach(message => {
+      self.messages[message.zh] = message.tl
+    })
+    if (parsed.overrides) parsed.overrides.forEach(message => {
+      self.overrides.push(message)
+    })
+  }
+
+  get(text) {
+    console.log('GETTING TL FOR TEXT', text);
+    let self = this
+    return Promise.coroutine(function*(){
+      if (!text) return ''
+      if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(text))) return text
+      if (text == '？？？') return text
+
+      // Manual in-string find-replace overrides
+      self.overrides.forEach(override => {
+        text = text.replace(override.find, override.replace)
+      })
+
+      // Translations from JSON files
+      if (self.messages[text]) return self.messages[text]
+
+      // Translations from Google cache
+      if (self.googleCache[text]) return self.googleCache[text]
+
+      // Last fallback, Google Translate
+      return yield self.google(text)
+        .then(result => {
+          return result[0]
+        })
+        .then(result => {
+          self.googleCache[text] = result
+          return result
+        })
+    })()
+  }
+
+  google(text) {
+    console.log('~~~~~~ GOOGLE TRANSLATE ~~~~~~', text)
+    // return Promise.delay(1000).then(g => { return Promise.resolve(text) })
+    return axios.post('https://translation.googleapis.com/language/translate/v2?key=' + config.google_api_key, {
+      q: [ text ],
+      source: 'zh-CN',
+      target: this.targetLanguage,
+      format: 'text'
+    })
+    .then(result => {
+      if (result.data && result.data.data && result.data.data.translations) {
+        let returning = result.data.data.translations.map(v=>v.translatedText)
+        return returning
+      }
+      return [ text ]
+    })
+  }
+
+}
+
+module.exports = Translation

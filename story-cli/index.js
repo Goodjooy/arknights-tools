@@ -7,6 +7,7 @@ const mkdirp = require('mkdirp')
 const Chapter = require('./classes/Chapter')
 const StoryPart = require('./classes/StoryPart')
 const Utils = require('./classes/Utils')
+const Translation = require('./classes/Translation')
 
 Promise.coroutine(function*(){
   // Get arguments from command line
@@ -40,6 +41,12 @@ Promise.coroutine(function*(){
     outputPath: destPath
   })
 
+  // Create translation object
+  let tls = new Translation({
+    targetLanguage: targetLanguage
+  })
+  yield tls.loadLocale()
+
   // Run through all lines one by one
   yield Promise.each(lines, line => {
     return Promise.coroutine(function*(){
@@ -47,7 +54,7 @@ Promise.coroutine(function*(){
       console.log(line)
       console.log('-----------------------------------')
       console.log('new StoryPart()');
-      let part = new StoryPart(line, targetLanguage)
+      let part = new StoryPart(line, tls)
       part.setCharacters(chapter.characters)
       part.setFocusedCharacter(chapter.focusedCharacter)
       yield part.interpret()

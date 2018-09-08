@@ -23,9 +23,9 @@ class StoryPart {
   static get REGEX_IMAGE() { return /\[Image\(image="(.*)"(.*)\)\]/g }
   static get REGEX_CHOICE() { return /\[Decision\((.*)\)\]/g }
 
-  constructor(line, targetLanguage) {
+  constructor(line, translations) {
     this.line = line
-    this.targetLanguage = targetLanguage || config.targetLanguage
+    this.translations = translations
 
     this.type = StoryPart.TYPE_UNKNOWN
     this.background_name = null
@@ -145,6 +145,8 @@ class StoryPart {
         if (chara) return Utils.loadImage(['char', chara + '.png'])
         else return Promise.resolve(null)
       }))
+      if (speakerName) speakerName = yield self.translations.get(speakerName)
+      if (quoteMessage) quoteMessage = yield self.translations.get(quoteMessage)
       // console.log('  loaded quote char thumbs', charThumbs);
       // Set the make renderer
       self.makeRenderer = (pageOpts, foregroundY) => {
