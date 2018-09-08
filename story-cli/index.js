@@ -26,6 +26,7 @@ Promise.coroutine(function*(){
   // Global config
   let fileTitle = options.src
   let targetLanguage = options.lang || config.targetLanguage
+  let pageNumOffset = options.page || 1
   let sourcePath = path.resolve(path.join(__dirname, 'input', fileTitle + '.txt'))
   let destPath = path.resolve(path.join(__dirname, 'output', targetLanguage, fileTitle))
   yield new Promise(done => { rmrf(destPath, done) })
@@ -38,7 +39,8 @@ Promise.coroutine(function*(){
   // Create chapter for this story file
   let chapter = new Chapter({
     pageOpts: config.pageOpts,
-    outputPath: destPath
+    outputPath: destPath,
+    pageNumOffset: pageNumOffset,
   })
 
   // Create translation object

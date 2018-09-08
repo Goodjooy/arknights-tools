@@ -2,6 +2,7 @@ config/default.json
 assets/bg/*.png
 assets/cg/*.png
 assets/char/*.png
+assets/maps/*.png
 input/**/*.txt
 output/**/*.png
 output/googleTranslate.json

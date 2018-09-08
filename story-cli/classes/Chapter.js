@@ -10,6 +10,7 @@ class Chapter {
   constructor(opts) {
     this.pageOpts = opts.pageOpts
     this.outputPath = opts.outputPath
+    this.pageNumOffset = opts.pageNumOffset
 
     this.background = null
     this.characters = [ null, null ]
@@ -107,7 +108,7 @@ class Chapter {
   }
 
   getCurrentPageNum() {
-    return this.pages.length
+    return this.pages.length + (pageNumOffset - 1)
   }
 
   newPage(foregroundY) {
