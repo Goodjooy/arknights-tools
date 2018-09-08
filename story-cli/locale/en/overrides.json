@@ -5,6 +5,10 @@
       "replace": "PLAYER"
     },
     {
+      "find": "罗德岛真",
+      "replace": "Rhodes Island"
+    },
+    {
       "find": "整合运动",
       "replace": "Reunion Movement"
     },
