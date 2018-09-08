@@ -21,7 +21,7 @@ class StoryPart {
   static get REGEX_CHARACTER() { return /\[Character\((.*)\)]/g }
   static get REGEX_QUOTE() { return /\[name="(.*)"\](\s)+(.+)/g }
   static get REGEX_IMAGE() { return /\[Image\(image="(.*)"(.*)\)\]/g }
-  static get REGEX_CHOICE() { return /\[Decision\((.*)\)\]/g }
+  static get REGEX_CHOICE() { return /\[Decision\(options="(.*?)"/g }
 
   constructor(line, translations) {
     this.line = line
@@ -234,10 +234,12 @@ class StoryPart {
   }
 
   choice() {
-    // Set type of this instance
-    this.type = StoryPart.TYPE_CHOICE
-    this.height = 0
-    return Promise.resolve()
+    // Extract data from the line
+    let data = StoryPart.REGEX_CHOICE.exec(this.line)
+    this.line = '[name="PLAYER"] ' + data[1]
+    this.characters[1] = 'player'
+    this.focusedCharacter = 2
+    return this.quote()
   }
 
 }

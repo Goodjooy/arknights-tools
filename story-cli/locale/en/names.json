@@ -1,6 +1,10 @@
 {
   "messages": [
     {
+      "zh": "PLAYER",
+      "tl": "PLAYER"
+    },
+    {
       "zh": "阿米娅",
       "tl": "Amiya"
     }
