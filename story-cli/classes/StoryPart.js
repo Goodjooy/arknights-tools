@@ -77,7 +77,7 @@ class StoryPart {
           textCanvas.height = 300
           textContext.fillStyle = '#ffffff'
           CanvasTextWrapper(textCanvas, headerText, {
-            font:  '30px Chinese',
+            font:  config.part.headerSize + 'px ' + (config.font || 'Chinese'),
             textAlign: 'center',
             verticalAlign: 'top',
             sizeToFill: false,
@@ -186,7 +186,7 @@ class StoryPart {
           speakerCanvas.height = speakerBubbleHeight
           speakerContext.fillStyle = '#ffffff'
           CanvasTextWrapper(speakerCanvas, speakerName, {
-            font:  pageOpts.part.speakerSize + 'px Chinese',
+            font:  pageOpts.part.speakerSize + 'px ' + (config.font || 'Chinese'),
             textAlign: self.focusedCharacter == 1 ? 'left' : 'right',
             verticalAlign: 'middle',
             sizeToFill: false,
@@ -204,7 +204,7 @@ class StoryPart {
           textCanvas.height = textBubbleHeight
           textContext.fillStyle = '#ffffff'
           CanvasTextWrapper(textCanvas, quoteMessage, {
-            font:  pageOpts.part.messageSize + 'px Chinese',
+            font:  pageOpts.part.messageSize + 'px ' + (config.font || 'Chinese'),
             textAlign: self.focusedCharacter == 1 ? 'left' : 'right',
             verticalAlign: 'top',
             sizeToFill: false,
