@@ -19,7 +19,6 @@ class Chapter {
   }
 
   add(part) {
-    console.log('\n\nChapter.add()');
     let self = this
     return Promise.coroutine(function*() {
       let currentPage = self.getCurrentPage()
@@ -27,23 +26,20 @@ class Chapter {
       switch (part.type) {
 
         case StoryPart.TYPE_HEADER:
-          console.log('  HEADER', part.line.substring(0,30))
+          console.log('\nHEADER', part.line.substring(0,30))
           yield self.addToPage(part)
           break;
 
         case StoryPart.TYPE_BACKGROUND:
-          console.log('  BACKGROUND', part.background_name)
+          console.log('\nBACKGROUND', part.background_name)
           // Check if not a new background
           if (self.background == part.background_name) return
           // New background
           if (currentPage.getAcceptsBackground()) {
-            // console.log('  page getAcceptsBackground YES')
             // Current page doesnt have a background yet and hasn't drawn foreground
             yield currentPage.updateBackground(part.background_name)
             self.background = part.background_name
-
           } else {
-            // console.log('  page getAcceptsBackground NO')
             // Needs a new background, make a new page
             yield currentPage.finish()
             self.background = part.background_name
@@ -52,37 +48,26 @@ class Chapter {
           break;
 
         case StoryPart.TYPE_CHARACTER:
-          console.log('  CHARACTER', part.line.substring(0,30))
-          if (part.characters[0] || part.characters[1]) {
-            console.log('    SET CHAPTER CHARACTERS', part.characters)
-            self.characters = part.characters
-          }
-          if (part.focusedCharacter) {
-            console.log('    SET FOCUSED CHARACTER', part.focusedCharacter);
-            self.focusedCharacter = part.focusedCharacter
-          }
+          console.log('\nCHARACTER', part.line.substring(0,30))
+          if (part.characters[0] || part.characters[1]) self.characters = part.characters
+          if (part.focusedCharacter) self.focusedCharacter = part.focusedCharacter
           break;
 
         case StoryPart.TYPE_QUOTE:
-          console.log('  QUOTE', part.line.substring(0,30))
-          console.log('    self.characters', self.characters)
-          console.log('    self.focusedCharacter', self.focusedCharacter)
+          console.log('\nQUOTE', part.line.substring(0,30))
           yield self.addToPage(part)
           break;
 
         case StoryPart.TYPE_IMAGE:
-          console.log('  IMAGE', part.image_name)
+          console.log('\nIMAGE', part.image_name)
           // Check if not a new background
           if (self.background == part.image_name) return
           // New background
           if (currentPage.getAcceptsBackground()) {
-            // console.log('  page getAcceptsBackground YES')
             // Current page doesnt have a background yet and hasn't drawn foreground
             yield currentPage.updateBackground(part.image_name)
             self.background = part.image_name
-
           } else {
-            // console.log('  page getAcceptsBackground NO')
             // Needs a new background, make a new page
             yield currentPage.finish()
             self.background = part.image_name
@@ -91,14 +76,11 @@ class Chapter {
           break;
 
         case StoryPart.TYPE_CHOICE:
-          console.log('  CHOICE', part.line.substring(0,30))
-          part.setCharacters([ self.characters[0], 'player' ])
-          part.setFocusedCharacter(2)
+          console.log('\nCHOICE', part.line.substring(0,30))
           yield self.addToPage(part)
           break;
 
         default:
-          console.log('  unknown, unsupported part type', '"' + part.line.substring(0,30) + '"')
       }
     })()
   }
@@ -109,10 +91,10 @@ class Chapter {
     return Promise.coroutine(function*() {
       let currentPage = self.getCurrentPage()
       if (currentPage.canFit(part)) {
-        // console.log('  canFit YES')
+        // console.log('canFit YES')
         yield currentPage.addPart(part)
       } else {
-        // console.log('  canFit NO')
+        // console.log('canFit NO')
         yield currentPage.finish()
         self.newPage()
         yield self.getCurrentPage().addPart(part)
@@ -134,8 +116,8 @@ class Chapter {
     let pageNumString = Utils.zeroPadPageNum(  this.getCurrentPageNum() + 1 )
     // File output path for this specific new page
     let pageOutputPath = path.join(this.outputPath, pageNumString + '.png')
-    // console.log('  pageNumString', pageNumString)
-    // console.log('  pageOutputPath', pageOutputPath)
+    // console.log('pageNumString', pageNumString)
+    // console.log('pageOutputPath', pageOutputPath)
     // Create new page with desired page options and specific output path for the page
     let newPage = new Page({
       pageOpts: this.pageOpts,

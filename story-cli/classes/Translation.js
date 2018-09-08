@@ -21,16 +21,8 @@ class Translation {
     return Promise.coroutine(function*(){
       let localeDir = path.join(__dirname, '..', 'locale', self.targetLanguage)
       let files = yield new Promise(done => { glob(localeDir + '/**/*.json', (err, files) => { done(files) }) })
-      // files = files.filter(file => file.substring(file.length - 14) != 'overrides.json')
-
       let fileContents = yield Promise.all(files.map(file => { return Utils.readFile(file) }))
-
-      fileContents.forEach(fileContent => {
-        self.useMessages(fileContent)
-      })
-
-      console.log('MESSAGES', self.messages);
-      console.log('OVERRIDES', self.overrides);
+      fileContents.forEach(fileContent => { self.useMessages(fileContent) })
     })()
   }
 
@@ -46,7 +38,6 @@ class Translation {
   }
 
   get(text) {
-    console.log('GETTING TL FOR TEXT', text);
     let self = this
     return Promise.coroutine(function*(){
       if (!text) return ''
@@ -77,7 +68,7 @@ class Translation {
   }
 
   google(text) {
-    console.log('~~~~~~ GOOGLE TRANSLATE ~~~~~~', text)
+    console.log('Google Translate', text)
     // return Promise.delay(1000).then(g => { return Promise.resolve(text) })
     return axios.post('https://translation.googleapis.com/language/translate/v2?key=' + config.google_api_key, {
       q: [ text ],

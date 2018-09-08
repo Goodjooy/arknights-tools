@@ -34,12 +34,7 @@ class StoryPart {
     this.image_name = null
     this.height = 9000
 
-    this.makeRenderer = (pageOpts, foregroundY) => {
-      console.log('empty makeRenderer');
-      return pageCanvas => {
-        console.log('    DRAW empty');
-      }
-    }
+    this.makeRenderer = (pageOpts, foregroundY) => { return pageCanvas => {} }
   }
 
   interpret() {
@@ -73,11 +68,8 @@ class StoryPart {
       self.height = 300
       // Set the make renderer
       self.makeRenderer = (pageOpts, foregroundY) => {
-        console.log('StoryPart.header().makeRenderer', foregroundY);
-
         return pageCanvas => {
           let maxWidth = pageCanvas.width - (pageOpts.padding.left + pageOpts.padding.right)
-          console.log('    DRAW : header', headerText.substring(0,30), foregroundY);
           // Create text bubble
           let textCanvas = new Canvas.createCanvas(maxWidth, 300)
           let textContext = textCanvas.getContext('2d');
@@ -113,7 +105,6 @@ class StoryPart {
   character() {
     // Set type of this instance
     this.type = StoryPart.TYPE_CHARACTER
-    console.log('  CHARACTER', this.line);
     // Detect values
     let char1 = /name="([a-zA-Z0-9_#]+)"/g.exec(this.line)
     let char2 = /name2="([a-zA-Z0-9_#]+)"/g.exec(this.line)
@@ -124,14 +115,12 @@ class StoryPart {
     if (char1) this.characters[0] = Utils.fixCharName(char1[1])
     if (char2) this.characters[1] = Utils.fixCharName(char2[1])
     if (focus) this.focusedCharacter = focus[1]
-    console.log('    Processed characters', this.characters, this.focusedCharacter);
     return Promise.resolve()
   }
 
   quote() {
     // Set type of this instance
     this.type = StoryPart.TYPE_QUOTE
-    console.log('  QUOTE', this.line, this.characters)
     // Detect values
     let data = StoryPart.REGEX_QUOTE.exec(this.line)
     let speakerName = data[1]
@@ -140,7 +129,6 @@ class StoryPart {
     let self = this
     return Promise.coroutine(function*() {
       self.height = 120
-      console.log('  self.characters', self.characters);
       let charThumbs = yield Promise.all(self.characters.map(chara => {
         if (chara) return Utils.loadImage(['char', chara + '.png'])
         else return Promise.resolve(null)
@@ -150,14 +138,11 @@ class StoryPart {
       // console.log('  loaded quote char thumbs', charThumbs);
       // Set the make renderer
       self.makeRenderer = (pageOpts, foregroundY) => {
-        console.log('StoryPart.quote().makeRenderer', foregroundY);
         return pageCanvas => {
           let pageCtx = pageCanvas.getContext('2d')
           let charThumbSize = pageOpts.part.photo
 
           // Draw characters
-          console.log('    DRAW character 1', self.characters[0])
-          console.log('    DRAW character 2', self.characters[1])
           pageCtx.shadowColor = "#000000"
           pageCtx.shadowBlur = 10
           if (charThumbs[0]) {
@@ -195,7 +180,6 @@ class StoryPart {
           pageCtx.shadowBlur = 10
 
           // Draw speaker name
-          console.log('    DRAW speaker text', speakerName)
           let speakerCanvas = new Canvas.createCanvas(bothBubbleWidth, speakerBubbleHeight)
           let speakerContext = speakerCanvas.getContext('2d');
           speakerCanvas.width = bothBubbleWidth
@@ -214,7 +198,6 @@ class StoryPart {
           pageCtx.drawImage(speakerCanvas, 0, 0, speakerCanvas.width, speakerCanvas.height, bothBubbleX, speakerBubbleY, speakerCanvas.width, speakerCanvas.height)
 
           // Create text bubble
-          console.log('    DRAW quote text', quoteMessage)
           let textCanvas = new Canvas.createCanvas(bothBubbleWidth, textBubbleHeight)
           let textContext = textCanvas.getContext('2d');
           textCanvas.width = bothBubbleWidth

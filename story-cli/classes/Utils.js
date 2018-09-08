@@ -27,6 +27,15 @@ class Utils {
     })
   }
 
+  static saveFile(outputPath, contents) {
+    return new Promise((done, fail) => {
+      fs.writeFile(outputPath, contents, err => {
+        if (err) fail(err)
+        else done()
+      })
+    })
+  }
+
   static saveImage(outputPath, canvas) {
     return new Promise((done, fail) => {
       let rawData64 = canvas.toDataURL('image/png').substring(22)

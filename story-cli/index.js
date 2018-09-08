@@ -50,21 +50,23 @@ Promise.coroutine(function*(){
   // Run through all lines one by one
   yield Promise.each(lines, line => {
     return Promise.coroutine(function*(){
-      console.log('\n\n#################################\n')
-      console.log(line)
-      console.log('-----------------------------------')
-      console.log('new StoryPart()');
       let part = new StoryPart(line, tls)
       part.setCharacters(chapter.characters)
       part.setFocusedCharacter(chapter.focusedCharacter)
       yield part.interpret()
-      console.log('\n-----------------------------------\n')
       yield chapter.add(part)
     })()
   })
 
+  // Finalize the chapter
   yield chapter.finish()
 
+  // Save google translated texts
+  let localeFile = { messages: [] }
+  Object.keys(tls.googleCache).forEach(zhKey => {
+    localeFile.messages.push({ zh: zhKey, tl: tls.googleCache[zhKey] })
+  })
+  yield Utils.saveFile(path.resolve(path.join(__dirname, 'output', 'googleTranslate.json')), JSON.stringify(localeFile))
 })()
 .then(() => { console.log('[DONE]') })
 .catch(err => { console.log('[ERR]', err) })
