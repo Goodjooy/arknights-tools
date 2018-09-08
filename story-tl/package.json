@@ -1,0 +1,12 @@
+{
+  "name": "arknights-story-tl",
+  "version": "1.0.0",
+  "description": "Generates locale files for manual translators",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "glob": "^7.1.2"
+  }
+}

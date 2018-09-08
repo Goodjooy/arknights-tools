@@ -1,6 +1,7 @@
 config/default.json
-input/bg/*.png
-input/cg/*.png
-input/char/*.png
-input/story/*.txt
-output/*.png
+assets/bg/*.png
+assets/cg/*.png
+assets/char/*.png
+input/**/*.txt
+output/**/*.png
+output/googleTranslate.json

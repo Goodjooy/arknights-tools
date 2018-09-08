@@ -1,6 +1,6 @@
-# arknights-tools/story
+# arknights-tools/story-cli
 
-Creates images that depict story from raw data
+Creates images that depict story from raw data through CLI
 
 ## Install
 #### Requirements
@@ -14,12 +14,13 @@ npm install
 ## Prepare input data
 #### Config
 * Rename `config/sample.json` into `config/default.json`
-* Edit `GOOGLE_API_KEY` to be able to use Google Translate
+* Edit `google_api_key` to be able to use Google Translate
 * Edit other options if desired
 
 #### Translations (_optional_)
-* Edit `input/locale/<lang>/<file>.json` for manual translations
+* Edit `locale/<lang>/<file>.json` for manual translations
   * Use the same language code used in config json file
+  * Filename does not matter, all entries inside the language folder are merged during runtime use
 
 #### Images
 * Place backgrounds in `/assets/bg`
@@ -37,13 +38,6 @@ npm install
 ## Run
 * Run by executing command line
 ```
-npm run gen story="level_main_1_BEG"
+npm run start src="level_main_1_BEG"
 ```
-* See output in `/output/<lang>/<name>/<pageNum>.png`
-
-## Get a story raw texts
-* Run by executing command line
-```
-npm run txt
-```
-* See output in `/input/locale/zh`
+* See output in `/output/<lang>/<title>/<pageNum>.png`

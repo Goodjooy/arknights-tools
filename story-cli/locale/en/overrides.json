@@ -1,0 +1,16 @@
+{
+  "overrides": [
+    {
+      "find": "{@nickname}",
+      "replace": "PLAYER"
+    },
+    {
+      "find": "整合运动",
+      "replace": "Reunion Movement"
+    },
+    {
+      "find": "整合",
+      "replace": "Reunion"
+    }
+  ]
+}
