@@ -4,6 +4,7 @@
   "description": "Creates images that depict story from raw data through CLI",
   "scripts": {
     "start": "node index.js",
+    "level": "node level.js",
     "test": "cls && npm run start src=0_welcome_to_guide"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "hex-rgb": "^3.0.0",
     "http-server": "^0.11.1",
     "mkdirp": "^0.5.1",
+    "pad": "^2.2.1",
     "rimraf": "^2.6.2"
   }
 }
