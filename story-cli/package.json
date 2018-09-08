@@ -4,7 +4,7 @@
   "description": "Creates images that depict story from raw data through CLI",
   "scripts": {
     "start": "node index.js",
-    "test": "cls && npm run start src=0"
+    "test": "cls && npm run start src=0_welcome_to_guide"
   },
   "dependencies": {
     "axios": "^0.18.0",

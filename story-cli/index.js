@@ -43,8 +43,15 @@ Promise.coroutine(function*(){
   // Run through all lines one by one
   yield Promise.each(lines, line => {
     return Promise.coroutine(function*(){
+      console.log('\n\n#################################\n')
+      console.log(line)
+      console.log('-----------------------------------')
+      console.log('new StoryPart()');
       let part = new StoryPart(line, targetLanguage)
+      part.setCharacters(chapter.characters)
+      part.setFocusedCharacter(chapter.focusedCharacter)
       yield part.interpret()
+      console.log('\n-----------------------------------\n')
       yield chapter.add(part)
     })()
   })

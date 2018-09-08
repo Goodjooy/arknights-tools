@@ -3,6 +3,7 @@ const Promise = require('bluebird')
 const Canvas = require('canvas')
 const hexRgb = require('hex-rgb')
 
+const StoryPart = require('./StoryPart')
 const Utils = require('./Utils')
 
 class Page {
@@ -17,14 +18,12 @@ class Page {
     this.ctx = this.canvas.getContext('2d')
 
     // Page variables
-    this.characters = []
-    this.focusedCharacter = 1
     this.acceptsBackground = true
     this.background = null
     this.backgroundHex = this.pageOpts.background
     this.drawProceduresBG = []
     this.drawProceduresFG = []
-    this.foregroundY = this.pageOpts.padding.top
+    this.foregroundY = opts.foregroundY ? opts.foregroundY : this.pageOpts.padding.top
 
     // Computed variables
     this.backgroundRgb = hexRgb(this.backgroundHex, {format: 'array'})
@@ -39,29 +38,24 @@ class Page {
     })
   }
 
-  setCharacters(characters) {
-    this.characters = characters
-  }
-
-  setFocusedCharacter(focusedCharacter) {
-    this.focusedCharacter = focusedCharacter
-  }
-
   getAcceptsBackground() {
     return this.acceptsBackground
   }
 
   updateBackground(imageName) {
-    console.log('Page.updateBackground()', imageName)
+    // console.log('Page.updateBackground()', imageName)
     this.acceptsBackground = false
     return this.setBackground(imageName)
   }
 
   setBackground(imageName) {
-    console.log('Page.setBackground()', imageName)
+    // console.log('Page.setBackground()', imageName)
     // Load desired background image file
     // return Canvas.loadImage(path.join(__dirname, '..', 'assets', 'bg', imageName + '.png'))
     return Utils.loadImage(['bg', imageName + '.png'])
+      .catch(err => {
+        return Utils.loadImage(['cg', imageName + '.png'])
+      })
       .then(imgEl => {
         // Clear previous rendering
         this.clearBackgrounds()
@@ -122,20 +116,20 @@ class Page {
   }
 
   canFit(part) {
-    console.log('  Page.canFit()', this.foregroundY, '+', part.height, '<=', this.canvas.height, '-', this.pageOpts.padding.bottom)
+    // console.log('  Page.canFit()', this.foregroundY, '+', part.height, '<=', this.canvas.height, '-', this.pageOpts.padding.bottom)
     return (this.foregroundY + part.height) <= (this.canvas.height - this.pageOpts.padding.bottom)
   }
 
   addPart(part) {
-    console.log('Page.addPart()', part.type, part.line.substring(0,30));
+    // console.log('Page.addPart()', part.type, part.line.substring(0,30));
     try {
       if (part.makeRenderer) {
-        this.acceptsBackground = false
+        if (part.type !== StoryPart.TYPE_HEADER) this.acceptsBackground = false
         let partRendererFnx = part.makeRenderer(this.pageOpts, this.foregroundY)
         this.addForeground(partRendererFnx)
-        this.foregroundY += part.height
+        this.foregroundY += part.height + this.pageOpts.part.spacing
       } else {
-        console.log('no rendrer');
+        // console.log('no rendrer');
       }
       return Promise.resolve()
     } catch (err) {
@@ -158,9 +152,10 @@ class Page {
   }
 
   finish() {
-    console.log('Page.finish()');
+    console.log('----------- Page.finish()');
     this.draw()
     this.save()
+    console.log('###############################################');
     return Promise.resolve()
   }
 
