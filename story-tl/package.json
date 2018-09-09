@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Generates locale files for manual translators",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "names": "node names.js"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
