@@ -1,0 +1,8 @@
+{
+  "overrides": [
+    {
+      "find": "{@nickname}",
+      "replace": "PLAYER"
+    }
+  ]
+}

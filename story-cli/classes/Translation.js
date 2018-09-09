@@ -44,7 +44,6 @@ class Translation {
   get(text) {
     let self = this
     return Promise.coroutine(function*(){
-      if (self.targetLanguage == 'cn' || self.targetLanguage == 'zh') return text
       if (!text) return ''
       if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(text))) return text
       if (text == '？？？') return '???'
@@ -60,6 +59,8 @@ class Translation {
       self.overrides.forEach(override => {
         googleRequestText = googleRequestText.replace(override.find, override.replace)
       })
+
+      if (self.targetLanguage == 'zh') return googleRequestText
 
       // Last fallback, Google Translate
       return yield self.google(googleRequestText)
