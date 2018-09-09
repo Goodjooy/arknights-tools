@@ -173,7 +173,7 @@ class StoryPart {
 
           // Drqaw containers
           pageCtx.fillStyle = 'rgba(0,0,0,0.7)'
-          pageCtx.fillRect(bothBubbleX, speakerBubbleY, bothBubbleWidth, speakerBubbleHeight)
+          if (speakerName) pageCtx.fillRect(bothBubbleX, speakerBubbleY, bothBubbleWidth, speakerBubbleHeight)
           pageCtx.fillRect(bothBubbleX, textBubbleY, bothBubbleWidth, textBubbleHeight)
 
           // Set shadows for text
