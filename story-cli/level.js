@@ -93,7 +93,7 @@ Promise.coroutine(function*(){
   Object.keys(tls.googleCache).forEach(zhKey => {
     localeFile.messages.push({ zh: zhKey, tl: tls.googleCache[zhKey] })
   })
-  yield Utils.saveFile(path.resolve(path.join(__dirname, 'output', 'googleTranslate.json')), JSON.stringify(localeFile))
+  yield Utils.saveFile(path.resolve(path.join(__dirname, 'locale', 'gtl-cache.json')), JSON.stringify(localeFile))
 })()
 .then(() => { console.log('[DONE]') })
 .catch(err => { console.log('[ERR]', err) })
