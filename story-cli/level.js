@@ -93,9 +93,9 @@ Promise.coroutine(function*(){
   Object.keys(tls.googleCache).forEach(zhKey => {
     localeFile.messages.push({ zh: zhKey, tl: tls.googleCache[zhKey] })
   })
-  let tmpPath = path.join(__dirname, 'tmp', targetLanguage)
+  let tmpPath = path.join(__dirname, 'tmp', config.targetLanguage)
   mkdirp.sync(tmpPath)
-  let gtlPath = path.join(tmpPath, fileTitle + '.json')
+  let gtlPath = path.join(tmpPath, mapFile + '.json')
   yield Utils.saveFile(gtlPath, JSON.stringify(localeFile, null, 2))
 })()
 .then(() => { console.log('[DONE]') })
