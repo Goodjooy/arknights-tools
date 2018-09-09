@@ -4,6 +4,7 @@ const Promise = require('bluebird')
 const CanvasTextWrapper = require('canvas-text-wrapper').CanvasTextWrapper
 const Canvas = require('canvas')
 Canvas.registerFont(path.resolve(path.join(__dirname, '..', 'assets', 'font', 'mint.ttf')), {family: 'Chinese'})
+Canvas.registerFont(path.resolve(path.join(__dirname, '..', 'assets', 'font', 'osaka.unicode.ttf')), {family: 'Japanese'})
 
 const Utils = require('./Utils')
 
