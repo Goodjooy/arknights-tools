@@ -149,13 +149,13 @@ class StoryPart {
           pageCtx.shadowColor = "#000000"
           pageCtx.shadowBlur = 10
           if (charThumbs[0]) {
-            if (self.focusedCharacter == 2) pageCtx.globalAlpha = 0.3
+            if (self.focusedCharacter == 2) pageCtx.globalAlpha = 0.5
             pageCtx.drawImage(charThumbs[0], 0, 0, charThumbs[0].width, charThumbs[0].height, pageOpts.padding.left, foregroundY, charThumbSize, charThumbSize)
             pageCtx.globalAlpha = 1
           }
           if (charThumbs[1]) {
             let drawX = pageOpts.width - (pageOpts.padding.right + charThumbSize)
-            if (self.focusedCharacter == 1) pageCtx.globalAlpha = 0.3
+            if (self.focusedCharacter == 1) pageCtx.globalAlpha = 0.5
             pageCtx.drawImage(charThumbs[1], 0, 0, charThumbs[1].width, charThumbs[1].height, drawX, foregroundY, charThumbSize, charThumbSize)
             pageCtx.globalAlpha = 1
           }
@@ -174,7 +174,7 @@ class StoryPart {
           if (self.focusedCharacter == 2) bothBubbleX += quoteSpace
 
           // Drqaw containers
-          pageCtx.fillStyle = 'rgba(0,0,0,0.7)'
+          pageCtx.fillStyle = 'rgba(0,0,0,0.6)'
           if (speakerName) pageCtx.fillRect(bothBubbleX, speakerBubbleY, bothBubbleWidth, speakerBubbleHeight)
           pageCtx.fillRect(bothBubbleX, textBubbleY, bothBubbleWidth, textBubbleHeight)
 
