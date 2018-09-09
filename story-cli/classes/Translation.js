@@ -44,6 +44,7 @@ class Translation {
   get(text) {
     let self = this
     return Promise.coroutine(function*(){
+      if (this.targetLanguage == 'cn' || this.targetLanguage == 'zh') return text
       if (!text) return ''
       if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(text))) return text
       if (text == '？？？') return '???'
