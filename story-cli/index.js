@@ -68,7 +68,10 @@ Promise.coroutine(function*(){
   Object.keys(tls.googleCache).forEach(zhKey => {
     localeFile.messages.push({ zh: zhKey, tl: tls.googleCache[zhKey] })
   })
-  yield Utils.saveFile(path.resolve(path.join(__dirname, 'locale', 'gtl-cache.json')), JSON.stringify(localeFile))
+  let tmpPath = path.join(__dirname, 'tmp', targetLanguage)
+  mkdirp.sync(tmpPath)
+  let gtlPath = path.join(tmpPath, fileTitle + '.json')
+  yield Utils.saveFile(gtlPath, JSON.stringify(localeFile, null, 2))
 })()
 .then(() => { console.log('[DONE]') })
 .catch(err => { console.log('[ERR]', err) })

@@ -5,4 +5,5 @@ assets/char/*.png
 assets/maps/*.png
 input/**/*.txt
 output/**/*.png
-locale/gtl-cache.json
+tmp/**/*
+!**/*/.gitkeep
