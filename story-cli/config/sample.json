@@ -1,7 +1,7 @@
 {
   "google_api_key": "Axxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "targetLanguage": "en",
-  "font": "Chinese",
+  "font": "Arial",
   "pageOpts": {
     "width": 800,
     "height": 1200,

@@ -5,4 +5,4 @@ assets/char/*.png
 assets/maps/*.png
 input/**/*.txt
 output/**/*.png
-output/googleTranslate.json
+locale/gtl-cache.json
