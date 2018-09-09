@@ -1,0 +1,156 @@
+{
+  "messages": [
+    {
+      "zh": "第四关（前）",
+      "tl": "Fourth level (front)"
+    },
+    {
+      "zh": "不太对劲。",
+      "tl": "Not quite right."
+    },
+    {
+      "zh": "怎么？",
+      "tl": "how?"
+    },
+    {
+      "zh": "凯尔希医生当时提醒过我......切尔诺伯格目前所处地区即将发生天灾。",
+      "tl": "Dr. Kal'tsit reminded me at the time... Chernobyl is currently experiencing a natural disaster in his area."
+    },
+    {
+      "zh": "加上有关整合运动兴起的一些情报，我们才会决定在这个时候冒险救出{@nickname}博士......",
+      "tl": "Together with some information about the rise of the Reunion Movement, we will decide to take the risk of saving Dr. PLAYER at this time..."
+    },
+    {
+      "zh": "唔。",
+      "tl": "Well."
+    },
+    {
+      "zh": "可是整合运动——",
+      "tl": "But the Reunion Movement -"
+    },
+    {
+      "zh": "一点想要转移切城的迹象都没有。",
+      "tl": "There are no signs of wanting to transfer the city."
+    },
+    {
+      "zh": "如果明知天灾要到来，那么最早在一个月前就能批次移动分城。",
+      "tl": "If you know that the natural disaster is coming, you can move the city in batches as early as one month."
+    },
+    {
+      "zh": "疑惑？",
+      "tl": "doubt?"
+    },
+    {
+      "zh": "啊......博士可能还不清楚......",
+      "tl": "Ah... the doctor may not know yet..."
+    },
+    {
+      "zh": "切尔诺伯格这样大型的城市，为了应对时常发生的天灾，是可以进行转移的。",
+      "tl": "A large city like Chernberg can be transferred in response to the frequent natural disasters."
+    },
+    {
+      "zh": "然而，整合运动却不管不顾......",
+      "tl": "However, the Reunion Movement does not care..."
+    },
+    {
+      "zh": "仅仅是在街上重复着杀戮和战斗，让整个城市陷入战火......",
+      "tl": "It’s just repeating killings and battles on the street, putting the whole city into war..."
+    },
+    {
+      "zh": "天灾降临时，就连坚固的切城都会被撕得粉碎......",
+      "tl": "When the natural disaster strikes, even the solid city will be torn apart..."
+    },
+    {
+      "zh": "变成布满源石的巨型废墟！",
+      "tl": "Become a giant ruin full of source stones!"
+    },
+    {
+      "zh": "整合运动究竟在谋划些什么？",
+      "tl": "What is the Reunion Movement planning?"
+    },
+    {
+      "zh": "他们的指挥系统难道崩溃了吗......？",
+      "tl": "Has their command system collapsed...?"
+    },
+    {
+      "zh": "不可能。",
+      "tl": "impossible."
+    },
+    {
+      "zh": "如果整合运动有指挥官，他就不会纵容手下四处散漫作乱——",
+      "tl": "If the Reunion Movement has a commander, he will not condone his men and women."
+    },
+    {
+      "zh": "更不会把部队白白葬送在天灾中。",
+      "tl": "It will not bury the troops in the natural disasters."
+    },
+    {
+      "zh": "但如果没有指挥官，整合运动根本不可能如此高效地瘫痪切城。",
+      "tl": "But without a commander, the Reunion Movement could not cut the city so efficiently."
+    },
+    {
+      "zh": "尤其是在这时候......",
+      "tl": "Especially at this time..."
+    },
+    {
+      "zh": "在这所有人都会死的时候。除非......",
+      "tl": "When all of them will die. unless......"
+    },
+    {
+      "zh": "除非什么？",
+      "tl": "Unless anything?"
+    },
+    {
+      "zh": "我以前经历的战争中......",
+      "tl": "In the war I have experienced before..."
+    },
+    {
+      "zh": "也有行为与整合运动的掌控者如出一辙的领袖。",
+      "tl": "There are also leaders who behave like the leaders of the Reunion Movement."
+    },
+    {
+      "zh": "于他而言，士兵不过是棋子，达到目的后就可以随意丢弃。",
+      "tl": "For him, the soldiers are just pieces, and they can be discarded at will when they reach their goal."
+    },
+    {
+      "zh": "既合理高效的运用兵力，又在不需要的时候放纵其自生自灭......",
+      "tl": "Use the force reasonably and efficiently, and indulge its self-destruction when it is not needed..."
+    },
+    {
+      "zh": "因为训练与管理的成本太高了。",
+      "tl": "Because the cost of training and management is too high."
+    },
+    {
+      "zh": "只需在必要时，轻轻的推一下——追随者就会振臂高呼。",
+      "tl": "Just push it when necessary - followers will scream."
+    },
+    {
+      "zh": "如果真如整合运动宣传的那般，那它们的棋子，感染者，便源源不断——",
+      "tl": "If it is as advertised by the Reunion Movement, then their pieces, Infected Person, are constantly flowing –"
+    },
+    {
+      "zh": "这种领袖并不是指挥官。",
+      "tl": "This leader is not a commander."
+    },
+    {
+      "zh": "他们是暴君。",
+      "tl": "They are tyrants."
+    },
+    {
+      "zh": "那边的整合运动小队转向我们了。",
+      "tl": "The Reunion Movement team over there turned to us."
+    },
+    {
+      "zh": "我们的踪迹被发现了？",
+      "tl": "Our trail has been discovered?"
+    },
+    {
+      "zh": "可能还没有。",
+      "tl": "Maybe not yet."
+    },
+    {
+      "zh": "但也得早点结束他们愚蠢的闹剧......",
+      "tl": "But I have to end their stupid farce soon..."
+    }
+  ]
+}

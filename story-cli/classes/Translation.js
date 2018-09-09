@@ -44,6 +44,8 @@ class Translation {
   get(text) {
     let self = this
     return Promise.coroutine(function*(){
+      text = text.trim()
+      text = text.replace(/(<([^>]+)>)/ig, '')
       if (!text) return ''
       if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(text))) return text
       if (text == '？？？') return '???'
