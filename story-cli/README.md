@@ -41,3 +41,8 @@ npm install
 npm run start src="level_main_1_BEG"
 ```
 * See output in `/output/<lang>/<title>/<pageNum>.png`
+
+### Generate per level
+```
+npm run level 
+```

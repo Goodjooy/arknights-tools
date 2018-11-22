@@ -14,12 +14,13 @@ class Translation {
     this.messages = {}
     this.overrides = []
     this.googleCache = {}
+    this.sounds = {}
   }
 
   loadLocale() {
     let self = this
     return Promise.coroutine(function*(){
-      let localeDir = path.join(__dirname, '..', 'locale', self.targetLanguage)
+      let localeDir = path.join(__dirname, '..', 'locale', 'all')
       let files = yield new Promise(done => { glob(localeDir + '/**/*.json', (err, files) => { done(files) }) })
       let fileContents = yield Promise.all(files.map(file => { return Utils.readFile(file) }))
       fileContents.forEach(fileContent => { self.useMessages(fileContent) })
@@ -30,14 +31,21 @@ class Translation {
     let self = this
     let parsed = JSON.parse(content)
     if (parsed.messages) parsed.messages.forEach(message => {
-      self.messages[message.zh] = message.tl
+      if (message[self.targetLanguage])
+        self.messages[message.zh] = message[self.targetLanguage]
     })
     if (parsed.overrides) parsed.overrides.forEach(message => {
       self.overrides.push(message)
     })
+    if (parsed.sounds) parsed.sounds.forEach(message => {
+      if (message[self.targetLanguage])
+        self.sounds[message.key] = message[self.targetLanguage]
+    })
     if (parsed.names) parsed.names.forEach(name => {
-      self.messages[name.zh] = name.tl
-      self.overrides.push({ find: name.zh, replace: name.tl })
+      if (name[self.targetLanguage]) {
+        self.messages[name.zh] = name[self.targetLanguage]
+        self.overrides.push({ find: name.zh, replace: name[self.targetLanguage] })
+      }
     })
   }
 
@@ -51,7 +59,7 @@ class Translation {
       if (text == '？？？') return '???'
 
       // Translations from JSON files
-      if (self.messages[text]) return self.messages[text]
+      if (self.messages[text] && self.targetLanguage != 'zh') return self.messages[text]
 
       // Translations from Google cache
       if (self.googleCache[text]) return self.googleCache[text]
@@ -59,9 +67,11 @@ class Translation {
       // Manual in-string find-replace overrides
       let googleRequestText = String(text) // copy
       self.overrides.forEach(override => {
-        googleRequestText = googleRequestText.replace(override.find, override.replace)
+        if (override[self.targetLanguage])
+          googleRequestText = googleRequestText.replace(override.find, override[self.targetLanguage])
       })
 
+      // If desired original chinese text, return raws
       if (self.targetLanguage == 'zh') return googleRequestText
 
       // Last fallback, Google Translate
@@ -77,8 +87,7 @@ class Translation {
   }
 
   google(text) {
-    console.log('Google Translate', text)
-    // return Promise.delay(1000).then(g => { return Promise.resolve(text) })
+    return Promise.resolve('*')
     return axios.post('https://translation.googleapis.com/language/translate/v2?key=' + config.google_api_key, {
       q: [ text ],
       source: 'zh-CN',
@@ -92,6 +101,10 @@ class Translation {
       }
       return [ text ]
     })
+  }
+
+  sound(key) {
+    return this.sounds[key] || ''
   }
 
 }

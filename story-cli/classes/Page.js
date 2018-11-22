@@ -48,11 +48,9 @@ class Page {
   }
 
   setBackground(imageName) {
+    if (!imageName) return Promise.reject('Tried to load image with no name')
     // Load desired background image file
-    return Utils.loadImage(['bg', imageName + '.png'])
-      .catch(err => {
-        return Utils.loadImage(['cg', imageName + '.png'])
-      })
+    return Utils.loadImage(['cg', imageName + '.png'])
       .then(imgEl => {
         // Clear previous rendering
         this.clearBackgrounds()
@@ -96,7 +94,7 @@ class Page {
           let drawWidth = imgEl.width * (drawHeight / imgEl.height)
           let drawX = (canvas.width - drawWidth) / 2
           // Fill wash-out color
-          ctx.fillStyle = "rgba(" + this.backgroundRgb + ", 0.7)"
+          ctx.fillStyle = "rgba(" + this.backgroundRgb + ", 0.9)"
           ctx.fillRect(drawX, drawY, drawWidth, drawHeight)
           // Fill fade from top
           let fade = ctx.createLinearGradient(0, drawY, 0, drawHeight)

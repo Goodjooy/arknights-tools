@@ -17,13 +17,15 @@ class StoryPart {
   static get TYPE_QUOTE() { return 'quote' }
   static get TYPE_IMAGE() { return 'image' }
   static get TYPE_CHOICE() { return 'choice' }
+  static get TYPE_SOUND() { return 'sound' }
 
   static get REGEX_HEADER() { return /\[HEADER\((.*)\)\] (.*)/g }
   static get REGEX_BACKGROUND() { return /\[Background\(image="([a-zA-Z0-9_]+)"/g }
   static get REGEX_CHARACTER() { return /\[Character\((.*)\)]/g }
   static get REGEX_QUOTE() { return /\[name="(.*)"\](\s)+(.+)/g }
-  static get REGEX_IMAGE() { return /\[Image\(image="(.*)"(.*)\)\]/g }
+  static get REGEX_IMAGE() { return /\[Image\(image="(.*?)"(.*)\)\]/g }
   static get REGEX_CHOICE() { return /\[Decision\(options="(.*?)"/g }
+  static get REGEX_SOUND() { return /\[PlaySound\(key="(.*?)"/g }
 
   constructor(line, translations) {
     this.line = line
@@ -33,7 +35,9 @@ class StoryPart {
     this.background_name = null
     this.characters = [ null, null ]
     this.focusedCharacter = 1
+    this.removeCharacters = false
     this.image_name = null
+    this.sound_file = null
     this.height = 9000
 
     this.makeRenderer = (pageOpts, foregroundY) => { return pageCanvas => {} }
@@ -46,6 +50,7 @@ class StoryPart {
     if (StoryPart.REGEX_QUOTE.test(this.line)) return this.quote()
     if (StoryPart.REGEX_IMAGE.test(this.line)) return this.image()
     if (StoryPart.REGEX_CHOICE.test(this.line)) return this.choice()
+    if (StoryPart.REGEX_SOUND.test(this.line)) return this.sound()
     return Promise.resolve()
   }
 
@@ -112,12 +117,15 @@ class StoryPart {
     let char1 = /name="([a-zA-Z0-9_#]+)"/g.exec(this.line)
     let char2 = /name2="([a-zA-Z0-9_#]+)"/g.exec(this.line)
     let focus = /focus=([0-9]{1})/g.exec(this.line)
+    let fade = /fadetime=([0-9\.]+)/g.exec(this.line)
+    
     // Save values to properties for later access from outside
     this.characters = [ null, null ]
     this.focusedCharacter = 1
     if (char1) this.characters[0] = Utils.fixCharName(char1[1])
     if (char2) this.characters[1] = Utils.fixCharName(char2[1])
     if (focus) this.focusedCharacter = focus[1]
+    if (fade) this.removeCharacters = true
     return Promise.resolve()
   }
 
@@ -149,13 +157,13 @@ class StoryPart {
           pageCtx.shadowColor = "#000000"
           pageCtx.shadowBlur = 10
           if (charThumbs[0]) {
-            if (self.focusedCharacter == 2) pageCtx.globalAlpha = 0.5
+            if (self.focusedCharacter == 2) pageCtx.globalAlpha = 0.3
             pageCtx.drawImage(charThumbs[0], 0, 0, charThumbs[0].width, charThumbs[0].height, pageOpts.padding.left, foregroundY, charThumbSize, charThumbSize)
             pageCtx.globalAlpha = 1
           }
           if (charThumbs[1]) {
             let drawX = pageOpts.width - (pageOpts.padding.right + charThumbSize)
-            if (self.focusedCharacter == 1) pageCtx.globalAlpha = 0.5
+            if (self.focusedCharacter == 1) pageCtx.globalAlpha = 0.3
             pageCtx.drawImage(charThumbs[1], 0, 0, charThumbs[1].width, charThumbs[1].height, drawX, foregroundY, charThumbSize, charThumbSize)
             pageCtx.globalAlpha = 1
           }
@@ -173,14 +181,14 @@ class StoryPart {
           let textBubbleHeight = charThumbSize - (speakerBubbleHeight + pageOpts.part.speakerSpace)
           if (self.focusedCharacter == 2) bothBubbleX += quoteSpace
 
-          // Drqaw containers
-          pageCtx.fillStyle = 'rgba(0,0,0,0.6)'
+          // Draw containers
+          pageCtx.fillStyle = 'rgba(0,0,0,0.4)'
           if (speakerName) pageCtx.fillRect(bothBubbleX, speakerBubbleY, bothBubbleWidth, speakerBubbleHeight)
           pageCtx.fillRect(bothBubbleX, textBubbleY, bothBubbleWidth, textBubbleHeight)
 
           // Set shadows for text
-          pageCtx.shadowColor = "#FFFFFF"
-          pageCtx.shadowBlur = 10
+          pageCtx.shadowColor = "#000000"
+          pageCtx.shadowBlur = 5
 
           // Draw speaker name
           let speakerCanvas = new Canvas.createCanvas(bothBubbleWidth, speakerBubbleHeight)
@@ -239,10 +247,62 @@ class StoryPart {
   choice() {
     // Extract data from the line
     let data = StoryPart.REGEX_CHOICE.exec(this.line)
-    this.line = '[name="PLAYER"] ' + data[1]
+    this.line = '[name="博士"] ' + data[1]
     this.characters[1] = 'player'
     this.focusedCharacter = 2
     return this.quote()
+  }
+
+  sound() {
+    // Set type of this instance
+    this.type = StoryPart.TYPE_SOUND
+    // Extract data from the line
+    let soundFile = StoryPart.REGEX_SOUND.exec(this.line)
+    if (!soundFile) return Promise.resolve()
+    this.sound_file = soundFile[1]
+    // Create rendering process
+    let self = this
+    return Promise.coroutine(function*() {
+      self.height = 80
+      let soundDisplayText = self.translations.sound(self.sound_file)
+      // Load the sound icon
+      let soundIcon = yield Utils.loadImage(['icons', 'sounds.png'])
+      // Set the make renderer
+      self.makeRenderer = (pageOpts, foregroundY) => {
+        return pageCanvas => {
+          // Get page context
+          let pageCtx = pageCanvas.getContext('2d')
+          let maxWidth = pageCanvas.width - (pageOpts.padding.left + pageOpts.padding.right)
+          // Drqaw containers
+          pageCtx.fillStyle = 'rgba(0,0,0,0.4)'
+          pageCtx.fillRect(pageOpts.padding.left, foregroundY, maxWidth, 80)
+          // Draw sound icon
+          pageCtx.drawImage(soundIcon, 0, 0, soundIcon.width, soundIcon.height, pageOpts.padding.left + 20, foregroundY + 20, 40, 40)
+          // Set shadows for text
+          pageCtx.shadowColor = "#FF0000"
+          pageCtx.shadowBlur = 10
+          // Create text bubble
+          let textCanvas = new Canvas.createCanvas(maxWidth - 80, 300)
+          let textContext = textCanvas.getContext('2d');
+          textCanvas.width = maxWidth - 80
+          textCanvas.height = 80
+          textContext.fillStyle = '#ffffff'
+          CanvasTextWrapper(textCanvas, soundDisplayText, {
+            font:  config.pageOpts.part.soundSize + 'px ' + (config.font || 'Chinese'),
+            textAlign: 'left',
+            verticalAlign: 'middle',
+            sizeToFill: false,
+            renderHDPI: false,
+            allowNewLine: false,
+          })
+          // Draw to actual page canvas
+          pageCtx.drawImage(textCanvas, 0, 0, textCanvas.width - 80, textCanvas.height, pageOpts.padding.left + 80, foregroundY, textCanvas.width - 80, textCanvas.height)
+          // Clear text shadows from ctx
+          pageCtx.shadowColor = "none"
+          pageCtx.shadowBlur = 0
+        }
+      }
+    })()
   }
 
 }

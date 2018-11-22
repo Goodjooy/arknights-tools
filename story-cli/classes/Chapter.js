@@ -27,6 +27,7 @@ class Chapter {
 
         case StoryPart.TYPE_HEADER:
           console.log('\nHEADER', part.line.substring(0,30))
+          self.characters = [ null, null ]
           yield self.addToPage(part)
           break;
 
@@ -49,7 +50,7 @@ class Chapter {
 
         case StoryPart.TYPE_CHARACTER:
           console.log('\nCHARACTER', part.line.substring(0,30))
-          if (part.characters[0] || part.characters[1]) self.characters = part.characters
+          if (part.characters[0] || part.characters[1] || part.removeCharacters) self.characters = part.characters
           if (part.focusedCharacter) self.focusedCharacter = part.focusedCharacter
           break;
 
@@ -76,6 +77,11 @@ class Chapter {
           break;
 
         case StoryPart.TYPE_CHOICE:
+          console.log('\nCHOICE', part.line.substring(0,30))
+          yield self.addToPage(part)
+          break;
+        
+        case StoryPart.TYPE_SOUND:
           console.log('\nCHOICE', part.line.substring(0,30))
           yield self.addToPage(part)
           break;
