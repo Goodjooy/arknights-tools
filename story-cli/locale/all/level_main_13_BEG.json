@@ -1,0 +1,283 @@
+{
+  "messages": [
+    {
+      "zh": "第十三关（前）",
+      "en": "level 13(pre)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......唔......嗯......",
+      "en": "……Ummm……Emmm……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "不、不好意思......",
+      "en": "I, I’m sorry……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "没关系？可是......",
+      "en": "It’s Okay? But……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "你太累了",
+      "en": "You’re too tired",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......博士......",
+      "en": "……Doctor……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我没问题的，谢谢你。",
+      "en": "I’m okay, thank you.’",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我们已经......在龙门了吗？",
+      "en": "Are we……at Lungmen already?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "请注意——",
+      "en": "Attention——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "受天灾影响，龙门全域处于停航状态。龙门二号关口将于2小时后关闭。",
+      "en": "Affected by the Calamity, Lungmen’s cruise is suspended full-range. The second port of Lungmen will be closed after two hours.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "请积极配合工作人员进行矿石病检疫。",
+      "en": "Please actively coordinate with the staff for Ore Disease Quarantines.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "一旦发现任何未经登记的感染者，请广大市民立刻向最近的警员通报。",
+      "en": "Upon discovering unregistered infected individuals, citizens should report to the nearest police immediately. ",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "近卫局将依照《紧急处理法案》依法对其进行拘捕。",
+      "en": "The Guard Bureau will arrest them according to the Emergent Disposing Act.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "请注意——",
+      "en": "Attention——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "和传闻中一样......",
+      "en": "Just like what we’ve heard……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "走吧，博士。",
+      "en": "Let’s go, Doctor.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我们到了。",
+      "en": "We’re here.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "罗德岛与近卫局约好在十点见面。",
+      "en": "Rhodes Island and the Guard Bureau arranged to meet at ten.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "现在是十点十四。",
+      "en": "It is fourteen past ten now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "你们迟到了十四分钟，无谓的浪费了我十四分钟时间。",
+      "en": "You’re fourteen minutes late, pointlessly wasting me fourteen minutes of time.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......抱歉，陈长官，我们被拥堵在检疫口外的人群拖延——",
+      "en": "……Sorry, officer Ch’en, we were blocked by the crowd at the quarantine entrance——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "够了。我不想听无谓的借口。",
+      "en": "enough. I don’t want excuses.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "——这个人是？",
+      "en": "——and this is?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "Dr.{@nickname}是罗德岛的顾问。凯尔希医生应该通知过你们。",
+      "en": "Dr.___is Rhodes Island’s consultant. Dr.Kal’tsit should have notified you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "哼。",
+      "en": "Hmm.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "好了，跟我去见——",
+      "en": "Alright, I’ll take you to meet——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "近卫局队员",
+      "zh": "陈组长！不好了！不好——感染者——那——",
+      "en": "Captain Ch’en! Oh no! The Infected——the——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "慌什么！",
+      "en": "Stop panicking!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "一队，戒备！狙击队员，立刻就位！",
+      "en": "Team one, get ready! Snipers, man your positions!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "普通人",
+      "zh": "发生，发生什么了！",
+      "en": "What, what’s happening!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "感染者",
+      "zh": "放开我！！",
+      "en": "Let me go!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "啧......",
+      "en": "Tut……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "冷静点！汇报情况！",
+      "en": "Calm down! Report the situation!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "感染者",
+      "zh": "让我过去！！为什么要抓我！！",
+      "en": "Let me past!! Why are you arresting me!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "感染者",
+      "zh": "我们不是怪物！！！",
+      "en": "We are not monsters!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "近卫局队员",
+      "zh": "有感染者——暴动——我们——",
+      "en": "There are the Infected——riot——we——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......我自己都看到了。",
+      "en": "……I’m seeing it myself.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "算了。",
+      "en": "Whatever.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "你们这些罗德岛的，跟上！",
+      "en": "Those of you from Rhodes Island, follow up!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "要是连这点小事都处理不好，这个任务我可没法放心交给你们。",
+      "en": "If you can’t even deal with something like this, I can’t entrust this mission to you.",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

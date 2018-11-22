@@ -1,0 +1,235 @@
+{
+    "messages": [
+      {
+        "zh": "第二十六关（前）",
+        "en": "level 26(pre)",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "星熊",
+        "zh": "这个地形不太对。",
+        "en": "This terrain isn’t right.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "星熊，你留下帮罗德岛一把。我带近卫局换个位置。",
+        "en": "Hoshiguma, stay and give Rhodes Island a hand. I’ll take the Guard Bureau to a different position.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "星熊",
+        "zh": "明白。你自己也小心。",
+        "en": "Understood. You be careful too.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "黄沙、荒原、岩石......",
+        "en": "Gravels, wasteland, rocks……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "唯独没有敌人的身影。",
+        "en": "Only the enemy’s out of sight.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "——唔哦，刚才那阵风好大。",
+        "en": "——Waugh, That gust was strong.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "唔唔，可视范围这么小，有点施展不开呢......",
+        "en": "Hmm, with such poor visual range, I can’t really perform……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "不能再前进了。",
+        "en": "We can’t go any further.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "整合运动可能会等到我们都进入包围圈再发动攻击——那就危险了。",
+        "en": "Reunion Movement might wait until we enter an encirclement to attack——that’d be too dangerous.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "我会和雷蛇通过迂回战术占领高地。在我们通知你之前，罗德岛最好坚守阵地。",
+        "en": "Me and Liskarm will take the high ground circuitously. Before we noti you, Rhodes Island should better hold its ground.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "保持联系。",
+        "en": "Stay in touch.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "废墟空无一人。",
+        "en": "The ruin is empty.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "高处没人占据......",
+        "en": "The high ground unoccupied……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "奇怪......",
+        "en": "Strange……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "整合运动难道失去了指挥官？",
+        "en": "Could be be that Reunion Movement lost their commander?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "怎么会放弃如此重要的隘口——？",
+        "en": "Why would they give up such an important pass——?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "芙兰卡，有什么问题吗？",
+        "en": "Franka, any problem there?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "明明是易守难攻的地形。",
+        "en": "It is an easy to hold but hard to attack terrain.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "整合运动却放弃了埋伏罗德岛的想法——————",
+        "en": "But Reunion Movement gave up ambushing Rhodes Island————",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "不——",
+        "en": "No——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "我们只是没按着你们的想法来。",
+        "en": "We just didn't do it as you expected.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "——芙兰卡！！小心侧面！！",
+        "en": "——Franka!! To your sides!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "呵呵。",
+        "en": "Heh heh.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "未免，也太小看我了吧？",
+        "en": "Aren’t you looking too down upon me?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "咳......快剑......？！",
+        "en": "Wha……quicksword……?!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "......黑钢......！",
+        "en": "……Blacksteel……!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "撤退！快撤退！",
+        "en": "Retreat! Retreat now!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "我还真以为这里有大批整合运动据守呢，结果就是一小批胆小鬼啊。",
+        "en": "I expected numerous Reunion Movement to be here, but it turned out to be just a bunch of cowards.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "别让他们跑了！追击！",
+        "en": "Don’t let them get away! Advance!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "不要冒进——优先确保制高点！不要给整合运动丁点反击的机会！",
+        "en": "Don't get too far——secure the high ground first! Don’t give Reunion Movement any chance to fight back!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "小心那个整合运动的暴徒，那不是普通的战斗人员！",
+        "en": "Beware of that Reunion Movement mobster, that’s no normal combat personnel!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "干员们，小心对付！",
+        "en": "Operators, be careful!",
+        "jp": "",
+        "kr": ""
+      }
+    ]
+  }
+  

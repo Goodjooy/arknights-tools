@@ -1,0 +1,221 @@
+{
+    "sounds": [
+        {
+            "key": "$flashback",
+            "en": "FLASHBACK",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$e_atk_arrow_h",
+            "en": "ARROW HITS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$e_atk_blunt_n",
+            "en": "BLUNT HIT",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$b_char_rockexplo",
+            "en": "EXPLODING ROCKS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_gen_explo_n",
+            "en": "EXPLOSION",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_gen_thunders_amb",
+            "en": "THUNDER",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$b_char_defboost",
+            "en": "SHIELDS UP",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$p_skill_spiritexplo",
+            "en": "PSYCHO BURST",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$p_skill_chimera",
+            "en": "CHIMERA SKILL ACTIVATES",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_gen_walk_n",
+            "en": "FOOTSTEPS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$radio",
+            "en": "RADIO ANNOUNCEMENT",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_gen_soldiersrun",
+            "en": "SOLDIERS FOOTSTEPS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_gen_doorclose",
+            "en": "DOOR CLOSES",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$slideshow",
+            "en": "FILM SLIDESHOW SOUNDS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$e_imp_sword_h",
+            "en": "SWORD STAB SOUNDS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$e_skill_skulsrshot",
+            "en": "GUNSHOT",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_gen_signalbomb",
+            "en": "SIGNAL FLARES",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$p_imp_blunt_h",
+            "en": "BLUNT HIT",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$p_imp_sword_n",
+            "en": "SWORD STAB SOUNDS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$p_atk_smg_h",
+            "en": "SUBMACHINE GUN SHOTS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$p_imp_grenade_n",
+            "en": "GRENADE EXPLOSION",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$phone",
+            "en": "PHONE RINGING",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$e_skill_skulsrexplo",
+            "en": "GRENADE LAUNCHER EXPLOSION",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$p_imp_axe_h",
+            "en": "AXE SOUNDS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+          "key": "$p_imp_axe_h",
+          "en": "AXE SOUNDS",
+          "zh": "",
+          "jp": "",
+          "kr": ""
+        },
+        {
+            "key": "$d_gen_surfacefrozen",
+            "en": "GROUND FREEZING",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_sp_ballista",
+            "en": "BALLISTA SOUNDS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$p_imp_whip_h",
+            "en": "WHIP SOUNDS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_gen_dooropen",
+            "en": "DOOR OPENS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_sp_amiyakilling",
+            "en": "AMIYA ATTACKS",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        },
+        {
+            "key": "$d_gen_heartbeat",
+            "en": "HEARTBEAT",
+            "zh": "",
+            "jp": "",
+            "kr": ""
+        }
+    ]
+}

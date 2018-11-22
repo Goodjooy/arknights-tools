@@ -1,0 +1,261 @@
+{
+    "messages": [
+      {
+        "zh": "第二十关（前）",
+        "en": "level 20(pre)",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "芙兰卡，雷蛇，注意警戒四周。",
+        "en": "Franka, Liskarm, stay on guard.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "我带米莎去见陈长官。",
+        "en": "I’ll take Misha to officer Ch’en.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......"
+      },
+      {
+        "ch": "陈",
+        "zh": "你们又迟到了。别给龙门增加多余的安全隐患。",
+        "en": "You’re late again. Don't add to Lungmen’s safety hazards.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "陈长官，整合运动多次袭击我们的护送队，现在，敌人仍在我们周围徘徊。",
+        "en": "Officer Ch’en, Reunion Movement attacked our escort team multiple times. Right now, the enemies are still around us.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "这里并不安全，请赶快带米莎离开。",
+        "en": "This place isn’t safe, please take Misha away as soon as possible.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "你就是米莎？",
+        "en": "You’re Misha?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......是的。",
+        "en": "……Yes.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "从现在起，你必须听从近卫局的安排。",
+        "en": "From now on, you must abide by the Guard Bureau’s arrangements.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "看好这孩子。",
+        "en": "Keep an eye on this child.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "近卫局队员",
+        "zh": "跟我来吧。",
+        "en": "Come with me.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "阿米娅......",
+        "en": "Amiya……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "没事的。",
+        "en": "It's okay.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......"
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "陈长官，这个孩子，我不知道龙门究竟需要她做什么——",
+        "en": "Officer Ch’en, this child, I don’t know what Lungmen needs her for——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "但我希望龙门能保护好她的安全。",
+        "en": "But I hope Lungmen can keep her safe.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "龙门对感染者已经很宽厚了。",
+        "en": "Lungmen is generous enough to the Infected already.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......我明白。",
+        "en": "……I know.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "但米莎的身体状况并不好。",
+        "en": "But Misha’s conditions aren’t good at all.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "我希望龙门在解决事件后，能让米莎在罗德岛生活。",
+        "en": "I hope that after Lungmen solves this incident, Misha can be allowed to live at Rhodes Island.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "——我会向魏长官申请的。",
+        "en": "——I’ll apply to executive Wei.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "检查后如果没有其他问题，龙门就会把她移交给罗德岛。",
+        "en": "If there are no other problems after inspection, Lungmen will transfer her to Rhodes Island.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "用不了太久。",
+        "en": "It won’t take long.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "明白。",
+        "en": "Understood.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......就在这里暂时告别吧，米莎。",
+        "en": "……Let’s part ways here for now, Misha.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "罗德岛欢迎你。",
+        "en": "Rhodes Island welcomes you.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......嗯！",
+        "en": "……Yes!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "我们的任务就这样结束了？",
+        "en": "Our mission ends like this?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "牵扯的事情越多，罗德岛越会陷入被动。",
+        "en": "The more we’re involved in this, the more passive Rhodes Island will be.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "但龙门还把我们蒙在鼓里呢。",
+        "en": "But Lungmen is still keeping us in the dark.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "龙门对我们很冷淡——",
+        "en": "Lungmen is cold to us——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "但整合运动可是十分热情。",
+        "en": "But Reunion Movement is very enthusiastic.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "......"
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "阿米娅。",
+        "en": "Amiya.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "又是整合运动......！",
+        "en": "Reunion Movement again……!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "——追到这里来了吗！",
+        "en": "——They chased all the way to here!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "他们究竟要米莎......做什么？",
+        "en": "What do they really want Misha……for?",
+        "jp": "",
+        "kr": ""
+      }
+    ]
+  }
+  

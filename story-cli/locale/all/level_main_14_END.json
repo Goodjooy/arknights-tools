@@ -1,0 +1,535 @@
+{
+  "messages": [
+    {
+      "zh": "第十四关（后）",
+      "en": "level 14(post)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "——以上就是此次战斗的全过程。",
+      "en": "——And that is the full account of the battle.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "你的评价？",
+      "en": "And your evaluation?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "——非常专业。",
+      "en": "——Very Professional.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "迅速应激的姿态，富有效率的指挥，合理对地形与火力进行运用。",
+      "en": "Swift reactions, efficient commanding, and rational usage of terrain and firepower.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "他们的实力确实合格。",
+      "en": "Their strength does qualify.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "但魏长官，无论是在战略层面，还是关于他们的身份，我都认为......",
+      "en": "But executive Wei, Regarding on both the strategic level and their identities, I think it’s…… ",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "可以了。",
+      "en": "That’s enough.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......龙门近卫局完全可以胜任接下来的任务。",
+      "en": "……Lungmen Guard Bureau is fully competent for the coming tasks.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "我们需要专家。",
+      "en": "We need experts.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......"
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "对抗犯罪与侵略，近卫局绰绰有余，但罗德岛——却能提供更多的可能性。",
+      "en": "Against crime and invasion, the Guard Bureau is more than enough, but Rhodes Island——gives us more possibilities.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......明白。",
+      "en": "……Understood.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "不过——",
+      "en": "However——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "魏先生有什么见解？",
+      "en": "What does Mr.Wei have to say?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "龙门拿出了自己的诚意，罗德岛也理应，嗯——拿出自己的。",
+      "en": "Lungmen has shown its sincerity, and Rhodes Island should, Hum——show yours.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "可以。罗德岛的情报显示。若不采取措施，整合运动将在未来一周内攻陷龙门。",
+      "en": "Alright. Rhodes Island’s information shows that, if no measures are taken, Reunion Movement will capture Lungmen within the next week.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......危言耸听。没有任何证据可以表明——",
+      "en": "……Alarmist talk, no evidence shows that——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "陈警官，我不是在论证可能性，而是在论证危险性。",
+      "en": "Officer Ch’en, I’m not talking about possibilities, I’m talking about prominent danger.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "想知道切尔诺伯格一夜失陷的真正原因吗？",
+      "en": "Do you want to know the true reason why Chernobog fell overnight?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "请说。",
+      "en": "Please go on.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "阿米娅。",
+      "en": "Amiya.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "啊......好的。",
+      "en": "Ah……yes.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "罗德岛不仅亲历了切尔诺伯格事件，而且......",
+      "en": "Rhodes Island has not only witnessed the Chernobog incident, moreover……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我们经历了天灾，并且自灾难中活了下来。",
+      "en": "We’ve went through the Calamity, and survived from it.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "原来如此。那可真是——",
+      "en": "I see. That’s really——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "除了一些不要命的狂人，我还真没亲眼见到过多少人能从天灾中幸存呢。令人尊敬。",
+      "en": "Other than some fearless mad men, I have seen few to survive from a calamity. I am awed.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "难怪你们对情况那么清楚，凯尔希小姐。",
+      "en": "No wonder you have so much knowledge of the situation, Ms.Kal’tsit.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "阿米娅小姐，请继续说，我在听。",
+      "en": "Ms.Amiya, please go on, I’m listening.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......我们与整合运动的领袖交过手。",
+      "en": "……We’ve fought with the leader of Reunion Movement.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "——"
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "嗯？她的名字是？我记得不太清楚——",
+      "en": "Umm? And her name is? I can’t remember——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "整合运动的领袖是塔露拉",
+      "en": "The leader of Reunion Movement is called Talulah",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "哦，对，塔露拉。陈警官，你认为呢？",
+      "en": "Oh, right, Talulah. Officer Ch’en, what do you think?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "————！",
+      "en": "————!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "我——知道。",
+      "en": "I——know.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......这就是罗德岛在切尔诺伯格的经历。",
+      "en": "……This is what Rhodes Island went through in Chernobog.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "罗德岛认为，切城被整合运动渗透已久。",
+      "en": "Rhode Island believes that Chernobog has been infiltrated by Reunion Movement for a long time.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "遭受天灾的切城虽然脱离了乌萨斯的控制——",
+      "en": "Struck by Calamity, Chernobog went out of Ursus’ control——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "相应的，也陷入了资源匮乏的窘境。",
+      "en": "And accordingly, is now running short on resources.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "这时，整合运动最有可能选择的目标是——",
+      "en": "In this condition, Reunion Movement’s most likely target is——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "龙门，对吗？",
+      "en": "Lungmen, right?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "是，是的。",
+      "en": "Ri,Right.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "呵......小姑娘，你说服了我。",
+      "en": "He……little girl, you’ve convinced me.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "但正如我刚才所说——",
+      "en": "But just as I’ve said before——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "......罗德岛的要价太高，是吗？",
+      "en": "……Rhodes Island is asking for too high a price, right?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "正是如此。为了弥补龙门的支出，我有两个额外条件。",
+      "en": "That’s right. To compensate for Lungmen’s expenses, I have two additional conditions.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "第一，罗德岛必须帮助近卫局解除整合运动对龙门的威胁。",
+      "en": "First, Rhodes Island must assist the Guard Bureau in eliminating Reunion Movement’s threat to Lungmen.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "威胁具体的范畴呢？",
+      "en": "And the exact range of the threat?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "可见范围内。你知道，罗德岛的选择并不多。",
+      "en": "Within all observable ranges. You know, Rhodes Island doesn’t have much choice.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "——第二个要求？",
+      "en": "——The second condition?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "喔，看来你们已经达到预期目标了。但第二个——要等你们完成首要任务再说。",
+      "en": "Oh, it seems that you’ve already achieved your objective. But the second——needs to wait until you finish the first.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "陈警官，你有什么意见？",
+      "en": "Officer Ch’en, do you have anything to say?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "——我认可这次行动。",
+      "en": "——I approve this operation.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "呵。看来陈警官也有了她自己的目标。",
+      "en": "Ha. Looks like officer Ch’en has got her objective too.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......"
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "恭喜各位，龙门信任你们。陈警官将全权负责和你们的对接事宜。",
+      "en": "Congratulations, Lungmen trusts in you. Officer Ch’en will be in full charge of collaborations with you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "——明白。",
+      "en": "——Understood.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "感染者自由行动会引起市民的恐慌，希望你们在执行任务时能服从陈警官的命令。",
+      "en": "Infected wandering about will cause panic in the citizens. I hope you can abide by officer Ch’en’s orders during missions. ",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "——阿米娅？",
+      "en": "——Amiya?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......没问题。我会尽力配合。",
+      "en": "……No problem. I’ll do my best to cooperate.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......"
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "当然，只要罗德岛完成首要任务，我就可以向你们兑现承诺。",
+      "en": "Of course, so long as Rhode Island finishes the primary task, I will fulfill my promises.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "龙门的关口将向你们敞开为罗德岛提供无限期的停靠服务与商业渠道。",
+      "en": "The ports of Lungmen will provide you with unlimited docking service and trade routes.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "只要并非特殊情况，龙门的关口便将向你们敞开。",
+      "en": "Apart from certain special circumstances, the ports of Lungmen will always be open to you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "唔......啊......！那个大叔超难对付的......",
+      "en": "Ughh……Ahh……! That old man was so tough to deal with……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "讲起话来慢条斯理，却感觉所有话都被他说完了......！",
+      "en": "He talks so slowly, but I feel like he’s left nothing for me to say……!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "阿米娅，你总得学会自己与他们交涉。",
+      "en": "Amiya, you have to learn to negotiate with them yourself one day.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "说起来——",
+      "en": "Speaking of which——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "......"
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "......你......",
+      "en": "……you……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "初次见面，Dr.凯尔希",
+      "en": "Nice to meet you, Dr.Kal’tsit",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "............"
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "凯尔希医生，请别为难博士——",
+      "en": "Dr.Kal’tist, please don’t be difficult to Doctor——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "嘘——",
+      "en": "Shhh——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......"
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "......呵。",
+      "en": "……Ha.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "你好，Dr.{@nickname}。",
+      "en": "Hello, Dr.___",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "欢迎回来。",
+      "en": "Welcome back.",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

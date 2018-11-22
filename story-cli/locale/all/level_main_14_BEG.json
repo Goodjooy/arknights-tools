@@ -1,0 +1,449 @@
+{
+  "messages": [
+    {
+      "zh": "第十四关（前）",
+      "en": "level 14(pre)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "进来吧。",
+      "en": "Come in.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......凯尔希医生！",
+      "en": "……Dr.Ka’ltsit!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "——阿米娅......",
+      "en": "——Amiya……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "是你。",
+      "en": "It’s you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "......"
+    },
+    {
+      "ch": "陈",
+      "zh": "咳咳。",
+      "en": "cough cough.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "魏长官，罗德岛的两位代表到了。",
+      "en": "Executive Wei, the two representatives of Rhodes Island are here.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "哦——另两位客人也来了啊。",
+      "en": "Oh——The other two guests have arrived.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "请坐。凯尔希小姐正向我说明现在的局势呢。",
+      "en": "Please have a sit. Ms. Kal’tsit is explaining the situation for me.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "——局势怎么样，魏先生很清楚。",
+      "en": "——You know very well, what the situation is like.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "十二天来，各方政治领袖都被同一个消息所震惊——",
+      "en": "During the past twelve days, the world’s political leaders are shocked by the same news—— ",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "——“乌萨斯的重要城市切尔诺伯格，遭到激进感染者的占据，并且毁于天灾”——",
+      "en": "The major city of Ursus, Chernobog, was captured by Infected extremists, and destroyed in a Calamity——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "在其他城市中，这些感染者所属的组织也带领着感染者暴徒犯下了各种暴行。",
+      "en": "In other cities, the organization these Infected belong to also committed all kinds of atrocities.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "而这个感染者组织，叫做——",
+      "en": "And this organization of the Infected, is called——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "——整合运动。",
+      "en": "——Reunion Movement.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "没错。",
+      "en": "That's right.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "龙门的情报网每天都在为龙门搜刮大量的信息。我所说的，魏先生都已经知道了。",
+      "en": "Lungmen’s intelligence network gathers vast information for Lungmen every day. What I’ve just said, Mr.Wei already knows.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "目前我并不觉得，罗德岛的情报能对魏先生有什么吸引力。",
+      "en": "For now, I don’t think Rhodes Island’s information is by any means appealing to Mr.Wei.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......"
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "但据我所知，龙门近卫局对整合运动正向龙门渗透一事并无应对措施。",
+      "en": "But according to my knowledge, Lungmen Guard Bureau has no countermeasures for Reunion Movement’s infiltration into Lungmen.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "感染者检疫是不能对抗整合运动的。",
+      "en": "Quarantines won’t work against Reunion Movement.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "一，整合运动不会乖乖过检——",
+      "en": "First, Reunion Movement won’t take the tests obediently——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "——二，整合运动不会等到当局反应过来才行动。",
+      "en": "——Second, they won’t wait until the government reacts to act.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "近卫局比罗德岛更了解龙门，也更知道它的优势与缺陷。",
+      "en": "The Guard Bureau knows more about Lungmen than Rhodes Island, and knows better about its strengths and weaknesses.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "龙门没有将机密行动的方针通知罗德岛的义务。",
+      "en": "Lungmen is not obligated to inform Rhodes Island about its confidential operations.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "凯尔希小姐，请继续说。",
+      "en": "Ms. Kal’tsit, please continue.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "龙门的确有对付手无寸铁的感染者的经验——",
+      "en": "Lungmen does have experiences dealing with unarmed Infected——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "但龙门有对付集团化感染者暴徒的经验吗？",
+      "en": "But does Lungmen know how to deal with banded Infected mobsters?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "只有感染者，才能对抗感染者。",
+      "en": "Only the Infected, can fight against the Infected.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "整合运动这样规模的感染者问题，罗德岛也曾处理过？",
+      "en": "So, has Rhodes Island ever dealt with Infected issues the scale of Reunion Movement?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "不止如此。",
+      "en": "More than that.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "哦——？",
+      "en": "Oh——?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "我听说，罗德岛曾卷入过事件。",
+      "en": "I’ve heard, that Rhodes Island has been involved in certain incidents.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "无论魏先生是从哪里得到这条消息的——",
+      "en": "Wherever did Mr. Wei hear of this——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "这都不是现阶段能与龙门交换的信息。",
+      "en": "This is not information to exchange with Lungmen at this stage.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "决定是否要和你们进行利益交换的是龙门。",
+      "en": "It is Lungmen that decides whether to make exchanges of interest with you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "如果这种程度的信息罗德岛都无法提供——",
+      "en": "If Rhodes Island can’t even provide information of this degree——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "呵。龙门将无法信任你们的真实实力。",
+      "en": "Huh. Lungmen won’t be able to trust in your strength.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "罗德岛提供的信息，本身就是用实力换来的。",
+      "en": "The information Rhodes Island provides, is acquired by strength itself.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "嗯——我认可这个说法。",
+      "en": "Emm——this I agree.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "无论怎样，龙门都无法信任一群感染者。",
+      "en": "No matter what, Lungmen can’t trust a group of Infected.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "魏先生既不强求罗德岛摆明立场，也不怀疑罗德岛对任务的忠诚。",
+      "en": "Mr.Wei neither demands Rhodes Island make clear its position, nor doubts Rhodes Island’s loyalty to the mission.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "陈小姐难道认为龙门的安危，尚不如对感染者这一身份的惩罚来的重要？",
+      "en": "Does Ms. Ch’en think that Lungmen’s safety is less important than punishments for being an Infected?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "那我会立刻服从当地法令，任由陈小姐逮捕我——",
+      "en": "If that’s the case, then I’ll abide by your laws and let Ms.Ch’en arrest me——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "在监牢里看着龙门被整合运动焚烧殆尽，默默惋惜。",
+      "en": "And watch Lungmen being burnt down by Reunion Movement, lamenting.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "这次，龙门别无选择。",
+      "en": "This time, Lungmen has no choice.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "——龙门既不是因为有人出言不逊就拒绝善意的城市——",
+      "en": "——Lungmen is not a city that turns down goodwill because of disrespectful words——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "却也不是收留无用说客的慈善机构。",
+      "en": "But nor is it a charity for useless braggers.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "陈警官。",
+      "en": "Officer Ch’en.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "魏长官，让外来的感染者参与龙门的机密事务，我认为并不妥当。",
+      "en": "Executive Wei, I don't think it's appropriate to let foreign Infected take part in Lungmen’s confidential affairs.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "陈警官，他们是客人。",
+      "en": "Officer Ch’en, they are guests.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "——我的客人。",
+      "en": "——My guests.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "....."
+    },
+    {
+      "ch": "陈",
+      "zh": "在他们违反龙门法律之前，我会容忍，长官。",
+      "en": "Before they break Lungmen’s law, I’ll tolerate, Executive.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "请放心，罗德岛的诸位，我尊重任何潜在的合作伙伴。",
+      "en": "Be assured, those of you from Rhodes Island, I have respect for every potential collaborator.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "但凯尔希小姐，我上了年纪，容易忘记谈话中那些零碎的内容......",
+      "en": "But Ms. Kal’tsit, I’m an old man, and I easily forget pieces of information in a conversation……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "——魏先生的意思是，我所阐述的事实，都不重要？",
+      "en": "——Does Mr.Wei imply that, the facts I just presented, are not important at all?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "啊，不好意思。我想起来了，有这么一句——",
+      "en": "Ah, excuse me. I remember now, There was this——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "——没错，呣......",
+      "en": "——That’s right, hmm……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "我所看重的就只有一点。实力。",
+      "en": "I only care for one thing. Strength.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "据我所知，罗德岛也参与镇压了方才的感染者暴动吧？",
+      "en": "According to my knowledge, Rhodes Island took part in suppressing the Infected riot before, right?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "魏彦吾",
+      "zh": "陈警官，罗德岛军事力量的实力如何？",
+      "en": "Officer Ch’en, What do you think of Rhodes Island’s military power?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......请容我简要描述一下我所见的罗德岛的战斗。",
+      "en": "……please allow be to brief my account of Rhodes Island’s battle.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "——详情如下——",
+      "en": "——It was like this——",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

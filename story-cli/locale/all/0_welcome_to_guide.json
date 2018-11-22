@@ -1,0 +1,615 @@
+{
+  "messages": [
+    {
+      "zh": "初始引导",
+      "en": "Guidance",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "哦，是你。",
+      "en": "Oh, it’s you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "离上一次见面过去了好久，你过得还好吗？",
+      "en": "It’s been a long time since we last met, are you doing well?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "在这段时间里......你一直......在徘徊......",
+      "en": "During this time……You’ve been……wandering……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "......在悬崖的边缘......",
+      "en": "……at the edge of the cliff……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "可能，你已经忘了你自己是什么人。",
+      "en": "Perhaps, you have forgotten who you are.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "不过至少你还记得那个名字，不是吗？",
+      "en": "But at least you still remember that name, don’t you?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "先不讨论这个问题了......",
+      "en": "Never mind that now……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "你不是我的客人，也并不应该在这里出现。",
+      "en": "You are not my guest, and you shouldn’t be here.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "她还需要你。",
+      "en": "She still needs you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "你知道12月23日对你来说意味着什么吗？",
+      "en": "Do you know what December the 23rd means to you?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "如果你忘了......我能让你回想起来。",
+      "en": "If you’ve forgotten……I can let you recall it.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "......知觉......",
+      "en": "……Conscious……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "开始循环........................阻升主......停跳液注入完成......",
+      "en": "Begin cycling……stopping ascending aortic……cardioplegia injection complete……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "......体温过低......",
+      "en": "Body temperature too low……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "......海克塞米松20cc，静推。",
+      "en": "Hexamethasone 20cc, intravenous inject.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "止血钳！",
+      "en": "Hemostat!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "......状态正常......开始切除......注意室颤......",
+      "en": "……Conditions normal……start resection……pay attention to the VF……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "......置入st............准备复温......",
+      "en": "Place in st…………prepare for rewarming……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "............"
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "......抱歉......",
+      "en": "……sorry……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "模糊的声音",
+      "zh": "又让你受苦了。",
+      "en": "for letting you suffer again.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "......"
+    },
+    {
+      "ch": "？？？",
+      "zh": "博士......",
+      "en": "Doctor……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": ".......手！",
+      "en": "……Hand!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "抓......紧！",
+      "en": "Hold……Tight!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "抓紧我的手！！",
+      "en": "Hold my hand tight!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "......"
+    },
+    {
+      "ch": "？？？",
+      "zh": "紧急......",
+      "en": "Emergent……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "......救......",
+      "en": "……help……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "......成功了......！",
+      "en": "……succeeded……!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "博士，醒一醒......醒一醒啊......！",
+      "en": "Doctor, wake up……wake up……!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "呼，呼......阿米娅！你跑太快了！我们小队都没有跟上你啊！",
+      "en": "Huh, Huh……Amiya! You ran too fast! Our squad couldn’t catch up with you!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "那面墙难道是你炸碎的吗......",
+      "en": "Did you shatter that wall……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "太冒险了！你可是罗德岛的——",
+      "en": "This is too dangerous! You are Rhodes Island’s——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "啊啊......对不起......！",
+      "en": "Ahh……sorry……!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "不对！先别管这个了，medic！",
+      "en": "No! Never mind that now, medic!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "快，快来看看博士！",
+      "en": "Quick, come take a look at Doctor!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "他好像没有意识的样子......明明刚才还抓住了我......",
+      "en": "He doesn’t seem to be conscious……But he just caught hold of me……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "好......好。你别那么心急。我也很挂念博士的呀。",
+      "en": "O……Ok. Don’t be so impatient. I’ve been missing Doctor a lot too.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "真是的，阿米娅，你要更加小心点才行......",
+      "en": "Seriously, Amiya, you need to be more careful……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "博士怎么样了？",
+      "en": "Is Doctor okay?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "嗯......呼吸比较微弱，血压正常，有轻微的心动过缓现象，不要紧——",
+      "en": "Emm……breathing is weak, blood pressure normal, slight bradycardia syndromes, it’s alright——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "啊......小心！",
+      "en": "Ah……careful!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "你......你醒了？",
+      "en": "You……you’ve woke up?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "先别动，你的身体还没有完全适应。",
+      "en": "Don’t move, your body is not fully adjusted yet.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "阿米娅，我们成功了。他清醒了。",
+      "en": "Amiya, we succeeded. He has regained conscious.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "博士......？",
+      "en": "Doctor……?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "太好了，太好了......",
+      "en": "Thank god, thank god……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "你是谁？",
+      "en": "Who are you?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "啊——博士——我......",
+      "en": "Ah——Doctor——I……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......"
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我是......",
+      "en": "I am……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我叫阿米娅。",
+      "en": "My name is Amiya.’",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "我是谁？",
+      "en": "Who am I?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "你......是我的同伴，Dr.{@nickname}——",
+      "en": "You……are my companion, Dr.___——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我最重要的同伴。",
+      "en": "My most important companion.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "你什么都......不记得了吗？",
+      "en": "You can’t……remember anything?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "（摇头）",
+      "en": "(shake head)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "唔？......这还真是......",
+      "en": "Huh?……this is really……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......这......",
+      "en": "……this……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "没关系，这样也好......",
+      "en": "It’s okay, this is fine too……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "不好，有人来了！",
+      "en": "Beware, someone’s coming!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "——————"
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "啧......从哪冒出来的？",
+      "en": "Tut……where did they come from?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "别慌张，做好准备战斗！",
+      "en": "Don’t panic, prepare for combat!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "凯尔希医生的远程通讯呢？",
+      "en": "Where’s Dr.Kalt’sit’s telecommunication?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "从刚才开始就受到干扰，通讯设备已经停止工作了！",
+      "en": "It’s been jammed since a while ago, the communication device has stopped working!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "阿米娅......现在怎么办！",
+      "en": "Amiya……what do we do now!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "是被什么隔断了吗......",
+      "en": "Is it cut off by something……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "那样凯尔希医生就不能参与支援了......！",
+      "en": "Then Dr.Kalt’sit can’t provide support for us……!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "阿米娅，那样只能靠你......！",
+      "en": "Amiya, then only you can……!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "——"
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "不。我——还需要战斗。",
+      "en": "No.I——still need to fight.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "————我希望让{@nickname}博士来指挥。",
+      "en": "————I would like to let Dr.___take command",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "Dr.{@nickname}。",
+      "en": "Dr.___",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "即使你失去了记忆......但你曾与我们......一同战斗。",
+      "en": "Even if you’ve lost your memories……You’ve still……fought together with us.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我们一起度过了许多时光。",
+      "en": "We’ve been through much time together.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "你能为我们带来胜利。",
+      "en": "You can bring us victory.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "你能为我们带来胜利。",
+      "en": "You can bring us victory.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......我知道像这样突然请求你很失礼。",
+      "en": "I know it’s rude of me to suddenly ask you of this.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "不过......拜托了，请你助我们一臂之力。",
+      "en": "But…...please, help us.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "试着做做吧，我也会辅助你的。",
+      "en": "Try it, I’ll assist you too.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "————"
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我相信你。",
+      "en": "I believe you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "——我相信你，一定可以。",
+      "en": "I believe, that you can do this.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "博士，指挥权现在移交给你！",
+      "en": "Doctor, I am transferring command to you now!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "（还有一个问题......）",
+      "en": "(one more question...)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "也是，博士还不知道我们是谁呢...",
+      "en": "Yeah, Doctor still doesn’t know who we are…",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "Dr.{@nickname}，从今以后，你就是我们的一员了。",
+      "en": "Dr.___, from today on, you are one of us.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "请记住大家共同的名字 ——",
+      "en": "please remember our common name——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "罗德岛。",
+      "en": "Rhodes Island.",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+    "messages": [
+      {
+        "zh": "第十七关（后）",
+        "en": "level 17(post)",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "阿米娅！走！",
+        "en": "Amiya! Let’s go!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "米莎小姐！请跟上！",
+        "en": "Miss Misha! Please keep up with us!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......怎么......会......",
+        "en": "……How……could this be……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "这边，快！",
+        "en": "This way, quick!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "区域clear！小心敌方追击！",
+        "en": "Area clear! Beware of their pursuit!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......"
+      },
+      {
+        "ch": "米莎",
+        "zh": "他们也是......？",
+        "en": "They are……too?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......是。",
+        "en": "……Yes.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "他们确实是......感染者。",
+        "en": "They are……Infected as well.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "......"
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "碎骨......你放他们逃了？",
+        "en": "Bone Breaker……you let them get away?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "没关系......",
+        "en": "Doesn’t matter……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "他们逃不了。",
+        "en": "They won’t get away.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "......但我找到她了——不，是......等到她......",
+        "en": "……But I’ve found her——No, but rather……she came to me……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "......"
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "我们到了。",
+        "en": "We’re here.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "——你认真的？",
+        "en": "——Are you serious?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "标记是这么写的。",
+        "en": "The mark says so.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "阿米娅，阿米娅！上来，对对，就是上面！",
+        "en": "Amiya, Amiya! Come up, yea yea, up!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "——能天使！",
+        "en": "——Exusiai!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "你......确定吗？",
+        "en": "Are you……sure of this?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "相信我，不会有错的~",
+        "en": "Trust me, this can’t go wrong~",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "啊哈......",
+        "en": "Aha……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "爬楼吧。",
+        "en": "Let’s climb.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "这岂不是......等着敌人来包围我们？",
+        "en": "Isn’t this……inviting them to round us up?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "快点，要是被整合运动发现就真的难说了！",
+        "en": "Quick, it’ll be hard to say if they find us!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "啧，等等，我先把这里炸了，堵住入口。",
+        "en": "Tut, wait a sec, let me blow here up and block the entrance.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "有一个企鹅的标记，是这里吗？",
+        "en": "There’s a penguin’s mark here, is it here?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "没错，前方左转，沿着楼梯向上。",
+        "en": "That’s right, turn left ahead, and follow the steps up.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "我们进入建筑——是从地下吗？",
+        "en": "We’re entering the building——from underground?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "不是不是，刚才就说了，往上。",
+        "en": "No No, like I just said, up.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "......往上？",
+        "en": "……up?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "我们真的......可以相信她？",
+        "en": "Can we really……trust her?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "企鹅物流的宗旨之一是，只要能抵达目的地，什么路都可以走。",
+        "en": "One of Penguin Logistics’ motto is, any path can be taken as long as it leads to the destination.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "先试一次我们的服务吧。你会喜欢上的。",
+        "en": "Try our service for once. You’ll like it.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "......"
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "呼......呼......",
+        "en": "Huh……Huh……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "米莎，对不起......我也没想到......",
+        "en": "Misha, I’m sorry……I didn’t expect this either……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......"
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "你就是罗德岛的那位Dr.{@nickname}？",
+        "en": "You're that Dr.___ from Rhodes Island?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "看起来你不太喜欢爬楼。",
+        "en": "Looks like you don’t really like climbing stairs.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "到了。",
+        "en": "We’re here.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "——？！",
+        "en": "——?!",
+        "jp": "",
+        "kr": ""
+      }
+    ]
+  }
+  

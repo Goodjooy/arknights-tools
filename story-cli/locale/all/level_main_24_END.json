@@ -1,0 +1,595 @@
+{
+    "messages": [
+      {
+        "zh": "第二十四关（后）",
+        "en": "level 24(post)",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "你就是米莎吧？你好。",
+        "en": "You’re Misha right? Hello.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "......听碎骨他说了好久，今天，终于见到你了。",
+        "en": "……I’ve heard so much from Bone Breaker, and today, I finally see you in person.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......你也是......感染者......？",
+        "en": "……You are……an Infected too……?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "是的。",
+        "en": "Yes.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "为什么要加入......整合运动？",
+        "en": "Why did you join……Reunion Movement?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "为什么？",
+        "en": "Why?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "————"
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "我的妻子，孩子......都死在切尔诺伯格人的手里。",
+        "en": "My wife, children……all died in the hands of the Chernobogians.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "乌萨斯感染者的遭遇，比牲畜还不如。",
+        "en": "Ursus’s Infected, were treated worse than animals.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "毁灭切尔诺伯格——？作为复仇，太轻了，太轻了......",
+        "en": "Destroying Chernobog——? For revenge, that is too gentle, too gentle……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "他们手上有多少感染者的血？！",
+        "en": "How much Infected blood have they got on their hands?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "米莎——我们被人恐惧，被人愚弄，被人侮辱，被人迫害——",
+        "en": "Misha——We are feared, fooled, insulted, oppressed——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "——只因我们是感染者。",
+        "en": "——Just because we are infected.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "仅仅是这样而已。",
+        "en": "Just because of that.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "............"
+      },
+      {
+        "ch": "碎骨",
+        "zh": "伊万，来帮忙接下伤员。",
+        "en": "Evan, come and help with our wounded.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "这个废弃矿场只是临时据点，大家在这里暂时整顿一下。",
+        "en": "This abandoned mine is only a temporary hideout, we’ll rest here for a while.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "等到时机成熟，我们就撤回切尔诺伯格。",
+        "en": "When the time is right, we’ll retreat to Chernobog.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......亚——",
+        "en": "……A——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "不。",
+        "en": "No.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "我已经舍弃了那个名字。叫我碎骨。",
+        "en": "I have given up that name. Call me Bone Breaker.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "你——是不是有点害怕？",
+        "en": "Are you——a little scared?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "碎......骨？......为什么？",
+        "en": "Bone……Breaker?……Why?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "呵......你会明白的。",
+        "en": "Heh……you’ll understand.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "大家知道你流落龙门之后，都自告奋勇的要把你救出来。",
+        "en": "After knowing that you got stranded in Lungmen, everyone volunteered to come rescue you.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "在龙门，我们也接纳了许多感染者。",
+        "en": "In Lungmen, we took in many other Infected as well.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "——但你们......在伤害别人。",
+        "en": "——But you……were hurting others.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "我不愿意......我不想......",
+        "en": "I won’t……I don’t want to……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "感染者为什么要......",
+        "en": "Why does the Infected have to……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "以眼还眼，理所应当。",
+        "en": "An eye for an eye, that’s how it works.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "对待亲人，就该像春天一样温暖......",
+        "en": "Our kins, should be treated warm as spring……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "但对待敌人————",
+        "en": "But for our enemies————",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": ".................."
+      },
+      {
+        "ch": "米莎",
+        "zh": "怎么了？",
+        "en": "What’s wrong?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "......你知道吗？",
+        "en": "……Do you know?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "不——你——你不知道。",
+        "en": "No——you——you don’t know.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "他们来抓我时，我被拖出门去......我看见妈妈她抓着我的手......",
+        "en": "When they came for me, I was dragged out of the door……I saw mother holding on to my hand……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "你看见的。你一定——",
+        "en": "You saw it. You must have——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "他们殴打她，她不肯松手......他们在雪地上拖出一条血路。",
+        "en": "They beat her, she wouldn’t let go……they dragged a trail of blood on the snow.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "如果整合运动......如果感染者能......如果————！",
+        "en": "If only Reunion Movement……if only the Infected can……if only—————!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "我们感染者就不用遭遇那么多苦难了！",
+        "en": "We Infected wouldn’t have suffered that much!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "我......我......我没敢......我......呜......",
+        "en": "I……I……I didn’t dare……I……sob……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "米莎......",
+        "en": "Misha……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "会好的......一切都会好的。",
+        "en": "It will be okay……everything’s gonna be okay.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "我不怪你。当时......谁有勇气呢？",
+        "en": "I don’t blame you. In that situation……who could have had the courage?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "但至少现在，整合运动给了我勇气。",
+        "en": "But at least now, Reunion Movement has given me courage.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "碎骨......",
+        "en": "Bone Breaker.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "你可以选择不相信我们。",
+        "en": "You can choose not to believe us.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "——即便你相信我们了，你也可以选择不加入我们。",
+        "en": "——Even if you believe us, you can still choose not to join us.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "但你是一个感染者。",
+        "en": "But you are an Infected.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "整合运动......一定会为了感染者的自由战斗到底。",
+        "en": "Reunion Movement……will fight to the end for the freedom of the Infected.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "可你们......摧毁了切尔诺伯格。",
+        "en": "But you……destroyed Chernobog.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "有无数无辜的人死去——",
+        "en": "Many innocent people died——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "——无辜？呵，谁是无辜的？",
+        "en": "——Innocent? Heh, who is innocent?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "切尔诺伯格实行隔离制度时，有谁反对过吗？",
+        "en": "When Chernobog adopted the isolation policy, has anyone objected?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "我们被拖去矿场，乌萨斯任由我们在寒冬中死去时，有谁反对过吗？",
+        "en": "When we were dragged to the mines, and left by Ursus to die in the winter, has anyone objected?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "有谁，站出来，反对过吗？！",
+        "en": "Has anyone, stood out, to object?!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "......有两个领袖，他们说过，有一些乌萨斯人，也在为了感染者抗争——",
+        "en": "……There are two leaders, who once said, that there are some Ursusians fighting for the Infected as well——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "但他们不在切尔诺伯格。切尔诺伯格冷眼看着我们死去——",
+        "en": "But they were not in Chernobog. Chernobog watched us die coldly——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "不，切尔诺伯格乐于看到我们死去！！",
+        "en": "No, Chernobog was glad to see us die!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......"
+      },
+      {
+        "ch": "米莎",
+        "zh": "我也遇到过别的帮助感染者的人......他们......",
+        "en": "I have met other people helping the Infected……they……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "罗德岛？",
+        "en": "Rhodes Island?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "明明是感染者，却帮助龙门，伤害我们？",
+        "en": "Who despite being the Infected, helps Lungmen to hurt us?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......"
+      },
+      {
+        "ch": "碎骨",
+        "zh": "杀死我们的同胞，残害我们的兄弟？",
+        "en": "Killing our kinds, slaughtering our brothers?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "不......",
+        "en": "No……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "你看不清事实。但你现在该看清了......",
+        "en": "You don’t see the truth. But you should see it now……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "......"
+      },
+      {
+        "ch": "碎骨",
+        "zh": "......对不起，我太生气了。",
+        "en": "……Sorry, I’m too heated.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "没事......我......",
+        "en": "It’s okay……I……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......我理解你......",
+        "en": "……I understand you……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "这么长时间以来，你过得......很辛苦吧？",
+        "en": "For all this time, you……had a hard time right?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "大家都过得很痛苦。",
+        "en": "Everyone’s had a hard time.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "而现在，至少每个人都抱着希望。",
+        "en": "But now, at least we’ve all got hope.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "塔露拉......是她带领感染者，反抗残忍的一切。",
+        "en": "Talulah……she’s the one that’s leading the Infected, fighting against this cruel world.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "整合运动就是我们的希望。",
+        "en": "Reunion Movement is our hope.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......大家都吃过很多苦。",
+        "en": "……Everyone’s been through many hardships.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "如果整合运动真的能保护他们的话......",
+        "en": "If Reunion Movement can really protect them……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "当然了。整合运动会保护大家......我也会保护你。",
+        "en": "Of course. Reunion Movement will protect everyone……I will protect you too.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "再也不会让你受伤了。",
+        "en": "I’ll never let you get hurt again.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "————碎骨......",
+        "en": "————Bone Breaker……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "唔，找到了——！",
+        "en": "Ahh, found them——!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "看来之前的几次进攻让他们损失不小呢。",
+        "en": "Looks like the previous attacks did a lot of damage to them.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "预估一下他们的撤退路线，和方位一起发给阿米娅。",
+        "en": "Evaluate their retreating paths, and send them to Amiya along with the coordinate.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "——别让整合运动太闲着。",
+        "en": "——Let’s not keep Reunion Movement idle for too long.",
+        "jp": "",
+        "kr": ""
+      }
+    ]
+  }
+  

@@ -3,7 +3,9 @@ assets/bg/*.png
 assets/cg/*.png
 assets/char/*.png
 assets/maps/*.png
-!input/**/*.txt
+input/**/*.txt
 output/**/*.png
+output/machine/**/*
 tmp/**/*
 !**/*/.gitkeep
+dev/**/*

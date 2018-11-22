@@ -1,0 +1,233 @@
+{
+    "messages": [
+      {
+        "zh": "第十六关（后）",
+        "en": "level 16(post)",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "前方清理完毕。",
+        "en": "Area ahead cleared.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "你们也走快点！",
+        "en": "You, make haste!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......哈......究竟是什么人......啊......",
+        "en": "……Hah……Who were those people……hah……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "各位，请加快速度！",
+        "en": "Everyone, we need to speed up!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "阿米娅，有追兵，我们来不来得及反击？",
+        "en": "Amiya, we’ve got tails behind us. Do we have time to fight back?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "尽可能甩开他们，避免无谓的战斗——！",
+        "en": "Try to outrun them. Avoid unnecessary battles——!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "能天使，先不说安全问题了......我需要一条能最快抵达这个地点的路线。",
+        "en": "Exusiai, forget about safety now……I need a fastest route to this location.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "这些家伙已经发现了我们的踪迹......花费的时间越长，罗德岛的处境越危险！",
+        "en": "These people have hooked on to us……The longer time we take, the more dangerous we are!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "这好办，我这有一条敌人想不到的。",
+        "en": "Piece of cake, I’ve got one they won’t expect.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "你已经有主意了？",
+        "en": "You’ve got an idea?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "当然~不过要说可不可靠，我还得亲自去踩点看看。",
+        "en": "Of course~But if you ask how reliable it is, I need to check it out myself first.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "请加油。",
+        "en": "Please hurry.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "好嘞~我先去了，马上回来！",
+        "en": "Ok~off I go now, I’ll be back soon!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......"
+      },
+      {
+        "ch": "米莎",
+        "zh": "......我可以问问——我们要去哪里吗？",
+        "en": "……Can I ask——where are we going?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "我们会与近卫局汇合。龙门近卫局会负责保护你。",
+        "en": "We’re going to meet up with the Guard Bureau. Lungmen Guard Bureau will be guarantee your safety.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......咦？",
+        "en": "……Huh?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......龙门近卫局？",
+        "en": "Lungmen Guard Bureau?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "我们的任务就是把你安全的移交给近卫局，由他们进行暂时的保护。",
+        "en": "Our mission is to escort you to the Guard Bureau safely, and put you under their temporary protection.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......"
+      },
+      {
+        "ch": "米莎",
+        "zh": "......我差点就以为，你们真的是来救我的了。",
+        "en": "……I almost believed, that you really came to save me.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......在龙门，近卫局对你的保护是最安全的。",
+        "en": "……In Lungmen, the Guard Bureau is the safest place for you.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "如果我们不行动，你就会遭遇更大的危险。",
+        "en": "If we don’t act, you’ll be in greater danger.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "许多尝试抢夺你的感染者，身上都戴着整合运动的标志——",
+        "en": "Many of the Infected trying to capture you, they bear the symbol of Reunion Movement——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "我不知道什么整合运动......我记不清......",
+        "en": "——I don’t know about the Reunion Movement……I can’t remember……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "但我知道近卫局，也看到过近卫局怎么对待感染者！",
+        "en": "But I know about the Guard Bureau, and I have seen how they treat the Infected!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "你们这些......家伙......骗了我......！你们要把我怎么样！",
+        "en": "You……lied to me……! What are you going to do to me!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......对不起。",
+        "en": "……I’m sorry.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "有些误会现在还没法解开。",
+        "en": "Some misunderstandings can’t be resolved now.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "无论你觉得我们有多恶劣——抱歉......请你先忍耐一下。",
+        "en": "No matter how vile you think we are——sorry……please endure for a while now.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "比起你的心情，还是你的安全更重要。",
+        "en": "Compared with your mood, your safety is more important.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "如果有机会，我会解释一切。",
+        "en": "If there is a chance, I’ll explain everything.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "米莎",
+        "zh": "......"
+      }
+    ]
+  }
+  
