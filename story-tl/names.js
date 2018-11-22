@@ -3,7 +3,7 @@ const fs = require('fs')
 const glob = require('glob')
 const Promise = require('bluebird')
 
-let files = glob.sync('output/*.json')
+let files = glob.sync('output/*.txt')
 let allNames = []
 let uniqueNames = []
 
@@ -18,7 +18,9 @@ Promise.each(files, sourceFile => {
         if (name && (uniqueNames.indexOf(name) === -1)) {
           allNames.push({
             zh: name,
-            tl: ''
+            en: '',
+            jp: '',
+            kr: '',
           })
           uniqueNames.push(name)
         }
@@ -29,5 +31,5 @@ Promise.each(files, sourceFile => {
     })
 })
 .then(() => {
-  fs.writeFileSync(path.join(__dirname, 'output', 'names.json'), JSON.stringify({ names: allNames }, null, 2))
+  fs.writeFileSync(path.join(__dirname, 'output', 'names.txt'), JSON.stringify({ names: allNames }, null, 2))
 })
