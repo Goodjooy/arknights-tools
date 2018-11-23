@@ -1,0 +1,10 @@
+{
+  "name": "arknights-wiki-tools",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "charmodules": "node scripts/generate_char_modules.js",
+    "itemmodules": "node scripts/generate_item_modules.js",
+    "interactions": "node scripts/extract_interactions.js"
+  }
+}
