@@ -19,10 +19,10 @@ class StoryPart {
   static get TYPE_CHOICE() { return 'choice' }
   static get TYPE_SOUND() { return 'sound' }
 
-  static get REGEX_HEADER() { return /\[HEADER\((.*)\)\] (.*)/g }
+  static get REGEX_HEADER() { return /\[HEADER\((.*?)\)\] (.*)/g }
   static get REGEX_BACKGROUND() { return /\[Background\(image="([a-zA-Z0-9_]+)"/g }
-  static get REGEX_CHARACTER() { return /\[Character\((.*)\)]/g }
-  static get REGEX_QUOTE() { return /\[name="(.*)"\](\s)+(.+)/g }
+  static get REGEX_CHARACTER() { return /\[Character\((.*?)\)]/g }
+  static get REGEX_QUOTE() { return /\[name="(.*?)"\](\s)+(.+)/g }
   static get REGEX_IMAGE() { return /\[Image\(image="(.*?)"(.*)\)\]/g }
   static get REGEX_CHOICE() { return /\[Decision\(options="(.*?)"/g }
   static get REGEX_SOUND() { return /\[PlaySound\(key="(.*?)"/g }

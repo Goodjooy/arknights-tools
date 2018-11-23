@@ -7,18 +7,20 @@ module.exports = data => {
       data.contents.split('\n').forEach(line => {
         let quote = {}
  
-        let headerMatch = /\[HEADER\((.*)\)\] (.*)/g.exec(line)
-        let speechMatch = /\[name="(.*)"\](\s)+(.+)/g.exec(line)
-        let playerMatch = /Decision\(options="(.*?)"/g.exec(line)
+        let headerMatch = /(\s)?\[HEADER\((.*?)\)\] (.*)/g.exec(line)
+        let speechMatch = /(\s)?\[name="(.*?)"\](\s)+(.+)/g.exec(line)
+        let playerMatch = /(\s)?\[Decision\(options="(.*?)"/g.exec(line)
 
-        if (headerMatch && headerMatch[2].trim()) {
-          quote.zh = headerMatch[2].trim()
-        } else if (speechMatch && speechMatch[2].trim()) {
-          if (speechMatch[1].trim()) quote.ch = speechMatch[1].trim()
-          quote.zh = speechMatch[2].trim()
-        } else if (playerMatch && playerMatch[1].trim()) {
+        if (headerMatch && headerMatch[3].trim()) {
+          quote.zh = headerMatch[3].trim()
+          
+        } else if (speechMatch && speechMatch[4].trim()) {
+          if (speechMatch[2].trim()) quote.ch = speechMatch[2].trim()
+          quote.zh = speechMatch[4].trim()
+
+        } else if (playerMatch && playerMatch[2].trim()) {
           quote.ch = 'PLAYER'
-          quote.zh = playerMatch[1].trim()
+          quote.zh = playerMatch[2].trim()
         }
 
         if (!(/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(quote.zh))) {
