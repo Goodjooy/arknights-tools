@@ -1,0 +1,328 @@
+{
+    "messages": [
+      {
+        "zh": "第二十九关（后）",
+        "en": "level 29(post)",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "第二防线突破！",
+        "en": "Second defense line broken!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "都跟上我！",
+        "en": "Follow me!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "别让他们过去！！",
+        "en": "Don’t let them get past!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "W应该带走她了——————！",
+        "en": "W should have taken her away——————!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "不能让这些家伙得逞！！",
+        "en": "We can’t let them get what they want!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "啊啊啊！这是碎骨的仇！！死吧！！",
+        "en": "Ahhhh! This is for Bone Breaker!! Die!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "星熊",
+        "zh": "愚昧！",
+        "en": "Fools!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "星熊",
+        "zh": "——给我让开！",
+        "en": "——Out of my way!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "哇......把人撞飞了？她让我想到......罗德岛的一个同事呢。",
+        "en": "Wow……knocking people into the air? She reminds me of……a colleague at Rhodes Island.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "雷蛇",
+        "zh": "——芙兰卡，我们上！",
+        "en": "——Franka, Let’s go!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "哈，龙门的传说看来是真的啊......",
+        "en": "Ha, it seems that Lungmen’s legend is real……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "别看太入迷。",
+        "en": "Don't get too absorbed.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "能天使",
+        "zh": "二楼的狙击手可是我发现的哦？",
+        "en": "I spotted that sniper on the second floor you know?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "德克萨斯",
+        "zh": "......我们走。",
+        "en": "……Let’s go.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "芙兰卡，有没有找到米莎？",
+        "en": "Franka, have you found Misha?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "到处都没有她的踪迹。",
+        "en": "We don’t see her signs everywhere.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "W可能已经把她带走了——",
+        "en": "Maybe W has already taken her away——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......"
+      },
+      {
+        "ch": "芙兰卡",
+        "zh": "啧，动作也太快了——",
+        "en": "Psst, that’s very fast of her——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......？",
+        "en": "……?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "哪里的......爆炸？",
+        "en": "Where……did that explosion come from?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "芙兰卡，集合各个小队，我们快过去！",
+        "en": "Franka, assemble the squads, let’s go!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "近卫局队员",
+        "zh": "罗德岛，小心！他们从那边过来了！！",
+        "en": "Rhodes Island, careful! They’re coming from that way!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......咦？！",
+        "en": "……Huh?!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "那是......？",
+        "en": "Is that……?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "嘁，这是什么把戏？",
+        "en": "Psst, what kind of trick is this?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "陈",
+        "zh": "别发呆！找掩体！",
+        "en": "Don’t just stand there! Take cover!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......"
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......不......",
+        "en": "……No……",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "————是你吗......是你吗！！！",
+        "en": "————Is that you……is that you!!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "他没事——他没事！！",
+        "en": "He’s alright——he’s alright!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "碎骨还活着！！",
+        "en": "Bone Breaker is still alive!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "碎骨！真的是碎骨！！",
+        "en": "Bone Breaker! It’s really Bone Breaker!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动",
+        "zh": "好！碎骨！万岁！！碎骨！！",
+        "en": "Yeah! Bone Breaker! Hurray!! Bone Breaker!!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "......形势很严峻，碎骨。",
+        "en": "……We're in a bad situation, Bone Breaker.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "但至少......你回来了。",
+        "en": "But at least……you are back.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "——太好了......真的......太好了。",
+        "en": "——Thank goodness……really……thank goodness.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "——我会在这里挡住他们。",
+        "en": "——I’ll hold them off here.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "你们，快走。",
+        "en": "You, leave now.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "我会保护你们——",
+        "en": "I will protect you——",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "说什么呢碎骨。",
+        "en": "What are you talking about, Bone Breaker.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "整合运动成员",
+        "zh": "我们不是早说过，要一起回乌萨斯，给那些家伙点颜色看看吗？",
+        "en": "Didn’t we promise each other before, that we’d return to Ursus together, and teach those people a lesson?",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "碎骨",
+        "zh": "......"
+      },
+      {
+        "ch": "碎骨",
+        "zh": "别死了。",
+        "en": "Don’t die here.",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "......"
+      },
+      {
+        "ch": "陈",
+        "zh": "愣在那做什么！",
+        "en": "What are you still doing there!",
+        "jp": "",
+        "kr": ""
+      },
+      {
+        "ch": "阿米娅",
+        "zh": "——————！",
+        "en": "——————!",
+        "jp": "",
+        "kr": ""
+      }
+    ]
+  }
+  

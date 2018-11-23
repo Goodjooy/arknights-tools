@@ -1,151 +1,150 @@
 {
-    "messages": [
-      {
-        "zh": "第二十四关（前）",
-        "en": "level 24(pre)",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "陈",
-        "zh": "你终于到了，星熊。",
-        "en": "You’re finally here, Hoshiguma.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "星熊",
-        "zh": "抱歉，被那人拖了太久。",
-        "en": "Apologies, got delayed by that person for too long.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "陈",
-        "zh": "你有没有受伤？",
-        "en": "Are you hurt?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "星熊",
-        "zh": "没有。但确实被吓了一跳。",
-        "en": "No. But surprised indeed.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "星熊",
-        "zh": "特别督察组加强了对龙门本区的防守。我带出来的这些，就是全部可用的小队了。",
-        "en": "Special Investigation Division enhanced the defenses to Lungmen main district. Those that I brought with me are all the squads we can use.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "陈",
-        "zh": "......特别督察组真的是被她一个人就拦下了吗？",
-        "en": "……Was the Special Investigation Division really stopped by her single handedly?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "星熊",
-        "zh": "没亲眼见过之前，我也不敢相信。",
-        "en": "Before I saw it for myself, I couldn’t believe it either.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "星熊",
-        "zh": "那个家伙，确实有这个水准。",
-        "en": "That person, does have the skills for that.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "阿米娅",
-        "zh": "陈长官，这位是......",
-        "en": "Officer Ch’en, this is……",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "陈",
-        "zh": "特别督察组精英干员星熊。",
-        "en": "Special Investigation Division, elite operator Hoshiguma.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "星熊",
-        "zh": "你们就是——罗德岛？",
-        "en": "and you are——Rhodes Island?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "星熊",
-        "zh": "不问别的。现在，你们有什么思路？",
-        "en": "Other things aside now. What ideas have you got now?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "阿米娅",
-        "zh": "两位我方的特别行动人员已经探明了劫持者的去向。",
-        "en": "Two of our specialized operators have discovered the kidnapper’s whereabouts. ",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "阿米娅",
-        "zh": "她们正在跟踪这支整合运动，我们可以随她们的指引行动。",
-        "en": "They’re tracking this group of Reunion Movement now, we can act according to their directions.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "星熊",
-        "zh": "可以啊。老陈，你确实夸在点子上了，这些人是真的在行。",
-        "en": "Nice. Ch’en, your compliments are well given, these people are really professional at it.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "陈",
-        "zh": "呵。",
-        "en": "Heh.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "陈",
-        "zh": "星熊，召集近卫局所有小队，该行动了。",
-        "en": "Hoshiguma, gather up all squadrons of the Guard Bureau. Time to move.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "陈",
-        "zh": "罗德岛，你们带路。",
-        "en": "Rhodes Island, you lead the way.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "阿米娅",
-        "zh": "——了解。当然，整合运动似乎留下了一些断后的战斗人员，埋伏在路线上——",
-        "en": "——Understood. Of course, Reunion Movement seems to have left some rear guards, hiding along the way.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "星熊",
-        "zh": "这简单。当然我也想看看——罗德岛战斗起来是不是也一样内行！",
-        "en": "That’s piece of cake. And of course I also want to see——if Rhodes Island is equally professional in battles!",
-        "jp": "",
-        "kr": ""
-      }
-    ]
-  }
-  
+  "messages": [
+    {
+      "zh": "第二十四关（前）",
+      "en": "level 24(pre)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "你终于到了，星熊。",
+      "en": "You’re finally here, Hoshiguma.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "星熊",
+      "zh": "抱歉，被那人拖了太久。",
+      "en": "Apologies, got delayed by that person for too long.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "你有没有受伤？",
+      "en": "Are you hurt?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "星熊",
+      "zh": "没有。但确实被吓了一跳。",
+      "en": "No. But surprised indeed.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "星熊",
+      "zh": "特别督察组加强了对龙门本区的防守。我带出来的这些，就是全部可用的小队了。",
+      "en": "The Special Inspection Division enhanced the defenses to Lungmen main district. Those that I brought with me are all the squads we can use.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "......特别督察组真的是被她一个人就拦下了吗？",
+      "en": "……Was the Special Inspection Division really stopped by her single handedly?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "星熊",
+      "zh": "没亲眼见过之前，我也不敢相信。",
+      "en": "Before I saw it for myself, I couldn’t believe it either.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "星熊",
+      "zh": "那个家伙，确实有这个水准。",
+      "en": "That person, does have the skills for that.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "陈长官，这位是......",
+      "en": "Officer Ch’en, this is……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "特别督察组精英干员星熊。",
+      "en": "Special Inspection Division, elite operator Hoshiguma.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "星熊",
+      "zh": "你们就是——罗德岛？",
+      "en": "and you are——Rhodes Island?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "星熊",
+      "zh": "不问别的。现在，你们有什么思路？",
+      "en": "Other things aside now. What ideas have you got now?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "两位我方的特别行动人员已经探明了劫持者的去向。",
+      "en": "Two of our specialized operators have discovered the kidnapper’s whereabouts. ",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "她们正在跟踪这支整合运动，我们可以随她们的指引行动。",
+      "en": "They’re tracking this group of Reunion Movement now, we can act according to their directions.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "星熊",
+      "zh": "可以啊。老陈，你确实夸在点子上了，这些人是真的在行。",
+      "en": "Nice. Ch’en, your compliments are well given, these people are really professional at it.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "呵。",
+      "en": "Heh.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "星熊，召集近卫局所有小队，该行动了。",
+      "en": "Hoshiguma, gather up all squadrons of the Guard Bureau. Time to move.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陈",
+      "zh": "罗德岛，你们带路。",
+      "en": "Rhodes Island, you lead the way.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "——了解。当然，整合运动似乎留下了一些断后的战斗人员，埋伏在路线上——",
+      "en": "——Understood. Of course, Reunion Movement seems to have left some rear guards, hiding along the way.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "星熊",
+      "zh": "这简单。当然我也想看看——罗德岛战斗起来是不是也一样内行！",
+      "en": "That’s piece of cake. And of course I also want to see——if Rhodes Island is equally professional in battles!",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}
