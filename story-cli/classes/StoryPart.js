@@ -22,6 +22,7 @@ class StoryPart {
   static get REGEX_HEADER() { return /\[HEADER\((.*?)\)\] (.*)/g }
   static get REGEX_BACKGROUND() { return /\[Background\(image="([a-zA-Z0-9_]+)"/g }
   static get REGEX_CHARACTER() { return /\[Character\((.*?)\)]/g }
+  static get REGEX_CHARACTER_EMPTY() { return /\[Character\]/g }
   static get REGEX_QUOTE() { return /\[name="(.*?)"\](\s)+(.+)/g }
   static get REGEX_IMAGE() { return /\[Image\(image="(.*?)"(.*)\)\]/g }
   static get REGEX_CHOICE() { return /\[Decision\(options="(.*?)"/g }
@@ -47,6 +48,7 @@ class StoryPart {
     if (StoryPart.REGEX_HEADER.test(this.line)) return this.header()
     if (StoryPart.REGEX_BACKGROUND.test(this.line)) return this.background()
     if (StoryPart.REGEX_CHARACTER.test(this.line)) return this.character()
+    if (StoryPart.REGEX_CHARACTER_EMPTY.test(this.line)) return this.character()
     if (StoryPart.REGEX_QUOTE.test(this.line)) return this.quote()
     if (StoryPart.REGEX_IMAGE.test(this.line)) return this.image()
     if (StoryPart.REGEX_CHOICE.test(this.line)) return this.choice()
@@ -118,6 +120,7 @@ class StoryPart {
     let char2 = /name2="([a-zA-Z0-9_#]+)"/g.exec(this.line)
     let focus = /focus=([0-9]{1})/g.exec(this.line)
     let fade = /fadetime=([0-9\.]+)/g.exec(this.line)
+    let toEmpty = StoryPart.REGEX_CHARACTER_EMPTY.exec(this.line)
     
     // Save values to properties for later access from outside
     this.characters = [ null, null ]
@@ -125,7 +128,7 @@ class StoryPart {
     if (char1) this.characters[0] = Utils.fixCharName(char1[1])
     if (char2) this.characters[1] = Utils.fixCharName(char2[1])
     if (focus) this.focusedCharacter = focus[1]
-    if (fade) this.removeCharacters = true
+    if (fade || toEmpty) this.removeCharacters = true
     return Promise.resolve()
   }
 

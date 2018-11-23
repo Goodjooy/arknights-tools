@@ -87,7 +87,7 @@
       {
         "ch": "PLAYER",
         "zh": "询问阿米娅是否在回忆过去;询问阿米娅是否在动摇",
-        "en": "Ask if Amiya is thinking of the past; Ask if Amiya is wavering",
+        "en": "> Ask if Amiya is thinking of the past\n> Ask if Amiya is wavering",
         "jp": "",
         "kr": ""
       },
