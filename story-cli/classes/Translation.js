@@ -53,19 +53,19 @@ class Translation {
     let self = this
     return Promise.coroutine(function*(){
       text = text.trim()
-      text = text.replace(/(<([^>]+)>)/ig, '')
-      if (!text) return ''
-      if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(text))) return text
-      if (text == '？？？') return '???'
+      let cleanText = text.replace(/(<([^>]+)>)/ig, '')
+      if (!cleanText) return ''
+      if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(cleanText))) return cleanText
+      if (cleanText == '？？？') return '???'
 
       // Translations from JSON files
       if (self.messages[text] && self.targetLanguage != 'zh') return self.messages[text]
 
       // Translations from Google cache
-      if (self.googleCache[text]) return self.googleCache[text]
+      if (self.googleCache[cleanText]) return self.googleCache[cleanText]
 
       // Manual in-string find-replace overrides
-      let googleRequestText = String(text) // copy
+      let googleRequestText = String(cleanText) // copy
       self.overrides.forEach(override => {
         if (override[self.targetLanguage])
           googleRequestText = googleRequestText.replace(override.find, override[self.targetLanguage])
@@ -80,7 +80,7 @@ class Translation {
           return result[0]
         })
         .then(result => {
-          self.googleCache[text] = result
+          self.googleCache[cleanText] = result
           return result
         })
     })()

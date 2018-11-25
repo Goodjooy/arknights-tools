@@ -86,6 +86,11 @@ class Chapter {
           yield self.addToPage(part)
           break;
 
+        case StoryPart.TYPE_FULLCHARACTER:
+          console.log('\nFULLCHARACTER', part.line.substring(0,30))
+          yield self.addToPage(part)
+          break;
+
         default:
       }
     })()

@@ -14,6 +14,7 @@ class StoryPart {
   static get TYPE_HEADER() { return 'header' }
   static get TYPE_BACKGROUND() { return 'background' }
   static get TYPE_CHARACTER() { return 'character' }
+  static get TYPE_FULLCHARACTER() { return 'fullcharacter' }
   static get TYPE_QUOTE() { return 'quote' }
   static get TYPE_IMAGE() { return 'image' }
   static get TYPE_CHOICE() { return 'choice' }
@@ -22,6 +23,7 @@ class StoryPart {
   static get REGEX_HEADER() { return /\[HEADER\((.*?)\)\] (.*)/g }
   static get REGEX_BACKGROUND() { return /\[Background\(image="([a-zA-Z0-9_]+)"/g }
   static get REGEX_CHARACTER() { return /\[Character\((.*?)\)]/g }
+  static get REGEX_FULLCHARACTER() { return /\[FullCharacter\((.*?)\)]/g }
   static get REGEX_CHARACTER_EMPTY() { return /\[Character\]/g }
   static get REGEX_QUOTE() { return /\[name="(.*?)"\](\s)+(.+)/g }
   static get REGEX_IMAGE() { return /\[Image\(image="(.*?)"(.*)\)\]/g }
@@ -53,6 +55,7 @@ class StoryPart {
     if (StoryPart.REGEX_IMAGE.test(this.line)) return this.image()
     if (StoryPart.REGEX_CHOICE.test(this.line)) return this.choice()
     if (StoryPart.REGEX_SOUND.test(this.line)) return this.sound()
+    if (StoryPart.REGEX_FULLCHARACTER.test(this.line)) return this.fullchar()
     return Promise.resolve()
   }
 
@@ -245,6 +248,46 @@ class StoryPart {
     if (!imgName) return Promise.resolve()
     this.image_name = imgName[1]
     return Promise.resolve()
+  }
+
+  fullchar() {
+    let self = this
+    // Set type of this instance
+    this.type = StoryPart.TYPE_FULLCHARACTER
+    // Detect values
+    let char1 = /name="([a-zA-Z0-9_#]+)"/g.exec(this.line)
+    let charFile = null
+    if (char1) charFile = Utils.fixCharName(char1[1])
+    else return Promise.resolve(null)
+    // Renderer
+    return Promise.coroutine(function*() {
+      self.height = 300
+      // Load the sound icon
+      let charCg = yield Utils.loadImage(['fullchar', charFile + '.png'])
+      // Set the make renderer
+      self.makeRenderer = (pageOpts, foregroundY) => {
+        return pageCanvas => {
+          // Modify character art
+          let charCanvas = new Canvas.createCanvas(charCg.width, charCg.height)
+          let charCtx = charCanvas.getContext('2d')
+          charCtx.drawImage(charCg, 0, 0, charCg.width, charCg.height, 0, 0, charCg.width, charCg.height)
+          charCtx.globalCompositeOperation = 'destination-out'
+          let gradient = charCtx.createLinearGradient(0, 0, 0, charCg.height)
+          let colorStop1 = self.height / charCg.height
+          let colorStop2 = (self.height + 100) / charCg.height
+          gradient.addColorStop(colorStop2, "rgba(255, 255, 255, 1)")
+          gradient.addColorStop(colorStop1, "rgba(255, 255, 255, 0)")
+          gradient.addColorStop(0, "rgba(255, 255, 255, 0)")
+          charCtx.fillStyle = gradient
+          charCtx.fillRect(0, 0, charCg.width, charCg.height)
+          // Get page context
+          let pageCtx = pageCanvas.getContext('2d')
+          // Draw to actual page canvas
+          let drawHeight = (pageCanvas.width / charCg.width) * charCg.height
+          pageCtx.drawImage(charCanvas, 0, 0, charCg.width, charCg.height, 0, foregroundY, pageCanvas.width, drawHeight)
+        }
+      }
+    })() 
   }
 
   choice() {
