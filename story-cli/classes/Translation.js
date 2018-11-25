@@ -87,7 +87,7 @@ class Translation {
   }
 
   google(text) {
-    return Promise.resolve('*')
+    return Promise.resolve([ '*' ])
     return axios.post('https://translation.googleapis.com/language/translate/v2?key=' + config.google_api_key, {
       q: [ text ],
       source: 'zh-CN',

@@ -1,0 +1,385 @@
+{
+  "messages": [
+    {
+      "zh": "引导2到主界面",
+      "en": "Tutorial 2 to home",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "啧！",
+      "en": "Psst!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "当心！",
+      "en": "Watch out!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "Guard，保护她！",
+      "en": "Guard, protect her!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "明白！",
+      "en": "Understood!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "我，我没事！",
+      "en": "I, I’m okay!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "躺下吧你！整合运动的家伙！",
+      "en": "Eat dirt! Reunion Movement asshole!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "呃啊！",
+      "en": "Urghh!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "整合运动小队，确认全灭。",
+      "en": "Reunion Movement squadron, eliminated.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "......真......厉害。指挥一气呵成，毫无漏洞......",
+      "en": "……That was……amazing. Such seasoned commanding, without a single flaw……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "博士还是很厉害的！",
+      "en": "Doctor is just really brilliant!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "抱歉，看来我必须打断你们这场叙旧了。",
+      "en": "Sorry, it seems that I have to interrupt your reunion.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "杜宾！你来了！",
+      "en": "Dobermann! You’re here!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "阿米娅，你冲动了。",
+      "en": "Amiya, you’ve rashed.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "一个人冲进核心区，万一有什么变故，后果不堪设想。",
+      "en": "Rushing into the core zone by yourself, if anything happens, the result is unthinkable.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "对不起......",
+      "en": "I’m sorry……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "下次别这样了。我知道你是在担心任务目标——",
+      "en": "Don't do it again. I know you’re anxious about the mission target——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "......"
+    },
+    {
+      "ch": "杜宾",
+      "zh": "——他就是Dr.{@nickname}？",
+      "en": "——So he is Dr.___?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "是，是的......",
+      "en": "Yeah, yes……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "哈......",
+      "en": "Ha……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "当然，现在的重点不是这个。",
+      "en": "Of course, that’s not the point now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "唔......？难道有特殊情况？",
+      "en": "Huh……? Did anything unusual happen?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "没错。我们刚刚击退了一波袭击。",
+      "en": "That’s right. We just fended off a wave of attack.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "——你是说——整合运动？",
+      "en": "——You mean——Reunion Movement?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "是他们没错。",
+      "en": "It’s them.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "看来，刚才你们也和整合运动发生了冲突。",
+      "en": "It seems, that you’ve just had a fight with them as well.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "这个感染者激进组织的成员，刚刚对我们留在核心区外围的小队发动了突然袭击。",
+      "en": "Members of this radical Infected organization, just attacked our squadrons on the outskirts of the core zone.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "虽然我们解决了那些敌人，但这些家伙的目的，我们并不清楚。",
+      "en": "Although we took care of the enemies, we’re not sure of their purpose.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "现在我必须去侦查敌人的分布了，你们慢慢撤出核心区。",
+      "en": "Now I must go investigate the enemies’ distributions. You guys slowly move out of the core zone.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "好......",
+      "en": "Okay……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "小心点。",
+      "en": "Be careful.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "整合运动......",
+      "en": "Reunion Movement……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "为什么会攻击我们......？罗德岛明明也是为感染者奔走的组织......",
+      "en": "Why did they attack us……? Rhodes Island is an organization fighting for the Infected as well……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "先离开这里吧......我觉得这里有点怪......",
+      "en": "Let’s get out of here first……I think this place is weird……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "没错。核心区的这个石棺，令人不寒而栗。",
+      "en": "That’s right. This confinement in the core zone, makes people shudder.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "——等等。",
+      "en": "——wait.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "怎么了？",
+      "en": "What is it?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "是......来自罗德岛的紧急通讯！",
+      "en": "It’s……an emergency communication from Rhodes Island!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "可能是凯尔希医生......！",
+      "en": "Maybe it’s Dr.Kal’tsit!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "很抱歉，你猜错了。",
+      "en": "Sorry to tell you, you are wrong.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "罗德岛终端服务......PRTS,出了什么事吗？",
+      "en": "Primitive Rhodesisland Terminal Service……PRTS, is there anything wrong?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PRTS",
+      "zh": "应急神经连接请求被意外触发了。",
+      "en": "The emergency neural connection request was activated unexpectedly.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PRTS",
+      "zh": "如果打扰到了您的派对，万分抱歉。我将在稍后断开连接。",
+      "en": "If Iinterrupted your party, I’m sorry for that, and will disconnect shortly.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "不！别......正好我需要你帮个忙！",
+      "en": "Don’t! wait……I need your help now!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "博士，时间很紧张，我现在为你重新连接至罗德岛的后勤系统。",
+      "en": "Doctor, we don’t have much time, I’ll reconnect you to Rhodes Island’s management system.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "在我们作战的时候，希望你能利用它，帮助我们取得优势。",
+      "en": "When we’re in battle, I want you to use it to help us gain advantage.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "PRTS，开始吧。",
+      "en": "PRTS, let’s begin.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PRTS",
+      "zh": "需要确认管理员身份，请选择识别方式。",
+      "en": "Requires administrator authentication, please choose a verification method.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "啊，博士......请你说句话。",
+      "en": "Ah, Doctor……please say something.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "（说话）",
+      "en": "(Speak)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PRTS",
+      "zh": "虽然不知道为什么你不说话，反而触碰了一下屏幕中央——",
+      "en": "I don’t know why you didn’t speak, but touched the center of the screen instead……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PRTS",
+      "zh": "——不过我已经找到相匹配的指纹。",
+      "en": "——but I have found the matching fingerprint.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PRTS",
+      "zh": "身份确认，权限水平：8。",
+      "en": "Identity confirmed, authorization level:8.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PRTS",
+      "zh": "——欢迎回家，Dr.{@nickname}。",
+      "en": "——Welcome home, Dr.___.",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}
