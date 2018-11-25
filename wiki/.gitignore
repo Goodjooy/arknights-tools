@@ -2,3 +2,4 @@ data/*.json
 output/**/*
 !output/.gitkeep
 !output/interactions.json
+dev/**/*
