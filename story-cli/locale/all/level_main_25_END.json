@@ -1,309 +1,308 @@
 {
-    "messages": [
-      {
-        "zh": "第二十五关（后）",
-        "en": "level 25(post)",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "整合运动",
-        "zh": "......走！快撤！这个矿场不能再呆下去了！",
-        "en": "……Go! Let’s move! We can’t stay here anymore!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "发生什么了？！",
-        "en": "What’s happening?!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "整合运动成员",
-        "zh": "是罗德岛的进攻！我们被袭击了！",
-        "en": "It’s Rhodes Island! We’re under attack!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "—————混蛋————",
-        "en": "—————Bastard————",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "不要慌张，组织大家进行反击！",
-        "en": "Don’t panic, assemble everyone for a counterattack!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "米莎",
-        "zh": "碎骨......我们可以和罗德岛......",
-        "en": "Bone Breaker……we can still……",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "——怎么？要我和罗德岛谈谈？",
-        "en": "——What? You want me to talk with Rhodes Island?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "米莎",
-        "zh": "他们一定会帮助感染者的。",
-        "en": "They will help the Infected too.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "那么多同胞都死在罗德岛手上，你让我和他们谈谈——？",
-        "en": "So many of our kins died in the hands of Rhodes Island, and you want me to talk with them——?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "他们都是感染者，罗德岛帮助他们了吗？",
-        "en": "They’re all Infected here, has Rhodes Island helped them?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "究竟是什么东西蒙蔽了你的双眼？！",
-        "en": "What is it that is clouding your eyes?!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "米莎",
-        "zh": "......我......",
-        "en": "……I……",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "感染者好不容易拥有了一丝希望。",
-        "en": "The Infected finally has a sliver of hope now.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "他们作为感染者，却在这个时候来伤害我们，屠杀我们。",
-        "en": "They, being Infected as well, choose to harm us and slaughter us at this time.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "你打算和叛徒谈什么呢？！",
-        "en": "What words do you want to have with traitors?!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "米莎",
-        "zh": "感染者就一定要自相残杀吗？",
-        "en": "Does the Infected have to kill each other?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "那我该怎么办呢......",
-        "en": "What should I do then……",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "难道要我任由同胞死去吗？",
-        "en": "Should I just let my kins die?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "米莎",
-        "zh": "......"
-      },
-      {
-        "ch": "碎骨",
-        "zh": "没事的。",
-        "en": "It’s okay.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "哪怕你被他们抓到也不会受到伤害。你对他们而言还有利用价值......",
-        "en": "You won’t get hurt even if you got caught by them. You’re still of use to them……",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "保护好自己，别被战斗波及。",
-        "en": "Keep yourself safe, don’t get caught in the battle.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "千万要小心......",
-        "en": "Do be careful……",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "米莎",
-        "zh": "你......一定要回来......",
-        "en": "You……have to come back……",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "米莎",
-        "zh": "我好不容易才......",
-        "en": "I’ve finally……’",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "嗯，我会回来找你的。",
-        "en": "Yea, I’ll come back for you.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "到时候，我们一起回家——",
-        "en": "After that, we’ll go back home together——",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "米莎",
-        "zh": "......嗯。",
-        "en": "……Yea.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "碎骨，我和你说过吧？",
-        "en": "Bone Breaker, remember what I’ve told you?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "......我记得。",
-        "en": "……I do.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "——只要干掉那个目标，战局就能瞬间逆转。",
-        "en": "——If I take out that target, the battle can be turned around instantly.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "没错哦。杀死敌方指挥官——很简单吧。",
-        "en": "That’s right. Killing the enemies’ commander——very easy right.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "就是兔子身边那个，带着兜帽的家伙。",
-        "en": "Right beside the bunny, the one in a hood.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "罗德岛所有的战斗都是这个家伙在指挥。",
-        "en": "All of Rhodes Island’s battles are commanded by this guy.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "只要杀掉这个指挥官，喀！",
-        "en": "If you kill this commander, ka-cha!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "罗德岛的大脑就坏死了。",
-        "en": "Rhodes Island’s brain dies.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "什么会变得简单的~",
-        "en": "Everything will become easy~",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "我们的人不多了，可用的战术也很少。",
-        "en": "We don’t have many people left, and there are few tactics we can choose from.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "在矿场前面有一个很好的埋伏圈。我这里的术师会帮你做些掩护——你知道该做什么吧？",
-        "en": "There’s a good spot for ambush just ahead of the mine. My warlocks here will do some covering for you——you know what to do right?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "我的部下会把他们引过来的。好好把握这个机会~",
-        "en": "My secondaries will lure them over. Take good hold of this chance~",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "我明白。",
-        "en": "I know.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "——帮我照顾好米莎。",
-        "en": "——Take care of Misha for me.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "W",
-        "zh": "没问题~那么，祝你好运！",
-        "en": "No problem~good luck to you then!",
-        "jp": "",
-        "kr": ""
-      }
-    ]
-  }
-  
+  "messages": [
+    {
+      "zh": "第二十五关（后）",
+      "en": "level 25(post)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "整合运动",
+      "zh": "......走！快撤！这个矿场不能再呆下去了！",
+      "en": "……Go! Let’s move! We can’t stay here anymore!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "发生什么了？！",
+      "en": "What’s happening?!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "是罗德岛的进攻！我们被袭击了！",
+      "en": "It’s Rhodes Island! We’re under attack!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "—————混蛋————",
+      "en": "—————Bastard————",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "不要慌张，组织大家进行反击！",
+      "en": "Don’t panic, assemble everyone for a counterattack!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "米莎",
+      "zh": "碎骨......我们可以和罗德岛......",
+      "en": "Bone Breaker……we can still……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "——怎么？要我和罗德岛谈谈？",
+      "en": "——What? You want me to talk with Rhodes Island?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "米莎",
+      "zh": "他们一定会帮助感染者的。",
+      "en": "They will help the Infected too.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "那么多同胞都死在罗德岛手上，你让我和他们谈谈——？",
+      "en": "So many of our kins died in the hands of Rhodes Island, and you want me to talk with them——?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "他们都是感染者，罗德岛帮助他们了吗？",
+      "en": "They’re all Infected here, has Rhodes Island helped them?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "究竟是什么东西蒙蔽了你的双眼？！",
+      "en": "What is it that is clouding your eyes?!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "米莎",
+      "zh": "......我......",
+      "en": "……I……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "感染者好不容易拥有了一丝希望。",
+      "en": "The Infected finally has a sliver of hope now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "他们作为感染者，却在这个时候来伤害我们，屠杀我们。",
+      "en": "They, being Infected as well, choose to harm us and slaughter us at this time.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "你打算和叛徒谈什么呢？！",
+      "en": "What words do you want to have with traitors?!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "米莎",
+      "zh": "感染者就一定要自相残杀吗？",
+      "en": "Does the Infected have to kill each other?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "那我该怎么办呢......",
+      "en": "What should I do then……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "难道要我任由同胞死去吗？",
+      "en": "Should I just let my kins die?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "米莎",
+      "zh": "......"
+    },
+    {
+      "ch": "碎骨",
+      "zh": "没事的。",
+      "en": "It’s okay.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "哪怕你被他们抓到也不会受到伤害。你对他们而言还有利用价值......",
+      "en": "You won’t get hurt even if you got caught by them. You’re still of use to them……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "保护好自己，别被战斗波及。",
+      "en": "Keep yourself safe, don’t get caught in the battle.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "千万要小心......",
+      "en": "Do be careful……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "米莎",
+      "zh": "你......一定要回来......",
+      "en": "You……have to come back……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "米莎",
+      "zh": "我好不容易才......",
+      "en": "I’ve finally……’",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "嗯，我会回来找你的。",
+      "en": "Yea, I’ll come back for you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "到时候，我们一起回家——",
+      "en": "After that, we’ll go back home together——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "米莎",
+      "zh": "......嗯。",
+      "en": "……Yea.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "碎骨，我和你说过吧？",
+      "en": "Bone Breaker, remember what I’ve told you?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "......我记得。",
+      "en": "……I do.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "——只要干掉那个目标，战局就能瞬间逆转。",
+      "en": "——If I take out that target, the battle can be turned around instantly.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "没错哦。杀死敌方指挥官——很简单吧。",
+      "en": "That’s right. Killing the enemies’ commander——very easy right.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "就是兔子身边那个，带着兜帽的家伙。",
+      "en": "Right beside the bunny, the one in a hood.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "罗德岛所有的战斗都是这个家伙在指挥。",
+      "en": "All of Rhodes Island’s battles are commanded by this guy.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "只要杀掉这个指挥官，喀！",
+      "en": "If you kill this commander, ka-cha!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "罗德岛的大脑就坏死了。",
+      "en": "Rhodes Island’s brain dies.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "什么会变得简单的~",
+      "en": "Everything will become easy~",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "我们的人不多了，可用的战术也很少。",
+      "en": "We don’t have many people left, and there are few tactics we can choose from.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "在矿场前面有一个很好的埋伏圈。我这里的术师会帮你做些掩护——你知道该做什么吧？",
+      "en": "There’s a good spot for ambush just ahead of the mine. My casters here will do some covering for you——you know what to do right?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "我的部下会把他们引过来的。好好把握这个机会~",
+      "en": "My secondaries will lure them over. Take good hold of this chance~",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "我明白。",
+      "en": "I know.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "——帮我照顾好米莎。",
+      "en": "——Take care of Misha for me.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "没问题~那么，祝你好运！",
+      "en": "No problem~good luck to you then!",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

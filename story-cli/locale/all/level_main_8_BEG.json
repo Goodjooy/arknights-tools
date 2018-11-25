@@ -1,0 +1,175 @@
+{
+  "messages": [
+    {
+      "zh": "第八关（前）",
+      "en": "level 8(pre)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "没时间从其他区域绕行了......",
+      "en": "No time to take a detour……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "必须直接穿过<color=#ee4321>下城区</color>。",
+      "en": "We have to go through lower downtown directly.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "需要各小队分别行动吗？",
+      "en": "Should we let the squads split up?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "万一被各个击破就麻烦了。",
+      "en": "It’d be bad if they’re taken out one by one.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "以我们现在的规模，团队行动难免会被发觉。",
+      "en": "With our current sizes, it’d be hard to pass by unnoticed.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "在狭窄的街巷中行动，很容易被埋伏包夹......",
+      "en": "Moving through the narrow alleys, would easily get us ambushed and surrounded……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "怎么办？",
+      "en": "What should we to?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "提出正面突破的战术",
+      "en": "Propose a frontal breakthrough tactic",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "——"
+    },
+    {
+      "ch": "临光",
+      "zh": "值得赞赏。",
+      "en": "Commendable.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "就该这样。猛烈冲击，搅乱阵形，破坏火力点，迅速撤退，理所应当。",
+      "en": "That’s what it should be like. Charge fiercely, wreck their formation, destroy their firepower, retreat swiftly, as it should be.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "......不错。肉眼可见的威胁远比进退两难容易处理的多。",
+      "en": "……Not bad. Threats that the naked eye can see are far easier to deal with than dilemmas.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "我可以把这个看作是{@nickname}博士的命令吗，阿米娅？",
+      "en": "Can I regard this as Dr.___’s order, Amiya?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "局势还是比较明了的。我赞成博士的选择。",
+      "en": "The situation’s pretty clear now. I agree with Doctor’s choice.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "那如果是比较困难的抉择——",
+      "en": "Then when it comes to harder choices——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "要求大家现在就完全信赖博士，确实还太早了。",
+      "en": "Asking everyone to trust Doctor completely, is still too early now indeed.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "但只要一同战斗上一段时间，我相信，各位都会承认博士的能力的。",
+      "en": "But after fighting together for a while, I believe, everyone will recognize Doctor’s capabilities.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "你这么说的话，我同意。",
+      "en": "If that’s what you say, I agree.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "当然，从个人角度出发，我现在就挺看好Dr.{@nickname}。",
+      "en": "Of course, from my personal perspective, I’m pretty optimistic about Dr.___ already.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "道谢",
+      "en": "Express thanks",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "别那么拘谨，现在我们也算是一起滚过战壕的战友了。",
+      "en": "Don’t be so formal, we’re comrades who have rolled in the trenches together now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "闲谈到此为止。我们没更多时间可以浪费。",
+      "en": "Enough chatting. We don’t have any more time to waste.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "卡西米尔有句谚语：“喘息时死亡就会追上你。”",
+      "en": "Kazimierz has a saying: “Death will catch up to you when you pant.”",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "抱歉。走吧！去把整合运动的封锁线扯成碎片！",
+      "en": "Apologies. Let’s go! Go tear Reunion Movement’s blockade apart!",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

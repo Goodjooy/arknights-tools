@@ -1,0 +1,601 @@
+{
+  "messages": [
+    {
+      "zh": "第十二关（后）",
+      "en": "level 12(post)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "嘁——！",
+      "en": "Psst——!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "你的成长该说是超出我的预期了呢。",
+      "en": "Your growth surpassed my expectations.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "轮不到你来评判！",
+      "en": "That’s not for you to judge!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "好的好的~",
+      "en": "Okay okay~",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "你可以走了，快走吧。",
+      "en": "You can go now, be gone.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "W......？",
+      "en": "W……?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "——要留下来送死？",
+      "en": "——Do you want to stay and give your lives away?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "我没问题哦，你们爱怎么样就怎么样。",
+      "en": "I have no problem with that, you do whatever you want.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "......"
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "撤回下城区。放他们走。",
+      "en": "Retreat to lower downtown. Let them pass.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "什么......？",
+      "en": "What……?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "再拖下去事情就要变得没趣了。",
+      "en": "If this drags on, things are going to turn boring.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "我很讨厌无聊的，就这样。",
+      "en": "I hate things boring, that’s all.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "我很期待下次再会哦，阿米娅。",
+      "en": "I’ll look forward to our next meeting, Amiya.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "W",
+      "zh": "还有——那个人。",
+      "en": "And——that person as well.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......为什么......她在......做什么？",
+      "en": "……Why……what is she……doing?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "————"
+    },
+    {
+      "ch": "杜宾",
+      "zh": "已经超出预定时间了。",
+      "en": "We’re behind schedule already.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "立刻撤回罗德岛。",
+      "en": "Retreat to Rhodes Island at once.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......"
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我来......护送后方干员。",
+      "en": "I’ll……escort the rear operators.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "......"
+    },
+    {
+      "ch": "临光",
+      "zh": "——好。",
+      "en": "——Okay.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "阿米娅......",
+      "en": "Amiya……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "嗯？",
+      "en": "Huh?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "阿米娅......我......",
+      "en": "Amiya……I……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "阿米娅......他们......呜......",
+      "en": "Amiya……they……sob……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......"
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......"
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "........."
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "..............."
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "......头儿......？",
+      "en": "……boss……?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "其他人呢......",
+      "en": "Where’s the other people.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "临光杜宾她们的小队，已经带着阿米娅和Dr.{@nickname}突破封锁。",
+      "en": "Nearl and Dobermann’s squads, have broken through the blockade with Amiya and Dr.___.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "而留下来断后的干员们......",
+      "en": "And the operators taking up the rear……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "......都阵亡了。",
+      "en": "……They’re all dead.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "——————————"
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "————！",
+      "en": "————!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "......什么......",
+      "en": "……What……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "你我是最后两个活着的。",
+      "en": "You and I are the only two left.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "......我想起来了......那个......那个怪物塔露拉......仅仅一个人......",
+      "en": "……It came back to be……that……that monster, Talulah……only by herself……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "近卫们竟然眨眼间就像棋子一样迸散横飞.......",
+      "en": "The guards went flying like chess pieces in the blink of an eye……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "那个怪物像捏黄油一样捏碎了重装干员......",
+      "en": "That monster crushed the shield operators like butter……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "别出声。你伤的很重。",
+      "en": "Don't talk. You’re badly hurt.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "荒唐......太荒唐了！她就是天灾的化身......",
+      "en": "Absurd……this is absurd! She’s the very embodiment of Calamity……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "否则，火力小队怎么可能一瞬间被焚烧成灰......！",
+      "en": "Otherwise, how could the firepower squad be burnt to ashes in an instant……!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "......惨叫......只剩下......惨叫......",
+      "en": "……Cries……Only their cries……are left……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "少说点！",
+      "en": "Don’t talk!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "......"
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "......抱歉......我......我没法......",
+      "en": "……Sorry……I……I couldn’t……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "冷静。",
+      "en": "Calm down.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "我帮你应急处理了一下。",
+      "en": "I did some emergency treatment for you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "......头儿......你的手......？",
+      "en": "……Boss……your hand……?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "一只就够用了。",
+      "en": "One is enough.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "......头儿，逃吧。你的话，一定能够杀出去。",
+      "en": "……Boss, please run. If it’s you, you can definitely get out of this.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "我们只拖了那个怪物几分钟。阿米娅她们至少需要十五分钟才能突破。",
+      "en": "We’ve only held off that monster for a few minutes. Amiya still needs at least 15 minutes to break through.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "Dr.{@nickname}和阿米娅安全之前，我不能走。",
+      "en": "Before Dr.___ and Amiya are safe, I can’t leave.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "啊......呜......啊......！",
+      "en": "Ahh……sob……ahh……!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我......我......",
+      "en": "I……I……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "我得先阻止那个怪物。",
+      "en": "I have to stop that monster first.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "头儿......我也......",
+      "en": "Boss……I’ll come too……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "你的命是我废了一只手换回来的。",
+      "en": "I traded your life with one of my hands.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "哪怕你只能再活一分钟，我也希望这只手至少值一分钟。",
+      "en": "Even if you can only live for another minute, I hope this hand is worth one minute at least.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "——"
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "我去去就回。照顾好自己。",
+      "en": "I’ll return shortly. Take care of yourself.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "为什么......为什么......要让我看见！",
+      "en": "Why……why……do I have to see this!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "就只能这样而已吗......就只能......只能看着......而已吗......！",
+      "en": "Is this everything I can do……can I only……watch this happening……?!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "头儿......",
+      "en": "Boss……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "呵......我真......不争气。",
+      "en": "Heh……I’m……such a disappointment.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "阿米娅......",
+      "en": "Amiya……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛干员",
+      "zh": "你们一定能实现......大家的愿望......",
+      "en": "You can definitely realize……everybody’s wish……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......"
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "............我会的。",
+      "en": "…………I will.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......我......一定会的。",
+      "en": "……I……definitely will.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "他们......我......呜......",
+      "en": "They……I……sob……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "............"
+    },
+    {
+      "ch": "？？？",
+      "zh": "........阿米娅？",
+      "en": "………Amiya?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "............阿米娅？",
+      "en": "…………Amiya?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "啊？",
+      "en": "Huh?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "你怎么了......",
+      "en": "What happened to you……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......没，没什么。只是刚才突然有些......",
+      "en": "……It, it’s nothing. I just felt a bit……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......难受。",
+      "en": "……Uncomfortable.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "呜......嗯......",
+      "en": "Sob……okay……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......别哭。",
+      "en": "Don’t cry.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "以前有个人这么对我说......",
+      "en": "A person once told me……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "眼泪......要留到战争结束之后。",
+      "en": "Tears……have to be saved until the war ends.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "现在......还不行。",
+      "en": "Now……is not the time yet.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "嗯......呜......嗯......",
+      "en": "Yes……sob……yes……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "走吧......",
+      "en": "Let’s go……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......我们回家。",
+      "en": "……Let’s go home.",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "messages": [
+    {
+      "zh": "第九关（前）",
+      "en": "level 9(pre)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "呼......我们甩开他们了。",
+      "en": "Huh……we got rid of them.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "穿过现在这片区域，就快抵达斜向出口了。",
+      "en": "After crossing this area, we’ll soon reach the diagonal exit.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "这个开阔区，曾经是个大广场吧。",
+      "en": "This open area, is once a square right.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "如今......只剩下些废墟。",
+      "en": "And now……only ruins are left.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "你似乎——",
+      "en": "You seem——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "很有感触。",
+      "en": "very touched.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "呵，曾经......",
+      "en": "Heh, once before……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "————!"
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "有平民？",
+      "en": "Civilians?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "——这个距离，没法确认身份。",
+      "en": "——At this distance, we can’t confirm their identities.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "——！",
+      "en": "——!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "整合运动在攻击他们——！",
+      "en": "Reunion Movement is attacking them——!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我们得......",
+      "en": "We have to……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "罗德岛精英干员",
+      "zh": "侦查小组在这种地形没有优势。",
+      "en": "The reconnaissance squad doesn’t have advantage in this terrain.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "直接用火力小组——",
+      "en": "Then let the firepower squad——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "不。",
+      "en": "No.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......教官？",
+      "en": "……Instructor?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "哪怕是吸引注意力——也不行。",
+      "en": "Even just diverting their attention——is a no.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我不能——",
+      "en": "I can’t——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "立刻沿建筑外围向广场出口移动。",
+      "en": "Move toward the square exit along the buildings immediately.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "——临光小姐——？",
+      "en": "——Miss Nearl——?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "没错，我是骑士。我为美德而战。",
+      "en": "Right, I am a knight. I fight for virtues.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "所以我必须提醒你一点。",
+      "en": "So I must remind you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "你的决策将影响整个救援队的命运。",
+      "en": "Your decision will affect the fate of the entire rescue team.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "——我明白了。",
+      "en": "——I see.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "......我很抱歉。",
+      "en": "……I’m sorry.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "不，你说得对。",
+      "en": "No, you’re right.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我冷静下来了。",
+      "en": "I’ve calmed down now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "只要你下命令，我一定会履行。",
+      "en": "If you give an order, I will definitely execute it.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "所以我很庆幸你没把话说完。",
+      "en": "So I’m glad that you didn’t finish the sentence.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "毕竟局势——",
+      "en": "After all, the situation——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "————"
+    },
+    {
+      "ch": "杜宾",
+      "zh": "如果我没看错的话，已经来不及了。",
+      "en": "If I’m not wrong, is too late already.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "你没看错。",
+      "en": "You’re not wrong.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "————"
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "——————杀了他们。",
+      "en": "——————Kill them.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "开阔区各个出口同时出现大量整合运动！",
+      "en": "Numerous Reunion Movement appeared at the square exits simultaneously!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "————不能把背面暴露给敌人！",
+      "en": "————Don’t show your backs to the enemy!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "博士！",
+      "en": "Doctor!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "指挥罗德岛干员",
+      "en": "Command Rhodes Island operators",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "临光",
+      "zh": "了解！",
+      "en": "Understood!",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}
