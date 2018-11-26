@@ -1,0 +1,375 @@
+{
+  "messages": [
+    {
+      "zh": "第三十二关（前）",
+      "en": "level 32(pre)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "还，还有两个敌人！正在往东侧建筑物后方逃窜——",
+      "en": "Two, two enemies remaining! They’re running toward the back of the building to the east——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "已经瞄准。",
+      "en": "I got them.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "——！",
+      "en": "——!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "啊——！",
+      "en": "Ahh——!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "中了。",
+      "en": "Bull’s eye.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "声音——会不会大了点。",
+      "en": "Wasn’t that——a bit too loud.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "这废城区里爆炸声不断，我想整合运动不会特别在意的。",
+      "en": "This city ruin’s filled with explosions, I don’t think Reunion Movement would notice.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "至少不能让他们互相联络。",
+      "en": "At least we can’t let them contact each other.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "呼......终于解决了......",
+      "en": "Huh……finally finished……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "还不能懈怠。霜叶，去看看情况。",
+      "en": "Not the time to relax yet. Frostleaf, go check out the condition.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "了解。",
+      "en": "Understood.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "这种事情......我还是知道的！",
+      "en": "This kind of things……I know of course!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "好的，好的。",
+      "en": "Okay, okay.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "凯尔希医生，听得见吗？",
+      "en": "Dr.Kal’tist, can you hear?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "一直在听。确实不能懈怠——",
+      "en": "I’m listening. It’s not the time relax indeed——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "呜哇！",
+      "en": "Waugh!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "因为敌人可是整合运动。",
+      "en": "Because our enemy is Reunion Movement.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "整合运动成员",
+      "zh": "怎，怎么会......背后......",
+      "en": "H,How……behind my back……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "你太慢了。",
+      "en": "You're too slow.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "暂时没事了，凯尔希医生。我已经解决了。",
+      "en": "It is safe for now, Dr.Kal’tsit. I’ve finished them.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "你的速度真的很快......我甚至都没看清楚你是怎么摸过去的。",
+      "en": "You’re really fast……I didn’t even see how you snuck over.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "红联系我了。龙门内部的整合运动还没有活动的迹象，现阶段还是不要打草惊蛇为妙。",
+      "en": "Projekt Red contacted me. The Reunion Movement inside Lungmen shows no sign of actions yet, It wouldn’t be wise to disturb them now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "综合其它活跃在废城的侦查小队的信息，藏匿在废城的整合运动的规模，远比想象中要大。",
+      "en": "Putting together the information from other scout squads in the city ruin, the number of Reunion Movement in there, is much larger than we expected.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "也就是说，中奖可能反而的是我们这边？",
+      "en": "Does that mean, we could actually be the ones that hit the prize?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "到现在为止已经是第二支整合运动小队了......",
+      "en": "It’s the second Reunion Movement squad we met up to now……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "敌人的数量？",
+      "en": "Enemy’s numbers?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "具体还不清楚。战斗的话，只能说是暂时足够对付的程度。霜叶，你那边如何？",
+      "en": "Not clear yet. When it comes to fighting, I can only say it’s just enough for us to handle. Frostleaf, how’s things going?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "......"
+    },
+    {
+      "ch": "陨星",
+      "zh": "怎么了......？",
+      "en": "Is anything wrong……?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "你们去吧，有问题随时反馈。",
+      "en": "You go now, tell me if there's any problem.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "是。",
+      "en": "Ok.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "我们......过去看看吧。",
+      "en": "Let’s……go take a look.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "......"
+    },
+    {
+      "ch": "陨星",
+      "zh": "发生什么情况。",
+      "en": "What happened.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "......你们没感受到吗？",
+      "en": "……You didn’t feel it?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "嗯？怎么......",
+      "en": "Huh? What……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "这么一说......是有点冷......",
+      "en": "Now that you talk about it……it’s a bit cold……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "温度。",
+      "en": "The temperature.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "......的确，和城区外至少有五度以上的温差。",
+      "en": "……Really, it’s at least five degrees lower than outside the city.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "平白无故天气就变了......怎么会......",
+      "en": "The weather changed for no reason……how……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "抬头看。天气没有变。",
+      "en": "Look up. The weather didn’t change.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "......啊？",
+      "en": "……Huh?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "不是天气。是这里，来，摸一摸。",
+      "en": "It’s not the weather. It’s here, come, touch this.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "......墙体？",
+      "en": "……The wall?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "是的。这堵墙在吸收热量。",
+      "en": "Yes. This wall is absorbing heat.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "......怎么会？！",
+      "en": "……How could it?!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "这个过程——在我们来之前，可能已经结束了。墙体正在回温。",
+      "en": "This process——is probably over already before we came. The wall is warming back up.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "只是——为什么？",
+      "en": "But——why?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "是什么人留下这种痕迹？",
+      "en": "Who was it that left this kind of mark?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "陨星",
+      "zh": "......在这个地方活动的，就只有整合运动了。",
+      "en": "……The only ones moving about here, are Reunion Movement.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杰西卡",
+      "zh": "整合运动？他们......怎么做到的？",
+      "en": "Reunion Movement? How……did they do this?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "——我听过一个传说。",
+      "en": "——I’ve heard of a legend.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "霜叶",
+      "zh": "一个有关所到之处都化作冰天雪地的怪物的传说。",
+      "en": "A legend about a monster, that turns wherever it went into worlds of ice and snow.",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}
