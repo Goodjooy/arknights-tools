@@ -26,6 +26,7 @@ class StoryPart {
   static get REGEX_FULLCHARACTER() { return /\[FullCharacter\((.*?)\)]/g }
   static get REGEX_CHARACTER_EMPTY() { return /\[Character\]/g }
   static get REGEX_QUOTE() { return /\[name="(.*?)"\](\s)+(.+)/g }
+  static get REGEX_ANONQUOTE() { return /^((?![\/\s\[]).)+$/g }
   static get REGEX_IMAGE() { return /\[Image\(image="(.*?)"(.*)\)\]/g }
   static get REGEX_CHOICE() { return /\[Decision\(options="(.*?)"/g }
   static get REGEX_SOUND() { return /\[PlaySound\(key="(.*?)"/g }
@@ -56,6 +57,7 @@ class StoryPart {
     if (StoryPart.REGEX_CHOICE.test(this.line)) return this.choice()
     if (StoryPart.REGEX_SOUND.test(this.line)) return this.sound()
     if (StoryPart.REGEX_FULLCHARACTER.test(this.line)) return this.fullchar()
+    if (StoryPart.REGEX_ANONQUOTE.test(this.line)) return this.anonquote()
     return Promise.resolve()
   }
 
@@ -135,6 +137,15 @@ class StoryPart {
     return Promise.resolve()
   }
 
+  anonquote() {
+    // Extract data from the line
+    let data = StoryPart.REGEX_ANONQUOTE.exec(this.line)
+    this.line = '[name=""] ' + data[1]
+    this.characters[1] = null
+    this.focusedCharacter = 2
+    return this.quote()
+  }
+
   quote() {
     // Set type of this instance
     this.type = StoryPart.TYPE_QUOTE
@@ -146,6 +157,8 @@ class StoryPart {
     let self = this
     return Promise.coroutine(function*() {
       self.height = 120
+      console.log('self.characters', self.characters);
+      
       let charThumbs = yield Promise.all(self.characters.map(chara => {
         if (chara) return Utils.loadImage(['char', chara + '.png'])
         else return Promise.resolve(null)

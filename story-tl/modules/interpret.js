@@ -9,6 +9,7 @@ module.exports = data => {
  
         let headerMatch = /(\s)?\[HEADER\((.*?)\)\] (.*)/g.exec(line)
         let speechMatch = /(\s)?\[name="(.*?)"\](\s)+(.+)/g.exec(line)
+        let anonymMatch = /^((?![\/\s\[]).)+$/g.exec(line)
         let playerMatch = /(\s)?\[Decision\(options="(.*?)"/g.exec(line)
 
         if (headerMatch && headerMatch[3].trim()) {
@@ -21,6 +22,12 @@ module.exports = data => {
         } else if (playerMatch && playerMatch[2].trim()) {
           quote.ch = 'PLAYER'
           quote.zh = playerMatch[2].trim()
+
+        } else if (anonymMatch) {
+          // console.log(data.sourceFile, anonymMatch[0])
+          quote.ch = ''
+          quote.zh = anonymMatch[0].trim()
+
         }
 
         if (!(/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(quote.zh))) {
