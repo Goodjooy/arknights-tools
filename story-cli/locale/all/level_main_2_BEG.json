@@ -1,1 +1,220 @@
-{}
+{
+  "messages": [
+    {
+      "zh": "第二关（前）",
+      "en": "level 2(pre)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "居民",
+      "zh": "不要！不要啊！！",
+      "en": "No! No!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "居民",
+      "zh": "救命！！不！！不！！！",
+      "en": "Help me!! No!! No!!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "居民",
+      "zh": "为什么，为什么是我！！",
+      "en": "Why, why is it me!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "居民",
+      "zh": "啊啊啊！！！",
+      "en": "Ahhhhhh!!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "怎么会......",
+      "en": "How could this be……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "明明潜入时还是一片宁静......",
+      "en": "It was still quiet when we snuck in……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "刚刚你们身处核心地带，没法了解切城现在的局势。",
+      "en": "You were in the core zone before, and you couldn’t know about Chernobog’s situation now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "事实上......整个城市都陷入了混乱。",
+      "en": "In fact……the entire city is in chaos now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "军队与治安队的抵抗也零零散散。",
+      "en": "The military and police resistances are scattered.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "可见，切尔诺伯格的指挥系统也许已经被整合运动彻底瘫痪了。",
+      "en": "Which shows that Chernobog’s command system is likely to have been paralyzed by Reunion Movement already.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "......难道说，整合运动自一开始就在针对切城当局吗？",
+      "en": "……Does this mean, Reunion Movement is targeting Chernobog government from the beginning?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "是的。而且......",
+      "en": "Yes. And also……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "我们入城时也太过顺利了，连一个切城守卫都没见到。",
+      "en": "It was too easy when we snuck in the city, we didn’t even see a single city guard.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "由此推测——",
+      "en": "We can assume from this——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "我们入城时整合运动就已经控制住了整个切城。",
+      "en": "that Reunion Movement has already gained control of the city when we entered.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "只是他们选择在刚才动手。",
+      "en": "Only that they chose to lash out just now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "本以为整合运动作为感染者团体，再怎么示威游行也只是小打小闹。",
+      "en": "We thought that being an organization of the Infected, Reunion Movement can only cause so much trouble protesting.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "现在......只能庆幸要收拾切尔诺伯格这烂摊子的人不是我了。",
+      "en": "As for now……I’m only grateful that I’m not the one who needs to deal with this mess.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "医疗干员",
+      "zh": "可是，整合运动究竟想要什么？为什么......",
+      "en": "But, what does Reunion Movement want? Why……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "现在不是停下步伐分析局势的时候。",
+      "en": "This is not the time for analysis.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "当务之急是撤出核心区......越快越好。",
+      "en": "The matter at hand is to move out of the core zone……the quicker the better.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "这样我们才能保证{@nickname}博士的安全。",
+      "en": "Only then can we ensure Dr.___’s safety.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "没错。",
+      "en": "That’s right.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "而且——",
+      "en": "And besides——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "——有敌袭！！小队临战姿态！！",
+      "en": "——Enemy attack!! Combat position now!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "呼......我听凯尔希说过很多次你的名字，Dr.{@nickname}。",
+      "en": "Ha……I’ve heard your name from Kal’tist many times, Dr.___.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "别，别为难{@nickname}博士，杜宾......",
+      "en": "Don’t, don’t be difficult on Dr.___, Dobermann……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "就算你这么说——",
+      "en": "Even if you say that——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "这局势可不允许我们有所保留。",
+      "en": "The situation at hand does not allow us to hold back.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "杜宾",
+      "zh": "来吧{@nickname}博士，现在，该是你来证明自己的时候了。",
+      "en": "Come on, Dr.___, now, it’s time for you to prove yourself.",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}
