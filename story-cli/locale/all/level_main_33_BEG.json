@@ -1,113 +1,113 @@
 {
   "messages": [
     {
-      "zh": "第三十二关（前）",
-      "en": "",
+      "zh": "第三十三关（前）",
+      "en": "level 33(pre)",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "知道了。",
-      "en": "",
+      "en": "I see.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "好的，保持联络。嗅到气味就立刻告诉我。",
-      "en": "",
+      "en": "Alight, keep in contact. Tell me as soon as you smell anything.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "按第三个键就行。嗯。",
-      "en": "",
+      "en": "Just press the third button. Yes.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "——嗯？Dr.{@nickname}？",
-      "en": "",
+      "en": "——Hmm? Dr.___?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "阿米娅呢？",
-      "en": "",
+      "en": "Where’s Amiya?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "陈述阿米娅前往贫民窟的事情",
-      "en": "",
+      "en": "Inform that Amiya went to the slum",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "——你居然让她一个人去了。",
-      "en": "",
+      "en": "——You actually let her go on her own.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "......也罢，有人保护她。你跟着去了也只是拖油瓶。",
-      "en": "",
+      "en": "……Nevermind, there are people protecting her. You’d only get in the way if you went. ",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "你也是，一个人回来的？",
-      "en": "",
+      "en": "You too, did you came back on your own?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "哦，企鹅物流把你送回来的是吗。",
-      "en": "",
+      "en": "Oh, Penguin Logistics took you back huh.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "你也得对自己的安全稍微上心一点。",
-      "en": "",
+      "en": "You need to pay more attention to your own safety as well.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "啊，博士？",
-      "en": "",
+      "en": "Ah, Doctor?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "一直在等我吗......",
-      "en": "",
+      "en": "Have you been waiting for me……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "对不起，让你久等了",
-      "en": "",
+      "en": "Sorry, I kept you waiting.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "嗯？我的表情与离开时不太一样？",
-      "en": "",
+      "en": "Huh? My expression is different from when I left?",
       "jp": "",
       "kr": ""
     },
@@ -118,196 +118,196 @@
     {
       "ch": "阿米娅",
       "zh": "发生了些事情。",
-      "en": "",
+      "en": "Some things happened.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我越来越相信，陈长官其实不是个冷漠的人。",
-      "en": "",
+      "en": "I’m more and more certain, that officer Ch’en is not really a cold person.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "即使她嘴巴很凶，但也许......我们之间的区别没有那么大。",
-      "en": "",
+      "en": "Although her words are cold, but perhaps……we’re not that different from each other.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "她有她的责任。",
-      "en": "",
+      "en": "She has her responsibilities.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......啊......原来是这样。",
-      "en": "",
+      "en": "……Ah……no wonder.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "她也承担了很多吧。",
-      "en": "",
+      "en": "She must be bearing a lot as well.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "也许我也......",
-      "en": "",
+      "en": "Perhaps me too……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "指出阿米娅没有逃避自己做出的选择",
-      "en": "",
+      "en": "Point out that Amiya did not run from her choice",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "是吗......",
-      "en": "",
+      "en": "Is it……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我......只是没有其他的选择而已。",
-      "en": "",
+      "en": "I……just don’t have any other choices.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "认为阿米娅坚持了自己的选择",
-      "en": "",
+      "en": "Believe that Amiya persisted with her choice.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......如果导致那样的结果，也算是坚持的话。",
-      "en": "",
+      "en": "……If leading results like that, can be regarded as persisting.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士没必要......这样安慰我的。",
-      "en": "",
+      "en": "Doctor doesn’t have to……comfort me like this.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "其实，我明白的。",
-      "en": "",
+      "en": "Actually, I understand.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我不知道......我们走到哪一天，这片大地才会变得不同......",
-      "en": "",
+      "en": "I don’t know……how long do we have to walk, before this land becomes different……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我明白的。",
-      "en": "",
+      "en": "I understand.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我不会放弃。",
-      "en": "",
+      "en": "I won’t give up.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我会承担任何后果，因为......这是我自己选的。",
-      "en": "",
+      "en": "I will bear any consequences of this, because……this is what I chose myself.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士......",
-      "en": "",
+      "en": "Doctor……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "你会......陪在我身边吗？",
-      "en": "",
+      "en": "Will you be……by my side?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "尽管......这份罪恶感会一直存在......",
-      "en": "",
+      "en": "Although……this feeling of guilt will always be there……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "但我必须坦然面对。",
-      "en": "",
+      "en": "But I have to face it.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "和罗德岛的大家一起——",
-      "en": "",
+      "en": "With everyone at Rhodes Island——",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "嗯？是凯尔希医生的通讯......",
-      "en": "",
+      "en": "Huh? It’s transmission from Dr.Kal’tsit……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "凯尔希医生？请问有什么事？",
-      "en": "",
+      "en": "Dr.Kal’tsit? Is anything wrong?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "阿米娅，有几支侦查小队发来了消息。",
-      "en": "",
+      "en": "Amiya, some of the scout squads sent back words.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "不少是会让你和龙门那个陈警官感兴趣的内容。",
-      "en": "",
+      "en": "Many will be of interest to you and that officer Ch’en from Lungmen.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "好的，我马上就来。",
-      "en": "",
+      "en": "Alright, I’ll be coming right now.",
       "jp": "",
       "kr": ""
     }
