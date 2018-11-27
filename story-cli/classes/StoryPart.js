@@ -123,7 +123,7 @@ class StoryPart {
     // Detect values
     let char1 = /name="([a-zA-Z0-9_#]+)"/g.exec(this.line)
     let char2 = /name2="([a-zA-Z0-9_#]+)"/g.exec(this.line)
-    let focus = /focus=([0-9]{1})/g.exec(this.line)
+    let focus = /focus=([-0-9]{1,2})/g.exec(this.line)
     let fade = /fadetime=([0-9\.]+)/g.exec(this.line)
     let toEmpty = StoryPart.REGEX_CHARACTER_EMPTY.exec(this.line)
     
@@ -132,7 +132,7 @@ class StoryPart {
     this.focusedCharacter = 1
     if (char1) this.characters[0] = Utils.fixCharName(char1[1])
     if (char2) this.characters[1] = Utils.fixCharName(char2[1])
-    if (focus) this.focusedCharacter = focus[1]
+    if (focus) this.focusedCharacter = parseInt(focus[1], 10)
     if (fade || toEmpty) this.removeCharacters = true
     return Promise.resolve()
   }
@@ -140,7 +140,7 @@ class StoryPart {
   anonquote() {
     // Extract data from the line
     let data = StoryPart.REGEX_ANONQUOTE.exec(this.line)
-    this.line = '[name=""] ' + data[1]
+    this.line = '[name=""]   ' + data[0]
     this.characters[1] = null
     this.focusedCharacter = 2
     return this.quote()
@@ -157,8 +157,6 @@ class StoryPart {
     let self = this
     return Promise.coroutine(function*() {
       self.height = 120
-      console.log('self.characters', self.characters);
-      
       let charThumbs = yield Promise.all(self.characters.map(chara => {
         if (chara) return Utils.loadImage(['char', chara + '.png'])
         else return Promise.resolve(null)
@@ -176,13 +174,13 @@ class StoryPart {
           pageCtx.shadowColor = "#000000"
           pageCtx.shadowBlur = 10
           if (charThumbs[0]) {
-            if (self.focusedCharacter == 2) pageCtx.globalAlpha = 0.3
+            if (self.focusedCharacter == -1 || self.focusedCharacter == 2) pageCtx.globalAlpha = 0.3
             pageCtx.drawImage(charThumbs[0], 0, 0, charThumbs[0].width, charThumbs[0].height, pageOpts.padding.left, foregroundY, charThumbSize, charThumbSize)
             pageCtx.globalAlpha = 1
           }
           if (charThumbs[1]) {
             let drawX = pageOpts.width - (pageOpts.padding.right + charThumbSize)
-            if (self.focusedCharacter == 1) pageCtx.globalAlpha = 0.3
+            if (self.focusedCharacter == -1 || self.focusedCharacter == 1) pageCtx.globalAlpha = 0.3
             pageCtx.drawImage(charThumbs[1], 0, 0, charThumbs[1].width, charThumbs[1].height, drawX, foregroundY, charThumbSize, charThumbSize)
             pageCtx.globalAlpha = 1
           }

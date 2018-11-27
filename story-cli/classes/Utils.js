@@ -10,7 +10,10 @@ class Utils {
     return new Promise((done, fail) => {
       var img = new Image()
       img.onload = () => { done(img) }
-      img.onerror = err => { fail(err) }
+      img.onerror = err => {
+        console.error('CANNOT LOAD', inputPath)
+        fail(err)
+      }
       img.src = path.resolve(path.join.apply(null, [__dirname, '..', 'assets'].concat(inputPath)))
     })
   }
