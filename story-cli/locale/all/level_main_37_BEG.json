@@ -1,155 +1,155 @@
 {
   "messages": [
     {
-      "zh": "第三十二关（前）",
-      "en": "",
+      "zh": "4-7 各取所需（上）",
+      "en": "4-7 Take What You Need (part 1)",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "这里......倒下的都是些整合运动。",
-      "en": "",
+      "en": "This place……have Reunion Movement lying all around.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......这个，伤口流出的血液冻成了冰渣，其他部分却很完好。",
-      "en": "",
+      "en": "……This one, the blood from the wound are frozen into shards of ice, but the other parts are intact.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "确实是霜叶的技巧。",
-      "en": "",
+      "en": "This is indeed Frostleaf’s skill.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——那边的废墟，应该是爆炸导致的。",
-      "en": "",
+      "en": "——The ruin over there, should be caused by an explosion.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "应该是陨星炸出来的没错。",
-      "en": "",
+      "en": "That should be Meteorite’s work.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "（霜叶......杰西卡......陨星......她们，一定还......）",
-      "en": "",
+      "en": "(Frostleaf……Jessica……Meteorite……they, must still be……)",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "阿米娅，各救援小队都已抵达罗德岛、",
-      "en": "",
+      "en": "Amiya, the rescue teams have returned to Rhodes Island.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "我们救出了除了陨星她们以外的所有侦查小队。",
-      "en": "",
+      "en": "We have rescued every scout team other than Meteorite’s.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "没有干员在任务中牺牲。但相应的——",
-      "en": "",
+      "en": "No operators were killed in the mission. But respectively——",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "所有人都有不同程度的冻伤。",
-      "en": "",
+      "en": "Everyone suffered frostbites to different extents.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "你要重视这点。",
-      "en": "",
+      "en": "You need to pay attention to this.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......冻伤？",
-      "en": "",
+      "en": "……Frostbites?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "所有侦查小队都指出，分城中徘徊着一些特殊的整合运动成员。",
-      "en": "",
+      "en": "All the rescue teams pointed out, there are some unusual Reunion Movement members wandering in the sub city.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "他们有着特殊的作战方式，完全不同于常规整合运动成员暴露出的盲动主义战术。",
-      "en": "",
+      "en": "They have unique styles of combat, entirely different from the blind tactics that ordinary Reunion Movement members show.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "多加小心。",
-      "en": "",
+      "en": "Do take care.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我......我明白。",
-      "en": "",
+      "en": "I……I understand.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "Dr.{@nickname}，你也明白吧？",
-      "en": "",
+      "en": "Dr.___, you understand as well right?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "明白",
-      "en": "",
+      "en": "I understand",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "那就好。",
-      "en": "",
+      "en": "Good.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "我也要去做一些事情了。",
-      "en": "",
+      "en": "I have to be onto my own affairs now.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "阿米娅，就算Dr.{@nickname}很有用，也别太过依靠一个人。",
-      "en": "",
+      "en": "Amiya, even though Dr.___ is very helpful, don’t rely too much on someone.",
       "jp": "",
       "kr": ""
     },
@@ -160,105 +160,105 @@
     {
       "ch": "凯尔希",
       "zh": "还有，注意戒指。",
-      "en": "",
+      "en": "And, pay attention to your rings.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我知道。",
-      "en": "",
+      "en": "I know.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "其实凯尔希医生也很担心你的。",
-      "en": "",
+      "en": "Dr.Kal’tsit actually cares a lot about you.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不知不觉中——",
-      "en": "",
+      "en": "While we weren’t aware——",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "危险的野兽露出他们的利爪了。",
-      "en": "",
+      "en": "The beasts have shown their claws.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "退路已经被整合运动切断",
-      "en": "",
+      "en": "The retreat route has been cut off by Reunion Movement",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "嗯......他们非常想要阻止我们撤退呢。",
-      "en": "",
+      "en": "Yeah……they really want to stop us from retreating.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "然而，我们来到这里的目的，从来都不是逃跑。",
-      "en": "",
+      "en": "However, we were never here to run away.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "罗德岛，冲破他们的防线。",
-      "en": "",
+      "en": "Rhodes Island, charge their defenses!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "让我们把陨星她们救回来！",
-      "en": "",
+      "en": "Let’s take Meteorite’s squad back!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "红，听得见吗？",
-      "en": "",
+      "en": "Projekt Red, can you hear?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "啊啊，对。",
-      "en": "",
+      "en": "Ahh, yes.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "没错。在贫民区东入口处会合。",
-      "en": "",
+      "en": "That’s right. Meet at the east entrance of the slum.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "嗯。就我们两个。",
-      "en": "",
+      "en": "Right. Just the two of us.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "凯尔希",
       "zh": "没问题的。对付整合运动，我们两个已经足够了。",
-      "en": "",
+      "en": "It’s okay. Against Reunion Movement, the two of us are enough.",
       "jp": "",
       "kr": ""
     }

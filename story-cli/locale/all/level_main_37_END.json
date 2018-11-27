@@ -1,36 +1,36 @@
 {
   "messages": [
     {
-      "zh": "第三十二关（前）",
-      "en": "",
+      "zh": "4-7 各取所需（下）",
+      "en": "4-7 Take What You Need (part 2)",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "为了攀爬个观测点，都要解决那么多整合运动......",
-      "en": "",
+      "en": "Even just climbing for an observation point, needs to take out so many Reunion Movement……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "咦......",
-      "en": "",
+      "en": "Huh……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "那个......是陈长官吗？",
-      "en": "",
+      "en": "Is that……officer Ch’en?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "陈长官！",
-      "en": "",
+      "en": "Officer Ch’en!",
       "jp": "",
       "kr": ""
     },
@@ -41,49 +41,49 @@
     {
       "ch": "阿米娅",
       "zh": "（怎么会有这么多尸体......）",
-      "en": "",
+      "en": "(Why are there so many corpses……)",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "（这么多整合运动......全都是陈长官一个人打倒的吗？！）",
-      "en": "",
+      "en": "(So many Reunion Movement……are they all beaten by officer Ch’en?!)",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "——！",
-      "en": "",
+      "en": "——!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "是你们......",
-      "en": "",
+      "en": "It’s you……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "我冲动了。抱歉。",
-      "en": "",
+      "en": "I rashed. I’m sorry.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不会......",
-      "en": "",
+      "en": "Not at all……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "之前，出现的是......",
-      "en": "",
+      "en": "That person from before was……",
       "jp": "",
       "kr": ""
     },
@@ -94,70 +94,70 @@
     {
       "ch": "陈",
       "zh": "......不。无所谓了。",
-      "en": "",
+      "en": "……No. Doesn’t matter now.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "现在要以任务优先。",
-      "en": "",
+      "en": "We need to prioritize the mission now.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "近卫局呢？",
-      "en": "",
+      "en": "Where’s the Guard Bureau.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "近卫局在入口处留守",
-      "en": "",
+      "en": "The Guard Bureau is guarding entrance",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "......如果不是我来带队，近卫局将很难开展搜查任务。",
-      "en": "",
+      "en": "……If not led by me, it’d be hard for the Guard Bureau to start searching.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "尤其是现在的情况......",
-      "en": "",
+      "en": "Especially when the current situation……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "比我预想更复杂。",
-      "en": "",
+      "en": "Is more complex than I expected.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "依照现状，独自深入的代价太大了。",
-      "en": "",
+      "en": "Judging from the look now, the price is too high to go in alone.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "陈长官，罗德岛也希望你能够暂时返回近卫局队伍。",
-      "en": "",
+      "en": "Officer Ch’en, Rhodes Island would like you to return to the Guard Bureau for now as well.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "这里毕竟是天灾残留的源石丛多生地段，对于健康人而言是很不利的。",
-      "en": "",
+      "en": "This is after all the originium-tufted regions left by the Calamity, it is really bad for healthy people.",
       "jp": "",
       "kr": ""
     },
@@ -168,35 +168,35 @@
     {
       "ch": "陈",
       "zh": "呵。",
-      "en": "",
+      "en": "Heh.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "你们呢？",
-      "en": "",
+      "en": "What about you?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "保护龙门，夺回密钥，当然是我们的任务——",
-      "en": "",
+      "en": "Protecting Lungmen, and retrieving the key, is our mission of course——",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "但在我们来到这里的理由中，最重要的那个，是解救罗德岛的成员。",
-      "en": "",
+      "en": "But among the reasons we came here, the most important one, is to rescue Rhodes Island’s members.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "罗德岛不会放弃任何一个人。因此，罗德岛的作战方针也不会改变。",
-      "en": "",
+      "en": "Rhodes Island will not give up anyone. Thus, Rhodes Island’s tactics will not change as well.",
       "jp": "",
       "kr": ""
     },
@@ -207,35 +207,35 @@
     {
       "ch": "陈",
       "zh": "我会带队与你们汇合——在条件允许的情况下。",
-      "en": "",
+      "en": "I’ll join you with my team——when circumstances allow.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "好的。",
-      "en": "",
+      "en": "Alright.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "我走了。",
-      "en": "",
+      "en": "I’m going now.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "陈长官！罗德岛可以让一支小队护送你——",
-      "en": "",
+      "en": "Officer Ch’en! Rhodes Island can let a squad escort you——",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "陈",
       "zh": "不用。",
-      "en": "",
+      "en": "No need for that.",
       "jp": "",
       "kr": ""
     },
@@ -246,42 +246,42 @@
     {
       "ch": "阿米娅",
       "zh": "......陈长官，真要强呢。",
-      "en": "",
+      "en": "……Officer Ch’en, she’s really bold.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "嗯？博士？",
-      "en": "",
+      "en": "Huh? Doctor?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......没关系的。",
-      "en": "",
+      "en": "……It’s okay.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我知道......罗德岛又要孤军奋战了。",
-      "en": "",
+      "en": "I know……Rhodes Island has to fight alone again.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "但现在可不是垂头丧气的时候。",
-      "en": "",
+      "en": "But now is not the time to feel downcast.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "毕竟，杰西卡还在等着我们。",
-      "en": "",
+      "en": "After all, Jessica is still waiting for us.",
       "jp": "",
       "kr": ""
     }
