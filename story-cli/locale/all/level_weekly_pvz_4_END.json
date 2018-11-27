@@ -1,95 +1,78 @@
 {
   "messages": [
     {
-      "zh": "测试脚本",
-      "en": "",
+      "zh": "CE-4 国际重犯押运",
+      "en": "CE-4 International Crimial Escort",
       "jp": "",
       "kr": ""
     },
     {
-      "zh": "............"
-    },
-    {
       "ch": "U",
       "zh": "这里是\\---\\\\。",
-      "en": "",
+      "en": "This is \\---\\\\.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "1 Ursus-Chernobog.Emergencyresponsedepartment timeout",
-      "en": "",
+      "en": "1 Ursus-Chernobog.Emergencyresponsedepartment timeout",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "重新连接失败。",
-      "en": "",
+      "en": "Reconnection failed.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在尝试重新连接，重试次数：1。",
-      "en": "",
+      "en": "Attempting to reconnect, reconnection attempt: 1.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "重新连接失败。",
-      "en": "",
+      "en": "Reconnection failed.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在尝试重新连接，重试次数：2。",
-      "en": "",
+      "en": "Attempting to reconnect, reconnection attempt: 2.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "连接成功。",
-      "en": "",
+      "en": "Connection complete.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在返回挂起信息......",
-      "en": "",
+      "en": "Returning suspended data……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "ORuD5SVClOIKooIIpKF2w+/",
-      "en": "",
+      "en": "ORuD5SVClOIKooIIpKF2w+/",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "传输信息已超过MTU。",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "ch": "？？？",
-      "zh": "通讯中断。",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "ch": "？？？",
-      "zh": "正在尝试重新连接，重试次数：1。",
-      "en": "",
+      "en": "Transmission has exceeded MTU.",
       "jp": "",
       "kr": ""
     }

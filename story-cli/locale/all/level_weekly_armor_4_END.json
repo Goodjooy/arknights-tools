@@ -1,74 +1,57 @@
 {
   "messages": [
     {
-      "zh": "测试脚本",
-      "en": "",
+      "zh": "SK-4 要塞清剿",
+      "en": "SK-4 Fortress Suppression",
       "jp": "",
       "kr": ""
     },
     {
-      "zh": "............"
-    },
-    {
       "ch": "C",
       "zh": "这里是\\\\----。",
-      "en": "",
+      "en": "This is \\\\----.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "天灾探针已损毁",
-      "en": "",
+      "en": "Calamity probe damaged.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在寻找新的可用探针......",
-      "en": "",
+      "en": "Searching for new functioning probes……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在返回挂起信息......",
-      "en": "",
+      "en": "Returning suspended data……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "uWsOctqYQzW95XyOaTYDrfpLO4XHiu2gunic91NAmkQH97",
-      "en": "",
+      "en": "uWsOctqYQzW95XyOaTYDrfpLO4XHiu2gunic91NAmkQH97",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "LSoV5jVP0Z9gR2WYKYeDibw8LYzi0KRgtrPjBNmsWtxnwCPdBi5esyd55bR/",
-      "en": "",
+      "en": "LSoV5jVP0Z9gR2WYKYeDibw8LYzi0KRgtrPjBNmsWtxnwCPdBi5esyd55bR/",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "传输信息已超过MTU",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "ch": "？？？",
-      "zh": "通讯中断。",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "ch": "？？？",
-      "zh": "正在尝试重新连接，重试次数：1。",
-      "en": "",
+      "en": "Transmission has exceeded MTU",
       "jp": "",
       "kr": ""
     }

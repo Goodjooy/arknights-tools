@@ -1,137 +1,120 @@
 {
   "messages": [
     {
-      "zh": "测试脚本",
-      "en": "",
+      "zh": "AP-4 精炼工厂保全",
+      "en": "AP-4 Refinement Factory Protection",
       "jp": "",
       "kr": ""
     },
     {
-      "zh": "............"
-    },
-    {
       "ch": "S",
       "zh": "这里是-\\\\-\\-。",
-      "en": "",
+      "en": "This is -\\\\-\\-.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "重新连接失败。",
-      "en": "",
+      "en": "Reconnection failed.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在尝试重新连接，重试次数：2。",
-      "en": "",
+      "en": "Attempting to reconnect, reconnection attempt: 2.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "重新连接失败。",
-      "en": "",
+      "en": "Reconnection failed.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在尝试重新连接，重试次数：3。",
-      "en": "",
+      "en": "Attempting to reconnect, reconnection attempt: 3.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "重新连接失败。",
-      "en": "",
+      "en": "Reconnection failed.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在尝试重新连接，重试次数：4。",
-      "en": "",
+      "en": "Attempting to reconnect, reconnection attempt: 4.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "重新连接失败。",
-      "en": "",
+      "en": "Reconnection failed.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在尝试重新连接，重试次数：5。",
-      "en": "",
+      "en": "Attempting to reconnect, reconnection attempt: 5.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "暂停重连。",
-      "en": "",
+      "en": "Pause reconnecting.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "S",
       "zh": "啧......",
-      "en": "",
+      "en": "Psst……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在尝试连接至591.423.246.106......",
-      "en": "",
+      "en": "Attempting to connect to 591.423.246.106......",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "连接成功。",
-      "en": "",
+      "en": "Connection complete.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在返回挂起信息......",
-      "en": "",
+      "en": "Returning suspended data……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "JSmnGOw2UW5A8+UPPMf/",
-      "en": "",
+      "en": "JSmnGOw2UW5A8+UPPMf/",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "传输信息已超过MTU。",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "ch": "？？？",
-      "zh": "通讯中断。",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "ch": "？？？",
-      "zh": "正在尝试重新连接，重试次数：1。",
-      "en": "",
+      "en": "Transmission has exceeded MTU.",
       "jp": "",
       "kr": ""
     }

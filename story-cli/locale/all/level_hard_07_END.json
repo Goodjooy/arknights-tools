@@ -1,0 +1,77 @@
+{
+  "messages": [
+    {
+      "zh": "X-7 寒霜风暴",
+      "en": "X-7 Storm of Frost",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "R",
+      "zh": "这里是\\-\\\\\\-。",
+      "en": "This is \\-\\\\\\-",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "重新连接成功。",
+      "en": "Reconnection complete.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "正在返回挂起信息......",
+      "en": "Returning suspended data……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "7pLwCAU9I1eHCRD1tRe7fFk9vBJThQyMAggPe1tGbbcdTI1yZ3iLatu",
+      "en": "7pLwCAU9I1eHCRD1tRe7fFk9vBJThQyMAggPe1tGbbcdTI1yZ3iLatu",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "XlYSp2j0K+1DaNJ8fD7ojFPj69VaA8/ldsy3bOJ0iQ6HWfrh0B/",
+      "en": "XlYSp2j0K+1DaNJ8fD7ojFPj69VaA8/ldsy3bOJ0iQ6HWfrh0B/",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "R",
+      "zh": "太好了，就快结束了......",
+      "en": "Thank goodness, it’s almost finished……",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "传输信息已超过MTU。",
+      "en": "Transmission has exceeded MTU.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "R",
+      "zh": "......"
+    },
+    {
+      "ch": "R",
+      "zh": "你也太不给我面子了。",
+      "en": "You have no respect for my feelings, huh.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "没有办法，在这个有天灾的土地上，早就没有办法保证传输信息的稳定性了。",
+      "en": "It can’t helped, on this land with Calamities, we can no longer ensure the stability of transmissions.",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

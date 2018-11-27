@@ -1,102 +1,85 @@
 {
   "messages": [
     {
-      "zh": "测试脚本",
-      "en": "",
+      "zh": "LS-4 特种战演习",
+      "en": "LS-4 Special Operation Drill",
       "jp": "",
       "kr": ""
     },
     {
-      "zh": "............"
-    },
-    {
       "ch": "O",
       "zh": "这里是\\--\\\\-。",
-      "en": "",
+      "en": "This is \\--\\\\-.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "重新连接失败。",
-      "en": "",
+      "en": "Reconnection failed.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在尝试重新连接，重试次数：2。",
-      "en": "",
+      "en": "Attempting to reconnect, reconnection attempt: 2.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "重新连接失败。",
-      "en": "",
+      "en": "Reconnection failed.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在尝试重新连接，重试次数：3。",
-      "en": "",
+      "en": "Attempting to reconnect, reconnection attempt: 3.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "连接成功。",
-      "en": "",
+      "en": "Connection complete.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "正在返回挂起信息......",
-      "en": "",
+      "en": "Returning suspended data……",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "n5bqNgQQwMx1FEbdg7Z0dRl2EJlbElrAHCsifXREXEIEkute+uRUTWso/",
-      "en": "",
+      "en": "n5bqNgQQwMx1FEbdg7Z0dRl2EJlbElrAHCsifXREXEIEkute+uRUTWso/",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "DxgOslBtq/",
-      "en": "",
+      "en": "DxgOslBtq/",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "LUZvm8Fb/",
-      "en": "",
+      "en": "LUZvm8Fb/",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "传输信息已超过MTU。",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "ch": "？？？",
-      "zh": "通讯中断。",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "ch": "？？？",
-      "zh": "正在尝试重新连接，重试次数：1。",
-      "en": "",
+      "en": "Transmission has exceeded MTU.",
       "jp": "",
       "kr": ""
     }
