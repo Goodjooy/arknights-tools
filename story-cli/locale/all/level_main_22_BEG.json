@@ -1,138 +1,137 @@
 {
-    "messages": [
-      {
-        "zh": "第二十二关（前）",
-        "en": "level 22(pre)",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "芙兰卡",
-        "zh": "雷蛇！防线还撑得住吗？",
-        "en": "Liskarm! Can the defenses still hold on?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "雷蛇",
-        "zh": "这边没有问题！",
-        "en": "No problem here!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "雷蛇",
-        "zh": "芙兰卡，注意敌人侧翼进攻！",
-        "en": "Franka, beware of the enemies’ flanks!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "芙兰卡",
-        "zh": "真是没完没了......！",
-        "en": "This has got no end……!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "芙兰卡",
-        "zh": "医疗组！伤员！",
-        "en": "Medic team! We have wounded here!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "————"
-      },
-      {
-        "ch": "碎骨",
-        "zh": "想藏到哪里去？",
-        "en": "Where do you want to hide?",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "你们逃不掉的。我会粉碎你们——彻彻底底的粉碎你们。",
-        "en": "You can’t escape. I will crush you——completely crush you.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "芙兰卡",
-        "zh": "哦~这家伙终于亲自登场了。",
-        "en": "Oh~This guy finally shows up himself.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "芙兰卡",
-        "zh": "虽然还是蛮寒酸的......呢。",
-        "en": "Still he looks pretty shabby……huh.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "雷蛇",
-        "zh": "我们被整合运动逼入死路了。",
-        "en": "We’re forced into a dead end by Reunion Movement.",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "雷蛇",
-        "zh": "啧——只能硬上了。重装小组，守住阵地！",
-        "en": "Psst——We can only bear through this now. Shield team, hold your grounds!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "身为感染者，却帮助龙门杀害感染者——",
-        "en": "Being the Infected, yet helping Lungmen slaughter other Infected——",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "多少同胞的性命，你们——得血债血偿！",
-        "en": "So many of our kinds’ lives, you——have to pay with blood!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "碎骨",
-        "zh": "全力进攻！",
-        "en": "Engage!",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "阿米娅",
-        "zh": "————"
-      },
-      {
-        "ch": "阿米娅",
-        "zh": "整合运动————",
-        "en": "Reunion Movement——",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "阿米娅",
-        "zh": "先结仇的、先伤害别人的、先使用暴力的——",
-        "en": "Those who caused hatred first, harmed others first, and used violence first——",
-        "jp": "",
-        "kr": ""
-      },
-      {
-        "ch": "阿米娅",
-        "zh": "可是切尔诺伯格的你们！！",
-        "en": "Are you at Chernobog!!",
-        "jp": "",
-        "kr": ""
-      }
-    ]
-  }
-  
+  "messages": [
+    {
+      "zh": "2-10 病入膏肓（上）",
+      "en": "2-10 Critical Illness (part 1)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "芙兰卡",
+      "zh": "雷蛇！防线还撑得住吗？",
+      "en": "Liskarm! Can the defenses still hold on?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "雷蛇",
+      "zh": "这边没有问题！",
+      "en": "No problem here!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "雷蛇",
+      "zh": "芙兰卡，注意敌人侧翼进攻！",
+      "en": "Franka, beware of the enemies’ flanks!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "芙兰卡",
+      "zh": "真是没完没了......！",
+      "en": "This has got no end……!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "芙兰卡",
+      "zh": "医疗组！伤员！",
+      "en": "Medic team! We have wounded here!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "————"
+    },
+    {
+      "ch": "碎骨",
+      "zh": "想藏到哪里去？",
+      "en": "Where do you want to hide?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "你们逃不掉的。我会粉碎你们——彻彻底底的粉碎你们。",
+      "en": "You can’t escape. I will crush you——completely crush you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "芙兰卡",
+      "zh": "哦~这家伙终于亲自登场了。",
+      "en": "Oh~This guy finally shows up himself.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "芙兰卡",
+      "zh": "虽然还是蛮寒酸的......呢。",
+      "en": "Still he looks pretty shabby……huh.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "雷蛇",
+      "zh": "我们被整合运动逼入死路了。",
+      "en": "We’re forced into a dead end by Reunion Movement.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "雷蛇",
+      "zh": "啧——只能硬上了。重装小组，守住阵地！",
+      "en": "Psst——We can only bear through this now. Shield team, hold your grounds!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "身为感染者，却帮助龙门杀害感染者——",
+      "en": "Being the Infected, yet helping Lungmen slaughter other Infected——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "多少同胞的性命，你们——得血债血偿！",
+      "en": "So many of our kinds’ lives, you——have to pay with blood!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "碎骨",
+      "zh": "全力进攻！",
+      "en": "Engage!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "————"
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "整合运动————",
+      "en": "Reunion Movement——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "先结仇的、先伤害别人的、先使用暴力的——",
+      "en": "Those who caused hatred first, harmed others first, and used violence first——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "可是切尔诺伯格的你们！！",
+      "en": "Are you at Chernobog!!",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}
