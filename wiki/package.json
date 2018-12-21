@@ -5,6 +5,11 @@
   "scripts": {
     "charmodules": "node scripts/generate_char_modules.js",
     "itemmodules": "node scripts/generate_item_modules.js",
-    "interactions": "node scripts/extract_interactions.js"
+    "interactions": "node scripts/extract_interactions.js",
+    "quotesheet": "node scripts/quotes_sheet.js",
+    "quotesjson": "node scripts/quotes_json.js"
+  },
+  "dependencies": {
+    "csv": "^5.0.1"
   }
 }
