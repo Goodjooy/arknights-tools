@@ -6,8 +6,6 @@ env:
   global:
     - NODE_ENV=production
 script:
-- echo $TRAVIS_EVENT_TYPE
-- echo $TRAVIS_COMMIT_MESSAGE
 - if [ "$TRAVIS_EVENT_TYPE" == 'cron' ] || [ "$TRAVIS_COMMIT_MESSAGE" == 'run' ]; then
     cd prereg && npm run tracking;
     git config --global user.email "builds@travis-ci.com";
