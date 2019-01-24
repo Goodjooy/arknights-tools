@@ -7,6 +7,7 @@ module.exports = function(dataChain) {
     let dataFile = path.resolve(__dirname, '..', '..', 'docs', 'data.json')
     let previousData = JSON.parse(fs.readFileSync(dataFile, 'utf8'))
     let currentCount = dataChain.currentPreregData.data.count
+    console.log('Today\'s Arknights Pre-registration Count:', currentCount)
     let currentDay = moment().format('YYYY-MM-DD')
     previousData.booking[currentDay] = currentCount
     dataChain.write = JSON.stringify(previousData, null, 2)
