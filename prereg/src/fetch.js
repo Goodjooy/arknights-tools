@@ -1,6 +1,7 @@
 const axios = require('axios')
+const moment = require('moment')
 
-const preregUrl = 'https://ak.hypergryph.com/api/user/getBookingCount'
+const preregUrl = 'https://ak.hypergryph.com/ak/reserve/count?t=' + moment().format('x')
 
 module.exports = function(dataChain) {
   return new Promise(async function(resolve) {
