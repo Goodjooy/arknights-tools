@@ -7,7 +7,8 @@
     "itemmodules": "node scripts/generate_item_modules.js",
     "interactions": "node scripts/extract_interactions.js",
     "quotesheet": "node scripts/quotes_sheet.js",
-    "quotesjson": "node scripts/quotes_json.js"
+    "quotesjson": "node scripts/quotes_json.js",
+    "potentials": "node scripts/potentials.js"
   },
   "dependencies": {
     "csv": "^5.0.1"
