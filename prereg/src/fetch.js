@@ -5,6 +5,7 @@ const preregUrl = 'https://ak.hypergryph.com/ak/reserve/count?t=' + moment().for
 
 module.exports = function(dataChain) {
   return new Promise(async function(resolve) {
+    console.log('COUNT-URL', preregUrl)
     let response = await axios.get(preregUrl)
     dataChain.currentPreregData = response.data
     resolve(dataChain)
