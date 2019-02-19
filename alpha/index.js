@@ -1,5 +1,7 @@
 let chars = [
-  "filename.png",
+  // "elite.png",
+  // "SpriteAtlasTexture-ICON_ELITE-256x1024-fmt34.png",
+  "SpriteAtlasTexture-ICON_POTENTIAL-1024x1024-fmt34.png",
 ]
 
 let coords = {
