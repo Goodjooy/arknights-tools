@@ -3,7 +3,7 @@
     {
       "zh": "初始引导",
       "en": "Guidance",
-      "jp": "イントロダクション",
+      "jp": "チュートリアル1",
       "kr": ""
     },
     {
@@ -147,28 +147,28 @@
       "ch": "？？？",
       "zh": "博士......",
       "en": "Doctor……",
-      "jp": "",
+      "jp": "ドクター……",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": ".......手！",
       "en": "……Hand!",
-      "jp": "",
+      "jp": "……手を！",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "抓......紧！",
       "en": "Hold……Tight!",
-      "jp": "",
+      "jp": "強く……握って！",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "抓紧我的手！！",
       "en": "Hold my hand tight!",
-      "jp": "",
+      "jp": "私の手を強く握ってください！",
       "kr": ""
     },
     {
@@ -179,161 +179,161 @@
       "ch": "？？？",
       "zh": "紧急......",
       "en": "Emergent……",
-      "jp": "",
+      "jp": "緊急……",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "......救......",
       "en": "……help……",
-      "jp": "",
+      "jp": "……助け……",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "......成功了......！",
       "en": "……succeeded……!",
-      "jp": "",
+      "jp": "……成功です……！",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "博士，醒一醒......醒一醒啊......！",
       "en": "Doctor, wake up……wake up……!",
-      "jp": "",
+      "jp": "ドクター、起きて……起きてください！",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "呼，呼......阿米娅！你跑太快了！我们小队都没有跟上你啊！",
       "en": "Huh, Huh……Amiya! You ran too fast! Our squad couldn’t catch up with you!",
-      "jp": "",
+      "jp": "はぁ、はぁ……アーミヤ、速すぎます！　私達の小隊が追いつけないでしょう！",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "那面墙难道是你炸碎的吗......",
       "en": "Did you shatter that wall……",
-      "jp": "",
+      "jp": "まさか貴女がこの壁を粉々に……",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "太冒险了！你可是罗德岛的——",
       "en": "This is too dangerous! You are Rhodes Island’s——",
-      "jp": "",
+      "jp": "危険すぎます！　貴女はロドスアイランドの――",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "啊啊......对不起......！",
       "en": "Ahh……sorry……!",
-      "jp": "",
+      "jp": "うう……ごめんなさい……！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不对！先别管这个了，medic！",
       "en": "No! Never mind that now, medic!",
-      "jp": "",
+      "jp": "いえ！今はそれどころじゃありません、医療隊員！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "快，快来看看博士！",
       "en": "Quick, come take a look at Doctor!",
-      "jp": "",
+      "jp": "急いで、ドクターを診てください！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "他好像没有意识的样子......明明刚才还抓住了我......",
       "en": "He doesn’t seem to be conscious……But he just caught hold of me……",
-      "jp": "",
+      "jp": "意識があるようには見えません……でも確かに私の手を握った……",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "好......好。你别那么心急。我也很挂念博士的呀。",
       "en": "O……Ok. Don’t be so impatient. I’ve been missing Doctor a lot too.",
-      "jp": "",
+      "jp": "わ……わかりました。そう急かさないでください。私だってドクターが心配なんですよ。",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "真是的，阿米娅，你要更加小心点才行......",
       "en": "Seriously, Amiya, you need to be more careful……",
-      "jp": "",
+      "jp": "本当に、アーミヤ、貴女はもっと慎重にならないと……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士怎么样了？",
       "en": "Is Doctor okay?",
-      "jp": "",
+      "jp": "ドクターは大丈夫なんですか？",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "嗯......呼吸比较微弱，血压正常，有轻微的心动过缓现象，不要紧——",
       "en": "Emm……breathing is weak, blood pressure normal, slight bradycardia syndromes, it’s alright——",
-      "jp": "",
+      "jp": "うーん……呼吸は浅い、血圧は正常、軽微な徐脈、問題ない――",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "啊......小心！",
       "en": "Ah……careful!",
-      "jp": "",
+      "jp": "きゃっ……気をつけて！",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "你......你醒了？",
       "en": "You……you’ve woke up?",
-      "jp": "",
+      "jp": "ドクター……目を覚ましたんですか？",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "先别动，你的身体还没有完全适应。",
       "en": "Don’t move, your body is not fully adjusted yet.",
-      "jp": "",
+      "jp": "動かないで、まだ身体が順応しきっていません。",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "阿米娅，我们成功了。他清醒了。",
       "en": "Amiya, we succeeded. He has regained conscious.",
-      "jp": "",
+      "jp": "アーミヤ、成功です。ドクターの意識が戻りました。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士......？",
       "en": "Doctor……?",
-      "jp": "",
+      "jp": "ドクター……？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "太好了，太好了......",
       "en": "Thank god, thank god……",
-      "jp": "",
+      "jp": "よかった、よかった……",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "你是谁？",
       "en": "Who are you?",
-      "jp": "",
+      "jp": "君は誰だ？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "啊——博士——我......",
       "en": "Ah——Doctor——I……",
-      "jp": "",
+      "jp": "ああ――ドクター――私は……",
       "kr": ""
     },
     {
@@ -344,77 +344,77 @@
       "ch": "阿米娅",
       "zh": "我是......",
       "en": "I am……",
-      "jp": "",
+      "jp": "私は……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我叫阿米娅。",
       "en": "My name is Amiya.’",
-      "jp": "",
+      "jp": "私はアーミヤといいます。",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "我是谁？",
       "en": "Who am I?",
-      "jp": "",
+      "jp": "私は誰だ？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "你......是我的同伴，Dr.{@nickname}——",
       "en": "You……are my companion, Dr.___——",
-      "jp": "",
+      "jp": "あなたは……私の仲間の、Dr.___です――",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我最重要的同伴。",
       "en": "My most important companion.",
-      "jp": "",
+      "jp": "私の最も大切な仲間です。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "你什么都......不记得了吗？",
       "en": "You can’t……remember anything?",
-      "jp": "",
+      "jp": "何も……思い出せませんか？",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "（摇头）",
       "en": "(shake head)",
-      "jp": "",
+      "jp": "(頷く)",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "唔？......这还真是......",
       "en": "Huh?……this is really……",
-      "jp": "",
+      "jp": "ええ？……これは、本当に……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......这......",
       "en": "……this……",
-      "jp": "",
+      "jp": "……これは……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "没关系，这样也好......",
       "en": "It’s okay, this is fine too……",
-      "jp": "",
+      "jp": "問題ありません。​大丈夫です​……",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "不好，有人来了！",
       "en": "Beware, someone’s coming!",
-      "jp": "",
+      "jp": "警戒しろ、誰か来るぞ！",
       "kr": ""
     },
     {
@@ -425,56 +425,56 @@
       "ch": "罗德岛干员",
       "zh": "啧......从哪冒出来的？",
       "en": "Tut……where did they come from?",
-      "jp": "",
+      "jp": "チッ……　アイツら何処から来たんだ？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "别慌张，做好准备战斗！",
       "en": "Don’t panic, prepare for combat!",
-      "jp": "",
+      "jp": "慌てないで、戦闘準備を！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "凯尔希医生的远程通讯呢？",
       "en": "Where’s Dr.Kalt’sit’s telecommunication?",
-      "jp": "",
+      "jp": "ケルシー先生との通信は？",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "从刚才开始就受到干扰，通讯设备已经停止工作了！",
       "en": "It’s been jammed since a while ago, the communication device has stopped working!",
-      "jp": "",
+      "jp": "先程から妨害を受けている。　通信機器は動作を停止した！",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "阿米娅......现在怎么办！",
       "en": "Amiya……what do we do now!",
-      "jp": "",
+      "jp": "アーミヤ……どうすれば！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "是被什么隔断了吗......",
       "en": "Is it cut off by something……",
-      "jp": "",
+      "jp": "何かに遮断された……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "那样凯尔希医生就不能参与支援了......！",
       "en": "Then Dr.Kalt’sit can’t provide support for us……!",
-      "jp": "",
+      "jp": "それではケルシー先生の支援が受けられない……！",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "阿米娅，那样只能靠你......！",
       "en": "Amiya, then only you can……!",
-      "jp": "",
+      "jp": "アーミヤ、​今は君だけが......！",
       "kr": ""
     },
     {
@@ -485,70 +485,70 @@
       "ch": "阿米娅",
       "zh": "不。我——还需要战斗。",
       "en": "No.I——still need to fight.",
-      "jp": "",
+      "jp": "いえ、私は――まだ戦わないと。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "————我希望让{@nickname}博士来指挥。",
       "en": "————I would like to let Dr.___take command",
-      "jp": "",
+      "jp": "――――Dr.___に指揮をお願いします。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "Dr.{@nickname}。",
       "en": "Dr.___",
-      "jp": "",
+      "jp": "Dr.___。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "即使你失去了记忆......但你曾与我们......一同战斗。",
       "en": "Even if you’ve lost your memories……You’ve still……fought together with us.",
-      "jp": "",
+      "jp": "例えあなたが記憶を失ってしまったとしても……あなたは私達と共に戦い続けてきました。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我们一起度过了许多时光。",
       "en": "We’ve been through much time together.",
-      "jp": "",
+      "jp": "多くの時間を、共にしてきました。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "你能为我们带来胜利。",
       "en": "You can bring us victory.",
-      "jp": "",
+      "jp": "あなたなら、私達に勝利を齎してくれます。",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "你能为我们带来胜利。",
       "en": "You can bring us victory.",
-      "jp": "",
+      "jp": "あなたなら、私達に勝利を齎してくれます。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......我知道像这样突然请求你很失礼。",
       "en": "I know it’s rude of me to suddenly ask you of this.",
-      "jp": "",
+      "jp": "突然こんなことをお願いするのが失礼なのはわかっています。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不过......拜托了，请你助我们一臂之力。",
       "en": "But…...please, help us.",
-      "jp": "",
+      "jp": "だけど......お願いです、私達を助けてください。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "试着做做吧，我也会辅助你的。",
       "en": "Try it, I’ll assist you too.",
-      "jp": "",
+      "jp": "やってみましょう、 私もお手伝いします。",
       "kr": ""
     },
     {
@@ -559,56 +559,56 @@
       "ch": "阿米娅",
       "zh": "我相信你。",
       "en": "I believe you.",
-      "jp": "",
+      "jp": "あなたを、信じています。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——我相信你，一定可以。",
       "en": "I believe, that you can do this.",
-      "jp": "",
+      "jp": "あなたならできると、信じています。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士，指挥权现在移交给你！",
       "en": "Doctor, I am transferring command to you now!",
-      "jp": "",
+      "jp": "ドクター、今からあなたに指揮権を移します！",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "（还有一个问题......）",
       "en": "(one more question...)",
-      "jp": "",
+      "jp": "もう一つ質問が……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "也是，博士还不知道我们是谁呢...",
       "en": "Yeah, Doctor still doesn’t know who we are…",
-      "jp": "",
+      "jp": "ええ、ドクターはまだ私達が何なのか知りませんね……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "Dr.{@nickname}，从今以后，你就是我们的一员了。",
       "en": "Dr.___, from today on, you are one of us.",
-      "jp": "",
+      "jp": "Dr.___。今日から、あなたは私達の一員です。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "请记住大家共同的名字 ——",
       "en": "please remember our common name——",
-      "jp": "",
+      "jp": "覚えておいてください。私達の名前を――",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "罗德岛。",
       "en": "Rhodes Island.",
-      "jp": "",
+      "jp": "ロドスアイランドを。",
       "kr": ""
     }
   ]

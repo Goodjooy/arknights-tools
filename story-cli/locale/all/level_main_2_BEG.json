@@ -1,219 +1,219 @@
 {
   "messages": [
     {
-      "zh": "第二关（前）",
-      "en": "level 2(pre)",
-      "jp": "",
+      "zh": "1-2 撤退（上）",
+      "en": "1-2 Retreat (part 1)",
+      "jp": "1-2 撤退(上)",
       "kr": ""
     },
     {
       "ch": "居民",
       "zh": "不要！不要啊！！",
       "en": "No! No!!",
-      "jp": "",
+      "jp": "やめろ！やめてくれ！！",
       "kr": ""
     },
     {
       "ch": "居民",
       "zh": "救命！！不！！不！！！",
       "en": "Help me!! No!! No!!!",
-      "jp": "",
+      "jp": "助けて！！嫌だ！！やめろ！！！",
       "kr": ""
     },
     {
       "ch": "居民",
       "zh": "为什么，为什么是我！！",
       "en": "Why, why is it me!!",
-      "jp": "",
+      "jp": "どうして、どうして私が！！",
       "kr": ""
     },
     {
       "ch": "居民",
       "zh": "啊啊啊！！！",
       "en": "Ahhhhhh!!!",
-      "jp": "",
+      "jp": "うわあああ！！！",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "怎么会......",
       "en": "How could this be……",
-      "jp": "",
+      "jp": "どうして……",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "明明潜入时还是一片宁静......",
       "en": "It was still quiet when we snuck in……",
-      "jp": "",
+      "jp": "私たちが潜入した時にはまだ静かだったのに……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "刚刚你们身处核心地带，没法了解切城现在的局势。",
       "en": "You were in the core zone before, and you couldn’t know about Chernobog’s situation now.",
-      "jp": "",
+      "jp": "お前たちがコアゾーンに入った時には、現在のここの情勢はわからなかっただろうな。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "事实上......整个城市都陷入了混乱。",
       "en": "In fact……the entire city is in chaos now.",
-      "jp": "",
+      "jp": "実際は……今は都市全体が混乱状態だ。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "军队与治安队的抵抗也零零散散。",
       "en": "The military and police resistances are scattered.",
-      "jp": "",
+      "jp": "軍と治安部隊の抵抗勢力も、散り散りになってしまった。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "可见，切尔诺伯格的指挥系统也许已经被整合运动彻底瘫痪了。",
       "en": "Which shows that Chernobog’s command system is likely to have been paralyzed by Reunion Movement already.",
-      "jp": "",
+      "jp": "そのことからもわかるように、チェルノボーグの指揮系統はレユニオン・ムーヴメントによって完全に麻痺している。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......难道说，整合运动自一开始就在针对切城当局吗？",
       "en": "……Does this mean, Reunion Movement is targeting Chernobog government from the beginning?",
-      "jp": "",
+      "jp": "……それは、レユニオンは真っ先にチェルノボーグ政府を目標にした、ということですか？",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "是的。而且......",
       "en": "Yes. And also……",
-      "jp": "",
+      "jp": "そうだ。そして……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "我们入城时也太过顺利了，连一个切城守卫都没见到。",
       "en": "It was too easy when we snuck in the city, we didn’t even see a single city guard.",
-      "jp": "",
+      "jp": "我々が容易く都市に潜入した時には、チェルノボーグの守衛は一人も見当たらなかった。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "由此推测——",
       "en": "We can assume from this——",
-      "jp": "",
+      "jp": "このことから推測するに――",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "我们入城时整合运动就已经控制住了整个切城。",
       "en": "that Reunion Movement has already gained control of the city when we entered.",
-      "jp": "",
+      "jp": "我々が潜入した時には、レユニオン・ムーヴメントは既にこの都市を掌握していただろう。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "只是他们选择在刚才动手。",
       "en": "Only that they chose to lash out just now.",
-      "jp": "",
+      "jp": "今はただ暴力を振るっているばかりだ。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "本以为整合运动作为感染者团体，再怎么示威游行也只是小打小闹。",
       "en": "We thought that being an organization of the Infected, Reunion Movement can only cause so much trouble protesting.",
-      "jp": "",
+      "jp": "我々は、感染者の集団としてのレユニオン・ムーヴメントは、どんな抗議デモもせいぜい小規模な戦闘にしかならない、くらいにしか考えていなかった。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "现在......只能庆幸要收拾切尔诺伯格这烂摊子的人不是我了。",
       "en": "As for now……I’m only grateful that I’m not the one who needs to deal with this mess.",
-      "jp": "",
+      "jp": "今となっては……チェルノボーグのこの混乱を収拾する者が私でないことに感謝することくらいしかできん。",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "可是，整合运动究竟想要什么？为什么......",
       "en": "But, what does Reunion Movement want? Why……",
-      "jp": "",
+      "jp": "しかし、レユニオンは一体何がしたいんでしょう？どうして……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "现在不是停下步伐分析局势的时候。",
       "en": "This is not the time for analysis.",
-      "jp": "",
+      "jp": "今は状況を分析している時間はありません。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "当务之急是撤出核心区......越快越好。",
       "en": "The matter at hand is to move out of the core zone……the quicker the better.",
-      "jp": "",
+      "jp": "目下の任務はコアゾーンから出ることです。早ければ早いほどいいです。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "这样我们才能保证{@nickname}博士的安全。",
       "en": "Only then can we ensure Dr.___’s safety.",
-      "jp": "",
+      "jp": "それで初めてDr.___の安全が保障されます。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "没错。",
       "en": "That’s right.",
-      "jp": "",
+      "jp": "そうだな。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "而且——",
       "en": "And besides——",
-      "jp": "",
+      "jp": "それから――",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "——有敌袭！！小队临战姿态！！",
       "en": "——Enemy attack!! Combat position now!!",
-      "jp": "",
+      "jp": "――敵襲だ！！小隊、戦闘姿勢に入れ！！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "呼......我听凯尔希说过很多次你的名字，Dr.{@nickname}。",
       "en": "Ha……I’ve heard your name from Kal’tist many times, Dr.___.",
-      "jp": "",
+      "jp": "フン……お前の名はケルシーから何度も聞いているぞ、Dr.___。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "别，别为难{@nickname}博士，杜宾......",
       "en": "Don’t, don’t be difficult on Dr.___, Dobermann……",
-      "jp": "",
+      "jp": "ド、ドクターに意地悪しないでくださいよ、ドーベルマン……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "就算你这么说——",
       "en": "Even if you say that——",
-      "jp": "",
+      "jp": "そうは言っても――",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "这局势可不允许我们有所保留。",
       "en": "The situation at hand does not allow us to hold back.",
-      "jp": "",
+      "jp": "躊躇していられる状況ではない。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "来吧{@nickname}博士，现在，该是你来证明自己的时候了。",
       "en": "Come on, Dr.___, now, it’s time for you to prove yourself.",
-      "jp": "",
+      "jp": "行くぞ、Dr.___。今こそ己の力を証明する時だ。",
       "kr": ""
     }
   ]

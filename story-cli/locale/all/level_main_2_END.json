@@ -1,142 +1,142 @@
 {
   "messages": [
     {
-      "zh": "第二关（后）",
-      "en": "level 2(post)",
-      "jp": "",
+      "zh": "1-2 撤退（下）",
+      "en": "1-2 Retreat (part 2)",
+      "jp": "1-2 撤退(下)",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "......不错。",
       "en": "……Well enough.",
-      "jp": "",
+      "jp": "……いいだろう。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "罗德岛正需要你这样的头脑，可不能让凯尔希过度劳累了。",
       "en": "Rhodes Island needs brains like yours now, can’t let Kal’tsit overstrain herself.",
-      "jp": "",
+      "jp": "今のロドスアイランドはお前のような頭脳を求めている、ケルシーに無理をさせてはならない。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "杜宾......",
       "en": "Dobermann……",
-      "jp": "",
+      "jp": "ドーベルマン……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "不是现在。我们还没有驻足休息的余裕。",
       "en": "Not now. We don’t have time to rest yet.",
-      "jp": "",
+      "jp": "そのことは今はいい。まだ我々には休んでいる時間はない。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "——动起来！快！",
       "en": "——Move your butts! Quick!",
-      "jp": "",
+      "jp": "――進め！急ぐぞ！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "呼，呼......",
       "en": "Hah, Hah……",
-      "jp": "",
+      "jp": "はぁ、はぁ……",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "向阿米娅道歉",
       "en": "Apologize to Amiya",
-      "jp": "",
+      "jp": "アーミヤに謝る",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "啊，不，不......博士才是，该道歉的是我......",
       "en": "Ah, no, no, Doctor, it’s me that needs to apologize……",
-      "jp": "",
+      "jp": "ああ、いいえ、ドクター、謝らなくちゃいけないのは私のほうです……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "明明你什么都不清楚......我还强行把你拉进战斗......",
       "en": "You didn’t know anything……but I still dragged you into battle……",
-      "jp": "",
+      "jp": "何も分からないのに……あなたを戦闘に巻き込んでしまって……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "甚至把你和罗德岛小队的诸位都卷进危险......",
       "en": "And I even put you and the Rhodes Island squad all in danger……",
-      "jp": "",
+      "jp": "その上あなたとロドスの小隊の皆を危険に晒している……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我真是......",
       "en": "I’m such……",
-      "jp": "",
+      "jp": "私は本当に……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士......唉？不要紧吗？我做的很好了？",
       "en": "Doctor……huh? It’s okay? I did very well already?",
-      "jp": "",
+      "jp": "ドクター……あの、大丈夫でしょうか？私はうまくやれていますか？",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "作战会议时你就说过，营救{@nickname}博士本身就是相当危险的任务。",
       "en": "You said during the operation meeting, rescuing Dr.___ is a dangerous mission itself.",
-      "jp": "",
+      "jp": "貴女は作戦会議で、Dr.___の救出は危険な任務だと言っていました。",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "但如果是重要的伙伴，肯定不能坐视不理吧？",
       "en": "But if it’s an important companion, we can’t just give him up, right?",
-      "jp": "",
+      "jp": "でも大事な仲間なら、私たちが諦めるはずがないでしょう？",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "我参与作战，就是因为已经认可了你的作战计划。",
       "en": "I joined this operation, because I approved your plan already.",
-      "jp": "",
+      "jp": "私がこの作戦に加わったのは、お前の計画に賛同したからだ。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "阿米娅，挺起胸膛。整个罗德岛小队的安危依然由你把握着。",
       "en": "Amiya, stand tall. The safety of the entire Rhodes Island squad is still in your hands.",
-      "jp": "",
+      "jp": "アーミヤ、堂々としていろ。ロドスの全隊員の安全は、依然お前にかかっているんだ。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......嗯！",
       "en": "……Yes!",
-      "jp": "",
+      "jp": "……はい！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "临光小姐还在保证中城区撤退路线的安全。",
       "en": "Miss Nearl is still securing the retreat route in midtown.",
-      "jp": "",
+      "jp": "二アールさんも中間地区で退路の保証をしてくれています。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我们去与他们会合吧，不要让他们等太久！",
       "en": "Let’s go join with them, don’t keep them waiting too long!",
-      "jp": "",
+      "jp": "彼女達と合流しましょう、あまり長く待たせてはいけません！",
       "kr": ""
     }
   ]

@@ -3,119 +3,119 @@
     {
       "zh": "引导2到主界面",
       "en": "Tutorial 2 to home",
-      "jp": "",
+      "jp": "チュートリアル2",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "啧！",
       "en": "Psst!",
-      "jp": "",
+      "jp": "きゃっ！ ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "当心！",
       "en": "Watch out!",
-      "jp": "",
+      "jp": "気をつけて！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "Guard，保护她！",
       "en": "Guard, protect her!",
-      "jp": "",
+      "jp": "ガード隊員、彼女の援護を！ ",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "明白！",
       "en": "Understood!",
-      "jp": "",
+      "jp": "了解！",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "我，我没事！",
       "en": "I, I’m okay!",
-      "jp": "",
+      "jp": "わ、私は大丈夫です！",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "躺下吧你！整合运动的家伙！",
       "en": "Eat dirt! Reunion Movement asshole!",
-      "jp": "",
+      "jp": "喰らえ！レユニオンの奴らめ！ ",
       "kr": ""
     },
     {
       "ch": "整合运动成员",
       "zh": "呃啊！",
       "en": "Urghh!",
-      "jp": "",
+      "jp": "うわっ！",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "整合运动小队，确认全灭。",
       "en": "Reunion Movement squadron, eliminated.",
-      "jp": "",
+      "jp": "レユニオンの小隊、全滅を確認した。",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "......真......厉害。指挥一气呵成，毫无漏洞......",
       "en": "……That was……amazing. Such seasoned commanding, without a single flaw……",
-      "jp": "",
+      "jp": "……これは……凄いな。指揮を一気に、1つのミスもなく…… ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士还是很厉害的！",
       "en": "Doctor is just really brilliant!",
-      "jp": "",
+      "jp": "ドクターはやっぱり素晴らしいです！",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "抱歉，看来我必须打断你们这场叙旧了。",
       "en": "Sorry, it seems that I have to interrupt your reunion.",
-      "jp": "",
+      "jp": "すまない、お前達の話を断ち切らなくてはならないようだな。 ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "杜宾！你来了！",
       "en": "Dobermann! You’re here!",
-      "jp": "",
+      "jp": "ドーベルマン、来てくれたんですね！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "阿米娅，你冲动了。",
       "en": "Amiya, you’ve rashed.",
-      "jp": "",
+      "jp": "アーミヤ、お前は軽はずみだ。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "一个人冲进核心区，万一有什么变故，后果不堪设想。",
       "en": "Rushing into the core zone by yourself, if anything happens, the result is unthinkable.",
-      "jp": "",
+      "jp": "たった一人でコアゾーンに突っ込んで、万一何かが起きても、結果は想像もできんぞ。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "对不起......",
       "en": "I’m sorry……",
-      "jp": "",
+      "jp": "ごめんなさい……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "下次别这样了。我知道你是在担心任务目标——",
       "en": "Don't do it again. I know you’re anxious about the mission target——",
-      "jp": "",
+      "jp": "二度とするな。任務目標が心配なのはわかっている。 ",
       "kr": ""
     },
     {
@@ -126,259 +126,259 @@
       "ch": "杜宾",
       "zh": "——他就是Dr.{@nickname}？",
       "en": "——So he is Dr.___?",
-      "jp": "",
+      "jp": "――それで、彼がDr.___か？ ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "是，是的......",
       "en": "Yeah, yes……",
-      "jp": "",
+      "jp": "ええ、そうです……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "哈......",
       "en": "Ha……",
-      "jp": "",
+      "jp": "フン​……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "当然，现在的重点不是这个。",
       "en": "Of course, that’s not the point now.",
-      "jp": "",
+      "jp": "当然、今重要なのはそのことではない。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "唔......？难道有特殊情况？",
       "en": "Huh……? Did anything unusual happen?",
-      "jp": "",
+      "jp": "え……？　 何か起きたんですか？",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "没错。我们刚刚击退了一波袭击。",
       "en": "That’s right. We just fended off a wave of attack.",
-      "jp": "",
+      "jp": "そうだ。たった今、敵の襲撃を退けた。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——你是说——整合运动？",
       "en": "——You mean——Reunion Movement?",
-      "jp": "",
+      "jp": "――それは――レユニオン・ムーヴメントですか? ",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "是他们没错。",
       "en": "It’s them.",
-      "jp": "",
+      "jp": "奴らで間違いない。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "看来，刚才你们也和整合运动发生了冲突。",
       "en": "It seems, that you’ve just had a fight with them as well.",
-      "jp": "",
+      "jp": "お前たちも丁度奴らと戦闘になったようだな。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "这个感染者激进组织的成员，刚刚对我们留在核心区外围的小队发动了突然袭击。",
       "en": "Members of this radical Infected organization, just attacked our squadrons on the outskirts of the core zone.",
-      "jp": "",
+      "jp": "この感染者の過激派組織のメンバーが、コアゾーンの外縁で我々の小隊を突然襲撃してきた。 ",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "虽然我们解决了那些敌人，但这些家伙的目的，我们并不清楚。",
       "en": "Although we took care of the enemies, we’re not sure of their purpose.",
-      "jp": "",
+      "jp": "敵には対処したが、奴らの目的ははっきりしていない。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "现在我必须去侦查敌人的分布了，你们慢慢撤出核心区。",
       "en": "Now I must go investigate the enemies’ distributions. You guys slowly move out of the core zone.",
-      "jp": "",
+      "jp": "私は今から敵の分布を偵察しなくてはならない。お前たちは焦らずにコアゾーンから撤退しろ。 ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "好......",
       "en": "Okay……",
-      "jp": "",
+      "jp": "わかりました…… ",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "小心点。",
       "en": "Be careful.",
-      "jp": "",
+      "jp": "気を付けろよ。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "整合运动......",
       "en": "Reunion Movement……",
-      "jp": "",
+      "jp": "レユニオン・ムーヴメント……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "为什么会攻击我们......？罗德岛明明也是为感染者奔走的组织......",
       "en": "Why did they attack us……? Rhodes Island is an organization fighting for the Infected as well……",
-      "jp": "",
+      "jp": "どうして彼らは私達を攻撃するんでしょうか……？　ロドスアイランドも感染者の為にも活動している組織なのに……",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "先离开这里吧......我觉得这里有点怪......",
       "en": "Let’s get out of here first……I think this place is weird……",
-      "jp": "",
+      "jp": "まずはここから出ましょう……　ここは変な感じがします…… ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "没错。核心区的这个石棺，令人不寒而栗。",
       "en": "That’s right. This confinement in the core zone, makes people shudder.",
-      "jp": "",
+      "jp": "そうですね。コアゾーンに閉じ込められているのは、寒気がします。 ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——等等。",
       "en": "——wait.",
-      "jp": "",
+      "jp": "――待って。",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "怎么了？",
       "en": "What is it?",
-      "jp": "",
+      "jp": "どうしたんですか？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "是......来自罗德岛的紧急通讯！",
       "en": "It’s……an emergency communication from Rhodes Island!",
-      "jp": "",
+      "jp": "これは……ロドスアイランドから緊急通信です！ ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "可能是凯尔希医生......！",
       "en": "Maybe it’s Dr.Kal’tsit!",
-      "jp": "",
+      "jp": "ケルシー先生かもしれません……！",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "很抱歉，你猜错了。",
       "en": "Sorry to tell you, you are wrong.",
-      "jp": "",
+      "jp": "申し訳ないのですが、そうではありません。 ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "罗德岛终端服务......PRTS,出了什么事吗？",
       "en": "Primitive Rhodesisland Terminal Service……PRTS, is there anything wrong?",
-      "jp": "",
+      "jp": "プリミティブ・ロドスアイランド・ターミナル・サービス……PRTS、何かあったんですか？ ",
       "kr": ""
     },
     {
       "ch": "PRTS",
       "zh": "应急神经连接请求被意外触发了。",
       "en": "The emergency neural connection request was activated unexpectedly.",
-      "jp": "",
+      "jp": "予期しない緊急の神経接続のリクエストが作動しました。",
       "kr": ""
     },
     {
       "ch": "PRTS",
       "zh": "如果打扰到了您的派对，万分抱歉。我将在稍后断开连接。",
       "en": "If Iinterrupted your party, I’m sorry for that, and will disconnect shortly.",
-      "jp": "",
+      "jp": "貴女方のパーティーをお邪魔したのなら申し訳ありません。直ちに切断します。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不！别......正好我需要你帮个忙！",
       "en": "Don’t! wait……I need your help now!",
-      "jp": "",
+      "jp": "待ってください！あなたの助けが要るんです！ ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士，时间很紧张，我现在为你重新连接至罗德岛的后勤系统。",
       "en": "Doctor, we don’t have much time, I’ll reconnect you to Rhodes Island’s management system.",
-      "jp": "",
+      "jp": "ドクター、時間がありません。あなたをロドスの管理システムに再接続します。 ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "在我们作战的时候，希望你能利用它，帮助我们取得优势。",
       "en": "When we’re in battle, I want you to use it to help us gain advantage.",
-      "jp": "",
+      "jp": "戦闘の際は、これを使って、有利な状況を作ってください。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "PRTS，开始吧。",
       "en": "PRTS, let’s begin.",
-      "jp": "",
+      "jp": "PRTS、始めましょう。",
       "kr": ""
     },
     {
       "ch": "PRTS",
       "zh": "需要确认管理员身份，请选择识别方式。",
       "en": "Requires administrator authentication, please choose a verification method.",
-      "jp": "",
+      "jp": "管理者権限が必要です。照合方法を選択してください。 ",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "啊，博士......请你说句话。",
       "en": "Ah, Doctor……please say something.",
-      "jp": "",
+      "jp": "ああ、ドクター……何か喋ってください。 ",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "（说话）",
       "en": "(Speak)",
-      "jp": "",
+      "jp": "(喋る)",
       "kr": ""
     },
     {
       "ch": "PRTS",
       "zh": "虽然不知道为什么你不说话，反而触碰了一下屏幕中央——",
       "en": "I don’t know why you didn’t speak, but touched the center of the screen instead……",
-      "jp": "",
+      "jp": "何故何も言わなかったかはわかりませんが、代わりにスクリーンの中央に触れました――",
       "kr": ""
     },
     {
       "ch": "PRTS",
       "zh": "——不过我已经找到相匹配的指纹。",
       "en": "——but I have found the matching fingerprint.",
-      "jp": "",
+      "jp": "――合致する指紋が見つかりました。",
       "kr": ""
     },
     {
       "ch": "PRTS",
       "zh": "身份确认，权限水平：8。",
       "en": "Identity confirmed, authorization level:8.",
-      "jp": "",
+      "jp": "確認完了。権限レベル:8。",
       "kr": ""
     },
     {
       "ch": "PRTS",
       "zh": "——欢迎回家，Dr.{@nickname}。",
       "en": "——Welcome home, Dr.___.",
-      "jp": "",
+      "jp": "――おかえりなさい、Dr.___。",
       "kr": ""
     }
   ]
