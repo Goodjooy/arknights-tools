@@ -1,39 +1,33 @@
 {
   "names": [
     {
-      "zh": "博士",
-      "en": "Doctor",
-      "jp": "",
-      "kr": ""
-    },
-    {
       "zh": "模糊的声音",
       "en": "Blurry voice",
-      "jp": "",
+      "jp": "不明瞭な声",
       "kr": ""
     },
     {
       "zh": "阿米娅",
       "en": "Amiya",
-      "jp": "",
+      "jp": "アーミヤ",
       "kr": ""
     },
     {
       "zh": "医疗干员",
       "en": "Medic operator",
-      "jp": "",
+      "jp": "医療隊員",
       "kr": ""
     },
     {
       "zh": "罗德岛干员",
       "en": "Rhodes Island operator",
-      "jp": "",
+      "jp": "ロドスアイランド隊員",
       "kr": ""
     },
     {
       "zh": "整合运动成员",
       "en": "Reunion Movement member",
-      "jp": "",
+      "jp": "レユニオンメンバー",
       "kr": ""
     },
     {
@@ -236,7 +230,7 @@
     },
     {
       "zh": "整合运动术士",
-      "en": "Reunion Movement warlock",
+      "en": "Reunion Movement caster",
       "jp": "",
       "kr": ""
     },
@@ -249,30 +243,6 @@
     {
       "zh": "浮士德",
       "en": "Faust",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "zh": "W",
-      "en": "W",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "zh": "PRTS",
-      "en": "PRTS",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "zh": "E",
-      "en": "E",
-      "jp": "",
-      "kr": ""
-    },
-    {
-      "zh": "R",
-      "en": "R",
       "jp": "",
       "kr": ""
     }
