@@ -34,7 +34,7 @@ class Translation {
       if (message[self.targetLanguage])
         self.messages[message.zh] = message[self.targetLanguage]
       else if (self.targetLanguage == 'ja' && message['jp'])
-      self.messages[message.zh] = message['jp']
+        self.messages[message.zh] = message['jp']
     })
     if (parsed.overrides) parsed.overrides.forEach(message => {
       self.overrides.push(message)
@@ -42,6 +42,8 @@ class Translation {
     if (parsed.sounds) parsed.sounds.forEach(message => {
       if (message[self.targetLanguage])
         self.sounds[message.key] = message[self.targetLanguage]
+      else if (self.targetLanguage == 'ja' && message['jp'])
+        self.sounds[message.key] = message['jp']
     })
     if (parsed.names) parsed.names.forEach(name => {
       if (name[self.targetLanguage]) {
