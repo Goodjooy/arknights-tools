@@ -33,6 +33,8 @@ class Translation {
     if (parsed.messages) parsed.messages.forEach(message => {
       if (message[self.targetLanguage])
         self.messages[message.zh] = message[self.targetLanguage]
+      else if (self.targetLanguage == 'ja' && message['jp'])
+      self.messages[message.zh] = message['jp']
     })
     if (parsed.overrides) parsed.overrides.forEach(message => {
       self.overrides.push(message)
@@ -45,6 +47,9 @@ class Translation {
       if (name[self.targetLanguage]) {
         self.messages[name.zh] = name[self.targetLanguage]
         self.overrides.push({ find: name.zh, replace: name[self.targetLanguage] })
+      } else if (self.targetLanguage == 'ja' && name['jp']) {
+        self.messages[name.zh] = name['jp']
+        self.overrides.push({ find: name.zh, replace: name['jp'] })
       }
     })
   }
@@ -57,9 +62,9 @@ class Translation {
       if (!cleanText) return ''
       if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(cleanText))) return cleanText
       if (cleanText == '？？？') return '???'
-
-      // Translations from JSON files
+      
       if (self.messages[text] && self.targetLanguage != 'zh') return self.messages[text]
+      if (!self.messages[text] && self.targetLanguage != 'ja') return self.messages['jp']
 
       // Translations from Google cache
       if (self.googleCache[cleanText]) return self.googleCache[cleanText]
