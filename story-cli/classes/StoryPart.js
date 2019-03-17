@@ -15,6 +15,8 @@ class StoryPart {
   static get TYPE_BACKGROUND() { return 'background' }
   static get TYPE_CHARACTER() { return 'character' }
   static get TYPE_FULLCHARACTER() { return 'fullcharacter' }
+  static get TYPE_CUTIN_CHARACTER() { return 'cutincharacter' }
+  static get TYPE_CUTIN_EMPTY() { return 'cutinempty' }
   static get TYPE_QUOTE() { return 'quote' }
   static get TYPE_IMAGE() { return 'image' }
   static get TYPE_CHOICE() { return 'choice' }
@@ -24,6 +26,8 @@ class StoryPart {
   static get REGEX_BACKGROUND() { return /\[Background\(image="([a-zA-Z0-9_]+)"/g }
   static get REGEX_CHARACTER() { return /\[Character\((.*?)\)]/g }
   static get REGEX_FULLCHARACTER() { return /\[FullCharacter\((.*?)\)]/g }
+  static get REGEX_CUTIN_CHARACTER() { return /\[CharacterCutin\(.*name="(\S*)".*\)\]/g }
+  static get REGEX_CUTIN_EMPTY() { return /\[CharacterCutin\(.*\)\]/g }
   static get REGEX_CHARACTER_EMPTY() { return /\[Character\]/g }
   static get REGEX_QUOTE() { return /\[name="(.*?)"\](\s)+(.+)/g }
   static get REGEX_ANONQUOTE() { return /^(?![\/\s\[]).+$/g }
@@ -52,6 +56,8 @@ class StoryPart {
     if (StoryPart.REGEX_BACKGROUND.test(this.line)) return this.background()
     if (StoryPart.REGEX_CHARACTER.test(this.line)) return this.character()
     if (StoryPart.REGEX_CHARACTER_EMPTY.test(this.line)) return this.character()
+    if (StoryPart.REGEX_CUTIN_CHARACTER.test(this.line)) return this.cutinCharacter()
+    if (StoryPart.REGEX_CUTIN_EMPTY.test(this.line)) return this.cutinEmpty()
     if (StoryPart.REGEX_QUOTE.test(this.line)) return this.quote()
     if (StoryPart.REGEX_IMAGE.test(this.line)) return this.image()
     if (StoryPart.REGEX_CHOICE.test(this.line)) return this.choice()
@@ -359,6 +365,27 @@ class StoryPart {
         }
       }
     })()
+  }
+
+  cutinCharacter() {
+    // Set type of this instance
+    this.type = StoryPart.TYPE_CUTIN_CHARACTER
+    let data = StoryPart.REGEX_CUTIN_CHARACTER.exec(this.line)
+    // Only make overrides if there is name data
+    if (data) {
+      this.characters = [ null, null ]
+      this.characters[0] = Utils.fixCharName(data[1])
+      this.focusedCharacter = 1
+    }
+    return Promise.resolve()
+  }
+
+  cutinEmpty() {
+    // Set type of this instance
+    this.type = StoryPart.TYPE_CUTIN_EMPTY
+    this.characters = [ null, null ]
+    this.focusedCharacter = 1
+    return Promise.resolve()
   }
 
 }

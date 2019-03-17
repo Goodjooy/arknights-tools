@@ -90,6 +90,18 @@ class Chapter {
           console.log('\nFULLCHARACTER', part.line.substring(0,30))
           yield self.addToPage(part)
           break;
+        
+        case StoryPart.TYPE_CUTIN_CHARACTER:
+          console.log('\nCUT-IN', part.line.substring(0,30))
+          self.characters = part.characters
+          self.focusedCharacter = part.focusedCharacter
+          break;
+        
+        case StoryPart.TYPE_CUTIN_EMPTY:
+          console.log('\nREMOVE CUT-IN', part.line.substring(0,30))
+          self.characters = part.characters
+          self.focusedCharacter = part.focusedCharacter
+          break;
 
         default:
       }
