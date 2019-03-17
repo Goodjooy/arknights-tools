@@ -3,22 +3,26 @@
     {
       "find": "{@nickname}",
       "en": "_____",
-      "zh": "_____"
+      "zh": "_____",
+      "jp": "_____"
     },
     {
       "find": "罗德岛",
       "en": "Rhodes Island",
-      "zh": ""
+      "zh": "",
+      "jp": "ロドスアイランド"
     },
     {
       "find": "整合运动",
       "en": "Reunion Movement",
-      "zh": ""
+      "zh": "",
+      "jp": "レユニオン"
     },
     {
       "find": "整合",
       "en": "Reunion",
-      "zh": ""
+      "zh": "",
+      "jp": "レユニオン"
     }
   ]
 }
