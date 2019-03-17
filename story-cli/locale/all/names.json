@@ -1,6 +1,12 @@
 {
   "names": [
     {
+      "zh": "博士",
+      "en": "Doctor",
+      "jp": "Doctor",
+      "kr": "Doctor"
+    },
+    {
       "zh": "模糊的声音",
       "en": "Blurry voice",
       "jp": "不明瞭な声",
@@ -245,6 +251,30 @@
       "en": "Faust",
       "jp": "ファウスト",
       "kr": ""
+    },
+    {
+      "zh": "W",
+      "en": "W",
+      "jp": "W",
+      "kr": "W"
+    },
+    {
+      "zh": "PRTS",
+      "en": "PRTS",
+      "jp": "PRTS",
+      "kr": "PRTS"
+    },
+    {
+      "zh": "E",
+      "en": "E",
+      "jp": "E",
+      "kr": "E"
+    },
+    {
+      "zh": "R",
+      "en": "R",
+      "jp": "R",
+      "kr": "R"
     }
   ]
 }
