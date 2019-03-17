@@ -82,7 +82,7 @@ class Chapter {
           break;
         
         case StoryPart.TYPE_SOUND:
-          console.log('\nCHOICE', part.line.substring(0,30))
+          console.log('\nSOUND', part.line.substring(0,30))
           yield self.addToPage(part)
           break;
 

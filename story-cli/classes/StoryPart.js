@@ -26,7 +26,7 @@ class StoryPart {
   static get REGEX_FULLCHARACTER() { return /\[FullCharacter\((.*?)\)]/g }
   static get REGEX_CHARACTER_EMPTY() { return /\[Character\]/g }
   static get REGEX_QUOTE() { return /\[name="(.*?)"\](\s)+(.+)/g }
-  static get REGEX_ANONQUOTE() { return /^((?![\/\s\[]).)+$/g }
+  static get REGEX_ANONQUOTE() { return /^(?![\/\s\[]).+$/g }
   static get REGEX_IMAGE() { return /\[Image\(image="(.*?)"(.*)\)\]/g }
   static get REGEX_CHOICE() { return /\[Decision\(options="(.*?)"/g }
   static get REGEX_SOUND() { return /\[PlaySound\(key="(.*?)"/g }
@@ -163,7 +163,6 @@ class StoryPart {
       }))
       if (speakerName) speakerName = yield self.translations.get(speakerName)
       if (quoteMessage) quoteMessage = yield self.translations.get(quoteMessage)
-      // console.log('  loaded quote char thumbs', charThumbs);
       // Set the make renderer
       self.makeRenderer = (pageOpts, foregroundY) => {
         return pageCanvas => {
