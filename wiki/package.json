@@ -9,7 +9,8 @@
     "profiles": "node scripts/extract_profiles.js",
     "quotesheet": "node scripts/quotes_sheet.js",
     "quotesjson": "node scripts/quotes_json.js",
-    "potentials": "node scripts/potentials.js"
+    "potentials": "node scripts/potentials.js",
+    "reformat": "node scripts/reformat.js"
   },
   "dependencies": {
     "csv": "^5.0.1"
