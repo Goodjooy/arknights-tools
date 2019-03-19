@@ -13,6 +13,7 @@
     "reformat": "node scripts/reformat.js"
   },
   "dependencies": {
+    "bluebird": "^3.5.3",
     "csv": "^5.0.1"
   }
 }

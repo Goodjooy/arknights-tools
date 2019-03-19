@@ -10,9 +10,7 @@ return {
   background = "{{background}}",
   team = {{team}},
   position = "{{position}}",
-  role = {
-    "{{roles}}"
-  },
+  roles = { {{roles}} },
   faction = "{{faction}}",
   stars = {{stars}},
   class = "{{class}}",
@@ -21,10 +19,7 @@ return {
     elite1 = {{rank_elite1}},
     elite2 = {{rank_elite2}},
   },
-  skills = {
-    {{skill1}},
-    {{skill2}},
-    {{skill3}},
+  skills = {{{skill1}}{{skill2}}{{skill3}}
   },
   talents = {
     {{talents}},
@@ -52,12 +47,12 @@ return {
       
     },
     physical = {
-      strength = "{{strength}}",
-      mobility = "{{mobility}}",
-      endurance = "{{endurance}}",
-      tactic = "{{tactic}}",
-      skill = "{{skill}}",
-      originium = "{{originium}}",
+      strength = "{{profile_strength}}",
+      mobility = "{{profile_mobility}}",
+      endurance = "{{profile_endurance}}",
+      tactic = "{{profile_tactic}}",
+      skill = "{{profile_skill}}",
+      originium = "{{profile_originium}}",
     },
     diagnosis = {{diagnosis}},
     meta = {
