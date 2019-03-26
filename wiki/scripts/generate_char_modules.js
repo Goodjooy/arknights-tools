@@ -5,21 +5,28 @@ Promise.all([
   read('templates/char_module.lua'),
   read('templates/char_rank.lua'),
   read('templates/skill.lua'),
+  read('templates/talent.lua'),
   read('data/character_table.json'),
   read('data/charword_table.json'),
   read('data/handbook_info_table.json'),
   read('data/skill_table.json'),
   read('data/translations.json'),
+  read('templates/talent-mastery.lua'),
+  read('templates/trust.lua'),
 ])
 .then(data => {
   let tpl_char_module = data[0].contents
   let tpl_char_rank = data[1].contents
   let tpl_skill = data[2].contents
-  let characters = JSON.parse(data[3].contents).data.gamedataCN
-  let quotes = JSON.parse(data[4].contents).data.gamedataCN
-  let handbook = JSON.parse(data[5].contents).data.gamedataCN
-  let skills = JSON.parse(data[6].contents).data.gamedataCN
-  let tls = JSON.parse(data[7].contents)
+  let tpl_talent = data[3].contents
+  let tpl_mastery = data[9].contents
+  let tpl_trust = data[10].contents
+
+  let characters = JSON.parse(data[4].contents).data.gamedataCN
+  let quotes = JSON.parse(data[5].contents).data.gamedataCN
+  let handbook = JSON.parse(data[6].contents).data.gamedataCN
+  let skills = JSON.parse(data[7].contents).data.gamedataCN
+  let tls = JSON.parse(data[8].contents)
 
   let quotesByChar = {}
   Object.keys(quotes).forEach(quoteKey => {
@@ -57,7 +64,8 @@ Promise.all([
 
   const skillDesc = skill => {
     let message = skill.description
-    message = message.replace(/\<@ba\.vup\>/gi, '')
+    message = message.replace(/\<@ba\.[a-z]+\>/gi, '')
+    message = message.replace(/\<\/\>/gi, '')
     message = message.replace(/\\n/gi, ' ')
     // message = message.replace('立即', 'Instantly ')
     // message = message.replace('回复', 'Recover ')
@@ -65,13 +73,15 @@ Promise.all([
     // message = message.replace('提高', 'increased ')
     // message = message.replace('点部署费用', 'deployment points ')
     if (skill.blackboard) skill.blackboard.forEach(item => {
-      let regex = new RegExp('\{' + item.key + '[:]?([A-Za-z0-9%]*)\}<\/>', 'gi')
+      let regex = new RegExp('\{\-?' + item.key.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&') + ':?([A-Za-z0-9%\.]*)\}', 'gi')
       let findBlackboards = regex.exec(message)
       if (findBlackboards) {
         if (findBlackboards[1] == '0%') message = message.replace(regex, (item.value * 100) + '% ')
         else message = message.replace(regex, item.value + ' ')
       }
     })
+    if (/\{(.*)\}/gi.exec(message)) console.log('unhandled skill param', skill.name, message, skill.blackboard)
+    if (/\<(.*)\>/gi.exec(message)) console.log('tags in skill desc', skill.name, message)
     message = message.replace(/^\s+|\s+$/g, '')
     return message
   }
@@ -84,18 +94,98 @@ Promise.all([
       description: skillDesc(baseSkill.levels[0]),
       max_description: skillDesc(baseSkill.levels[baseSkill.levels.length - 1]),
       type: baseSkill.levels[0].skillType,
-      range: baseSkill.levels[0].rangeId,
-      max_range: baseSkill.levels[baseSkill.levels.length - 1].rangeId,
+      range: baseSkill.levels[0].rangeId ? '"' + baseSkill.levels[0].rangeId + '"' : null,
+      max_range: baseSkill.levels[baseSkill.levels.length - 1].rangeId ? '"' + baseSkill.levels[baseSkill.levels.length - 1].rangeId + '"' : null,
       spcost: baseSkill.levels[0].spData.spCost,
       max_spcost: baseSkill.levels[baseSkill.levels.length - 1].spData.spCost,
       duration: baseSkill.levels[0].duration,
     })
   }
 
+  const talentTemplate = charTalent => {
+    let candidates = charTalent.candidates
+    let phases = ['', '', '']
+    candidates.forEach(candidate => {
+      if (candidate.requiredPotentialRank == 0) {
+        let unlockPhase = candidate.unlockCondition.phase
+        if (candidate.name)
+          phases[unlockPhase] = '\n' + fillData(tpl_mastery, {
+            num: unlockPhase,
+            name: candidate.name,
+            description: candidate.description,
+            level: candidate.unlockCondition.level,
+          })
+      }
+    })
+    return fillData(tpl_talent, {
+      phase1: phases[0],
+      phase2: phases[1],
+      phase3: phases[2],
+    })
+  }
+
+  const phaseTemplate = (phaseName, charPhase) => {
+    return fillData(tpl_char_rank, {
+      phaseName: phaseName,
+      cost: phaseName !== 'base' ? `cost = {
+
+      }` : ''
+    })
+  }
+
+  const trustList = favorKeyframes => {
+    let trustString = ''
+    favorKeyframes.forEach(keyframe => {
+      if (keyframe.level != 0) {
+        trustString += '\n' + trustTemplate(keyframe.level, keyframe.data)
+      }
+    })
+    return trustString
+  }
+
+  const trustTemplate = (trustPoints, bonuses) => {
+    return fillData(tpl_trust, {
+      points: trustPoints,
+      maxhp: bonuses.maxHp,
+      atk: bonuses.atk,
+      def: bonuses.def,
+    })
+  }
+
+  const potentialMessage = potentialRank => {
+    if (potentialRank.type == 0) {
+      // Stats bonus
+      if (!potentialRank.buff) { console.log('ERR potential without buff', potentialRank); return '' }
+      if (potentialRank.buff.attributes.attributeModifiers.length != 1) { console.log('ERR potential multiple buffs', potentialRank); return '' }
+      let modifier = potentialRank.buff.attributes.attributeModifiers[0]
+      switch (modifier.attributeType) {
+        case 0: return 'Maximum Health + ' + modifier.value
+        case 1: return 'Attack + ' + modifier.value
+        case 2: return 'Defense + ' + modifier.value
+        case 3: return 'Resistance + ' + modifier.value
+        case 4: return 'Deploy Cost + ' + modifier.value
+        case 7: return 'Attack Speed + ' + modifier.value
+        case 21: return 'Buyback time - ' + Math.abs(modifier.value)
+      }
+      console.log('unknown attribute type', potentialRank)
+      return '?'
+      
+    } else {
+      // Talent enhancement
+      switch (potentialRank.description) {
+        case '第一天赋效果增强': return 'First Talent Boost'
+        case '第二天赋效果增强': return 'Second Talent Boost'
+        case '天赋效果增强': return 'Talent enhancement'
+        case '天赋效果再度增强': return 'More talent enhancement'
+      }
+      console.log('unknown talent boost', potentialRank)
+      return '?'
+    }
+  }
+
   const t = text => tls[text] || text
 
   Promise.each(Object.keys(characters), charKey => {
-    console.log('processing ', charKey)
     let char = characters[charKey]
     if (!handbook[charKey]) return
     let info = extractHandbook(handbook[charKey])
@@ -113,15 +203,21 @@ Promise.all([
       faction: char.displayLogo,
       stars: parseInt(char.rarity, 10) + 1,
       class: char.profession, 
-      rank_base: '""',
-      rank_elite1: '""',
-      rank_elite2: '""',
+      phase0: '\n' + phaseTemplate('base', char.phases[0]),
+      phase1: char.phases[1] ? '\n' + phaseTemplate('elite1', char.phases[1]) : '',
+      phase2: char.phases[2] ? '\n' + phaseTemplate('elite2', char.phases[2]) : '',
       skill1: char.skills[0] ? '\n' + skillTemplate(char.skills[0]) : '',
       skill2: char.skills[1] ? '\n' + skillTemplate(char.skills[1]) : '',
       skill3: char.skills[2] ? '\n' + skillTemplate(char.skills[2]) : '',
-      talents: '""',
-      potential: '""',
-      trust: '""',
+      talent1: char.talents[0] ? '\n' + talentTemplate(char.talents[0]) : '',
+      talent2: char.talents[1] ? '\n' + talentTemplate(char.talents[1]) : '',
+      potential1:  potentialMessage(char.potentialRanks[0]),
+      potential2:  potentialMessage(char.potentialRanks[1]),
+      potential3:  potentialMessage(char.potentialRanks[2]),
+      potential4:  potentialMessage(char.potentialRanks[3]),
+      potential5:  potentialMessage(char.potentialRanks[4]),
+      // skillup2: skillUpgrade(char.allSkillLvlup),
+      trust: trustList(char.favorKeyFrames),
       realname: '',
       codename: char.appellation,
       gender: '',
@@ -149,6 +245,4 @@ Promise.all([
     })
   })
   .then(() => { console.log('DONE!') })
-
-  console.log('tpl_char_module', )
 })

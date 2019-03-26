@@ -1,3 +1,6 @@
+const csvStringify = require('csv-stringify/lib/sync')
+const saveFile = require('../helpers/saveFile')
+
 Promise.resolve({ sourceFile: 'data/handbook_info_table.json' })
 .then(require('../helpers/readFile'))
 .then(data => {
@@ -6,6 +9,8 @@ Promise.resolve({ sourceFile: 'data/handbook_info_table.json' })
   let origins = {}
   let races = {}
 
+  let csvData = []
+
   Object.keys(handbook).forEach(charKey => {
     let char = handbook[charKey]
     let profile = char.storyTextAudio[1].stories[0].storyText
@@ -13,6 +18,10 @@ Promise.resolve({ sourceFile: 'data/handbook_info_table.json' })
     let find = regex.exec(profile)
 
     let charcode = charKey.split('_')[2]
+
+    csvData.push([
+      charKey, find[1], find[2], find[3], find[4], find[5]
+    ])
 
     if (find) {
       if (!origins[find[2]]) origins[find[2]] = []
@@ -27,10 +36,15 @@ Promise.resolve({ sourceFile: 'data/handbook_info_table.json' })
     
   })
 
-  console.log('\nORIGINS')
-  Object.keys(origins).forEach(origin => { console.log(origin, origins[origin].join(', ')) })
+  saveFile({
+    destFile: 'output/handbook.csv',
+    destBody: csvStringify(csvData),
+  })
 
-  console.log('\nRACES')
-  Object.keys(races).forEach(race => { console.log(race, races[race].join(', ')) })
+  // console.log('\nORIGINS')
+  // Object.keys(origins).forEach(origin => { console.log(origin, origins[origin].join(', ')) })
+
+  // console.log('\nRACES')
+  // Object.keys(races).forEach(race => { console.log(race, races[race].join(', ')) })
   
 })

@@ -10,17 +10,18 @@ Promise.resolve({ sourceFile: 'data/character_table.json' })
   let boosters = []
   let talentString = ''
   let csvData = []
+  let buffAttributes = {}
 
   const potentialEN = {
-    "部署费用": "Deploy Cost",
-    "再部署时间": "Redeploy Cooldown",
-    "攻击力": "Attack",
-    "生命上限": "Maximum Health",
-    "攻击速度": "Attack Speed",
-    "防御力": "Defense",
+    "部署费用": "Deploy Cost", // 4
+    "再部署时间": "Redeploy Cooldown", // 21
+    "攻击力": "Attack", // 1
+    "生命上限": "Maximum Health", // 0
+    "攻击速度": "Attack Speed", // 7
+    "防御力": "Defense", // 2
     "天赋效果增强": "Potential Bonus Boost",
     "天赋效果再度增强": "Potential Bonus Boost",
-    "法术抗性": "Magical Resistance",
+    "法术抗性": "Magical Resistance", // 3
     "第一天赋效果增强": "First Talent Skill Boost",
     "第二天赋效果增强": "Second Talent Skill Boost",
   }
@@ -42,14 +43,19 @@ Promise.resolve({ sourceFile: 'data/character_table.json' })
           })
         }
 
-        // if (potentialRank.buff) {
-        //   potentialRank.buff.attributes.attributeModifiers.forEach(attmod => {
-        //     potentials[ attmod.attributeType ] = {
-        //       description: potentialRank.description,
-        //       english: potentialEN[ descName ]
-        //     }
-        //   })
-        // }
+        if (potentialRank.buff) {
+          potentialRank.buff.attributes.attributeModifiers.forEach(attmod => {
+            if (!buffAttributes[attmod.attributeType]) buffAttributes[attmod.attributeType] = []
+            buffAttributes[attmod.attributeType].push(potentialRank.description)
+            // potentials[ attmod.attributeType ] = {
+            //   description: potentialRank.description,
+            //   english: potentialEN[ descName ]
+            // }
+          })
+        } else {
+          console.log('potentialRank', potentialRank);
+          
+        }
       
       if (char.talents)
         char.talents.forEach(talent => {
@@ -73,11 +79,12 @@ Promise.resolve({ sourceFile: 'data/character_table.json' })
 
   // data.destBody = talentString
 
-  // data.destBody = JSON.stringify({
-  //   potentials,
-  //   talents,
-  //   // boosters,
-  // }, ' ', 2)
+  data.destBody = JSON.stringify({
+    potentials,
+    talents,
+    // boosters,
+    buffAttributes,
+  }, ' ', 2)
 
   data.destFile = 'output/potentials.json'
   return data

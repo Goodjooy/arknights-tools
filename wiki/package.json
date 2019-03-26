@@ -7,6 +7,7 @@
     "itemmodules": "node scripts/generate_item_modules.js",
     "interactions": "node scripts/extract_interactions.js",
     "profiles": "node scripts/extract_profiles.js",
+    "explore": "node scripts/explore_chars.js",
     "quotesheet": "node scripts/quotes_sheet.js",
     "quotesjson": "node scripts/quotes_json.js",
     "potentials": "node scripts/potentials.js",

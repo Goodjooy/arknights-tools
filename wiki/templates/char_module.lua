@@ -14,21 +14,37 @@ return {
   faction = "{{faction}}",
   stars = {{stars}},
   class = "{{class}}",
-  ranks = {
-    base = {{rank_base}},
-    elite1 = {{rank_elite1}},
-    elite2 = {{rank_elite2}},
+  obtain = {
+    recruit = 0,
+    gacha = 0,
+    mission = 0,
+  },
+  stats = {
+    {{base}},
+    {{phase0max}},{{pase1max}}{{pase2max}}{{pase3max}}
+  },
+  evolve = {{{evolve1}}{{evolve2}}
   },
   skills = {{{skill1}}{{skill2}}{{skill3}}
   },
-  talents = {
-    {{talents}},
+  skillup = {
+    {{skillup2}},
+    {{skillup3}},
+    {{skillup4}},
+    {{skillup5}},
+    {{skillup6}},
+    {{skillup7}},
+  },
+  talents = {{{talent1}}{{talent2}}
   },
   potential = {
-    {{potential}},
+    "{{potential1}}",
+    "{{potential2}}",
+    "{{potential3}}",
+    "{{potential4}}",
+    "{{potential5}}",
   },
-  trust = {
-    {{trust}},
+  trust = {{{trust}},
   },
   profile = {
     base = {
