@@ -2,274 +2,274 @@
   "messages": [
     {
       "zh": "第三关（前）",
-      "en": "level 3(pre)",
-      "jp": "",
+      "en": "1-3 Reason (part 2)",
+      "jp": "1-3 理性",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "远处那个，是不是......",
       "en": "Over there in the distance, is that……",
-      "jp": "",
+      "jp": "向こうに誰かいる、あれは……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......是ace的小队吗？",
       "en": "……Is it ace’s squad?",
-      "jp": "",
+      "jp": "……エースの小隊？",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "头儿，你怎么在这？",
       "en": "Boss, why are you here?",
-      "jp": "",
+      "jp": "ボス、どうしてここに？",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "我担心你们遭到整合运动封锁，所以赶来支援。",
       "en": "I was afraid that you were held off by Reunion Movement, so I came to help.",
-      "jp": "",
+      "jp": "お前達がレユニオンの封鎖に遭っていたらと心配で、助けに来た。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "你来了？",
       "en": "You’re here?",
-      "jp": "",
+      "jp": "お前、来てくれたのか？",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "杜宾。",
       "en": "Dobermann.",
-      "jp": "",
+      "jp": "ドーベルマンか。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "临光那边，不要紧？",
       "en": "Is Nearl okay over there?",
-      "jp": "",
+      "jp": "あちらの二アールは大丈夫か？",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "现在还没有能难倒她的事。",
       "en": "There's nothing to stump her yet.",
-      "jp": "",
+      "jp": "彼女が手を焼くようなことなんてないさ。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "而且，和我想的一样，你们遇到麻烦了。",
       "en": "And, just as I thought, you’re in trouble.",
-      "jp": "",
+      "jp": "そして、思っていた通り、お前達は面倒に遭ったようだな。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "是的。整合运动发动了突然袭击。",
       "en": "Yes. Reunion Movement launched a sudden attack.",
-      "jp": "",
+      "jp": "ああ。レユニオンが突然襲撃してきた。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "我们那边也是。幸亏临光指挥得当，省了许多功夫。",
       "en": "Same for us here. Thanks to Nearl’s commanding, that saved us a lot of effort.",
-      "jp": "",
+      "jp": "我々もそこにいた。二アールの指揮が良かったおかげで、酷い苦労はせずに済んだが。",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "这样......唔......！",
       "en": "Well then……urghh……!",
-      "jp": "",
+      "jp": "そして……うぐっ……！",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "你受伤了？让我来处理......",
       "en": "You’re hurt? Let me treat it……",
-      "jp": "",
+      "jp": "怪我してるんですか？手当を……",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "麻烦你了......",
       "en": "My apologies……",
-      "jp": "",
+      "jp": "すまない……",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "都怪切城那个感染者诊所，叫什么......阿撒兹勒。",
       "en": "It’s all that Infected clinic in Chernobog, called something like……Azazel.",
-      "jp": "",
+      "jp": "全部あの感染者の診療所のせいだ、アザゼルとかいう……",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "如果他们当时肯分享情报，或者愿意合作的话......",
       "en": "If they were willing to share information, or cooperate……",
-      "jp": "",
+      "jp": "もしあいつらが情報を共有するか、あるいは協力する意思があったなら……",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "我们就不会陷入如此被动的境地了！",
       "en": "We wouldn’t be in such a passive condition now!",
-      "jp": "",
+      "jp": "俺達がこんなに受け身に追い込まれることもなかった！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "也不全是这样......",
       "en": "That’s not it……",
-      "jp": "",
+      "jp": "それが全てではありません……",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "阿米娅，当时和他们交涉时你也在场吧？",
       "en": "Amiya, you were there too when we negotiated with them right?",
-      "jp": "",
+      "jp": "アーミヤ、君もあいつらとの交渉の場にいたよな？",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "他们那傲慢冷漠的态度，我真是......",
       "en": "That arrogant and cold attitude of theirs, I’m just……",
-      "jp": "",
+      "jp": "あいつらのあの傲慢で冷淡な態度、俺は本当に……",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "气不打一处来！",
       "en": "so pissed off at them!",
-      "jp": "",
+      "jp": "腹の虫がおさまらねえ！",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "不能怪罪他们。",
       "en": "We can’t blame them.",
-      "jp": "",
+      "jp": "俺達が彼らを責めることはできない。",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "头儿也这么说......",
       "en": "Boss says this too……",
-      "jp": "",
+      "jp": "ボスまでそう言うのか……",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "感染者本就很难相信别人。",
       "en": "The Infected are untrusting to begin with.",
-      "jp": "",
+      "jp": "感染者は元々他人を信用できない。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "经历那么多苦难......当然会变得保守与顽固。",
       "en": "After so many suffering……of course they’d become guarded and stubborn.",
-      "jp": "",
+      "jp": "多くの苦難を経験して……保守的で頑固になるのも当然だ。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "因为不提防他人，就会被他人伤害。",
       "en": "Because not being on guard constantly is likely to get them hurt.",
-      "jp": "",
+      "jp": "他人を警戒していないと、自分が傷つけられてしまいます。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "就连感染者都没法互相信任。",
       "en": "Even the Infected can’t trust each other.",
-      "jp": "",
+      "jp": "感染者同士でさえもお互いを信用できません。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "在这片土地上，哪怕只是想依偎取暖、独善其身......都很困难。",
       "en": "On this land, whether you want to huddle for warmth or stay by yourself……they’re all very difficult.",
-      "jp": "",
+      "jp": "ここでは、誰かと寄り添って暖を取るのも、一人でいるのも……とても難しいんです。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "至少他们那样做......我能理解，也能原谅。",
       "en": "At least their actions……I can understand, and can forgive too.",
-      "jp": "",
+      "jp": "少なくとも、私は彼らの行動を……理解できますし、許せるとも思っています。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "像罗德岛这样不分彼此，或是整合运动那样狂热的排外拥内，都很少见。",
       "en": "Infected united like Rhodes Island, or the extremely xenophobic Reunion Movement, are both hard to see. ",
-      "jp": "",
+      "jp": "ロドスアイランドのような分け隔てない者も、レユニオン・ムーヴメントのような極めて排他的な者も、稀な存在なのだろうな。",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "杜宾教官。",
       "en": "Instructor Dobermann.",
-      "jp": "",
+      "jp": "ドーベルマン教官。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "我能理解你的怒气......也能理解那个小诊所的苦衷。",
       "en": "I can understand your anger……and I can understand the hardship of that clinic as well.",
-      "jp": "",
+      "jp": "お前の怒りはわかる……だがあの小さな診療所の苦しみもまた、理解できる。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "任何人都无法逃离这漩涡，想必他们也面临着种种难题。",
       "en": "Nobody can escape from this whirlpool, they must have their difficulties as well.",
-      "jp": "",
+      "jp": "誰もこの渦中から逃れられていない。恐らく彼らも様々な苦難に直面しているだろう。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "但在解决其他人的难题前——",
       "en": "But before solving others’ difficulties——",
-      "jp": "",
+      "jp": "ただ、他人の問題を解決する前に――",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "我们先要解决自己的。",
       "en": "We must solve our own first.",
-      "jp": "",
+      "jp": "まず自分の問題を解決せねばな。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "——！",
       "en": "——!",
-      "jp": "",
+      "jp": "――！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "七点钟方向，整合运动巡逻小队。动作快！",
       "en": "Seven o’clock, Reunion Movement patrols. Move!",
-      "jp": "",
+      "jp": "7時の方角、レユニオンの巡回小隊だ。動け！",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "敌人！戒备！",
       "en": "Enemies! On your guards!",
-      "jp": "",
+      "jp": "敵だ！気を付けろ！",
       "kr": ""
     }
   ]

@@ -1,7 +1,7 @@
 {
   "messages": [
     {
-      "zh": "1-2 撤退（下）",
+      "zh": "第二关（后）",
       "en": "1-2 Retreat (part 2)",
       "jp": "1-2 撤退(下)",
       "kr": ""
@@ -94,7 +94,7 @@
       "ch": "医疗干员",
       "zh": "作战会议时你就说过，营救{@nickname}博士本身就是相当危险的任务。",
       "en": "You said during the operation meeting, rescuing Dr.___ is a dangerous mission itself.",
-      "jp": "貴女は作戦会議で、Dr.___の救出は危険な任務だと言っていました。",
+      "jp": "貴女は作戦会議で、Dr.xxxの救出は危険な任務だと言っていました。",
       "kr": ""
     },
     {

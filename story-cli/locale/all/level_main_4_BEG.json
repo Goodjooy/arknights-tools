@@ -2,239 +2,239 @@
   "messages": [
     {
       "zh": "第四关（前）",
-      "en": "level 4(pre)",
-      "jp": "",
+      "en": "1-4 Pawns (part 1)",
+      "jp": "1-4 手駒(上)",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不太对劲。",
       "en": "This isn’t right.",
-      "jp": "",
+      "jp": "おかしいです。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "怎么？",
       "en": "What is it?",
-      "jp": "",
+      "jp": "何がだ？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "凯尔希医生当时提醒过我......切尔诺伯格目前所处地区即将发生天灾。",
       "en": "Dr.Kal’tist reminded me……A Calamity will befall shortly on Chernobog’s current location.",
-      "jp": "",
+      "jp": "ケルシー先生が忠告してくれたんです……チェルノボーグの今いる地区でもうすく天災が起きるだろうって。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "加上有关整合运动兴起的一些情报，我们才会决定在这个时候冒险救出{@nickname}博士......",
       "en": "And together with some information on Reunion Movement rising, we decided to take the risk to rescue Dr.___ now……",
-      "jp": "",
+      "jp": "そしてレユニオン・ムーヴメントに関する情報が上がってくると共に、私達はDr.xxxを救出することを決定しました……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "唔。",
       "en": "Huh.",
-      "jp": "",
+      "jp": "ああ。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "可是整合运动——",
       "en": "But Reunion Movement——",
-      "jp": "",
+      "jp": "でもレユニオンは――",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "一点想要转移切城的迹象都没有。",
       "en": "Doesn’t show any sign of relocating Chernobog.",
-      "jp": "",
+      "jp": "全く移動しようとしていなかった。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "如果明知天灾要到来，那么最早在一个月前就能批次移动分城。",
       "en": "If they saw the Calamity coming, the sub cities can be relocated as early as one month in advance.",
-      "jp": "",
+      "jp": "もし天災が起こるとわかっていたなら、一か月前には都市を動かせていただろうに。",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "疑惑？",
       "en": "Confuses?",
-      "jp": "",
+      "jp": "何の話？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "啊......博士可能还不清楚......",
       "en": "Ah……Doctor probably doesn’t know yet……",
-      "jp": "",
+      "jp": "ああ……たぶんドクターはわかってないですよね……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "切尔诺伯格这样大型的城市，为了应对时常发生的天灾，是可以进行转移的。",
       "en": "Large cities like Chernobog, to cope with the frequent Calamities, are mobile.",
-      "jp": "",
+      "jp": "チェルノボーグのような大都市は、頻繁に起こる天災に対処するために、移動することができるんです。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "然而，整合运动却不管不顾......",
       "en": "However, Reunion Movement isn’t giving any thought to it……",
-      "jp": "",
+      "jp": "でも、レユニオンは全く配慮していなかった……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "仅仅是在街上重复着杀戮和战斗，让整个城市陷入战火......",
       "en": "They just repeatedly slaughter and fight on the streets, drawing the entire city into chaos……",
-      "jp": "",
+      "jp": "ただ街で殺戮と戦闘を繰り返し、都市全体を戦火に陥れるだけでした……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "天灾降临时，就连坚固的切城都会被撕得粉碎......",
       "en": "When the Calamity befalls, even the concrete Chernobog will be ripped into shreds……",
-      "jp": "",
+      "jp": "天災に遭った時には、幾ら頑丈なチェルノボーグといえども瓦礫の山と化すだろうな……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "变成布满源石的巨型废墟！",
       "en": "And become a missive ruin scattered with originium!",
-      "jp": "",
+      "jp": "そしてオリジニウムが撒き散らされた巨大な廃墟になる！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "整合运动究竟在谋划些什么？",
       "en": "What is Reunion Movement planning in the world?",
-      "jp": "",
+      "jp": "レユニオンは一体何を計画しているんだ？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "他们的指挥系统难道崩溃了吗......？",
       "en": "Did their command system collapse……?",
-      "jp": "",
+      "jp": "彼らの指揮系統は崩壊してしまっていたんでしょうか……？",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "不可能。",
       "en": "Impossible.",
-      "jp": "",
+      "jp": "ありえない。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "如果整合运动有指挥官，他就不会纵容手下四处散漫作乱——",
       "en": "If Reunion Movement has a commander, he will not allow his underlings to riot in such undisciplined manner——",
-      "jp": "",
+      "jp": "レユニオンに指揮官がいたなら、手下を反乱の為にあちこちに散らせることはしないだろう。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "更不会把部队白白葬送在天灾中。",
       "en": "Nor will he let his army die in the Calamity for nothing.",
-      "jp": "",
+      "jp": "部隊を天災で無駄に死なせるはずもない。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "但如果没有指挥官，整合运动根本不可能如此高效地瘫痪切城。",
       "en": "But without a commander, Reunion Movement couldn’t have crippled Chernobog with such efficency.",
-      "jp": "",
+      "jp": "だが指揮官がいないのであれば、そもそもこれほど効率的にチェルノボーグを機能不全にさせるなど不可能なはず……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "尤其是在这时候......",
       "en": "Especially at this time……",
-      "jp": "",
+      "jp": "特にこんな……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "在这所有人都会死的时候。除非......",
       "en": "At this time when everyone is about to die. Unless……",
-      "jp": "",
+      "jp": "誰もが死に得る時にだ。あるいは……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "除非什么？",
       "en": "Unless what?",
-      "jp": "",
+      "jp": "あるいは？",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "我以前经历的战争中......",
       "en": "In the war I went through before……",
-      "jp": "",
+      "jp": "かつて経験した戦争では……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "也有行为与整合运动的掌控者如出一辙的领袖。",
       "en": "There was a leader who acted just the same as the controller of Reunion Movement.",
-      "jp": "",
+      "jp": "レユニオンの統率者と同じような行動をとるリーダーがいた。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "于他而言，士兵不过是棋子，达到目的后就可以随意丢弃。",
       "en": "For him, soldiers are but pawns, and can be thrown away at will after fulfilling their purpose.",
-      "jp": "",
+      "jp": "奴にとっては、兵士は駒に過ぎず、目的を達成すると意のままに捨て去っていた。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "既合理高效的运用兵力，又在不需要的时候放纵其自生自灭......",
       "en": "Making reasonable and efficient use of troops, and letting them die off on their own when they’re no longer needed……",
-      "jp": "",
+      "jp": "合理的かつ効率的に兵力を運用し、同時に用済みになれば見捨てて放っておく……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "因为训练与管理的成本太高了。",
       "en": "Because the cost for training and management is too high.",
-      "jp": "",
+      "jp": "それ故に訓練と管理のコストは非常に高かった。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "只需在必要时，轻轻的推一下——追随者就会振臂高呼。",
       "en": "When necessary, just give a light push——and followers will rush to his rally again.",
-      "jp": "",
+      "jp": "必要な時にだけ、軽くひと押ししてやれば――追随者は奮い立ち声を上げるのだろう。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "如果真如整合运动宣传的那般，那它们的棋子，感染者，便源源不断——",
       "en": "If Reunion Movement’s propagandas are true, then their pawns, the Infected, will always be in supply——",
-      "jp": "",
+      "jp": "もしレユニオンのプロパガンダが本当なら、奴らの手駒、感染者は、ひっきりなしに集まってくる――",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "这种领袖并不是指挥官。",
       "en": "This kind of leaders are not commanders.",
-      "jp": "",
+      "jp": "この手のリーダーは指揮官とは呼ばん。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "他们是暴君。",
       "en": "They are tyrants.",
-      "jp": "",
+      "jp": "暴君だ。",
       "kr": ""
     },
     {
@@ -245,28 +245,28 @@
       "ch": "杜宾",
       "zh": "那边的整合运动小队转向我们了。",
       "en": "The Reunion Movement squad over there turned to us.",
-      "jp": "",
+      "jp": "向こうのレユニオンの小隊が我々の方に向かってきている。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我们的踪迹被发现了？",
       "en": "Our trails are discovered?",
-      "jp": "",
+      "jp": "私達の痕跡が見つかったんでしょうか？",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "可能还没有。",
       "en": "Probably not yet.",
-      "jp": "",
+      "jp": "恐らくまだだろう。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "但也得早点结束他们愚蠢的闹剧......",
       "en": "But still,  we need to end their foolish farce as soon as possible……",
-      "jp": "",
+      "jp": "だが、早く奴らのこの茶番を終わらせなくては……",
       "kr": ""
     }
   ]

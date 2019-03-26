@@ -2,162 +2,162 @@
   "messages": [
     {
       "zh": "第十二关（前）",
-      "en": "level 12(pre)",
-      "jp": "",
+      "en": "1-12 Prices (part 1)",
+      "jp": "1-12 代償(上)",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "再加把劲！",
       "en": "Push yourselves harder!",
-      "jp": "",
+      "jp": "もうちょっとです、頑張ってください！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我们已经能看到斜向出口了，马上就能撤出切城。",
       "en": "We can see the diagonal exit already, we’ll soon get out of Chernobog.",
-      "jp": "",
+      "jp": "もう斜向かいの出口が見えています、すぐにチェルノボーグから出られますよ。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "短程通讯已恢复！联系上接应小队了，他们在城外汇合点等候——！",
       "en": "Short-range communication has recovered! Got in contact with the reinforcement squad, they’re waiting at the rendezvous point outside the city——!",
-      "jp": "",
+      "jp": "短距離通信が回復した！応援部隊と連絡できた、彼らは都市の外の合流地点で待機しているぞ――！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "可整合运动——未必会轻易放我们出城。",
       "en": "But Reunion Movement——might still not let us out easily.",
-      "jp": "",
+      "jp": "ですがレユニオンは――まだ我々を簡単に逃がしてはくれないでしょうね。",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "是这样。",
       "en": "It is so.",
-      "jp": "",
+      "jp": "その通りよ。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——是谁？",
       "en": "——Who’s that?",
-      "jp": "",
+      "jp": "――誰ですか？",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "你不认识我很正常——",
       "en": "It’s natural that you don’t know me——",
-      "jp": "",
+      "jp": "貴女が私のことを知らないのは当たり前よ。",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "但是我认识你哦。",
       "en": "But I know about you.",
-      "jp": "",
+      "jp": "でも私は貴女のことを知っている。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——整合运动！",
       "en": "——Reunion Movement!",
-      "jp": "",
+      "jp": "――レユニオン・ムーヴメント！",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "唉唉，别这样。",
       "en": "Wait wait, don’t be like this.",
-      "jp": "",
+      "jp": "まあまあ、そんなにピリピリしないでよ。",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "我和那个龙女可不怎么合得来，守门不过是例行公事罢了。",
       "en": "I don’t get along well with that dragon, guarding the gate is just doing business.",
-      "jp": "",
+      "jp": "私とあのドラゴン女は馬が合わないのよね、ゲートを守ってるのはただのお仕事よ。",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "你可以叫我——W.",
       "en": "You can call me——W.",
-      "jp": "",
+      "jp": "私のことは――Wって呼んでくれていいわ。",
       "kr": ""
     },
     {
       "ch": "W",
       "zh": "为了见你，我在这里可是等了好久呢。",
       "en": "To see you, I’ve waited for a long time here.",
-      "jp": "",
+      "jp": "貴女に会うために、私ここで随分待ってたんだから。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "你在浪费我们的时间——",
       "en": "You’re wasting our time——",
-      "jp": "",
+      "jp": "時間の無駄です――",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "狙击小队！射击！",
       "en": "Sniper squad! Shoot!",
-      "jp": "",
+      "jp": "狙撃小隊、撃て！",
       "kr": ""
     },
     {
       "ch": "W",
       "zh": "——别急嘛。",
       "en": "——Don’t rush.",
-      "jp": "",
+      "jp": "――焦んないでよ。",
       "kr": ""
     },
     {
       "ch": "W",
       "zh": "其实有不少身手很利落的家伙在暗中保护你们......",
       "en": "Actually there are many skillful fellows protecting you in the dark……",
-      "jp": "",
+      "jp": "実際、結構な数の手練れが陰から貴女を守っているのね……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "是凯尔希医生的小队",
       "en": "It’s Dr.Kal’tist’s squad.",
-      "jp": "",
+      "jp": "それはケルシー先生の小隊です。",
       "kr": ""
     },
     {
       "ch": "W",
       "zh": "我很想知道，你究竟有什么魔力......",
       "en": "I really want to know, what charms do you have……",
-      "jp": "",
+      "jp": "私凄く知りたいのよね、貴方に結局どういう魅力があるのか……",
       "kr": ""
     },
     {
       "ch": "W",
       "zh": "能让他们都心甘情愿，为你毫无价值地送命？",
       "en": "That makes them willing, to sacrifice their lives worthlessly for you?",
-      "jp": "",
+      "jp": "彼らを貴女の為に喜んで無駄死にする気にさせるような魅力がね？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "什么？！",
       "en": "What?!",
-      "jp": "",
+      "jp": "なんですって？！",
       "kr": ""
     },
     {
       "ch": "W",
       "zh": "你真的......配得上别人的牺牲吗？",
       "en": "Do you really……deserve other people’s sacrifices?",
-      "jp": "",
+      "jp": "貴女は本当に……他人の犠牲に相応しいのかしら？",
       "kr": ""
     },
     {
@@ -168,7 +168,7 @@
       "ch": "PLAYER",
       "zh": "提醒阿米娅她的使命",
       "en": "Remind Amiya her mission",
-      "jp": "",
+      "jp": "アーミヤに任務を思い出させる",
       "kr": ""
     },
     {
@@ -179,70 +179,70 @@
       "ch": "W",
       "zh": "是你。",
       "en": "It's you.",
-      "jp": "",
+      "jp": "お前。",
       "kr": ""
     },
     {
       "ch": "W",
       "zh": "是你———你竟然在这里，你竟然......",
       "en": "It’s you———how could you be here, how could you……",
-      "jp": "",
+      "jp": "お前――――どうやってここに、どうやって……",
       "kr": ""
     },
     {
       "ch": "W",
       "zh": "好啊，好啊......",
       "en": "Great, great……",
-      "jp": "",
+      "jp": "いいわ、いいわぁ……",
       "kr": ""
     },
     {
       "ch": "W",
       "zh": "来吧。",
       "en": "Let’s finish this.",
-      "jp": "",
+      "jp": "かかっておいで。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——你犯下了很多错误。",
       "en": "——You’ve made many mistakes.",
-      "jp": "",
+      "jp": "――貴女の言葉には多くの間違いがあります。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "其中最致命的一个是——",
       "en": "And one of the deadliest ones is——",
-      "jp": "",
+      "jp": "中でも最も致命的なのは――",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "没有人的生命是无价值的！！",
       "en": "Nobody’s life is worthless!!",
-      "jp": "",
+      "jp": "価値のない命などない、ということです！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "出口就在前方！！！",
       "en": "The exit is right ahead!!!",
-      "jp": "",
+      "jp": "出口は前方です！！！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士！！",
       "en": "Doctor!!",
-      "jp": "",
+      "jp": "ドクター！！",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "指挥战斗",
       "en": "Command the battle",
-      "jp": "",
+      "jp": "戦闘を指揮する",
       "kr": ""
     },
     {

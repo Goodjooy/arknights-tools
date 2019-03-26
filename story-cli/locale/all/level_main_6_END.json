@@ -2,148 +2,148 @@
   "messages": [
     {
       "zh": "第六关（后）",
-      "en": "level 6(post)",
-      "jp": "",
+      "en": "1-6 Nearl (part 2)",
+      "jp": "1-6 二アール(下)",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "侦查完毕，确认敌追击部队已被我方全歼。",
       "en": "Investigation complete, enemy’s pursuing forces are completely eliminated.",
-      "jp": "",
+      "jp": "偵察完了。敵の追撃部隊は殲滅した。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "我们成功突围了。",
       "en": "We’ve broken through.",
-      "jp": "",
+      "jp": "我々は包囲を突破した。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "虽然消灭的只是包围阵势中一小部分的兵力......",
       "en": "Although we only eliminated a small part of the encirclement……",
-      "jp": "",
+      "jp": "まだ包囲のごく一部を排除したに過ぎないが……",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "至少，我们暂时安全了。",
       "en": "At least, we’re safe for now.",
-      "jp": "",
+      "jp": "少なくとも、暫くは安全だ。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "谢谢你刚才的援助，临光不会忘记这份恩情。",
       "en": "Thank you for your support before, Nearl will not forget this debt.",
-      "jp": "",
+      "jp": "先程の支援、感謝します。二アール、このご恩は忘れません。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "请别这么说。我可没资格让耀骑士还我人情。",
       "en": "Please don’t say that. I don’t deserve an Illumiknight’s repayment.",
-      "jp": "",
+      "jp": "そう言わないでくれ。俺は耀騎士から恩の報いを受ける程の者じゃない。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "刚才那个，是狙击手吧。",
       "en": "That was a sniper before, right.",
-      "jp": "",
+      "jp": "さっきのは、狙撃手だったんだよな。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "是，但那不是普通的弓弩。",
       "en": "Yes, but that was no ordinary crossbow.",
-      "jp": "",
+      "jp": "ええ、但し普通のクロスボウではありませんでした。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "如果第二发射击再次直接命中盾牌，这只手可能就完了。",
       "en": "If the second shot hit my shield directly again, this hand is probably done for.",
-      "jp": "",
+      "jp": "もし二発目が盾に直撃していたら、こちらの腕は使えなくなっていたでしょう。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "是那个凶狠的孩子下令射击的？我完全没能发现狙击手的踪迹。",
       "en": "Did that malicious kid order it? I didn’t find any trace of the sniper.",
-      "jp": "",
+      "jp": "あの残忍な子供が撃たせたのか？　狙撃手の痕跡は全く見つけられなかったが。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "可怕的敌人。",
       "en": "A dangerous enemy.",
-      "jp": "",
+      "jp": "恐るべき敵です。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "但他们——为什么没有继续追击？",
       "en": "But——why didn’t they keep chasing?",
-      "jp": "",
+      "jp": "しかし、彼らは――なぜ追撃を続けてこないのでしょう？",
       "kr": ""
     },
     {
       "ch": "浮士德",
       "zh": "对不起......我失手了。",
       "en": "Sorry……I messed up.",
-      "jp": "",
+      "jp": "すまない……失敗した。",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "你别道歉啊，是我的错。我太冲动了。",
       "en": "Don’t apologize, it was my fault. I was too rashed.",
-      "jp": "",
+      "jp": "君が謝らないでくれよ。これは僕のミスだ。興奮しすぎてた。",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "能帮我追踪他们吗？我去把情况通报给塔露拉姐姐。",
       "en": "Can you track them for me? I’ll go inform the situation to Talulah.",
-      "jp": "",
+      "jp": "アイツらを追ってくれるかい？　僕はタルラさんに状況を報告してくる。",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "她那里应该也完成了对切城指挥部和防卫军驻地的压制——",
       "en": "She should have finished suppressing Chernobog’s headquarters and the National Guard encampments——",
-      "jp": "",
+      "jp": "彼女はもうチェルノボーグの司令部と防衛軍駐屯地を制圧し終えているだろう。",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "就让她来决定这些虫子的生死吧。",
       "en": "Let her decide those bugs’ lives.",
-      "jp": "",
+      "jp": "あの虫けら共の運命は彼女に決めてもらうよ。",
       "kr": ""
     },
     {
       "ch": "浮士德",
       "zh": "......明白了。",
       "en": "……Understood.",
-      "jp": "",
+      "jp": "……わかった。",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "小心点，优先保护好自己，好吗？",
       "en": "Be careful, keep yourself protected first, okay?",
-      "jp": "",
+      "jp": "気を付けて、自分の身を守るのが先だよ、いいね？",
       "kr": ""
     },
     {
       "ch": "浮士德",
       "zh": "......好。",
       "en": "……Yes.",
-      "jp": "",
+      "jp": "……ああ。",
       "kr": ""
     },
     {
@@ -154,28 +154,28 @@
       "ch": "梅菲斯特",
       "zh": "同胞们，该走了。",
       "en": "Brothers and sisters, it’s time to go.",
-      "jp": "",
+      "jp": "皆、行こう。",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "去迎接属于我们的时代吧！！",
       "en": "Let’s go embrace our time!!",
-      "jp": "",
+      "jp": "僕達の時代を迎えに行こうじゃないか！",
       "kr": ""
     },
     {
       "ch": "整合运动",
       "zh": "噢噢噢噢！！！解放所有人！！！",
       "en": "Owhhhh!!! To liberate everyone!!!",
-      "jp": "",
+      "jp": "うおおお！！！皆の解放の為に！！！",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "（真正的恐怖要追上你们了，罗德岛的虫子——）",
       "en": "(Real terror is about to catch up to you, Rhodes Island bugs——)",
-      "jp": "",
+      "jp": "(本当の恐怖がすぐにお前らを捕まえにいくよ、ロドスアイランドの虫けら共――)",
       "kr": ""
     }
   ]

@@ -2,71 +2,71 @@
   "messages": [
     {
       "zh": "第七关（前）",
-      "en": "level 7(pre)",
-      "jp": "",
+      "en": "1-7 The Signs (part 1)",
+      "jp": "1-7 前兆(上)",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "是我的错觉，还是天确实越来越暗了？",
       "en": "Is it just me, or is it getting darker?",
-      "jp": "",
+      "jp": "俺の気のせいかもしれないが、空が暗くなってきてないか？",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "啧，裸眼看到灾云凝聚可不是什么好兆头。",
       "en": "Psst, seeing the calamity cloud condense with the naked eye is not a good sign.",
-      "jp": "",
+      "jp": "チッ、裸眼で災雲が凝結しているのが見えるとは、とてもいい兆しとは言えないな。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "加上，下城区的每一条街道都可能埋伏着整合运动......",
       "en": "What’s more, every street in lower downtown could have Reunion Movement lying in wait……",
-      "jp": "",
+      "jp": "その上、ここのどの通りにもレユニオンが待ち伏せていそうだ……",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "不，这个说法太过保守。",
       "en": "No, that’s too conservative.",
-      "jp": "",
+      "jp": "いや、この意見は保守的すぎるな。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "该说是，整合运动满满当当地挤在街上。",
       "en": "I’d rather say, the streets are crammed with Reunion Movement.",
-      "jp": "",
+      "jp": "まさに、街中がレユニオンで溢れかえっていると言うべきでしょうけれど。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "只能说，形势不容乐观。",
       "en": "I can only say that, this is not an optimistic situation.",
-      "jp": "",
+      "jp": "私はただ、情勢は楽観を許してはくれないと言っているだけだ。",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "几乎每条街上都有暴徒在搞破坏......",
       "en": "Almost every street has mobsters wrecking……",
-      "jp": "",
+      "jp": "街の殆どいたるところが暴徒に破壊されている……",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "这帮家伙，是觉得天气太好，所以出来野餐集会吗！",
       "en": "These people, did they find the weather too nice for sitting at home, and came out for picnics together?!",
-      "jp": "",
+      "jp": "この人たち、天気がいいからピクニックに出かけよう、とでも考えてるのかしら！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "这......不太可能啊，天灾野餐，从来没听说过呀。",
       "en": "That’s……not possible, a Calamity picnic, never heard of this before.",
-      "jp": "",
+      "jp": "それは……ありえないでしょうね。天災ピクニックだなんて、聞いたことがありません。",
       "kr": ""
     },
     {
@@ -81,14 +81,14 @@
       "ch": "阿米娅",
       "zh": "......噗。",
       "en": "……chuckles.",
-      "jp": "",
+      "jp": "……ふふっ。",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "我，我只是发个牢骚，不是那个意思......",
       "en": "I, I’m just complaining, I didn’t mean that……",
-      "jp": "",
+      "jp": "わ、私は愚痴っちゃっただけで、本当にそう思ってたんじゃなくて……",
       "kr": ""
     },
     {
@@ -99,63 +99,63 @@
       "ch": "临光",
       "zh": "嗯......",
       "en": "Uhh……",
-      "jp": "",
+      "jp": "うーん……",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "抱歉，总是在这种时候......",
       "en": "I’m sorry, always in times like this……",
-      "jp": "",
+      "jp": "すみません、私はいつもこうなんです……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "没关系的......！",
       "en": "It’s okay……!",
-      "jp": "",
+      "jp": "大丈夫ですよ……！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "接下来，我们需要侦查干员搜集情报，再做下一步的打算。",
       "en": "Next, we need the reconnaissance operators to gather information, then plan our next move.",
-      "jp": "",
+      "jp": "これから、偵察隊員に情報を集めてもらわなくてはなりません。それから次の行動を計画しましょう。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "在这之前......先得给他们创造空间。",
       "en": "Before that……we need to make some space for them first.",
-      "jp": "",
+      "jp": "その前に……まずそのための場所を確保しなくては。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "四点钟方向的敌人，安静地处理掉。不要惊动其他人。",
       "en": "Enemies at four o’clock, finish them quietly. Don’t startle the others.",
-      "jp": "",
+      "jp": "4時の方角の敵を、静かに処理しましょう。騒ぎにならないように。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "交给我吧。这算是我比较擅长的工作——",
       "en": "Leave this to me. This is one of the things I’m good at——",
-      "jp": "",
+      "jp": "私に任せてくれ。私はこういう任務は得意なんだ――",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "只要他们体内的病变器官不是什么警报器或爆破物就行。",
       "en": "As long as the mutated organs inside them are not some sort of alarm or explosives.",
-      "jp": "",
+      "jp": "奴らの体内に警報器か爆破物のような病変した器官がない限りはな。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "——行动！",
       "en": "——Engage!",
-      "jp": "",
+      "jp": "――行くぞ！",
       "kr": ""
     }
   ]

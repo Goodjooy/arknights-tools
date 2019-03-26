@@ -2,148 +2,148 @@
   "messages": [
     {
       "zh": "第十关（前）",
-      "en": "level 10(pre)",
-      "jp": "",
+      "en": "1-10 Calamity (part 1)",
+      "jp": "1-10 災難(上)",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "防冲击准备！！",
       "en": "Prepare for shockwaves!!",
-      "jp": "",
+      "jp": "衝撃に備えろ！！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "各自散开！！！",
       "en": "Spread out!!",
-      "jp": "",
+      "jp": "各自散開！！！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "不行，不行，不行！糟了———！！！！",
       "en": "No, no, no! This is bad———!!!",
-      "jp": "",
+      "jp": "ダメだ、ダメだ、ダメだ！まずい――！！！！",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "——！",
       "en": "——!",
-      "jp": "",
+      "jp": "――！",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "......！",
       "en": "……!",
-      "jp": "",
+      "jp": "……！",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "坚持住！！",
       "en": "Hold on!!",
-      "jp": "",
+      "jp": "持ち堪えろ！",
       "kr": ""
     },
     {
       "ch": "整合运动成员",
       "zh": "咕......！",
       "en": "Urgh……!",
-      "jp": "",
+      "jp": "うう……！",
       "kr": ""
     },
     {
       "ch": "整合运动成员",
       "zh": "啊——！！",
       "en": "Ahh——!!",
-      "jp": "",
+      "jp": "うわあ――！",
       "kr": ""
     },
     {
       "ch": "整合运动成员",
       "zh": "怎，怎么会！！我不想死......！",
       "en": "How, how could this be!! I don’t want to die……!",
-      "jp": "",
+      "jp": "ど、どうして！！死にたくない……！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "用法术击毁建筑做掩体！！",
       "en": "Use spells to destroy the building for cover!!",
-      "jp": "",
+      "jp": "魔法で建物を壊してください、遮蔽物が必要です！！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "这里不是天灾中心区！能行！！",
       "en": "This is not the center of the Calamity! It would work!!",
-      "jp": "",
+      "jp": "ここは天災の中心部ではありません！いけます！！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "重装干员！",
       "en": "Shield operators!",
-      "jp": "",
+      "jp": "重装隊員！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "保护术师！！",
       "en": "Protect the casters!!",
-      "jp": "",
+      "jp": "術師を援護せよ！！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "——！！",
       "en": "——!!",
-      "jp": "",
+      "jp": "――！！",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "有陨石撞击了临街建筑！卧倒！！",
       "en": "A meteor hit the building by the street! Get down!!",
-      "jp": "",
+      "jp": "隕石が通りの建物に当たった！倒れるぞ！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "有坠岩——",
       "en": "Falling rocks incoming——",
-      "jp": "",
+      "jp": "落石が――",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——博士？！",
       "en": "——Doctor?!",
-      "jp": "",
+      "jp": "――ドクター？！",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "要求罗德岛术师射击坠石",
       "en": "Command Rhodes Island casters to shoot the falling rocks",
-      "jp": "",
+      "jp": "術師に落石を打つように命令する",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "怎么————",
       "en": "What the————",
-      "jp": "",
+      "jp": "何故――――",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "命令整合运动术师",
       "en": "Command the Reunion Movement casters",
-      "jp": "",
+      "jp": "レユニオンの術師に命令する",
       "kr": ""
     },
     {
@@ -154,105 +154,105 @@
       "ch": "整合运动成员",
       "zh": "打爆它，打爆它啊，啊啊————！！",
       "en": "Blast it, blast it, ahhh————!!",
-      "jp": "",
+      "jp": "撃て、アレをブッ飛ばせ、あああ――――！！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "交叉火力成功击碎了岩体？！",
       "en": "The crossfire shattered the falling rocks?!",
-      "jp": "",
+      "jp": "十字砲火で落石を粉々にした？！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "博士！！",
       "en": "Doctor!!",
-      "jp": "",
+      "jp": "ドクター！！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "咳哈......！",
       "en": "Cough……!",
-      "jp": "",
+      "jp": "ゴホッ……！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "下次我可不一定能救到你！！",
       "en": "I might not be able to save you next time!!",
-      "jp": "",
+      "jp": "次は守り切れるか保証できませんよ！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "整合运动伤亡惨重——！",
       "en": "Reunion Movement suffered heavy losses——!",
-      "jp": "",
+      "jp": "レユニオン側の死傷が激しいです――！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "如果不击碎落石的话，我们也要被波及——！",
       "en": "If the falling rocks weren’t destroyed, we’d be affected too——!",
-      "jp": "",
+      "jp": "もし落石が破壊できなかったら、私達にも影響します――！",
       "kr": ""
     },
     {
       "ch": "整合运动成员",
       "zh": "啊啊啊！！罗德岛！！别想走！！去死！！！",
       "en": "Ahhh!! Rhodes Island!! Don’t you try to escape!! Die!!!",
-      "jp": "",
+      "jp": "あああ！！ロドスアイランド！！逃げるな！！死ね！！！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——整合运动向我们发动进攻了？",
       "en": "——Reunion Movement is attacking us?",
-      "jp": "",
+      "jp": "――レユニオンが私達を攻撃した？",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "这些混蛋，是被天灾逼疯了吗？！！",
       "en": "These bastards, did the Calamity just drive them crazy?!!",
-      "jp": "",
+      "jp": "あの愚か者、天災で気でも狂いましたか？！！",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "命令临光带队向下城区出口移动",
       "en": "Command Nearl to lead the team to the lower downtown exit",
-      "jp": "",
+      "jp": "二アールに都心の出口に部隊を連れて行くように命令する",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "——明白！",
       "en": "——Understood!",
-      "jp": "",
+      "jp": "――わかりました！",
       "kr": ""
     },
     {
       "ch": "PLAYER",
       "zh": "指挥战斗",
       "en": "Command the battle",
-      "jp": "",
+      "jp": "戦闘を指揮する",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......！",
       "en": "……!",
-      "jp": "",
+      "jp": "……！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "交给你了，博士！！",
       "en": "I’ll leave it to you, Doctor!!",
-      "jp": "",
+      "jp": "指揮はお任せします、ドクター！",
       "kr": ""
     }
   ]

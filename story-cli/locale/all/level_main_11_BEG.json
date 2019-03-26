@@ -2,134 +2,134 @@
   "messages": [
     {
       "zh": "第十一关（前）",
-      "en": "level 11(pre)",
-      "jp": "",
+      "en": "1-11 Tyrant (part 1)",
+      "jp": "1-11 暴君(上)",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "阿米娅。",
       "en": "Amiya.",
-      "jp": "",
+      "jp": "アーミヤ。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "带博士离开。",
       "en": "Take Doctor out of here.",
-      "jp": "",
+      "jp": "ドクターを連れてここから離れなさい。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "立刻！",
       "en": "Now!",
-      "jp": "",
+      "jp": "早く！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不行！我不能......",
       "en": "No! I can’t……",
-      "jp": "",
+      "jp": "ダメです！私にはできません……",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "你也感觉到了！她很强！！她......",
       "en": "You’ve felt it too! She’s too powerful!! She……",
-      "jp": "",
+      "jp": "貴女も感じたでしょう！彼女は強すぎる！！彼女は……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我们一起战斗的话，不会有问题的！",
       "en": "If we fight together, there won’t be a problem!",
-      "jp": "",
+      "jp": "私達が一緒に戦っても、問題ないでしょう！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "那博士呢？你能保证他的安全吗？",
       "en": "Then what about Doctor? Can you ensure his safety?",
-      "jp": "",
+      "jp": "ではドクターは？貴女はドクターの安全を保証できますか？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "......唔......",
       "en": "……Urghh……",
-      "jp": "",
+      "jp": "……ああ……",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "我们留在这里断后！一定要确保阿米娅和{@nickname}博士，以及医疗小队安全撤离！",
       "en": "We’ll take the rear here! We have to make sure that Amiya and Doctor, and the medic squad withdraw safely!",
-      "jp": "",
+      "jp": "我々はここに残り撤退を支援します！必ずアーミヤとDr.xxxを守り、医療小隊を安全に撤退させます！",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "不，交给我和我的小队吧。",
       "en": "No, leave it to me and my squad.",
-      "jp": "",
+      "jp": "いや、俺と俺の部隊に任せてくれ。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "Ace！现在难道是逞强的时候吗！",
       "en": "Ace! Is this the time to flaunt?!",
-      "jp": "",
+      "jp": "エース！強がっている場合ではないのです！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我不会留下你们独自战斗的。",
       "en": "I won’t leave you to fight alone.",
-      "jp": "",
+      "jp": "貴方達だけを戦いに残していくことはしません。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "罗德岛......绝不会丢下你们的！",
       "en": "Rhodes Island……will never give you up!",
-      "jp": "",
+      "jp": "ロドスアイランドは……決して貴方たちを諦めません！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "阿米娅！现在不是任性的时候！",
       "en": "Amiya! This is not the time for willfulness!",
-      "jp": "",
+      "jp": "アーミヤ！今は我儘を言っている時じゃない！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我不能看着罗德岛的任何一个人牺牲！",
       "en": "I can’t watch anyone of Rhodes Island sacrifice!",
-      "jp": "",
+      "jp": "ロドスの誰かが犠牲になるのを、私は見てはいられません！",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "你可以信任我们。我一定会成功撤出的，我向你，向杜宾保证。",
       "en": "You can trust us. I will withdraw successfully, I promise you, and Dobermann.",
-      "jp": "",
+      "jp": "俺達を信用してくれていい。必ず撤退してみせる、君とドーベルマンに約束しよう。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不是说这个的时候！",
       "en": "This isn’t the time for this!",
-      "jp": "",
+      "jp": "そんなことを言っている場合じゃないんです！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "——！小心！",
       "en": "——! Watch out!",
-      "jp": "",
+      "jp": "――！気を付けて！",
       "kr": ""
     },
     {
@@ -140,91 +140,91 @@
       "ch": "塔露拉",
       "zh": "什么都改变不了你们的命运。",
       "en": "Nothing can change your fate.",
-      "jp": "",
+      "jp": "何者もお前達の運命を変えることはできない。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "她要发动攻击了！！",
       "en": "She’s about to attack!!",
-      "jp": "",
+      "jp": "攻撃してきます！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "有点不对——",
       "en": "Something’s wrong——",
-      "jp": "",
+      "jp": "何かがおかしい――",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "————小心！！",
       "en": "————Watch out!!",
-      "jp": "",
+      "jp": "――――気を付けて！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "那一下，我们挡不下来！",
       "en": "That blow, we won’t be able to take it!",
-      "jp": "",
+      "jp": "あの攻撃は、我々には防げない！",
       "kr": ""
     },
     {
       "ch": "塔露拉",
       "zh": "欣然接受吧——战士们。",
       "en": "Embrace it——warriors.",
-      "jp": "",
+      "jp": "喜んで受け入れよ――戦士達よ。",
       "kr": ""
     },
     {
       "ch": "塔露拉",
       "zh": "我将赐予你们一个结局。",
       "en": "I shall bestow you one ending.",
-      "jp": "",
+      "jp": "お前達に結末を与えよう。",
       "kr": ""
     },
     {
       "ch": "塔露拉",
       "zh": "——毁灭。",
       "en": "——Annihilation.",
-      "jp": "",
+      "jp": "――殲滅。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "糟了！！",
       "en": "Damn it!!",
-      "jp": "",
+      "jp": "まずい！！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "闪开，别站在她的前方！",
       "en": "Step aside, don’t stand in front of her!",
-      "jp": "",
+      "jp": "躱せ、奴の正面に立つな！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "来不及了——！",
       "en": "There isn’t time——!",
-      "jp": "",
+      "jp": "間に合わない――！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "退后！！！我来阻挡她！！！",
       "en": "Step back!!! I’ll block her!!!",
-      "jp": "",
+      "jp": "下がって！！！私が止めます！！！",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "啊啊啊啊！！！",
       "en": "Ahhhh!!!",
-      "jp": "",
+      "jp": "きゃあああ！！！",
       "kr": ""
     },
     {
@@ -235,182 +235,182 @@
       "ch": "医疗干员",
       "zh": "......嗯？？？",
       "en": "……Huh???",
-      "jp": "",
+      "jp": "……あれ？？？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不会让你伤害他们的......",
       "en": "I won’t let you hurt them……",
-      "jp": "",
+      "jp": "皆を傷つけさせはしません……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我不会......允许你这么做的！",
       "en": "I won’t……let you do that!",
-      "jp": "",
+      "jp": "そんなこと……私がさせません！",
       "kr": ""
     },
     {
       "ch": "塔露拉",
       "zh": "————哦？",
       "en": "————Oh?",
-      "jp": "",
+      "jp": "――――ん？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "咕......",
       "en": "Urghh……",
-      "jp": "",
+      "jp": "グッ……",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "阿米娅她一个人......把那个龙女的攻击挡住了？",
       "en": "Amiya……stopped that dragon’s attack by herself?",
-      "jp": "",
+      "jp": "アーミヤが一人で……あのドラゴン女の攻撃を防いだんですか？",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "不行......那力量太庞大了......！",
       "en": "No……that power’s too immense……!",
-      "jp": "",
+      "jp": "いけません……相手の力が強すぎます……！",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "阿米娅！危险！",
       "en": "Amiya! Watch out!",
-      "jp": "",
+      "jp": "アーミヤ、危ない！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "没问题......我没问题......",
       "en": "It’s okay……I’m okay……",
-      "jp": "",
+      "jp": "大丈夫です……私は大丈夫です……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我没问题的——！",
       "en": "I’m okay——!",
-      "jp": "",
+      "jp": "私は大丈夫です――！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我要......我要保护大家！",
       "en": "I have to……I have to protect everyone!",
-      "jp": "",
+      "jp": "私が……私が皆を守らないと！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "不可以！！那样的话，你的<color=#ee4321>戒指</color>会——！",
       "en": "You can’t!! If you do that, your rings will——!",
-      "jp": "",
+      "jp": "ダメだ！！それでは、お前の指輪が――！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "哪怕......虽然......",
       "en": "Even if……although……",
-      "jp": "",
+      "jp": "たとえ……そうなるとしても……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "博士，对不起——",
       "en": "Doctor, I’m sorry——",
-      "jp": "",
+      "jp": "ドクター、ごめんなさい――",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "哪怕会带来灾难，哪怕我会......！",
       "en": "Even if this will bring disaster, even if I will……!",
-      "jp": "",
+      "jp": "たとえ私が、災禍を招いてしまうとしても、たとえ私が……！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我也不能......再看着重要的人......",
       "en": "I can’t……once again watch my dear ones……",
-      "jp": "",
+      "jp": "私が……大切な人に二度と会えないとしても……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "唔————？",
       "en": "Huh————?",
-      "jp": "",
+      "jp": "え――――？",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "可以了，阿米娅。",
       "en": "That’s enough, Amiya.",
-      "jp": "",
+      "jp": "もう十分だ、アーミヤ。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "——？！",
       "en": "——?!",
-      "jp": "",
+      "jp": "――？！",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "你已经很了不起了。",
       "en": "You’ve done a great job already.",
-      "jp": "",
+      "jp": "君はもう素晴らしいことをしたんだ。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "把你的重担，也分给我们一些吧。",
       "en": "Share some of your burdens, to us.",
-      "jp": "",
+      "jp": "君の重荷を、俺達にも少しくらい背負わせてくれ。",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "我————",
       "en": "I————",
-      "jp": "",
+      "jp": "私は――",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "保护好她，博士。",
       "en": "Keep her safe, Doctor.",
-      "jp": "",
+      "jp": "彼女を守ってやってくれ、ドクター。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "快走吧。",
       "en": "Go.",
-      "jp": "",
+      "jp": "行くんだ。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "临光，杜宾，保护好他们。",
       "en": "Nearl, Dobermann, keep them safe.",
-      "jp": "",
+      "jp": "二アール、ドーベルマン、彼らを守ってくれ。",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "祝你们前路无阻。",
       "en": "May your path be unimpeded.",
-      "jp": "",
+      "jp": "君達の道程に妨げの無からんことを。",
       "kr": ""
     }
   ]

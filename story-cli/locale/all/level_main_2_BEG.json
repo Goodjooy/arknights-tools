@@ -1,7 +1,7 @@
 {
   "messages": [
     {
-      "zh": "1-2 撤退（上）",
+      "zh": "第二关（前）",
       "en": "1-2 Retreat (part 1)",
       "jp": "1-2 撤退(上)",
       "kr": ""
@@ -157,7 +157,7 @@
       "ch": "阿米娅",
       "zh": "这样我们才能保证{@nickname}博士的安全。",
       "en": "Only then can we ensure Dr.___’s safety.",
-      "jp": "それで初めてDr.___の安全が保障されます。",
+      "jp": "それで初めてDr.xxxの安全が保障されます。",
       "kr": ""
     },
     {
@@ -185,7 +185,7 @@
       "ch": "杜宾",
       "zh": "呼......我听凯尔希说过很多次你的名字，Dr.{@nickname}。",
       "en": "Ha……I’ve heard your name from Kal’tist many times, Dr.___.",
-      "jp": "フン……お前の名はケルシーから何度も聞いているぞ、Dr.___。",
+      "jp": "フン……お前の名はケルシーから何度も聞いているぞ、Dr.xxx。",
       "kr": ""
     },
     {
@@ -213,7 +213,7 @@
       "ch": "杜宾",
       "zh": "来吧{@nickname}博士，现在，该是你来证明自己的时候了。",
       "en": "Come on, Dr.___, now, it’s time for you to prove yourself.",
-      "jp": "行くぞ、Dr.___。今こそ己の力を証明する時だ。",
+      "jp": "行くぞ、Dr.xxx。今こそ己の力を証明する時だ。",
       "kr": ""
     }
   ]

@@ -2,43 +2,43 @@
   "messages": [
     {
       "zh": "第九关（后）",
-      "en": "level 9(post)",
-      "jp": "",
+      "en": "1-9 Ruins (part 2)",
+      "jp": "1-9 廃墟(下)",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "是的，他们不知道自己被浮士德跟踪。",
       "en": "Yes, they don’t know that they’re being followed by Faust.",
-      "jp": "",
+      "jp": "うん、奴らはファウストに尾行されてるとは分かってない。",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "罗德岛被困在了下城区。",
       "en": "Rhodes Island is trapped in lower downtown.",
-      "jp": "",
+      "jp": "ロドスアイランドは市街地で包囲されているよ。",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "虽然是些虫子，但他们可能趁着天灾降临而逃跑。",
       "en": "Although they’re but some bugs, they could probably escape under the cover of the Calamity.",
-      "jp": "",
+      "jp": "奴らが虫けらだとしても、天災に乗じて逃げられるかもしれない。",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "加上密钥的丢失......",
       "en": "And plus the loss of the key……",
-      "jp": "",
+      "jp": "その上、暗号鍵も失くした……",
       "kr": ""
     },
     {
       "ch": "梅菲斯特",
       "zh": "以他们对切尔诺伯格的了解，说不定会干扰到我们的计划。",
       "en": "With their knowledge of Chernobog, they might hinder our plan. ",
-      "jp": "",
+      "jp": "奴らにチェルノボーグに関する理解があれば、僕達の計画を邪魔してくるかもしれないよ。",
       "kr": ""
     },
     {
@@ -49,21 +49,21 @@
       "ch": "杜宾",
       "zh": "敌人没有停止攻击与前往避难的迹象！！",
       "en": "Enemies show no sign of stopping the attack or taking refuge!!",
-      "jp": "",
+      "jp": "敵には攻撃を止める様子も、避難する様子もない！！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "简直就像是......前仆后继的送死！！！",
       "en": "It’s as if……they’re killing themselves one by one!!!",
-      "jp": "",
+      "jp": "まるで……次々と無駄死にしに来ているようだ！！！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "整合运动全都疯了吗！！",
       "en": "Is Reunion Movement all mad?!!",
-      "jp": "",
+      "jp": "レユニオンは全員気でも違えたか！！",
       "kr": ""
     },
     {
@@ -74,7 +74,7 @@
       "ch": "？？？",
       "zh": "这就是罗德岛？呵......很英勇。",
       "en": "So this is Rhodes Island? Heh……very chivalrous.",
-      "jp": "",
+      "jp": "これがロドスアイランドですか？　へぇ……大変お勇ましいこと。",
       "kr": ""
     },
     {
@@ -85,42 +85,42 @@
       "ch": "杜宾",
       "zh": "切——",
       "en": "Psst——",
-      "jp": "",
+      "jp": "クソ――",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "整合运动是要拖我们一起下水吗！！",
       "en": "Does Reunion Movement want to drag us down with them?!!",
-      "jp": "",
+      "jp": "レユニオンは我々を引きずり込もうとでもしているのか！！",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "只是些狂热分子——",
       "en": "Just some fanatics——",
-      "jp": "",
+      "jp": "これじゃただの熱狂集団だ――",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "战斗起来毫无章法！",
       "en": "with no composition in combat!",
-      "jp": "",
+      "jp": "しかも何でもありで攻撃して来る！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "——想用炮灰拖住我们？！",
       "en": "——Trying to hold us off with cannon fodders?!",
-      "jp": "",
+      "jp": "――弾避け兵で我々を抑えておくつもりか？！",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "防御阵地支撑不住了！！",
       "en": "Our defenses can’t hold!!",
-      "jp": "",
+      "jp": "防御陣地が保たない！！",
       "kr": ""
     },
     {
@@ -131,14 +131,14 @@
       "ch": "罗德岛干员",
       "zh": "......落石？",
       "en": "……Falling rock?",
-      "jp": "",
+      "jp": "……落石か？",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "不对......是砸在建筑物上迸溅出来的......",
       "en": "No……it’s a splash of what hit the building……",
-      "jp": "",
+      "jp": "いや……建物にぶつかった破片だ……",
       "kr": ""
     },
     {
@@ -149,42 +149,42 @@
       "ch": "杜宾",
       "zh": "糟了！该死，该死，该死——可恶！！",
       "en": "This is bad! No, no, no——damn it!!",
-      "jp": "",
+      "jp": "まずい！クソ、クソ、クソ――畜生！！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "天灾来了！！防护准备！！",
       "en": "The Calamity is coming!! Ready your protections!!",
-      "jp": "",
+      "jp": "天災が来た！！防衛準備！！",
       "kr": ""
     },
     {
       "ch": "弑君者",
       "zh": "————要怎么做？",
       "en": "————What do we do?",
-      "jp": "",
+      "jp": "――――どうする？",
       "kr": ""
     },
     {
       "ch": "塔露拉",
       "zh": "如果他们能活过天灾——",
       "en": "If they can survive the Calamity——",
-      "jp": "",
+      "jp": "もし彼らが天災を生き延びたら――",
       "kr": ""
     },
     {
       "ch": "塔露拉",
       "zh": "去吧。拦住他们中想逃的。",
       "en": "Go. Stop the ones trying to escape.",
-      "jp": "",
+      "jp": "行こう。奴らが逃げるのを止める。",
       "kr": ""
     },
     {
       "ch": "塔露拉",
       "zh": "看看他们能拼命到什么程度。",
       "en": "Let’s see to what extent can they struggle.",
-      "jp": "",
+      "jp": "彼らがどれ程足掻けるのか見ていよう。",
       "kr": ""
     },
     {
@@ -195,42 +195,42 @@
       "ch": "塔露拉",
       "zh": "————呵。",
       "en": "————Heh.",
-      "jp": "",
+      "jp": "――――ほう。",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "来不及了！！",
       "en": "Too late!!",
-      "jp": "",
+      "jp": "遅すぎた！",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "啊......啊......",
       "en": "Ah……ah……",
-      "jp": "",
+      "jp": "あ……あ……",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "那是......",
       "en": "That is……",
-      "jp": "",
+      "jp": "あれは……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "清醒点！",
       "en": "Sober up!",
-      "jp": "",
+      "jp": "冷静になってください！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "准备好......应对天灾！！",
       "en": "Brace for……Calamity!!",
-      "jp": "",
+      "jp": "各員……天災に備えて！",
       "kr": ""
     }
   ]

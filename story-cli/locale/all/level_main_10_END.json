@@ -2,71 +2,71 @@
   "messages": [
     {
       "zh": "第十关（后）",
-      "en": "level 10(post)",
-      "jp": "",
+      "en": "1-10 Calamity (part 2)",
+      "jp": "1-10 災難(下)",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "哈，哈，哈.....",
       "en": "Hah, hah, hah……",
-      "jp": "",
+      "jp": "はぁ、はぁ、はぁ……",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "撑过去了......！",
       "en": "We’ve went through……!",
-      "jp": "",
+      "jp": "持ち堪えた……！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "灾势减弱了——不，中心转移了！",
       "en": "The Calamity’s dwindling——no, the center has shifted!",
-      "jp": "",
+      "jp": "天災が弱まった――いや、中心が移動したんです！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "风暴眼不在我们所处的城区，还来得及！",
       "en": "The eye is not in our district, there is still time!",
-      "jp": "",
+      "jp": "天災の「眼」は我々のいる場所にはありません、まだ時間はあります！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "小心碎片！快！脚步别停！",
       "en": "Watch out the shards! Quick! Don’t stop!",
-      "jp": "",
+      "jp": "破片に気を付けてください！急いで！足を止めないで！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "前方就是建筑密集区了！灾害中心区域在我们身后！我们完全能——",
       "en": "Compact building zone ahead! The calamity center is behind us! We definitely can——",
-      "jp": "",
+      "jp": "前方にビル街がある！天災の中心部は我々の後ろだ！これで完全に――",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "......能......",
       "en": "……can……",
-      "jp": "",
+      "jp": "……完全に……",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "他们来了。",
       "en": "They’re coming.",
-      "jp": "",
+      "jp": "奴らが来た。",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "整合运动追上来了？！",
       "en": "Reunion Movement caught up with us?!",
-      "jp": "",
+      "jp": "レユニオンが追いついてきた？！",
       "kr": ""
     },
     {
@@ -77,21 +77,21 @@
       "ch": "医疗干员",
       "zh": "......什......么......",
       "en": "……Wh……at……",
-      "jp": "",
+      "jp": "……なん……で……",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "怎么......可能......",
       "en": "How……could it……",
-      "jp": "",
+      "jp": "どう……やって……",
       "kr": ""
     },
     {
       "ch": "医疗干员",
       "zh": "......整合运动......有这么多人吗......",
       "en": "……Reunion Movement……are there so many of them……",
-      "jp": "",
+      "jp": "……レユニオンが……こんなにたくさん……",
       "kr": ""
     },
     {
@@ -102,49 +102,49 @@
       "ch": "临光",
       "zh": "别停下！在开阔地带停下等于找死！到目的地之后再整顿队形！",
       "en": "Don’t stop! Stopping in open area is asking for death! Reform after we arrive at our destination!",
-      "jp": "",
+      "jp": "止まらないで！開けた場所で止まるなど戦死に等しいです！目標到達後に陣形を立て直します！",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "（临光......）",
       "en": "(Nearl……)",
-      "jp": "",
+      "jp": "(二アールさん……)",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "（二八开。希望渺茫，但能行。只是......）",
       "en": "(Two-eight chances. Not much hope, but it would work. Only that…… )",
-      "jp": "",
+      "jp": "(勝算は2割。かすかな望みですが、可能性はある。それだけのことです……)",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "防御阵形！",
       "en": "Defensive formation!",
-      "jp": "",
+      "jp": "防御陣形！",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "......啧。",
       "en": "……Psst.",
-      "jp": "",
+      "jp": "……チッ。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "太多了。",
       "en": "Too many.",
-      "jp": "",
+      "jp": "多すぎます。",
       "kr": ""
     },
     {
       "ch": "临光",
       "zh": "实在太多了。",
       "en": "There’s just too many.",
-      "jp": "",
+      "jp": "本当に多すぎる。",
       "kr": ""
     },
     {
@@ -155,28 +155,28 @@
       "ch": "临光",
       "zh": "怎么可能！他们从哪......？",
       "en": "How could this be! Where did they……?",
-      "jp": "",
+      "jp": "一体どうやって！彼らは何処から……？",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "这个数量......整合运动很看得起我们啊。",
       "en": "This number……Reunion Movement thinks very highly of us huh.",
-      "jp": "",
+      "jp": "この数……レユニオンは我々のことを随分と重く見ているんだな。",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "大群敌人——",
       "en": "Vast amount of enemies——",
-      "jp": "",
+      "jp": "大量の敵が――",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "......在安全距离外——",
       "en": "……outside safety distance——",
-      "jp": "",
+      "jp": "……安全距離の外に――",
       "kr": ""
     },
     {
@@ -187,63 +187,63 @@
       "ch": "罗德岛干员",
       "zh": "竟然......停止了行动？",
       "en": "They’ve……stopped?",
-      "jp": "",
+      "jp": "何だ……止まったのか？",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "一名敌人正在接近！",
       "en": "One enemy approaching!",
-      "jp": "",
+      "jp": "敵が一人近づいてくるぞ！",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "射击准......备......",
       "en": "Prepare to……shoot……",
-      "jp": "",
+      "jp": "射撃準……備……",
       "kr": ""
     },
     {
       "ch": "罗德岛干员",
       "zh": "——一个人？",
       "en": "——One?",
-      "jp": "",
+      "jp": "――一人？",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "别轻举妄动！她是资料上整合运动的领袖之一......",
       "en": "Hold your fire! She’s one of Reunion Movement’s leaders according to the data……",
-      "jp": "",
+      "jp": "軽はずみに行動してはいけません！彼女は記録ではレユニオン・ムーヴメントのリーダーの一人……",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "不，现在看来她就是真正的领袖——",
       "en": "No, now it seems that she’s the true leader——",
-      "jp": "",
+      "jp": "いえ、今は本当のリーダーのようです――",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "塔露拉！",
       "en": "Talulah!",
-      "jp": "",
+      "jp": "タルラです！",
       "kr": ""
     },
     {
       "ch": "杜宾",
       "zh": "整合运动的暴君吗，呵——",
       "en": "The tyrant of Reunion Movement, heh——",
-      "jp": "",
+      "jp": "レユニオンの暴君か、ほう――",
       "kr": ""
     },
     {
       "ch": "罗德岛精英干员",
       "zh": "我有很不好的预感。",
       "en": "I have a bad feeling about this.",
-      "jp": "",
+      "jp": "悪い予感がする。",
       "kr": ""
     },
     {
@@ -254,7 +254,7 @@
       "ch": "塔露拉",
       "zh": "————————！",
       "en": "————————!",
-      "jp": "",
+      "jp": "――――――――！",
       "kr": ""
     }
   ]
