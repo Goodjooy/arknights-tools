@@ -15,25 +15,37 @@ return {
   stars = {{stars}},
   class = "{{class}}",
   obtain = {
-    recruit = 0,
-    gacha = 0,
-    mission = 0,
+    recruit = null,
+    gacha = null,
+    mission = null,
   },
-  stats = {
-    {{base}},
-    {{phase0max}},{{pase1max}}{{pase2max}}{{pase3max}}
+  initialStats = {
+    hp = {{init_hp}},
+    atk = {{init_atk}},
+    def = {{init_def}},
+    resist = {{init_resist}},
+    cost = {{init_cost}},
+    block = {{init_block}},
+    speed = {{init_speed}},
+    atkspd = {{init_atkspd}},
+    baseAtkTime = {{init_atktime}},
+    respawn = {{init_respawn}},
+    hpRegen = {{init_hpregen}},
+    spRegen = {{init_spregen}},
+    deploys = {{init_deploys}},
+    stacks = {{init_stacks}},
+    provoke = {{init_provoke}},
+    stunImmunity = {{init_stunImmune}},
+    silenceImmunity = {{init_silenceImmune}},
   },
-  evolve = {{{evolve1}}{{evolve2}}
+  ranks = {
+    base = {{base}},
+    elite1 = {{elite1}},
+    elite2 = {{elite2}},
   },
   skills = {{{skill1}}{{skill2}}{{skill3}}
   },
-  skillup = {
-    {{skillup2}},
-    {{skillup3}},
-    {{skillup4}},
-    {{skillup5}},
-    {{skillup6}},
-    {{skillup7}},
+  skillup = {{{skillup2}}{{skillup3}}{{skillup4}}{{skillup5}}{{skillup6}}{{skillup7}}
   },
   talents = {{{talent1}}{{talent2}}
   },

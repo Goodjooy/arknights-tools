@@ -11,6 +11,7 @@
     "quotesheet": "node scripts/quotes_sheet.js",
     "quotesjson": "node scripts/quotes_json.js",
     "potentials": "node scripts/potentials.js",
+    "skills": "node scripts/skills_csv.js",
     "reformat": "node scripts/reformat.js"
   },
   "dependencies": {

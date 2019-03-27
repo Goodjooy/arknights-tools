@@ -1,4 +1,0 @@
-      {
-        item = "{{item}}",
-        count = {{count}},
-      },
