@@ -1,5 +1,7 @@
 data/*.json
+input/**/*
 output/**/*
 !output/.gitkeep
 !output/interactions.json
+!output/char_module/*
 dev/**/*

@@ -12,10 +12,12 @@
     "quotesjson": "node scripts/quotes_json.js",
     "potentials": "node scripts/potentials.js",
     "skills": "node scripts/skills_csv.js",
+    "portraits": "node scripts/rename_portraits.js",
     "reformat": "node scripts/reformat.js"
   },
   "dependencies": {
     "bluebird": "^3.5.3",
-    "csv": "^5.0.1"
+    "csv": "^5.0.1",
+    "glob": "^7.1.3"
   }
 }
