@@ -1,2 +1,2 @@
-/input/*.png
+/input/**/*.png
 /output/*

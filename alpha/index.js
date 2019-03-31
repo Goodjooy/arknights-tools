@@ -1,7 +1,23 @@
 let chars = [
   // "elite.png",
   // "SpriteAtlasTexture-ICON_ELITE-256x1024-fmt34.png",
-  "SpriteAtlasTexture-ICON_POTENTIAL-1024x1024-fmt34.png",
+  // "SpriteAtlasTexture-ICON_POTENTIAL-1024x1024-fmt34.png",
+  // "npc_001_doctor.png",
+  // "char_002_amiya_1.png",
+  // "char_002_amiya_2.png",
+  // "char_002_amiya_2.png",
+  // "char_002_amiya_2b.png",
+  // "char_002_amiya_winter.png",
+  // "char_009_12fce_1.png",
+  // "char_291_aglina_1.png",
+  // "char_291_aglina_2.png",
+  // "char_291_aglina_2b.png",
+  // "a.png",
+  // "b.png",
+  "c.png",
+  // "xxxxxx",
+  // "xxxxxx",
+  // "xxxxxx",
 ]
 
 let coords = {
@@ -50,6 +66,27 @@ let loadImage = (path) => {
   })
 }
 
+function dataURLtoBlob(dataurl) {
+  var arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+      bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+  while(n--){
+      u8arr[n] = bstr.charCodeAt(n);
+  }
+  return new Blob([u8arr], {type:mime});
+}
+
+var downloadCanvas =    function(canvasObj){
+  var link = document.createElement("a");
+  var imgData = canvasObj.toDataURL({    format: 'png', multiplier: 4});
+  var strDataURI = imgData.substr(22, imgData.length);
+  var blob = dataURLtoBlob(imgData);
+  var objurl = URL.createObjectURL(blob);
+  link.download = chars[0];
+  link.href = objurl;
+  link.click();
+} 
+
+
 chars.forEach(char => {
   let alphaCanvas = document.createElement('canvas')
   let alphaCtx = alphaCanvas.getContext('2d')
@@ -84,19 +121,19 @@ chars.forEach(char => {
     )
     .then(() => {
       return new Promise(done => {
-        alphaCanvas.width = alphaEl.width
-        alphaCanvas.height = alphaEl.height
-        alphaCtx.drawImage(alphaEl, 0, 0, alphaEl.width, alphaEl.height, 0, 0, alphaCanvas.width, alphaCanvas.height)
-        alphaImgData = alphaCtx.getImageData(0, 0, alphaCanvas.width, alphaCanvas.height)
+        mainCanvas.width = mainEl.width
+        mainCanvas.height = mainEl.height
+        mainCtx.drawImage(mainEl, 0, 0, mainEl.width, mainEl.height, 0, 0, mainCanvas.width, mainCanvas.height)
+        mainImgData = mainCtx.getImageData(0, 0, mainCanvas.width, mainCanvas.height)
         done()
       })
     })
     .then(() => {
       return new Promise(done => {
-        mainCanvas.width = mainEl.width
-        mainCanvas.height = mainEl.height
-        mainCtx.drawImage(mainEl, 0, 0, mainEl.width, mainEl.height, 0, 0, mainCanvas.width, mainCanvas.height)
-        mainImgData = mainCtx.getImageData(0, 0, mainCanvas.width, mainCanvas.height)
+        alphaCanvas.width = mainCanvas.width
+        alphaCanvas.height = mainCanvas.height
+        alphaCtx.drawImage(alphaEl, 0, 0, alphaEl.width, alphaEl.height, 0, 0, alphaCanvas.width, alphaCanvas.height)
+        alphaImgData = alphaCtx.getImageData(0, 0, alphaCanvas.width, alphaCanvas.height)
         done()
       })
     })
@@ -127,19 +164,22 @@ chars.forEach(char => {
       })
     })
     .finally(() => {
-      let photoImg = document.createElement('img')
-      photoImg.style = 'margin:20px 0px 0px 20px; border:1px solid #000; display:block; position:relative;'
-      photoImg.src = photoCanvas.toDataURL('image/png')
-      document.getElementById('output').appendChild(photoImg)
+      // let photoImg = document.createElement('img')
+      // photoImg.style = 'margin:20px 0px 0px 20px; border:1px solid #000; display:block; position:relative;'
+      // photoImg.src = photoCanvas.toDataURL('image/png')
+      // document.getElementById('output').appendChild(photoImg)
 
-      let nameLabel = document.createElement('input')
-      nameLabel.style = 'width:150px; height:20px; margin:  0px 0px 0px 20px; display:block; position:relative;'
-      nameLabel.value = char
-      document.getElementById('output').appendChild(nameLabel)
+      // let nameLabel = document.createElement('input')
+      // nameLabel.style = 'width:150px; height:20px; margin:  0px 0px 0px 20px; display:block; position:relative;'
+      // nameLabel.value = char
+      // document.getElementById('output').appendChild(nameLabel)
 
-      let outImg = document.createElement('img')
-      outImg.style = 'margin:-190px 0px 40px 0px; border:1px solid #000; display:block;'
-      outImg.src = mainCanvas.toDataURL('image/png')
-      document.getElementById('output').appendChild(outImg)
+      // let outImg = document.createElement('img')
+      // outImg.style = 'margin:-190px 0px 40px 0px; border:1px solid #000; display:block;'
+      // outImg.src = mainCanvas.toDataURL('image/png')
+      // document.getElementById('output').appendChild(outImg)
+
+      downloadCanvas(mainCanvas)
+      // dataURIToBlob(mainCanvas.toDataURL('image/png'), callback);
     })
 })
