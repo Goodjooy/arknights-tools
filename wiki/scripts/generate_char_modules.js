@@ -264,8 +264,8 @@ Promise.all([
     return fillData(tpl_char_rank, {
       range: charPhase.rangeId,
       maxLevel: charPhase.maxLevel,
-      img_portrait: titleCase(char.appellation) + '-' + skinNum + '-portrait.png',
-      img_full: titleCase(char.appellation) + '-' + skinNum + '.png',
+      img_portrait: fileKey(t(char.appellation)) + '-' + skinNum + '-portrait.png',
+      img_full: fileKey(t(char.appellation)) + '-' + skinNum + '.png',
       hp: charPhase.attributesKeyFrames[1].data.maxHp,
       atk: charPhase.attributesKeyFrames[1].data.atk,
       def: charPhase.attributesKeyFrames[1].data.def,

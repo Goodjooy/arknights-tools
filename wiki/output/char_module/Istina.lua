@@ -44,8 +44,8 @@ return {
       range = "y-1",
       maxLevel = 40,
       images = {
-          portrait = "Истина-0-portrait.png",
-          full = "Истина-0.png"
+          portrait = "Istina-0-portrait.png",
+          full = "Istina-0.png"
       },
       maxStats = {
         hp = 808,
@@ -71,8 +71,8 @@ return {
       range = "y-2",
       maxLevel = 70,
       images = {
-          portrait = "Истина-0-portrait.png",
-          full = "Истина-0.png"
+          portrait = "Istina-0-portrait.png",
+          full = "Istina-0.png"
       },
       maxStats = {
         hp = 1038,
@@ -115,8 +115,8 @@ return {
       range = "y-2",
       maxLevel = 80,
       images = {
-          portrait = "Истина-2-portrait.png",
-          full = "Истина-2.png"
+          portrait = "Istina-2-portrait.png",
+          full = "Istina-2.png"
       },
       maxStats = {
         hp = 1223,

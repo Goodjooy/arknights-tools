@@ -44,8 +44,8 @@ return {
       range = "1-1",
       maxLevel = 40,
       images = {
-          portrait = "зима-0-portrait.png",
-          full = "зима-0.png"
+          portrait = "Zima-0-portrait.png",
+          full = "Zima-0.png"
       },
       maxStats = {
         hp = 1130,
@@ -71,8 +71,8 @@ return {
       range = "1-1",
       maxLevel = 70,
       images = {
-          portrait = "зима-0-portrait.png",
-          full = "зима-0.png"
+          portrait = "Zima-0-portrait.png",
+          full = "Zima-0.png"
       },
       maxStats = {
         hp = 1549,
@@ -115,8 +115,8 @@ return {
       range = "1-1",
       maxLevel = 80,
       images = {
-          portrait = "зима-2-portrait.png",
-          full = "зима-2.png"
+          portrait = "Zima-2-portrait.png",
+          full = "Zima-2.png"
       },
       maxStats = {
         hp = 2213,

@@ -44,8 +44,8 @@ return {
       range = "1-1",
       maxLevel = 40,
       images = {
-          portrait = "Ch’en-0-portrait.png",
-          full = "Ch’en-0.png"
+          portrait = "Chen-0-portrait.png",
+          full = "Chen-0.png"
       },
       maxStats = {
         hp = 1385,
@@ -71,8 +71,8 @@ return {
       range = "1-1",
       maxLevel = 70,
       images = {
-          portrait = "Ch’en-0-portrait.png",
-          full = "Ch’en-0.png"
+          portrait = "Chen-0-portrait.png",
+          full = "Chen-0.png"
       },
       maxStats = {
         hp = 1776,
@@ -115,8 +115,8 @@ return {
       range = "1-1",
       maxLevel = 80,
       images = {
-          portrait = "Ch’en-2-portrait.png",
-          full = "Ch’en-2.png"
+          portrait = "Chen-2-portrait.png",
+          full = "Chen-2.png"
       },
       maxStats = {
         hp = 2220,

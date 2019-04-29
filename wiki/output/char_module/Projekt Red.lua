@@ -44,8 +44,8 @@ return {
       range = "1-1",
       maxLevel = 40,
       images = {
-          portrait = "Projekt Red-0-portrait.png",
-          full = "Projekt Red-0.png"
+          portrait = "ProjektRed-0-portrait.png",
+          full = "ProjektRed-0.png"
       },
       maxStats = {
         hp = 930,
@@ -71,8 +71,8 @@ return {
       range = "1-1",
       maxLevel = 70,
       images = {
-          portrait = "Projekt Red-0-portrait.png",
-          full = "Projekt Red-0.png"
+          portrait = "ProjektRed-0-portrait.png",
+          full = "ProjektRed-0.png"
       },
       maxStats = {
         hp = 1208,
@@ -115,8 +115,8 @@ return {
       range = "1-1",
       maxLevel = 80,
       images = {
-          portrait = "Projekt Red-2-portrait.png",
-          full = "Projekt Red-2.png"
+          portrait = "ProjektRed-2-portrait.png",
+          full = "ProjektRed-2.png"
       },
       maxStats = {
         hp = 1510,

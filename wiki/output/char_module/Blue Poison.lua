@@ -44,8 +44,8 @@ return {
       range = "3-1",
       maxLevel = 40,
       images = {
-          portrait = "Blue Poison-0-portrait.png",
-          full = "Blue Poison-0.png"
+          portrait = "BluePoison-0-portrait.png",
+          full = "BluePoison-0.png"
       },
       maxStats = {
         hp = 673,
@@ -71,8 +71,8 @@ return {
       range = "3-3",
       maxLevel = 70,
       images = {
-          portrait = "Blue Poison-0-portrait.png",
-          full = "Blue Poison-0.png"
+          portrait = "BluePoison-0-portrait.png",
+          full = "BluePoison-0.png"
       },
       maxStats = {
         hp = 864,
@@ -115,8 +115,8 @@ return {
       range = "3-3",
       maxLevel = 80,
       images = {
-          portrait = "Blue Poison-2-portrait.png",
-          full = "Blue Poison-2.png"
+          portrait = "BluePoison-2-portrait.png",
+          full = "BluePoison-2.png"
       },
       maxStats = {
         hp = 1081,

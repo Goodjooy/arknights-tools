@@ -44,8 +44,8 @@ return {
       range = "3-3",
       maxLevel = 40,
       images = {
-          portrait = "Kal’tsit-0-portrait.png",
-          full = "Kal’tsit-0.png"
+          portrait = "Kaltsit-0-portrait.png",
+          full = "Kaltsit-0.png"
       },
       maxStats = {
         hp = 1315,
@@ -71,8 +71,8 @@ return {
       range = "3-10",
       maxLevel = 80,
       images = {
-          portrait = "Kal’tsit-0-portrait.png",
-          full = "Kal’tsit-0.png"
+          portrait = "Kaltsit-0-portrait.png",
+          full = "Kaltsit-0.png"
       },
       maxStats = {
         hp = 1548,
@@ -115,8 +115,8 @@ return {
       range = "3-10",
       maxLevel = 90,
       images = {
-          portrait = "Kal’tsit-2-portrait.png",
-          full = "Kal’tsit-2.png"
+          portrait = "Kaltsit-2-portrait.png",
+          full = "Kaltsit-2.png"
       },
       maxStats = {
         hp = 1720,

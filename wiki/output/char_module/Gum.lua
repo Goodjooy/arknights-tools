@@ -44,8 +44,8 @@ return {
       range = "0-1",
       maxLevel = 35,
       images = {
-          portrait = "ГУМ-0-portrait.png",
-          full = "ГУМ-0.png"
+          portrait = "Gum-0-portrait.png",
+          full = "Gum-0.png"
       },
       maxStats = {
         hp = 1416,
@@ -71,8 +71,8 @@ return {
       range = "0-1",
       maxLevel = 60,
       images = {
-          portrait = "ГУМ-0-portrait.png",
-          full = "ГУМ-0.png"
+          portrait = "Gum-0-portrait.png",
+          full = "Gum-0.png"
       },
       maxStats = {
         hp = 1888,
@@ -115,8 +115,8 @@ return {
       range = "0-1",
       maxLevel = 70,
       images = {
-          portrait = "ГУМ-2-portrait.png",
-          full = "ГУМ-2.png"
+          portrait = "Gum-2-portrait.png",
+          full = "Gum-2.png"
       },
       maxStats = {
         hp = 2421,

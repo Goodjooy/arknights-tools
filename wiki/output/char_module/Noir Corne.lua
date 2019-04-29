@@ -44,8 +44,8 @@ return {
       range = "0-1",
       maxLevel = 30,
       images = {
-          portrait = "Noir Corne-0-portrait.png",
-          full = "Noir Corne-0.png"
+          portrait = "NoirCorne-0-portrait.png",
+          full = "NoirCorne-0.png"
       },
       maxStats = {
         hp = 1302,
