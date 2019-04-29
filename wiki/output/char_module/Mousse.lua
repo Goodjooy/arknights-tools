@@ -4,20 +4,21 @@ return {
   name = {
     en = "Mousse",
     cn = "慕斯",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Mousse",
   },
-  background = "",
+  fileKey = "Mousse",
   team = -1,
   position = "Melee",
   roles = { "DPS" },
-  faction = "logo_victoria",
-  stars = 3,
-  class = "WARRIOR",
+  faction = "Victoria",
+  stars = 4,
+  class = "Guard",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 720,
@@ -43,8 +44,8 @@ return {
       range = "1-1",
       maxLevel = 35,
       images = {
-          portrait = "char_185_frncat_portrait.png",
-          full = "char_185_frncat_full.png"
+          portrait = "Mousse-0-portrait.png",
+          full = "Mousse-0.png"
       },
       maxStats = {
         hp = 1029,
@@ -70,8 +71,8 @@ return {
       range = "1-1",
       maxLevel = 60,
       images = {
-          portrait = "char_185_frncat_portrait.png",
-          full = "char_185_frncat_full.png"
+          portrait = "Mousse-0-portrait.png",
+          full = "Mousse-0.png"
       },
       maxStats = {
         hp = 1410,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_GRD1",
-          name = "近卫芯片",
+          icon = "GuardChip.png",
+          name = "Guard Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_RUSH1",
-          name = "酯原料",
+          icon = "RawEster.png",
+          name = "Raw Ester",
           count = 15,
         },
         {
-          icon = "MTL_SL_STRG1",
-          name = "代糖",
+          icon = "SugarSubstitute.png",
+          name = "Sugar Substitute",
           count = 15,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "1-1",
       maxLevel = 70,
       images = {
-          portrait = "char_185_frncat_portrait.png",
-          full = "char_185_frncat_full.png"
+          portrait = "Mousse-2-portrait.png",
+          full = "Mousse-2.png"
       },
       maxStats = {
         hp = 1856,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_GRD2",
-          name = "近卫芯片组",
+          icon = "GuardChipSet.png",
+          name = "Guard Chip Set",
           count = 4,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 5,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 10,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_frncat_1",
+      icon = "skchr-frncat-1",
       name = "虚弱打击·自动",
-      type = 2,
+      recharge = "Charge On Attack",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下次攻击力提高40% ，在5 秒内使目标攻击力下降-30%",
       max_description = "下次攻击力提高75% ，在5 秒内使目标攻击力下降-30%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_frncat_2",
+      icon = "skchr-frncat-2",
       name = "敏捷行动",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力和防御力各提高25%",
       max_description = "攻击力和防御力各提高70%",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 25,
         },
       }
@@ -229,18 +229,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 8,
         },
       }
@@ -251,18 +251,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 6,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 12,
         },
       }
@@ -273,18 +273,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 3,
         },
         {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -319,53 +319,85 @@ return {
       def = 30,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "Iritoa",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Mousse",
-      gender = "",
-      combatexp = "",
-      origin = "Victoria",
-      birthday = "",
-      race = "Feline",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Victoria",
+      birthday = "?",
+      race = "Feline",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "Iritoa",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "猫咪们又增加了。好开心！",
-    "拉特兰蛋糕真好吃，不过做干员需要严格控制体重来着？呜......",
-    "手套......手套不能摘下来，不想让您看到......只有这个要求，是不行的......抱歉......",
-    "要、要出发了吗？好、好的，请让我准备一下...！",
-    "两条尾巴？这、这很奇怪吗？咦，难、难道我比自己想象中的更......？呜......",
-    "其实不发病的时候，我的手是不会变成那种样子的......能像现在这样抱一抱小猫们，我已经很满足了......",
-    "Doctor，蛋糕的话，你是想要芒果口味还是抹茶口味呢？我试着做了一些——咦，您已经吃过了吗？好吧......",
-    "博、博士，我没看错吧，那位空小姐是我一直喜欢的偶像，她、她为什么会在罗德岛？能、能帮我要个签名吗？",
-    "Doctor，您知道爱丽榭大道么？嗯嗯，那里是我出生的地方，真想回去看一看啊......嗯？不，我已经不会感到寂寞了，毕竟，您就是我的家人呀！",
-    "呜呜呜...Doctor不理我了......",
-    "您好......慕斯，请叫我慕斯......那个，请别盯着我的手......",
-    "诶？晋、晋升？我还没准备好......",
-    "Doctor，我、我能做到的有限，我知道，所以我会在力所能及的范围内尽量做好，这就是我回报您信任的唯一方式......",
-    "即使这样艰苦的战斗，我也能......",
-    "对不起，并不是我喜欢战斗，而是......",
-    "给、给大家拖后腿了吗？",
-    "我还想......再坚持一下......"
-  }
+    cn01 = "猫咪们又增加了。好开心！",
+    cn02 = "拉特兰蛋糕真好吃，不过做干员需要严格控制体重来着？呜......",
+    cn03 = "手套......手套不能摘下来，不想让您看到......只有这个要求，是不行的......抱歉......",
+    cn04 = "要、要出发了吗？好、好的，请让我准备一下...！",
+    cn05 = "两条尾巴？这、这很奇怪吗？咦，难、难道我比自己想象中的更......？呜......",
+    cn06 = "其实不发病的时候，我的手是不会变成那种样子的......能像现在这样抱一抱小猫们，我已经很满足了......",
+    cn07 = "Doctor，蛋糕的话，你是想要芒果口味还是抹茶口味呢？我试着做了一些——咦，您已经吃过了吗？好吧......",
+    cn08 = "博、博士，我没看错吧，那位空小姐是我一直喜欢的偶像，她、她为什么会在罗德岛？能、能帮我要个签名吗？",
+    cn09 = "Doctor，您知道爱丽榭大道么？嗯嗯，那里是我出生的地方，真想回去看一看啊......嗯？不，我已经不会感到寂寞了，毕竟，您就是我的家人呀！",
+    cn10 = "呜呜呜...Doctor不理我了......",
+    cn11 = "您好......慕斯，请叫我慕斯......那个，请别盯着我的手......",
+    cn12 = "即使这样艰苦的战斗，我也能......",
+    cn13 = "诶？晋、晋升？我还没准备好......",
+    cn14 = "Doctor，我、我能做到的有限，我知道，所以我会在力所能及的范围内尽量做好，这就是我回报您信任的唯一方式......",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "对不起，并不是我喜欢战斗，而是......",
+    cn31 = "给、给大家拖后腿了吗？",
+    cn32 = "我还想......再坚持一下......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

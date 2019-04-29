@@ -4,20 +4,21 @@ return {
   name = {
     en = "Nightingale",
     cn = "夜莺",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Nightingale",
   },
-  background = "",
+  fileKey = "Nightingale",
   team = 9,
   position = "Ranged",
   roles = { "Life recovery", "Support" },
-  faction = "logo_rhodes",
-  stars = 5,
-  class = "MEDIC",
+  faction = "Rhodes Island",
+  stars = 6,
+  class = "Medic",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 697,
@@ -43,8 +44,8 @@ return {
       range = "y-1",
       maxLevel = 40,
       images = {
-          portrait = "char_179_cgbird_portrait.png",
-          full = "char_179_cgbird_full.png"
+          portrait = "Nightingale-0-portrait.png",
+          full = "Nightingale-0.png"
       },
       maxStats = {
         hp = 943,
@@ -70,8 +71,8 @@ return {
       range = "y-2",
       maxLevel = 80,
       images = {
-          portrait = "char_179_cgbird_portrait.png",
-          full = "char_179_cgbird_full.png"
+          portrait = "Nightingale-0-portrait.png",
+          full = "Nightingale-0.png"
       },
       maxStats = {
         hp = 1179,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_MED1",
-          name = "医疗芯片",
+          icon = "MedicChip.png",
+          name = "Medic Chip",
           count = 5,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 20,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 60,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "y-2",
       maxLevel = 90,
       images = {
-          portrait = "char_179_cgbird_portrait.png",
-          full = "char_179_cgbird_full.png"
+          portrait = "Nightingale-2-portrait.png",
+          full = "Nightingale-2.png"
       },
       maxStats = {
         hp = 1474,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_MED3",
-          name = "医疗双芯片",
+          icon = "MedicTwinChip.png",
+          name = "Medic Twin Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL4",
-          name = "高级训练套件",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_G4",
-          name = "提纯源岩",
+          icon = "RefinedRock.png",
+          name = "Refined Rock",
           count = 3,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skcom_heal_up",
+      icon = "skcom-heal-up",
       name = "治疗强化·γ型",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力提高40%",
       max_description = "攻击力提高90%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 30,
     },
     {
-      icon = "skchr_cgbird_2",
+      icon = "skchr-cgbird-2",
       name = "法术护盾",
-      type = 2,
+      recharge = "Auto Charge",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下次治疗时对所有目标添加一个持续3 秒的法术护盾 护盾能吸收自己攻击力40% 的魔法伤害，使目标法术抗性提高15 ，可充能1 次",
       max_description = "下次治疗时对所有目标添加一个持续5 秒的法术护盾 护盾能吸收自己攻击力100% 的魔法伤害，使目标法术抗性提高15 ，可充能2 次",
       range = nil,
@@ -181,9 +181,11 @@ return {
       duration = -1,
     },
     {
-      icon = "skchr_cgbird_3",
+      icon = "skchr-cgbird-3",
       name = "圣域",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击范围扩大，攻击力提高30% ，攻击范围内的友方单位法术抗性提高75% 并获得15% 的魔法闪避",
       max_description = "攻击范围扩大，攻击力提高70% ，攻击范围内的友方单位法术抗性提高150% 并获得25% 的魔法闪避",
       range = "y-4",
@@ -200,8 +202,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -212,8 +214,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
       }
@@ -224,13 +226,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 40,
         },
       }
@@ -241,18 +243,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL2",
-          name = "基础训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 4,
         },
       }
@@ -263,18 +260,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -285,18 +277,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 12,
         },
       }
@@ -343,53 +330,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "Skade",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Nightingale",
-      gender = "",
-      combatexp = "",
-      origin = "Undisclosed",
-      birthday = "",
-      race = "Sakaz",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Undisclosed",
+      birthday = "?",
+      race = "Sarkaz",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "Skade",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "非常抱歉，本来是我应该照看您的，只是我的行动很不方便......",
-    "凯尔希医生说，我因为吸入过源石毒气而损害了记忆和下肢神经系统......以前，究竟发生过什么呢？",
-    "这只蓝色的小鸟，经常飞来和我聊天......有的时候，我会在睡梦中变成她的样子，在天空和大地间自由地飞翔......",
-    "我曾被一些人关在一个无人的房间里，只有他们要求我用能力治疗伤者时，我才有机会接触除我之外的人......",
-    "这柄法杖，只要握住它，我可以随心所欲地治疗伤者......这也是我曾经的能力吗？",
-    "闪灵小姐告诉我，我们魔族必须背负曾经挑起战争的罪恶......那些把我关起来的人，也是这样对我说的......可是......",
-    "阿米娅......给我一种很熟悉的感觉......我以前......是不是......见过她？",
-    "我的记忆，只有无数的碎片......同胞、源石、使命、反抗、战争......为什么......这其中还能看到您的身影？",
-    "为什么我会变成现在的样子，为什么是我来承受这些呢？Doctor，您能帮我找到......这些问题的答案吗？",
-    "......您是否也能在睡梦中成为一只自由的飞鸟呢？",
-    "丽兹......这是我的名字，除此之外，我没有任何完整的记忆。",
-    "晋升吗？我知道了......这个是要是该高兴吗？非常抱歉，我并不会感受到这其中值得喜悦的感情......",
-    "非常感谢您亲自告知我晋升的消息......不过对我来说，现在最重要的事，是继续听这个孩子为我讲那些外面的事情......",
-    "无论是怎样的战斗，我都会......",
-    "我们的宿命就是战斗至生命的尽头，对吗？",
-    "或许，他们已经逃离了命运的牢笼......",
-    "这就是......绝望的感觉......"
-  }
+    cn01 = "非常抱歉，本来是我应该照看您的，只是我的行动很不方便......",
+    cn02 = "凯尔希医生说，我因为吸入过源石毒气而损害了记忆和下肢神经系统......以前，究竟发生过什么呢？",
+    cn03 = "这只蓝色的小鸟，经常飞来和我聊天......有的时候，我会在睡梦中变成她的样子，在天空和大地间自由地飞翔......",
+    cn04 = "我曾被一些人关在一个无人的房间里，只有他们要求我用能力治疗伤者时，我才有机会接触除我之外的人......",
+    cn05 = "这柄法杖，只要握住它，我可以随心所欲地治疗伤者......这也是我曾经的能力吗？",
+    cn06 = "闪灵小姐告诉我，我们魔族必须背负曾经挑起战争的罪恶......那些把我关起来的人，也是这样对我说的......可是......",
+    cn07 = "阿米娅......给我一种很熟悉的感觉......我以前......是不是......见过她？",
+    cn08 = "我的记忆，只有无数的碎片......同胞、源石、使命、反抗、战争......为什么......这其中还能看到您的身影？",
+    cn09 = "为什么我会变成现在的样子，为什么是我来承受这些呢？Doctor，您能帮我找到......这些问题的答案吗？",
+    cn10 = "......您是否也能在睡梦中成为一只自由的飞鸟呢？",
+    cn11 = "丽兹......这是我的名字，除此之外，我没有任何完整的记忆。",
+    cn12 = "无论是怎样的战斗，我都会......",
+    cn13 = "晋升吗？我知道了......这个是要是该高兴吗？非常抱歉，我并不会感受到这其中值得喜悦的感情......",
+    cn14 = "非常感谢您亲自告知我晋升的消息......不过对我来说，现在最重要的事，是继续听这个孩子为我讲那些外面的事情......",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "我们的宿命就是战斗至生命的尽头，对吗？",
+    cn31 = "或许，他们已经逃离了命运的牢笼......",
+    cn32 = "这就是......绝望的感觉......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

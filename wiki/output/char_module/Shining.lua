@@ -4,20 +4,21 @@ return {
   name = {
     en = "Shining",
     cn = "闪灵",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Shining",
   },
-  background = "",
+  fileKey = "Shining",
   team = 9,
   position = "Ranged",
   roles = { "Life recovery", "Support" },
-  faction = "logo_rhodes",
-  stars = 5,
-  class = "MEDIC",
+  faction = "Rhodes Island",
+  stars = 6,
+  class = "Medic",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 877,
@@ -43,8 +44,8 @@ return {
       range = "3-1",
       maxLevel = 40,
       images = {
-          portrait = "char_147_shining_portrait.png",
-          full = "char_147_shining_full.png"
+          portrait = "Shining-0-portrait.png",
+          full = "Shining-0.png"
       },
       maxStats = {
         hp = 1186,
@@ -70,8 +71,8 @@ return {
       range = "3-3",
       maxLevel = 80,
       images = {
-          portrait = "char_147_shining_portrait.png",
-          full = "char_147_shining_full.png"
+          portrait = "Shining-0-portrait.png",
+          full = "Shining-0.png"
       },
       maxStats = {
         hp = 1396,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_MED1",
-          name = "医疗芯片",
+          icon = "MedicChip.png",
+          name = "Medic Chip",
           count = 5,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 20,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 60,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "3-3",
       maxLevel = 90,
       images = {
-          portrait = "char_147_shining_portrait.png",
-          full = "char_147_shining_full.png"
+          portrait = "Shining-2-portrait.png",
+          full = "Shining-2.png"
       },
       maxStats = {
         hp = 1552,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_MED3",
-          name = "医疗双芯片",
+          icon = "MedicTwinChip.png",
+          name = "Medic Twin Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL4",
-          name = "高级训练套件",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_G4",
-          name = "提纯源岩",
+          icon = "RefinedRock.png",
+          name = "Refined Rock",
           count = 3,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_shining_1",
+      icon = "skchr-shining-1",
       name = "信条",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力提高45% ，攻击速度提高10",
       max_description = "攻击力提高80% ，攻击速度提高20",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 20,
     },
     {
-      icon = "skchr_shining_2",
+      icon = "skchr-shining-2",
       name = "自动掩护",
-      type = 2,
+      recharge = "Auto Charge",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下一次治疗后使目标获得一个持续2 秒的护盾 护盾可以吸收相当于自己攻击力20% 的伤害，同时使目标防御力提高20% ，可充能1 次",
       max_description = "下一次治疗后使目标获得一个持续3 秒的护盾 护盾可以吸收相当于自己攻击力50% 的伤害，同时使目标防御力提高50% ，可充能3 次",
       range = nil,
@@ -181,9 +181,11 @@ return {
       duration = -1,
     },
     {
-      icon = "skchr_shining_3",
+      icon = "skchr-shining-3",
       name = "教条力场",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击范围内的友方单位防御力提高30% ，自身的攻击力提高20%",
       max_description = "攻击范围内的友方单位防御力提高100% ，自身的攻击力提高50%",
       range = nil,
@@ -200,8 +202,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -212,8 +214,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
       }
@@ -224,13 +226,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 40,
         },
       }
@@ -241,18 +243,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL2",
-          name = "基础训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 4,
         },
       }
@@ -263,18 +260,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -285,18 +277,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 12,
         },
       }
@@ -343,53 +330,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "竜崎いち",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Shining",
-      gender = "",
-      combatexp = "",
-      origin = "Undisclosed",
-      birthday = "",
-      race = "Sakaz",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Undisclosed",
+      birthday = "?",
+      race = "Sarkaz",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "竜崎いち",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "你好，Doctor............没有，想聊的话题吗？",
-    "你的脸色很糟糕......胸口疼痛？请别乱动，立刻休息......别害怕，我就在你身边，没事的......",
-    "我的治疗法术，有种在哪里见过的感觉？......不，那一定是，你的错觉......",
-    "“赦罪师”？......对不起，唯有这个话题，我不能继续..................为什么，你会知道这个名字......",
-    "我们魔族，开发了将法术天赋与源石能力结合的治疗法术，并且一直应用于救助受难者......",
-    "现在？现在什么都没有了，那场战争，摧毁了一切希望......",
-    "我和临光吗？我们是旅伴，也是......将生命彼此相托的关系。",
-    "为了拯救苦难者，可以献出一切......临光那个孩子，就是如此决绝。",
-    "我曾经，追随着一位绽放着光芒的人，直到她因阴谋而陨落......这一次，我不会再这光芒消失了，以我的生命起誓......",
-    "......安静的气息，让我想起在故乡的日子。",
-    "我是闪灵，巡回医师。您觉得，曾经在哪见过我？或许，我们曾在各自的旅途中充当过客吧......",
-    "如果只是作为医生，是无法拯救更多人的......",
-    "是的，不只是作为医者，而是作为守护者而活着，这是我一直以来的愿景......Doctor，请聆听我的誓言吧。",
-    "愈是强大的敌人，愈是能激发您的战斗和求生意志......",
-    "无论你们以前犯下过多少罪责，现在都会随着生命化为灰烬......",
-    "......不要再返回战场了，这里不会产生任何救赎。",
-    "胜利......失败......不过是无限的循环......"
-  }
+    cn01 = "你好，Doctor............没有，想聊的话题吗？",
+    cn02 = "你的脸色很糟糕......胸口疼痛？请别乱动，立刻休息......别害怕，我就在你身边，没事的......",
+    cn03 = "我的治疗法术，有种在哪里见过的感觉？......不，那一定是，你的错觉......",
+    cn04 = "“赦罪师”？......对不起，唯有这个话题，我不能继续..................为什么，你会知道这个名字......",
+    cn05 = "我们魔族，开发了将法术天赋与源石能力结合的治疗法术，并且一直应用于救助受难者......",
+    cn06 = "现在？现在什么都没有了，那场战争，摧毁了一切希望......",
+    cn07 = "我和临光吗？我们是旅伴，也是......将生命彼此相托的关系。",
+    cn08 = "为了拯救苦难者，可以献出一切......临光那个孩子，就是如此决绝。",
+    cn09 = "我曾经，追随着一位绽放着光芒的人，直到她因阴谋而陨落......这一次，我不会再这光芒消失了，以我的生命起誓......",
+    cn10 = "......安静的气息，让我想起在故乡的日子。",
+    cn11 = "我是闪灵，巡回医师。您觉得，曾经在哪见过我？或许，我们曾在各自的旅途中充当过客吧......",
+    cn12 = "愈是强大的敌人，愈是能激发您的战斗和求生意志......",
+    cn13 = "如果只是作为医生，是无法拯救更多人的......",
+    cn14 = "是的，不只是作为医者，而是作为守护者而活着，这是我一直以来的愿景......Doctor，请聆听我的誓言吧。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "无论你们以前犯下过多少罪责，现在都会随着生命化为灰烬......",
+    cn31 = "......不要再返回战场了，这里不会产生任何救赎。",
+    cn32 = "胜利......失败......不过是无限的循环......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

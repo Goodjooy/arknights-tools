@@ -4,20 +4,21 @@ return {
   name = {
     en = "Ptilopsis",
     cn = "白面鸮",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Ptilopsis",
   },
-  background = "",
+  fileKey = "Ptilopsis",
   team = 4,
   position = "Ranged",
   roles = { "Support", "Life recovery" },
-  faction = "logo_rhine",
-  stars = 4,
-  class = "MEDIC",
+  faction = "Rhine Lab",
+  stars = 5,
+  class = "Medic",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 640,
@@ -43,8 +44,8 @@ return {
       range = "y-1",
       maxLevel = 40,
       images = {
-          portrait = "char_128_plosis_portrait.png",
-          full = "char_128_plosis_full.png"
+          portrait = "Ptilopsis-0-portrait.png",
+          full = "Ptilopsis-0.png"
       },
       maxStats = {
         hp = 865,
@@ -70,8 +71,8 @@ return {
       range = "y-2",
       maxLevel = 70,
       images = {
-          portrait = "char_128_plosis_portrait.png",
-          full = "char_128_plosis_full.png"
+          portrait = "Ptilopsis-0-portrait.png",
+          full = "Ptilopsis-0.png"
       },
       maxStats = {
         hp = 1082,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_MED1",
-          name = "医疗芯片",
+          icon = "MedicChip.png",
+          name = "Medic Chip",
           count = 4,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 12,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "y-2",
       maxLevel = 80,
       images = {
-          portrait = "char_128_plosis_portrait.png",
-          full = "char_128_plosis_full.png"
+          portrait = "Ptilopsis-2-portrait.png",
+          full = "Ptilopsis-2.png"
       },
       maxStats = {
         hp = 1370,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_MED3",
-          name = "医疗双芯片",
+          icon = "MedicTwinChip.png",
+          name = "Medic Twin Chip",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA4",
-          name = "聚合剂·大",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 8,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skcom_heal_up",
+      icon = "skcom-heal-up",
       name = "治疗强化·γ型",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力提高40%",
       max_description = "攻击力提高90%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 30,
     },
     {
-      icon = "skchr_plosis_2",
+      icon = "skchr-plosis-2",
       name = "脑啡肽",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "进入清醒状态，攻击范围增大，攻击间隔缩短",
       max_description = "进入清醒状态，攻击范围增大，攻击间隔超大幅度缩短",
       range = "y-5",
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 30,
         },
       }
@@ -229,18 +229,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA2",
-          name = "聚合剂·小",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
       }
@@ -251,18 +246,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 4,
         },
       }
@@ -273,18 +263,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 6,
         },
       }
@@ -331,53 +316,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "竜崎いち",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Ptilopsis",
-      gender = "",
-      combatexp = "",
-      origin = "Columbia",
-      birthday = "",
-      race = "Ribley",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Columbia",
+      birthday = "?",
+      race = "Ribley",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "竜崎いち",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "您好，Doctor，请问需要什么帮助？",
-    "......深度睡眠......Zzzzz......修改高级配置与电源管理接口......Zzzzz......",
-    "种族特性与病毒效果叠加，导致我在会话中会随时休眠，请不必在意。",
-    "我与赫默博士因某个莱茵生命的内部项目相结识，我为她提供了大数据的分析和风险评估。",
-    "警告！开始将罗德岛的数据库还原至初始状态......开玩笑，请不必惊慌。",
-    "优化不行的话就重构吧，这样我的持续数据传输变得更有效率，Zzzz......",
-    "说话方式？这是和源石病毒相关的结果，绝非是我觉得有趣才这样做的。",
-    "系统已经从一个严重错误中恢复，我已使用了最近一次正确的配置，请您不要见怪。",
-    "其实每天都用这种说话方式真挺累的......但是......这只是在不断警醒我不要被那个声音占据内心。即使失去了自我，也希望你能帮助我继续理性行事。",
-    "......系统即将进入待机状态。",
-    "前莱茵生命数据维护员白面鸮，如果方便的话，请使用命令行完成您需要的操作",
-    "新版本加载完毕，白面鸮系统权限升级——",
-    "警告！开始将罗德岛的数据库还原到2年前......开玩笑，请不必惊慌，版本更新完毕，让您久等了。",
-    "高难度的战役亦被您完全攻克，或许有朝一日您将能解决非确定性多项式的困惑。",
-    "您的逻辑推论完全正确，真是完美的计算。",
-    "仍有一些错误发生在您的计算中，希望您对此有所注意。",
-    "我们的行动遇到问题，需要重新启动。"
-  }
+    cn01 = "您好，Doctor，请问需要什么帮助？",
+    cn02 = "......深度睡眠......Zzzzz......修改高级配置与电源管理接口......Zzzzz......",
+    cn03 = "种族特性与病毒效果叠加，导致我在会话中会随时休眠，请不必在意。",
+    cn04 = "我与赫默博士因某个莱茵生命的内部项目相结识，我为她提供了大数据的分析和风险评估。",
+    cn05 = "警告！开始将罗德岛的数据库还原至初始状态......开玩笑，请不必惊慌。",
+    cn06 = "优化不行的话就重构吧，这样我的持续数据传输变得更有效率，Zzzz......",
+    cn07 = "说话方式？这是和源石病毒相关的结果，绝非是我觉得有趣才这样做的。",
+    cn08 = "系统已经从一个严重错误中恢复，我已使用了最近一次正确的配置，请您不要见怪。",
+    cn09 = "其实每天都用这种说话方式真挺累的......但是......这只是在不断警醒我不要被那个声音占据内心。即使失去了自我，也希望你能帮助我继续理性行事。",
+    cn10 = "......系统即将进入待机状态。",
+    cn11 = "前莱茵生命数据维护员白面鸮，如果方便的话，请使用命令行完成您需要的操作",
+    cn12 = "高难度的战役亦被您完全攻克，或许有朝一日您将能解决非确定性多项式的困惑。",
+    cn13 = "新版本加载完毕，白面鸮系统权限升级——",
+    cn14 = "警告！开始将罗德岛的数据库还原到2年前......开玩笑，请不必惊慌，版本更新完毕，让您久等了。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "您的逻辑推论完全正确，真是完美的计算。",
+    cn31 = "仍有一些错误发生在您的计算中，希望您对此有所注意。",
+    cn32 = "我们的行动遇到问题，需要重新启动。",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

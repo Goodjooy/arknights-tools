@@ -4,20 +4,21 @@ return {
   name = {
     en = "Meteor",
     cn = "流星",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Meteor",
   },
-  background = "",
+  fileKey = "Meteor",
   team = 17,
   position = "Ranged",
   roles = { "DPS", "Debuffer" },
-  faction = "logo_kazimierz",
-  stars = 3,
-  class = "SNIPER",
+  faction = "Kazimierz",
+  stars = 4,
+  class = "Sniper",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 633,
@@ -43,8 +44,8 @@ return {
       range = "3-1",
       maxLevel = 35,
       images = {
-          portrait = "char_126_shotst_portrait.png",
-          full = "char_126_shotst_full.png"
+          portrait = "Meteor-0-portrait.png",
+          full = "Meteor-0.png"
       },
       maxStats = {
         hp = 905,
@@ -70,8 +71,8 @@ return {
       range = "3-3",
       maxLevel = 60,
       images = {
-          portrait = "char_126_shotst_portrait.png",
-          full = "char_126_shotst_full.png"
+          portrait = "Meteor-0-portrait.png",
+          full = "Meteor-0.png"
       },
       maxStats = {
         hp = 1161,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SNP1",
-          name = "狙击芯片",
+          icon = "SniperChip.png",
+          name = "Sniper Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_RUSH1",
-          name = "酯原料",
+          icon = "RawEster.png",
+          name = "Raw Ester",
           count = 15,
         },
         {
-          icon = "MTL_SL_STRG1",
-          name = "代糖",
+          icon = "SugarSubstitute.png",
+          name = "Sugar Substitute",
           count = 15,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "3-3",
       maxLevel = 70,
       images = {
-          portrait = "char_126_shotst_portrait.png",
-          full = "char_126_shotst_full.png"
+          portrait = "Meteor-2-portrait.png",
+          full = "Meteor-2.png"
       },
       maxStats = {
         hp = 1367,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SNP2",
-          name = "狙击芯片组",
+          icon = "SniperChipSet.png",
+          name = "Sniper Chip Set",
           count = 4,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 5,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 10,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_shotst_1",
+      icon = "skchr-shotst-1",
       name = "碎甲击",
-      type = 2,
+      recharge = "Charge On Attack",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下一次攻击的攻击力提高至120% ，在5 秒内降低击中目标的防御力-15%",
       max_description = "下一次攻击的攻击力提高至180% ，在5 秒内降低击中目标的防御力-35%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = -1,
     },
     {
-      icon = "skchr_shotst_2",
+      icon = "skchr-shotst-2",
       name = "碎甲击·扩散",
-      type = 1,
+      recharge = "Charge On Attack",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "立即以140% 的攻击力射击范围内至多5个敌人，并在5 秒内降低击中目标的防御力-35%",
       max_description = "立即以200% 的攻击力射击范围内至多5个敌人，并在10 秒内降低击中目标的防御力-45%",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 25,
         },
       }
@@ -229,18 +229,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 8,
         },
       }
@@ -251,18 +251,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 6,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 12,
         },
       }
@@ -273,18 +273,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 3,
         },
         {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -319,53 +319,85 @@ return {
       def = 25,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "HUG",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Meteor",
-      gender = "",
-      combatexp = "",
-      origin = "Kazimierz",
-      birthday = "",
-      race = "Kuranta",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Kazimierz",
+      birthday = "?",
+      race = "Kuranta",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "HUG",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "我感受到了熟悉的味道。这里是...?",
-    "感受来自卡西米尔的风吧。",
-    "罗德岛和我待过的地方都不同，没法点起篝火一起聊天的地方，不知道甲板上可不可以？我希望大家有个聚在一起聊天休息的机会。",
-    "这个用来进行任务登记的软件要怎么操作？我对电脑这个东西真有点......",
-    "最近来了很多新成员，他们顺利融入罗德岛的氛围里了吗？需要的话可以让我去帮帮他们。",
-    "那位卡西米尔骑士......嗯，我没认错，我认识她的时，她还是个喜欢读书的内向女孩呢，变化可真大。",
-    "嘘——看，我发现了什么，这儿有一位落单的博士，我们可以尝试捕捉！哈哈，吓一跳吗？",
-    "有的时候，我会想起在森林的日子。不知道故乡还好么？我还怀念每年的各种锦标赛......",
-    "无论何时。Doctor，你都可以放心把你的背后交给我。",
-    "Doctor原来也有这样毫无防备的侧脸啊。哈哈",
-    "您好，需要提供远程援护吗？我是流星，来自森林的弓箭手。",
-    "我很乐意接受这份晋升。",
-    "感谢您的肯定，今后我的全部力量都将为您所用。",
-    "再艰难的关卡，只要我们在一起就一定能挺过来。",
-    "干的漂亮，大家都是最棒的。",
-    "请伤者留在原地，别乱动，我立刻去帮助你。",
-    "抱歉，不该这样......"
-  }
+    cn01 = "我感受到了熟悉的味道。这里是...?",
+    cn02 = "感受来自卡西米尔的风吧。",
+    cn03 = "罗德岛和我待过的地方都不同，没法点起篝火一起聊天的地方，不知道甲板上可不可以？我希望大家有个聚在一起聊天休息的机会。",
+    cn04 = "这个用来进行任务登记的软件要怎么操作？我对电脑这个东西真有点......",
+    cn05 = "最近来了很多新成员，他们顺利融入罗德岛的氛围里了吗？需要的话可以让我去帮帮他们。",
+    cn06 = "那位卡西米尔骑士......嗯，我没认错，我认识她的时，她还是个喜欢读书的内向女孩呢，变化可真大。",
+    cn07 = "嘘——看，我发现了什么，这儿有一位落单的博士，我们可以尝试捕捉！哈哈，吓一跳吗？",
+    cn08 = "有的时候，我会想起在森林的日子。不知道故乡还好么？我还怀念每年的各种锦标赛......",
+    cn09 = "无论何时。Doctor，你都可以放心把你的背后交给我。",
+    cn10 = "Doctor原来也有这样毫无防备的侧脸啊。哈哈",
+    cn11 = "您好，需要提供远程援护吗？我是流星，来自森林的弓箭手。",
+    cn12 = "再艰难的关卡，只要我们在一起就一定能挺过来。",
+    cn13 = "我很乐意接受这份晋升。",
+    cn14 = "感谢您的肯定，今后我的全部力量都将为您所用。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "干的漂亮，大家都是最棒的。",
+    cn31 = "请伤者留在原地，别乱动，我立刻去帮助你。",
+    cn32 = "抱歉，不该这样......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

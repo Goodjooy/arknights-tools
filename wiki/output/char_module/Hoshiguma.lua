@@ -4,20 +4,21 @@ return {
   name = {
     en = "Hoshiguma",
     cn = "星熊",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Hoshiguma",
   },
-  background = "",
+  fileKey = "Hoshiguma",
   team = 12,
   position = "Melee",
   roles = { "Tank", "DPS" },
-  faction = "logo_lungmen",
-  stars = 5,
-  class = "TANK",
+  faction = "Great Lungmen",
+  stars = 6,
+  class = "Defender",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 1558,
@@ -43,8 +44,8 @@ return {
       range = "1-1",
       maxLevel = 40,
       images = {
-          portrait = "char_136_hsguma_portrait.png",
-          full = "char_136_hsguma_full.png"
+          portrait = "Hoshiguma-0-portrait.png",
+          full = "Hoshiguma-0.png"
       },
       maxStats = {
         hp = 2227,
@@ -70,8 +71,8 @@ return {
       range = "1-1",
       maxLevel = 80,
       images = {
-          portrait = "char_136_hsguma_portrait.png",
-          full = "char_136_hsguma_full.png"
+          portrait = "Hoshiguma-0-portrait.png",
+          full = "Hoshiguma-0.png"
       },
       maxStats = {
         hp = 3052,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_TNK1",
-          name = "重装芯片",
+          icon = "DefenderChip.png",
+          name = "Defender Chip",
           count = 5,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 20,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 60,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "1-1",
       maxLevel = 90,
       images = {
-          portrait = "char_136_hsguma_portrait.png",
-          full = "char_136_hsguma_full.png"
+          portrait = "Hoshiguma-2-portrait.png",
+          full = "Hoshiguma-2.png"
       },
       maxStats = {
         hp = 4125,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_TNK3",
-          name = "重装双芯片",
+          icon = "DefenderTwinChip.png",
+          name = "Defender Twin Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL4",
-          name = "高级训练套件",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_G4",
-          name = "提纯源岩",
+          icon = "RefinedRock.png",
+          name = "Refined Rock",
           count = 3,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_hsguma_1",
+      icon = "skchr-hsguma-1",
       name = "盾挡",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力提高10% ，防御力提高30%",
       max_description = "攻击力提高20% ，防御力提高80%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 20,
     },
     {
-      icon = "skchr_hsguma_2",
+      icon = "skchr-hsguma-2",
       name = "荆棘",
-      type = 0,
+      recharge = "",
+      trigger = "Passive",
+      passive = true,
       description = "防御力提高5% ，每次受到攻击时对目标反弹自己攻击力50% 的物理伤害",
       max_description = "防御力提高30% ，每次受到攻击时对目标反弹自己攻击力80% 的物理伤害",
       range = nil,
@@ -181,9 +181,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_hsguma_3",
+      icon = "skchr-hsguma-3",
       name = "力之锯",
-      type = 1,
+      recharge = "",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力提高30% ，防御力提高40% ，对前方一格的所有敌人使用盾牌进行切割",
       max_description = "攻击力提高90% ，防御力提高80% ，对前方一格的所有敌人使用盾牌进行切割",
       range = nil,
@@ -200,8 +202,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -212,8 +214,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
       }
@@ -224,13 +226,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 40,
         },
       }
@@ -241,18 +243,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL2",
-          name = "基础训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 4,
         },
       }
@@ -263,18 +260,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -285,18 +277,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 12,
         },
       }
@@ -343,53 +330,85 @@ return {
       def = 80,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "Infukun",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Hoshiguma",
-      gender = "",
-      combatexp = "",
-      origin = "East",
-      birthday = "",
-      race = "Oni",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "East",
+      birthday = "?",
+      race = "Oni",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "Infukun",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "Doctor请放心，有我在您就是安全的。",
-    "最近来了很多新人。然而新面孔越多，您越要多加注意。",
-    "无论发生什么情况，请别忘了紧急通讯频段。只要您发报，我便会立刻前来处理。",
-    "我说话冷冰冰的？毕竟是在工作中嘛。若在休息时间，我也不会那么正经的。",
-    "罗德岛需要的不只是战斗干员。后勤、教育、事务交涉，无论哪个领域，都需要有专业人员支撑。",
-    "以往要我出动必是恶战，而现在每场战斗皆是恶战。",
-    "这面盾唤作“般若”，是我从家乡带来的。它的父亲与家父是......旧识。上任时长官没少给我们白眼，但我与它都证明了自己——盾可以是武器，我也是。",
-    "般若沾上了龙门每个帮派的血。本以为会有很多人记恨我，不知怎的，原本蔑视我的人后来都变得毕恭毕敬。个子大就是好，对吧。",
-    "呼......这杯灌下去后才叫舒坦嘛。你怎么就不行了？别担心，我会送你回房间的。更不安心了？哼......Doctor，说话好歹看看气氛啊。",
-    "嗯？嗯。不，我就是守着而已。",
-    "星熊，重装干员，今后将是您的盾、您的利器、您的壁垒。请多多指教，Doctor。",
-    "我的荣幸。",
-    "我要去哪里，没有人可以决定；但我若是做出决定，也没人可以阻止。我决定听从你的指挥，Doctor。",
-    "登山者总会挑战更陡峭的山岩。",
-    "我最不能容忍的事情，便是在我面前伤害我的同伴。",
-    "受伤了吗，抱歉，我的失职。",
-    "啧......动作快一点！我来掩护你们，自我身后撤退！"
-  }
+    cn01 = "Doctor请放心，有我在您就是安全的。",
+    cn02 = "最近来了很多新人。然而新面孔越多，您越要多加注意。",
+    cn03 = "无论发生什么情况，请别忘了紧急通讯频段。只要您发报，我便会立刻前来处理。",
+    cn04 = "我说话冷冰冰的？毕竟是在工作中嘛。若在休息时间，我也不会那么正经的。",
+    cn05 = "罗德岛需要的不只是战斗干员。后勤、教育、事务交涉，无论哪个领域，都需要有专业人员支撑。",
+    cn06 = "以往要我出动必是恶战，而现在每场战斗皆是恶战。",
+    cn07 = "这面盾唤作“般若”，是我从家乡带来的。它的父亲与家父是......旧识。上任时长官没少给我们白眼，但我与它都证明了自己——盾可以是武器，我也是。",
+    cn08 = "般若沾上了龙门每个帮派的血。本以为会有很多人记恨我，不知怎的，原本蔑视我的人后来都变得毕恭毕敬。个子大就是好，对吧。",
+    cn09 = "呼......这杯灌下去后才叫舒坦嘛。你怎么就不行了？别担心，我会送你回房间的。更不安心了？哼......Doctor，说话好歹看看气氛啊。",
+    cn10 = "嗯？嗯。不，我就是守着而已。",
+    cn11 = "星熊，重装干员，今后将是您的盾、您的利器、您的壁垒。请多多指教，Doctor。",
+    cn12 = "登山者总会挑战更陡峭的山岩。",
+    cn13 = "我的荣幸。",
+    cn14 = "我要去哪里，没有人可以决定；但我若是做出决定，也没人可以阻止。我决定听从你的指挥，Doctor。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "我最不能容忍的事情，便是在我面前伤害我的同伴。",
+    cn31 = "受伤了吗，抱歉，我的失职。",
+    cn32 = "啧......动作快一点！我来掩护你们，自我身后撤退！",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

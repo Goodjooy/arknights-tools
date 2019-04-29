@@ -4,20 +4,21 @@ return {
   name = {
     en = "Manticore",
     cn = "狮蝎",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Manticore",
   },
-  background = "",
+  fileKey = "Manticore",
   team = 5,
   position = "Melee",
   roles = { "DPS" },
-  faction = "logo_rhodes",
-  stars = 4,
-  class = "SPECIAL",
+  faction = "Rhodes Island",
+  stars = 5,
+  class = "Specialist",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 832,
@@ -43,8 +44,8 @@ return {
       range = "y-1",
       maxLevel = 40,
       images = {
-          portrait = "char_215_mantic_portrait.png",
-          full = "char_215_mantic_full.png"
+          portrait = "Manticore-0-portrait.png",
+          full = "Manticore-0.png"
       },
       maxStats = {
         hp = 1067,
@@ -70,8 +71,8 @@ return {
       range = "y-1",
       maxLevel = 70,
       images = {
-          portrait = "char_215_mantic_portrait.png",
-          full = "char_215_mantic_full.png"
+          portrait = "Manticore-0-portrait.png",
+          full = "Manticore-0.png"
       },
       maxStats = {
         hp = 1368,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SPC1",
-          name = "特种芯片",
+          icon = "SpecialistChip.png",
+          name = "Specialist Chip",
           count = 4,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 12,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "y-1",
       maxLevel = 80,
       images = {
-          portrait = "char_215_mantic_portrait.png",
-          full = "char_215_mantic_full.png"
+          portrait = "Manticore-2-portrait.png",
+          full = "Manticore-2.png"
       },
       maxStats = {
         hp = 1711,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SPC3",
-          name = "特种双芯片",
+          icon = "SpecialistTwinChip.png",
+          name = "Specialist Twin Chip",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA4",
-          name = "聚合剂·大",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 8,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_mantic_1",
+      icon = "skchr-mantic-1",
       name = "蝎毒",
-      type = 0,
+      recharge = "",
+      trigger = "Passive",
+      passive = true,
       description = "每次攻击使击中目标在3 内移速减少-23%",
       max_description = "每次攻击使击中目标在5 内移速减少-50%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = -1,
     },
     {
-      icon = "skchr_mantic_2",
+      icon = "skchr-mantic-2",
       name = "蓄力毒尾击",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击前摇和攻击间隔加大，但攻击力提升30% ，并使击中目标晕眩0.2 秒",
       max_description = "攻击前摇和攻击间隔加大，但攻击力提升90% ，并使击中目标晕眩1 秒",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 30,
         },
       }
@@ -229,18 +229,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA2",
-          name = "聚合剂·小",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
       }
@@ -251,18 +246,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 4,
         },
       }
@@ -273,18 +263,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 6,
         },
       }
@@ -324,53 +309,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "竜崎いち",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Manticore",
-      gender = "",
-      combatexp = "",
-      origin = "Sargon",
-      birthday = "",
-      race = "Manticore",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Sargon",
+      birthday = "?",
+      race = "Manticore",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "竜崎いち",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "那个......我在这里已经......两个小时了......",
-    "对不起，存在感低，不是我的能力......",
-    "我的能力，只要在特定环境下，能让人意识不到我的存在......",
-    "我一直交不到朋友......是啊，谁会喜欢，注意不到的朋友呢。",
-    "尾巴，没有战斗的时候，会卷起来，请别害怕......",
-    "Doctor，让我去执行一些，危险的任务，我的能力，再合适不过了......",
-    "我胸前的牌子是，捡来的，我喜欢收集这些，他人存在过的证明......",
-    "请不要让那位叫“夜魔”的干员接近我！她、它很危险，而且不知道为什么，我的能力，对她不管用......",
-    "其实我，我是希望自己能被治好......但是如果我被治好了，失去了现在的能力，那我......还有价值吗？",
-    "......我被放置了......讨厌这种感觉......",
-    "我是狮蝎，能力是，悄无声息地结束对方的生命......别怕，我，不是来这里执行任务的......",
-    "终于等到任命了，我、我一直以为这期间我的表现不够好......",
-    "我还是能派上用场，对吧？没有去处的我，罗德岛就是我的家，请您，一定要给我保护这里的机会......！",
-    "这样可怕的战场也没有影响您的判断力，您真的很帅气，Doctor......",
-    "我知道赢下战争什么手段都得使用，但是......",
-    "如果需要把那些逃跑的人抓回来，我可以......",
-    "对不起......都是我没做好......"
-  }
+    cn01 = "那个......我在这里已经......两个小时了......",
+    cn02 = "对不起，存在感低，不是我的能力......",
+    cn03 = "我的能力，只要在特定环境下，能让人意识不到我的存在......",
+    cn04 = "我一直交不到朋友......是啊，谁会喜欢，注意不到的朋友呢。",
+    cn05 = "尾巴，没有战斗的时候，会卷起来，请别害怕......",
+    cn06 = "Doctor，让我去执行一些，危险的任务，我的能力，再合适不过了......",
+    cn07 = "我胸前的牌子是，捡来的，我喜欢收集这些，他人存在过的证明......",
+    cn08 = "请不要让那位叫“夜魔”的干员接近我！她、它很危险，而且不知道为什么，我的能力，对她不管用......",
+    cn09 = "其实我，我是希望自己能被治好......但是如果我被治好了，失去了现在的能力，那我......还有价值吗？",
+    cn10 = "......我被放置了......讨厌这种感觉......",
+    cn11 = "我是狮蝎，能力是，悄无声息地结束对方的生命......别怕，我，不是来这里执行任务的......",
+    cn12 = "这样可怕的战场也没有影响您的判断力，您真的很帅气，Doctor......",
+    cn13 = "终于等到任命了，我、我一直以为这期间我的表现不够好......",
+    cn14 = "我还是能派上用场，对吧？没有去处的我，罗德岛就是我的家，请您，一定要给我保护这里的机会......！",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "我知道赢下战争什么手段都得使用，但是......",
+    cn31 = "如果需要把那些逃跑的人抓回来，我可以......",
+    cn32 = "对不起......都是我没做好......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

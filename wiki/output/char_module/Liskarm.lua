@@ -4,20 +4,21 @@ return {
   name = {
     en = "Liskarm",
     cn = "雷蛇",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Liskarm",
   },
-  background = "",
+  fileKey = "Liskarm",
   team = 13,
   position = "Melee",
   roles = { "Tank", "Crowd Control" },
-  faction = "logo_blacksteel",
-  stars = 4,
-  class = "TANK",
+  faction = "BlackSteel",
+  stars = 5,
+  class = "Defender",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 1296,
@@ -43,8 +44,8 @@ return {
       range = "2-2",
       maxLevel = 40,
       images = {
-          portrait = "char_107_liskam_portrait.png",
-          full = "char_107_liskam_full.png"
+          portrait = "Liskarm-0-portrait.png",
+          full = "Liskarm-0.png"
       },
       maxStats = {
         hp = 1729,
@@ -70,8 +71,8 @@ return {
       range = "2-2",
       maxLevel = 70,
       images = {
-          portrait = "char_107_liskam_portrait.png",
-          full = "char_107_liskam_full.png"
+          portrait = "Liskarm-0-portrait.png",
+          full = "Liskarm-0.png"
       },
       maxStats = {
         hp = 2306,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_TNK1",
-          name = "重装芯片",
+          icon = "DefenderChip.png",
+          name = "Defender Chip",
           count = 4,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 12,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "2-2",
       maxLevel = 80,
       images = {
-          portrait = "char_107_liskam_portrait.png",
-          full = "char_107_liskam_full.png"
+          portrait = "Liskarm-2-portrait.png",
+          full = "Liskarm-2.png"
       },
       maxStats = {
         hp = 3214,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_TNK3",
-          name = "重装双芯片",
+          icon = "DefenderTwinChip.png",
+          name = "Defender Twin Chip",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA4",
-          name = "聚合剂·大",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 8,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_liskam_1",
+      icon = "skchr-liskam-1",
       name = "充能防御",
-      type = 2,
+      recharge = "",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "抵挡下一次伤害，并使防御力在8 秒内提高40%  技能自动开启",
       max_description = "抵挡下一次伤害，并使防御力在8 秒内提高100%  技能自动开启",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = -1,
     },
     {
-      icon = "skchr_liskam_2",
+      icon = "skchr-liskam-2",
       name = "反击电弧",
-      type = 1,
+      recharge = "",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击间隔增大，防御力降低-15% ，攻击力提高60% ，每次攻击对前方最多3 个敌人造成魔法伤害，并有10% 概率眩晕敌人1.3 秒 持续时间结束后雷蛇瘫痪5 秒",
       max_description = "攻击间隔增大，防御力降低-15% ，攻击力提高130% ，每次攻击对前方最多3 个敌人造成魔法伤害，并有20% 概率眩晕敌人1.3 秒 持续时间结束后雷蛇瘫痪5 秒",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 30,
         },
       }
@@ -229,18 +229,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA2",
-          name = "聚合剂·小",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
       }
@@ -251,18 +246,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 4,
         },
       }
@@ -273,18 +263,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 6,
         },
       }
@@ -321,53 +306,85 @@ return {
       def = 70,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "TOKI",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Liskarm",
-      gender = "",
-      combatexp = "",
-      origin = "Wyvern",
-      birthday = "",
-      race = "Wyvern",
-      height = "",
-      weight = "",
-      oripathy = "No",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Wyvern",
+      birthday = "?",
+      race = "Wyvern",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
-    meta = {
-      illustrator = "TOKI",
-      voice = "",
-    },
+    oripathy = {
+      infected = "No",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+    }
   },
   quotes = {
-    "Doctor，现在是我的值班时间，",
-    "任何任务都要严肃对待，这是我作为专业保全人员的行为准则。",
-    "其实，我不是很能应付芙兰卡这样的性格，当初我和她究竟是怎么成为搭档的......",
-    "成为黑钢雇员的考核非常严苛，那时很多人都质疑我过于矮小，没有出众的法术天赋和血统，就连我自己一度也这样认为......",
-    "黑钢虽然是一家相当专业的安保公司，但是在罗德岛我能感受到一些更加自由的东西。",
-    "我并没有想到能变成现在这样的姿态，看上去是如此不可思议，就好像真正的龙一样......咳，对作战有利就好。",
-    "Doctor，感谢你的信任。",
-    "很多人都说和我接触之后发现我比外表看起来好相处多了...是这样的么...?",
-    "芙兰卡又和您聊我在黑钢的事？从她那里听来的话，半句也别信！",
-    "Doctor...该工作了....",
-    "重装干员雷蛇，待命中。我曾参与数次要人保全、据点攻坚、人质解救、威胁肃清的特种行动。在此次派遣行动期间，我会严格保障您的人身安全。",
-    "非常感谢您的这项任命，Doctor。",
-    "感谢您，Doctor，现在的我身为您的干员，为了保护罗德岛与我们的生活方式而服役，我已经准备好了为此献身。",
-    "这算什么，我和芙兰卡早就经历过直面生死的战斗了。",
-    "四周目标已清除。",
-    "安全，此区域已经肃清。",
-    "护送伤员有序撤退，未失去战斗能力的干员与我一同阻挡敌人追击！"
-  }
+    cn01 = "Doctor，现在是我的值班时间，",
+    cn02 = "任何任务都要严肃对待，这是我作为专业保全人员的行为准则。",
+    cn03 = "其实，我不是很能应付芙兰卡这样的性格，当初我和她究竟是怎么成为搭档的......",
+    cn04 = "成为黑钢雇员的考核非常严苛，那时很多人都质疑我过于矮小，没有出众的法术天赋和血统，就连我自己一度也这样认为......",
+    cn05 = "黑钢虽然是一家相当专业的安保公司，但是在罗德岛我能感受到一些更加自由的东西。",
+    cn06 = "我并没有想到能变成现在这样的姿态，看上去是如此不可思议，就好像真正的龙一样......咳，对作战有利就好。",
+    cn07 = "Doctor，感谢你的信任。",
+    cn08 = "很多人都说和我接触之后发现我比外表看起来好相处多了...是这样的么...?",
+    cn09 = "芙兰卡又和您聊我在黑钢的事？从她那里听来的话，半句也别信！",
+    cn10 = "Doctor...该工作了....",
+    cn11 = "重装干员雷蛇，待命中。我曾参与数次要人保全、据点攻坚、人质解救、威胁肃清的特种行动。在此次派遣行动期间，我会严格保障您的人身安全。",
+    cn12 = "这算什么，我和芙兰卡早就经历过直面生死的战斗了。",
+    cn13 = "非常感谢您的这项任命，Doctor。",
+    cn14 = "感谢您，Doctor，现在的我身为您的干员，为了保护罗德岛与我们的生活方式而服役，我已经准备好了为此献身。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "四周目标已清除。",
+    cn31 = "安全，此区域已经肃清。",
+    cn32 = "护送伤员有序撤退，未失去战斗能力的干员与我一同阻挡敌人追击！",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

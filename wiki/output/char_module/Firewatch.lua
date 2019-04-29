@@ -4,20 +4,21 @@ return {
   name = {
     en = "Firewatch",
     cn = "守林人",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Firewatch",
   },
-  background = "",
+  fileKey = "Firewatch",
   team = 7,
   position = "Ranged",
   roles = { "DPS" },
-  faction = "logo_rhodes",
-  stars = 4,
-  class = "SNIPER",
+  faction = "Rhodes Island",
+  stars = 5,
+  class = "Sniper",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 699,
@@ -43,8 +44,8 @@ return {
       range = "3-3",
       maxLevel = 40,
       images = {
-          portrait = "char_158_milu_portrait.png",
-          full = "char_158_milu_full.png"
+          portrait = "Firewatch-0-portrait.png",
+          full = "Firewatch-0.png"
       },
       maxStats = {
         hp = 908,
@@ -70,8 +71,8 @@ return {
       range = "3-9",
       maxLevel = 70,
       images = {
-          portrait = "char_158_milu_portrait.png",
-          full = "char_158_milu_full.png"
+          portrait = "Firewatch-0-portrait.png",
+          full = "Firewatch-0.png"
       },
       maxStats = {
         hp = 1136,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SNP1",
-          name = "狙击芯片",
+          icon = "SniperChip.png",
+          name = "Sniper Chip",
           count = 4,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 12,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "3-9",
       maxLevel = 80,
       images = {
-          portrait = "char_158_milu_portrait.png",
-          full = "char_158_milu_full.png"
+          portrait = "Firewatch-2-portrait.png",
+          full = "Firewatch-2.png"
       },
       maxStats = {
         hp = 1421,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SNP3",
-          name = "狙击双芯片",
+          icon = "SniperTwinChip.png",
+          name = "Sniper Twin Chip",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA4",
-          name = "聚合剂·大",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 8,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_milu_1",
+      icon = "skchr-milu-1",
       name = "环境伪装",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力提升24% ，进入隐匿状态（不会成为敌方远程单位的攻击目标）",
       max_description = "攻击力提升70% ，进入隐匿状态（不会成为敌方远程单位的攻击目标）",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 25,
     },
     {
-      icon = "skchr_milu_2",
+      icon = "skchr-milu-2",
       name = "战术电台",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "对攻击范围内随机投下2 枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对附近所有敌人造成攻击力180% 的物理伤害。",
       max_description = "对攻击范围内随机投下3 枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对附近所有敌人造成攻击力300% 的物理伤害。",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 30,
         },
       }
@@ -229,18 +229,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA2",
-          name = "聚合剂·小",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
       }
@@ -251,18 +246,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 4,
         },
       }
@@ -273,18 +263,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 6,
         },
       }
@@ -324,53 +309,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "aZLing4",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Firewatch",
-      gender = "",
-      combatexp = "",
-      origin = "Undisclosed",
-      birthday = "",
-      race = "Hirvea",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Undisclosed",
+      birthday = "?",
+      race = "Hirvea",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "aZLing4",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "我会在这里守夜，请您安心。",
-    "有人注视着您的眼神中，饱含着恶意......您并不安全，即使在罗德岛。",
-    "请不要害怕，即使罪人们藏身于阴影，也绝逃不过我的眼睛。",
-    "复仇......即使牺牲我的生命也一定要完成。",
-    "我的亲人和朋友，都葬身于故乡的森林中。唯有落叶掩埋他们。",
-    "这把弩为处决罪人而制造。那将是我——最后的审判。",
-    "陨星，她......是我曾经的战友。我的故乡覆灭时，只有我们几个人逃了出来。",
-    "我一直在找那个告密者，把叛军引向故乡的罪人......会是陨星吗？不，我、我不认为是她——",
-    "——我睡着了？抱、抱歉，最近巡逻的时间可能太长了......不，即使您原谅我也......谢谢......",
-    "......有点困。",
-    "守林人，狙击手。为了复仇，我......需要强大力量的协助。",
-    "感谢您的任命。",
-    "感谢您的任命......但，必须将我的力量用于正途，否则......",
-    "就这样，一直走下去，直到复仇的尽头。",
-    "战斗结束，没有任何敌人逃走。",
-    "战斗结束，一些敌人逃走了。",
-    "立刻撤退......"
-  }
+    cn01 = "我会在这里守夜，请您安心。",
+    cn02 = "有人注视着您的眼神中，饱含着恶意......您并不安全，即使在罗德岛。",
+    cn03 = "请不要害怕，即使罪人们藏身于阴影，也绝逃不过我的眼睛。",
+    cn04 = "复仇......即使牺牲我的生命也一定要完成。",
+    cn05 = "我的亲人和朋友，都葬身于故乡的森林中。唯有落叶掩埋他们。",
+    cn06 = "这把弩为处决罪人而制造。那将是我——最后的审判。",
+    cn07 = "陨星，她......是我曾经的战友。我的故乡覆灭时，只有我们几个人逃了出来。",
+    cn08 = "我一直在找那个告密者，把叛军引向故乡的罪人......会是陨星吗？不，我、我不认为是她——",
+    cn09 = "——我睡着了？抱、抱歉，最近巡逻的时间可能太长了......不，即使您原谅我也......谢谢......",
+    cn10 = "......有点困。",
+    cn11 = "守林人，狙击手。为了复仇，我......需要强大力量的协助。",
+    cn12 = "就这样，一直走下去，直到复仇的尽头。",
+    cn13 = "感谢您的任命。",
+    cn14 = "感谢您的任命......但，必须将我的力量用于正途，否则......",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "战斗结束，没有任何敌人逃走。",
+    cn31 = "战斗结束，一些敌人逃走了。",
+    cn32 = "立刻撤退......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

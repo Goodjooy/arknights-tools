@@ -4,20 +4,21 @@ return {
   name = {
     en = "Projekt Red",
     cn = "红",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Projekt Red",
   },
-  background = "",
+  fileKey = "ProjektRed",
   team = -1,
   position = "Melee",
   roles = { "Quick resurrection", "Crowd Control" },
-  faction = "logo_rhodes",
-  stars = 4,
-  class = "SPECIAL",
+  faction = "Rhodes Island",
+  stars = 5,
+  class = "Specialist",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 651,
@@ -43,8 +44,8 @@ return {
       range = "1-1",
       maxLevel = 40,
       images = {
-          portrait = "char_144_red_portrait.png",
-          full = "char_144_red_full.png"
+          portrait = "Projekt Red-0-portrait.png",
+          full = "Projekt Red-0.png"
       },
       maxStats = {
         hp = 930,
@@ -70,8 +71,8 @@ return {
       range = "1-1",
       maxLevel = 70,
       images = {
-          portrait = "char_144_red_portrait.png",
-          full = "char_144_red_full.png"
+          portrait = "Projekt Red-0-portrait.png",
+          full = "Projekt Red-0.png"
       },
       maxStats = {
         hp = 1208,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SPC1",
-          name = "特种芯片",
+          icon = "SpecialistChip.png",
+          name = "Specialist Chip",
           count = 4,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 12,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "1-1",
       maxLevel = 80,
       images = {
-          portrait = "char_144_red_portrait.png",
-          full = "char_144_red_full.png"
+          portrait = "Projekt Red-2-portrait.png",
+          full = "Projekt Red-2.png"
       },
       maxStats = {
         hp = 1510,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SPC3",
-          name = "特种双芯片",
+          icon = "SpecialistTwinChip.png",
+          name = "Specialist Twin Chip",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA4",
-          name = "聚合剂·大",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 8,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_red_1",
+      icon = "skchr-red-1",
       name = "处决模式",
-      type = 0,
+      recharge = "",
+      trigger = "Passive",
+      passive = true,
       description = "部署后立即提高攻击力35% ，并获得20% 物理闪避",
       max_description = "部署后立即提高攻击力80% ，并获得50% 物理闪避",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 10,
     },
     {
-      icon = "skchr_red_2",
+      icon = "skchr-red-2",
       name = "狼群",
-      type = 0,
+      recharge = "",
+      trigger = "Passive",
+      passive = true,
       description = "部署后立即击晕周围所有敌人1 秒，并对其造成相当于攻击力140% 的物理伤害",
       max_description = "部署后立即击晕周围所有敌人2 秒，并对其造成相当于攻击力250% 的物理伤害",
       range = "x-5",
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 30,
         },
       }
@@ -229,18 +229,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA2",
-          name = "聚合剂·小",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
       }
@@ -251,18 +246,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 4,
         },
       }
@@ -273,18 +263,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 6,
         },
       }
@@ -319,53 +304,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "Infukun",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Projekt Red",
-      gender = "",
-      combatexp = "",
-      origin = "Syracuse",
-      birthday = "",
-      race = "Lupus",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Syracuse",
+      birthday = "?",
+      race = "Lupus",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "Infukun",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "有......危险的气味。",
-    "红要单独行动。",
-    "名字，报酬，杀掉。很简单。凯尔希与红是这么约定的。",
-    "狼有牙齿，红有刀。狼不会休息，所以红也不能。",
-    "“外婆”在呼唤......红能听见。",
-    "......荒野的风，尘土里的残骸，群星下的嚎叫......红闻到了。那是狼的气味。红，加入狩猎。",
-    "家人？红没有家人。红一开始就是孤身一人。博士是......需要家人吗？",
-    "她们都躲着红。红其实只是想......摸摸她们的尾巴。普罗旺斯的，德克萨斯的......红在她们身上，能闻到红喜欢的味道。",
-    "博士，红也想过......如果红不是猎狼人，会不会也能有不一样的生活？这个问题要红......自己回答？唔。",
-    "博士。不，只是觉得你可能睡着了。现在不可以。",
-    "猎狼人，红，闻到了狼的气息。",
-    "无所谓。",
-    "伪装？荣誉是种伪装，红能接受。",
-    "全灭。",
-    "猎物的下场只有一种。",
-    "收获......不够丰富。",
-    "......红的刀......还不够锋利......"
-  }
+    cn01 = "有......危险的气味。",
+    cn02 = "红要单独行动。",
+    cn03 = "名字，报酬，杀掉。很简单。凯尔希与红是这么约定的。",
+    cn04 = "狼有牙齿，红有刀。狼不会休息，所以红也不能。",
+    cn05 = "“外婆”在呼唤......红能听见。",
+    cn06 = "......荒野的风，尘土里的残骸，群星下的嚎叫......红闻到了。那是狼的气味。红，加入狩猎。",
+    cn07 = "家人？红没有家人。红一开始就是孤身一人。博士是......需要家人吗？",
+    cn08 = "她们都躲着红。红其实只是想......摸摸她们的尾巴。普罗旺斯的，德克萨斯的......红在她们身上，能闻到红喜欢的味道。",
+    cn09 = "博士，红也想过......如果红不是猎狼人，会不会也能有不一样的生活？这个问题要红......自己回答？唔。",
+    cn10 = "博士。不，只是觉得你可能睡着了。现在不可以。",
+    cn11 = "猎狼人，红，闻到了狼的气息。",
+    cn12 = "全灭。",
+    cn13 = "无所谓。",
+    cn14 = "伪装？荣誉是种伪装，红能接受。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "猎物的下场只有一种。",
+    cn31 = "收获......不够丰富。",
+    cn32 = "......红的刀......还不够锋利......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

@@ -4,20 +4,21 @@ return {
   name = {
     en = "Ch’en",
     cn = "陈",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Ch’en",
   },
-  background = "",
+  fileKey = "Chen",
   team = 12,
   position = "Melee",
   roles = { "Splash", "Support" },
-  faction = "logo_lungmen",
-  stars = 4,
-  class = "WARRIOR",
+  faction = "Great Lungmen",
+  stars = 5,
+  class = "Guard",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 1038,
@@ -43,8 +44,8 @@ return {
       range = "1-1",
       maxLevel = 40,
       images = {
-          portrait = "char_010_chen_portrait.png",
-          full = "char_010_chen_full.png"
+          portrait = "Ch’en-0-portrait.png",
+          full = "Ch’en-0.png"
       },
       maxStats = {
         hp = 1385,
@@ -70,8 +71,8 @@ return {
       range = "1-1",
       maxLevel = 70,
       images = {
-          portrait = "char_010_chen_portrait.png",
-          full = "char_010_chen_full.png"
+          portrait = "Ch’en-0-portrait.png",
+          full = "Ch’en-0.png"
       },
       maxStats = {
         hp = 1776,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_GRD1",
-          name = "近卫芯片",
+          icon = "GuardChip.png",
+          name = "Guard Chip",
           count = 4,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 12,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "1-1",
       maxLevel = 80,
       images = {
-          portrait = "char_010_chen_portrait.png",
-          full = "char_010_chen_full.png"
+          portrait = "Ch’en-2-portrait.png",
+          full = "Ch’en-2.png"
       },
       maxStats = {
         hp = 2220,
@@ -137,19 +138,16 @@ return {
         silenceImmunity = false,
       },
       materials = {
-        {
-          icon = "MTL_UNKNOWN",
-          name = "陈旧摆件",
-          count = 1,
-        },
       },
     },
   },
   skills = {
     {
-      icon = "skchr_chen_1",
+      icon = "skchr-chen-1",
       name = "鞘击",
-      type = 2,
+      recharge = "Charge On Attack",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下次攻击使用刀鞘砸向敌人，攻击力提升至180% ，受到攻击的敌人晕眩1 秒",
       max_description = "下次攻击使用刀鞘砸向敌人，攻击力提升至300% ，受到攻击的敌人晕眩2 秒",
       range = nil,
@@ -159,9 +157,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_chen_2",
+      icon = "skchr-chen-2",
       name = "赤霄·拔刀式",
-      type = 1,
+      recharge = "Charge On Attack",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "对前方范围内最多5 名敌人造成攻击力180% 的物理和魔法伤害",
       max_description = "对前方范围内最多6 名敌人造成攻击力450% 的物理和魔法伤害",
       range = "3-12",
@@ -178,8 +178,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -190,8 +190,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -202,13 +202,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 30,
         },
       }
@@ -219,18 +219,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA2",
-          name = "聚合剂·小",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
       }
@@ -241,18 +236,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 4,
         },
       }
@@ -263,18 +253,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 6,
         },
       }
@@ -314,53 +299,85 @@ return {
       def = 80,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "唯@W",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Ch’en",
-      gender = "",
-      combatexp = "",
-      origin = "Lungmen",
-      birthday = "",
-      race = "Dragon",
-      height = "",
-      weight = "",
-      oripathy = "Unknown",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Lungmen",
+      birthday = "?",
+      race = "Dragon",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】未公开",
-    meta = {
-      illustrator = "唯@W",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Unknown",
+      diagnosis = "【临床记录】未公开",
+    }
   },
   quotes = {
-    "Doctor，现在起由我担任你的护卫。",
-    "我对于罗德岛的行动动机感到疑惑。就算是现在我也抱持着同样的想法。",
-    "你为何还在这里盯着我看？你的工作呢？",
-    "哼......",
-    "龙门的大街小巷我都走过。码头、招牌、坡道，那些风景印在我的心上。我永远都不会忘记。",
-    "看着你工作的样子，会有一种熟悉的感觉呢。",
-    "也许有一天我能够真正得到他的承认吧。在此之前....",
-    "阿米娅深深地信赖着你，看着你们两人，偶尔也会让我觉得，我也能有这样一个人就好了......",
-    "我......从未试过将自己的信任托付给另一个人......即使是那个人也......",
-    "......Doctor？睡着了？哼，真是没有紧张感。",
-    "陈，龙门近卫局督察长，因为一些特殊原因，我需要滞留在这里一段时间。基于之前的合作经验我们对彼此应该相当熟悉了，请你立刻带我进入工作流程吧。",
-    "了解了。常规作战人员无法胜任的任务就全部交给我来处理吧。",
-    "就算总有一天我们终将走向不同的道路。也要感谢你的这份信任。Doctor。",
-    "我决不容忍任何罪恶的行径，我会用一切可行的手段阻止你们。",
-    "谁给了你们自信前来挑战我？",
-    "伤者原地等待医疗组救援，其他干员保持警戒。",
-    "有序撤退，不要让队伍崩溃！"
-  }
+    cn01 = "Doctor，现在起由我担任你的护卫。",
+    cn02 = "我对于罗德岛的行动动机感到疑惑。就算是现在我也抱持着同样的想法。",
+    cn03 = "你为何还在这里盯着我看？你的工作呢？",
+    cn04 = "哼......",
+    cn05 = "龙门的大街小巷我都走过。码头、招牌、坡道，那些风景印在我的心上。我永远都不会忘记。",
+    cn06 = "看着你工作的样子，会有一种熟悉的感觉呢。",
+    cn07 = "也许有一天我能够真正得到他的承认吧。在此之前....",
+    cn08 = "阿米娅深深地信赖着你，看着你们两人，偶尔也会让我觉得，我也能有这样一个人就好了......",
+    cn09 = "我......从未试过将自己的信任托付给另一个人......即使是那个人也......",
+    cn10 = "......Doctor？睡着了？哼，真是没有紧张感。",
+    cn11 = "陈，龙门近卫局督察长，因为一些特殊原因，我需要滞留在这里一段时间。基于之前的合作经验我们对彼此应该相当熟悉了，请你立刻带我进入工作流程吧。",
+    cn12 = "我决不容忍任何罪恶的行径，我会用一切可行的手段阻止你们。",
+    cn13 = "了解了。常规作战人员无法胜任的任务就全部交给我来处理吧。",
+    cn14 = "就算总有一天我们终将走向不同的道路。也要感谢你的这份信任。Doctor。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "谁给了你们自信前来挑战我？",
+    cn31 = "伤者原地等待医疗组救援，其他干员保持警戒。",
+    cn32 = "有序撤退，不要让队伍崩溃！",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

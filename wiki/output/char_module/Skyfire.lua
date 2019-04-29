@@ -4,20 +4,21 @@ return {
   name = {
     en = "Skyfire",
     cn = "天火",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Skyfire",
   },
-  background = "",
+  fileKey = "Skyfire",
   team = -1,
   position = "Ranged",
   roles = { "Splash", "Crowd Control" },
-  faction = "logo_rhodes",
-  stars = 4,
-  class = "CASTER",
+  faction = "Rhodes Island",
+  stars = 5,
+  class = "Caster",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 555,
@@ -43,8 +44,8 @@ return {
       range = "3-6",
       maxLevel = 40,
       images = {
-          portrait = "char_166_skfire_portrait.png",
-          full = "char_166_skfire_full.png"
+          portrait = "Skyfire-0-portrait.png",
+          full = "Skyfire-0.png"
       },
       maxStats = {
         hp = 793,
@@ -70,8 +71,8 @@ return {
       range = "3-6",
       maxLevel = 70,
       images = {
-          portrait = "char_166_skfire_portrait.png",
-          full = "char_166_skfire_full.png"
+          portrait = "Skyfire-0-portrait.png",
+          full = "Skyfire-0.png"
       },
       maxStats = {
         hp = 1031,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_CST1",
-          name = "术师芯片",
+          icon = "CasterChip.png",
+          name = "Caster Chip",
           count = 4,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 12,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "3-6",
       maxLevel = 80,
       images = {
-          portrait = "char_166_skfire_portrait.png",
-          full = "char_166_skfire_full.png"
+          portrait = "Skyfire-2-portrait.png",
+          full = "Skyfire-2.png"
       },
       maxStats = {
         hp = 1213,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_CST3",
-          name = "术师双芯片",
+          icon = "CasterTwinChip.png",
+          name = "Caster Twin Chip",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA4",
-          name = "聚合剂·大",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 8,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skcom_attack_speed_up",
+      icon = "skcom-attack-speed-up",
       name = "战术咏唱·γ型",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击速度提高35",
       max_description = "攻击速度提高90",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 30,
     },
     {
-      icon = "skchr_skfire_2",
+      icon = "skchr-skfire-2",
       name = "天坠之火",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "切换类技能：开启后攻击间隔加大，攻击变为从天空召唤陨石。陨石需要1.5秒降落，落地后对大范围敌人造成攻击力180% 的魔法伤害，并晕眩其0.1 秒",
       max_description = "切换类技能：开启后攻击间隔加大，攻击变为从天空召唤陨石。陨石需要1.5秒降落，落地后对大范围敌人造成攻击力229.99999999999997% 的魔法伤害，并晕眩其1 秒",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 30,
         },
       }
@@ -229,18 +229,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA2",
-          name = "聚合剂·小",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
       }
@@ -251,18 +246,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 4,
         },
       }
@@ -273,18 +263,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 6,
         },
       }
@@ -324,53 +309,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "TOKI",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Skyfire",
-      gender = "",
-      combatexp = "",
-      origin = "Undisclosed",
-      birthday = "",
-      race = "Feline",
-      height = "",
-      weight = "",
-      oripathy = "No",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Undisclosed",
+      birthday = "?",
+      race = "Feline",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
-    meta = {
-      illustrator = "TOKI",
-      voice = "",
-    },
+    oripathy = {
+      infected = "No",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+    }
   },
   quotes = {
-    "火灾警报？哦，只是我经过了你的办公室而已。我的体温可能又过高了。",
-    "没有无法学会的语言，没有无法理解的法术，这理所应当的吧。只有我可以？唔......",
-    "人生？那种东西——哼，直到上次袭击为止都还算符合预期。但在整合运动谋害菲尔之后，“消灭他们”就已经列在日程表里了。",
-    "就凭罗德岛现在的软弱手段，只会拖我们“王者之杖”的后腿。",
-    "你能劝一劝阿米娅吗？她那样还挺可怜的。善良只会蒙蔽她，对我来说......适合恶徒的只有毁灭一种结局。",
-    "仅凭如此，可没法达到我们王者之杖的平均实力。呵......没错，我是很强，但我们五个是不能用语言去衡量的。",
-    "七曜的那把刀，是白送她的，据说原主人一刀就能斩下东国所有的樱花。然而就算那么强的剑士，也被白击败了哦。",
-    "你的是衣服是......什么，是我烧破的？但......不可能啊，我的设计那么完美，但，我......抱歉，很，我很抱歉。",
-    "即便你我的想法截然不同，但罗德岛那拼命努力、不断奔驰的样子......也挺不错的。是，我是说了，很美妙。",
-    "......如此怠惰。你就这样荒废时间吗？",
-    "“王者之杖”所属，天火。在达成目的之前，希望罗德岛能为我提供庇护。目的？当然是将整合运动焚烧殆尽。",
-    "理所应当。",
-    "哼......偶尔做些符合身份的事情，也算是种休息。",
-    "没有日炎不能烧灼的灵魂。",
-    "现在你们什么都没有了，怎么，难道还想留下些什么吗？",
-    "就只有这种程度......吗。",
-    "不可能不可能......我这样的.......怎可能......"
-  }
+    cn01 = "火灾警报？哦，只是我经过了你的办公室而已。我的体温可能又过高了。",
+    cn02 = "没有无法学会的语言，没有无法理解的法术，这理所应当的吧。只有我可以？唔......",
+    cn03 = "人生？那种东西——哼，直到上次袭击为止都还算符合预期。但在整合运动谋害菲尔之后，“消灭他们”就已经列在日程表里了。",
+    cn04 = "就凭罗德岛现在的软弱手段，只会拖我们“王者之杖”的后腿。",
+    cn05 = "你能劝一劝阿米娅吗？她那样还挺可怜的。善良只会蒙蔽她，对我来说......适合恶徒的只有毁灭一种结局。",
+    cn06 = "仅凭如此，可没法达到我们王者之杖的平均实力。呵......没错，我是很强，但我们五个是不能用语言去衡量的。",
+    cn07 = "七曜的那把刀，是白送她的，据说原主人一刀就能斩下东国所有的樱花。然而就算那么强的剑士，也被白击败了哦。",
+    cn08 = "你的是衣服是......什么，是我烧破的？但......不可能啊，我的设计那么完美，但，我......抱歉，很，我很抱歉。",
+    cn09 = "即便你我的想法截然不同，但罗德岛那拼命努力、不断奔驰的样子......也挺不错的。是，我是说了，很美妙。",
+    cn10 = "......如此怠惰。你就这样荒废时间吗？",
+    cn11 = "“王者之杖”所属，天火。在达成目的之前，希望罗德岛能为我提供庇护。目的？当然是将整合运动焚烧殆尽。",
+    cn12 = "没有日炎不能烧灼的灵魂。",
+    cn13 = "理所应当。",
+    cn14 = "哼......偶尔做些符合身份的事情，也算是种休息。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "现在你们什么都没有了，怎么，难道还想留下些什么吗？",
+    cn31 = "就只有这种程度......吗。",
+    cn32 = "不可能不可能......我这样的.......怎可能......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

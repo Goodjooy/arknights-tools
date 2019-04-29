@@ -4,20 +4,21 @@ return {
   name = {
     en = "Steward",
     cn = "史都华德",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Steward",
   },
-  background = "",
+  fileKey = "Steward",
   team = 3,
   position = "Ranged",
   roles = { "DPS" },
-  faction = "logo_rhodes",
-  stars = 2,
-  class = "CASTER",
+  faction = "Rhodes Island",
+  stars = 3,
+  class = "Caster",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 475,
@@ -43,8 +44,8 @@ return {
       range = "3-6",
       maxLevel = 30,
       images = {
-          portrait = "char_210_stward_portrait.png",
-          full = "char_210_stward_full.png"
+          portrait = "Steward-0-portrait.png",
+          full = "Steward-0.png"
       },
       maxStats = {
         hp = 679,
@@ -70,8 +71,8 @@ return {
       range = "3-1",
       maxLevel = 55,
       images = {
-          portrait = "char_210_stward_portrait.png",
-          full = "char_210_stward_full.png"
+          portrait = "Steward-0-portrait.png",
+          full = "Steward-0.png"
       },
       maxStats = {
         hp = 882,
@@ -94,13 +95,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_CST1",
-          name = "术师芯片",
+          icon = "CasterChip.png",
+          name = "Caster Chip",
           count = 2,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -109,9 +110,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_stward_1",
+      icon = "skchr-stward-1",
       name = "强力击·α型",
-      type = 2,
+      recharge = "Charge On Attack",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下一次攻击的攻击力提高至150%",
       max_description = "下一次攻击的攻击力提高至190%",
       range = nil,
@@ -128,8 +131,8 @@ return {
       reqLevel = 10,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -140,8 +143,8 @@ return {
       reqLevel = 10,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -152,13 +155,13 @@ return {
       reqLevel = 10,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 20,
         },
       }
@@ -169,18 +172,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_RUSH2",
-          name = "聚酸酯",
+          icon = "Polyester.png",
+          name = "Polyester",
           count = 4,
         },
         {
-          icon = "MTL_SL_STRG2",
-          name = "糖",
+          icon = "Sugar.png",
+          name = "Sugar",
           count = 4,
         },
       }
@@ -191,18 +194,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_RUSH2",
-          name = "聚酸酯",
+          icon = "Polyester.png",
+          name = "Polyester",
           count = 6,
         },
         {
-          icon = "MTL_SL_STRG2",
-          name = "糖",
+          icon = "Sugar.png",
+          name = "Sugar",
           count = 6,
         },
       }
@@ -213,18 +216,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_RUSH3",
-          name = "聚酸酯组",
+          icon = "PolyesterPack.png",
+          name = "Polyester Pack",
           count = 3,
         },
         {
-          icon = "MTL_SL_STRG3",
-          name = "糖组",
+          icon = "SugarPack.png",
+          name = "Sugar Pack",
           count = 3,
         },
       }
@@ -254,51 +257,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "一立里子",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Steward",
-      gender = "",
-      combatexp = "",
-      origin = "Kjerag",
-      birthday = "",
-      race = "Vulpes",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Kjerag",
+      birthday = "?",
+      race = "Vulpes",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "一立里子",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "史都华德，为您效力。欢迎回来，Doctor。",
-    "史都华德是我的姓氏也是我的代号，或许从中您能解读出我的祖先所从事的行业。",
-    "没想到这里也能看到我的同族。嗯，她一直在找人吗？我能理解她的感受......嗯？没什么。",
-    "大家都说我们种族的毛发是雪的颜色......Doctor你见过雪吧？",
-    "炎熔的战斗方式很特别呢，会让人误以为那本书是她的施术工具，其实真正的施术单元是她的小刀，让我想起了曾经教过我法术的通灵师。",
-    "为您工作，真的让我非常开心。不过如果可以的话，也希望您能多关照一下玫兰莎，她经常一个人呆着......",
-    "安德切尔这家伙有点头疼啊......总之不知道他想做什么。",
-    "安赛尔......没事的。感染这种事，是早已发生了的。它其实帮了我很多，在它夺走我的重要东西之前，我要利用它为大家开辟出可以生活下去的地方。",
-    "累了吗？请多多休息吧，明天还有未知的任务需要依靠您。",
-    "术师史都华德。总之，今后的日子还请您多多关照。",
-    "您满意我的工作成果，我就很满足了。杜宾老师也会高兴的吧。",
-    "嗯，只要战术运用得当，即使这样困难的局面也能有效破解。",
-    "一次完美的胜利，大家辛苦了！",
-    "安赛尔，检查下受伤状况，准备下一场作战。",
-    "......哪里出了问题吗？"
-  }
+    cn01 = "史都华德，为您效力。欢迎回来，Doctor。",
+    cn02 = "史都华德是我的姓氏也是我的代号，或许从中您能解读出我的祖先所从事的行业。",
+    cn03 = "没想到这里也能看到我的同族。嗯，她一直在找人吗？我能理解她的感受......嗯？没什么。",
+    cn04 = "大家都说我们种族的毛发是雪的颜色......Doctor你见过雪吧？",
+    cn05 = "炎熔的战斗方式很特别呢，会让人误以为那本书是她的施术工具，其实真正的施术单元是她的小刀，让我想起了曾经教过我法术的通灵师。",
+    cn06 = "为您工作，真的让我非常开心。不过如果可以的话，也希望您能多关照一下玫兰莎，她经常一个人呆着......",
+    cn07 = "安德切尔这家伙有点头疼啊......总之不知道他想做什么。",
+    cn08 = "安赛尔......没事的。感染这种事，是早已发生了的。它其实帮了我很多，在它夺走我的重要东西之前，我要利用它为大家开辟出可以生活下去的地方。",
+    cn09 = "累了吗？请多多休息吧，明天还有未知的任务需要依靠您。",
+    cn10 = "术师史都华德。总之，今后的日子还请您多多关照。",
+    cn11 = "您满意我的工作成果，我就很满足了。杜宾老师也会高兴的吧。",
+    cn12 = "安赛尔，检查下受伤状况，准备下一场作战。",
+    cn13 = "嗯，只要战术运用得当，即使这样困难的局面也能有效破解。",
+    cn14 = "一次完美的胜利，大家辛苦了！",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "......哪里出了问题吗？",
+    cn31 = "",
+    cn32 = "",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

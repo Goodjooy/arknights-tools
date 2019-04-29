@@ -4,20 +4,21 @@ return {
   name = {
     en = "Earthspirit",
     cn = "地灵",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Earthspirit",
   },
-  background = "",
+  fileKey = "Earthspirit",
   team = 17,
   position = "Ranged",
   roles = { "Slow" },
-  faction = "logo_Leithanien",
-  stars = 3,
-  class = "SUPPORT",
+  faction = "",
+  stars = 4,
+  class = "Supporter",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 562,
@@ -43,8 +44,8 @@ return {
       range = "y-1",
       maxLevel = 35,
       images = {
-          portrait = "char_183_skgoat_portrait.png",
-          full = "char_183_skgoat_full.png"
+          portrait = "Earthspirit-0-portrait.png",
+          full = "Earthspirit-0.png"
       },
       maxStats = {
         hp = 770,
@@ -70,8 +71,8 @@ return {
       range = "y-2",
       maxLevel = 60,
       images = {
-          portrait = "char_183_skgoat_portrait.png",
-          full = "char_183_skgoat_full.png"
+          portrait = "Earthspirit-0-portrait.png",
+          full = "Earthspirit-0.png"
       },
       maxStats = {
         hp = 989,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SUP1",
-          name = "辅助芯片",
+          icon = "SupportChip.png",
+          name = "Support Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_RUSH1",
-          name = "酯原料",
+          icon = "RawEster.png",
+          name = "Raw Ester",
           count = 15,
         },
         {
-          icon = "MTL_SL_STRG1",
-          name = "代糖",
+          icon = "SugarSubstitute.png",
+          name = "Sugar Substitute",
           count = 15,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "y-2",
       maxLevel = 70,
       images = {
-          portrait = "char_183_skgoat_portrait.png",
-          full = "char_183_skgoat_full.png"
+          portrait = "Earthspirit-2-portrait.png",
+          full = "Earthspirit-2.png"
       },
       maxStats = {
         hp = 1165,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SUP2",
-          name = "辅助芯片组",
+          icon = "SupportChipSet.png",
+          name = "Support Chip Set",
           count = 4,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 5,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 10,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_skgoat_1",
+      icon = "skchr-skgoat-1",
       name = "主动震撼",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击范围内的敌军额外减少移动速度-20%",
       max_description = "攻击范围内的敌军额外减少移动速度-35%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 17,
     },
     {
-      icon = "skchr_skgoat_2",
+      icon = "skchr-skgoat-2",
       name = "流沙化",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "停止攻击，攻击范围内的敌军额外减少移动速度-33%",
       max_description = "停止攻击，攻击范围内的敌军额外减少移动速度-50%",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 25,
         },
       }
@@ -229,18 +229,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 8,
         },
       }
@@ -251,18 +251,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 6,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 12,
         },
       }
@@ -273,18 +273,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 3,
         },
         {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -324,53 +324,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "HUG",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Earthspirit",
-      gender = "",
-      combatexp = "",
-      origin = "Leithanian",
-      birthday = "",
-      race = "Caprinae",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Leithanian",
+      birthday = "?",
+      race = "Caprinae",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "HUG",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "Doctor，我已经按您的要求将源石与其他矿物甄别分类完毕，还有别的需求吗？",
-    "矿石病真麻烦啊，就连行动都要被凯尔希限制。寿命削减？不，这无所谓。",
-    "这把音叉？是魔杖。它不仅是武器，也是地质勘探的工具，很顺手。",
-    "没有遇见罗德岛的话，我可能还在全职从事地质研究。但没遇见你们的话，这条命可能也就丢了。",
-    "啊？我有黑眼圈了？讨厌，我就知道......",
-    "我背后的是什么？是......算了，解释起来会很麻烦，等有时间再说可以吗。",
-    "有些石头是会说话的，絮絮叨叨，吵闹不停，甚至能让你失眠。......你以为我在开玩笑？我像在开玩笑的样子？",
-    "普罗旺斯还是一如既往的神经大条，再不注意可就要落到我这样重症感染的下场了。你们最好也多提醒提醒她。",
-    "就是这个，就是这个！你看，你看......至少距今三十五万年的地壳挤压，才会形成这种截面！太棒了......Doctor，知道吗，那些一直以来反驳这项理论的人才是愚昧的......！",
-    "唔......嗯。是太疲劳了吗。",
-    "地灵，地质学家兼战斗法师，向你报道。工作时间每日八小时，加班薪水另算。",
-    "科研方法也有不断精进的必要呢。",
-    "冒昧提醒一下，我只拿一份薪水，就算升职，不加薪我也不会做更高强度的工作的哦。",
-    "敌人的这种行为，只会招致灾难——！",
-    "所有敌人都处理完毕了。",
-    "是一场不错的胜利呢，Doctor。",
-    "可恶......"
-  }
+    cn01 = "Doctor，我已经按您的要求将源石与其他矿物甄别分类完毕，还有别的需求吗？",
+    cn02 = "矿石病真麻烦啊，就连行动都要被凯尔希限制。寿命削减？不，这无所谓。",
+    cn03 = "这把音叉？是魔杖。它不仅是武器，也是地质勘探的工具，很顺手。",
+    cn04 = "没有遇见罗德岛的话，我可能还在全职从事地质研究。但没遇见你们的话，这条命可能也就丢了。",
+    cn05 = "啊？我有黑眼圈了？讨厌，我就知道......",
+    cn06 = "我背后的是什么？是......算了，解释起来会很麻烦，等有时间再说可以吗。",
+    cn07 = "有些石头是会说话的，絮絮叨叨，吵闹不停，甚至能让你失眠。......你以为我在开玩笑？我像在开玩笑的样子？",
+    cn08 = "普罗旺斯还是一如既往的神经大条，再不注意可就要落到我这样重症感染的下场了。你们最好也多提醒提醒她。",
+    cn09 = "就是这个，就是这个！你看，你看......至少距今三十五万年的地壳挤压，才会形成这种截面！太棒了......Doctor，知道吗，那些一直以来反驳这项理论的人才是愚昧的......！",
+    cn10 = "唔......嗯。是太疲劳了吗。",
+    cn11 = "地灵，地质学家兼战斗法师，向你报道。工作时间每日八小时，加班薪水另算。",
+    cn12 = "敌人的这种行为，只会招致灾难——！",
+    cn13 = "科研方法也有不断精进的必要呢。",
+    cn14 = "冒昧提醒一下，我只拿一份薪水，就算升职，不加薪我也不会做更高强度的工作的哦。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "所有敌人都处理完毕了。",
+    cn31 = "是一场不错的胜利呢，Doctor。",
+    cn32 = "可恶......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

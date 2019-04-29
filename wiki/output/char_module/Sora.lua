@@ -4,20 +4,21 @@ return {
   name = {
     en = "Sora",
     cn = "空",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Sora",
   },
-  background = "",
+  fileKey = "Sora",
   team = 11,
   position = "Ranged",
   roles = { "Support" },
-  faction = "logo_penguin",
-  stars = 4,
-  class = "SUPPORT",
+  faction = "Penguin Logistics",
+  stars = 5,
+  class = "Supporter",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 493,
@@ -43,8 +44,8 @@ return {
       range = "x-4",
       maxLevel = 40,
       images = {
-          portrait = "char_101_sora_portrait.png",
-          full = "char_101_sora_full.png"
+          portrait = "Sora-0-portrait.png",
+          full = "Sora-0.png"
       },
       maxStats = {
         hp = 705,
@@ -70,8 +71,8 @@ return {
       range = "x-1",
       maxLevel = 70,
       images = {
-          portrait = "char_101_sora_portrait.png",
-          full = "char_101_sora_full.png"
+          portrait = "Sora-0-portrait.png",
+          full = "Sora-0.png"
       },
       maxStats = {
         hp = 916,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SUP1",
-          name = "辅助芯片",
+          icon = "SupportChip.png",
+          name = "Support Chip",
           count = 4,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 12,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "x-1",
       maxLevel = 80,
       images = {
-          portrait = "char_101_sora_portrait.png",
-          full = "char_101_sora_full.png"
+          portrait = "Sora-2-portrait.png",
+          full = "Sora-2.png"
       },
       maxStats = {
         hp = 1145,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SUP3",
-          name = "辅助双芯片",
+          icon = "SupportTwinChip.png",
+          name = "Support Twin Chip",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA4",
-          name = "聚合剂·大",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 8,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_sora_1",
+      icon = "skchr-sora-1",
       name = "睡眠之歌",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击范围扩大，攻击范围内所有敌人全部进入睡眠（眩晕+无敌），同时特性效果提高至45%",
       max_description = "攻击范围扩大，攻击范围内所有敌人全部进入睡眠（眩晕+无敌），同时特性效果提高至100%",
       range = "x-2",
@@ -169,9 +167,11 @@ return {
       duration = 7,
     },
     {
-      icon = "skchr_sora_2",
+      icon = "skchr-sora-2",
       name = "战斗之歌",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击范围内所有友方单位的攻击力和防御力额外加上自身相应数值的50%",
       max_description = "攻击范围内所有友方单位的攻击力和防御力额外加上自身相应数值的100%",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 30,
         },
       }
@@ -229,18 +229,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA2",
-          name = "聚合剂·小",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
       }
@@ -251,18 +246,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 4,
         },
       }
@@ -273,18 +263,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 6,
         },
       }
@@ -319,53 +304,85 @@ return {
       def = 50,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "幻象黑兔",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Sora",
-      gender = "",
-      combatexp = "",
-      origin = "Undisclosed",
-      birthday = "",
-      race = "Undisclosed",
-      height = "",
-      weight = "",
-      oripathy = "No",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Undisclosed",
+      birthday = "?",
+      race = "Undisclosed",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
-    meta = {
-      illustrator = "幻象黑兔",
-      voice = "",
-    },
+    oripathy = {
+      infected = "No",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+    }
   },
   quotes = {
-    "你好，Doctor！您在做什么？好像很有趣的样子！",
-    "罗德岛有没有适合唱歌的地方呢？是希望大家能在战斗之余一起唱卡拉OK放松一下啦！",
-    "偶像的话，要用自己的歌声和表演吸引所有FAN的目光，可是干员的话，该怎么做呢......？",
-    "博士博士，有什么工作能帮您做的吗？在企鹅物流里我也常干体力活呢。",
-    "唱歌是我的专长，无论是清唱、领唱、偶像歌曲、流行歌曲，说唱也没问题！当干员好像不需要这些能力吧......要是我有什么能帮上忙的就好了。",
-    "就算您问我耳朵是怎么回事......那个......也、也别去问德克萨斯了，以后我会告诉您的......！",
-    "德克萨斯是我的救命恩人，教会我了许多事，所以有空的时候，我都想待在她身边......只是为了报恩而已！",
-    "不太高兴？嘛......能天使今天也是和德克萨斯一起出动呢。如果能变得想她一样强......",
-    "Doctor，请帮我特训使用武器吧！唱歌永远只能待在后队，如果学会使用武器的话............什、什么？您也不会战斗......？！",
-    "......不知道德克萨斯是不是正在听我的CD呢？",
-    "(｡･∀･)ﾉﾞ嗨大家好！我是MSR旗下的偶像空......啊......啊！抱歉，这样自我介绍，也许不太适合罗德岛这样的地方吧。唔......",
-    "晋升就像是......偶像等级一样的制度吗？",
-    "这种雀跃的心情，就像刚刚第一次登上LIVE舞台的那天......Doctor，非常感谢您的信赖，我至今的努力都是为了这一刻吧......嗯？我的耳朵？怎么了嘛？",
-    "这次也让我感受到了大家的热情呢！谢谢你们！",
-    "耶！作战成功！德克萨斯，看到我的表现了吗？",
-    "大家都辛苦了！",
-    "对不起......没有帮上大家的忙......"
-  }
+    cn01 = "你好，Doctor！您在做什么？好像很有趣的样子！",
+    cn02 = "罗德岛有没有适合唱歌的地方呢？是希望大家能在战斗之余一起唱卡拉OK放松一下啦！",
+    cn03 = "偶像的话，要用自己的歌声和表演吸引所有FAN的目光，可是干员的话，该怎么做呢......？",
+    cn04 = "博士博士，有什么工作能帮您做的吗？在企鹅物流里我也常干体力活呢。",
+    cn05 = "唱歌是我的专长，无论是清唱、领唱、偶像歌曲、流行歌曲，说唱也没问题！当干员好像不需要这些能力吧......要是我有什么能帮上忙的就好了。",
+    cn06 = "就算您问我耳朵是怎么回事......那个......也、也别去问德克萨斯了，以后我会告诉您的......！",
+    cn07 = "德克萨斯是我的救命恩人，教会我了许多事，所以有空的时候，我都想待在她身边......只是为了报恩而已！",
+    cn08 = "不太高兴？嘛......能天使今天也是和德克萨斯一起出动呢。如果能变得想她一样强......",
+    cn09 = "Doctor，请帮我特训使用武器吧！唱歌永远只能待在后队，如果学会使用武器的话............什、什么？您也不会战斗......？！",
+    cn10 = "......不知道德克萨斯是不是正在听我的CD呢？",
+    cn11 = "(｡･∀･)ﾉﾞ嗨大家好！我是MSR旗下的偶像空......啊......啊！抱歉，这样自我介绍，也许不太适合罗德岛这样的地方吧。唔......",
+    cn12 = "这次也让我感受到了大家的热情呢！谢谢你们！",
+    cn13 = "晋升就像是......偶像等级一样的制度吗？",
+    cn14 = "这种雀跃的心情，就像刚刚第一次登上LIVE舞台的那天......Doctor，非常感谢您的信赖，我至今的努力都是为了这一刻吧......嗯？我的耳朵？怎么了嘛？",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "耶！作战成功！德克萨斯，看到我的表现了吗？",
+    cn31 = "大家都辛苦了！",
+    cn32 = "对不起......没有帮上大家的忙......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

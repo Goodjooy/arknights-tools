@@ -4,20 +4,21 @@ return {
   name = {
     en = "Ifrit",
     cn = "伊芙利特",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Ifrit",
   },
-  background = "",
+  fileKey = "Ifrit",
   team = 4,
   position = "Ranged",
   roles = { "Splash", "DPS", "Debuffer" },
-  faction = "logo_rhine",
-  stars = 5,
-  class = "CASTER",
+  faction = "Rhine Lab",
+  stars = 6,
+  class = "Caster",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 635,
@@ -43,8 +44,8 @@ return {
       range = "4-1",
       maxLevel = 40,
       images = {
-          portrait = "char_134_ifrit_portrait.png",
-          full = "char_134_ifrit_full.png"
+          portrait = "Ifrit-0-portrait.png",
+          full = "Ifrit-0.png"
       },
       maxStats = {
         hp = 908,
@@ -70,8 +71,8 @@ return {
       range = "5-1",
       maxLevel = 80,
       images = {
-          portrait = "char_134_ifrit_portrait.png",
-          full = "char_134_ifrit_full.png"
+          portrait = "Ifrit-0-portrait.png",
+          full = "Ifrit-0.png"
       },
       maxStats = {
         hp = 1180,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_CST1",
-          name = "术师芯片",
+          icon = "CasterChip.png",
+          name = "Caster Chip",
           count = 5,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 20,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 60,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "5-1",
       maxLevel = 90,
       images = {
-          portrait = "char_134_ifrit_portrait.png",
-          full = "char_134_ifrit_full.png"
+          portrait = "Ifrit-2-portrait.png",
+          full = "Ifrit-2.png"
       },
       maxStats = {
         hp = 1389,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_CST3",
-          name = "术师双芯片",
+          icon = "CasterTwinChip.png",
+          name = "Caster Twin Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL4",
-          name = "高级训练套件",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_G4",
-          name = "提纯源岩",
+          icon = "RefinedRock.png",
+          name = "Refined Rock",
           count = 3,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_ifrit_1",
+      icon = "skchr-ifrit-1",
       name = "狂热",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力提高10% ，攻击速度提高45",
       max_description = "攻击力提高20% ，攻击速度提高80",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 20,
     },
     {
-      icon = "skchr_ifrit_2",
+      icon = "skchr-ifrit-2",
       name = "炎爆",
-      type = 2,
+      recharge = "Auto Charge",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下一次攻击的攻击力提高至130% ，被击中的敌人在3秒内防御力降低-100 并持续受到灼烧伤害 可充能2 次",
       max_description = "下一次攻击的攻击力提高至250% ，被击中的敌人在3秒内防御力降低-300 并持续受到灼烧伤害 可充能3 次",
       range = nil,
@@ -181,9 +181,11 @@ return {
       duration = -1,
     },
     {
-      icon = "skchr_ifrit_3",
+      icon = "skchr-ifrit-3",
       name = "灼地",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "对攻击范围内的敌人造成每秒攻击力75% 的魔法伤害，并使其法术抗性降低-7  自己每秒损失最大生命值的2%",
       max_description = "对攻击范围内的敌人造成每秒攻击力140% 的魔法伤害，并使其法术抗性降低-20  自己每秒损失最大生命值的2%",
       range = nil,
@@ -200,8 +202,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -212,8 +214,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
       }
@@ -224,13 +226,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 40,
         },
       }
@@ -241,18 +243,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL2",
-          name = "基础训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 4,
         },
       }
@@ -263,18 +260,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -285,18 +277,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 12,
         },
       }
@@ -343,53 +330,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "NoriZC",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Ifrit",
-      gender = "",
-      combatexp = "",
-      origin = "Undisclosed",
-      birthday = "",
-      race = "Sakaz",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Undisclosed",
+      birthday = "?",
+      race = "Sarkaz",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "NoriZC",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "你的办公室怎么这么冷？喂，那个能烧吗？",
-    "怎么了？这本书很贵？嘻嘻，叫我一声伊芙利特大人，我就还给你！",
-    "什么？要我看这些书？我最讨厌的就是......是，是赫默要求的？呃......这、这些字怎么念啊？",
-    "我最讨厌穿白大衣的盯着我看个没完......说的就是你！把脸给我扭过去！",
-    "呃，我知道了，不会再用火吓唬大家了......",
-    "退后！你......你靠这么近想干什么？也想拿我做实验......？",
-    "赛雷娅？她来了吗？让我去见——赫默不许？那你带我偷偷过去啊！",
-    "赫默和塞雷娅，她们究竟为了什么在吵？真搞不懂......喂！有没有什么阻止他们的办法？能、能告诉我吗......？",
-    "我不期望你对待我怎么样，但必须对赫默好，她想要什么，你都要满足她！如果你能做到，我......我从今以后就听你的！",
-    "你！你还敢把我一个人丢在这里，自己睡大觉！",
-    "我就是伊芙利特！赫默说，罗德岛可以成为我们安身的地方。但是，我不太喜欢你们这种穿白大衣的......除了赫默......",
-    "这是什么？罗德岛干员晋升制度手册？干什么啊，晋升还要遵守这么多破烂规矩？我不干啦！",
-    "嘻嘻，这就对了嘛，别弄那些条条框框我也不懂的东西，只要告诉我，需要我帮你，而且非我不可，这就足够了！",
-    "还是不能让我满足！还不够！根本没人能打败我！",
-    "这么多废弃物，来一把火烧个干净吧？取取暖！",
-    "焦炭，满地焦炭，这种战斗我一个人就能搞定。",
-    "可恶......你......都是你让我这么耻辱！"
-  }
+    cn01 = "你的办公室怎么这么冷？喂，那个能烧吗？",
+    cn02 = "怎么了？这本书很贵？嘻嘻，叫我一声伊芙利特大人，我就还给你！",
+    cn03 = "什么？要我看这些书？我最讨厌的就是......是，是赫默要求的？呃......这、这些字怎么念啊？",
+    cn04 = "我最讨厌穿白大衣的盯着我看个没完......说的就是你！把脸给我扭过去！",
+    cn05 = "呃，我知道了，不会再用火吓唬大家了......",
+    cn06 = "退后！你......你靠这么近想干什么？也想拿我做实验......？",
+    cn07 = "赛雷娅？她来了吗？让我去见——赫默不许？那你带我偷偷过去啊！",
+    cn08 = "赫默和塞雷娅，她们究竟为了什么在吵？真搞不懂......喂！有没有什么阻止他们的办法？能、能告诉我吗......？",
+    cn09 = "我不期望你对待我怎么样，但必须对赫默好，她想要什么，你都要满足她！如果你能做到，我......我从今以后就听你的！",
+    cn10 = "你！你还敢把我一个人丢在这里，自己睡大觉！",
+    cn11 = "我就是伊芙利特！赫默说，罗德岛可以成为我们安身的地方。但是，我不太喜欢你们这种穿白大衣的......除了赫默......",
+    cn12 = "还是不能让我满足！还不够！根本没人能打败我！",
+    cn13 = "这是什么？罗德岛干员晋升制度手册？干什么啊，晋升还要遵守这么多破烂规矩？我不干啦！",
+    cn14 = "嘻嘻，这就对了嘛，别弄那些条条框框我也不懂的东西，只要告诉我，需要我帮你，而且非我不可，这就足够了！",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "这么多废弃物，来一把火烧个干净吧？取取暖！",
+    cn31 = "焦炭，满地焦炭，这种战斗我一个人就能搞定。",
+    cn32 = "可恶......你......都是你让我这么耻辱！",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

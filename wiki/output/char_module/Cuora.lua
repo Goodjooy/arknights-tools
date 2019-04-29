@@ -4,20 +4,21 @@ return {
   name = {
     en = "Cuora",
     cn = "蛇屠箱",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Cuora",
   },
-  background = "",
+  fileKey = "Cuora",
   team = -1,
   position = "Melee",
   roles = { "Tank" },
-  faction = "logo_rhodes",
-  stars = 3,
-  class = "TANK",
+  faction = "Rhodes Island",
+  stars = 4,
+  class = "Defender",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 1253,
@@ -43,8 +44,8 @@ return {
       range = "0-1",
       maxLevel = 35,
       images = {
-          portrait = "char_150_snakek_portrait.png",
-          full = "char_150_snakek_full.png"
+          portrait = "Cuora-0-portrait.png",
+          full = "Cuora-0.png"
       },
       maxStats = {
         hp = 1671,
@@ -70,8 +71,8 @@ return {
       range = "0-1",
       maxLevel = 60,
       images = {
-          portrait = "char_150_snakek_portrait.png",
-          full = "char_150_snakek_full.png"
+          portrait = "Cuora-0-portrait.png",
+          full = "Cuora-0.png"
       },
       maxStats = {
         hp = 2228,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_TNK1",
-          name = "重装芯片",
+          icon = "DefenderChip.png",
+          name = "Defender Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_RUSH1",
-          name = "酯原料",
+          icon = "RawEster.png",
+          name = "Raw Ester",
           count = 15,
         },
         {
-          icon = "MTL_SL_STRG1",
-          name = "代糖",
+          icon = "SugarSubstitute.png",
+          name = "Sugar Substitute",
           count = 15,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "0-1",
       maxLevel = 70,
       images = {
-          portrait = "char_150_snakek_portrait.png",
-          full = "char_150_snakek_full.png"
+          portrait = "Cuora-2-portrait.png",
+          full = "Cuora-2.png"
       },
       maxStats = {
         hp = 3105,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_TNK2",
-          name = "重装芯片组",
+          icon = "DefenderChipSet.png",
+          name = "Defender Chip Set",
           count = 4,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 5,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 10,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skcom_def_up",
+      icon = "skcom-def-up",
       name = "防御力强化·β型",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "防御力提高30%",
       max_description = "防御力提高80%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 35,
     },
     {
-      icon = "skchr_snakek_2",
+      icon = "skchr-snakek-2",
       name = "壳状防御",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "停止攻击敌人，阻挡数+1 ，防御力提高50% ，每秒回复1% 最大生命值",
       max_description = "停止攻击敌人，阻挡数+1 ，防御力提高150% ，每秒回复2% 最大生命值",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 25,
         },
       }
@@ -229,18 +229,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 8,
         },
       }
@@ -251,18 +251,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 6,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 12,
         },
       }
@@ -273,18 +273,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 3,
         },
         {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -319,53 +319,85 @@ return {
       def = 85,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "Skade",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Cuora",
-      gender = "",
-      combatexp = "",
-      origin = "Undisclosed",
-      birthday = "",
-      race = "Ptodiram",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Undisclosed",
+      birthday = "?",
+      race = "Ptodiram",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "Skade",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "我来啦！棒球还是桌游，您挑一个来玩吧！诶？工作中？",
-    "你问我是从哪里来的?嗯......管他呢！！",
-    "您好，罗德岛先生！呃，好像不是这个名字......",
-    "唔，我今天的任务是什么来着？抓一些细长的生物吗。",
-    "请您别敲我的背包！啊抱歉，不是忽然凶您，随便玩这个包可能会受伤的哦，我来给您演示一下！",
-    "以后谁要是敢欺负您，我就用球棍扁他们！呃，还、还真有？那、那个，其实我对打人的事不太懂，哈哈......",
-    "我喜欢花一天时间从街头走到街尾，一边晒太阳一边观察行人，然后就......迷路啦！",
-    "为我治疗，还给我住的地方，您真是温柔的人。我决定了，今后您赶我走我都不走，反正我也走不远，嘿嘿。",
-    "哥哥......还是姐姐？嗯都没关系啦！总之，博士就是我最重要的家人！我决定了，今后您赶我走我都不走，反正就算走也走不远嘛。",
-    "博士没时间理我，我一个人玩会儿吧......",
-    "这里是哪里..?我是谁...???",
-    "晋升？不懂，别说这个了，您还是多陪我玩一会儿吧！",
-    "博士博士，我不在乎自己做什么职位哦，我只要您能每天陪着我，您能答应我吗？",
-    "没感觉比平时的战斗更难啊？",
-    "全垒打！！",
-    "安打！",
-    "呜啊啊啊啊......出局了...."
-  }
+    cn01 = "我来啦！棒球还是桌游，您挑一个来玩吧！诶？工作中？",
+    cn02 = "你问我是从哪里来的?嗯......管他呢！！",
+    cn03 = "您好，罗德岛先生！呃，好像不是这个名字......",
+    cn04 = "唔，我今天的任务是什么来着？抓一些细长的生物吗。",
+    cn05 = "请您别敲我的背包！啊抱歉，不是忽然凶您，随便玩这个包可能会受伤的哦，我来给您演示一下！",
+    cn06 = "以后谁要是敢欺负您，我就用球棍扁他们！呃，还、还真有？那、那个，其实我对打人的事不太懂，哈哈......",
+    cn07 = "我喜欢花一天时间从街头走到街尾，一边晒太阳一边观察行人，然后就......迷路啦！",
+    cn08 = "为我治疗，还给我住的地方，您真是温柔的人。我决定了，今后您赶我走我都不走，反正我也走不远，嘿嘿。",
+    cn09 = "哥哥......还是姐姐？嗯都没关系啦！总之，博士就是我最重要的家人！我决定了，今后您赶我走我都不走，反正就算走也走不远嘛。",
+    cn10 = "博士没时间理我，我一个人玩会儿吧......",
+    cn11 = "这里是哪里..?我是谁...???",
+    cn12 = "没感觉比平时的战斗更难啊？",
+    cn13 = "晋升？不懂，别说这个了，您还是多陪我玩一会儿吧！",
+    cn14 = "博士博士，我不在乎自己做什么职位哦，我只要您能每天陪着我，您能答应我吗？",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "全垒打！！",
+    cn31 = "安打！",
+    cn32 = "呜啊啊啊啊......出局了....",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

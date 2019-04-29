@@ -4,20 +4,21 @@ return {
   name = {
     en = "Exusiai",
     cn = "能天使",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Exusiai",
   },
-  background = "",
+  fileKey = "Exusiai",
   team = 11,
   position = "Ranged",
   roles = { "DPS" },
-  faction = "logo_penguin",
-  stars = 5,
-  class = "SNIPER",
+  faction = "Penguin Logistics",
+  stars = 6,
+  class = "Sniper",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 680,
@@ -43,8 +44,8 @@ return {
       range = "3-1",
       maxLevel = 40,
       images = {
-          portrait = "char_103_angel_portrait.png",
-          full = "char_103_angel_full.png"
+          portrait = "Exusiai-0-portrait.png",
+          full = "Exusiai-0.png"
       },
       maxStats = {
         hp = 945,
@@ -70,8 +71,8 @@ return {
       range = "3-3",
       maxLevel = 80,
       images = {
-          portrait = "char_103_angel_portrait.png",
-          full = "char_103_angel_full.png"
+          portrait = "Exusiai-0-portrait.png",
+          full = "Exusiai-0.png"
       },
       maxStats = {
         hp = 1212,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SNP1",
-          name = "狙击芯片",
+          icon = "SniperChip.png",
+          name = "Sniper Chip",
           count = 5,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 20,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 60,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "3-3",
       maxLevel = 90,
       images = {
-          portrait = "char_103_angel_portrait.png",
-          full = "char_103_angel_full.png"
+          portrait = "Exusiai-2-portrait.png",
+          full = "Exusiai-2.png"
       },
       maxStats = {
         hp = 1515,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SNP3",
-          name = "狙击双芯片",
+          icon = "SniperTwinChip.png",
+          name = "Sniper Twin Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL4",
-          name = "高级训练套件",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_G4",
-          name = "提纯源岩",
+          icon = "RefinedRock.png",
+          name = "Refined Rock",
           count = 3,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_angel_1",
+      icon = "skchr-angel-1",
       name = "冲锋模式",
-      type = 2,
+      recharge = "Charge On Attack",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下一次攻击变为3 连射，攻击力提高至105%",
       max_description = "下一次攻击变为3 连射，攻击力提高至145%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_angel_2",
+      icon = "skchr-angel-2",
       name = "扫射模式",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击变为4 连射，攻击力提高至100%",
       max_description = "攻击变为4 连射，攻击力提高至125%",
       range = nil,
@@ -181,9 +181,11 @@ return {
       duration = 15,
     },
     {
-      icon = "skchr_angel_3",
+      icon = "skchr-angel-3",
       name = "过载模式",
-      type = 2,
+      recharge = "Auto Charge",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "攻击变为5 连射 技能会自动开启",
       max_description = "攻击变为5 连射，攻击间隔一定程度缩短，攻击力提升至110.00000000000001%  技能会自动开启",
       range = nil,
@@ -200,8 +202,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -212,8 +214,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
       }
@@ -224,13 +226,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 40,
         },
       }
@@ -241,18 +243,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL2",
-          name = "基础训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 4,
         },
       }
@@ -263,18 +260,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -285,18 +277,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 12,
         },
       }
@@ -338,53 +325,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "幻象黑兔",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Exusiai",
-      gender = "",
-      combatexp = "",
-      origin = "Laterano",
-      birthday = "",
-      race = "Sakota",
-      height = "",
-      weight = "",
-      oripathy = "No",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Laterano",
+      birthday = "?",
+      race = "Sakota",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
-    meta = {
-      illustrator = "幻象黑兔",
-      voice = "",
-    },
+    oripathy = {
+      infected = "No",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+    }
   },
   quotes = {
-    "老板，安排点差事给我们吧。",
-    "老板，咱们什么时候开个派对？来点嘻哈音乐，再来点苹果派，完美的人生是不可停止聚会的。",
-    "子弹上膛，准备OK★老板，今天送什么？",
-    "有人说有钱是可以为所欲为的，但这句话对我不适用，如果我想让他安息，他再有钱也不行。",
-    "第一个愿望，每个天使都有自己的指定守护铳，不过就一把可不够看，我想要我的背后八把！",
-    "第二个愿望......找个人把我头上这盏日光灯管关上！",
-    "德克萨斯那家伙能活的这么潇洒，可多亏有我罩着他，这不是明摆着的事嘛？",
-    "如果您见到一名长着漆黑色的角，浑身散发不安气息的天使，请一定代我转告他，我并没有忘记他。",
-    "Doctor，我们企鹅快递真的很不错吧？要不要跳槽来当我们的老大？开玩笑的。",
-    "......主，这个人也是我们需要拯救的吗？",
-    "口令是“企鹅帝国万岁”，你就是这次的雇主吗？叫我能天使吧，和那头狼不同，如果您想找点乐子，那可以来找我。",
-    "多谢你的提拔，老板。",
-    "老板......不，义人，我将以我手中的铳作为证明，守护您的生命直至万物终结。",
-    "好！就照着这个劲头向前冲吧！",
-    "愿我的弹雨能熄灭你们的苦痛。",
-    "胜利的消息就是福音，好了，回去喝一杯吧。",
-    "铳有卡壳的时候，人生也总是如此，别太内疚。"
-  }
+    cn01 = "老板，安排点差事给我们吧。",
+    cn02 = "老板，咱们什么时候开个派对？来点嘻哈音乐，再来点苹果派，完美的人生是不可停止聚会的。",
+    cn03 = "子弹上膛，准备OK★老板，今天送什么？",
+    cn04 = "有人说有钱是可以为所欲为的，但这句话对我不适用，如果我想让他安息，他再有钱也不行。",
+    cn05 = "第一个愿望，每个天使都有自己的指定守护铳，不过就一把可不够看，我想要我的背后八把！",
+    cn06 = "第二个愿望......找个人把我头上这盏日光灯管关上！",
+    cn07 = "德克萨斯那家伙能活的这么潇洒，可多亏有我罩着他，这不是明摆着的事嘛？",
+    cn08 = "如果您见到一名长着漆黑色的角，浑身散发不安气息的天使，请一定代我转告他，我并没有忘记他。",
+    cn09 = "Doctor，我们企鹅快递真的很不错吧？要不要跳槽来当我们的老大？开玩笑的。",
+    cn10 = "......主，这个人也是我们需要拯救的吗？",
+    cn11 = "口令是“企鹅帝国万岁”，你就是这次的雇主吗？叫我能天使吧，和那头狼不同，如果您想找点乐子，那可以来找我。",
+    cn12 = "好！就照着这个劲头向前冲吧！",
+    cn13 = "多谢你的提拔，老板。",
+    cn14 = "老板......不，义人，我将以我手中的铳作为证明，守护您的生命直至万物终结。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "愿我的弹雨能熄灭你们的苦痛。",
+    cn31 = "胜利的消息就是福音，好了，回去喝一杯吧。",
+    cn32 = "铳有卡壳的时候，人生也总是如此，别太内疚。",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

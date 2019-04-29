@@ -4,20 +4,21 @@ return {
   name = {
     en = "SilverAsh",
     cn = "银灰",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "SilverAsh",
   },
-  background = "",
+  fileKey = "Silverash",
   team = 6,
   position = "Melee",
   roles = { "DPS", "Support" },
-  faction = "logo_kjerag",
-  stars = 5,
-  class = "WARRIOR",
+  faction = "Kjerag",
+  stars = 6,
+  class = "Guard",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 977,
@@ -43,8 +44,8 @@ return {
       range = "2-3",
       maxLevel = 40,
       images = {
-          portrait = "char_172_svrash_portrait.png",
-          full = "char_172_svrash_full.png"
+          portrait = "Silverash-0-portrait.png",
+          full = "Silverash-0.png"
       },
       maxStats = {
         hp = 1437,
@@ -70,8 +71,8 @@ return {
       range = "3-12",
       maxLevel = 80,
       images = {
-          portrait = "char_172_svrash_portrait.png",
-          full = "char_172_svrash_full.png"
+          portrait = "Silverash-0-portrait.png",
+          full = "Silverash-0.png"
       },
       maxStats = {
         hp = 1891,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_GRD1",
-          name = "近卫芯片",
+          icon = "GuardChip.png",
+          name = "Guard Chip",
           count = 5,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 20,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 60,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "3-12",
       maxLevel = 90,
       images = {
-          portrait = "char_172_svrash_portrait.png",
-          full = "char_172_svrash_full.png"
+          portrait = "Silverash-2-portrait.png",
+          full = "Silverash-2.png"
       },
       maxStats = {
         hp = 2364,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_GRD3",
-          name = "近卫双芯片",
+          icon = "GuardTwinChip.png",
+          name = "Guard Twin Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL4",
-          name = "高级训练套件",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_G4",
-          name = "提纯源岩",
+          icon = "RefinedRock.png",
+          name = "Refined Rock",
           count = 3,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skchr_svrash_1",
+      icon = "skchr-svrash-1",
       name = "强力击·γ型",
-      type = 2,
+      recharge = "Charge On Attack",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下一次攻击力提高至190%",
       max_description = "下一次攻击力提高至280%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_svrash_2",
+      icon = "skchr-svrash-2",
       name = "雪境法则",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "切换类技能 攻击范围减小，防御力提高40% ，每秒恢复3% 最大生命",
       max_description = "切换类技能 攻击范围减小，防御力提高90% ，每秒恢复5% 最大生命",
       range = "1-2",
@@ -181,9 +181,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_svrash_3",
+      icon = "skchr-svrash-3",
       name = "真银斩",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "防御力下降-70% ，攻击范围扩大，攻击力提升110.00000000000001% ，同时近距离攻击至多3 个目标",
       max_description = "防御力下降-70% ，攻击范围扩大，攻击力提升200% ，同时近距离攻击至多5 个目标",
       range = "3-7",
@@ -200,8 +202,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -212,8 +214,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
       }
@@ -224,13 +226,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 40,
         },
       }
@@ -241,18 +243,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL2",
-          name = "基础训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 4,
         },
       }
@@ -263,18 +260,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -285,18 +277,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 12,
         },
       }
@@ -343,53 +330,85 @@ return {
       def = 70,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "竜崎いち",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "SilverAsh",
-      gender = "",
-      combatexp = "",
-      origin = "Kjerag",
-      birthday = "",
-      race = "Feline",
-      height = "",
-      weight = "",
-      oripathy = "No",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Kjerag",
+      birthday = "?",
+      race = "Feline",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
-    meta = {
-      illustrator = "竜崎いち",
-      voice = "",
-    },
+    oripathy = {
+      infected = "No",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+    }
   },
   quotes = {
-    "消磨时间尚有更好的方法。想不想尝试一下？",
-    "总是这副心事重重的样子可不行，看见我应当微笑啊，毕竟我是能帮你解决难题的最好人选——不是吗。",
-    "那个孩子，是叫阿米娅吗......了不起。若是现在不给她装上嚼子，就要做好未来为她戴上王冠的觉悟。",
-    "喀兰贸易公司与罗德岛之联盟的稳固程度，完全取决于你我之想法。看来算不上有多牢靠呀，我的盟友？",
-    "这份合约我可以签署。没错，我确实看到其中每条条文都对你和罗德岛有利。",
-    "我当然明白是戏弄，可是又如何，银灰愿意签署不平等的合同——因为我承认，你值得银灰这么做。",
-    "恩希亚没给你添麻烦吧？抱歉......保护她、引导她本应是我的责任。仅此一事，今日的我无能为力；也仅此一事，我想请Doctor你代为完成。",
-    "可否引我去罗德岛的甲板？不，就是眺望眺望风景。太久没有展翅，丹增这小家伙也快忘记荒野是何种滋味了吧。",
-    "这样发展下去，你我互弈之日——迟早到来。但我看起来很高兴？唔，也许吧。毕竟我很期待和你的交手......也会珍惜那一日到来前的时光。",
-    "“——天空似乎暗了下来，要下雪了——”",
-    "银灰，你的盟友，前来助力。你不会让我失望的，对吗。",
-    "虚衔虽不嫌多，但你也知道，我更看重其中有几分是信任。",
-    "竟然邀请我参与战斗，你胆子也不小——作为回敬，就让整个罗德岛一起见识下银灰的手段——！",
-    "战斗越艰难，胜利的喜悦也会更加炽热。",
-    "不错的战斗，即使是我都能感到心潮澎湃。",
-    "再努力一点。",
-    "立刻撤退。现在还来得及。"
-  }
+    cn01 = "消磨时间尚有更好的方法。想不想尝试一下？",
+    cn02 = "总是这副心事重重的样子可不行，看见我应当微笑啊，毕竟我是能帮你解决难题的最好人选——不是吗。",
+    cn03 = "那个孩子，是叫阿米娅吗......了不起。若是现在不给她装上嚼子，就要做好未来为她戴上王冠的觉悟。",
+    cn04 = "喀兰贸易公司与罗德岛之联盟的稳固程度，完全取决于你我之想法。看来算不上有多牢靠呀，我的盟友？",
+    cn05 = "这份合约我可以签署。没错，我确实看到其中每条条文都对你和罗德岛有利。",
+    cn06 = "我当然明白是戏弄，可是又如何，银灰愿意签署不平等的合同——因为我承认，你值得银灰这么做。",
+    cn07 = "恩希亚没给你添麻烦吧？抱歉......保护她、引导她本应是我的责任。仅此一事，今日的我无能为力；也仅此一事，我想请Doctor你代为完成。",
+    cn08 = "可否引我去罗德岛的甲板？不，就是眺望眺望风景。太久没有展翅，丹增这小家伙也快忘记荒野是何种滋味了吧。",
+    cn09 = "这样发展下去，你我互弈之日——迟早到来。但我看起来很高兴？唔，也许吧。毕竟我很期待和你的交手......也会珍惜那一日到来前的时光。",
+    cn10 = "“——天空似乎暗了下来，要下雪了——”",
+    cn11 = "银灰，你的盟友，前来助力。你不会让我失望的，对吗。",
+    cn12 = "战斗越艰难，胜利的喜悦也会更加炽热。",
+    cn13 = "虚衔虽不嫌多，但你也知道，我更看重其中有几分是信任。",
+    cn14 = "竟然邀请我参与战斗，你胆子也不小——作为回敬，就让整个罗德岛一起见识下银灰的手段——！",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "不错的战斗，即使是我都能感到心潮澎湃。",
+    cn31 = "再努力一点。",
+    cn32 = "立刻撤退。现在还来得及。",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

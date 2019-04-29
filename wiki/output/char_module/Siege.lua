@@ -4,20 +4,21 @@ return {
   name = {
     en = "Siege",
     cn = "推进之王",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Siege",
   },
-  background = "",
+  fileKey = "Siege",
   team = 10,
   position = "Melee",
   roles = { "Cost recovery", "Crowd Control" },
-  faction = "logo_victoria",
-  stars = 5,
-  class = "PIONEER",
+  faction = "Victoria",
+  stars = 6,
+  class = "Vanguard",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 944,
@@ -43,8 +44,8 @@ return {
       range = "1-1",
       maxLevel = 40,
       images = {
-          portrait = "char_112_siege_portrait.png",
-          full = "char_112_siege_full.png"
+          portrait = "Siege-0-portrait.png",
+          full = "Siege-0.png"
       },
       maxStats = {
         hp = 1331,
@@ -70,8 +71,8 @@ return {
       range = "1-1",
       maxLevel = 80,
       images = {
-          portrait = "char_112_siege_portrait.png",
-          full = "char_112_siege_full.png"
+          portrait = "Siege-0-portrait.png",
+          full = "Siege-0.png"
       },
       maxStats = {
         hp = 1800,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_PIO1",
-          name = "先锋芯片",
+          icon = "VanguardChip.png",
+          name = "Vanguard Chip",
           count = 5,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 20,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 60,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "1-1",
       maxLevel = 90,
       images = {
-          portrait = "char_112_siege_portrait.png",
-          full = "char_112_siege_full.png"
+          portrait = "Siege-2-portrait.png",
+          full = "Siege-2.png"
       },
       maxStats = {
         hp = 2340,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_PIO3",
-          name = "先锋双芯片",
+          icon = "VanguardTwinChip.png",
+          name = "Vanguard Twin Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL4",
-          name = "高级训练套件",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_G4",
-          name = "提纯源岩",
+          icon = "RefinedRock.png",
+          name = "Refined Rock",
           count = 3,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skcom_charge_cost",
+      icon = "skcom-charge-cost",
       name = "冲锋号令·γ型",
-      type = 2,
+      recharge = "Auto Charge",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "回复11 点部署费用",
       max_description = "回复11 点部署费用",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_siege_2",
+      icon = "skchr-siege-2",
       name = "跃空锤",
-      type = 2,
+      recharge = "Auto Charge",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "下一次攻击对周围所有敌人造成攻击力125% 的物理伤害，并将其往外微微推动 可充能1 次",
       max_description = "下一次攻击对周围所有敌人造成攻击力200% 的物理伤害，并将其往外推动 可充能3 次",
       range = "x-5",
@@ -181,9 +181,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_siege_3",
+      icon = "skchr-siege-3",
       name = "碎颅击",
-      type = 2,
+      recharge = "Auto Charge",
+      trigger = "Auto Trigger",
+      passive = false,
       description = "攻击间隔增大，攻击距离缩短，攻击力提高至175% ，攻击时有30% 的概率击晕目标1.3 秒 技能自动开启，持续时间无限",
       max_description = "攻击间隔增大，攻击距离缩短，攻击力提高至250% ，攻击时有45% 的概率击晕目标2.2 秒 技能自动开启，持续时间无限",
       range = "0-1",
@@ -200,8 +202,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -212,8 +214,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
       }
@@ -224,13 +226,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 40,
         },
       }
@@ -241,18 +243,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL2",
-          name = "基础训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 4,
         },
       }
@@ -263,18 +260,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -285,18 +277,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHALL3",
-          name = "进阶训练套件",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 12,
         },
       }
@@ -343,53 +330,85 @@ return {
       def = 65,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "Infukun",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Siege",
-      gender = "",
-      combatexp = "",
-      origin = "Victoria",
-      birthday = "",
-      race = "Aslan",
-      height = "",
-      weight = "",
-      oripathy = "No",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Victoria",
+      birthday = "?",
+      race = "Aslan",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
-    meta = {
-      illustrator = "Infukun",
-      voice = "",
-    },
+    oripathy = {
+      infected = "No",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+    }
   },
   quotes = {
-    "作战任务分配好了吗？如果没有的话我可以再等等......",
-    "保持冷静，继续前行。",
-    "以前的伙食还挺不错的，自从和因陀罗她们在一起之后......糟透了。",
-    "我梦到了太阳升起的地方。那视线无法触及的地方，是我的祖国......可能，没法再回去了。",
-    "回过神来就已经适应了这种漂泊的生活，真奇妙——这可是我从来没能想到的。",
-    "你说高文他们？其实......不是我遇见他们，而该说是他们捡到了我。",
-    "因陀罗他们曾在维多利亚的街头与我并肩作战——回想起来，我也慢慢变得珍惜起这段回忆了。",
-    "别放松警惕......！即便你已经付出了很多，仅凭我们现在的努力依然是远远不够的。",
-    "若遇到无法逃避的难题......我也有些许私心，希望你也能成为我的......不，没什么。",
-    "......嗯？睡着了？不知你的梦中，是否也会有故乡的景色。",
-    "力量测试已经通过了，那么，接下来就给我些任务吧，别让我的锤子太无聊。代号？嗯，他们都叫我推进之王，不是个很好记的名字，但我觉得还不错。",
-    "晋升？哦——？",
-    "又是晋升？嗯，谢咯。虽然仔细想想还挺怪的......过去，都是由我来做这件事呢。",
-    "装模作样，不堪一击。",
-    "对拒绝投降者无需怜悯。",
-    "结束了吧？",
-    "意外的.......疲乏......十分抱歉。"
-  }
+    cn01 = "作战任务分配好了吗？如果没有的话我可以再等等......",
+    cn02 = "保持冷静，继续前行。",
+    cn03 = "以前的伙食还挺不错的，自从和因陀罗她们在一起之后......糟透了。",
+    cn04 = "我梦到了太阳升起的地方。那视线无法触及的地方，是我的祖国......可能，没法再回去了。",
+    cn05 = "回过神来就已经适应了这种漂泊的生活，真奇妙——这可是我从来没能想到的。",
+    cn06 = "你说高文他们？其实......不是我遇见他们，而该说是他们捡到了我。",
+    cn07 = "因陀罗他们曾在维多利亚的街头与我并肩作战——回想起来，我也慢慢变得珍惜起这段回忆了。",
+    cn08 = "别放松警惕......！即便你已经付出了很多，仅凭我们现在的努力依然是远远不够的。",
+    cn09 = "若遇到无法逃避的难题......我也有些许私心，希望你也能成为我的......不，没什么。",
+    cn10 = "......嗯？睡着了？不知你的梦中，是否也会有故乡的景色。",
+    cn11 = "力量测试已经通过了，那么，接下来就给我些任务吧，别让我的锤子太无聊。代号？嗯，他们都叫我推进之王，不是个很好记的名字，但我觉得还不错。",
+    cn12 = "装模作样，不堪一击。",
+    cn13 = "晋升？哦——？",
+    cn14 = "又是晋升？嗯，谢咯。虽然仔细想想还挺怪的......过去，都是由我来做这件事呢。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "对拒绝投降者无需怜悯。",
+    cn31 = "结束了吧？",
+    cn32 = "意外的.......疲乏......十分抱歉。",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

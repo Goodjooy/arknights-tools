@@ -4,20 +4,21 @@ return {
   name = {
     en = "Perfumer",
     cn = "调香师",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Perfumer",
   },
-  background = "",
+  fileKey = "Perfumer",
   team = 16,
   position = "Ranged",
   roles = { "Life recovery" },
-  faction = "logo_rhodes",
-  stars = 3,
-  class = "MEDIC",
+  faction = "Rhodes Island",
+  stars = 4,
+  class = "Medic",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 522,
@@ -43,8 +44,8 @@ return {
       range = "y-1",
       maxLevel = 35,
       images = {
-          portrait = "char_181_flower_portrait.png",
-          full = "char_181_flower_full.png"
+          portrait = "Perfumer-0-portrait.png",
+          full = "Perfumer-0.png"
       },
       maxStats = {
         hp = 726,
@@ -70,8 +71,8 @@ return {
       range = "y-2",
       maxLevel = 60,
       images = {
-          portrait = "char_181_flower_portrait.png",
-          full = "char_181_flower_full.png"
+          portrait = "Perfumer-0-portrait.png",
+          full = "Perfumer-0.png"
       },
       maxStats = {
         hp = 932,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_MED1",
-          name = "医疗芯片",
+          icon = "MedicChip.png",
+          name = "Medic Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_RUSH1",
-          name = "酯原料",
+          icon = "RawEster.png",
+          name = "Raw Ester",
           count = 15,
         },
         {
-          icon = "MTL_SL_STRG1",
-          name = "代糖",
+          icon = "SugarSubstitute.png",
+          name = "Sugar Substitute",
           count = 15,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "y-2",
       maxLevel = 70,
       images = {
-          portrait = "char_181_flower_portrait.png",
-          full = "char_181_flower_full.png"
+          portrait = "Perfumer-2-portrait.png",
+          full = "Perfumer-2.png"
       },
       maxStats = {
         hp = 1180,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_MED2",
-          name = "医疗芯片组",
+          icon = "MedicChipSet.png",
+          name = "Medic Chip Set",
           count = 4,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 5,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 10,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skcom_heal_up",
+      icon = "skcom-heal-up",
       name = "治疗强化·β型",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力提高20%",
       max_description = "攻击力提高70%",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 25,
     },
     {
-      icon = "skchr_flower_2",
+      icon = "skchr-flower-2",
       name = "精调",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击速度降低-50 ，但攻击力提高100%",
       max_description = "攻击速度降低-50 ，但攻击力提高150%",
       range = nil,
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 25,
         },
       }
@@ -229,18 +229,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 8,
         },
       }
@@ -251,18 +251,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 6,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 12,
         },
       }
@@ -273,18 +273,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 3,
         },
         {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -319,53 +319,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "Lanzi",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Perfumer",
-      gender = "",
-      combatexp = "",
-      origin = "Minos",
-      birthday = "",
-      race = "Vulpes",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Minos",
+      birthday = "?",
+      race = "Vulpes",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "Lanzi",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "Doctor，要好好听我的话哦？",
-    "您闻到这治愈的香味了吗？玫兰莎给我的样品，给了我一些新的启发。",
-    "非常谢谢您帮助我建立了花卉温室，我相信，这里会成为让大家安心休憩的场所的。",
-    "您醒了？呵呵，刚才您小睡了一会儿，这次的香也能有效舒缓您的疲惫，对吧？呵呵，这可是我的自信之作。",
-    "水仙、燕子花、长寿花、波罗尼——所有能制作熏香的花种我都会随身携带。",
-    "嗯？这只小狐狸？别看它个头小，调香过程中，它可是能帮上很大的忙呢。",
-    "气味维系着蚂蚁的社会关系，调香师和客人之间的关系，也会像这样子哦？",
-    "您最近常来温室做客呢......您有注意到衣领上还沾着花粉吗？好，已经为您擦掉了。",
-    "您这次睡了很长时间，这次是怎样的梦境呢？",
-    "啊...是薰衣草发挥效果了吗.....",
-    "调香师莱娜，向你报道。Doctor是第一次听说调香师这种职业吗？",
-    "谢谢你亲自前来通知我这次晋升——抱歉——Doctor你的领带歪了哦~",
-    "其实我不太擅长那种不讲道理的战斗方式啦，不过我会努力的，Doctor。",
-    "我一直相信，只要是你来指挥，我们就一定会胜利。",
-    "真是太好了呢，Doctor。",
-    "大家辛苦了，好好休息一下吧。",
-    "虽然没能赢下这场战斗......但我不会气馁的。"
-  }
+    cn01 = "Doctor，要好好听我的话哦？",
+    cn02 = "您闻到这治愈的香味了吗？玫兰莎给我的样品，给了我一些新的启发。",
+    cn03 = "非常谢谢您帮助我建立了花卉温室，我相信，这里会成为让大家安心休憩的场所的。",
+    cn04 = "您醒了？呵呵，刚才您小睡了一会儿，这次的香也能有效舒缓您的疲惫，对吧？呵呵，这可是我的自信之作。",
+    cn05 = "水仙、燕子花、长寿花、波罗尼——所有能制作熏香的花种我都会随身携带。",
+    cn06 = "嗯？这只小狐狸？别看它个头小，调香过程中，它可是能帮上很大的忙呢。",
+    cn07 = "气味维系着蚂蚁的社会关系，调香师和客人之间的关系，也会像这样子哦？",
+    cn08 = "您最近常来温室做客呢......您有注意到衣领上还沾着花粉吗？好，已经为您擦掉了。",
+    cn09 = "您这次睡了很长时间，这次是怎样的梦境呢？",
+    cn10 = "啊...是薰衣草发挥效果了吗.....",
+    cn11 = "调香师莱娜，向你报道。Doctor是第一次听说调香师这种职业吗？",
+    cn12 = "我一直相信，只要是你来指挥，我们就一定会胜利。",
+    cn13 = "谢谢你亲自前来通知我这次晋升——抱歉——Doctor你的领带歪了哦~",
+    cn14 = "其实我不太擅长那种不讲道理的战斗方式啦，不过我会努力的，Doctor。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "真是太好了呢，Doctor。",
+    cn31 = "大家辛苦了，好好休息一下吧。",
+    cn32 = "虽然没能赢下这场战斗......但我不会气馁的。",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

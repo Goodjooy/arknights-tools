@@ -4,20 +4,21 @@ return {
   name = {
     en = "Mayer",
     cn = "梅尔",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Mayer",
   },
-  background = "",
+  fileKey = "Mayer",
   team = 4,
   position = "Ranged",
   roles = { "Summoner", "Crowd Control" },
-  faction = "logo_rhine",
-  stars = 4,
-  class = "SUPPORT",
+  faction = "Rhine Lab",
+  stars = 5,
+  class = "Supporter",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 519,
@@ -43,8 +44,8 @@ return {
       range = "3-6",
       maxLevel = 40,
       images = {
-          portrait = "char_242_otter_portrait.png",
-          full = "char_242_otter_full.png"
+          portrait = "Mayer-0-portrait.png",
+          full = "Mayer-0.png"
       },
       maxStats = {
         hp = 712,
@@ -70,8 +71,8 @@ return {
       range = "3-1",
       maxLevel = 70,
       images = {
-          portrait = "char_242_otter_portrait.png",
-          full = "char_242_otter_full.png"
+          portrait = "Mayer-0-portrait.png",
+          full = "Mayer-0.png"
       },
       maxStats = {
         hp = 914,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SUP1",
-          name = "辅助芯片",
+          icon = "SupportChip.png",
+          name = "Support Chip",
           count = 4,
         },
         {
-          icon = "MTL_SL_BOSS1",
-          name = "破损装置",
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
           count = 12,
         },
         {
-          icon = "MTL_SL_G1",
-          name = "源岩",
+          icon = "Rock.png",
+          name = "Rock",
           count = 40,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "3-1",
       maxLevel = 80,
       images = {
-          portrait = "char_242_otter_portrait.png",
-          full = "char_242_otter_full.png"
+          portrait = "Mayer-2-portrait.png",
+          full = "Mayer-2.png"
       },
       maxStats = {
         hp = 1076,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SUP3",
-          name = "辅助双芯片",
+          icon = "SupportTwinChip.png",
+          name = "Support Twin Chip",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA4",
-          name = "聚合剂·大",
-          count = 1,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 8,
         },
       },
@@ -159,7 +155,9 @@ return {
     {
       icon = "null",
       name = "迷惑装置",
-      type = 0,
+      recharge = "",
+      trigger = "Passive",
+      passive = true,
       description = "所有机械水獭获得10% 的物理和魔法闪避",
       max_description = "所有机械水獭获得30% 的物理和魔法闪避 机械水獭周围四格的友军也获得同样的效果",
       range = "0-1",
@@ -169,9 +167,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_otter_2",
+      icon = "skchr-otter-2",
       name = "爆破回收",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "引爆所有配置的机械水獭，爆炸时对周围敌人造成角色攻击力300% 的魔法伤害并晕眩1 秒 被引爆的机械水獭会被回收",
       max_description = "引爆所有配置的机械水獭，爆炸时对周围敌人造成角色攻击力600% 的魔法伤害并晕眩2 秒 被引爆的机械水獭会被回收",
       range = "x-4",
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 30,
         },
       }
@@ -229,18 +229,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_SYNTHA2",
-          name = "聚合剂·小",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
       }
@@ -251,18 +246,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 2,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 4,
         },
       }
@@ -273,18 +263,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 4,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 6,
         },
       }
@@ -324,53 +309,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "幻象黑兔",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Mayer",
-      gender = "",
-      combatexp = "",
-      origin = "Undisclosed",
-      birthday = "",
-      race = "Anati",
-      height = "",
-      weight = "",
-      oripathy = "No",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Undisclosed",
+      birthday = "?",
+      race = "Anati",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
-    meta = {
-      illustrator = "幻象黑兔",
-      voice = "",
-    },
+    oripathy = {
+      infected = "No",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+    }
   },
   quotes = {
-    "建筑设计，工业研发，科学研究，只要Doctor想得到的，我都能做到。",
-    "工程部的人每次都不认可我的提案，是不是不喜欢我啊，怎么办......对了Doctor，你去代我提交下这份改进意见吧！就这么定了！",
-    "莱茵生命里像我这样的工作室还有很多啦，但别的工作室三周才能完成一半的任务，我一周就能搞定。这可不是在吹牛哦。",
-    "我做研究的时候千万别打扰我，我是会让咪波咬你的！我自己也会！",
-    "晚上总是会很有灵感呢......但又......非常困！不，不行了，枕头在哪...我要休息一下......",
-    "嗯？你想问为什么它们叫咪波？咪波是它的启动音效嘛，我觉得挺合适的。不像？那你可以摁下这个开关——等等！不是那个！那是自毁———呜啊啊啊，快跑！！",
-    "刚刚走过去的......是赫默吧。如果那时候......喔，抱歉，保密协议还没过期，我不该多嘴的。",
-    "闲下来就只会感到空虚呢......工程师就是这样的人啦。Doctor也会无所事事吗？不会？",
-    "Doctor，我能申请——不是！不用十平米！上次是我不对，这回——三平米就够了！别，别跑啊Dr.{@nickname}！一平米实用科研面积也行！求你了！",
-    "哈啊......咖啡机在哪里......呼，Doctor你也要来点儿吗",
-    "莱茵生命所属，鲁特拉工作室，竭诚为您服务。是的，没有其他成员，我一人就是整个工作室。很厉害吧！",
-    "这次涨薪可真是及时，我又能升级一下设备了。",
-    "我向您保证过一定能出成果，现在，怎么样，是不是很令人满意呀~",
-    "来~咪波！给大家跳支舞庆祝一下！",
-    "嗯，就这样轻轻松松碾压敌人吧。",
-    "设备稍微有些缺损，修理一下就能继续工作了。",
-    "不！咪波——！......只能再造几台了......"
-  }
+    cn01 = "建筑设计，工业研发，科学研究，只要Doctor想得到的，我都能做到。",
+    cn02 = "工程部的人每次都不认可我的提案，是不是不喜欢我啊，怎么办......对了Doctor，你去代我提交下这份改进意见吧！就这么定了！",
+    cn03 = "莱茵生命里像我这样的工作室还有很多啦，但别的工作室三周才能完成一半的任务，我一周就能搞定。这可不是在吹牛哦。",
+    cn04 = "我做研究的时候千万别打扰我，我是会让咪波咬你的！我自己也会！",
+    cn05 = "晚上总是会很有灵感呢......但又......非常困！不，不行了，枕头在哪...我要休息一下......",
+    cn06 = "嗯？你想问为什么它们叫咪波？咪波是它的启动音效嘛，我觉得挺合适的。不像？那你可以摁下这个开关——等等！不是那个！那是自毁———呜啊啊啊，快跑！！",
+    cn07 = "刚刚走过去的......是赫默吧。如果那时候......喔，抱歉，保密协议还没过期，我不该多嘴的。",
+    cn08 = "闲下来就只会感到空虚呢......工程师就是这样的人啦。Doctor也会无所事事吗？不会？",
+    cn09 = "Doctor，我能申请——不是！不用十平米！上次是我不对，这回——三平米就够了！别，别跑啊Doctor！一平米实用科研面积也行！求你了！",
+    cn10 = "哈啊......咖啡机在哪里......呼，Doctor你也要来点儿吗",
+    cn11 = "莱茵生命所属，鲁特拉工作室，竭诚为您服务。是的，没有其他成员，我一人就是整个工作室。很厉害吧！",
+    cn12 = "来~咪波！给大家跳支舞庆祝一下！",
+    cn13 = "这次涨薪可真是及时，我又能升级一下设备了。",
+    cn14 = "我向您保证过一定能出成果，现在，怎么样，是不是很令人满意呀~",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "嗯，就这样轻轻松松碾压敌人吧。",
+    cn31 = "设备稍微有些缺损，修理一下就能继续工作了。",
+    cn32 = "不！咪波——！......只能再造几台了......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

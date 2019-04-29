@@ -4,20 +4,21 @@ return {
   name = {
     en = "Gitano",
     cn = "远山",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Gitano",
   },
-  background = "",
+  fileKey = "Gitano",
   team = 17,
   position = "Ranged",
   roles = { "Splash" },
-  faction = "logo_rhodes",
-  stars = 3,
-  class = "CASTER",
+  faction = "Rhodes Island",
+  stars = 4,
+  class = "Caster",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 514,
@@ -43,8 +44,8 @@ return {
       range = "3-6",
       maxLevel = 35,
       images = {
-          portrait = "char_109_fmout_portrait.png",
-          full = "char_109_fmout_full.png"
+          portrait = "Gitano-0-portrait.png",
+          full = "Gitano-0.png"
       },
       maxStats = {
         hp = 735,
@@ -70,8 +71,8 @@ return {
       range = "3-6",
       maxLevel = 60,
       images = {
-          portrait = "char_109_fmout_portrait.png",
-          full = "char_109_fmout_full.png"
+          portrait = "Gitano-0-portrait.png",
+          full = "Gitano-0.png"
       },
       maxStats = {
         hp = 955,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_CST1",
-          name = "术师芯片",
+          icon = "CasterChip.png",
+          name = "Caster Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_RUSH1",
-          name = "酯原料",
+          icon = "RawEster.png",
+          name = "Raw Ester",
           count = 15,
         },
         {
-          icon = "MTL_SL_STRG1",
-          name = "代糖",
+          icon = "SugarSubstitute.png",
+          name = "Sugar Substitute",
           count = 15,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "3-6",
       maxLevel = 70,
       images = {
-          portrait = "char_109_fmout_portrait.png",
-          full = "char_109_fmout_full.png"
+          portrait = "Gitano-2-portrait.png",
+          full = "Gitano-2.png"
       },
       maxStats = {
         hp = 1124,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_CST2",
-          name = "术师芯片组",
+          icon = "CasterChipSet.png",
+          name = "Caster Chip Set",
           count = 4,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 5,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 10,
         },
       },
@@ -157,9 +153,11 @@ return {
   },
   skills = {
     {
-      icon = "skcom_attack_speed_up",
+      icon = "skcom-attack-speed-up",
       name = "战术咏唱·β型",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击速度提高30",
       max_description = "攻击速度提高70",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 25,
     },
     {
-      icon = "skchr_fmout_2",
+      icon = "skchr-fmout-2",
       name = "命运",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击力提高30% ，攻击范围扩大，同时对范围内所有敌军造成伤害 技能时间结束后远山停止攻击15 秒",
       max_description = "攻击力提高100% ，攻击范围扩大，同时对范围内所有敌军造成伤害 技能时间结束后远山停止攻击10 秒",
       range = "3-3",
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 25,
         },
       }
@@ -229,18 +229,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 8,
         },
       }
@@ -251,18 +251,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 6,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 12,
         },
       }
@@ -273,18 +273,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 3,
         },
         {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -319,53 +319,85 @@ return {
       def = 0,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "谜肘",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Gitano",
-      gender = "",
-      combatexp = "",
-      origin = "Sámi",
-      birthday = "",
-      race = "Hirvea",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Sámi",
+      birthday = "?",
+      race = "Hirvea",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "谜肘",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "Doctor，您今日的运势是......",
-    "您是否渴望知晓有关未来的命运......",
-    "需要时刻提醒自己，那些未知的力量可能反过来作用于我们自己。",
-    "塔罗牌可以帮助你揭开心中的迷雾，可它并不是万能之神。",
-    "命运仿佛大地，走到哪里你无法挣脱命运的束缚。",
-    "虽然人无法挣脱大地的束缚，却可以改变大地。这能代表很多事情。",
-    "运势存在多种主题，我们最常见的就是......牌运。所以呢，想要改变牌运的话，就需要勇于改变命运。",
-    "我知道一个在占卜师之间很流行的仪式，我们叫它“命运之手”。想试试吗？",
-    "关于死亡，虽然在占卜师之间属于禁忌的话题。但我想，那应该不是终点，而是新的开始吧...",
-    "......要牢记您的梦境，Doctor，它偶尔会展示给你一些有趣的信息。",
-    "遵从阿尔克纳的指引，我终于能与你见面了。Doctor。",
-    "这次晋升我已经透过水晶预见了......嘻嘻，开玩笑的。",
-    "Doctor，你确实想要看一些所谓的命运预言？我只能说我帮不了你，因为为你揭示那些秘密的人，并不是我。",
-    "是命运扼住我们的咽喉，亦或是我们对命运的绝地反击？",
-    "我已经将他们全部移动到墓地之中了。",
-    "该重新洗牌了。",
-    "不，这不该是我们应有的命运......"
-  }
+    cn01 = "Doctor，您今日的运势是......",
+    cn02 = "您是否渴望知晓有关未来的命运......",
+    cn03 = "需要时刻提醒自己，那些未知的力量可能反过来作用于我们自己。",
+    cn04 = "塔罗牌可以帮助你揭开心中的迷雾，可它并不是万能之神。",
+    cn05 = "命运仿佛大地，走到哪里你无法挣脱命运的束缚。",
+    cn06 = "虽然人无法挣脱大地的束缚，却可以改变大地。这能代表很多事情。",
+    cn07 = "运势存在多种主题，我们最常见的就是......牌运。所以呢，想要改变牌运的话，就需要勇于改变命运。",
+    cn08 = "我知道一个在占卜师之间很流行的仪式，我们叫它“命运之手”。想试试吗？",
+    cn09 = "关于死亡，虽然在占卜师之间属于禁忌的话题。但我想，那应该不是终点，而是新的开始吧...",
+    cn10 = "......要牢记您的梦境，Doctor，它偶尔会展示给你一些有趣的信息。",
+    cn11 = "遵从阿尔克纳的指引，我终于能与你见面了。Doctor。",
+    cn12 = "是命运扼住我们的咽喉，亦或是我们对命运的绝地反击？",
+    cn13 = "这次晋升我已经透过水晶预见了......嘻嘻，开玩笑的。",
+    cn14 = "Doctor，你确实想要看一些所谓的命运预言？我只能说我帮不了你，因为为你揭示那些秘密的人，并不是我。",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "我已经将他们全部移动到墓地之中了。",
+    cn31 = "该重新洗牌了。",
+    cn32 = "不，这不该是我们应有的命运......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+

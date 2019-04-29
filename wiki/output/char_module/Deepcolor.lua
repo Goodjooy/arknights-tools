@@ -4,20 +4,21 @@ return {
   name = {
     en = "Deepcolor",
     cn = "深海色",
-    jp = "",
-    kr = "",
+    jp = "?",
+    kr = "?",
+    ex = "Deepcolor",
   },
-  background = "",
+  fileKey = "Deepcolor",
   team = 15,
   position = "Ranged",
   roles = { "Summoner" },
-  faction = "logo_rhodes",
-  stars = 3,
-  class = "SUPPORT",
+  faction = "Rhodes Island",
+  stars = 4,
+  class = "Supporter",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = false,
+    gacha = false,
+    mission = false,
   },
   initialStats = {
     hp = 494,
@@ -43,8 +44,8 @@ return {
       range = "3-6",
       maxLevel = 35,
       images = {
-          portrait = "char_110_deepcl_portrait.png",
-          full = "char_110_deepcl_full.png"
+          portrait = "Deepcolor-0-portrait.png",
+          full = "Deepcolor-0.png"
       },
       maxStats = {
         hp = 677,
@@ -70,8 +71,8 @@ return {
       range = "3-1",
       maxLevel = 60,
       images = {
-          portrait = "char_110_deepcl_portrait.png",
-          full = "char_110_deepcl_full.png"
+          portrait = "Deepcolor-0-portrait.png",
+          full = "Deepcolor-0.png"
       },
       maxStats = {
         hp = 869,
@@ -94,18 +95,18 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SUP1",
-          name = "辅助芯片",
+          icon = "SupportChip.png",
+          name = "Support Chip",
           count = 3,
         },
         {
-          icon = "MTL_SL_RUSH1",
-          name = "酯原料",
+          icon = "RawEster.png",
+          name = "Raw Ester",
           count = 15,
         },
         {
-          icon = "MTL_SL_STRG1",
-          name = "代糖",
+          icon = "SugarSubstitute.png",
+          name = "Sugar Substitute",
           count = 15,
         },
       },
@@ -114,8 +115,8 @@ return {
       range = "3-1",
       maxLevel = 70,
       images = {
-          portrait = "char_110_deepcl_portrait.png",
-          full = "char_110_deepcl_full.png"
+          portrait = "Deepcolor-2-portrait.png",
+          full = "Deepcolor-2.png"
       },
       maxStats = {
         hp = 1023,
@@ -138,18 +139,13 @@ return {
       },
       materials = {
         {
-          icon = "MTL_ASC_SUP2",
-          name = "辅助芯片组",
+          icon = "SupportChipSet.png",
+          name = "Support Chip Set",
           count = 4,
         },
         {
-          icon = "MTL_SL_SYNTHA3",
-          name = "聚合剂·中",
-          count = 5,
-        },
-        {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 10,
         },
       },
@@ -159,7 +155,9 @@ return {
     {
       icon = "null",
       name = "光影之触",
-      type = 0,
+      recharge = "",
+      trigger = "Passive",
+      passive = true,
       description = "增强触手的能力: 触手防御力提高15% ，生命上限提高23% ，每秒恢复15 点生命",
       max_description = "增强触手的能力: 触手防御力提高30% ，生命上限提高50% ，每秒恢复40 点生命",
       range = nil,
@@ -169,9 +167,11 @@ return {
       duration = 0,
     },
     {
-      icon = "skchr_deepcl_2",
+      icon = "skchr-deepcl-2",
       name = "视觉陷阱",
-      type = 1,
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
       description = "攻击范围扩大 攻击范围内的触手获得35% 的物理闪避，自己和这些触手击中敌人时使其2 秒内攻击速度下降-20 ，移速减少-20%",
       max_description = "攻击范围扩大 攻击范围内的触手获得75% 的物理闪避，自己和这些触手击中敌人时使其2 秒内攻击速度下降-50 ，移速减少-50%",
       range = "3-4",
@@ -188,8 +188,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 1,
         },
       }
@@ -200,8 +200,8 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 2,
         },
       }
@@ -212,13 +212,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL1",
-          name = "技巧概要·卷1",
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 25,
         },
       }
@@ -229,18 +229,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 1,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 4,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 8,
         },
       }
@@ -251,18 +251,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL2",
-          name = "技巧概要·卷2",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "MTL_SL_BOSS2",
-          name = "装置",
+          icon = "Gadget.png",
+          name = "Gadget",
           count = 6,
         },
         {
-          icon = "MTL_SL_G2",
-          name = "固源岩",
+          icon = "RockBlock.png",
+          name = "Rock Block",
           count = 12,
         },
       }
@@ -273,18 +273,18 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "MTL_SKILL3",
-          name = "技巧概要·卷3",
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
           count = 2,
         },
         {
-          icon = "MTL_SL_BOSS3",
-          name = "全新装置",
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
           count = 3,
         },
         {
-          icon = "MTL_SL_G3",
-          name = "固源岩组",
+          icon = "RockSet.png",
+          name = "Rock Set",
           count = 6,
         },
       }
@@ -324,53 +324,85 @@ return {
       def = 20,
     },
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "REALMBW",
+    voiceActor = "?",
+    servers = "CN, JP",
+  },
   profile = {
-    base = {
-      realname = "",
-      codename = "Deepcolor",
-      gender = "",
-      combatexp = "",
-      origin = "Aegir",
-      birthday = "",
-      race = "Unknown",
-      height = "",
-      weight = "",
-      oripathy = "Yes",
+    records = {
+      resume = "...",
+      trust1 = "",
+      trust2 = "",
+      trust3 = "",
+      trust4 = "",
+      trust5 = "",
+      elite2 = "",
+      token = "",
     },
-    extra = {
-      
+    bio = {
+      gender = "?",
+      experience = "?",
+      origin = "Aegir",
+      birthday = "?",
+      race = "Unknown",
+      height = "?",
     },
     physical = {
-      strength = "",
-      mobility = "",
-      endurance = "",
-      tactic = "",
-      skill = "",
-      originium = "",
+      strength = "?",
+      mobility = "?",
+      endurance = "?",
+      tactic = "?",
+      skill = "?",
+      originium = "?",
     },
-    diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
-    meta = {
-      illustrator = "REALMBW",
-      voice = "",
-    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+    }
   },
   quotes = {
-    "你好Doctor...我能给你画一幅肖像画吗？不，这次我不会让它具现化的......而且并不是什么作品都能够被具现化。",
-    "我出现在这里，似乎有些唐突吧...",
-    "Doctor，我的瞳孔里倒映着的你，到底是什么颜色呢。",
-    "罗德岛真是个有趣的地方，充满了激发我灵感的素材。",
-    "你看到我这些可爱的“助手”们了么......诶？它们充满了危险的气息？明明很可爱呢......",
-    "呵呵，这就是你的颜色吗——凝视着我吧，让我染上更多属于你的颜色。",
-    "啊啊...没错，就算没人能理解我，我也会一直创作下去。无论他们变成了怎样的怪物。",
-    "我们创作者，每个月都会有那么三十多天的瓶颈期。感觉自己画的东西特别崩。并且每天的深夜会感觉自己效率特别高。",
-    "斑驳世界终在它幽暗腹中安然长眠，没错......那是深海真正的颜色。仅仅是黑？看来，我还没能将一切都与你分享呢。",
-    "是在......做梦吗？你那梦中的颜色——是否也像世间万物般绚烂呢，Doctor......",
-    "请叫我深海色，我的职业是画家。对，只是一个“画家”。",
-    "呃，请不要再这么密切地关注我了，这样下去，我，我不知道会变成什么样子......",
-    "Doctor，谢谢你——现在，让我们一起完成这幅作品吧？",
-    "如果真的惹恼了我，可不知道会有发生什么事情发生哦。",
-    "让我来给大家记录下全胜的英姿吧！",
-    "啊啊...衣服又弄脏了......",
-    "要是作战的结果也能自由变换就好了......"
-  }
+    cn01 = "你好Doctor...我能给你画一幅肖像画吗？不，这次我不会让它具现化的......而且并不是什么作品都能够被具现化。",
+    cn02 = "我出现在这里，似乎有些唐突吧...",
+    cn03 = "Doctor，我的瞳孔里倒映着的你，到底是什么颜色呢。",
+    cn04 = "罗德岛真是个有趣的地方，充满了激发我灵感的素材。",
+    cn05 = "你看到我这些可爱的“助手”们了么......诶？它们充满了危险的气息？明明很可爱呢......",
+    cn06 = "呵呵，这就是你的颜色吗——凝视着我吧，让我染上更多属于你的颜色。",
+    cn07 = "啊啊...没错，就算没人能理解我，我也会一直创作下去。无论他们变成了怎样的怪物。",
+    cn08 = "我们创作者，每个月都会有那么三十多天的瓶颈期。感觉自己画的东西特别崩。并且每天的深夜会感觉自己效率特别高。",
+    cn09 = "斑驳世界终在它幽暗腹中安然长眠，没错......那是深海真正的颜色。仅仅是黑？看来，我还没能将一切都与你分享呢。",
+    cn10 = "是在......做梦吗？你那梦中的颜色——是否也像世间万物般绚烂呢，Doctor......",
+    cn11 = "请叫我深海色，我的职业是画家。对，只是一个“画家”。",
+    cn12 = "如果真的惹恼了我，可不知道会有发生什么事情发生哦。",
+    cn13 = "呃，请不要再这么密切地关注我了，这样下去，我，我不知道会变成什么样子......",
+    cn14 = "Doctor，谢谢你——现在，让我们一起完成这幅作品吧？",
+    cn17 = "",
+    cn18 = "",
+    cn19 = "",
+    cn20 = "",
+    cn21 = "",
+    cn22 = "",
+    cn23 = "",
+    cn24 = "",
+    cn25 = "",
+    cn26 = "",
+    cn27 = "",
+    cn28 = "",
+    cn29 = "",
+    cn30 = "让我来给大家记录下全胜的英姿吧！",
+    cn31 = "啊啊...衣服又弄脏了......",
+    cn32 = "要是作战的结果也能自由变换就好了......",
+    cn33 = "",
+    cn34 = "",
+    cn36 = "",
+    cn37 = "Arknights",
+    cn42 = "",
+  },
+  skins = {
+
+  },
 }
+
