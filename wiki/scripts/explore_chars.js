@@ -3,8 +3,8 @@ Promise.resolve({ sourceFile: 'data/character_table.json' })
 .then(data => {
   let chars = JSON.parse(data.contents).data.gamedataCN
 
-  // let talentCounts = {}
-  // let candidateCounts = {}
+  let talentCounts = {}
+  let candidateCounts = {}
 
   Object.keys(chars).forEach(charKey => {
     let char = chars[charKey]
@@ -90,6 +90,6 @@ Promise.resolve({ sourceFile: 'data/character_table.json' })
     
   })
 
-  // console.log('candidateCounts', candidateCounts);
-  // console.log('talentCounts', talentCounts);
+  console.log('candidateCounts', candidateCounts);
+  console.log('talentCounts', talentCounts);
 })

@@ -6,8 +6,9 @@ return {
     cn = "{{name_cn}}",
     jp = "{{name_jp}}",
     kr = "{{name_kr}}",
+    ex = "{{name_ex}}",
   },
-  background = "{{background}}",
+  fileKey = "{{file}}",
   team = {{team}},
   position = "{{position}}",
   roles = { {{roles}} },
@@ -15,9 +16,9 @@ return {
   stars = {{stars}},
   class = "{{class}}",
   obtain = {
-    recruit = null,
-    gacha = null,
-    mission = null,
+    recruit = {{obtain_recruit}},
+    gacha = {{obtain_gacha}},
+    mission = {{obtain_mission}},
   },
   initialStats = {
     hp = {{init_hp}},
@@ -58,21 +59,32 @@ return {
   },
   trust = {{{trust}},
   },
+  infrastructure_skills = {
+    
+  },
+  meta = {
+    illustrator = "{{illustrator}}",
+    voiceActor = "{{voiceActor}}",
+    servers = "{{servers}}",
+  },
   profile = {
-    base = {
-      realname = "{{realname}}",
-      codename = "{{codename}}",
+    records = {
+      resume = "{{record_resume}}",
+      trust1 = "{{record_trust1}}",
+      trust2 = "{{record_trust2}}",
+      trust3 = "{{record_trust3}}",
+      trust4 = "{{record_trust4}}",
+      trust5 = "{{record_trust5}}",
+      elite2 = "{{record_elite2}}",
+      token = "{{record_token}}",
+    },
+    bio = {
       gender = "{{gender}}",
-      combatexp = "{{combatexp}}",
+      experience = "{{experience}}",
       origin = "{{origin}}",
       birthday = "{{birthday}}",
       race = "{{race}}",
       height = "{{height}}",
-      weight = "{{weight}}",
-      oripathy = "{{oripathy}}",
-    },
-    extra = {
-      
     },
     physical = {
       strength = "{{profile_strength}}",
@@ -82,13 +94,16 @@ return {
       skill = "{{profile_skill}}",
       originium = "{{profile_originium}}",
     },
-    diagnosis = {{diagnosis}},
-    meta = {
-      illustrator = "{{illustrator}}",
-      voice = "{{voice}}",
-    },
+    oripathy = {
+      infected = "{{oripathy}}",
+      diagnosis = "{{diagnosis}}",
+    }
   },
   quotes = {
     {{quotes}}
-  }
+  },
+  skins = {
+
+  },
 }
+

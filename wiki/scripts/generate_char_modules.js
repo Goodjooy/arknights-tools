@@ -16,6 +16,8 @@ Promise.all([
   /* 11 */ read('templates/upgrade.lua'),
   /* 12 */ read('templates/material.lua'),
   /* 13 */ read('output/arknights_cbt2_data/item_table.json'),
+  /* 14 */ read('input/customdata.json'),
+  /* 15 */ read('output/items.json'),
 ])
 .then(data => {
   let tpl_char_module = data[0].contents
@@ -34,6 +36,8 @@ Promise.all([
   let items = JSON.parse(data[13].contents).items
 
   let tls = JSON.parse(data[8].contents)
+  let custom = JSON.parse(data[14].contents)
+  let citems = JSON.parse(data[15].contents)
 
   let quotesByChar = {}
   Object.keys(quotes).forEach(quoteKey => {
@@ -43,6 +47,16 @@ Promise.all([
   })
 
   const t = text => tls[text] || text
+
+  const titleCase = str => {
+    return str.replace(/\w\S*/g, txt => {
+      return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+    })
+  }
+
+  const fileKey = name => {
+    return titleCase(name).replace(/\s/g, '').replace(/’/g, '')
+  }
 
   const fillData = (templateBody, replacers) => {
     Object.keys(replacers).forEach(find => {
@@ -95,14 +109,37 @@ Promise.all([
     return message
   }
 
+  const skillIcon = prefabId => {
+    if (!prefabId) return prefabId
+    return prefabId.replace(/\]$/, '').replace(/[\[_]/g, '-')
+  }
+
+  const spType = typeNum => {
+    return {
+      '1': 'Auto Charge',
+      '2': 'Charge On Attack',
+    }[String(typeNum)] || ''
+  }
+
+  const skillTrigger = skillType => {
+    return {
+      '0': 'Passive',
+      '1': 'Manual Trigger',
+      '2': 'Auto Trigger',
+    }[String(skillType)] || ''
+  }
+
   const skillTemplate = charSkill => {
     let baseSkill = skills[charSkill.skillId]
     return fillData(tpl_skill, {
-      icon: baseSkill.levels[0].prefabId,
+      icon: skillIcon(baseSkill.levels[0].prefabId),
       name: baseSkill.levels[0].name,
       description: skillDesc(baseSkill.levels[0]),
       max_description: skillDesc(baseSkill.levels[baseSkill.levels.length - 1]),
       type: baseSkill.levels[0].skillType,
+      recharge: spType(baseSkill.levels[0].spData.spType),
+      trigger: skillTrigger(baseSkill.levels[0].skillType),
+      passive: baseSkill.levels[0].skillType == 0 ? 'true' : 'false',
       range: baseSkill.levels[0].rangeId ? '"' + baseSkill.levels[0].rangeId + '"' : 'nil',
       max_range: baseSkill.levels[baseSkill.levels.length - 1].rangeId ? '"' + baseSkill.levels[baseSkill.levels.length - 1].rangeId + '"' : 'nil',
       spcost: baseSkill.levels[0].spData.spCost,
@@ -188,10 +225,13 @@ Promise.all([
     let indentString = [...Array(indent).keys()].reduce(c => c + '  ', '')
     list.forEach(material => {
       if (!items[material.id]) return
+      let baseItem = items[material.id]
+      let custItem = citems[baseItem.iconId + '.png']
+      if (!custItem) return
       materialsText += '\n' + fillData(tpl_material, {
         indent: indentString,
-        icon: items[material.id].iconId,
-        name: items[material.id].name,
+        icon: custItem.file,
+        name: custItem.name,
         count: material.count,
       })
     })
@@ -214,17 +254,18 @@ Promise.all([
   //   })
   // } 
 
-  const phaseTemplate = (charPhase) => {
+  const phaseTemplate = (char, charPhase, phaseNum, extra) => {
     if (!charPhase) return 'nil'
     let upgradeCostString = ''
     if (charPhase.evolveCost) {
       upgradeCostString = '\n      materials = {' + materials(charPhase.evolveCost) + '\n      },'
     }
+    let skinNum = phaseNum != 1 ? phaseNum : (extra.customElite1Skin ? 1 : 0)
     return fillData(tpl_char_rank, {
       range: charPhase.rangeId,
       maxLevel: charPhase.maxLevel,
-      img_portrait: charPhase.characterPrefabKey + '_portrait.png',
-      img_full: charPhase.characterPrefabKey + '_full.png',
+      img_portrait: titleCase(char.appellation) + '-' + skinNum + '-portrait.png',
+      img_full: titleCase(char.appellation) + '-' + skinNum + '.png',
       hp: charPhase.attributesKeyFrames[1].data.maxHp,
       atk: charPhase.attributesKeyFrames[1].data.atk,
       def: charPhase.attributesKeyFrames[1].data.def,
@@ -251,24 +292,106 @@ Promise.all([
     return message
   }
 
+  const className = classKey => {
+    return {
+      'PIONEER': 'Vanguard',
+      'WARRIOR': 'Guard',
+      'TANK': 'Defender',
+      'SPECIAL': 'Specialist',
+      'SNIPER': 'Sniper',
+      'CASTER': 'Caster',
+      'MEDIC': 'Medic',
+      'SUPPORT': 'Supporter',
+    }[classKey] || ''
+  }
+
+  const factionName = factionKey => {
+    return {
+      'logo_blacksteel': 'BlackSteel',
+      'logo_kazimierz': 'Kazimierz',
+      'logo_kjerag': 'Kjerag',
+      'logo_laterano': 'Laterano',
+      'logo_leithanien': 'Leithanien',
+      'logo_lungmen': 'Great Lungmen',
+      'logo_penguin': 'Penguin Logistics',
+      'logo_reunion': 'Reunion Movement',
+      'logo_rhine': 'Rhine Lab',
+      'logo_rhodes': 'Rhodes Island',
+      'logo_rim': 'ROM Billiton',
+      'logo_ursus': 'Ursus',
+      'logo_victoria': 'Victoria',
+    }[factionKey] || ''
+  }
+
+  const quotesList = charKey => {
+    let quotes = {};
+
+    [...Array(42).keys()].forEach(index => {
+      index++
+      if (index < 10) index = '0' + index
+      quotes['cn' + String(index)] = ""
+    })
+
+    quotes['cn37'] = "Arknights"
+    delete quotes['cn15']
+    delete quotes['cn16']
+    delete quotes['cn35']
+    delete quotes['cn38']
+    delete quotes['cn39']
+    delete quotes['cn40']
+    delete quotes['cn41']
+
+    const indexChange = {
+      "cn12": "cn13",
+      "cn13": "cn14",
+      "cn14": "cn12",
+      "cn15": "cn30",
+      "cn16": "cn31",
+      "cn17": "cn32",
+    }
+
+    quotesByChar[charKey].forEach((quote, index) => {
+      index++
+      let quoteIndex = 'cn' + (index < 10 ? '0' + index : String(index))
+      quote = quote.replace(/Dr\.\{@nickname\}/g, 'Doctor')
+      quote = quote.replace(/\{@nickname\}/g, 'Doctor')
+      quote = t(quote)
+      if (indexChange[quoteIndex]) {
+        quotes[indexChange[quoteIndex]] = quote
+      } else {
+        quotes[quoteIndex] = quote
+      }
+    })
+
+    return Object.keys(quotes)
+      .map(quoteKey =>  quoteKey + ' = "' + quotes[quoteKey] + '",')
+      .join('\n    ')
+  }
+
   Promise.each(Object.keys(characters), charKey => {
     let char = characters[charKey]
     if (!handbook[charKey]) return
     let info = extractHandbook(handbook[charKey])
+    let extra = custom[charKey] || custom['generic']
     let charBody = fillData(tpl_char_module, {
+      char_key: charKey,
       id: charKey.split('_')[1],
       num: char.displayNumber,
-      name_en: char.appellation,
+      name_en: t(char.appellation),
       name_cn: char.name,
-      name_jp: '',
-      name_kr: '',
-      background: '',
+      name_jp: extra.jp,
+      name_kr: extra.kr,
+      name_ex: char.appellation,
+      file: fileKey(t(char.appellation)),
       team: char.team,
       position: t(char.position),
       roles: char.tagList.map(t).map(v => '"'+v+'"').join(', '),
-      faction: char.displayLogo,
-      stars: parseInt(char.rarity, 10) + 1,
-      class: char.profession,
+      faction: factionName(char.displayLogo),
+      stars: parseInt(char.rarity, 10) + 2,
+      class: className(char.profession),
+      obtain_recruit: extra.obtain.recruit,
+      obtain_gacha: extra.obtain.gacha,
+      obtain_mission: extra.obtain.mission,
       init_hp: char.phases[0].attributesKeyFrames[0].data.maxHp,
       init_atk: char.phases[0].attributesKeyFrames[0].data.atk,
       init_def: char.phases[0].attributesKeyFrames[0].data.def,
@@ -286,9 +409,9 @@ Promise.all([
       init_provoke: char.phases[0].attributesKeyFrames[0].data.tauntLevel,
       init_stunImmune: char.phases[0].attributesKeyFrames[0].data.stunImmune,
       init_silenceImmune: char.phases[0].attributesKeyFrames[0].data.silenceImmune,
-      base: phaseTemplate(char.phases[0]),
-      elite1: phaseTemplate(char.phases[1]),
-      elite2: phaseTemplate(char.phases[2]),
+      base: phaseTemplate(char, char.phases[0], 0, extra),
+      elite1: phaseTemplate(char, char.phases[1], 1, extra),
+      elite2: phaseTemplate(char, char.phases[2], 2, extra),
       // phase0: '\n' + phaseTemplate('base', char.phases[0]),
       // phase1: char.phases[1] ? '\n' + phaseTemplate('elite1', char.phases[1]) : '',
       // phase2: char.phases[2] ? '\n' + phaseTemplate('elite2', char.phases[2]) : '',
@@ -311,29 +434,41 @@ Promise.all([
       skillup6: char.allSkillLvlup[4] ? '\n' + skillUpgrade(char.allSkillLvlup[4], 6) : '',
       skillup7: char.allSkillLvlup[5] ? '\n' + skillUpgrade(char.allSkillLvlup[5], 7) : '',
       trust: trustList(char.favorKeyFrames),
-      realname: '',
-      codename: char.appellation,
-      gender: '',
-      combatexp: '',
-      origin: t(info.origin),
-      birthday: '',
-      race: t(info.race),
-      height: '',
-      weight: '',
-      oripathy: info.infected === null ? 'Unknown' : (info.infected ? 'Yes' : 'No'),
-      profile_strength: '',
-      profile_mobility: '',
-      profile_endurance: '',
-      profile_tactic: '',
-      profile_skill: '',
-      profile_originium: '',
-      diagnosis: '"' + info.diagnosis + '"',
+
       illustrator: info.illust,
-      voice: '',
-      quotes: quotesByChar[charKey].map(t).map(v => '"'+quoteText(v)+'"').join(',\n    '),
+      voiceActor: extra.voiceActor,
+      servers: extra.servers,
+
+      record_resume: extra.records.resume,
+      record_trust1: extra.records.trust1,
+      record_trust2: extra.records.trust2,
+      record_trust3: extra.records.trust3,
+      record_trust4: extra.records.trust4,
+      record_trust5: extra.records.trust5,
+      record_elite2: extra.records.elite2,
+      record_token:  extra.records.token,
+
+      gender: extra.bio.gender,
+      experience: extra.bio.experience,
+      origin: t(info.origin),
+      birthday: extra.bio.birthday,
+      race: t(info.race),
+      height: extra.bio.height,
+
+      profile_strength: extra.physical.strength,
+      profile_mobility: extra.physical.mobility,
+      profile_endurance: extra.physical.endurance,
+      profile_tactic: extra.physical.tactic,
+      profile_skill: extra.physical.skill,
+      profile_originium: extra.physical.originium,
+
+      oripathy: info.infected === null ? 'Unknown' : (info.infected ? 'Yes' : 'No'),
+      diagnosis: info.diagnosis,
+
+      quotes: quotesList(charKey),
     })
     return save({
-      destFile: 'output/char_module/' + char.appellation + '.lua',
+      destFile: 'output/char_module/' + t(char.appellation) + '.lua',
       destBody: charBody,
     })
   })

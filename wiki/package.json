@@ -5,6 +5,7 @@
   "scripts": {
     "charmodules": "node scripts/generate_char_modules.js",
     "itemmodules": "node scripts/generate_item_modules.js",
+    "chartable": "node scripts/chartable.js",
     "interactions": "node scripts/extract_interactions.js",
     "profiles": "node scripts/extract_profiles.js",
     "explore": "node scripts/explore_chars.js",
@@ -13,6 +14,7 @@
     "potentials": "node scripts/potentials.js",
     "skills": "node scripts/skills_csv.js",
     "portraits": "node scripts/rename_portraits.js",
+    "items": "node scripts/rename_items.js",
     "reformat": "node scripts/reformat.js"
   },
   "dependencies": {

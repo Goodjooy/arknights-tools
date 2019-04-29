@@ -1,7 +1,9 @@
     {
       icon = "{{icon}}",
       name = "{{name}}",
-      type = {{type}},
+      recharge = "{{recharge}}",
+      trigger = "{{trigger}}",
+      passive = {{passive}},
       description = "{{description}}",
       max_description = "{{max_description}}",
       range = {{range}},
