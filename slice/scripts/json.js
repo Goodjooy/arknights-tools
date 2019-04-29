@@ -1,19 +1,27 @@
+// npm run json avatars avatars1.png
+
 const glob = require('glob')
 const path = require('path')
 const fs = require('fs')
 
-new Promise(done => glob('input/dump/*.json', (err, data) => done(data)))
-  .then(files => {
-    let charlist = fs.readFileSync('input/charlist.json', { encoding: 'utf8' })
-    charlist = JSON.parse(charlist)
-    charlist = charlist[process.argv[2]]
+const category = process.argv[2]
+const fileName = process.argv[3]
 
+new Promise(done => glob('input/dump/'+category+'/*.json', (err, data) => done(data)))
+  .then(files => {
     let coords = {}
+
+    let charlist = fs.readFileSync('input/'+category+'.json', { encoding: 'utf8' })
+    if (charlist) charlist = JSON.parse(charlist)
+    if (charlist) charlist = charlist[fileName]
 
     files.forEach(file => {
       let spriteKey = path.basename(file).split('-')[0]
 
-      if (charlist.indexOf(spriteKey) === -1) return
+      let keyParts = spriteKey.split('_')
+      if (!keyParts.pop().match(/^\d+$/)) spriteKey = spriteKey + '_1'
+
+      if (charlist && charlist.indexOf(spriteKey) === -1) return
 
       spriteKey = spriteKey.replace('+', 'a')
       spriteKey = spriteKey.replace('#', 'b')
@@ -26,7 +34,7 @@ new Promise(done => glob('input/dump/*.json', (err, data) => done(data)))
       }
     })
 
-    fs.writeFileSync('output/json/spite_coords.json', JSON.stringify(coords, null, 2))
+    fs.writeFileSync('output/current.json', JSON.stringify(coords, null, 2))
   })
   .then(() => {
     console.log('DONE!');

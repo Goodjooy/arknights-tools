@@ -5,6 +5,9 @@ const Promise = require('bluebird')
 const Canvas = require('canvas')
 
 const Image = Canvas.Image
+const category = process.argv[2]
+const fileName = process.argv[3]
+const suffix = process.argv[4] || ''
 
 const loadImage = inputPath => {
   return new Promise((done, fail) => {
@@ -29,15 +32,14 @@ const saveImage = (outputPath, canvas) => {
 }
 
 Promise.coroutine(function*() {
-  let coords = fs.readFileSync('output/json/spite_coords.json', { encoding: 'utf8' })
+  let coords = fs.readFileSync('output/current.json', { encoding: 'utf8' })
   coords = JSON.parse(coords)
 
-  let sourceFile = process.argv[2]
-  let suffix = process.argv[3] || ''
-  let targetDir = 'output/images/' + sourceFile
+  
+  let targetDir = 'output/' + category
   if (!fs.existsSync(targetDir)) fs.mkdirSync(targetDir)
 
-  let imgEl = yield loadImage('../input/images/' + sourceFile)
+  let imgEl = yield loadImage('../input/images/' + fileName)
 
 
   yield Promise.each(Object.keys(coords), spriteKey => {

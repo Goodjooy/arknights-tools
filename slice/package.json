@@ -1,7 +1,7 @@
 {
   "name": "slice",
   "scripts": {
-    "json": "node scripts/dumpjson.js",
+    "json": "node scripts/json.js",
     "slice": "node scripts/slice.js"
   },
   "dependencies": {
