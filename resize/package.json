@@ -1,0 +1,11 @@
+{
+  "name": "resize",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "glob": "^7.1.3",
+    "bluebird": "^3.5.1",
+    "canvas": "^2.0.0-alpha.13"
+  }
+}
