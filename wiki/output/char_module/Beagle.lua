@@ -1,6 +1,6 @@
 return {
   id = "122",
-  num = "R122",
+  num = "PA14",
   name = {
     en = "Beagle",
     cn = "米格鲁",
@@ -11,7 +11,7 @@ return {
   fileKey = "Beagle",
   team = 2,
   position = "Melee",
-  roles = { "Tank" },
+  roles = { "防护" },
   faction = "Rhodes Island",
   stars = 3,
   class = "Defender",
@@ -21,15 +21,15 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 1080,
-    atk = 118,
-    def = 237,
+    hp = 1144,
+    atk = 184,
+    def = 242,
     resist = 0,
     cost = 16,
     block = 3,
     speed = 1,
     atkspd = 100,
-    baseAtkTime = 1.3,
+    baseAtkTime = 1.2,
     respawn = 70,
     hpRegen = 0,
     spRegen = 1,
@@ -42,21 +42,21 @@ return {
   ranks = {
     base = {
       range = "0-1",
-      maxLevel = 30,
+      maxLevel = 40,
       images = {
           portrait = "Beagle-0-portrait.png",
           full = "Beagle-0.png"
       },
       maxStats = {
-        hp = 1441,
-        atk = 169,
-        def = 355,
+        hp = 1526,
+        atk = 236,
+        def = 362,
         resist = 0,
         cost = 16,
         block = 3,
         speed = 1,
         atkspd = 100,
-        baseAtkTime = 1.3,
+        baseAtkTime = 1.2,
         respawn = 70,
         hpRegen = 0,
         spRegen = 1,
@@ -75,15 +75,15 @@ return {
           full = "Beagle-0.png"
       },
       maxStats = {
-        hp = 1922,
-        atk = 243,
-        def = 480,
+        hp = 2035,
+        atk = 295,
+        def = 490,
         resist = 0,
         cost = 18,
         block = 3,
         speed = 1,
         atkspd = 100,
-        baseAtkTime = 1.3,
+        baseAtkTime = 1.2,
         respawn = 70,
         hpRegen = 0,
         spRegen = 1,
@@ -94,16 +94,6 @@ return {
         silenceImmunity = false,
       },
       materials = {
-        {
-          icon = "DefenderChip.png",
-          name = "Defender Chip",
-          count = 2,
-        },
-        {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
-        },
       },
     },
     elite2 = nil,
@@ -115,20 +105,20 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力提高10%",
-      max_description = "防御力提高50%",
+      description = "防御力+10%",
+      max_description = "防御力+50%",
       range = nil,
       max_range = nil,
       spcost = 50,
       max_spcost = 40,
-      duration = 24,
+      duration = 30,
     },
   },
   skillup = {
     {
       skillLevel = 2,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
           icon = "BasicSkillBooks.png",
@@ -140,29 +130,34 @@ return {
     {
       skillLevel = 3,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
           count = 2,
         },
+        {
+          icon = "Ketone.png",
+          name = "Ketone",
+          count = 1,
+        },
       }
     },
     {
       skillLevel = 4,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
-          icon = "BasicSkillBooks.png",
-          name = "Basic Skill Books",
-          count = 3,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 1,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 20,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 1,
         },
       }
     },
@@ -177,14 +172,9 @@ return {
           count = 1,
         },
         {
-          icon = "Polyester.png",
-          name = "Polyester",
-          count = 4,
-        },
-        {
-          icon = "Sugar.png",
-          name = "Sugar",
-          count = 4,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 3,
         },
       }
     },
@@ -196,17 +186,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 1,
         },
         {
-          icon = "Polyester.png",
-          name = "Polyester",
-          count = 6,
-        },
-        {
-          icon = "Sugar.png",
-          name = "Sugar",
-          count = 6,
+          icon = "ManganeseOre.png",
+          name = "Manganese Ore",
+          count = 1,
         },
       }
     },
@@ -221,14 +206,9 @@ return {
           count = 2,
         },
         {
-          icon = "PolyesterPack.png",
-          name = "Polyester Pack",
-          count = 3,
-        },
-        {
-          icon = "SugarPack.png",
-          name = "Sugar Pack",
-          count = 3,
+          icon = "PolishStone.png",
+          name = "Polish Stone",
+          count = 1,
         },
       }
     },
@@ -236,9 +216,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 50,
+        level = 55,
         name = "防御提升",
-        description = "防御力提升10%",
+        description = "防御力+10%",
       },
     },
   },
@@ -252,9 +232,9 @@ return {
   trust = {
     {
       trust = 50,
-      maxHp = 100,
+      maxHp = 0,
       atk = 0,
-      def = 70,
+      def = 60,
     },
   },
   infrastructure_skills = {
@@ -279,9 +259,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Bolívar",
+      origin = "",
       birthday = "?",
-      race = "Perro",
+      race = "",
       height = "?",
     },
     physical = {
@@ -294,40 +274,46 @@ return {
     },
     oripathy = {
       infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。
+
+【体细胞与源石融合率】8%
+体表暂未出现明显的矿石病病征。
+
+【血液源石结晶密度】0.41 u/L
+感染程度尚浅，暂时还没有带来明显身体影响。",
     }
   },
   quotes = {
-    cn01 = "Doctor，今天由我来担当你的护卫！请放心，不会有任何可疑的人有机会靠近你！",
-    cn02 = "今天我的训练成绩单？呃，那个您就别看啦......",
-    cn03 = "每次实战前我都很紧张，芬队总是为我捏一把汗......Doctor，我该怎么办><？",
-    cn04 = "芙蓉和炎熔总是来单独找我吐槽他们对方......可是她们都是我最好的朋友，我觉得她们说的都很好有道理，我该怎么办？......Doctor！",
-    cn05 = "杜宾老师都告诉我，虽然不再是新人了，但是在战斗中还是要优先保命。呜，真不甘心，什么时候才能变得更强更帅气呢？",
-    cn06 = "虽然还是新人干员，不过我也有所进步吧？嘿嘿，如果您觉得是，希望能多夸奖我一下......",
-    cn07 = "矿石病？我倒不是很在意，虽然除了和以前没有太大的区别，但还是能希望和大家多待很多年，直到把病治好......呜。",
-    cn08 = "其实在这之前我一直没什么自信，但是能保护大家和Doctor......我很高兴！希望这样的日子能继续下去。大家都是我要保护的人！",
-    cn09 = "......好想在睡着的Doctor脸上恶作剧啊。",
-    cn10 = "我是米格鲁，虽然面试评定的成绩不是很高，不过还是合格了，我会努力做一名实习生！希望能帮上您的忙！",
-    cn11 = "这下，这下就不会再被人喊“宇宙级新人”了啦！",
-    cn12 = "哈哈，赢了赢了！虽然还漏了一些敌人......嘿嘿......",
-    cn13 = "守护大家是我的使命！即使战斗再困难也不会动摇这个信念！",
-    cn14 = "敌人一个也没有漏！罗德岛的大家是最棒的！",
+    cn01 = "博士，今天我来担当您的护卫！放心，不会让可疑的人接近您的！",
+    cn02 = "我今天的训练成绩单......吗？呃，那个，您还是别看啦......",
+    cn03 = "每次战斗前我总是紧张的不得了，害的芬队长也要为我捏一把汗......我该怎么办好呢？博士><！",
+    cn04 = "芙蓉和炎熔总是来找我抱怨对方，可她们都是我的好朋友，各自的说法也都很有道理......博士，我该怎么办才好啊......？",
+    cn05 = "杜宾老师总是教育我们——“就算新人期结束，实战中也要以保命为优先“——这样的话。呜~不甘心，什么时候才能变成她那样帅气又强大的人呢？",
+    cn06 = "作为干员我还是新人，不过我也正在努力不是吗？嘿嘿，如果您也觉得我有进步，希望您能多多夸奖我一下......",
+    cn07 = "矿石病吗？已经不是很在意了，因为感觉和以前也没有多大的区别嘛~不过果然还是，希望和大家永远在一起，在病痊愈之前，一直在一起......呜......",
+    cn08 = "其实来这里之前，我对自己是没什么自信的......但是现在我能做到保护博士和大家了，真的很高兴！能保护所有人是我的梦想！所以，我也希望，如果这样的日子能一直持续下去就好了。",
+    cn09 = "......好想在睡着的博士脸上恶作剧啊。",
+    cn10 = "我是米格鲁！虽然，招募评定的成绩不太理想，但就算作为实习生我也会努力帮忙的！",
+    cn11 = "做到了！我变得更强啦！",
+    cn12 = "欸，我是队长？不是芬做队长真的好吗？",
+    cn13 = "这样、这样的话！就不会被人喊“宇宙级新人！”啦！",
+    cn14 = "我会加油的！",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "对不起......！对不起！",
-    cn31 = "",
-    cn32 = "",
+    cn18 = "要我上吗？",
+    cn19 = "抵达目标地点了！",
+    cn20 = "就是这里！",
+    cn21 = "哈~！",
+    cn22 = "看我~的！",
+    cn23 = "保护大家是我的使命！不管有什么困难，这个信念都不会动摇！",
+    cn24 = "敌人一个不漏的全都击溃了！罗德岛的各位是最棒的！",
+    cn25 = "赢了赢了！不过，还是稍稍放走了几个敌人，欸嘿嘿......",
+    cn26 = "对不起......对不起......",
+    cn27 = "我能帮你什么忙吗？",
+    cn28 = "博士！很、很痒的！",
+    cn29 = "博士，我可以每天都去您那里学习吗？",
+    cn30 = "明日方舟。",
+    cn31 = "你好呀，博士。",
+    cn32 = "请给我勇气！",
     cn33 = "",
     cn34 = "",
     cn36 = "",

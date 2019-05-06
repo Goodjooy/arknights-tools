@@ -1,6 +1,6 @@
 return {
   id = "209",
-  num = "R209",
+  num = "PA45",
   name = {
     en = "Cardigan",
     cn = "卡缇",
@@ -11,7 +11,7 @@ return {
   fileKey = "Cardigan",
   team = 3,
   position = "Melee",
-  roles = { "Tank" },
+  roles = { "防护" },
   faction = "Rhodes Island",
   stars = 3,
   class = "Defender",
@@ -21,15 +21,15 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 1168,
-    atk = 133,
-    def = 219,
+    hp = 1197,
+    atk = 190,
+    def = 229,
     resist = 0,
     cost = 16,
     block = 3,
     speed = 1,
     atkspd = 100,
-    baseAtkTime = 1.3,
+    baseAtkTime = 1.2,
     respawn = 70,
     hpRegen = 0,
     spRegen = 1,
@@ -42,21 +42,21 @@ return {
   ranks = {
     base = {
       range = "0-1",
-      maxLevel = 30,
+      maxLevel = 40,
       images = {
           portrait = "Cardigan-0-portrait.png",
           full = "Cardigan-0.png"
       },
       maxStats = {
-        hp = 1558,
-        atk = 190,
-        def = 327,
+        hp = 1597,
+        atk = 244,
+        def = 342,
         resist = 0,
         cost = 16,
         block = 3,
         speed = 1,
         atkspd = 100,
-        baseAtkTime = 1.3,
+        baseAtkTime = 1.2,
         respawn = 70,
         hpRegen = 0,
         spRegen = 1,
@@ -75,15 +75,15 @@ return {
           full = "Cardigan-0.png"
       },
       maxStats = {
-        hp = 2078,
-        atk = 272,
-        def = 442,
+        hp = 2130,
+        atk = 305,
+        def = 475,
         resist = 0,
         cost = 18,
         block = 3,
         speed = 1,
         atkspd = 100,
-        baseAtkTime = 1.3,
+        baseAtkTime = 1.2,
         respawn = 70,
         hpRegen = 0,
         spRegen = 1,
@@ -94,16 +94,6 @@ return {
         silenceImmunity = false,
       },
       materials = {
-        {
-          icon = "DefenderChip.png",
-          name = "Defender Chip",
-          count = 2,
-        },
-        {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
-        },
       },
     },
     elite2 = nil,
@@ -115,11 +105,11 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即恢复20% 的最大生命",
-      max_description = "立即恢复40% 的最大生命",
+      description = "立即恢复最大生命的20%",
+      max_description = "立即恢复最大生命的40%",
       range = nil,
       max_range = nil,
-      spcost = 25,
+      spcost = 26,
       max_spcost = 20,
       duration = 0,
     },
@@ -128,7 +118,7 @@ return {
     {
       skillLevel = 2,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
           icon = "BasicSkillBooks.png",
@@ -140,29 +130,34 @@ return {
     {
       skillLevel = 3,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
           count = 2,
         },
+        {
+          icon = "XenoIronShard.png",
+          name = "Xeno Iron Shard",
+          count = 1,
+        },
       }
     },
     {
       skillLevel = 4,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
-          icon = "BasicSkillBooks.png",
-          name = "Basic Skill Books",
-          count = 3,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 1,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 20,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 1,
         },
       }
     },
@@ -177,14 +172,9 @@ return {
           count = 1,
         },
         {
-          icon = "Polyester.png",
-          name = "Polyester",
-          count = 4,
-        },
-        {
-          icon = "Sugar.png",
-          name = "Sugar",
-          count = 4,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 1,
         },
       }
     },
@@ -196,17 +186,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
+          count = 1,
+        },
+        {
+          icon = "TwistAlcohol.png",
+          name = "Twist Alcohol",
           count = 2,
-        },
-        {
-          icon = "Polyester.png",
-          name = "Polyester",
-          count = 6,
-        },
-        {
-          icon = "Sugar.png",
-          name = "Sugar",
-          count = 6,
         },
       }
     },
@@ -221,14 +206,9 @@ return {
           count = 2,
         },
         {
-          icon = "PolyesterPack.png",
-          name = "Polyester Pack",
-          count = 3,
-        },
-        {
-          icon = "SugarPack.png",
-          name = "Sugar Pack",
-          count = 3,
+          icon = "ManganeseOre.png",
+          name = "Manganese Ore",
+          count = 2,
         },
       }
     },
@@ -236,9 +216,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 50,
+        level = 55,
         name = "生命上限提升",
-        description = "生命上限提升12%",
+        description = "生命上限+12%",
       },
     },
   },
@@ -254,7 +234,7 @@ return {
       trust = 50,
       maxHp = 300,
       atk = 0,
-      def = 40,
+      def = 0,
     },
   },
   infrastructure_skills = {
@@ -279,9 +259,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Leithanian",
+      origin = "",
       birthday = "?",
-      race = "Perro",
+      race = "",
       height = "?",
     },
     physical = {
@@ -293,41 +273,47 @@ return {
       originium = "?",
     },
     oripathy = {
-      infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      infected = "No",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+
+【体细胞与源石融合率】0% 
+干员卡缇没有被源石感染的迹象。
+
+【血液源石结晶密度】0.09u/L 
+干员卡缇甚少接触源石。",
     }
   },
   quotes = {
-    cn01 = "耶，Doctor，是我来您身边值班啦！",
-    cn02 = "您问卡缇这个代号的来源？啊啊，用种族作代号只是我们家里的一种习惯......",
-    cn03 = "另一个小组也有我的同族耶，有时间我会邀请她来玩的！",
-    cn04 = "我出生在莱塔尼亚北方，那里到处是雪原和森林，有机会的话，让我教您滑雪吧！",
-    cn05 = "人们总对我们盾兵有刻板印象，认为原地防御才是我们的主要工作，这种想法真老土！做盾兵做重要的是速度！现在可是运动战的时代！",
-    cn06 = "这个香味......一定是玫兰莎！好想和她走得更近一些......！这样我们的配合就能更加默契啦......",
-    cn07 = "啊哈，我超~喜欢照顾小孩子，在老家的时候，我每年都要拉着弟弟妹妹在雪橇上旅行呢，好怀念啊~说到雪橇......安德切尔不知道愿不愿意帮我做一个呢？",
-    cn08 = "其实我也有不少不快乐的事情，比如缠绕在大家身上的这种病症......不过为何要去想这样的事情呢，好好迎接明天不是更好吗？尤其是还能与Doctor您这样的人共事！",
+    cn01 = "耶！博士，现在轮到我陪您值班了！",
+    cn02 = "“卡缇”作为代号的含义是什么？啊哈~其实这是大家对我们种族的称呼，把它当做代号也是我家里的习惯啦。",
+    cn03 = "啊，另一个小组里也有和我同族的孩子耶~下次我去约她玩！",
+    cn04 = "我出生在莱塔尼亚的北方，那里到处都是雪和森林。对了，下次我来教您滑雪吧！",
+    cn05 = "大家经常抱着“重装干员的话，职责就是巩固好自己的防线”这样老旧的印象，这样的想法早就落伍啦！现在可是机动战的时代，速度才是最重要的！",
+    cn06 = "哼哼，这股香气，一定是玫兰莎！欸博士我和你说，我好想和她再亲近一点......那样的话，我们的团队协作一定会变得更加默契！",
+    cn07 = "嘿嘿，我超喜欢和孩子们一起玩的。在老家的时候，我每年都要拉着弟弟妹妹们坐着雪橇去旅行呢，好怀念啊~啊，说到雪橇——不知道安德切尔愿不愿意帮我做一个呢？",
+    cn08 = "我也有很多不喜欢的东西，比如说矿石病啊什么的......但是，反正为这些烦恼也没有用，还不如快快乐乐地度过每一天！而且，还有博士您在我身边呢！",
     cn09 = "汪！",
-    cn10 = "你好！第一次来到这么大的移动设施，有点兴奋过头了！我是卡缇的梅莉，您就是Doctor吧？",
-    cn11 = "耶！我会好好表现等待下次晋升的！有一就有二嘛。",
-    cn12 = "感谢各位医生，是你们拯救了我的生命......",
-    cn13 = "大家一定能办到这点，我从来都是这样相信的。对吧安德切尔？",
-    cn14 = "耶——完美胜利！",
+    cn10 = "你——好！我第一次来到这么大的移动设施里面，现在超兴奋的！我是卡缇族的梅莉，您就是博士吗？",
+    cn11 = "欸嘿嘿，谢谢！",
+    cn12 = "啊，安赛尔！哎呀，不会的不会的，我才不会带大家乱跑啦......",
+    cn13 = "耶！我会努力争取下次晋升的！毕竟有一就有二嘛~",
+    cn14 = "好耶！终于等到机会了！",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "呜......对不起......安赛尔......",
-    cn31 = "",
-    cn32 = "",
+    cn18 = "好！",
+    cn19 = "了解！",
+    cn20 = "我会保护大家的！",
+    cn21 = "啊哈！",
+    cn22 = "你们的攻击毫无意义！",
+    cn23 = "我相信大家一定能做到，对吧安德切尔？",
+    cn24 = "耶——！大获全胜！",
+    cn25 = "谢谢医疗组！你们都是我的救命恩人......",
+    cn26 = "呜......对不起......安赛尔......",
+    cn27 = "史都华德，接下来我该做点什么好？",
+    cn28 = "哇！过山车——！",
+    cn29 = "玫兰莎？哎，怎么是博士......",
+    cn30 = "明日方舟。",
+    cn31 = "我在这里哦，博士！",
+    cn32 = "在战场上，可不能犹豫！",
     cn33 = "",
     cn34 = "",
     cn36 = "",

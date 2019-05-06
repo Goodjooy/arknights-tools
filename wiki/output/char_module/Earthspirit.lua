@@ -1,6 +1,6 @@
 return {
   id = "183",
-  num = "R183",
+  num = "LN01",
   name = {
     en = "Earthspirit",
     cn = "地灵",
@@ -9,7 +9,7 @@ return {
     ex = "Earthspirit",
   },
   fileKey = "Earthspirit",
-  team = 17,
+  team = -1,
   position = "Ranged",
   roles = { "Slow" },
   faction = "",
@@ -21,10 +21,10 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 562,
-    atk = 183,
+    hp = 548,
+    atk = 202,
     def = 46,
-    resist = 0,
+    resist = 10,
     cost = 12,
     block = 1,
     speed = 1,
@@ -41,17 +41,17 @@ return {
   },
   ranks = {
     base = {
-      range = "y-1",
-      maxLevel = 35,
+      range = "y-2",
+      maxLevel = 45,
       images = {
           portrait = "Earthspirit-0-portrait.png",
           full = "Earthspirit-0.png"
       },
       maxStats = {
-        hp = 770,
-        atk = 292,
+        hp = 751,
+        atk = 298,
         def = 66,
-        resist = 0,
+        resist = 10,
         cost = 12,
         block = 1,
         speed = 1,
@@ -75,10 +75,10 @@ return {
           full = "Earthspirit-0.png"
       },
       maxStats = {
-        hp = 989,
-        atk = 400,
+        hp = 964,
+        atk = 398,
         def = 85,
-        resist = 0,
+        resist = 15,
         cost = 14,
         block = 1,
         speed = 1,
@@ -100,14 +100,14 @@ return {
           count = 3,
         },
         {
-          icon = "RawEster.png",
-          name = "Raw Ester",
-          count = 15,
+          icon = "XenoIron.png",
+          name = "Xeno Iron",
+          count = 1,
         },
         {
-          icon = "SugarSubstitute.png",
-          name = "Sugar Substitute",
-          count = 15,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 1,
         },
       },
     },
@@ -119,10 +119,10 @@ return {
           full = "Earthspirit-2.png"
       },
       maxStats = {
-        hp = 1165,
-        atk = 465,
+        hp = 1205,
+        atk = 480,
         def = 101,
-        resist = 0,
+        resist = 20,
         cost = 14,
         block = 1,
         speed = 1,
@@ -141,30 +141,35 @@ return {
         {
           icon = "SupportChipSet.png",
           name = "Support Chip Set",
-          count = 4,
+          count = 5,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 10,
+          icon = "SugarPack.png",
+          name = "Sugar Pack",
+          count = 20,
+        },
+        {
+          icon = "PolishStone.png",
+          name = "Polish Stone",
+          count = 7,
         },
       },
     },
   },
   skills = {
     {
-      icon = "skchr-skgoat-1",
-      name = "主动震撼",
+      icon = "skcom-atk-up",
+      name = "攻击力强化·β型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围内的敌军额外减少移动速度-20%",
-      max_description = "攻击范围内的敌军额外减少移动速度-35%",
+      description = "攻击力+20%",
+      max_description = "攻击力+80%",
       range = nil,
       max_range = nil,
-      spcost = 30,
-      max_spcost = 30,
-      duration = 17,
+      spcost = 40,
+      max_spcost = 35,
+      duration = 25,
     },
     {
       icon = "skchr-skgoat-2",
@@ -172,13 +177,13 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "停止攻击，攻击范围内的敌军额外减少移动速度-33%",
-      max_description = "停止攻击，攻击范围内的敌军额外减少移动速度-50%",
+      description = "停止攻击；攻击范围内的敌方单位每1.8 秒受到一次停顿效果",
+      max_description = "停止攻击；攻击范围内的敌方单位每1.4 秒受到一次停顿效果",
       range = nil,
       max_range = nil,
-      spcost = 35,
-      max_spcost = 35,
-      duration = 20,
+      spcost = 60,
+      max_spcost = 40,
+      duration = 25,
     },
   },
   skillup = {
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 2,
         },
       }
     },
@@ -204,6 +209,11 @@ return {
           name = "Basic Skill Books",
           count = 2,
         },
+        {
+          icon = "XenoIronShard.png",
+          name = "Xeno Iron Shard",
+          count = 3,
+        },
       }
     },
     {
@@ -212,14 +222,14 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "BasicSkillBooks.png",
-          name = "Basic Skill Books",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 25,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 2,
         },
       }
     },
@@ -231,17 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 3,
         },
         {
           icon = "Gadget.png",
           name = "Gadget",
-          count = 4,
-        },
-        {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 8,
+          count = 2,
         },
       }
     },
@@ -256,14 +261,9 @@ return {
           count = 3,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 6,
-        },
-        {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 12,
+          icon = "FlocculatedKetoneCase.png",
+          name = "Flocculated Ketone Case",
+          count = 2,
         },
       }
     },
@@ -275,37 +275,22 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
-          count = 2,
+          count = 4,
         },
         {
           icon = "CurrentGadget.png",
           name = "Current Gadget",
-          count = 3,
-        },
-        {
-          icon = "RockSet.png",
-          name = "Rock Set",
-          count = 6,
+          count = 2,
         },
       }
     },
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "减速光环·初级",
-        description = "攻击范围内的敌方单位移速减少10%",
-      },
-      rank1 = {
-        level = 1,
-        name = "减速光环·中级",
-        description = "攻击范围内的敌方单位移速减少15%",
-      },
       rank2 = {
         level = 1,
-        name = "减速光环·精通",
-        description = "攻击范围内的敌方单位移速减少20%",
+        name = "地质勘探",
+        description = "略微延长特性停顿的持续时间",
       },
     },
   },
@@ -319,8 +304,8 @@ return {
   trust = {
     {
       trust = 50,
-      maxHp = 150,
-      atk = 65,
+      maxHp = 0,
+      atk = 50,
       def = 0,
     },
   },
@@ -346,9 +331,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Leithanian",
+      origin = "",
       birthday = "?",
-      race = "Caprinae",
+      race = "",
       height = "?",
     },
     physical = {
@@ -361,45 +346,52 @@ return {
     },
     oripathy = {
       infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。
+
+【体细胞与源石融合率】14% 
+干员地灵体表已生成可见结晶，病灶处位于手腕。
+
+【血液源石结晶密度】0.31u/L
+干员地灵血液结晶密度尚处于可控状态。",
     }
   },
   quotes = {
-    cn01 = "Doctor，我已经按您的要求将源石与其他矿物甄别分类完毕，还有别的需求吗？",
-    cn02 = "矿石病真麻烦啊，就连行动都要被凯尔希限制。寿命削减？不，这无所谓。",
-    cn03 = "这把音叉？是魔杖。它不仅是武器，也是地质勘探的工具，很顺手。",
-    cn04 = "没有遇见罗德岛的话，我可能还在全职从事地质研究。但没遇见你们的话，这条命可能也就丢了。",
+    cn01 = "博士，我已经按您的要求，将源石和其他矿物甄别分拣完毕了，还有别的需求吗？",
+    cn02 = "矿石病真麻烦啊，我现在，就连行动都会被凯尔希医生限制。寿命会被矿石病削减？不，这个倒无所谓啦。",
+    cn03 = "这把音叉？是魔杖。它不仅是武器，也是用在地质勘探上的工具，用起来十分顺手。",
+    cn04 = "没有遇见罗德岛的话，我可能还在全职从事地质研究的工作。但没遇见你们的话，我可能也已经没命了。",
     cn05 = "啊？我有黑眼圈了？讨厌，我就知道......",
-    cn06 = "我背后的是什么？是......算了，解释起来会很麻烦，等有时间再说可以吗。",
-    cn07 = "有些石头是会说话的，絮絮叨叨，吵闹不停，甚至能让你失眠。......你以为我在开玩笑？我像在开玩笑的样子？",
-    cn08 = "普罗旺斯还是一如既往的神经大条，再不注意可就要落到我这样重症感染的下场了。你们最好也多提醒提醒她。",
-    cn09 = "就是这个，就是这个！你看，你看......至少距今三十五万年的地壳挤压，才会形成这种截面！太棒了......Doctor，知道吗，那些一直以来反驳这项理论的人才是愚昧的......！",
-    cn10 = "唔......嗯。是太疲劳了吗。",
-    cn11 = "地灵，地质学家兼战斗法师，向你报道。工作时间每日八小时，加班薪水另算。",
-    cn12 = "敌人的这种行为，只会招致灾难——！",
-    cn13 = "科研方法也有不断精进的必要呢。",
-    cn14 = "冒昧提醒一下，我只拿一份薪水，就算升职，不加薪我也不会做更高强度的工作的哦。",
+    cn06 = "我背后的是什么？这是......算了，解释起来会很麻烦，等有时间再说吧。",
+    cn07 = "有些石头是会跟我说话的，絮絮叨叨，相互争吵不休，把我弄到失眠......你以为我在开玩笑？我难道像是在开玩笑的样子吗？",
+    cn08 = "普罗旺斯还是一如既往的神经大条，再不注意，她可就要变成我这样的重症感染者了。你们最好也多和她说说。",
+    cn09 = "就是这个，就是这个！你看，你看......至少距今三十五万年的地壳挤压，才会形成这种截面！太棒了......博士，知道吗，那些一直以来反驳这项理论的人才是愚昧的......！",
+    cn10 = "博士......哎，是不是工作得太疲惫了。",
+    cn11 = "地灵，地质学者兼术师，向你报道。我每天的工作时间是八小时，如果加班的话要额外支付加班费。",
+    cn12 = "冒昧提醒一下，我只拿一份薪水。不加薪的话，就算升职，我也不会做更多的工作哦。",
+    cn13 = "嗯，这是学术资料还是别的什么？",
+    cn14 = "科研方法也有不断精进的必要呢。",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "所有敌人都处理完毕了。",
-    cn31 = "是一场不错的胜利呢，Doctor。",
-    cn32 = "可恶......",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "不能让他们再这样滥用源石。",
+    cn19 = "在。",
+    cn20 = "作战计划是？",
+    cn21 = "准备完毕。",
+    cn22 = "敌人在哪里？",
+    cn23 = "陷下去吧！",
+    cn24 = "大地的力量......",
+    cn25 = "到此为止了！",
+    cn26 = "你不该踏足这里！",
+    cn27 = "敌人的这种行为，只会招致灾难。",
+    cn28 = "所有敌人都处理完毕了。",
+    cn29 = "是一场不错的胜利呢，博士。",
+    cn30 = "怎么会这样......",
+    cn31 = "这样的环境，挺适合研究的。",
+    cn32 = "唔......",
+    cn33 = "这块矿石......给我的？真的可以吗......这......很贵重啊？",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "博士，该工作了。",
   },
   skins = {
 

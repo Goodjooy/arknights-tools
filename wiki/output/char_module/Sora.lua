@@ -1,6 +1,6 @@
 return {
   id = "101",
-  num = "R101",
+  num = "PL05",
   name = {
     en = "Sora",
     cn = "空",
@@ -11,7 +11,7 @@ return {
   fileKey = "Sora",
   team = 11,
   position = "Ranged",
-  roles = { "Support" },
+  roles = { "Support", "治疗" },
   faction = "Penguin Logistics",
   stars = 5,
   class = "Supporter",
@@ -21,9 +21,9 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 493,
-    atk = 114,
-    def = 106,
+    hp = 519,
+    atk = 133,
+    def = 95,
     resist = 0,
     cost = 5,
     block = 1,
@@ -42,15 +42,15 @@ return {
   ranks = {
     base = {
       range = "x-4",
-      maxLevel = 40,
+      maxLevel = 50,
       images = {
           portrait = "Sora-0-portrait.png",
           full = "Sora-0.png"
       },
       maxStats = {
-        hp = 705,
-        atk = 190,
-        def = 177,
+        hp = 742,
+        atk = 208,
+        def = 142,
         resist = 0,
         cost = 5,
         block = 1,
@@ -75,9 +75,9 @@ return {
           full = "Sora-0.png"
       },
       maxStats = {
-        hp = 916,
-        atk = 261,
-        def = 247,
+        hp = 1017,
+        atk = 278,
+        def = 190,
         resist = 0,
         cost = 7,
         block = 1,
@@ -100,14 +100,14 @@ return {
           count = 4,
         },
         {
-          icon = "BrokenGadget.png",
-          name = "Broken Gadget",
-          count = 12,
+          icon = "XenoIron.png",
+          name = "Xeno Iron",
+          count = 4,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 2,
         },
       },
     },
@@ -119,9 +119,9 @@ return {
           full = "Sora-2.png"
       },
       maxStats = {
-        hp = 1145,
-        atk = 315,
-        def = 298,
+        hp = 1356,
+        atk = 335,
+        def = 238,
         resist = 0,
         cost = 7,
         block = 1,
@@ -141,12 +141,17 @@ return {
         {
           icon = "SupportTwinChip.png",
           name = "Support Twin Chip",
-          count = 2,
+          count = 3,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 8,
+          icon = "WhiteHorseAlcohol.png",
+          name = "White Horse Alcohol",
+          count = 9,
+        },
+        {
+          icon = "RockSet.png",
+          name = "Rock Set",
+          count = 17,
         },
       },
     },
@@ -172,8 +177,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围内所有友方单位的攻击力和防御力额外加上自身相应数值的50%",
-      max_description = "攻击范围内所有友方单位的攻击力和防御力额外加上自身相应数值的100%",
+      description = "攻击范围内所有其他友方单位的攻击力额外加上空自身攻击力的70%",
+      max_description = "攻击范围内所有其他友方单位的攻击力额外加上空自身攻击力的100%",
       range = nil,
       max_range = nil,
       spcost = 45,
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 4,
         },
       }
     },
@@ -202,7 +207,12 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 2,
+          count = 4,
+        },
+        {
+          icon = "XenoIronShard.png",
+          name = "Xeno Iron Shard",
+          count = 5,
         },
       }
     },
@@ -214,12 +224,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 6,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 30,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 3,
         },
       }
     },
@@ -231,12 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 6,
         },
         {
           icon = "Gadget.png",
           name = "Gadget",
-          count = 4,
+          count = 3,
         },
       }
     },
@@ -246,14 +256,14 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "TertiarySkillBooks.png",
-          name = "Tertiary Skill Books",
-          count = 1,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 4,
+          icon = "RockSet.png",
+          name = "Rock Set",
+          count = 5,
         },
       }
     },
@@ -265,12 +275,17 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
+          count = 6,
+        },
+        {
+          icon = "SugarPack.png",
+          name = "Sugar Pack",
           count = 3,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 6,
+          icon = "XenoIronChunk.png",
+          name = "Xeno Iron Chunk",
+          count = 3,
         },
       }
     },
@@ -280,12 +295,12 @@ return {
       rank1 = {
         level = 1,
         name = "安可",
-        description = "技能结束后有50%的几率立即回复25%的SP",
+        description = "技能结束后，50%几率立即回复25%的最大技力",
       },
       rank2 = {
         level = 1,
         name = "安可",
-        description = "技能结束后有50%的几率立即回复50%的SP",
+        description = "技能结束后，50%几率立即回复50%的最大技力",
       },
     },
   },
@@ -301,7 +316,7 @@ return {
       trust = 50,
       maxHp = 0,
       atk = 50,
-      def = 50,
+      def = 20,
     },
   },
   infrastructure_skills = {
@@ -326,9 +341,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Undisclosed",
+      origin = "",
       birthday = "?",
-      race = "Undisclosed",
+      race = "",
       height = "?",
     },
     physical = {
@@ -341,45 +356,52 @@ return {
     },
     oripathy = {
       infected = "No",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+
+【体细胞与源石融合率】0%
+干员空没有被源石感染的迹象。
+
+【血液源石结晶密度】0.12u/L
+干员空甚少接触源石。",
     }
   },
   quotes = {
-    cn01 = "你好，Doctor！您在做什么？好像很有趣的样子！",
-    cn02 = "罗德岛有没有适合唱歌的地方呢？是希望大家能在战斗之余一起唱卡拉OK放松一下啦！",
-    cn03 = "偶像的话，要用自己的歌声和表演吸引所有FAN的目光，可是干员的话，该怎么做呢......？",
-    cn04 = "博士博士，有什么工作能帮您做的吗？在企鹅物流里我也常干体力活呢。",
-    cn05 = "唱歌是我的专长，无论是清唱、领唱、偶像歌曲、流行歌曲，说唱也没问题！当干员好像不需要这些能力吧......要是我有什么能帮上忙的就好了。",
-    cn06 = "就算您问我耳朵是怎么回事......那个......也、也别去问德克萨斯了，以后我会告诉您的......！",
-    cn07 = "德克萨斯是我的救命恩人，教会我了许多事，所以有空的时候，我都想待在她身边......只是为了报恩而已！",
-    cn08 = "不太高兴？嘛......能天使今天也是和德克萨斯一起出动呢。如果能变得想她一样强......",
-    cn09 = "Doctor，请帮我特训使用武器吧！唱歌永远只能待在后队，如果学会使用武器的话............什、什么？您也不会战斗......？！",
-    cn10 = "......不知道德克萨斯是不是正在听我的CD呢？",
-    cn11 = "(｡･∀･)ﾉﾞ嗨大家好！我是MSR旗下的偶像空......啊......啊！抱歉，这样自我介绍，也许不太适合罗德岛这样的地方吧。唔......",
-    cn12 = "这次也让我感受到了大家的热情呢！谢谢你们！",
-    cn13 = "晋升就像是......偶像等级一样的制度吗？",
-    cn14 = "这种雀跃的心情，就像刚刚第一次登上LIVE舞台的那天......Doctor，非常感谢您的信赖，我至今的努力都是为了这一刻吧......嗯？我的耳朵？怎么了嘛？",
+    cn01 = "嗨~博士！您在做什么呢？好像很有趣的样子！",
+    cn02 = "罗德岛有没有适合唱歌的场所呢？我希望没有战斗的时候，大家能有个一起唱卡拉OK放松放松的地方！",
+    cn03 = "做偶像的时候，用歌声和表演来抓住Fans的心是我的工作，可是作为干员，我又该做些什么呢......？",
+    cn04 = "博士博士，有什么我能帮忙的吗？别看我这样，在企鹅物流里，我可也是会做些体力活的哦。",
+    cn05 = "果然我的专长就是唱歌！单人清唱也好，合唱领唱也行，流行歌曲偶像歌曲都没问题，甚至RAP都不在话下！不过，好像这些对干员的工作没什么帮助呢......如果能更多地帮到大家就好了。",
+    cn06 = "耳、耳朵的事？就算您这么问，我也不能......那个，就算问德克萨斯她也是不会说的！以后有机会我会向您解释......！",
+    cn07 = "德克萨斯是我的救命恩人，还教了我很多事情，所以只要有时间我都想待在她身边，帮她做点什么......嗯，只是想报恩而已！",
+    cn08 = "我看上去不太高兴？呣......因为，今天和德克萨斯一起做任务的人还是能天使对吧。哈......如果我也能像能天使那样强的话......",
+    cn09 = "博士！能不能教教我怎么使用武器！唱歌什么的，只能在后方支援大家，要是我能用武器战斗的话......欸欸？您也不太擅长战斗？",
+    cn10 = "......德克萨斯，你在听我的歌吗？",
+    cn11 = "(｡･∀･)ﾉﾞ嗨！我是来自MSR的，大家的偶像空~！呃，抱歉抱歉~这种风格的自我介绍，好像不太适合罗德岛吧。呜......",
+    cn12 = "这样雀跃的心情，简直就像回到了初次站上LIVE舞台的那天......博士能这样信赖我，我真的很开心！至今为止的努力得到回报了......嗯？我的耳朵？怎、怎么了嘛......？",
+    cn13 = "升级！",
+    cn14 = "晋升？是像偶像等级一样的制度吗？",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "耶！作战成功！德克萨斯，看到我的表现了吗？",
-    cn31 = "大家都辛苦了！",
-    cn32 = "对不起......没有帮上大家的忙......",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "如果我的歌声能阻止这场战争就好了。",
+    cn19 = "该我出场了吗？",
+    cn20 = "我的话没问题！",
+    cn21 = "演唱会要开始喽！",
+    cn22 = "开始了哦~！",
+    cn23 = "大家加油~！",
+    cn24 = "我会支持你！",
+    cn25 = "让形势逆转吧！",
+    cn26 = "别输了！",
+    cn27 = "大家的热情欢呼，今天也成功地传达给空了哟~！谢谢！",
+    cn28 = "成功了！大获全胜！德克萨斯，看到我活跃的表现了吗？",
+    cn29 = "大家辛苦了！",
+    cn30 = "对不起......我没能成为大家的力量......",
+    cn31 = "这里比企鹅物流的宿舍要大上好多呢！",
+    cn32 = "闪闪发光！",
+    cn33 = "欸嘿嘿~博士，谢谢你~！",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "今天也要开开心心哦，博士。",
   },
   skins = {
 

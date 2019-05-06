@@ -1,6 +1,6 @@
 return {
   id = "108",
-  num = "R108",
+  num = "RL01",
   name = {
     en = "Silence",
     cn = "赫默",
@@ -11,7 +11,7 @@ return {
   fileKey = "Silence",
   team = 4,
   position = "Ranged",
-  roles = { "Life recovery", "Support" },
+  roles = { "治疗" },
   faction = "Rhine Lab",
   stars = 5,
   class = "Medic",
@@ -21,9 +21,9 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 792,
-    atk = 165,
-    def = 66,
+    hp = 845,
+    atk = 166,
+    def = 62,
     resist = 0,
     cost = 17,
     block = 1,
@@ -42,15 +42,15 @@ return {
   ranks = {
     base = {
       range = "3-1",
-      maxLevel = 40,
+      maxLevel = 50,
       images = {
           portrait = "Silence-0-portrait.png",
           full = "Silence-0.png"
       },
       maxStats = {
-        hp = 1071,
-        atk = 254,
-        def = 96,
+        hp = 1191,
+        atk = 273,
+        def = 90,
         resist = 0,
         cost = 17,
         block = 1,
@@ -75,9 +75,9 @@ return {
           full = "Silence-0.png"
       },
       maxStats = {
-        hp = 1260,
-        atk = 386,
-        def = 120,
+        hp = 1435,
+        atk = 385,
+        def = 113,
         resist = 0,
         cost = 19,
         block = 1,
@@ -100,14 +100,14 @@ return {
           count = 4,
         },
         {
-          icon = "BrokenGadget.png",
-          name = "Broken Gadget",
-          count = 12,
+          icon = "XenoIron.png",
+          name = "Xeno Iron",
+          count = 4,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 3,
         },
       },
     },
@@ -119,9 +119,9 @@ return {
           full = "Silence-2.png"
       },
       maxStats = {
-        hp = 1400,
-        atk = 508,
-        def = 151,
+        hp = 1595,
+        atk = 482,
+        def = 142,
         resist = 0,
         cost = 19,
         block = 1,
@@ -141,12 +141,17 @@ return {
         {
           icon = "MedicTwinChip.png",
           name = "Medic Twin Chip",
-          count = 2,
+          count = 3,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 8,
+          icon = "KetoneArrangement.png",
+          name = "Ketone Arrangement",
+          count = 7,
+        },
+        {
+          icon = "RockSet.png",
+          name = "Rock Set",
+          count = 18,
         },
       },
     },
@@ -158,8 +163,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力提高40%",
-      max_description = "攻击力提高90%",
+      description = "攻击力+40%",
+      max_description = "攻击力+90%",
       range = nil,
       max_range = nil,
       spcost = 40,
@@ -172,12 +177,12 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "获得一个治疗机器人 最多可库存1个机器人，机器人投入战场后治疗周围友军，10秒后自动销毁",
-      max_description = "获得一个治疗机器人 最多可库存1个机器人，机器人投入战场后治疗周围友军，10秒后自动销毁",
+      description = "获得一个医疗无人机 最多可库存1个无人机；无人机投入战场后治疗周围友军，10秒后自动销毁",
+      max_description = "获得一个医疗无人机 最多可库存1个无人机；无人机投入战场后治疗周围友军，10秒后自动销毁",
       range = nil,
       max_range = nil,
       spcost = 30,
-      max_spcost = 19,
+      max_spcost = 18,
       duration = 0,
     },
   },
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 4,
         },
       }
     },
@@ -202,7 +207,12 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 2,
+          count = 4,
+        },
+        {
+          icon = "XenoIronShard.png",
+          name = "Xeno Iron Shard",
+          count = 5,
         },
       }
     },
@@ -214,12 +224,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 6,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 30,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 3,
         },
       }
     },
@@ -231,12 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 6,
         },
         {
           icon = "Gadget.png",
           name = "Gadget",
-          count = 4,
+          count = 3,
         },
       }
     },
@@ -246,14 +256,14 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "TertiarySkillBooks.png",
-          name = "Tertiary Skill Books",
-          count = 1,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 4,
+          icon = "PolishStone.png",
+          name = "Polish Stone",
+          count = 3,
         },
       }
     },
@@ -265,32 +275,32 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
-          count = 3,
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 6,
+          icon = "Rma70-12.png",
+          name = "RMA70-12",
+          count = 2,
+        },
+        {
+          icon = "PolyesterPack.png",
+          name = "Polyester Pack",
+          count = 3,
         },
       }
     },
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "强化注射·试验",
-        description = "在场时所有医疗职业的友方角色攻速提高5",
-      },
       rank1 = {
         level = 1,
-        name = "强化注射·改良",
-        description = "在场时所有医疗职业的友方角色攻速提高9",
+        name = "强化注射",
+        description = "在场时，所有友方【医疗】职业干员攻速+6",
       },
       rank2 = {
         level = 1,
-        name = "强化注射·成品",
-        description = "在场时所有医疗职业的友方角色攻速提高14",
+        name = "强化注射",
+        description = "在场时，所有友方【医疗】职业干员攻速+12",
       },
     },
   },
@@ -304,8 +314,8 @@ return {
   trust = {
     {
       trust = 50,
-      maxHp = 250,
-      atk = 90,
+      maxHp = 0,
+      atk = 75,
       def = 0,
     },
   },
@@ -331,9 +341,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Columbia",
+      origin = "",
       birthday = "?",
-      race = "Ribley",
+      race = "",
       height = "?",
     },
     physical = {
@@ -345,46 +355,56 @@ return {
       originium = "?",
     },
     oripathy = {
-      infected = "No",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+      infected = "Yes",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。
+
+【体细胞与源石融合率】6% 
+患者赫默的矿石病病灶位于体表左腿踝关节上部。 
+
+【血液源石结晶密度】0.24u/L
+患者赫默的内循环颗粒密度较轻，目前病症进程较为稳定。
+
+【源石并发症】
+患者赫默所属种族的拥有一定程度的嗜睡特性，以及与其他种族颠倒的睡眠周期。矿石病对其产生的消极影响，打乱了其睡眠周期的规律性。",
     }
   },
   quotes = {
-    cn01 = "Doctor，这是今天我们要完成的工作份额——是啊，堆积如山呢，所以，一起加油吧。",
-    cn02 = "伊芙利特又在闹了吗？抱歉，之后我会说她的。",
-    cn03 = "Zzzzz......嗯？呃，我我只是打一会儿瞌睡......！果然还是不太适应白天工作。",
-    cn04 = "离开莱茵生命的理由？发生过很多事，我也不知该从何说起......",
-    cn05 = "您知道塞雷娅这个名字吗？她和我一样，是前莱茵生命的科学家，同时也是和我一起，让伊芙利特诞生的人......",
-    cn06 = "莱茵生命对生命的研究已经到了......尝试将源石碎片植入......对不起，我不该说这个的。",
-    cn07 = "赛雷娅？您说她来到罗德岛了？是来找伊芙利特吗......为什么，明明那时候头也不回地离开了......",
+    cn01 = "博士，这些是今天的工作——是啊，堆积如山呢，一起加油吧。",
+    cn02 = "伊芙利特又在闹了吗？抱歉，之后我会责备她的。",
+    cn03 = "Zzzzz......嗯？呃，我只是想小睡一下......果然还是不太适应在白天工作。",
+    cn04 = "离开莱茵生命的理由？因为发生过很多事，我也不知道该从什么时候说起......",
+    cn05 = "塞雷娅这个名字,您听过吗？她以前和我一样，也是莱茵生命的科学家——然后，她也是让伊芙利特诞生的人之一......",
+    cn06 = "莱茵生命所做的有关生命的研究，已经到了尝试将源石碎片植入身体的地步......对不起，我们还是换个话题吧。",
+    cn07 = "塞雷娅？您说她在罗德岛？是来找伊芙利特吗......那时候她明明头也不回地就离开了，为什么现在还要......！",
     cn08 = "我不会让伊芙利特见塞雷娅的。也请您相信，我这样做，是对伊芙利特好......！",
-    cn09 = "您也致力于清除矿石病，对吗？罗德岛的治疗技术也是由您带来的吧。哈哈，总觉得，对我们这些学者来说，您，就像是偶像一样的存在呢。",
-    cn10 = "......Doctor睡着了？算了，把Doctor那一份工作也帮忙做完吧。",
-    cn11 = "奥利维亚·赫默，莱茵生命源石研究者。我的愿望，是清除这个世界上所有的矿石病，即使为此面临生命危险，也绝不会改变......",
-    cn12 = "为了战胜更强的敌人，我们也必须更多地利用源石的力量......吗？",
-    cn13 = "我研发的药物效果非常好吗？真是太棒了......比起获得晋升，这个消息更让我高兴。",
-    cn14 = "Doctor，我所期盼的明日，就是清除大地上一切矿石病的那一天，能和您并肩作战，共同研究，或许我真的能接近这理想的实现......",
+    cn09 = "和我一样，您也在试图清除矿石病吗？听说罗德岛的医疗技术开发也与您有关。呵呵，对我们这些研究者来说，这真是让人憧憬呢。",
+    cn10 = "......博士，睡着了吗？算了，剩下的工作我来做吧。",
+    cn11 = "奥利维亚·赫默，莱茵生命医学研究所的源石研究者。清除这个世界上所有的矿石病，这是我的愿望，即使为此面临生命危险也不会改变。",
+    cn12 = "博士，我等待着，等待着从这片大地上彻底清除矿石病的那天，与您并肩作战，共同研究，这一天，也许终会到来......",
+    cn13 = "我会好好运用这份新的力量。",
+    cn14 = "我开发的药物非常有效吗？太好了，比起晋升，这个消息更让我高兴。",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "医疗组成员请就地采取感染者采样，作为此地区的感染样本。",
-    cn31 = "各位伤员请不要着急，医疗组会立刻为你们进行治疗。",
-    cn32 = "......没时间沮丧，我们必须先安全撤回基地。",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "观察并确定他们的感染类型，这对实验很有用。",
+    cn19 = "博士，让我去吧。",
+    cn20 = "没有异常。",
+    cn21 = "集中精力。",
+    cn22 = "保持冷静。",
+    cn23 = "我会治好你的。",
+    cn24 = "别慌张。",
+    cn25 = "去吧。",
+    cn26 = "帮助大家。",
+    cn27 = "为了战胜比现在更强的敌人，我们难道也要更多利用源石的力量......吗？",
+    cn28 = "医疗组请马上进行组织采取，这将成为此地区的感染样本。",
+    cn29 = "请伤者冷静下来，医疗组会为各位进行治疗。",
+    cn30 = "......现在不是沮丧的时候，我们必须立刻撤退。",
+    cn31 = "这个房间......糟糕，是那种会让人产生睡意的设计风格！",
+    cn32 = "嗯？",
+    cn33 = "博士，您最近变得更温柔了呢。",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "您好，博士。",
   },
   skins = {
 

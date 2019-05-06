@@ -1,6 +1,6 @@
 return {
   id = "147",
-  num = "R147",
+  num = "FO01",
   name = {
     en = "Shining",
     cn = "闪灵",
@@ -11,7 +11,7 @@ return {
   fileKey = "Shining",
   team = 9,
   position = "Ranged",
-  roles = { "Life recovery", "Support" },
+  roles = { "治疗", "Support" },
   faction = "Rhodes Island",
   stars = 6,
   class = "Medic",
@@ -21,9 +21,9 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 877,
-    atk = 210,
-    def = 81,
+    hp = 854,
+    atk = 180,
+    def = 60,
     resist = 0,
     cost = 18,
     block = 1,
@@ -42,15 +42,15 @@ return {
   ranks = {
     base = {
       range = "3-1",
-      maxLevel = 40,
+      maxLevel = 50,
       images = {
           portrait = "Shining-0-portrait.png",
           full = "Shining-0.png"
       },
       maxStats = {
-        hp = 1186,
-        atk = 319,
-        def = 118,
+        hp = 1204,
+        atk = 296,
+        def = 88,
         resist = 0,
         cost = 18,
         block = 1,
@@ -75,9 +75,9 @@ return {
           full = "Shining-0.png"
       },
       maxStats = {
-        hp = 1396,
-        atk = 432,
-        def = 148,
+        hp = 1451,
+        atk = 424,
+        def = 110,
         resist = 0,
         cost = 20,
         block = 1,
@@ -100,14 +100,14 @@ return {
           count = 5,
         },
         {
-          icon = "BrokenGadget.png",
-          name = "Broken Gadget",
-          count = 20,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 6,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 60,
+          icon = "Polyester.png",
+          name = "Polyester",
+          count = 5,
         },
       },
     },
@@ -119,9 +119,9 @@ return {
           full = "Shining-2.png"
       },
       maxStats = {
-        hp = 1552,
-        atk = 554,
-        def = 185,
+        hp = 1613,
+        atk = 530,
+        def = 138,
         resist = 0,
         cost = 20,
         block = 1,
@@ -141,12 +141,12 @@ return {
         {
           icon = "MedicTwinChip.png",
           name = "Medic Twin Chip",
-          count = 3,
+          count = 4,
         },
         {
-          icon = "RefinedRock.png",
-          name = "Refined Rock",
-          count = 3,
+          icon = "MassXenoIron.png",
+          name = "Mass Xeno Iron",
+          count = 5,
         },
       },
     },
@@ -158,8 +158,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力提高45% ，攻击速度提高10",
-      max_description = "攻击力提高80% ，攻击速度提高20",
+      description = "攻击力+45% ，攻击速度+10",
+      max_description = "攻击力+80% ，攻击速度+20",
       range = nil,
       max_range = nil,
       spcost = 50,
@@ -172,8 +172,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下一次治疗后使目标获得一个持续2 秒的护盾 护盾可以吸收相当于自己攻击力20% 的伤害，同时使目标防御力提高20% ，可充能1 次",
-      max_description = "下一次治疗后使目标获得一个持续3 秒的护盾 护盾可以吸收相当于自己攻击力50% 的伤害，同时使目标防御力提高50% ，可充能3 次",
+      description = "下次治疗使目标获得一个持续2 秒的护盾 护盾可以吸收相当于闪灵攻击力20% 的伤害，同时使目标防御力+20% ；可充能1 次",
+      max_description = "下次治疗使目标获得一个持续3 秒的护盾 护盾可以吸收相当于闪灵攻击力50% 的伤害，同时使目标防御力+50% ；可充能3 次",
       range = nil,
       max_range = nil,
       spcost = 8,
@@ -186,8 +186,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围内的友方单位防御力提高30% ，自身的攻击力提高20%",
-      max_description = "攻击范围内的友方单位防御力提高100% ，自身的攻击力提高50%",
+      description = "攻击力+20%  攻击范围内的所有友方单位防御力+30%",
+      max_description = "攻击力+50%  攻击范围内的所有友方单位防御力+100%",
       range = nil,
       max_range = nil,
       spcost = 120,
@@ -204,7 +204,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 5,
         },
       }
     },
@@ -214,9 +214,19 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "SecondarySkillBooks.png",
-          name = "Secondary Skill Books",
-          count = 1,
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
+          count = 5,
+        },
+        {
+          icon = "Rock.png",
+          name = "Rock",
+          count = 6,
+        },
+        {
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
+          count = 4,
         },
       }
     },
@@ -228,12 +238,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 8,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 40,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 3,
         },
       }
     },
@@ -245,12 +255,17 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 3,
+          count = 8,
         },
         {
           icon = "RockBlock.png",
           name = "Rock Block",
-          count = 4,
+          count = 5,
+        },
+        {
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 3,
         },
       }
     },
@@ -260,13 +275,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "TertiarySkillBooks.png",
-          name = "Tertiary Skill Books",
-          count = 2,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 8,
         },
         {
-          icon = "RockSet.png",
-          name = "Rock Set",
+          icon = "ManganeseOre.png",
+          name = "Manganese Ore",
           count = 6,
         },
       }
@@ -279,12 +294,17 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
-          count = 3,
+          count = 8,
+        },
+        {
+          icon = "PolishStone.png",
+          name = "Polish Stone",
+          count = 4,
         },
         {
           icon = "RockSet.png",
           name = "Rock Set",
-          count = 12,
+          count = 5,
         },
       }
     },
@@ -294,24 +314,24 @@ return {
       rank0 = {
         level = 1,
         name = "黑恶魔的庇护",
-        description = "攻击范围内的友方单位防御力提高20",
+        description = "攻击范围内的友方单位防御力+20",
       },
       rank1 = {
         level = 1,
         name = "黑恶魔的庇护",
-        description = "攻击范围内的友方单位防御力提高40",
+        description = "攻击范围内的友方单位防御力+40",
       },
       rank2 = {
         level = 1,
         name = "黑恶魔的庇护",
-        description = "攻击范围内的友方单位防御力提高60",
+        description = "攻击范围内的友方单位防御力+60",
       },
     },
     {
       rank2 = {
         level = 1,
         name = "法典",
-        description = "攻击速度提高10",
+        description = "攻击速度+10",
       },
     },
   },
@@ -325,9 +345,9 @@ return {
   trust = {
     {
       trust = 50,
-      maxHp = 300,
-      atk = 100,
-      def = 0,
+      maxHp = 0,
+      atk = 80,
+      def = 20,
     },
   },
   infrastructure_skills = {
@@ -352,9 +372,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Undisclosed",
+      origin = "",
       birthday = "?",
-      race = "Sarkaz",
+      race = "",
       height = "?",
     },
     physical = {
@@ -366,46 +386,53 @@ return {
       originium = "?",
     },
     oripathy = {
-      infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      infected = "No",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+
+【体细胞与源石融合率】0% 
+干员闪灵没有被源石感染的迹象。
+
+【血液源石结晶密度】0.1u/L 
+闪灵时常出入矿石病高发地区，但极少受到源石影响，具体原因不明。",
     }
   },
   quotes = {
-    cn01 = "你好，Doctor............没有，想聊的话题吗？",
-    cn02 = "你的脸色很糟糕......胸口疼痛？请别乱动，立刻休息......别害怕，我就在你身边，没事的......",
-    cn03 = "我的治疗法术，有种在哪里见过的感觉？......不，那一定是，你的错觉......",
-    cn04 = "“赦罪师”？......对不起，唯有这个话题，我不能继续..................为什么，你会知道这个名字......",
-    cn05 = "我们魔族，开发了将法术天赋与源石能力结合的治疗法术，并且一直应用于救助受难者......",
-    cn06 = "现在？现在什么都没有了，那场战争，摧毁了一切希望......",
-    cn07 = "我和临光吗？我们是旅伴，也是......将生命彼此相托的关系。",
-    cn08 = "为了拯救苦难者，可以献出一切......临光那个孩子，就是如此决绝。",
-    cn09 = "我曾经，追随着一位绽放着光芒的人，直到她因阴谋而陨落......这一次，我不会再这光芒消失了，以我的生命起誓......",
-    cn10 = "......安静的气息，让我想起在故乡的日子。",
-    cn11 = "我是闪灵，巡回医师。您觉得，曾经在哪见过我？或许，我们曾在各自的旅途中充当过客吧......",
-    cn12 = "愈是强大的敌人，愈是能激发您的战斗和求生意志......",
-    cn13 = "如果只是作为医生，是无法拯救更多人的......",
-    cn14 = "是的，不只是作为医者，而是作为守护者而活着，这是我一直以来的愿景......Doctor，请聆听我的誓言吧。",
+    cn01 = "你好，博士......没有什么，想聊的话题吗？",
+    cn02 = "你的脸色很糟糕。胸口也很痛？不要逞强，请马上休息......别害怕，我就在你身边，一定会没事的......",
+    cn03 = "我的医疗法术似乎在什么地方见过......？那是错觉，嗯，一定是......",
+    cn04 = "“赦罪师”......？为什么会提到这个名字......对不起，这个话题我不能继续下去......",
+    cn05 = "我们萨卡兹人，把法术天赋和源石的力量结合在一起，开发出了能够治愈他人的源石技艺。一直以来，这种法术都被我们用来救助受难者。",
+    cn06 = "现在？现在，什么都没有了。那场战争，剥夺了我们所有的希望。",
+    cn07 = "我和临光？是啊，她是我旅途的伙伴，也是值得托付生命的人。",
+    cn08 = "为拯救痛苦的人们不惜牺牲自己的一切——临光那个孩子，就是这样一个人。",
+    cn09 = "曾经，我追随着一位身影辉煌的人，直到那光芒在阴谋中消散。这次，这光芒，将永远绽放、永不泯灭，哪怕要用我的生命作为交换，也在所不惜......",
+    cn10 = "......这份寂静， 让我想起了身在故乡时的岁月。",
+    cn11 = "巡回医师闪灵。你在哪里见过我吗？或许在旅途中，我们也曾擦肩而过。",
+    cn12 = "是的，不仅要作为医者，更是作为守护者而生存下去，长久以来，我一直将此作为目标。博士，聆听吧......请你，见证我的誓言。",
+    cn13 = "只是用于愈合伤口的力量，是不够的。",
+    cn14 = "单单作为医者，是无法拯救更多人的。",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "无论你们以前犯下过多少罪责，现在都会随着生命化为灰烬......",
-    cn31 = "......不要再返回战场了，这里不会产生任何救赎。",
-    cn32 = "胜利......失败......不过是无限的循环......",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "能从战斗中寻得拯救......吗？",
+    cn19 = "开始吧。",
+    cn20 = "是的，我在听。",
+    cn21 = "无论繁荣，还是灭亡。",
+    cn22 = "只是一瞬间而已。",
+    cn23 = "你，由我来守护。",
+    cn24 = "别担心。",
+    cn25 = "如此的......悲伤。",
+    cn26 = "痛苦，我从未忘记。",
+    cn27 = "敌人愈是强大，愈是能鼓舞我们的生命意志和战斗精神。",
+    cn28 = "无论罪业多少次往复，都会与生命一同化为尘土。",
+    cn29 = "不要再回到战场上了，这里没有救赎。",
+    cn30 = "胜利，失败......只不过是无限循环的一瞬。",
+    cn31 = "让我待在安静的地方就可以了。",
+    cn32 = "怎么了？",
+    cn33 = "我的心情很久没这样平静过了，甚至连您的心跳，我也听得见。",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "博士，今天的感觉怎么样？",
   },
   skins = {
 

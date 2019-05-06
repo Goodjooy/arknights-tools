@@ -1,6 +1,6 @@
 return {
   id = "144",
-  num = "R144",
+  num = "SW01",
   name = {
     en = "Projekt Red",
     cn = "红",
@@ -9,7 +9,7 @@ return {
     ex = "Projekt Red",
   },
   fileKey = "ProjektRed",
-  team = -1,
+  team = 5,
   position = "Melee",
   roles = { "Quick resurrection", "Crowd Control" },
   faction = "Rhodes Island",
@@ -21,11 +21,11 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 651,
-    atk = 201,
-    def = 129,
+    hp = 703,
+    atk = 204,
+    def = 135,
     resist = 0,
-    cost = 8,
+    cost = 7,
     block = 1,
     speed = 1,
     atkspd = 100,
@@ -42,17 +42,17 @@ return {
   ranks = {
     base = {
       range = "1-1",
-      maxLevel = 40,
+      maxLevel = 50,
       images = {
           portrait = "ProjektRed-0-portrait.png",
           full = "ProjektRed-0.png"
       },
       maxStats = {
-        hp = 930,
-        atk = 292,
-        def = 193,
+        hp = 938,
+        atk = 301,
+        def = 194,
         resist = 0,
-        cost = 8,
+        cost = 7,
         block = 1,
         speed = 1,
         atkspd = 100,
@@ -75,11 +75,11 @@ return {
           full = "ProjektRed-0.png"
       },
       maxStats = {
-        hp = 1208,
-        atk = 395,
-        def = 254,
+        hp = 1173,
+        atk = 413,
+        def = 253,
         resist = 0,
-        cost = 10,
+        cost = 9,
         block = 1,
         speed = 1,
         atkspd = 100,
@@ -100,14 +100,14 @@ return {
           count = 4,
         },
         {
-          icon = "BrokenGadget.png",
-          name = "Broken Gadget",
-          count = 12,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 7,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 2,
         },
       },
     },
@@ -119,11 +119,11 @@ return {
           full = "ProjektRed-2.png"
       },
       maxStats = {
-        hp = 1510,
-        atk = 507,
-        def = 292,
+        hp = 1505,
+        atk = 530,
+        def = 302,
         resist = 0,
-        cost = 10,
+        cost = 9,
         block = 1,
         speed = 1,
         atkspd = 100,
@@ -141,12 +141,17 @@ return {
         {
           icon = "SpecialistTwinChip.png",
           name = "Specialist Twin Chip",
-          count = 2,
+          count = 3,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 8,
+          icon = "ManganeseBlock.png",
+          name = "Manganese Block",
+          count = 7,
+        },
+        {
+          icon = "XenoIronChunk.png",
+          name = "Xeno Iron Chunk",
+          count = 14,
         },
       },
     },
@@ -158,8 +163,8 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后立即提高攻击力35% ，并获得20% 物理闪避",
-      max_description = "部署后立即提高攻击力80% ，并获得50% 物理闪避",
+      description = "部署后攻击力+35% ，并获得20% 物理闪避",
+      max_description = "部署后攻击力+80% ，并获得50% 物理闪避",
       range = nil,
       max_range = nil,
       spcost = 0,
@@ -172,8 +177,8 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后立即击晕周围所有敌人1 秒，并对其造成相当于攻击力140% 的物理伤害",
-      max_description = "部署后立即击晕周围所有敌人2 秒，并对其造成相当于攻击力250% 的物理伤害",
+      description = "部署后立即对周围所有敌人造成相当于攻击力140% 的物理伤害，并使命中目标晕眩1 秒",
+      max_description = "部署后立即对周围所有敌人造成相当于攻击力250% 的物理伤害，并使命中目标晕眩3 秒",
       range = "x-5",
       max_range = "x-5",
       spcost = 0,
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 4,
         },
       }
     },
@@ -202,7 +207,12 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 2,
+          count = 4,
+        },
+        {
+          icon = "Rock.png",
+          name = "Rock",
+          count = 10,
         },
       }
     },
@@ -214,12 +224,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 6,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 30,
+          icon = "Sugar.png",
+          name = "Sugar",
+          count = 3,
         },
       }
     },
@@ -231,12 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 6,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 4,
+          icon = "Polyester.png",
+          name = "Polyester",
+          count = 5,
         },
       }
     },
@@ -246,14 +256,14 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "TertiarySkillBooks.png",
-          name = "Tertiary Skill Books",
-          count = 1,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 4,
+          icon = "SugarPack.png",
+          name = "Sugar Pack",
+          count = 5,
         },
       }
     },
@@ -265,12 +275,17 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
+          count = 6,
+        },
+        {
+          icon = "PolyesterPack.png",
+          name = "Polyester Pack",
           count = 3,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 6,
+          icon = "ManganeseOre.png",
+          name = "Manganese Ore",
+          count = 3,
         },
       }
     },
@@ -279,13 +294,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "入刃",
+        name = "刺骨",
         description = "每次攻击至少造成20%攻击力的伤害",
       },
       rank2 = {
         level = 1,
         name = "刺骨",
-        description = "每次攻击至少造成25%攻击力的伤害",
+        description = "每次攻击至少造成30%攻击力的伤害",
       },
     },
   },
@@ -300,7 +315,7 @@ return {
     {
       trust = 50,
       maxHp = 0,
-      atk = 95,
+      atk = 75,
       def = 0,
     },
   },
@@ -308,7 +323,7 @@ return {
     
   },
   meta = {
-    illustrator = "Infukun",
+    illustrator = "infukun",
     voiceActor = "?",
     servers = "CN, JP",
   },
@@ -326,9 +341,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Syracuse",
+      origin = "",
       birthday = "?",
-      race = "Lupus",
+      race = "",
       height = "?",
     },
     physical = {
@@ -340,12 +355,21 @@ return {
       originium = "?",
     },
     oripathy = {
-      infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      infected = "No",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+
+【体细胞与源石融合率】0% 
+干员红没有被源石感染的迹象。
+
+【血液源石结晶密度】0.13u/L 
+干员红在任务中多次接触源石，数值不断上升。有必要警惕源石感染的危险。
+
+干员红的各项体检指标皆处于正常水平。体检流程结束后，该干员的相关调查与资料档案由我接手。
+——凯尔希",
     }
   },
   quotes = {
-    cn01 = "有......危险的气味。",
+    cn01 = "这里......有危险的气味。",
     cn02 = "红要单独行动。",
     cn03 = "名字，报酬，杀掉。很简单。凯尔希与红是这么约定的。",
     cn04 = "狼有牙齿，红有刀。狼不会休息，所以红也不能。",
@@ -354,32 +378,33 @@ return {
     cn07 = "家人？红没有家人。红一开始就是孤身一人。博士是......需要家人吗？",
     cn08 = "她们都躲着红。红其实只是想......摸摸她们的尾巴。普罗旺斯的，德克萨斯的......红在她们身上，能闻到红喜欢的味道。",
     cn09 = "博士，红也想过......如果红不是猎狼人，会不会也能有不一样的生活？这个问题要红......自己回答？唔。",
-    cn10 = "博士。不，只是觉得你可能睡着了。现在不可以。",
+    cn10 = "博士。不，只是觉得你睡着了。现在，还不能睡。",
     cn11 = "猎狼人，红，闻到了狼的气息。",
-    cn12 = "全灭。",
-    cn13 = "无所谓。",
-    cn14 = "伪装？荣誉是种伪装，红能接受。",
+    cn12 = "伪装？荣誉可以伪装自己，红能接受。",
+    cn13 = "只要对狩猎有利。",
+    cn14 = "无所谓。",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "猎物的下场只有一种。",
-    cn31 = "收获......不够丰富。",
-    cn32 = "......红的刀......还不够锋利......",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "气味，很浓烈。",
+    cn19 = "快。",
+    cn20 = "简单明了。",
+    cn21 = "速度。",
+    cn22 = "技巧。",
+    cn23 = "从阴影中......！",
+    cn24 = "搅乱他们。",
+    cn25 = "你无路可退。",
+    cn26 = "红的眼中——倒映出你的死。",
+    cn27 = "全灭。",
+    cn28 = "猎物的下场，只有一种。",
+    cn29 = "收获......不够丰富。",
+    cn30 = "......红的刀......还不够锋利......",
+    cn31 = "红，不太习惯室内，不过，也不讨厌。",
+    cn32 = "当心手，别被红刮伤了。",
+    cn33 = "咻......呼......",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "博士，累了吗？",
   },
   skins = {
 

@@ -1,6 +1,6 @@
 return {
   id = "140",
-  num = "R140",
+  num = "SR01",
   name = {
     en = "Lappland",
     cn = "拉普兰德",
@@ -21,10 +21,10 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 799,
-    atk = 270,
-    def = 146,
-    resist = 5,
+    hp = 987,
+    atk = 285,
+    def = 173,
+    resist = 10,
     cost = 17,
     block = 2,
     speed = 1,
@@ -42,16 +42,16 @@ return {
   ranks = {
     base = {
       range = "2-3",
-      maxLevel = 40,
+      maxLevel = 50,
       images = {
           portrait = "Lappland-0-portrait.png",
           full = "Lappland-0.png"
       },
       maxStats = {
-        hp = 1175,
-        atk = 392,
-        def = 226,
-        resist = 5,
+        hp = 1410,
+        atk = 426,
+        def = 238,
+        resist = 10,
         cost = 17,
         block = 2,
         speed = 1,
@@ -75,9 +75,9 @@ return {
           full = "Lappland-0.png"
       },
       maxStats = {
-        hp = 1547,
-        atk = 538,
-        def = 310,
+        hp = 1856,
+        atk = 554,
+        def = 302,
         resist = 10,
         cost = 19,
         block = 2,
@@ -100,14 +100,14 @@ return {
           count = 4,
         },
         {
-          icon = "BrokenGadget.png",
-          name = "Broken Gadget",
-          count = 12,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 3,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 4,
         },
       },
     },
@@ -119,8 +119,8 @@ return {
           full = "Lappland-2.png"
       },
       maxStats = {
-        hp = 1934,
-        atk = 682,
+        hp = 2350,
+        atk = 685,
         def = 365,
         resist = 15,
         cost = 19,
@@ -141,12 +141,17 @@ return {
         {
           icon = "GuardTwinChip.png",
           name = "Guard Twin Chip",
-          count = 2,
+          count = 3,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 8,
+          icon = "QuantumGadget.png",
+          name = "Quantum Gadget",
+          count = 6,
+        },
+        {
+          icon = "XenoIronChunk.png",
+          name = "Xeno Iron Chunk",
+          count = 10,
         },
       },
     },
@@ -158,8 +163,8 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击力提高30% ，有20% 的概率抵挡物理伤害 持续时间无限",
-      max_description = "攻击力提高70% ，有40% 的概率抵挡物理伤害 持续时间无限",
+      description = "攻击力+30% ，有20% 的概率抵挡物理伤害 持续时间无限",
+      max_description = "攻击力+70% ，有40% 的概率抵挡物理伤害 持续时间无限",
       range = nil,
       max_range = nil,
       spcost = 40,
@@ -172,8 +177,8 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击力提高60% ，伤害类型变为魔法，额外攻击一个目标，远程攻击不再降低攻击力 技能自动开启",
-      max_description = "攻击力提高120% ，伤害类型变为魔法，额外攻击一个目标，远程攻击不再降低攻击力 技能自动开启",
+      description = "攻击力+60% ，伤害类型变为法术，额外攻击一个目标，远程攻击不再降低攻击力 技能自动开启",
+      max_description = "攻击力+120% ，伤害类型变为法术，额外攻击一个目标，远程攻击不再降低攻击力 技能自动开启",
       range = nil,
       max_range = nil,
       spcost = 30,
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 4,
         },
       }
     },
@@ -202,7 +207,12 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 2,
+          count = 4,
+        },
+        {
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
+          count = 4,
         },
       }
     },
@@ -214,12 +224,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 6,
         },
         {
           icon = "RockBlock.png",
           name = "Rock Block",
-          count = 30,
+          count = 4,
         },
       }
     },
@@ -231,12 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 6,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 4,
+          icon = "Sugar.png",
+          name = "Sugar",
+          count = 5,
         },
       }
     },
@@ -246,14 +256,14 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "TertiarySkillBooks.png",
-          name = "Tertiary Skill Books",
-          count = 1,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 4,
+          icon = "PolishStone.png",
+          name = "Polish Stone",
+          count = 3,
         },
       }
     },
@@ -265,12 +275,17 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
-          count = 3,
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 6,
+          icon = "Rma70-12.png",
+          name = "RMA70-12",
+          count = 2,
+        },
+        {
+          icon = "PolyesterPack.png",
+          name = "Polyester Pack",
+          count = 3,
         },
       }
     },
@@ -280,12 +295,12 @@ return {
       rank1 = {
         level = 1,
         name = "精神摧毁",
-        description = "攻击目标的特殊能力失效，持续1秒",
+        description = "攻击使目标的特殊能力失效，持续1秒",
       },
       rank2 = {
         level = 1,
         name = "精神摧毁",
-        description = "攻击目标的特殊能力失效，持续5秒",
+        description = "攻击使目标的特殊能力失效，持续5秒",
       },
     },
   },
@@ -299,8 +314,8 @@ return {
   trust = {
     {
       trust = 50,
-      maxHp = 300,
-      atk = 80,
+      maxHp = 0,
+      atk = 75,
       def = 0,
     },
   },
@@ -326,9 +341,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Syracuse",
+      origin = "",
       birthday = "?",
-      race = "Lupus",
+      race = "",
       height = "?",
     },
     physical = {
@@ -341,45 +356,52 @@ return {
     },
     oripathy = {
       infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。
+
+【体细胞与源石融合率】13% 
+干员拉普兰德体表已生成大量源石结晶。 
+
+【血液源石结晶密度】0.27u/L
+需要严密监控干员拉普兰德的病症进程。",
     }
   },
   quotes = {
-    cn01 = "哟，博士，你会原谅我带着武器进入办公室的，我就在这里坐了。",
-    cn02 = "有人想伤害你？那你就得好好想想，以前结下过什么仇恨吧。",
-    cn03 = "如果有人借着复仇的名义来杀你，不要犹豫，把那个人干掉。一旦拿起武器，谁还在乎你为了什么而战？",
-    cn04 = "这么久没见，德克萨斯身边多了不少人嘛！这很好！让我来和他们认识一下！",
-    cn05 = "你觉得我是杀手？可以，你可以随意解读我！我可以是任何人，可以是任何职业，我能干掉任何我想干掉的人，只要我想！",
-    cn06 = "我喜欢力量，博士，尤其是你还提供了让我尽情发挥力量的职位......如果说这个可笑的世界还剩下什么乐趣？那就是以自己的力量征服一切这件事！",
-    cn07 = "德克萨斯，哼，她怕我怕得要死，但我不会拿她怎么样......我需要她变回以前那个德克萨斯，绝不能像现在这样懦弱......",
-    cn08 = "那个东西......我没看错吧——！红色的......绝对别靠近她！但是，但是——切，这种感觉，又想挑战她，又感觉自己会死得很难看啊......！",
-    cn09 = "想了解我和德克萨斯的过去事？你在挑起一个不得了的话题！ 以后你会知道的，但一定不会是我来告诉你......",
-    cn10 = "睡吧......做一个甜蜜的梦。",
-    cn11 = "正义之路被暴虐之恶人包围，以复仇与恶意为名引导弱者吧。我的主人。",
-    cn12 = "怎么，就只有这点能耐吗？",
-    cn13 = "哈哈哈，好，我喜欢你对我的信任。德克萨斯做得到吗？",
-    cn14 = "对对，就是这样，解放更多的力量吧，你该这样做！",
+    cn01 = "哟，博士。就算我把武器带进这里，你也会原谅我的对吧。那我就坐在这里了。",
+    cn02 = "有人想伤害你？好好想想你过去的所作所为，是不是在哪结下过什么仇怨啊。",
+    cn03 = "如果有人借复仇的名义来杀你，不要犹豫，干掉那个人。一旦你决定拿起武器，杀人就不需要什么理由。",
+    cn04 = "这么久没见，德克萨斯身边多了不少人嘛！哈哈，这很好！也让我和他们认识一下！",
+    cn05 = "你觉得我是杀手？好啊，你当然可以随意解读我。我可以成为任何人，也能做任何工作，在任何时间都能干掉我想干掉的人，只要我想！",
+    cn06 = "我喜欢力量，博士，尤其是你还向我提供了可以尽情宣泄力量的职位......如果说这个疯狂的世界还剩下什么乐趣，就只剩下用我的力量征服一切这件事了吧！",
+    cn07 = "德克萨斯？呵呵，虽然她在害怕我，不过我没打算对她做些什么。我只是想让她变回以前那个德克萨斯，而不是像现在这样怯懦......",
+    cn08 = "......那个红色的......没错吧......！博士，我啊，是绝对不能靠近她的！但是，但是——这感觉，这感觉......！如果战斗的话一定会死，但是，还是想和那家伙打上一场啊......！",
+    cn09 = "想了解我和德克萨斯过去的事？哈哈，还真是挑起了一个不得了的话题啊你！总有一天你会知道的，但，绝不会是我来告诉你......",
+    cn10 = "睡吧，至少现在，你还能做个美梦......",
+    cn11 = "暴虐的恶人阻断正义的道路，我的主人啊，以复仇与恶意为名，引领弱小的人吧。",
+    cn12 = "对对，就是这样，解放更多的力量吧，你该这样做！",
+    cn13 = "你爱我不断提升的力量，对吧！",
+    cn14 = "哈哈哈，好，我喜欢你对我的信任。德克萨斯做得到吗？",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "呵呵，喜欢我做的的千层酥吗？",
-    cn31 = "马马虎虎吧，放走那几个敌人也算我的责任。",
-    cn32 = "棒极了，这让我践踏他们的欲望变得更强了！哈哈哈！",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "你们就是敌人？那就拜托你们进攻用点力了，别让我太无聊！",
+    cn19 = "让我见识见识你的能耐。",
+    cn20 = "你准备怎么安排？",
+    cn21 = "不错的位置啊。",
+    cn22 = "哈哈！",
+    cn23 = "加油！还差一点。你就能干掉我了！",
+    cn24 = "你能做到吗？",
+    cn25 = "试着抵抗我吧！",
+    cn26 = "再加把劲！",
+    cn27 = "这样就结束了？真无聊。",
+    cn28 = "呵呵，喜欢我做的的千层酥吗？",
+    cn29 = "马马虎虎吧，让那几个人逃走，我也有责任。",
+    cn30 = "棒极了，这下，我践踏他们的欲望变得更强了！哈哈哈！",
+    cn31 = "咦？刚才一瞬间，好像看到了一个红色的影子。",
+    cn32 = "呵呵。",
+    cn33 = "越了解你，也就越了解德克萨斯。太棒了。",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "呵，你好，博士。",
   },
   skins = {
 

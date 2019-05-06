@@ -1,6 +1,6 @@
 return {
   id = "237",
-  num = "R237",
+  num = "KZ04",
   name = {
     en = "Gravel",
     cn = "砾",
@@ -11,7 +11,7 @@ return {
   fileKey = "Gravel",
   team = -1,
   position = "Melee",
-  roles = { "Quick resurrection", "Tank" },
+  roles = { "Quick resurrection", "防护" },
   faction = "Kazimierz",
   stars = 4,
   class = "Specialist",
@@ -21,11 +21,11 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 633,
-    atk = 174,
-    def = 137,
+    hp = 663,
+    atk = 176,
+    def = 151,
     resist = 0,
-    cost = 7,
+    cost = 6,
     block = 1,
     speed = 1,
     atkspd = 100,
@@ -42,17 +42,17 @@ return {
   ranks = {
     base = {
       range = "1-1",
-      maxLevel = 35,
+      maxLevel = 45,
       images = {
           portrait = "Gravel-0-portrait.png",
           full = "Gravel-0.png"
       },
       maxStats = {
-        hp = 905,
+        hp = 885,
         atk = 256,
-        def = 197,
+        def = 216,
         resist = 0,
-        cost = 7,
+        cost = 6,
         block = 1,
         speed = 1,
         atkspd = 100,
@@ -75,11 +75,11 @@ return {
           full = "Gravel-0.png"
       },
       maxStats = {
-        hp = 1176,
+        hp = 1107,
         atk = 352,
-        def = 256,
+        def = 281,
         resist = 0,
-        cost = 9,
+        cost = 8,
         block = 1,
         speed = 1,
         atkspd = 100,
@@ -100,14 +100,14 @@ return {
           count = 3,
         },
         {
-          icon = "RawEster.png",
-          name = "Raw Ester",
-          count = 15,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 1,
         },
         {
-          icon = "SugarSubstitute.png",
-          name = "Sugar Substitute",
-          count = 15,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 1,
         },
       },
     },
@@ -119,11 +119,11 @@ return {
           full = "Gravel-2.png"
       },
       maxStats = {
-        hp = 1470,
+        hp = 1420,
         atk = 452,
-        def = 305,
+        def = 335,
         resist = 0,
-        cost = 9,
+        cost = 8,
         block = 1,
         speed = 1,
         atkspd = 100,
@@ -141,12 +141,17 @@ return {
         {
           icon = "SpecialistChipSet.png",
           name = "Specialist Chip Set",
-          count = 4,
+          count = 5,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 10,
+          icon = "PolyesterPack.png",
+          name = "Polyester Pack",
+          count = 18,
+        },
+        {
+          icon = "RockSet.png",
+          name = "Rock Set",
+          count = 13,
         },
       },
     },
@@ -158,8 +163,8 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后防御力提升200% ，在6 秒内持续衰减",
-      max_description = "部署后防御力提升400% ，在10 秒内持续衰减",
+      description = "部署后防御力+200% ，在6 秒内持续衰减",
+      max_description = "部署后防御力+400% ，在12 秒内持续衰减",
       range = nil,
       max_range = nil,
       spcost = 0,
@@ -172,8 +177,8 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后获得相当于自己最大生命值80% 的护盾，在5 秒内持续衰减",
-      max_description = "部署后获得相当于自己最大生命值200% 的护盾，在10 秒内持续衰减",
+      description = "部署后获得可吸收相当于自己最大生命100% 的护盾，该护盾会在10 秒内持续衰减",
+      max_description = "部署后获得可吸收相当于自己最大生命250% 的护盾，该护盾会在10 秒内持续衰减",
       range = nil,
       max_range = nil,
       spcost = 0,
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 2,
         },
       }
     },
@@ -204,6 +209,11 @@ return {
           name = "Basic Skill Books",
           count = 2,
         },
+        {
+          icon = "Rock.png",
+          name = "Rock",
+          count = 5,
+        },
       }
     },
     {
@@ -212,14 +222,14 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "BasicSkillBooks.png",
-          name = "Basic Skill Books",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 25,
+          icon = "Sugar.png",
+          name = "Sugar",
+          count = 2,
         },
       }
     },
@@ -231,17 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 3,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 4,
-        },
-        {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 8,
+          icon = "Polyester.png",
+          name = "Polyester",
+          count = 3,
         },
       }
     },
@@ -256,14 +261,9 @@ return {
           count = 3,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 6,
-        },
-        {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 12,
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
+          count = 2,
         },
       }
     },
@@ -275,17 +275,12 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
-          count = 2,
+          count = 4,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
+          icon = "TwistAlcohol.png",
+          name = "Twist Alcohol",
           count = 3,
-        },
-        {
-          icon = "RockSet.png",
-          name = "Rock Set",
-          count = 6,
         },
       }
     },
@@ -295,7 +290,7 @@ return {
       rank1 = {
         level = 1,
         name = "快速部署",
-        description = "部署费用-1",
+        description = "自身部署费用-1",
       },
       rank2 = {
         level = 1,
@@ -316,7 +311,7 @@ return {
       trust = 50,
       maxHp = 300,
       atk = 0,
-      def = 50,
+      def = 0,
     },
   },
   infrastructure_skills = {
@@ -341,9 +336,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Kazimierz",
+      origin = "",
       birthday = "?",
-      race = "Zarak",
+      race = "",
       height = "?",
     },
     physical = {
@@ -356,7 +351,13 @@ return {
     },
     oripathy = {
       infected = "No",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+
+【体细胞与源石融合率】0%
+干员砾没有被源石感染的迹象。
+
+【血液源石结晶密度】0.12u/L
+干员砾甚少接触源石。",
     }
   },
   quotes = {
@@ -365,36 +366,37 @@ return {
     cn03 = "不用管我哦，请继续您的工作就好~",
     cn04 = "嗯？我在看什么？在看你哟。",
     cn05 = "如果您需要的话，我也会尽力去变强的~",
-    cn06 = "嘻嘻...这样一来，您就不必担心会受到突然袭击了哦~因为——我可一直在你的身边呐~",
+    cn06 = "嘻嘻......这样一来，您就不必担心会受到突然袭击了哦~因为——我可一直在你的身边呐~",
     cn07 = "您也稍微对我有些兴趣了吗？我可是一直对您很感兴趣呢。",
-    cn08 = "最近这段时间承蒙您照顾了，以我骑士之名起...唔，不习惯？我怎么说也是正规骑士出身，说辞总是学过几句的呢。",
-    cn09 = "自从我被拐到卡西米尔后，已经很久没人对我这样温柔了。所以您若是不嫌弃，以骑士的荣耀起誓，我塞诺蜜将永远侍奉于您左右。",
+    cn08 = "最近这段时间承蒙您照顾了，以卡西米尔骑士之名起誓，必定以身回报此恩......唔，不习惯？我怎么说也是正规骑士出身，说辞总是学过几句的呢。",
+    cn09 = "自从我被拐到卡西米尔后，已经很久没人对我这样温柔了。所以您若是不嫌弃，以骑士的荣耀起誓，我砾，不，我塞诺蜜将永远侍奉于您左右。",
     cn10 = "我守在这里，有没有让你感到心跳加速呢？",
     cn11 = "啾——嗯？怎么脸红了？这只是初见的问候，可没什么其他的意思哦。那么，卡西米尔骑士砾，就请您多有包涵啦，嘻嘻。",
-    cn12 = "您的战术真的是完美无缺呢~",
-    cn13 = "这是Doctor您的认可吗？真开心！！",
-    cn14 = "这是意味着您很需要我对吧？嘻嘻......",
+    cn12 = "这是意味着您很需要我对吧？嘻嘻......",
+    cn13 = "罗德岛的战术都是博士您安排的吗？这就令人很感兴趣了呢......",
+    cn14 = "这是博士您的认可吗？真开心！！",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "刀还没染红就结束了，嘻嘻...",
-    cn31 = "逃吧，你们还能逃多远呢。",
-    cn32 = "我......又失误了吗......",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "嘻嘻......",
+    cn19 = "嗯？",
+    cn20 = "您有指示？",
+    cn21 = "就这里了！",
+    cn22 = "是个好阵地。",
+    cn23 = "我是你的影子。",
+    cn24 = "嘻嘻......",
+    cn25 = "你走得了吗？",
+    cn26 = "鼠群，聚集起来吧！",
+    cn27 = "您的战术真的是完美无缺呢~",
+    cn28 = "刀还没染红就结束了，嘻嘻......",
+    cn29 = "逃吧，你们还能逃多远呢。",
+    cn30 = "对不起，我......又失误了吗......",
+    cn31 = "这个房间，好像有很多可以躲藏的地方呢~",
+    cn32 = "嘻嘻......",
+    cn33 = "是的，我在这里，一直都在呢.......",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "今天还好吗，博士~",
   },
   skins = {
 

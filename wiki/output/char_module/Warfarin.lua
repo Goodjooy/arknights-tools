@@ -1,6 +1,6 @@
 return {
   id = "171",
-  num = "R171",
+  num = "R106",
   name = {
     en = "Warfarin",
     cn = "华法琳",
@@ -11,7 +11,7 @@ return {
   fileKey = "Warfarin",
   team = -1,
   position = "Ranged",
-  roles = { "Life recovery", "Support" },
+  roles = { "治疗", "Support" },
   faction = "Rhodes Island",
   stars = 5,
   class = "Medic",
@@ -21,9 +21,9 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 780,
-    atk = 166,
-    def = 65,
+    hp = 805,
+    atk = 172,
+    def = 55,
     resist = 0,
     cost = 17,
     block = 1,
@@ -42,15 +42,15 @@ return {
   ranks = {
     base = {
       range = "3-1",
-      maxLevel = 40,
+      maxLevel = 50,
       images = {
           portrait = "Warfarin-0-portrait.png",
           full = "Warfarin-0.png"
       },
       maxStats = {
-        hp = 1055,
-        atk = 256,
-        def = 95,
+        hp = 1135,
+        atk = 282,
+        def = 80,
         resist = 0,
         cost = 17,
         block = 1,
@@ -75,9 +75,9 @@ return {
           full = "Warfarin-0.png"
       },
       maxStats = {
-        hp = 1242,
-        atk = 389,
-        def = 119,
+        hp = 1368,
+        atk = 404,
+        def = 100,
         resist = 0,
         cost = 19,
         block = 1,
@@ -100,14 +100,14 @@ return {
           count = 4,
         },
         {
-          icon = "BrokenGadget.png",
-          name = "Broken Gadget",
-          count = 12,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 4,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
+          icon = "Sugar.png",
+          name = "Sugar",
+          count = 2,
         },
       },
     },
@@ -119,9 +119,9 @@ return {
           full = "Warfarin-2.png"
       },
       maxStats = {
-        hp = 1380,
-        atk = 512,
-        def = 149,
+        hp = 1520,
+        atk = 505,
+        def = 125,
         resist = 0,
         cost = 19,
         block = 1,
@@ -141,12 +141,17 @@ return {
         {
           icon = "MedicTwinChip.png",
           name = "Medic Twin Chip",
-          count = 2,
+          count = 3,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 8,
+          icon = "QuantumGadget.png",
+          name = "Quantum Gadget",
+          count = 5,
+        },
+        {
+          icon = "SugarPack.png",
+          name = "Sugar Pack",
+          count = 17,
         },
       },
     },
@@ -158,11 +163,11 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次治疗额外回复目标最大生命值的13%  只当目标生命值不满一半使才会触发，可充能2 次",
-      max_description = "下次治疗额外回复目标最大生命值的30%  只当目标生命值不满一半使才会触发，可充能4 次",
+      description = "下次治疗额外回复目标最大生命值的11%  只当目标生命值不满一半时才会触发，可充能2 次",
+      max_description = "下次治疗额外回复目标最大生命值的25%  只当目标生命值不满一半时才会触发，可充能4 次",
       range = nil,
       max_range = nil,
-      spcost = 5,
+      spcost = 4,
       max_spcost = 4,
       duration = 0,
     },
@@ -172,13 +177,13 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "自己和攻击范围内随机一名友方单位攻击力提升60% ，攻击速度提升30 ，但每秒损失5% 最大生命值",
-      max_description = "自己和攻击范围内随机一名友方单位攻击力提升100% ，攻击速度提升50 ，但每秒损失5% 最大生命值",
+      description = "自身和攻击范围内随机一名我方单位获得以下状态： 攻击力+30% ，每秒损失3% 最大生命值，持续15 秒",
+      max_description = "自身和攻击范围内随机一名我方单位获得以下状态： 攻击力+90% ，每秒损失3% 最大生命值，持续15 秒",
       range = nil,
       max_range = nil,
-      spcost = 80,
-      max_spcost = 80,
-      duration = 15,
+      spcost = 60,
+      max_spcost = 60,
+      duration = -1,
     },
   },
   skillup = {
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 4,
         },
       }
     },
@@ -202,7 +207,12 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 2,
+          count = 4,
+        },
+        {
+          icon = "Ketone.png",
+          name = "Ketone",
+          count = 5,
         },
       }
     },
@@ -214,12 +224,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 6,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 30,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 2,
         },
       }
     },
@@ -231,12 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 6,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 4,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 8,
         },
       }
     },
@@ -246,14 +256,14 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "TertiarySkillBooks.png",
-          name = "Tertiary Skill Books",
-          count = 1,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 4,
+          icon = "Rma70-12.png",
+          name = "RMA70-12",
+          count = 3,
         },
       }
     },
@@ -265,12 +275,17 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
-          count = 3,
+          count = 6,
+        },
+        {
+          icon = "RockSet.png",
+          name = "Rock Set",
+          count = 4,
         },
         {
           icon = "CurrentGadget.png",
           name = "Current Gadget",
-          count = 6,
+          count = 2,
         },
       }
     },
@@ -280,12 +295,12 @@ return {
       rank1 = {
         level = 1,
         name = "血液样本回收",
-        description = "攻击范围内有敌军死亡时，为自己和范围内随机一名友军回复1点技力",
+        description = "攻击范围内有敌人倒下时，为自身和范围内随机一名友方单位回复1点技力",
       },
       rank2 = {
         level = 1,
         name = "血液样本回收",
-        description = "攻击范围内有敌军死亡时，为自己和范围内随机一名友军回复2点技力",
+        description = "攻击范围内有敌人倒下时，为自身和范围内随机一名友方单位回复2点技力",
       },
     },
   },
@@ -299,8 +314,8 @@ return {
   trust = {
     {
       trust = 50,
-      maxHp = 100,
-      atk = 100,
+      maxHp = 0,
+      atk = 75,
       def = 0,
     },
   },
@@ -326,9 +341,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Undisclosed",
+      origin = "",
       birthday = "?",
-      race = "Sarkaz",
+      race = "",
       height = "?",
     },
     physical = {
@@ -341,46 +356,52 @@ return {
     },
     oripathy = {
       infected = "No",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+      diagnosis = "造影检测结果显示，受试对象体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。 
+
+【体细胞与源石融合率】0% 
+受试对象没有被源石感染的迹象。 
+
+【血液源石结晶密度】0.12u/L 
+受试对象的数值趋近正常，并无检查必要。",
     }
   },
   quotes = {
-    cn01 = "Doctor，凯尔希医生让我给您做个血液化验，在我准备好之前先随便聊聊吧。",
-    cn02 = "请不要质疑我对吸血行为的自控能力！作为一名经过训练的医生，还是分得清食物和病人的。",
-    cn03 = "每位干员的血液型号都必须进行记录，哪怕他们不愿意......这些血当然是通过验血途径获得的，您想什么呢？",
-    cn04 = "这里居然还有我的同族，而且还是个......工程师？比起血液，她看上去更喜欢机油的样子耶？",
-    cn05 = "成为医生的理由？其实也没有多么高尚的理由，这算是我们一族背负的一种扭曲的命运吧。意外的被需要，于是便顺理成章这样了......",
-    cn06 = "控制本能的方法吗？有一整套的自我暗示课程，食用的血液也是代用品替换的，总之方式多种多样。",
-    cn07 = "Doctor，请不要动，我来帮您做采血后的包扎......啧，这个前所未有的气味....简直是戒律的克星。
-",
-    cn08 = "软水器加盐......滤芯更换......消毒......砂罐、碳罐......啊。Doctor。医用设备也要好好保养哦...凯尔希医生说等到Doctor你肾脏衰竭的时候就得靠这个设备活命了。开玩笑的。",
-    cn09 = "好吧，我承认，我曾经是尝过很多血液的味道，各种种族的与各种类型的血液。而且以找出这些之间的不同为乐......现在，就差没尝过Doctor你的血液了呵呵。",
-    cn10 = "......呼，好羡慕你这家伙还有睡觉的时间啊。",
-    cn11 = "代号华法琳，血液学医生。虽然擅长治疗法术，不过我想我对于血液学相关的经验能够帮助你们获得这方面的保障。那么......请多关照。",
-    cn12 = "医疗和后勤的压力真是越来越大......还好也慢慢适应了......",
-    cn13 = "所·以·说！为急救备用的稀有血种是非常宝贵，光是采集就超级麻烦的......诶？晋升？你终于想起来了吗。",
-    cn14 = "也就是说接下来的工作会更忙了，对吧？我早就知道有这一天，毕竟我原本也是同样位置上的专家。放心吧，我已经准备好了。",
+    cn01 = "博士，凯尔希医生让我给您做个血液化验，在我准备好之前先随便聊聊吧。",
+    cn02 = "我能不能控制吸血冲动？是不是小看我了呀！作为经受过训练的专业医生，我还是能分得清食物和病人的！",
+    cn03 = "记录全体干员的血液常规指数是我的工作，即使当事人不太情愿，也是没办法的......这些血？这些.......当然是用作血液检查的样本啊！你在想什么啦！",
+    cn04 = "这里居然还有一位我的同族，而且担任的职位居然是......工程师？比起血液，她好像更喜欢机油的味道欸？",
+    cn05 = "成为医生的理由？其实也不是什么高尚的念头啦，仅仅是出于我们一族畸形的遭遇吧。之后，我的能力意外被人需要，事情就顺理成章地变成这样了......",
+    cn06 = "我们抑制本能冲动的方法？有一整套的自我暗示课程，食用的血液也有代用品，总之方法多种多样。",
+    cn07 = "这只是采血后的常规处理啊，博士请不要动......唔，血、血液......您的血......我，我从来没闻过这么香的味道......我似乎被，被迷惑住了......！",
+    cn08 = "补充生理盐水！更换过滤器！砂罐、碳罐消毒......好嘞。博士，医疗设备可需要好好维护哦，凯尔希医生说过，等到博士您肾衰竭的时候，就得靠这些设备救命了......哎呀，开，开玩笑的啦。",
+    cn09 = "好啦好啦，我承认，以前我是品尝过不少种族不同类型的血，而且，也确实以分析它们味道间的差异为乐......现在我没尝过的，大概就只有博士您的血了吧？呵呵......",
+    cn10 = "哎，你居然还有时间睡觉，真让人羡慕啊。",
+    cn11 = "我，华法琳，血液学专科医师。比起普通的治疗法术，我会利用血液学相关知识和经验，为你们提供比常规方式更好的医疗保障。那么，请多关照啦。",
+    cn12 = "也就是说，今后的工作会更繁重了，对吧？我早就预料到会有这一天了！毕竟，我原本就是这个领域的专家嘛。放心吧，一切都已经准备好了！",
+    cn13 = "嗯。工作效率好像提高了。",
+    cn14 = "......所以说，您有在认真听吗？急救备用的稀有血型呀，想要搜集这些血液是非常艰难的，所以......啊？晋升？是现在吗？",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "战场绝不是一个好地方......有时候真希望这些人能明白这个道理。",
-    cn31 = "没有完全歼灭敌人也没关系，只要伤员没事就好了。",
-    cn32 = "对不起......补给不足了......",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "现在还不太了解敌人的情况，毕竟光是照料我方人员，就把我的时间都排满了......",
+    cn19 = "请说。",
+    cn20 = "医疗器械设置完毕。",
+    cn21 = "负伤的人，要记得立刻求救！",
+    cn22 = "开始治疗。",
+    cn23 = "准备输血！",
+    cn24 = "止血钳！",
+    cn25 = "这里有急救箱，请用这个！",
+    cn26 = "我马上就来！",
+    cn27 = "医疗小队也这么紧张，后方部队的压力实在不小......还好，我已经习惯啦。",
+    cn28 = "战场是一个只会制造可怕悲剧的地方，希望那些人也能理解到这点。",
+    cn29 = "优先救助伤员吧，先别管那些逃跑的敌人了。",
+    cn30 = "对不起，备用药剂也不够了......",
+    cn31 = "果然，我还是习惯一个人思考问题啊......",
+    cn32 = "欸，您在做什么呀......",
+    cn33 = "博士，给您做定期检查的日子，是不是快到了？",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "你好，博士。",
   },
   skins = {
 

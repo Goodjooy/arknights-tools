@@ -1,6 +1,6 @@
 return {
   id = "117",
-  num = "R117",
+  num = "R104",
   name = {
     en = "Myrrh",
     cn = "末药",
@@ -9,9 +9,9 @@ return {
     ex = "Myrrh",
   },
   fileKey = "Myrrh",
-  team = 14,
+  team = -1,
   position = "Ranged",
-  roles = { "Life recovery" },
+  roles = { "治疗" },
   faction = "Rhodes Island",
   stars = 4,
   class = "Medic",
@@ -21,8 +21,8 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 700,
-    atk = 170,
+    hp = 752,
+    atk = 161,
     def = 57,
     resist = 0,
     cost = 16,
@@ -42,14 +42,14 @@ return {
   ranks = {
     base = {
       range = "3-1",
-      maxLevel = 35,
+      maxLevel = 45,
       images = {
           portrait = "Myrrh-0-portrait.png",
           full = "Myrrh-0.png"
       },
       maxStats = {
-        hp = 986,
-        atk = 263,
+        hp = 1060,
+        atk = 264,
         def = 83,
         resist = 0,
         cost = 16,
@@ -75,8 +75,8 @@ return {
           full = "Myrrh-0.png"
       },
       maxStats = {
-        hp = 1188,
-        atk = 356,
+        hp = 1278,
+        atk = 372,
         def = 104,
         resist = 0,
         cost = 18,
@@ -100,14 +100,14 @@ return {
           count = 3,
         },
         {
-          icon = "RawEster.png",
-          name = "Raw Ester",
-          count = 15,
+          icon = "Polyester.png",
+          name = "Polyester",
+          count = 1,
         },
         {
-          icon = "SugarSubstitute.png",
-          name = "Sugar Substitute",
-          count = 15,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 1,
         },
       },
     },
@@ -119,8 +119,8 @@ return {
           full = "Myrrh-2.png"
       },
       maxStats = {
-        hp = 1320,
-        atk = 446,
+        hp = 1420,
+        atk = 465,
         def = 131,
         resist = 0,
         cost = 18,
@@ -141,12 +141,17 @@ return {
         {
           icon = "MedicChipSet.png",
           name = "Medic Chip Set",
-          count = 4,
+          count = 5,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 10,
+          icon = "FlocculatedKetoneCase.png",
+          name = "Flocculated Ketone Case",
+          count = 14,
+        },
+        {
+          icon = "PolyesterPack.png",
+          name = "Polyester Pack",
+          count = 12,
         },
       },
     },
@@ -158,8 +163,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击力提高至100% ，额外治疗一个单位 可充能1 次",
-      max_description = "下次攻击力提高至120% ，额外治疗一个单位 可充能3 次",
+      description = "下次治疗可以恢复相当于攻击力100% 的生命，并额外治疗一名单位 可充能1 次",
+      max_description = "下次治疗可以恢复相当于攻击力125% 的生命，并额外治疗一名单位 可充能3 次",
       range = nil,
       max_range = nil,
       spcost = 10,
@@ -172,8 +177,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力提高5% ，攻击速度提高12 ，每次可额外治疗一个单位",
-      max_description = "攻击力提高20% ，攻击速度提高30 ，每次可额外治疗一个单位",
+      description = "攻击力+5% ，每次可额外治疗一名单位",
+      max_description = "攻击力+65% ，每次可额外治疗一名单位",
       range = nil,
       max_range = nil,
       spcost = 65,
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 2,
         },
       }
     },
@@ -204,6 +209,11 @@ return {
           name = "Basic Skill Books",
           count = 2,
         },
+        {
+          icon = "RawEster.png",
+          name = "Raw Ester",
+          count = 4,
+        },
       }
     },
     {
@@ -212,14 +222,14 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "BasicSkillBooks.png",
-          name = "Basic Skill Books",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 25,
+          icon = "XenoIron.png",
+          name = "Xeno Iron",
+          count = 2,
         },
       }
     },
@@ -231,17 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 3,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 4,
-        },
-        {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 8,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 2,
         },
       }
     },
@@ -256,14 +261,9 @@ return {
           count = 3,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 6,
-        },
-        {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 12,
+          icon = "ManganeseOre.png",
+          name = "Manganese Ore",
+          count = 2,
         },
       }
     },
@@ -275,17 +275,12 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
+          count = 4,
+        },
+        {
+          icon = "PolishStone.png",
+          name = "Polish Stone",
           count = 2,
-        },
-        {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 3,
-        },
-        {
-          icon = "RockSet.png",
-          name = "Rock Set",
-          count = 6,
         },
       }
     },
@@ -295,12 +290,12 @@ return {
       rank1 = {
         level = 1,
         name = "急救包",
-        description = "部署后立刻恢复全体干员的生命值，恢复量为自身攻击力的100%",
+        description = "部署后立刻恢复全体友方单位的生命值，恢复量为末药攻击力的100%",
       },
       rank2 = {
         level = 1,
-        name = "医疗喷雾",
-        description = "部署后立刻恢复全体干员的生命值，恢复量为自身攻击力的150%",
+        name = "急救包",
+        description = "部署后立刻恢复全体友方单位的生命值，恢复量为末药攻击力的150%",
       },
     },
   },
@@ -314,8 +309,8 @@ return {
   trust = {
     {
       trust = 50,
-      maxHp = 100,
-      atk = 75,
+      maxHp = 0,
+      atk = 60,
       def = 0,
     },
   },
@@ -341,9 +336,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Undisclosed",
+      origin = "",
       birthday = "?",
-      race = "Vulpes",
+      race = "",
       height = "?",
     },
     physical = {
@@ -355,46 +350,53 @@ return {
       originium = "?",
     },
     oripathy = {
-      infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      infected = "No",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。 
+
+【体细胞与源石融合率】0% 
+干员末药没有被源石感染的迹象。 
+
+【血液源石结晶密度】0.19u/L 
+相比其他非感染者干员，干员末药的血液源石结晶密度检测表现出了相对较高的结果。建议增加对该名干员的日常检测程序。",
     }
   },
   quotes = {
-    cn01 = "......那个，您给凯尔希医生写的报告，这一页最后几处，都写乱了......下次，别再熬夜工作了吧？",
-    cn02 = "这里到处都有没见过的东西............啊，对不起，我不敢再东张西望了......",
-    cn03 = "草药都很苦，但还是希望大家能更重视它的效果......",
-    cn04 = "那个，Doctor，哈默妮的病情，还没有见好吗......嗯，我知道了，我工作回来就去照顾她。",
-    cn05 = "草药不受欢迎，可我只会调配苦味的药......您说，要多多寻求大家的反馈？我......能行吗？我不太擅长交流......但，但我会去试试看的。",
-    cn06 = "我和哈默妮小时候就一起跑去各种秘境探险......嗯，是的，我们是一起长大的，在废墟里。我们那时，非常想看看废墟外的世界是什么样子......",
-    cn07 = "哈默妮是我第一个朋友，真正的朋友......可我让她变成了现在的样子......她被矿石病夺走的寿命，我一定要替她找回来。",
-    cn08 = "听了调香师小姐的建议，加了香料的草药，果然变得受欢迎多了......鼓起勇气向大家寻求反馈，真是太好了......",
-    cn09 = "哈默妮说，我最近变得比以前有精神了。您也这样觉得吗？多亏有Doctor您那时的指点......如果没有您，我真的不知道该怎么办好......",
-    cn10 = "......Doctor睡着了，这下，可以好好看看Doctor的办公室了。",
-    cn11 = "我是末药，草药医士。这个代号是凯尔希医生为我取的，因为这种药，象征着“生命的短暂”，她希望我能时刻记住这一点......",
-    cn12 = "赢了？是真的吗？这么困难的战斗都......Doctor真的好厉害......",
-    cn13 = "这就叫做......晋升？对吗？职位什么的，我还不是很懂......",
-    cn14 = "过去我和哈默妮经常探索这样的......秘境废墟，越是危险的地带，越是能采到珍贵的药材。",
+    cn01 = "那个，您提交给凯尔希医生的报告书，最后几处笔迹已经乱七八糟了......请别再熬夜了......",
+    cn02 = "这里到处都是没见过的东西呢......！啊，东张西望好像不太好，对不起......",
+    cn03 = "虽然草药确实很苦，但还是希望大家更关注它的药效......",
+    cn04 = "那个，博士，哈默妮的病情，还没有好转吗......嗯，我知道了，我工作回来就去照顾她。",
+    cn05 = "我的草药很苦，不受欢迎......呜呜......但我只会调配苦味的药......您说多听取下大家的意见比较好？我、我能行吗？我不太擅长说话......但我会努力试试的。",
+    cn06 = "小时候，我和哈默妮常常跑去各种地方探险。嗯，是的，我们是在城区的废墟中长大的，那时候的我们，非常想看一看外面的世界......",
+    cn07 = "哈默妮是我的第一个，也是最好的朋友......可是，她也是因为我，变成了现在的样子......她因为矿石病而缩短的生命，我一定要为她夺回来。",
+    cn08 = "听了调香师小姐的建议，我在草药中混合了香料，果然赢得了大家的喜爱！拿出勇气来听取大家的意见，真是太好了......",
+    cn09 = "哈默妮说，最近的我，变得比以前更有精神了，您也这样觉得吗？一定是因为有博士及时指点我，如果没有您，我该怎么办呢......",
+    cn10 = "博士......是不是睡着了？这下可以仔细观察博士的办公室了呢......",
+    cn11 = "那个，我是草药师末药.....这个代号是凯尔希医生为我指定的，据说，它指的是“生命的短暂”，医生说，她希望我要牢记这个寓意......",
+    cn12 = "以前常常和哈默妮一起四处探索......这样的秘境和废墟。越是危险的地方，就越能收集罕见的药材。",
+    cn13 = "非常感谢......！这样就能做出更好的药了......！",
+    cn14 = "这就叫做......晋升？是这样的吗......？职位什么的，我还不是很懂......",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "大家，这次的药效果......算了，我回去再问......",
-    cn31 = "呼，手忙脚乱的，还好没出什么差错......",
-    cn32 = "药瓶......药瓶都碎掉了......",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "各位，我不会让你们受伤的......！",
+    cn19 = "我在。",
+    cn20 = "来了。",
+    cn21 = "我要小心一点。",
+    cn22 = "有没有需要治疗的人呢？",
+    cn23 = "要、要扔的准一点......",
+    cn24 = "药来了！",
+    cn25 = "这是药，请收下！",
+    cn26 = "没关系，可以治好的......！",
+    cn27 = "赢了？真的吗？这么严酷的战斗都能......博士真的好厉害......！",
+    cn28 = "大家，这次的药效......算了，回去再问吧......",
+    cn29 = "唔唔，手忙脚乱的......没犯大错真是太好了......",
+    cn30 = "药瓶......药瓶全都碎掉了.....",
+    cn31 = "唔，我觉得衣服上还残留着草药的味道......",
+    cn32 = "唔哇！",
+    cn33 = "博士，那个，最近我调制了安定情绪的汤药。对身体是有好处的，只是确实有点苦......",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "早、早上好，博士。",
   },
   skins = {
 

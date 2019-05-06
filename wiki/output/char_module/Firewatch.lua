@@ -1,6 +1,6 @@
 return {
   id = "158",
-  num = "R158",
+  num = "ST01",
   name = {
     en = "Firewatch",
     cn = "守林人",
@@ -9,9 +9,9 @@ return {
     ex = "Firewatch",
   },
   fileKey = "Firewatch",
-  team = 7,
+  team = -1,
   position = "Ranged",
-  roles = { "DPS" },
+  roles = { "DPS", "爆发" },
   faction = "Rhodes Island",
   stars = 5,
   class = "Sniper",
@@ -21,8 +21,8 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 699,
-    atk = 474,
+    hp = 714,
+    atk = 486,
     def = 63,
     resist = 0,
     cost = 19,
@@ -42,14 +42,14 @@ return {
   ranks = {
     base = {
       range = "3-3",
-      maxLevel = 40,
+      maxLevel = 50,
       images = {
           portrait = "Firewatch-0-portrait.png",
           full = "Firewatch-0.png"
       },
       maxStats = {
-        hp = 908,
-        atk = 632,
+        hp = 928,
+        atk = 675,
         def = 85,
         resist = 0,
         cost = 19,
@@ -75,8 +75,8 @@ return {
           full = "Firewatch-0.png"
       },
       maxStats = {
-        hp = 1136,
-        atk = 790,
+        hp = 1160,
+        atk = 889,
         def = 107,
         resist = 0,
         cost = 21,
@@ -100,14 +100,14 @@ return {
           count = 4,
         },
         {
-          icon = "BrokenGadget.png",
-          name = "Broken Gadget",
-          count = 12,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 3,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 2,
         },
       },
     },
@@ -119,8 +119,8 @@ return {
           full = "Firewatch-2.png"
       },
       maxStats = {
-        hp = 1421,
-        atk = 953,
+        hp = 1450,
+        atk = 1085,
         def = 131,
         resist = 0,
         cost = 21,
@@ -141,12 +141,17 @@ return {
         {
           icon = "SniperTwinChip.png",
           name = "Sniper Twin Chip",
-          count = 2,
+          count = 3,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 8,
+          icon = "PolyesterBox.png",
+          name = "Polyester Box",
+          count = 7,
+        },
+        {
+          icon = "TwistAlcohol.png",
+          name = "Twist Alcohol",
+          count = 15,
         },
       },
     },
@@ -158,8 +163,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力提升24% ，进入隐匿状态（不会成为敌方远程单位的攻击目标）",
-      max_description = "攻击力提升70% ，进入隐匿状态（不会成为敌方远程单位的攻击目标）",
+      description = "攻击力+24% ，进入隐匿状态（不会成为敌方远程单位的攻击目标）",
+      max_description = "攻击力+70% ，进入隐匿状态（不会成为敌方远程单位的攻击目标）",
       range = nil,
       max_range = nil,
       spcost = 30,
@@ -172,8 +177,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "对攻击范围内随机投下2 枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对附近所有敌人造成攻击力180% 的物理伤害。",
-      max_description = "对攻击范围内随机投下3 枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对附近所有敌人造成攻击力300% 的物理伤害。",
+      description = "立即对攻击范围内随机投下2 枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对周围所有敌人造成相当于攻击力180% 的物理伤害。",
+      max_description = "立即对攻击范围内随机投下3 枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对周围所有敌人造成相当于攻击力300% 的物理伤害。",
       range = nil,
       max_range = nil,
       spcost = 50,
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 4,
         },
       }
     },
@@ -202,7 +207,12 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 2,
+          count = 4,
+        },
+        {
+          icon = "BrokenGadget.png",
+          name = "Broken Gadget",
+          count = 4,
         },
       }
     },
@@ -214,12 +224,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 6,
         },
         {
           icon = "RockBlock.png",
           name = "Rock Block",
-          count = 30,
+          count = 4,
         },
       }
     },
@@ -231,12 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 6,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 4,
+          icon = "Sugar.png",
+          name = "Sugar",
+          count = 5,
         },
       }
     },
@@ -246,13 +256,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "TertiarySkillBooks.png",
-          name = "Tertiary Skill Books",
-          count = 1,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
+          icon = "TwistAlcohol.png",
+          name = "Twist Alcohol",
           count = 4,
         },
       }
@@ -265,32 +275,32 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
-          count = 3,
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 6,
+          icon = "ManganeseOre.png",
+          name = "Manganese Ore",
+          count = 2,
+        },
+        {
+          icon = "Rma70-12.png",
+          name = "RMA70-12",
+          count = 3,
         },
       }
     },
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "暗杀者·初级",
-        description = "对会远程攻击的敌人攻击力110%",
-      },
       rank1 = {
         level = 1,
-        name = "暗杀者·进阶",
-        description = "对会远程攻击的敌人攻击力125%",
+        name = "暗杀者",
+        description = "攻击使用远程武器的敌人时，攻击力提升至120%",
       },
       rank2 = {
         level = 1,
-        name = "暗杀者·精英",
-        description = "对会远程攻击的敌人攻击力140%",
+        name = "暗杀者",
+        description = "攻击使用远程武器的敌人时，攻击力提升至140%",
       },
     },
   },
@@ -305,7 +315,7 @@ return {
     {
       trust = 50,
       maxHp = 0,
-      atk = 120,
+      atk = 90,
       def = 0,
     },
   },
@@ -331,9 +341,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Undisclosed",
+      origin = "",
       birthday = "?",
-      race = "Hirvea",
+      race = "",
       height = "?",
     },
     physical = {
@@ -345,46 +355,53 @@ return {
       originium = "?",
     },
     oripathy = {
-      infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      infected = "No",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。 
+
+【体细胞与源石融合率】0% 
+干员守林人没有被源石感染的迹象。 
+
+【血液源石结晶密度】0.08u/L 
+干员守林人甚少接触源石。",
     }
   },
   quotes = {
-    cn01 = "我会在这里守夜，请您安心。",
-    cn02 = "有人注视着您的眼神中，饱含着恶意......您并不安全，即使在罗德岛。",
-    cn03 = "请不要害怕，即使罪人们藏身于阴影，也绝逃不过我的眼睛。",
-    cn04 = "复仇......即使牺牲我的生命也一定要完成。",
-    cn05 = "我的亲人和朋友，都葬身于故乡的森林中。唯有落叶掩埋他们。",
-    cn06 = "这把弩为处决罪人而制造。那将是我——最后的审判。",
-    cn07 = "陨星，她......是我曾经的战友。我的故乡覆灭时，只有我们几个人逃了出来。",
+    cn01 = "我正在警戒四周，没有问题。",
+    cn02 = "一些注视着你的视线是饱含恶意的。即使在罗德岛，您也并不安全。",
+    cn03 = "没必要害怕那些阴影中的敌人，这些罪人无论用什么方法躲藏，都欺骗不了我的眼睛。",
+    cn04 = "即使牺牲我的生命，也一定要完成这次复仇。",
+    cn05 = "我的族人和朋友，都葬身在故乡的森林里。只有落叶能掩埋他们。",
+    cn06 = "这把弩是为了审判罪人制造的。终有一天，我要用它降下最后的裁决。",
+    cn07 = "陨星。她曾经是我的朋友。我的故乡被摧毁的那天，只有我们几个人设法逃了出来。",
     cn08 = "我一直在找那个告密者，把叛军引向故乡的罪人......会是陨星吗？不，我、我不认为是她——",
-    cn09 = "——我睡着了？抱、抱歉，最近巡逻的时间可能太长了......不，即使您原谅我也......谢谢......",
-    cn10 = "......有点困。",
-    cn11 = "守林人，狙击手。为了复仇，我......需要强大力量的协助。",
-    cn12 = "就这样，一直走下去，直到复仇的尽头。",
-    cn13 = "感谢您的任命。",
-    cn14 = "感谢您的任命......但，必须将我的力量用于正途，否则......",
+    cn09 = "——我睡着了？抱、抱歉，最近巡逻的时间增加了......不，即使您说没关系也......谢谢您的关心。",
+    cn10 = "我想稍微睡一下......",
+    cn11 = "狙击手守林人。为了复仇，我需要强大力量的帮助。",
+    cn12 = "任命，感谢。从今以后，也请将我的力量用于正途，否则......",
+    cn13 = "我需要更多的力量。",
+    cn14 = "感谢您的任命。",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "战斗结束，没有任何敌人逃走。",
-    cn31 = "战斗结束，一些敌人逃走了。",
-    cn32 = "立刻撤退......",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "发现敌情，立即采取行动。",
+    cn19 = "了解。",
+    cn20 = "请下达指令。",
+    cn21 = "现在进行索敌。",
+    cn22 = "到达目标地点。",
+    cn23 = "援护。",
+    cn24 = "瞄准。",
+    cn25 = "发射。",
+    cn26 = "开火！",
+    cn27 = "我会一直走下去，直到彻底实现复仇那天。",
+    cn28 = "作战结束。歼灭了所有目标。",
+    cn29 = "战斗结束。有必要确认残余敌人的情况。",
+    cn30 = "马上撤退......",
+    cn31 = "不习惯热闹的房间......",
+    cn32 = "啊......",
+    cn33 = "那个，摸我的角的话，有点为难......很痒......",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "嗯？博士啊。",
   },
   skins = {
 

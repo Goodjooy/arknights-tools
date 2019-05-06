@@ -6,16 +6,16 @@ Promise.all([
   /* 01 */ read('templates/char_rank.lua'),
   /* 02 */ read('templates/skill.lua'),
   /* 03 */ read('templates/talent.lua'),
-  /* 04 */ read('output/arknights_cbt2_data/character_table.json'),
-  /* 05 */ read('output/arknights_cbt2_data/charword_table.json'),
-  /* 06 */ read('output/arknights_cbt2_data/handbook_info_table.json'),
-  /* 07 */ read('output/arknights_cbt2_data/skill_table.json'),
+  /* 04 */ read('input/excel/character_table.json'),
+  /* 05 */ read('input/excel/charword_table.json'),
+  /* 06 */ read('input/excel/handbook_info_table.json'),
+  /* 07 */ read('input/excel/skill_table.json'),
   /* 08 */ read('input/translations.json'),
   /* 09 */ read('templates/talent-mastery.lua'),
   /* 10 */ read('templates/trust.lua'),
   /* 11 */ read('templates/upgrade.lua'),
   /* 12 */ read('templates/material.lua'),
-  /* 13 */ read('output/arknights_cbt2_data/item_table.json'),
+  /* 13 */ read('input/excel/item_table.json'),
   /* 14 */ read('input/customdata.json'),
   /* 15 */ read('output/items.json'),
 ])
@@ -30,8 +30,9 @@ Promise.all([
   let tpl_material = data[12].contents
 
   let characters = JSON.parse(data[4].contents)
+
   let quotes = JSON.parse(data[5].contents)
-  let handbook = JSON.parse(data[6].contents)
+  let handbook = JSON.parse(data[6].contents).handbookDict
   let skills = JSON.parse(data[7].contents)
   let items = JSON.parse(data[13].contents).items
 
@@ -190,6 +191,7 @@ Promise.all([
   }
 
   const potentialMessage = potentialRank => {
+    if (!potentialRank) return '?'
     if (potentialRank.type == 0) {
       // Stats bonus
       if (!potentialRank.buff) { console.log('ERR potential without buff', potentialRank); return '' }
@@ -387,7 +389,7 @@ Promise.all([
       position: t(char.position),
       roles: char.tagList.map(t).map(v => '"'+v+'"').join(', '),
       faction: factionName(char.displayLogo),
-      stars: parseInt(char.rarity, 10) + 2,
+      stars: parseInt(char.rarity, 10) + 1,
       class: className(char.profession),
       obtain_recruit: extra.obtain.recruit,
       obtain_gacha: extra.obtain.gacha,

@@ -1,6 +1,6 @@
 return {
   id = "210",
-  num = "R210",
+  num = "PA42",
   name = {
     en = "Steward",
     cn = "史都华德",
@@ -21,15 +21,15 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 475,
-    atk = 198,
-    def = 39,
+    hp = 592,
+    atk = 249,
+    def = 38,
     resist = 10,
     cost = 16,
     block = 1,
     speed = 1,
     atkspd = 100,
-    baseAtkTime = 1.8,
+    baseAtkTime = 1.6,
     respawn = 70,
     hpRegen = 0,
     spRegen = 1,
@@ -42,21 +42,21 @@ return {
   ranks = {
     base = {
       range = "3-6",
-      maxLevel = 30,
+      maxLevel = 40,
       images = {
           portrait = "Steward-0-portrait.png",
           full = "Steward-0.png"
       },
       maxStats = {
-        hp = 679,
-        atk = 296,
-        def = 66,
-        resist = 10,
+        hp = 847,
+        atk = 357,
+        def = 65,
+        resist = 15,
         cost = 16,
         block = 1,
         speed = 1,
         atkspd = 100,
-        baseAtkTime = 1.8,
+        baseAtkTime = 1.6,
         respawn = 70,
         hpRegen = 0,
         spRegen = 1,
@@ -75,15 +75,15 @@ return {
           full = "Steward-0.png"
       },
       maxStats = {
-        hp = 882,
-        atk = 442,
-        def = 91,
+        hp = 1100,
+        atk = 470,
+        def = 90,
         resist = 10,
         cost = 18,
         block = 1,
         speed = 1,
         atkspd = 100,
-        baseAtkTime = 1.8,
+        baseAtkTime = 1.6,
         respawn = 70,
         hpRegen = 0,
         spRegen = 1,
@@ -94,16 +94,6 @@ return {
         silenceImmunity = false,
       },
       materials = {
-        {
-          icon = "CasterChip.png",
-          name = "Caster Chip",
-          count = 2,
-        },
-        {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
-        },
       },
     },
     elite2 = nil,
@@ -115,12 +105,12 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下一次攻击的攻击力提高至150%",
-      max_description = "下一次攻击的攻击力提高至190%",
+      description = "下次攻击的攻击力提高至150%",
+      max_description = "下次攻击的攻击力提高至190%",
       range = nil,
       max_range = nil,
-      spcost = 6,
-      max_spcost = 5,
+      spcost = 5,
+      max_spcost = 4,
       duration = 0,
     },
   },
@@ -128,7 +118,7 @@ return {
     {
       skillLevel = 2,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
           icon = "BasicSkillBooks.png",
@@ -140,29 +130,34 @@ return {
     {
       skillLevel = 3,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
           count = 2,
         },
+        {
+          icon = "Ketone.png",
+          name = "Ketone",
+          count = 1,
+        },
       }
     },
     {
       skillLevel = 4,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
-          icon = "BasicSkillBooks.png",
-          name = "Basic Skill Books",
-          count = 3,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 1,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 20,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 1,
         },
       }
     },
@@ -177,14 +172,9 @@ return {
           count = 1,
         },
         {
-          icon = "Polyester.png",
-          name = "Polyester",
-          count = 4,
-        },
-        {
-          icon = "Sugar.png",
-          name = "Sugar",
-          count = 4,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 3,
         },
       }
     },
@@ -196,17 +186,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 1,
         },
         {
-          icon = "Polyester.png",
-          name = "Polyester",
-          count = 6,
-        },
-        {
-          icon = "Sugar.png",
-          name = "Sugar",
-          count = 6,
+          icon = "XenoIronChunk.png",
+          name = "Xeno Iron Chunk",
+          count = 1,
         },
       }
     },
@@ -221,14 +206,9 @@ return {
           count = 2,
         },
         {
-          icon = "PolyesterPack.png",
-          name = "Polyester Pack",
-          count = 3,
-        },
-        {
-          icon = "SugarPack.png",
-          name = "Sugar Pack",
-          count = 3,
+          icon = "FlocculatedKetoneCase.png",
+          name = "Flocculated Ketone Case",
+          count = 2,
         },
       }
     },
@@ -236,9 +216,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 50,
+        level = 55,
         name = "铠甲突破",
-        description = "攻击力提升6%，并优先攻击防御力最高的敌人",
+        description = "攻击力+6%，优先攻击防御力最高的敌人",
       },
     },
   },
@@ -253,7 +233,7 @@ return {
     {
       trust = 50,
       maxHp = 0,
-      atk = 70,
+      atk = 50,
       def = 0,
     },
   },
@@ -279,9 +259,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Kjerag",
+      origin = "",
       birthday = "?",
-      race = "Vulpes",
+      race = "",
       height = "?",
     },
     physical = {
@@ -294,40 +274,46 @@ return {
     },
     oripathy = {
       infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。
+
+【体细胞与源石融合率】9%
+体表暂未出现明显的矿石病病征。
+
+【血液源石结晶密度】0.3u/L
+患有轻度矿石病感染，目前无扩散倾向。",
     }
   },
   quotes = {
-    cn01 = "史都华德，为您效力。欢迎回来，Doctor。",
-    cn02 = "史都华德是我的姓氏也是我的代号，或许从中您能解读出我的祖先所从事的行业。",
-    cn03 = "没想到这里也能看到我的同族。嗯，她一直在找人吗？我能理解她的感受......嗯？没什么。",
-    cn04 = "大家都说我们种族的毛发是雪的颜色......Doctor你见过雪吧？",
-    cn05 = "炎熔的战斗方式很特别呢，会让人误以为那本书是她的施术工具，其实真正的施术单元是她的小刀，让我想起了曾经教过我法术的通灵师。",
-    cn06 = "为您工作，真的让我非常开心。不过如果可以的话，也希望您能多关照一下玫兰莎，她经常一个人呆着......",
-    cn07 = "安德切尔这家伙有点头疼啊......总之不知道他想做什么。",
-    cn08 = "安赛尔......没事的。感染这种事，是早已发生了的。它其实帮了我很多，在它夺走我的重要东西之前，我要利用它为大家开辟出可以生活下去的地方。",
-    cn09 = "累了吗？请多多休息吧，明天还有未知的任务需要依靠您。",
-    cn10 = "术师史都华德。总之，今后的日子还请您多多关照。",
-    cn11 = "您满意我的工作成果，我就很满足了。杜宾老师也会高兴的吧。",
-    cn12 = "安赛尔，检查下受伤状况，准备下一场作战。",
-    cn13 = "嗯，只要战术运用得当，即使这样困难的局面也能有效破解。",
-    cn14 = "一次完美的胜利，大家辛苦了！",
+    cn01 = "欢迎回来，博士，史都华德为您效力。",
+    cn02 = "史都华德是我的姓氏，也是我作为干员的代号。如果是博士您的话，应该可以从这个姓氏中，解读出我的先祖所从事的职业。",
+    cn03 = "没想到能在这里遇到我的同族。那个孩子是在寻找什么人吗？我能理解这种心情......啊，不，没什么。",
+    cn04 = "人们常说我族的毛色是“雪的颜色”。博士，您，见过雪吗？",
+    cn05 = "炎熔小姐的战斗方式有些与众不同。我曾以为，她使用手中的书本来释放法术，没想到，真正的施术工具却是她的那把匕首。这样的战斗风格，让我想起了那位曾经教过我法术的通灵师。",
+    cn06 = "能为博士服务，我感到非常荣幸。若是可以的话，我希望您能更多关照玫兰莎小姐一些。她，总是一个人......",
+    cn07 = "安德切尔，真是让人捉摸不透......很难说清楚他平时到底在想些什么。",
+    cn08 = "安赛尔......请放心。事到如今，我早已不会在意自己感染者的身份了。不如说，我因此而获得了许多帮助。在它夺走我重要的东西之前，我会先利用它，为大家创造一个能安心生活的地方。",
+    cn09 = "累了吗？请多多休息吧，明天罗德岛也需要依靠博士您的力量。",
+    cn10 = "术师史都华德，从今天开始，还请您多多关照。",
+    cn11 = "我学到了很多东西。谢谢您。",
+    cn12 = "卡缇，行动之前要多注意气氛。",
+    cn13 = "我的工作成果能让您满意就足够了。杜宾老师也会很高兴吧。",
+    cn14 = "各位，有何种需求？",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "......哪里出了问题吗？",
-    cn31 = "",
-    cn32 = "",
+    cn18 = "为您效劳。",
+    cn19 = "我知道了。",
+    cn20 = "明白。",
+    cn21 = "冻结吧！",
+    cn22 = "倒下吧。",
+    cn23 = "只要战术运用得当，我们能够打破任何艰难的局面。",
+    cn24 = "这是完美的胜利。大家辛苦了！",
+    cn25 = "安赛尔，请确认伤者的情况，准备下一场战斗。",
+    cn26 = "......哪里出了问题吗？",
+    cn27 = "卡缇，你在那里吗......？等一下，别碰器材！",
+    cn28 = "嗯？",
+    cn29 = "有什么我能为您效劳的吗，博士？",
+    cn30 = "明日方舟。",
+    cn31 = "请多关照，博士。",
+    cn32 = "请下令。",
     cn33 = "",
     cn34 = "",
     cn36 = "",

@@ -1,6 +1,6 @@
 return {
   id = "118",
-  num = "L118",
+  num = "LM10",
   name = {
     en = "ShiraYuki",
     cn = "白雪",
@@ -9,7 +9,7 @@ return {
     ex = "ShiraYuki",
   },
   fileKey = "Shirayuki",
-  team = 12,
+  team = -1,
   position = "Ranged",
   roles = { "Splash", "Slow" },
   faction = "Great Lungmen",
@@ -21,15 +21,15 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 660,
+    hp = 834,
     atk = 347,
-    def = 48,
+    def = 51,
     resist = 0,
     cost = 23,
     block = 1,
     speed = 1,
     atkspd = 100,
-    baseAtkTime = 3,
+    baseAtkTime = 2.8,
     respawn = 70,
     hpRegen = 0,
     spRegen = 1,
@@ -42,21 +42,21 @@ return {
   ranks = {
     base = {
       range = "3-3",
-      maxLevel = 35,
+      maxLevel = 45,
       images = {
           portrait = "Shirayuki-0-portrait.png",
           full = "Shirayuki-0.png"
       },
       maxStats = {
-        hp = 826,
-        atk = 497,
-        def = 62,
+        hp = 1043,
+        atk = 496,
+        def = 66,
         resist = 0,
         cost = 23,
         block = 1,
         speed = 1,
         atkspd = 100,
-        baseAtkTime = 3,
+        baseAtkTime = 2.8,
         respawn = 70,
         hpRegen = 0,
         spRegen = 1,
@@ -68,22 +68,22 @@ return {
       },
     },
     elite1 = {
-      range = "3-10",
+      range = "3-8",
       maxLevel = 60,
       images = {
           portrait = "Shirayuki-0-portrait.png",
           full = "Shirayuki-0.png"
       },
       maxStats = {
-        hp = 1033,
-        atk = 681,
-        def = 78,
+        hp = 1304,
+        atk = 621,
+        def = 84,
         resist = 0,
-        cost = 26,
+        cost = 25,
         block = 1,
         speed = 1,
         atkspd = 100,
-        baseAtkTime = 3,
+        baseAtkTime = 2.8,
         respawn = 70,
         hpRegen = 0,
         spRegen = 1,
@@ -100,14 +100,14 @@ return {
           count = 3,
         },
         {
-          icon = "RawEster.png",
-          name = "Raw Ester",
-          count = 15,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 1,
         },
         {
-          icon = "SugarSubstitute.png",
-          name = "Sugar Substitute",
-          count = 15,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 1,
         },
       },
     },
@@ -119,15 +119,15 @@ return {
           full = "Shirayuki-2.png"
       },
       maxStats = {
-        hp = 1230,
-        atk = 831,
-        def = 92,
+        hp = 1630,
+        atk = 797,
+        def = 100,
         resist = 0,
-        cost = 26,
+        cost = 27,
         block = 1,
         speed = 1,
         atkspd = 100,
-        baseAtkTime = 3,
+        baseAtkTime = 2.8,
         respawn = 70,
         hpRegen = 0,
         spRegen = 1,
@@ -141,12 +141,17 @@ return {
         {
           icon = "SniperChipSet.png",
           name = "Sniper Chip Set",
-          count = 4,
+          count = 5,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 10,
+          icon = "FlocculatedKetoneCase.png",
+          name = "Flocculated Ketone Case",
+          count = 15,
+        },
+        {
+          icon = "XenoIronChunk.png",
+          name = "Xeno Iron Chunk",
+          count = 9,
         },
       },
     },
@@ -158,8 +163,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围扩大2 格",
-      max_description = "攻击范围扩大2 格",
+      description = "攻击范围+2 格",
+      max_description = "攻击范围+2 格",
       range = nil,
       max_range = nil,
       spcost = 32,
@@ -169,16 +174,16 @@ return {
     {
       icon = "skchr-yuki-2",
       name = "凝武",
-      recharge = "",
-      trigger = "Passive",
-      passive = true,
-      description = "攻击变为投掷回旋的大飞镖 击中的敌人移动速度降低-22% ，并每秒受到攻击力50% 的物理伤害",
-      max_description = "攻击变为投掷回旋的大飞镖 击中的敌人移动速度降低-35% ，并每秒受到攻击力60% 的物理伤害",
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
+      description = "攻击变为投掷回旋的大飞镖，短时间内使命中目标的移动速度降低-22% ，并每秒受到相当于攻击力50% 的法术伤害",
+      max_description = "攻击变为投掷回旋的大飞镖，短时间内使命中目标的移动速度降低-35% ，并每秒受到相当于攻击力80% 的法术伤害",
       range = nil,
       max_range = nil,
-      spcost = 0,
-      max_spcost = 0,
-      duration = 0,
+      spcost = 35,
+      max_spcost = 25,
+      duration = 25,
     },
   },
   skillup = {
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 2,
         },
       }
     },
@@ -204,6 +209,11 @@ return {
           name = "Basic Skill Books",
           count = 2,
         },
+        {
+          icon = "Ketone.png",
+          name = "Ketone",
+          count = 3,
+        },
       }
     },
     {
@@ -212,14 +222,14 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "BasicSkillBooks.png",
-          name = "Basic Skill Books",
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
           count = 3,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 25,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 1,
         },
       }
     },
@@ -231,17 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
-        },
-        {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 4,
+          count = 3,
         },
         {
           icon = "RockBlock.png",
           name = "Rock Block",
-          count = 8,
+          count = 4,
         },
       }
     },
@@ -256,14 +261,9 @@ return {
           count = 3,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 6,
-        },
-        {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 12,
+          icon = "ManganeseOre.png",
+          name = "Manganese Ore",
+          count = 2,
         },
       }
     },
@@ -275,32 +275,22 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
+          count = 4,
+        },
+        {
+          icon = "PolishStone.png",
+          name = "Polish Stone",
           count = 2,
-        },
-        {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 3,
-        },
-        {
-          icon = "RockSet.png",
-          name = "Rock Set",
-          count = 6,
         },
       }
     },
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "投掷物改造",
-        description = "攻击间隔略微增大，但攻击力提升20%",
-      },
       rank2 = {
         level = 1,
         name = "重型手里剑",
-        description = "攻击间隔略微增大，但攻击力提升30%",
+        description = "攻击间隔略微增大，但攻击力+20%",
       },
     },
   },
@@ -314,8 +304,8 @@ return {
   trust = {
     {
       trust = 50,
-      maxHp = 200,
-      atk = 90,
+      maxHp = 0,
+      atk = 70,
       def = 0,
     },
   },
@@ -341,9 +331,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "East",
+      origin = "",
       birthday = "?",
-      race = "Anati",
+      race = "",
       height = "?",
     },
     physical = {
@@ -356,7 +346,13 @@ return {
     },
     oripathy = {
       infected = "No",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+
+【体细胞与源石融合率】0%
+干员白雪没有被源石感染的迹象。
+
+【血液源石结晶密度】0.12u/L
+干员白雪甚少接触源石。",
     }
   },
   quotes = {
@@ -371,30 +367,31 @@ return {
     cn09 = "职责？保护你。",
     cn10 = "......寂静。",
     cn11 = "白雪，依照文月公主的嘱托，协助陈小姐行动，并听从你的差遣。",
-    cn12 = "敌尽则我进，我进则敌尽。",
-    cn13 = "晋升？白雪领命。",
-    cn14 = "白雪，愿为你献上更多力量。",
+    cn12 = "白雪，愿为你献上更多力量。",
+    cn13 = "感谢。",
+    cn14 = "晋升？白雪领命。",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "无人生还，大胜。",
-    cn31 = "还有漏网之鱼，不可大意。",
-    cn32 = "若再战，必将百倍奉还。",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "风雪将掩埋这片战场。",
+    cn19 = "好。",
+    cn20 = "准备。",
+    cn21 = "了解。",
+    cn22 = "明白。",
+    cn23 = "入灭。",
+    cn24 = "破碎。",
+    cn25 = "无常之风。",
+    cn26 = "断绝。",
+    cn27 = "敌尽则我进，我进则敌尽。",
+    cn28 = "无人生还，大胜。",
+    cn29 = "还有漏网之鱼，不可大意。",
+    cn30 = "若再战，必将百倍奉还。",
+    cn31 = "一间很棒的屋子。",
+    cn32 = "是。",
+    cn33 = "你的关照，白雪定会铭记于心。",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "雇主，你好。",
   },
   skins = {
 

@@ -1,6 +1,6 @@
 return {
   id = "128",
-  num = "R128",
+  num = "RL04",
   name = {
     en = "Ptilopsis",
     cn = "白面鸮",
@@ -11,7 +11,7 @@ return {
   fileKey = "Ptilopsis",
   team = 4,
   position = "Ranged",
-  roles = { "Support", "Life recovery" },
+  roles = { "治疗", "Support" },
   faction = "Rhine Lab",
   stars = 5,
   class = "Medic",
@@ -21,9 +21,9 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 640,
-    atk = 117,
-    def = 62,
+    hp = 751,
+    atk = 122,
+    def = 71,
     resist = 0,
     cost = 15,
     block = 1,
@@ -42,15 +42,15 @@ return {
   ranks = {
     base = {
       range = "y-1",
-      maxLevel = 40,
+      maxLevel = 50,
       images = {
           portrait = "Ptilopsis-0-portrait.png",
           full = "Ptilopsis-0.png"
       },
       maxStats = {
-        hp = 865,
-        atk = 190,
-        def = 90,
+        hp = 1016,
+        atk = 198,
+        def = 95,
         resist = 0,
         cost = 15,
         block = 1,
@@ -75,9 +75,9 @@ return {
           full = "Ptilopsis-0.png"
       },
       maxStats = {
-        hp = 1082,
-        atk = 257,
-        def = 113,
+        hp = 1271,
+        atk = 268,
+        def = 124,
         resist = 0,
         cost = 17,
         block = 1,
@@ -100,14 +100,14 @@ return {
           count = 4,
         },
         {
-          icon = "BrokenGadget.png",
-          name = "Broken Gadget",
-          count = 12,
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 8,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
+          icon = "Sugar.png",
+          name = "Sugar",
+          count = 2,
         },
       },
     },
@@ -119,9 +119,9 @@ return {
           full = "Ptilopsis-2.png"
       },
       maxStats = {
-        hp = 1370,
-        atk = 322,
-        def = 142,
+        hp = 1610,
+        atk = 335,
+        def = 150,
         resist = 0,
         cost = 17,
         block = 1,
@@ -141,12 +141,17 @@ return {
         {
           icon = "MedicTwinChip.png",
           name = "Medic Twin Chip",
-          count = 2,
+          count = 3,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 8,
+          icon = "RefinedRock.png",
+          name = "Refined Rock",
+          count = 9,
+        },
+        {
+          icon = "PolishStone.png",
+          name = "Polish Stone",
+          count = 10,
         },
       },
     },
@@ -158,8 +163,8 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力提高40%",
-      max_description = "攻击力提高90%",
+      description = "攻击力+40%",
+      max_description = "攻击力+90%",
       range = nil,
       max_range = nil,
       spcost = 40,
@@ -172,13 +177,13 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "进入清醒状态，攻击范围增大，攻击间隔缩短",
-      max_description = "进入清醒状态，攻击范围增大，攻击间隔超大幅度缩短",
-      range = "y-5",
-      max_range = "y-5",
+      description = "攻击范围扩大，攻击间隔缩短",
+      max_description = "攻击范围扩大，攻击间隔超大幅度缩短",
+      range = "y-7",
+      max_range = "y-7",
       spcost = 100,
       max_spcost = 100,
-      duration = 31,
+      duration = 30,
     },
   },
   skillup = {
@@ -190,7 +195,7 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 1,
+          count = 4,
         },
       }
     },
@@ -202,7 +207,12 @@ return {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
-          count = 2,
+          count = 4,
+        },
+        {
+          icon = "Rock.png",
+          name = "Rock",
+          count = 10,
         },
       }
     },
@@ -214,12 +224,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 1,
+          count = 6,
         },
         {
-          icon = "RockBlock.png",
-          name = "Rock Block",
-          count = 30,
+          icon = "Sugar.png",
+          name = "Sugar",
+          count = 3,
         },
       }
     },
@@ -231,12 +241,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
-          count = 2,
+          count = 6,
         },
         {
-          icon = "Gadget.png",
-          name = "Gadget",
-          count = 4,
+          icon = "Polyester.png",
+          name = "Polyester",
+          count = 5,
         },
       }
     },
@@ -246,13 +256,13 @@ return {
       reqLevel = 1,
       materials = {
         {
-          icon = "TertiarySkillBooks.png",
-          name = "Tertiary Skill Books",
-          count = 1,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
+          icon = "XenoIronChunk.png",
+          name = "Xeno Iron Chunk",
           count = 4,
         },
       }
@@ -265,39 +275,32 @@ return {
         {
           icon = "TertiarySkillBooks.png",
           name = "Tertiary Skill Books",
-          count = 3,
+          count = 6,
         },
         {
-          icon = "CurrentGadget.png",
-          name = "Current Gadget",
-          count = 6,
+          icon = "FlocculatedKetoneCase.png",
+          name = "Flocculated Ketone Case",
+          count = 2,
+        },
+        {
+          icon = "TwistAlcohol.png",
+          name = "Twist Alcohol",
+          count = 4,
         },
       }
     },
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "技力光环·初级",
-        description = "部署后略微提升全场友方单位的技力回复速度",
-      },
       rank1 = {
         level = 1,
-        name = "技力光环·中级",
-        description = "部署后少量提升全场友方单位的技力回复速度",
+        name = "技力光环",
+        description = "在场时少量提升全场友方单位的技力回复速度",
       },
       rank2 = {
         level = 1,
-        name = "技力光环·精通",
-        description = "部署后较大提升全场友方单位的技力回复速度",
-      },
-    },
-    {
-      rank2 = {
-        level = 1,
-        name = "黑夜视觉",
-        description = "攻击范围常态扩大",
+        name = "技力光环",
+        description = "在场时较大提升全场友方单位的技力回复速度",
       },
     },
   },
@@ -311,8 +314,8 @@ return {
   trust = {
     {
       trust = 50,
-      maxHp = 150,
-      atk = 70,
+      maxHp = 0,
+      atk = 55,
       def = 0,
     },
   },
@@ -338,9 +341,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Columbia",
+      origin = "",
       birthday = "?",
-      race = "Ribley",
+      race = "",
       height = "?",
     },
     physical = {
@@ -352,46 +355,58 @@ return {
       originium = "?",
     },
     oripathy = {
-      infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      infected = "Unknown",
+      diagnosis = "......
+已为您检索出相关项目的医疗检测报告。
+【项目名称】干员，白面鸮。
+【检测结果报告】
+根据造影检测结果显示，干员白面鸮，体内脏器，轮廓模糊；异常阴影，可见；循环系统内，源石颗粒检测异常，已检测出典型矿石病感染迹象。现阶段可确认为，矿石病感染者。
+
+【体细胞与源石融合率】8%
+干员白面鸮。矿石病灶主要分布：多见于体内。感染程度：轻度。
+
+【血液源石结晶密度】0.43u/L
+干员白面鸮。体内源石扩散情况：缓慢。病症进程：目前控制良好。
+......",
     }
   },
   quotes = {
-    cn01 = "您好，Doctor，请问需要什么帮助？",
+    cn01 = "您好，博士，请问需要什么帮助？",
     cn02 = "......深度睡眠......Zzzzz......修改高级配置与电源管理接口......Zzzzz......",
     cn03 = "种族特性与病毒效果叠加，导致我在会话中会随时休眠，请不必在意。",
-    cn04 = "我与赫默博士因某个莱茵生命的内部项目相结识，我为她提供了大数据的分析和风险评估。",
-    cn05 = "警告！开始将罗德岛的数据库还原至初始状态......开玩笑，请不必惊慌。",
-    cn06 = "优化不行的话就重构吧，这样我的持续数据传输变得更有效率，Zzzz......",
-    cn07 = "说话方式？这是和源石病毒相关的结果，绝非是我觉得有趣才这样做的。",
-    cn08 = "系统已经从一个严重错误中恢复，我已使用了最近一次正确的配置，请您不要见怪。",
-    cn09 = "其实每天都用这种说话方式真挺累的......但是......这只是在不断警醒我不要被那个声音占据内心。即使失去了自我，也希望你能帮助我继续理性行事。",
-    cn10 = "......系统即将进入待机状态。",
-    cn11 = "前莱茵生命数据维护员白面鸮，如果方便的话，请使用命令行完成您需要的操作",
-    cn12 = "高难度的战役亦被您完全攻克，或许有朝一日您将能解决非确定性多项式的困惑。",
-    cn13 = "新版本加载完毕，白面鸮系统权限升级——",
-    cn14 = "警告！开始将罗德岛的数据库还原到2年前......开玩笑，请不必惊慌，版本更新完毕，让您久等了。",
+    cn04 = "我与赫默博士是在莱茵生命认识的。在某内部项目中，我为她提供了大数据分析和风险评估。",
+    cn05 = "警告！开始将罗德岛的数据库还原至初始状态......没事的，这是一个玩笑，请不要惊慌。",
+    cn06 = "如果不能通过优化提高性能的话，我会建议您进行重构。这样，数据通讯的效率会上升，白面鸮也会......Zzzz......",
+    cn07 = "说话方式？这是源石病毒的影响，绝非我觉得有趣才这样做的。",
+    cn08 = "警告，系统已从严重错误中恢复，正在应用最近一次正确启动时的配置。请不要介意。",
+    cn09 = "实际上，采用这样的说话方式需要承受相当大的负担。但这是为了防止系统中枢被那个声音吞噬的必要措施。我恳求您，即使我失去了理智，也请博士指引我回归正确的道路。",
+    cn10 = "......系统进入睡眠模式。",
+    cn11 = "前莱茵生命数据维护员白面鸮，如果方便的话，请使用命令行完成您所需的操作。",
+    cn12 = "警告，开始将罗德岛数据库还原至二年前......这是一个玩笑，请放心。系统更新已完成。",
+    cn13 = "正在读取软件包列表......申请完成。",
+    cn14 = "更新程序安装完成。 白面鸮的系统权限已更新。",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "您的逻辑推论完全正确，真是完美的计算。",
-    cn31 = "仍有一些错误发生在您的计算中，希望您对此有所注意。",
-    cn32 = "我们的行动遇到问题，需要重新启动。",
-    cn33 = "",
-    cn34 = "",
+    cn18 = "战术支援系统上线。",
+    cn19 = "程序启动。",
+    cn20 = "初始化完成。",
+    cn21 = "法术单元充能中。",
+    cn22 = "目标设定。",
+    cn23 = "医疗进程开始。",
+    cn24 = "装载完毕。",
+    cn25 = "治疗模式。",
+    cn26 = "法术单元启动。",
+    cn27 = "高难度的战役亦被博士完全攻克，或许有朝一日您将能解决非确定性多项式时间问题带来的困惑。",
+    cn28 = "您的逻辑推论完全正确，完美的计算。",
+    cn29 = "仍有一些错误出现在您的计算中，请注意。",
+    cn30 = "作战行动中发生了问题，请重启系统。",
+    cn31 = "这个地方就像磁盘列阵一样吗？",
+    cn32 = "发生错误。",
+    cn33 = "检测到白面鸮对博士的好感度上升，要跳到下一个事件选项吗？",
+    cn34 = "明日方舟。",
     cn36 = "",
     cn37 = "Arknights",
     cn42 = "",
+    cn35 = "全新的一天，检测到博士上线，白面鸮的情绪指数上升。",
   },
   skins = {
 

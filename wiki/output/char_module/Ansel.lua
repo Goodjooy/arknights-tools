@@ -1,6 +1,6 @@
 return {
   id = "212",
-  num = "R212",
+  num = "PA43",
   name = {
     en = "Ansel",
     cn = "安赛尔",
@@ -11,7 +11,7 @@ return {
   fileKey = "Ansel",
   team = 3,
   position = "Ranged",
-  roles = { "Life recovery" },
+  roles = { "治疗" },
   faction = "Rhodes Island",
   stars = 3,
   class = "Medic",
@@ -21,9 +21,9 @@ return {
     mission = false,
   },
   initialStats = {
-    hp = 633,
-    atk = 157,
-    def = 51,
+    hp = 634,
+    atk = 156,
+    def = 60,
     resist = 0,
     cost = 15,
     block = 1,
@@ -42,15 +42,15 @@ return {
   ranks = {
     base = {
       range = "3-1",
-      maxLevel = 30,
+      maxLevel = 40,
       images = {
           portrait = "Ansel-0-portrait.png",
           full = "Ansel-0.png"
       },
       maxStats = {
-        hp = 906,
-        atk = 243,
-        def = 64,
+        hp = 907,
+        atk = 257,
+        def = 81,
         resist = 0,
         cost = 15,
         block = 1,
@@ -75,9 +75,9 @@ return {
           full = "Ansel-0.png"
       },
       maxStats = {
-        hp = 1134,
-        atk = 348,
-        def = 80,
+        hp = 1135,
+        atk = 362,
+        def = 109,
         resist = 0,
         cost = 17,
         block = 1,
@@ -94,16 +94,6 @@ return {
         silenceImmunity = false,
       },
       materials = {
-        {
-          icon = "MedicChip.png",
-          name = "Medic Chip",
-          count = 2,
-        },
-        {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 40,
-        },
       },
     },
     elite2 = nil,
@@ -115,12 +105,12 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围增加1格",
-      max_description = "攻击范围增加2格",
+      description = "攻击范围+1 格，攻击力+5%",
+      max_description = "攻击范围+2 格，攻击力+40%",
       range = nil,
       max_range = nil,
-      spcost = 40,
-      max_spcost = 30,
+      spcost = 45,
+      max_spcost = 35,
       duration = 19,
     },
   },
@@ -128,7 +118,7 @@ return {
     {
       skillLevel = 2,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
           icon = "BasicSkillBooks.png",
@@ -140,29 +130,34 @@ return {
     {
       skillLevel = 3,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
           icon = "BasicSkillBooks.png",
           name = "Basic Skill Books",
           count = 2,
         },
+        {
+          icon = "XenoIronShard.png",
+          name = "Xeno Iron Shard",
+          count = 1,
+        },
       }
     },
     {
       skillLevel = 4,
       reqElite = 0,
-      reqLevel = 10,
+      reqLevel = 1,
       materials = {
         {
-          icon = "BasicSkillBooks.png",
-          name = "Basic Skill Books",
-          count = 3,
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 1,
         },
         {
-          icon = "Rock.png",
-          name = "Rock",
-          count = 20,
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 1,
         },
       }
     },
@@ -177,14 +172,9 @@ return {
           count = 1,
         },
         {
-          icon = "Polyester.png",
-          name = "Polyester",
-          count = 4,
-        },
-        {
-          icon = "Sugar.png",
-          name = "Sugar",
-          count = 4,
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 1,
         },
       }
     },
@@ -196,17 +186,12 @@ return {
         {
           icon = "SecondarySkillBooks.png",
           name = "Secondary Skill Books",
+          count = 1,
+        },
+        {
+          icon = "PolyesterPack.png",
+          name = "Polyester Pack",
           count = 2,
-        },
-        {
-          icon = "Polyester.png",
-          name = "Polyester",
-          count = 6,
-        },
-        {
-          icon = "Sugar.png",
-          name = "Sugar",
-          count = 6,
         },
       }
     },
@@ -221,14 +206,9 @@ return {
           count = 2,
         },
         {
-          icon = "PolyesterPack.png",
-          name = "Polyester Pack",
-          count = 3,
-        },
-        {
-          icon = "SugarPack.png",
-          name = "Sugar Pack",
-          count = 3,
+          icon = "XenoIronChunk.png",
+          name = "Xeno Iron Chunk",
+          count = 2,
         },
       }
     },
@@ -236,7 +216,7 @@ return {
   talents = {
     {
       rank1 = {
-        level = 50,
+        level = 55,
         name = "附加治疗",
         description = "有15%的几率额外治疗一名友方单位",
       },
@@ -253,8 +233,8 @@ return {
     {
       trust = 50,
       maxHp = 0,
-      atk = 55,
-      def = 20,
+      atk = 45,
+      def = 0,
     },
   },
   infrastructure_skills = {
@@ -279,9 +259,9 @@ return {
     bio = {
       gender = "?",
       experience = "?",
-      origin = "Rim Billiton",
+      origin = "",
       birthday = "?",
-      race = "Cartes",
+      race = "",
       height = "?",
     },
     physical = {
@@ -293,41 +273,47 @@ return {
       originium = "?",
     },
     oripathy = {
-      infected = "Yes",
-      diagnosis = "【临床记录】造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。",
+      infected = "No",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+
+【体细胞与源石融合率】0% 
+干员安赛尔没有被源石感染的迹象。
+
+【血液源石结晶密度】0.09u/L 
+干员安赛尔各项体征数据均处于基本健康的状态。",
     }
   },
   quotes = {
-    cn01 = "Doctor，注射时间到了。呃，您没事吧，还是有点晕针？",
-    cn02 = "看来凯尔希老师说的没错，您的体质是该锻炼一下了。不能因为我是新人就不听话。",
-    cn03 = "卡——缇——！都说了不要做出那样的攻击动作了！很容易把自己弄伤的！",
-    cn04 = "真是的......Doctor你可要保护好自己啊。",
-    cn05 = "夜班？啊，是的，因为我的种族特点吧，我们的体内激素分泌与其他种族不太一样，总之夜间是我的时间，正好能和芙蓉换班。",
-    cn06 = "夜宵是绝对不行的。我吃夜宵可不是您也能吃的借口，我的话晚上进食才是正常，是种族特性！特性！",
-    cn07 = "我是安赛尔，说出来可能有点丢人，我之所以选择医学，是因为我从小身体就不太好。不过既然成为干员，就不能让雇主担心，所以请按照同级干员那样要求我。",
-    cn08 = "其实大家都很努力......不过史都华德和玫兰莎的状况听凯尔希说都不是很好......努力让她们放心就是我该做的了。Doctor，你也要加油啊。",
-    cn09 = "啧！安德切尔，您能让卡缇安静一些吗？Doctor休息了......",
-    cn10 = "实习医士安赛尔，我的职责是进行外科医疗的辅助工作，请您多多指教。",
-    cn11 = "很高兴您这么重视我们医疗组干员的情况。",
-    cn12 = "受伤的人请等待一下，我马上就去为你包扎。",
-    cn13 = "呼......还好带来了足够多的药物。大家可以放心了。",
-    cn14 = "大家的出色发挥真让我刮目相看，太好了。",
+    cn01 = "博士，打针时间到了哦。呃，您、您没事吧！难道您晕针吗？",
+    cn02 = "就像凯尔希老师说的那样，博士您不锻炼一下是不行的。虽然我还是新人，但也请博士好好听我的话哟。",
+    cn03 = "卡缇！下次别在用那种攻击动作了，都说了这样会让你自己受伤的！",
+    cn04 = "真是的......博士，自己的身体，只有自己才能保护的好哦。",
+    cn05 = "您问我连续上夜班，身体吃得消吗？嗯，没问题的，我所属的种族，体内激素分泌的方式比较特别，比较利于我们在夜间活动。这样正好能和芙蓉小姐换班哟。",
+    cn06 = "请一定要戒掉夜宵哦。也不要把我也吃夜宵当成借口。我在深夜吃东西是种族特性的缘故！对，就是种族特性！",
+    cn07 = "我是安赛尔。虽然有点不好意思，但我选择医学之路，是因为从小时候起，我的身体就很虚弱。但既然现在身为干员，就不能给雇主添麻烦。所以请像要求其他人那样对待我。",
+    cn08 = "其实大家真的很努力了。不过听凯尔希老师说，史都华德和玫兰莎的状况都不太好......我的工作就是尽可能让他们没有后顾之忧。博士，一起加油吧。",
+    cn09 = "安德切尔，能让卡缇稍微安静一下吗？博士休息了。",
+    cn10 = "我是实习医生安赛尔，今后将承担一些外科医疗方面的辅助工作，还请您多多指教。",
+    cn11 = "我没给您添麻烦就好。",
+    cn12 = "医疗支援是战术小组应最优先考虑的事项。",
+    cn13 = "您这样重视我们医疗干员的处境，我很高兴。",
+    cn14 = "我随时都可以哦。",
     cn17 = "",
-    cn18 = "",
-    cn19 = "",
-    cn20 = "",
-    cn21 = "",
-    cn22 = "",
-    cn23 = "",
-    cn24 = "",
-    cn25 = "",
-    cn26 = "",
-    cn27 = "",
-    cn28 = "",
-    cn29 = "",
-    cn30 = "有人受伤了！......快掩护我运送伤员！",
-    cn31 = "",
-    cn32 = "",
+    cn18 = "我在等待您的指示。",
+    cn19 = "准备治疗！",
+    cn20 = "请坚持住！",
+    cn21 = "清除！",
+    cn22 = "这是给你的药，请拿好！",
+    cn23 = "呼——还好药品带够了。各位，请安心。",
+    cn24 = "大家活跃的姿态，真的让我刮目相看，太棒了。",
+    cn25 = "受伤的人请稍等，我马上就去为你治疗。",
+    cn26 = "有人受伤了！我要把伤员搬回后方，请掩护我！",
+    cn27 = "我来检查一下这里的医药品储备情况。",
+    cn28 = "哇，博士，请别捣乱啦！",
+    cn29 = "博士，您能喜欢我，我真的很高兴。",
+    cn30 = "明日方舟。",
+    cn31 = "您好，博士。",
+    cn32 = "急救箱已经准备好了。",
     cn33 = "",
     cn34 = "",
     cn36 = "",
