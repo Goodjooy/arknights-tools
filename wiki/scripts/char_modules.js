@@ -18,6 +18,9 @@ Promise.all([
   /* 13 */ read('input/excel/item_table.json'),
   /* 14 */ read('input/customdata.json'),
   /* 15 */ read('output/items.json'),
+  /* 16 */ read('input/excel/gamedata_const.json'),
+  /* 17 */ read('input/excel/building_data.json'),
+  /* 18 */ read('templates/infra.lua'),
 ])
 .then(data => {
   let tpl_char_module = data[0].contents
@@ -28,6 +31,7 @@ Promise.all([
   let tpl_trust = data[10].contents
   let tpl_upgrade = data[11].contents
   let tpl_material = data[12].contents
+  let tpl_infra = data[18].contents
 
   let characters = JSON.parse(data[4].contents)
 
@@ -35,6 +39,8 @@ Promise.all([
   let handbook = JSON.parse(data[6].contents).handbookDict
   let skills = JSON.parse(data[7].contents)
   let items = JSON.parse(data[13].contents).items
+  let gameconst = JSON.parse(data[16].contents)
+  let infra = JSON.parse(data[17].contents)
 
   let tls = JSON.parse(data[8].contents)
   let custom = JSON.parse(data[14].contents)
@@ -44,7 +50,11 @@ Promise.all([
   Object.keys(quotes).forEach(quoteKey => {
     let charKey = quotes[quoteKey].charId
     if (!quotesByChar[charKey]) quotesByChar[charKey] = []
-    quotesByChar[charKey].push(quotes[quoteKey].voiceText)
+    quotesByChar[charKey].push({
+      id: quotes[quoteKey].voiceId,
+      title: quotes[quoteKey].voiceTitle,
+      message: quotes[quoteKey].voiceText,
+    })
   })
 
   const t = text => tls[text] || text
@@ -59,6 +69,21 @@ Promise.all([
     return titleCase(name).replace(/\s/g, '').replace(/’/g, '')
   }
 
+  const richText = text => {
+    Object.keys(gameconst.richTextStyles).forEach(richTag => {
+      let htmlTag = gameconst.richTextStyles[richTag]
+      if (htmlTag.indexOf('<color=') === 0) {
+        let htmlColor = /\<color=\#([0-9A-Z]*)\>\{0\}\<\/color\>/gmi.exec(htmlTag)
+        htmlTag = '<span style=\'color:#' + htmlColor[1] + ';\'>{0}</span>'
+      }
+      let regex = new RegExp('\<@?' + richTag + '\>(.*?)\<\/\>', 'mgi')
+      while (match = regex.exec(text)) {
+        text = text.replace(match[0], htmlTag.replace('{0}', match[1]))
+      }
+    })
+    return text
+  }
+
   const fillData = (templateBody, replacers) => {
     Object.keys(replacers).forEach(find => {
       let replace = replacers[find]
@@ -67,47 +92,144 @@ Promise.all([
     return templateBody
   }
 
-  const extractHandbook = handbook => {
-    const regex = /【代号】(.*)\n【出身】(.*)\n【种族】(.*)\n【专精】(.*)\n【职能】(.*)/gi
-    let profile = regex.exec(handbook.storyTextAudio[1].stories[0].storyText)
-    let infection = null
-    let diagnosis = handbook.storyTextAudio[3].stories[0].storyText
-    if (diagnosis.indexOf('现阶段可确认为是矿石病感染者') > -1) infection = true
-    else if (diagnosis.indexOf('现阶段可确认为非矿石病感染者') > -1) infection = false
+  const handbookField = text => {
     return {
-      illust: handbook.drawName,
-      codename: profile ? profile[1] : '',
-      origin: profile ? profile[2] : '',
-      race: profile ? profile[3] : '',
-      specialty: profile ? profile[4] : '',
-      position: profile ? profile[5] : '',
-      diagnosis: diagnosis,
-      infected: infection,
+      '代号': 'codename',
+      '性别': 'gender',
+      '战斗经验': 'combatexp',
+      '出身地': 'origin',
+      '生日': 'birthday',
+      '种族': 'race',
+      '身高': 'height',
+      '体重': 'weight',
+      '矿石病感染情况': 'infection',
+      '物理强度': 'strength',
+      '战场机动': 'mobility',
+      '生理耐受': 'endurance',
+      '战术规划': 'tactic',
+      '战斗技巧': 'skill',
+      '源石技艺适应性': 'originium',
+      '客观履历': 'Resume',
+      '临床诊断分析': 'Diagnosis',
+      '档案资料一': 'Archive 1',
+      '档案资料二': 'Archive 2',
+      '档案资料三': 'Archive 3',
+      '档案资料四': 'Archive 4',
+      '晋升记录': 'Promotion',
+    }[text] || 'ERR_UNKNOWN_FIELD_' + text
+  }
+
+  const birthday = text => {
+    if (!text) return
+    let data = /(\d+)月(\d+)日/g.exec(text)
+    if (!data) return 'ERROR'
+    const date = new Date(2000, data[1] - 1, 1)
+    const month = date.toLocaleString('en-us', { month: 'long' });
+    return month + ' ' + data[2]
+  }
+
+  const combatexp = text => {
+    if (!text) return
+    if (text.indexOf('年') == text.length - 1) {
+      let numYears = text.split('年')[0]
+      numYears = t(numYears)
+      return numYears + (['Half', '1'].indexOf(numYears) > -1 ? ' year' : ' years')
+    }
+    if (text == '无战斗经验')
+      return 'No combat experience'
+    return text
+  }
+
+  // let knownLevels = []
+  const examination = (text, charKey, field) => {
+    if (!text) return
+    text = text.trim()
+    // if (text == '优秀') console.log('优秀', charKey, field)
+    // if (knownLevels.indexOf(text) === -1) {
+    //   console.log(text)
+    //   knownLevels.push(text)
+    // }
+    return t(text)
+  }
+
+  const extractHandbook = (handbook, charKey) => {
+    let details = {
+      illustrator: handbook.drawName,
+      voiceactor: handbook.infoName,
+    }
+    let records = {}
+    let entries = handbook.storyTextAudio
+    entries.forEach(entry => {
+      if (entry.stories.length != 1) console.log('[WARNING] handbook stories not 1', entry.stories)
+      if (entry.stories[0].storyText[0] == '【') {
+        let storyParts = entry.stories[0].storyText.split('\n')
+        let emptyField = null
+        storyParts.forEach(storyPart => {
+          if (storyPart[0] == '【') {
+            let info = /【(.*)】(.*)/g.exec(storyPart)
+            if (!info) return
+            if (info[2]) {
+              details[handbookField(info[1])] = t(info[2])
+            } else {
+              emptyField = info[1]
+            }
+          } else {
+            if (emptyField) {
+              details[handbookField(emptyField)] = storyPart
+              emptyField = null
+            }
+          }
+        })
+      } else {
+        records[handbookField(entry.storyTitle)] = entry.stories[0].storyText.replace(/[ ]?\n/g, '<br>') //.substring(0,30) + '...'
+      }
+    })
+    details.combatexp = combatexp(details.combatexp)
+    details.birthday = birthday(details.birthday)
+    details.infection = details.infection ? details.infection.indexOf('非') === -1 : ''
+    details.strength = examination(details.strength, charKey, 'strength')
+    details.mobility = examination(details.mobility, charKey, 'mobility')
+    details.endurance = examination(details.endurance, charKey, 'endurance')
+    details.tactic = examination(details.tactic, charKey, 'tactic')
+    details.skill = examination(details.skill, charKey, 'skill')
+    details.originium = examination(details.originium, charKey, 'originium')
+    return {
+      details,
+      records
     }
   }
 
-  const skillDesc = skill => {
-    let message = skill.description
-    message = message.replace(/\<@ba\.[a-z]+\>/gi, '')
-    message = message.replace(/\<\/\>/gi, '')
-    message = message.replace(/\\n/gi, ' ')
-    // message = message.replace('立即', 'Instantly ')
-    // message = message.replace('回复', 'Recover ')
-    // message = message.replace('攻击力', 'Attack ')
-    // message = message.replace('提高', 'increased ')
-    // message = message.replace('点部署费用', 'deployment points ')
-    if (skill.blackboard) skill.blackboard.forEach(item => {
-      let regex = new RegExp('\{\-?' + item.key.replace(/[|\\{}()[\]^$+*?.]/g, '\\$&') + ':?([A-Za-z0-9%\.]*)\}', 'gi')
-      let findBlackboards = regex.exec(message)
-      if (findBlackboards) {
-        if (findBlackboards[1] == '0%') message = message.replace(regex, (item.value * 100) + '% ')
-        else message = message.replace(regex, item.value + ' ')
-      }
+  const skillDesc = (skillId, levels) => {
+    let baseMessage = levels[levels.length-1].description
+    baseMessage = richText(baseMessage)
+
+    let attrRegex = new RegExp('\{\-?(.*?):?(.*?)\}', 'gim')
+    let attrValues = {}
+    while (match = attrRegex.exec(baseMessage)) {
+      let attrName = match[1] ? match[1] : match[2]
+      attrName = attrName.split(':')[0]
+      attrValues[attrName.toLowerCase()] = []
+    }
+
+    levels.forEach((level, levelNum) => {
+      if (level.blackboard) level.blackboard.forEach(item => {
+        if (attrValues[item.key]) {
+          attrValues[item.key][levelNum] = item.value
+        } else {
+          if (level.description.indexOf(item.key) > -1)
+            console.log('ATTR_404', skillId, Object.keys(attrValues), item.key, item.value)
+        }
+      })
     })
-    if (/\{(.*)\}/gi.exec(message)) console.log('unhandled skill param', skill.name, message, skill.blackboard)
-    if (/\<(.*)\>/gi.exec(message)) console.log('tags in skill desc', skill.name, message)
-    message = message.replace(/^\s+|\s+$/g, '')
-    return message
+
+    Object.keys(attrValues).forEach(attrName => {
+      let attrRegex = new RegExp('\{\-?' + attrName + ':?(.*?)\}', 'gim')
+      let showValues = [ attrValues[attrName][0], attrValues[attrName][3], attrValues[attrName][6], attrValues[attrName][9] ]
+      let values = showValues.join('/')
+      baseMessage = baseMessage.replace(attrRegex, values)
+    })
+
+    return baseMessage
   }
 
   const skillIcon = prefabId => {
@@ -130,22 +252,25 @@ Promise.all([
     }[String(skillType)] || ''
   }
 
+  const skillSP = levels => {
+    return levels.map(lv => lv.spData.spCost).join(', ')
+  }
+
+  const skillDuration = levels => {
+    return levels.map(lv => lv.duration).join(', ')
+  }
+
   const skillTemplate = charSkill => {
     let baseSkill = skills[charSkill.skillId]
     return fillData(tpl_skill, {
-      icon: skillIcon(baseSkill.levels[0].prefabId),
+      icon: skillIcon(charSkill.skillId),
       name: baseSkill.levels[0].name,
-      description: skillDesc(baseSkill.levels[0]),
-      max_description: skillDesc(baseSkill.levels[baseSkill.levels.length - 1]),
-      type: baseSkill.levels[0].skillType,
       recharge: spType(baseSkill.levels[0].spData.spType),
       trigger: skillTrigger(baseSkill.levels[0].skillType),
       passive: baseSkill.levels[0].skillType == 0 ? 'true' : 'false',
-      range: baseSkill.levels[0].rangeId ? '"' + baseSkill.levels[0].rangeId + '"' : 'nil',
-      max_range: baseSkill.levels[baseSkill.levels.length - 1].rangeId ? '"' + baseSkill.levels[baseSkill.levels.length - 1].rangeId + '"' : 'nil',
-      spcost: baseSkill.levels[0].spData.spCost,
-      max_spcost: baseSkill.levels[baseSkill.levels.length - 1].spData.spCost,
-      duration: baseSkill.levels[0].duration,
+      description: skillDesc(charSkill.skillId, baseSkill.levels),
+      spcost: skillSP(baseSkill.levels),
+      duration: skillDuration(baseSkill.levels),
     })
   }
 
@@ -216,6 +341,7 @@ Promise.all([
         case '第二天赋效果增强': return 'Second Talent Boost'
         case '天赋效果增强': return 'Talent Boost'
         case '天赋效果再度增强': return 'More Talent Boost'
+        case '天赋效果加强': return 'Talent Boost'
       }
       console.log('unknown talent boost', potentialRank)
       return '?'
@@ -248,13 +374,6 @@ Promise.all([
       materials: materials(skillup.lvlUpCost),
     })
   }
-
-  // const evolveCost = (phase, reqLevel) => {
-  //   return fillData(tpl_evolve, {
-  //     reqLevel: reqLevel,
-  //     materials: materials(skillup.lvlUpCost),
-  //   })
-  // } 
 
   const phaseTemplate = (char, charPhase, phaseNum, extra) => {
     if (!charPhase) return 'nil'
@@ -325,64 +444,81 @@ Promise.all([
     }[factionKey] || ''
   }
 
+  let voiceTitles = {}
   const quotesList = charKey => {
     let quotes = {};
-
-    [...Array(42).keys()].forEach(index => {
-      index++
-      if (index < 10) index = '0' + index
-      quotes['cn' + String(index)] = ""
-    })
-
-    quotes['cn37'] = "Arknights"
-    delete quotes['cn15']
-    delete quotes['cn16']
-    delete quotes['cn35']
-    delete quotes['cn38']
-    delete quotes['cn39']
-    delete quotes['cn40']
-    delete quotes['cn41']
-
-    const indexChange = {
-      "cn12": "cn13",
-      "cn13": "cn14",
-      "cn14": "cn12",
-      "cn15": "cn30",
-      "cn16": "cn31",
-      "cn17": "cn32",
-    }
-
     quotesByChar[charKey].forEach((quote, index) => {
-      index++
-      let quoteIndex = 'cn' + (index < 10 ? '0' + index : String(index))
-      quote = quote.replace(/Dr\.\{@nickname\}/g, 'Doctor')
-      quote = quote.replace(/\{@nickname\}/g, 'Doctor')
-      quote = t(quote)
-      if (indexChange[quoteIndex]) {
-        quotes[indexChange[quoteIndex]] = quote
-      } else {
-        quotes[quoteIndex] = quote
-      }
+      quote.id = 'cn' + quote.id.split('_')[1]
+      quotes[quote.id] = quote.message
+      if (voiceTitles[quote.id] && voiceTitles[quote.id] != quote.title)
+        console.log('[WARNING] not same voiceId title', charKey, ' = ', voiceTitles[quote.id], ' / ', quote.title)
+      voiceTitles[quote.id] = quote.title
     })
-
     return Object.keys(quotes)
       .map(quoteKey =>  quoteKey + ' = "' + quotes[quoteKey] + '",')
       .join('\n    ')
   }
 
-  Promise.each(Object.keys(characters), charKey => {
+  const getInfraSkills = charKey => {
+    let infraSkills = []
+    let buffs = infra.chars[charKey].buffChar
+    buffs.forEach(buff => {
+      if (!buff.buffData || !buff.buffData.length) return
+      let baseBuff = infra.buffs[buff.buffData[0].buffId]
+      infraSkills.push({
+        buffId: buff.buffData[0].buffId,
+        unlock: buff.buffData[0].cond.phase,
+        name: baseBuff.buffName,
+        description: richText(baseBuff.description),
+        facility: baseBuff.roomType,
+      })
+    })
+    return infraSkills
+  }
+
+  const facilityBadge = name => {
+    return name.toLowerCase()
+  }
+
+  const facilityName = name => {
+    return name
+  }
+
+  const riicTemplate = infraSkill => {
+    return fillData(tpl_infra, {
+      name: infraSkill.name,
+      badge: facilityBadge(infraSkill.facility),
+      facility: facilityName(infraSkill.facility),
+      unlock: 'elite' + infraSkill.unlock,
+      description: infraSkill.description,
+    })
+  }
+
+  const SHORTLIST = true
+
+  if (SHORTLIST) characters = {
+    char_101_sora: characters.char_101_sora,
+    char_102_texas: characters.char_102_texas,
+    char_103_angel: characters.char_103_angel,
+  }
+
+  return Promise.each(Object.keys(characters), charKey => {
+    // if (SHORTLIST) console.log('---------------------')
     let char = characters[charKey]
     if (!handbook[charKey]) return
-    let info = extractHandbook(handbook[charKey])
+    let info = extractHandbook(handbook[charKey], charKey)
+    // if (SHORTLIST) console.log('details', info.details)
+    // if (SHORTLIST) console.log('records', info.records)
     let extra = custom[charKey] || custom['generic']
+    let infraSkills = getInfraSkills(charKey)
     let charBody = fillData(tpl_char_module, {
       char_key: charKey,
       id: charKey.split('_')[1],
       num: char.displayNumber,
       name_en: t(char.appellation),
       name_cn: char.name,
-      name_jp: extra.jp,
-      name_kr: extra.kr,
+      name_jp: '?',
+      name_kr: '?',
       name_ex: char.appellation,
       file: fileKey(t(char.appellation)),
       team: char.team,
@@ -414,14 +550,12 @@ Promise.all([
       base: phaseTemplate(char, char.phases[0], 0, extra),
       elite1: phaseTemplate(char, char.phases[1], 1, extra),
       elite2: phaseTemplate(char, char.phases[2], 2, extra),
-      // phase0: '\n' + phaseTemplate('base', char.phases[0]),
-      // phase1: char.phases[1] ? '\n' + phaseTemplate('elite1', char.phases[1]) : '',
-      // phase2: char.phases[2] ? '\n' + phaseTemplate('elite2', char.phases[2]) : '',
-      // evolve1: char.phases[1] ? materials(char.phases[1].evolveCost, 3) : '',
-      // evolve2: char.phases[2] ? materials(char.phases[2].evolveCost, 3) : '',
       skill1: char.skills[0] ? '\n' + skillTemplate(char.skills[0]) : '',
       skill2: char.skills[1] ? '\n' + skillTemplate(char.skills[1]) : '',
       skill3: char.skills[2] ? '\n' + skillTemplate(char.skills[2]) : '',
+      buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills[0]) : '',
+      buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills[1]) : '',
+      buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills[2]) : '',
       talent1: char.talents[0] ? '\n' + talentTemplate(char.talents[0]) : '',
       talent2: char.talents[1] ? '\n' + talentTemplate(char.talents[1]) : '',
       potential1:  potentialMessage(char.potentialRanks[0]),
@@ -437,44 +571,45 @@ Promise.all([
       skillup7: char.allSkillLvlup[5] ? '\n' + skillUpgrade(char.allSkillLvlup[5], 7) : '',
       trust: trustList(char.favorKeyFrames),
 
-      illustrator: info.illust,
-      voiceActor: extra.voiceActor,
+      illustrator: info.details.illustrator,
+      voiceActor: info.details.voiceactor,
       servers: extra.servers,
 
-      record_resume: extra.records.resume,
-      record_trust1: extra.records.trust1,
-      record_trust2: extra.records.trust2,
-      record_trust3: extra.records.trust3,
-      record_trust4: extra.records.trust4,
-      record_trust5: extra.records.trust5,
-      record_elite2: extra.records.elite2,
-      record_token:  extra.records.token,
+      record_resume: info.records.Resume,
+      record_archive1: info.records['Archive 1'],
+      record_archive2: info.records['Archive 2'],
+      record_archive3: info.records['Archive 3'],
+      record_archive4: info.records['Archive 4'],
+      record_token:  info.records.Promotion,
 
-      gender: extra.bio.gender,
-      experience: extra.bio.experience,
-      origin: t(info.origin),
-      birthday: extra.bio.birthday,
-      race: t(info.race),
-      height: extra.bio.height,
+      gender: info.details.gender,
+      experience: info.details.combatexp,
+      origin: info.details.origin,
+      birthday: info.details.birthday,
+      race: info.details.race,
+      height: info.details.height,
+      weight: info.details.weight,
 
-      profile_strength: extra.physical.strength,
-      profile_mobility: extra.physical.mobility,
-      profile_endurance: extra.physical.endurance,
-      profile_tactic: extra.physical.tactic,
-      profile_skill: extra.physical.skill,
-      profile_originium: extra.physical.originium,
+      profile_strength: info.details.strength,
+      profile_mobility: info.details.mobility,
+      profile_endurance: info.details.endurance,
+      profile_tactic: info.details.tactic,
+      profile_skill: info.details.skill,
+      profile_originium: info.details.originium,
 
-      oripathy: info.infected === null ? 'Unknown' : (info.infected ? 'Yes' : 'No'),
-      diagnosis: info.diagnosis,
+      oripathy: info.details.infection ? 'Yes' : 'No',
+      diagnosis: info.records.Diagnosis,
 
       quotes: quotesList(charKey),
     })
-    console.log(t(char.appellation) + ' = require(\'Module:' + t(char.appellation) + '\'),');
     
     return save({
       destFile: 'output/char_module/' + t(char.appellation) + '.lua',
       destBody: charBody,
     })
   })
-  .then(() => { console.log('DONE!') })
+  
+})
+.then(() => {
+  console.log('DONE!')
 })

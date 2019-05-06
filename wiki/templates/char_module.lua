@@ -59,8 +59,7 @@ return {
   },
   trust = {{{trust}},
   },
-  infrastructure_skills = {
-    
+  infrastructure_skills = {{{buff1}}{{buff2}}{{buff3}}
   },
   meta = {
     illustrator = "{{illustrator}}",
@@ -70,12 +69,10 @@ return {
   profile = {
     records = {
       resume = "{{record_resume}}",
-      trust1 = "{{record_trust1}}",
-      trust2 = "{{record_trust2}}",
-      trust3 = "{{record_trust3}}",
-      trust4 = "{{record_trust4}}",
-      trust5 = "{{record_trust5}}",
-      elite2 = "{{record_elite2}}",
+      archive1 = "{{record_archive1}}",
+      archive2 = "{{record_archive2}}",
+      archive3 = "{{record_archive3}}",
+      archive4 = "{{record_archive4}}",
       token = "{{record_token}}",
     },
     bio = {
