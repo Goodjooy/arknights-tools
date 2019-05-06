@@ -163,7 +163,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "undefined",
+      description = "每次攻击会在<span style='color:#0098DC;'>3/3.5/4/5</span>秒内令命中目标移动速度<span style='color:#0098DC;'>--0.23/-0.29/-0.35/-0.5</span>",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击前摇和攻击间隔<span style='color:#FF6237;'>增大</span>，攻击力<span style='color:#0098DC;'>+0.3/0.45/0.6/0.9</span>，使命中目标晕眩<span style='color:#0098DC;'>0.5/0.6/0.7/1</span>秒",
       sp = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
       duration = { 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "特种专精·α",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite0",
+      description = "进驻训练室协助位时，特种干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

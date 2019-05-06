@@ -163,7 +163,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击额外攻击一个目标，造成相当于攻击力<span style='color:#0098DC;'>1.25/1.4/1.55/2</span>的物理伤害",
       sp = { 4, 4, 4, 3, 3, 3, 3, 3, 3, 2 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.1/0.2/0.3/0.5</span>，每次攻击对主目标额外射击<span style='color:#0098DC;'>一</span>次，并额外攻击<span style='color:#0098DC;'>两</span>个敌人",
       sp = { 50, 50, 50, 50, 50, 50, 50, 47, 44, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "毒理学·α",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>75%</span>"
+    },
   },
   meta = {
     illustrator = "LLC",

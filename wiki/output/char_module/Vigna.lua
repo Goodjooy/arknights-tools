@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.2/0.35/0.5/0.8</span>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+0.9/1.2/1.5/2</span>",
       sp = { 35, 35, 35, 32, 32, 32, 28, 27, 26, 25 },
       duration = { 20, 20, 20, 22, 22, 22, 25, 26, 27, 30 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "作战指导录像",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+    },
+    {
+      name = "先锋专精·β",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite1",
+      description = "进驻训练室协助位时，先锋干员的专精技能训练时间<span style='color:#0098DC;'>-50%</span>"
+    },
   },
   meta = {
     illustrator = "下野宏铭",

@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.1/0.3/0.5/</span>",
       sp = { 40, 40, 40, 35, 35, 35, 30 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -234,7 +234,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "善解人意",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.55</span>（同种效果取最高）"
+    },
+    {
+      name = "营养学",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite1",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+    },
   },
   meta = {
     illustrator = "下野宏铭",

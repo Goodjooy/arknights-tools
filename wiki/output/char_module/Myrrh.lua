@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次治疗可以恢复相当于攻击力<span style='color:#0098DC;'>1/1.06/1.12/1.25</span>的生命，并额外治疗一名单位\n<span style='color:#F49800;'>可充能1/2/3/3次</span>",
       sp = { 10, 10, 10, 9, 9, 9, 9, 8, 8, 8 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.05/0.2/0.35/0.65</span>，每次可额外治疗一名单位",
       sp = { 65, 65, 65, 60, 60, 60, 55, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "药理学",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>75%</span>"
+    },
+    {
+      name = "善解人意",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite1",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.55</span>（同种效果取最高）"
+    },
   },
   meta = {
     illustrator = "下野宏铭",

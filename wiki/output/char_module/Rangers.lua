@@ -99,7 +99,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "人事管理·α",
+      badge = "hire",
+      facility = "HIRE",
+      unlockIcon = "elite0",
+      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+20%</span>"
+    },
+    {
+      name = "能工巧匠",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>50%</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

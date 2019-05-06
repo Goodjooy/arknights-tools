@@ -163,7 +163,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.7/1.85/2/2.3</span>",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.2/0.35/0.5/0.8</span>，获得<span style='color:#0098DC;'>0.75/0.75/0.75/0.75</span>的物理和法术闪避",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 21, 21, 21, 22, 23, 24, 25 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "标准化·β",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+25%</span>"
+    },
+    {
+      name = "联络员",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite1",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>，且更容易获得<span style='color:#00B0FF;'>黑钢国际</span>线索"
+    },
   },
   meta = {
     illustrator = "m9nokuro",

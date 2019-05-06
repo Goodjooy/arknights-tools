@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.06/0.15/0.25/</span>，攻击速度<span style='color:#0098DC;'>+10/15/25/</span>",
       sp = { 55, 54, 53, 50, 49, 48, 45 },
       duration = { 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -234,7 +234,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "先锋专精·α",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite0",
+      description = "进驻训练室协助位时，先锋干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+    },
+    {
+      name = "订单管理·α",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite1",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+10%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+    },
   },
   meta = {
     illustrator = "deel",

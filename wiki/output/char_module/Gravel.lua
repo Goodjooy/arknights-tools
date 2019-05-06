@@ -163,7 +163,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "undefined",
+      description = "部署后防御力<span style='color:#0098DC;'>+2/2.7/3.4/4</span>，在<span style='color:#0098DC;'>6/7/8/12</span>秒内持续衰减",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "undefined",
+      description = "部署后获得可吸收相当于自己最大生命<span style='color:#0098DC;'>1/1.4/1.8/2.5</span>的护盾，该护盾会在<span style='color:#0098DC;'>10/10/10/10</span>秒内持续衰减",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "专注·α",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>40%</span>"
+    },
+    {
+      name = "金属工艺·β",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite1",
+      description = "进驻制造站时，<span style='color:#00B0FF;'>贵金属</span>类配方的生产力<span style='color:#0098DC;'>+35%</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

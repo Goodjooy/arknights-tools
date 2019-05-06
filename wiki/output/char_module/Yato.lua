@@ -99,7 +99,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "订单分发·β",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>"
+    },
+    {
+      name = "标准化·α",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+15%</span>"
+    },
   },
   meta = {
     illustrator = "Skade",

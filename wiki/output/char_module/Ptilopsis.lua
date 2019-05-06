@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.4/0.55/0.7/0.9</span>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击范围扩大，攻击间隔<span style='color:#0098DC;'>超大幅度缩短</span>",
       sp = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
       duration = { 30, 31, 32, 33, 34, 35, 36, 37, 38, 40 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "莱茵科技·α",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+15%</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

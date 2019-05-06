@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击会把目标往攻击方向<span style='color:#0098DC;'>较大力地</span>推开，并造成相当于攻击力<span style='color:#0098DC;'>1.05/1.24/1.35/1.5</span>的物理伤害",
       sp = { 6, 6, 6, 6, 6, 6, 6, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即将前方两格内所有敌人往攻击方向<span style='color:#0098DC;'>较大力地</span>推开，并造成相当于攻击力<span style='color:#0098DC;'>1.8/2.1/2.4/3</span>的物理伤害",
       sp = { 20, 20, 20, 20, 20, 20, 20, 19, 18, 17 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "工程学",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>基建材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+    },
+    {
+      name = "设备维护",
+      badge = "power",
+      facility = "POWER",
+      unlockIcon = "elite1",
+      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+15%</span>"
+    },
   },
   meta = {
     illustrator = "阿鬼",

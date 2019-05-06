@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击范围<span style='color:#0098DC;'>+2/2/2/2格</span>",
       sp = { 32, 31, 30, 27, 26, 25, 22, 21, 20, 15 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击变为投掷回旋的大飞镖，短时间内使命中目标的移动速度<span style='color:#0098DC;'>降低-0.22/-0.25/-0.28/-0.35</span>，并每秒受到相当于攻击力<span style='color:#0098DC;'>0.5/0.6/0.7/0.8</span>的<span style='color:#0098DC;'>法术伤害</span>",
       sp = { 35, 34, 33, 32, 31, 30, 29, 28, 27, 25 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -302,7 +302,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "线索搜集·β",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite0",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+20%</span>"
+    },
+    {
+      name = "作战指导录像",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite1",
+      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+    },
   },
   meta = {
     illustrator = "阿鬼",

@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.3/0.45/0.6/1</span>",
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击间隔<span style='color:#FF6237;'>增大</span>，攻击变为从天空召唤陨石；陨石需要时间降落，落地后对大范围敌人造成相当于攻击力<span style='color:#0098DC;'>1.7/1.9/2.1/2.4</span>的法术伤害，并使所有命中目标晕眩<span style='color:#0098DC;'>0.1/0.15/0.2/1</span>秒",
       sp = { 35, 34, 33, 32, 31, 30, 29, 28, 27, 25 },
       duration = { 25, 25, 25, 28, 28, 28, 31, 33, 35, 40 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "术师专精·α",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite0",
+      description = "进驻训练室协助位时，术师干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+    },
   },
   meta = {
     illustrator = "TOKI",

@@ -99,7 +99,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "慵懒",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#FF6237;'>-0.1</span>，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.2</span>（同种效果取最高）"
+    },
   },
   meta = {
     illustrator = "Skade",

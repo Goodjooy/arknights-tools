@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击间隔<span style='color:#0098DC;'>极大幅度缩短</span>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.2/0.25/0.3/0.75</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，额外攻击<span style='color:#0098DC;'>两</span>个目标",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 20, 20, 22, 22, 22, 25, 25, 25, 25 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "辅助专精·α",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite0",
+      description = "进驻训练室协助位时，辅助干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+    },
+    {
+      name = "参谋",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite2",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>，且更容易获得<span style='color:#00B0FF;'>乌萨斯学生自治团</span>线索"
+    },
   },
   meta = {
     illustrator = "Skade",

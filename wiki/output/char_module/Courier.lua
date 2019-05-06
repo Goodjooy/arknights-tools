@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即获得<span style='color:#0098DC;'>9/9/9/9</span>点部署费用",
       sp = { 39, 38, 37, 36, 35, 34, 33, 32, 31, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即获得<span style='color:#0098DC;'>{blackd_s_2[once].cost}</span>点部署费用\n技能持续期间内逐渐获得<span style='color:#0098DC;'>{blackd_s_2[period].trig_cnt}</span>点部署费用，防御力<span style='color:#0098DC;'>+{blackd_s_2[period].def:0%}</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "喀兰贸易·α",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+15%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+    },
+    {
+      name = "讯使",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite1",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>，且更容易获得<span style='color:#00B0FF;'>喀兰贸易</span>线索"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

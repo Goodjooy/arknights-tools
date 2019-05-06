@@ -163,7 +163,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.7/1.85/2/2.3</span>",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "对前方三格范围内至多<span style='color:#0098DC;'>3/4/4/5</span>个敌人造成相当于攻击力<span style='color:#0098DC;'>3/3.3/3.6/4</span>的物理伤害",
       sp = { 20, 20, 20, 20, 20, 20, 19, 19, 18, 17 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -312,7 +312,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "技巧理论",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>技巧概要</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+    },
+    {
+      name = "烹饪",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite2",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.35</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.35</span>"
+    },
   },
   meta = {
     illustrator = "TOKI",

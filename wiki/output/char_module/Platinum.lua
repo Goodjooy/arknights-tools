@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.3/0.45/0.6/1</span>",
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击速度略微<span style='color:#FF6237;'>降低</span>，但攻击力<span style='color:#0098DC;'>+0.5/0.6/0.7/1</span>，攻击范围<span style='color:#0098DC;'>扩大</span>\n<span style='color:#F49800;'>持续时间无限</span>",
       sp = { 70, 69, 68, 67, 66, 65, 63, 59, 55, 50 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "狙击专精·α",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite0",
+      description = "进驻训练室协助位时，狙击干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+    },
   },
   meta = {
     illustrator = "Skade",

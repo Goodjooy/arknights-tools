@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.2/0.35/0.5/0.8</span>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "<span style='color:#FF6237;'>停止攻击</span>；攻击范围内的敌方单位每<span style='color:#0098DC;'>1.8/1.7/1.6/1.4</span>秒受到一次停顿效果",
       sp = { 60, 58, 56, 54, 52, 50, 48, 46, 44, 40 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -302,7 +302,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "天灾信使·α",
+      badge = "hire",
+      facility = "HIRE",
+      unlockIcon = "elite0",
+      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+30%</span>"
+    },
+    {
+      name = "地质学家",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite1",
+      description = "进驻制造站时，<span style='color:#00B0FF;'>源石</span>类配方的生产力<span style='color:#0098DC;'>+35%</span>"
+    },
   },
   meta = {
     illustrator = "HUG",

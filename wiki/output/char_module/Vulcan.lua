@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "阻挡数<span style='color:#0098DC;'>+1</span>，防御力<span style='color:#0098DC;'>+0.6/0.75/0.9/1.2</span>，每秒额外恢复最大生命的<span style='color:#0098DC;'>0.02/0.03/0.04/0.05</span>",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "阻挡数<span style='color:#FF6237;'>-1</span>，攻击间隔略微<span style='color:#FF6237;'>增大</span>，攻击力<span style='color:#0098DC;'>+0.65/0.85/1.05/1.5</span>，每次攻击恢复自身最大生命值的<span style='color:#0098DC;'>0.05/0.06/0.07/0.1</span>，同时攻击阻挡的所有敌人",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "工匠精神·α",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，生产力<span style='color:#FF6237;'>-10%</span>，仓库容量上限<span style='color:#0098DC;'>+16</span>，每小时心情消耗<span style='color:#0098DC;'>-0.05</span>"
+    },
   },
   meta = {
     illustrator = "neco",

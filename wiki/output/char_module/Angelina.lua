@@ -158,7 +158,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.4/0.6/0.8/1.1</span>\n<span style='color:#F49800;'>技能自动开启</span>",
       sp = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
       duration = { 20, 21, 22, 25, 26, 27, 30, 31, 33, 35 },
     },
@@ -168,7 +168,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击间隔<span style='color:#0098DC;'>极大幅度缩短</span>，但每次攻击只能造成相当于攻击力<span style='color:#FF6237;'>0.3/0.35/0.4/0.45的法术伤害</span>\n<span style='color:#F49800;'>技能未开启时无法普通攻击</span>",
       sp = { 20, 20, 20, 20, 20, 20, 20, 19, 18, 15 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -178,7 +178,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "全场所有敌人重量<span style='color:#0098DC;'>下降一个等级</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，攻击力<span style='color:#0098DC;'>+0.75/0.9/1.05/1.5</span>，可以攻击<span style='color:#0098DC;'>4/4/5/5</span>个敌人\n<span style='color:#F49800;'>技能未开启时无法普通攻击</span>",
       sp = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
       duration = { 10, 11, 12, 14, 15, 16, 18, 20, 22, 25 },
     },
@@ -334,7 +334,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "线索搜集·α",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite0",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>"
+    },
   },
   meta = {
     illustrator = "LM7",

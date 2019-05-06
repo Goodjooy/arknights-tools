@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "所有触手攻击力和防御力<span style='color:#0098DC;'>+0.15/0.3/0.45/0.6</span>，每秒恢复<span style='color:#0098DC;'>30/40/50/70</span>点生命",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击范围<span style='color:#0098DC;'>扩大</span>，攻击范围内的友方单位获得<span style='color:#0098DC;'>0.25/0.3/0.35/0.5</span>的物理闪避",
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 25, 28, 31, 34, 37, 40, 43, 47, 51, 55 },
     },
@@ -312,7 +312,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "订单分发·α",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+20%</span>"
+    },
+    {
+      name = "专注·β",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite1",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>60%</span>"
+    },
   },
   meta = {
     illustrator = "REALMBW",

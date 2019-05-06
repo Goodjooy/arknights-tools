@@ -158,7 +158,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即获得<span style='color:#0098DC;'>12/12/12/12</span>点部署费用",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -168,7 +168,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击对四周所有敌人造成相当于攻击力<span style='color:#0098DC;'>2.2/2.5/2.8/3.4</span>的物理伤害，并获得<span style='color:#0098DC;'>3/3/3/3</span>点部署费用\n<span style='color:#F49800;'>可充能1/2/3/3次</span>",
       sp = { 12, 12, 12, 11, 11, 11, 11, 10, 10, 10 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -178,7 +178,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击间隔<span style='color:#FF6237;'>增大</span>，攻击时攻击力提高至<span style='color:#0098DC;'>2.6/2.9/3.2/3.8</span>，并且有<span style='color:#0098DC;'>0.4/0.4/0.4/0.4</span>的概率击晕目标<span style='color:#0098DC;'>0.5/0.8/1.1/1.5</span>秒",
       sp = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
       duration = { 15, 16, 17, 18, 19, 20, 21, 22, 23, 25 },
     },
@@ -334,7 +334,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "领袖",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.15</span>（同种效果取最高）"
+    },
   },
   meta = {
     illustrator = "infukun",

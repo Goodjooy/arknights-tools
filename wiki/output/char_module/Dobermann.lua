@@ -163,7 +163,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.7/1.85/2/2.3</span>",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.3/0.4/0.5/0.8</span>，天赋的效果提升至<span style='color:#0098DC;'>2.1/2.4/2.7/3</span>倍",
       sp = { 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "左膀右臂",
+      badge = "control",
+      facility = "CONTROL",
+      unlockIcon = "elite0",
+      description = "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<span style='color:#0098DC;'>-0.05</span>"
+    },
+    {
+      name = "教官",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite1",
+      description = "进驻训练室协助位时，干员的训练时间<span style='color:#0098DC;'>-25%</span>"
+    },
   },
   meta = {
     illustrator = "LLC",

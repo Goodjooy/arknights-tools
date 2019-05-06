@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即获得<span style='color:#0098DC;'>9/9/9/9</span>点部署费用",
       sp = { 39, 38, 37, 36, 35, 34, 33, 32, 31, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即获得<span style='color:#0098DC;'>11/11/11/11</span>点部署费用\n攻击力<span style='color:#0098DC;'>+0.2/0.3/0.4/0.7</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "S.W.E.E.P",
+      badge = "control",
+      facility = "CONTROL",
+      unlockIcon = "elite0",
+      description = "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<span style='color:#0098DC;'>-0.05</span>"
+    },
+    {
+      name = "拾荒者",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite1",
+      description = "进驻制造站时，仓库容量上限<span style='color:#0098DC;'>+8</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+    },
   },
   meta = {
     illustrator = "戏言咸咸",

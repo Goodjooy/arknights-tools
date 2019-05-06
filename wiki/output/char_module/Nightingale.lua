@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.4/0.55/0.7/0.9</span>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次治疗使所有目标获得一个持续<span style='color:#0098DC;'>3/3.5/4/5</span>秒的护盾\n护盾能吸收相当于夜莺攻击力<span style='color:#0098DC;'>0.4/0.5/0.6/0.9</span>的<span style='color:#0098DC;'>法术</span>伤害，同时使目标法术抗性<span style='color:#0098DC;'>+5/10/15/20</span>；<span style='color:#F49800;'>可充能1/2/2/3次</span>",
       sp = { 11, 11, 11, 10, 10, 10, 10, 9, 9, 8 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -183,7 +183,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击范围<span style='color:#0098DC;'>扩大</span>，攻击力<span style='color:#0098DC;'>+0.3/0.4/0.5/0.8</span>，攻击范围内的友方单位法术抗性<span style='color:#0098DC;'>+0.75/0.9/1.05/1.5</span>并获得<span style='color:#0098DC;'>0.1/0.15/0.2/0.25</span>的法术闪避",
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
     },
@@ -344,7 +344,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "鼓舞",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.1</span>（同种效果取最高）"
+    },
   },
   meta = {
     illustrator = "Skade",

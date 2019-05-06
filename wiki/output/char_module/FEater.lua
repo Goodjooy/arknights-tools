@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击会把目标往攻击方向<span style='color:#0098DC;'>较大力地</span>推动，<span style='color:#0098DC;'>3/4/4/5秒</span>内命中目标的移动速度<span style='color:#0098DC;'>--0.15/-0.18/-0.21/-0.3</span>",
       sp = { 6, 6, 6, 6, 6, 6, 6, 5, 5, 5 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即往前方突进，寻找前方直线内的最近目标，<span style='color:#0098DC;'>大力地</span>击退该目标周围的所有敌军，造成相当于攻击力<span style='color:#0098DC;'>1.6/1.75/1.9/2.5</span>的物理伤害，在<span style='color:#0098DC;'>3/4/4/5秒</span>内所有命中目标的移动速度<span style='color:#0098DC;'>--0.15/-0.18/-0.21/-0.3</span>",
       sp = { 20, 20, 20, 19, 19, 19, 18, 17, 16, 15 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "作战指导录像",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+    },
   },
   meta = {
     illustrator = "RAN",

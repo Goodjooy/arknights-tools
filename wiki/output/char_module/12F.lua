@@ -99,7 +99,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "线索搜集·β",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite0",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+20%</span>"
+    },
+    {
+      name = "特训记录",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>芯片</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+    },
   },
   meta = {
     illustrator = "海猫络合物",

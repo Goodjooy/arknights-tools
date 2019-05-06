@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.2/0.35/0.5/0.8</span>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.85/1/1.15/1.5</span>，不再成为其他角色的治疗目标",
       sp = { 25, 25, 25, 24, 24, 24, 23, 22, 21, 20 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "专注·β",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>60%</span>"
+    },
+    {
+      name = "独处",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite1",
+      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#0098DC;'>+0.7</span>"
+    },
   },
   meta = {
     illustrator = "鸭",

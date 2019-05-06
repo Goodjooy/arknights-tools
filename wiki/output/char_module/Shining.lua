@@ -158,7 +158,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.45/0.58/0.67/0.8</span>，攻击速度<span style='color:#0098DC;'>+10/10/20/20</span>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -168,7 +168,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次治疗使目标获得一个持续<span style='color:#0098DC;'>2/2/3/3</span>秒的护盾\n护盾可以吸收相当于闪灵攻击力<span style='color:#0098DC;'>0.2/0.28/0.35/0.5</span>的伤害，同时使目标防御力<span style='color:#0098DC;'>+0.2/0.25/0.35/0.5</span>；<span style='color:#F49800;'>可充能1/1/2/3次</span>",
       sp = { 8, 8, 8, 7, 7, 7, 7, 6, 6, 5 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -178,7 +178,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.2/0.3/0.4/0.5</span>\n攻击范围内的所有友方单位防御力<span style='color:#0098DC;'>+0.3/0.45/0.6/1</span>",
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
     },
@@ -339,7 +339,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "善解人意",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.55</span>（同种效果取最高）"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

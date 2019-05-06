@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击会恢复附近一名友方角色相当于古米攻击力<span style='color:#0098DC;'>0.95/1.15/1.3/1.6</span>的生命值\n<span style='color:#F49800;'>可充能1/1/2/3次</span>",
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "开始烹饪，<span style='color:#FF6237;'>10/10/10/10</span>秒内停止攻击敌人，防御力<span style='color:#0098DC;'>+0.5/0.6/0.7/0.8</span>\n烹饪完成后专注于治疗附近的友方角色，攻击力<span style='color:#0098DC;'>+0.3/0.4/0.5/0.8</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "交际",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+    },
+    {
+      name = "烹饪",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite1",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.35</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.35</span>"
+    },
   },
   meta = {
     illustrator = "Skade",

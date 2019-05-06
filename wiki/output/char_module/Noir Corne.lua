@@ -99,7 +99,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "仓库整备·β",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，仓库容量上限<span style='color:#0098DC;'>+10</span>，生产力<span style='color:#0098DC;'>+10%</span>"
+    },
+    {
+      name = "订单管理·α",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+10%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

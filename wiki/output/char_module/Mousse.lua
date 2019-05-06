@@ -163,7 +163,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击时攻击力<span style='color:#0098DC;'>+0.3/0.45/0.6/0.75</span>，<span style='color:#0098DC;'>{frncat_s_1[debuff].duration}</span>秒内使击中目标攻击力<span style='color:#0098DC;'>-{-frncat_s_1[debuff].atk:0%}</span>",
       sp = { 6, 6, 6, 5, 5, 5, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力和防御力各<span style='color:#0098DC;'>+0.27/0.36/0.45/0.75</span>",
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "订单分发·β",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>"
+    },
+    {
+      name = "烘焙",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite1",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.3</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.3</span>"
+    },
   },
   meta = {
     illustrator = "Iritoa",

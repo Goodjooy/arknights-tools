@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.2/0.27/0.34/0.45</span>，攻击速度<span style='color:#0098DC;'>+20/25/35/45</span>",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "防御力<span style='color:#FF6237;'>降至0</span>，攻击力<span style='color:#0098DC;'>+0.5/0.6/0.7/1</span>，天赋无视防御的概率提高至<span style='color:#0098DC;'>2.5/2.5/2.5/2.5倍</span>",
       sp = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
       duration = { 20, 20, 20, 23, 23, 23, 26, 27, 28, 30 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "近卫专精·α",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite0",
+      description = "进驻训练室协助位时，近卫干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+    },
   },
   meta = {
     illustrator = "TOKI",

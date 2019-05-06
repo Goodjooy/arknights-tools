@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下一次攻击会为周围血量不足一半的一名友方单位恢复相当于攻击力<span style='color:#0098DC;'>1.1/1.3/1.5/1.8的生命</span>\n<span style='color:#F49800;'>可充能1/1/2/3次</span>",
       sp = { 6, 6, 6, 5, 5, 5, 5, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.2/0.35/0.5/0.8</span>，停止攻击并专心对周围友方角色进行治疗",
       sp = { 60, 59, 58, 55, 54, 53, 52, 50, 45, 40 },
       duration = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
     },
@@ -312,7 +312,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "左膀右臂",
+      badge = "control",
+      facility = "CONTROL",
+      unlockIcon = "elite0",
+      description = "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<span style='color:#0098DC;'>-0.05</span>"
+    },
+    {
+      name = "耀骑士",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite2",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.5</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.25</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

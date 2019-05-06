@@ -163,7 +163,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "undefined",
+      description = "部署后攻击力<span style='color:#0098DC;'>+0.35/0.5/0.65/0.8</span>，并获得<span style='color:#0098DC;'>0.2/0.3/0.4/0.5</span>物理闪避",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "undefined",
+      description = "部署后立即对周围所有敌人造成相当于攻击力<span style='color:#0098DC;'>1.4/1.7/2/2.5</span>的物理伤害，并使命中目标晕眩<span style='color:#0098DC;'>1/1.5/2/3</span>秒",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -312,7 +312,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "S.W.E.E.P",
+      badge = "control",
+      facility = "CONTROL",
+      unlockIcon = "elite0",
+      description = "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<span style='color:#0098DC;'>-0.05</span>"
+    },
+    {
+      name = "追踪者",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite2",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+25%</span>"
+    },
   },
   meta = {
     illustrator = "infukun",

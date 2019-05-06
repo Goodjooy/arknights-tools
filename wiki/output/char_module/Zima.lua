@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即获得<span style='color:#0098DC;'>12/12/12/12</span>点部署费用",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "技能持续时间内逐渐获得<span style='color:#0098DC;'>9/10/11/12</span>点部署费用\n所有先锋干员攻击力和防御力<span style='color:#0098DC;'>+0.25/0.35/0.45/0.6</span>，并在击杀敌人时额外获得<span style='color:#0098DC;'>1</span>点部署费用",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "领袖",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.15</span>（同种效果取最高）"
+    },
   },
   meta = {
     illustrator = "Skade",

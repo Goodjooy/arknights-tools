@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即恢复最大生命的<span style='color:#0098DC;'>0.2/0.3/0.4/</span>",
       sp = { 26, 25, 24, 23, 22, 21, 20 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -234,7 +234,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "仓库整备·α",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，仓库容量上限<span style='color:#0098DC;'>+6</span>，生产力<span style='color:#0098DC;'>+10%</span>"
+    },
+    {
+      name = "活泼",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite1",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.2</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.4</span>"
+    },
   },
   meta = {
     illustrator = "一立里子",

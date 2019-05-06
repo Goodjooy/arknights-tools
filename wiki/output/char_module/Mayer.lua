@@ -163,7 +163,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "undefined",
+      description = "所有机械水獭获得<span style='color:#0098DC;'>0.1/0.18/0.25/0.35</span>的<span style='color:#0098DC;'>物理</span>和<span style='color:#0098DC;'>法术闪避</span>\n机械水獭周围四格的友军也获得同样的效果",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即引爆所有配置的机械水獭，爆炸时对周围敌人造成相当于梅尔攻击力<span style='color:#0098DC;'>3/3.8/4.5/6</span>的法术伤害，并使所有命中目标晕眩<span style='color:#0098DC;'>1/1/1/2</span>秒\n<span style='color:#F49800;'>被引爆的机械水獭会被回收</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -317,7 +317,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "咪波·加工型",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>65%</span>"
+    },
+    {
+      name = "咪波·制造型",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite2",
+      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+30%</span>"
+    },
   },
   meta = {
     illustrator = "幻象黑兔",

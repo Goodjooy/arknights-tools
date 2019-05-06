@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.1/0.3/0.5/</span>",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -234,7 +234,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "供应管理",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+25%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+    },
+    {
+      name = "专注·α",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite1",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>40%</span>"
+    },
   },
   meta = {
     illustrator = "一立里子",

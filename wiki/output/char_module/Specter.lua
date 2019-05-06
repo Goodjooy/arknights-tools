@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.3/0.45/0.6/1</span>",
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "技能持续期间内干员的生命值始终不会低于<span style='color:#0098DC;'>1</span>，攻击力<span style='color:#0098DC;'>+0.4/0.7/1/1.6</span>\n<span style='color:#F49800;'>技能结束后干员晕眩10/10/10/10秒</span>",
       sp = { 45, 45, 45, 45, 45, 45, 43, 42, 41, 40 },
       duration = { 10, 10, 10, 11, 11, 11, 12, 13, 14, 15 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "独处",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#0098DC;'>+0.7</span>"
+    },
   },
   meta = {
     illustrator = "Skade",

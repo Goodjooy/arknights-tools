@@ -105,7 +105,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击时连续射击<span style='color:#0098DC;'>2/2/2/</span>次，每次射击造成相当于攻击力<span style='color:#0098DC;'>1/1.2/1.4/</span>的物理伤害",
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -234,7 +234,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "慢性子",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站后，生产力首小时<span style='color:#0098DC;'>+15%</span>，此后每小时<span style='color:#0098DC;'>+2%</span>，最终达到<span style='color:#0098DC;'>+25%</span>"
+    },
+    {
+      name = "独处",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite1",
+      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#0098DC;'>+0.7</span>"
+    },
   },
   meta = {
     illustrator = "下野宏铭",

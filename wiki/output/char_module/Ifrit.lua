@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.1/0.1/0.2/0.2</span>，攻击速度<span style='color:#0098DC;'>+45/58/67/80</span>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击造成相当于攻击力<span style='color:#0098DC;'>1.3/1.6/1.9/2.5</span>的法术伤害，命中目标在<span style='color:#0098DC;'>3</span>秒内防御力<span style='color:#0098DC;'>--100/-100/-200/-300</span>并持续受到灼烧伤害\n<span style='color:#F49800;'>可充能2/2/3/3次</span>",
       sp = { 9, 9, 9, 8, 8, 8, 8, 7, 7, 7 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -183,7 +183,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "对攻击范围内的敌人造成每秒相当于攻击力<span style='color:#0098DC;'>0.75/0.9/1.1/1.4</span>的法术伤害，命中目标的法术抗性<span style='color:#0098DC;'>--7/-7/-10/-20</span>\n<span style='color:#F49800;'>自己每秒损失最大生命值的0.02/0.02/0.02/0.02</span>",
       sp = { 40, 39, 38, 36, 35, 34, 31, 30, 29, 28 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -344,7 +344,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "热能充能·α",
+      badge = "power",
+      facility = "POWER",
+      unlockIcon = "elite0",
+      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+10%</span>"
+    },
   },
   meta = {
     illustrator = "NoriZC",

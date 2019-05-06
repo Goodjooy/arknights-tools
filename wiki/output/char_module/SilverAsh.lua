@@ -163,7 +163,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.9/2.05/2.25/2.9</span>",
       sp = { 4, 4, 4, 3, 3, 3, 3, 3, 3, 2 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "<span style='color:#F49800;'>可以在下列状态和初始状态间切换：</span>\n攻击范围<span style='color:#FF6237;'>缩小</span>，防御力<span style='color:#0098DC;'>+0.35/0.5/0.65/1</span>，每秒恢复最大生命的<span style='color:#0098DC;'>0.03/0.035/0.04/0.06</span>",
       sp = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -183,7 +183,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "防御力<span style='color:#FF6237;'>--0.7/-0.7/-0.7/-0.7</span>，攻击力<span style='color:#0098DC;'>+1.1/1.25/1.4/2</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，同时攻击至多<span style='color:#0098DC;'>3/4/5/6</span>个目标（视为近距离攻击）",
       sp = { 90, 90, 90, 90, 90, 90, 90, 90, 90, 90 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -339,7 +339,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "喀兰贸易·α",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+15%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

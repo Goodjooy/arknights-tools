@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击速度<span style='color:#0098DC;'>+15/30/45/75</span>",
       sp = { 45, 45, 45, 40, 40, 40, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.3/0.45/0.7/1</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，同时攻击攻击范围内所有敌人\n<span style='color:#F49800;'>技能时间结束后远山停止攻击15/14/13/10秒</span>",
       sp = { 100, 100, 100, 95, 95, 95, 90, 90, 90, 85 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "供应管理",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+25%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+    },
+    {
+      name = "占卜",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite1",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+25%</span>"
+    },
   },
   meta = {
     illustrator = "谜肘",

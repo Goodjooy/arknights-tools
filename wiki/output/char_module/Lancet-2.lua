@@ -99,7 +99,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "备用能源",
+      badge = "power",
+      facility = "POWER",
+      unlockIcon = "elite0",
+      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+10%</span>"
+    },
+    {
+      name = "医疗服务",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.65</span>（同种效果取最高）"
+    },
   },
   meta = {
     illustrator = "TOKI",

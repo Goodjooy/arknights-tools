@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "获得<span style='color:#0098DC;'>6/6/6/</span>点部署费用，攻击力<span style='color:#0098DC;'>+0.05/0.2/0.35/</span>",
       sp = { 25, 25, 25, 23, 22, 21, 20 },
       duration = { 10, 10, 10, 10, 10, 10, 10 },
     },
@@ -234,7 +234,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "标准化·β",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+25%</span>"
+    },
+    {
+      name = "订单分发·α",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite1",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+20%</span>"
+    },
   },
   meta = {
     illustrator = "m9nokuro",

@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.4/0.55/0.7/0.9</span>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "获得一个医疗无人机\n<span style='color:#F49800;'>最多可库存1个无人机；无人机投入战场后治疗周围友军，10秒后自动销毁</span>",
       sp = { 30, 29, 28, 26, 25, 24, 22, 21, 20, 18 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "莱茵科技·α",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+15%</span>"
+    },
   },
   meta = {
     illustrator = "NoriZC",

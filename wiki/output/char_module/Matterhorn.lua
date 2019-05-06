@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "生命上限<span style='color:#0098DC;'>+0.2/0.3/0.4/0.7</span>，每秒恢复<span style='color:#0098DC;'>20/25/30/40</span>点生命",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 25, 25, 25, 27, 27, 27, 27, 28, 29, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "生命上限<span style='color:#0098DC;'>+0.2/0.3/0.4/0.5</span>，防御力<span style='color:#0098DC;'>+0.1/0.1/0.15/0.3</span>，法术抗性<span style='color:#0098DC;'>+0.5/0.6/0.7/1</span>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 40, 36, 32 },
       duration = { 25, 25, 25, 27, 27, 27, 27, 28, 29, 30 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "喀兰贸易·α",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+15%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+    },
+    {
+      name = "重装专精·β",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite1",
+      description = "进驻训练室协助位时，重装干员的专精技能训练时间<span style='color:#0098DC;'>-50%</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

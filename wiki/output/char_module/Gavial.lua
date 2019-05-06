@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<span style='color:#0098DC;'>0.2/0.23/0.26/0.35</span>（血量低于一半时为<span style='color:#0098DC;'>0.2/0.23/0.26/0.35</span>）的生命，持续<span style='color:#0098DC;'>4/4/4/5</span>秒\n<span style='color:#F49800;'>可充能1/1/2/2次</span>",
       sp = { 10, 10, 10, 9, 9, 9, 9, 9, 9, 8 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<span style='color:#0098DC;'>0.15/0.18/0.21/0.3</span>（血量低于一半时为<span style='color:#0098DC;'>0.15/0.18/0.21/0.3</span>）的生命，持续<span style='color:#0098DC;'>7/7/7/10</span>秒",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "药理学",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>75%</span>"
+    },
+    {
+      name = "医疗专精·α",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite1",
+      description = "进驻训练室协助位时，医疗干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+    },
   },
   meta = {
     illustrator = "LLC",

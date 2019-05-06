@@ -163,7 +163,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "undefined",
+      description = "目标敌人的生命<span style='color:#0098DC;'>每降低0.2/0.2/0.2/0.2</span>，对其造成伤害时的攻击力<span style='color:#0098DC;'>+0.08/0.12/0.16/0.25</span>",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+1.3/1.45/1.6/2.2</span>，但普通攻击不再以生命值高于<span style='color:#FF6237;'>80%</span>的敌人作为目标",
       sp = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
       duration = { 20, 20, 20, 25, 25, 25, 30, 31, 32, 35 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "天灾信使·α",
+      badge = "hire",
+      facility = "HIRE",
+      unlockIcon = "elite0",
+      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+30%</span>"
+    },
   },
   meta = {
     illustrator = "渣念",

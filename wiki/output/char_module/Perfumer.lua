@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.15/0.3/0.5/0.7</span>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击速度<span style='color:#FF6237;'>--50/-50/-50/-50</span>，攻击力<span style='color:#0098DC;'>+1.5/1.8/2.1/2.5</span>",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "药理学",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>75%</span>"
+    },
+    {
+      name = "标准化·β",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite1",
+      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+25%</span>"
+    },
   },
   meta = {
     illustrator = "Lanzi",

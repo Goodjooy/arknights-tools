@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击会将目标<span style='color:#0098DC;'>较大力地</span>拖拽至面前，并对其造成相当于攻击力<span style='color:#0098DC;'>1.15/1.25/1.35/1.8</span>的<span style='color:#0098DC;'>法术伤害</span>",
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即将前方大范围内至多<span style='color:#0098DC;'>2/2/2/3</span>个目标<span style='color:#0098DC;'>较大力地</span>拖拽至面前，对其造成相当于自己攻击力<span style='color:#0098DC;'>1.3/1.5/1.7/2</span>的<span style='color:#0098DC;'>无视防御与法术抗性</span>的伤害，并使其晕眩<span style='color:#0098DC;'>1.5/1.5/1.5/3</span>秒",
       sp = { 25, 24, 23, 22, 21, 20, 19, 18, 17, 15 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -312,7 +312,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "探险家的热情",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.25</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.5</span>"
+    },
+    {
+      name = "喀兰贸易·β",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite2",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+15%</span>，且订单上限<span style='color:#0098DC;'>+2</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

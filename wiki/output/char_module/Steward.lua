@@ -105,7 +105,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.5/1.7/1.9/</span>",
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -234,7 +234,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "谈判",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "进驻贸易站时，订单上限<span style='color:#0098DC;'>+3</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+    },
+    {
+      name = "标准化·β",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite1",
+      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+25%</span>"
+    },
   },
   meta = {
     illustrator = "一立里子",

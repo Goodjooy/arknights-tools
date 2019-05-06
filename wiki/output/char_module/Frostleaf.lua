@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击造成攻击力<span style='color:#0098DC;'>1.05/1.2/1.35/1.5</span>的物理伤害，令命中目标在<span style='color:#0098DC;'>1.5/2/2.5/3</span>秒内移动速度<span style='color:#0098DC;'>--0.2/-0.28/-0.35/-0.5</span>",
       sp = { 5, 5, 5, 4, 4, 4, 4, 3, 3, 3 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击速度<span style='color:#0098DC;'>+5/20/35/50</span>；每次攻击使命中目标移动速度<span style='color:#0098DC;'>--0.3/-0.36/-0.42/-0.5</span>，并有<span style='color:#0098DC;'>0.15/0.2/0.25/0.4</span>的几率使其<span style='color:#0098DC;'>冻结（无法移动）1.5/1.5/1.5/2秒</span>",
       sp = { 60, 59, 58, 57, 56, 55, 54, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -302,7 +302,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "独处",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#0098DC;'>+0.7</span>"
+    },
+    {
+      name = "作战指导录像",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite1",
+      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+    },
   },
   meta = {
     illustrator = "下野宏铭",

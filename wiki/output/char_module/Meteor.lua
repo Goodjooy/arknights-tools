@@ -163,7 +163,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下一次攻击造成相当于攻击力<span style='color:#0098DC;'>1.2/1.35/1.5/1.8</span>的物理伤害，5/5/5/5秒内使命中目标的防御力<span style='color:#0098DC;'>--0.2/-0.25/-0.3/-0.35</span>",
       sp = { 5, 5, 5, 5, 5, 5, 4, 4, 4, 4 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即对攻击范围内至多<span style='color:#0098DC;'>5</span>个敌人造成相当于攻击力<span style='color:#0098DC;'>1.4/1.55/1.7/2</span>的物理伤害，<span style='color:#0098DC;'>5/5/5/5</span>秒内使命中目标的防御力<span style='color:#0098DC;'>--0.25/-0.3/-0.35/-0.4</span>",
       sp = { 20, 20, 20, 19, 19, 19, 18, 17, 16, 15 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "标准化·α",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+15%</span>"
+    },
+    {
+      name = "善解人意",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite1",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.55</span>（同种效果取最高）"
+    },
   },
   meta = {
     illustrator = "HUG",

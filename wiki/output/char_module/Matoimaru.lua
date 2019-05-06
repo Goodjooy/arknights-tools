@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即恢复最大生命的<span style='color:#0098DC;'>0.2/0.3/0.4/0.5</span>",
       sp = { 30, 29, 28, 27, 26, 25, 24, 23, 22, 20 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "防御力<span style='color:#FF6237;'>降至0</span>，攻击力<span style='color:#0098DC;'>+0.75/0.9/1.05/1.5</span>",
       sp = { 35, 35, 35, 32, 32, 32, 29, 28, 27, 25 },
       duration = { 10, 10, 10, 11, 11, 11, 12, 13, 14, 15 },
     },
@@ -302,7 +302,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "技巧理论",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>技巧概要</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+    },
+    {
+      name = "订单分发·β",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite1",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即获得<span style='color:#0098DC;'>6/6/6/</span>点部署费用",
       sp = { 30, 29, 28, 27, 26, 25, 25 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -234,7 +234,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "急性子",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站后，生产力首小时<span style='color:#0098DC;'>+20%</span>，此后每小时<span style='color:#0098DC;'>+1%</span>，最终达到<span style='color:#0098DC;'>+25%</span>"
+    },
+    {
+      name = "订单分发·β",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite1",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>"
+    },
   },
   meta = {
     illustrator = "下野宏铭",

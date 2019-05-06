@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "同时攻击<span style='color:#0098DC;'>2/2/2/2</span>个目标，攻击范围内所有敌人攻击速度<span style='color:#0098DC;'>--30/-40/-50/-60</span>",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 20 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击范围内所有敌人防御力<span style='color:#0098DC;'>--0.35/-0.4/-0.45/-0.6</span>，法术抗性<span style='color:#0098DC;'>--0.2/-0.23/-0.26/-0.3</span>",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 10, 11, 12, 14, 15, 16, 18, 20, 22, 25 },
     },
@@ -319,7 +319,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "喀兰圣女",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite0",
+      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.5</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.25</span>"
+    },
+    {
+      name = "辅助专精·β",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite2",
+      description = "进驻训练室协助位时，辅助干员的专精技能训练时间<span style='color:#0098DC;'>-50%</span>"
+    },
   },
   meta = {
     illustrator = "竜崎いち",

@@ -163,7 +163,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击的爆炸范围<span style='color:#0098DC;'>扩大</span>，造成相当于攻击力<span style='color:#0098DC;'>1.35/1.5/1.7/2.15</span>的物理伤害",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即发射一枚火焰弹，对目标范围内所有敌人造成相当于攻击力<span style='color:#0098DC;'>1.8/2.1/2.4/3</span>的物理伤害，所有命中目标在<span style='color:#0098DC;'>10/10/10/10</span>秒内防御力<span style='color:#0098DC;'>--130/-170/-210/-330</span>",
       sp = { 25, 25, 25, 24, 24, 24, 23, 22, 21, 20 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "爆破材料学·α",
+      badge = "workshop",
+      facility = "WORKSHOP",
+      unlockIcon = "elite0",
+      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>75%</span>"
+    },
   },
   meta = {
     illustrator = "TOKI",

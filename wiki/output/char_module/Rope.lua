@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击会把敌人<span style='color:#0098DC;'>较大力地</span>牵引至面前，并对其造成相当于攻击力<span style='color:#0098DC;'>1/1.3/1.6/1.9</span>的物理伤害",
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "将远距离内两个敌人<span style='color:#0098DC;'>较大力地</span>拖拽至面前，并对其造成相当于攻击力<span style='color:#0098DC;'>1.2/1.5/1.8/2.25</span>的物理伤害",
       sp = { 25, 24, 23, 22, 21, 20, 19, 18, 17, 15 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "线索搜集·β",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite0",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+20%</span>"
+    },
+    {
+      name = "谈判",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite1",
+      description = "进驻贸易站时，订单上限<span style='color:#0098DC;'>+3</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+    },
   },
   meta = {
     illustrator = "m9nokuro",

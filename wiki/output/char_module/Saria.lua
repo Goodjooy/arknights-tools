@@ -158,7 +158,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下一次攻击会为周围血量不足一半的一名友方单位恢复相当于攻击力<span style='color:#0098DC;'>1.1/1.3/1.5/1.8的生命</span>\n<span style='color:#F49800;'>可充能1/1/2/3次</span>",
       sp = { 6, 6, 6, 5, 5, 5, 5, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -168,7 +168,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "治疗附近一定范围内的所有友军相当于塞雷娅攻击力<span style='color:#0098DC;'>0.8/0.95/1.1/1.4</span>的生命",
       sp = { 10, 10, 10, 9, 9, 9, 8, 8, 8, 7 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -178,7 +178,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "附近所有友军每秒回复相当于塞雷娅攻击力<span style='color:#0098DC;'>0.1/0.15/0.2/0.35</span>的生命\n附近所有敌军受到的法术伤害<span style='color:#0098DC;'>+0.2/0.3/0.4/0.55</span>，移动速度<span style='color:#0098DC;'>--0.6/-0.6/-0.6/-0.6</span>",
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 10, 12, 14, 16, 18, 20, 22, 24, 27, 30 },
     },
@@ -334,7 +334,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "线索搜集·α",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite0",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>"
+    },
   },
   meta = {
     illustrator = "NoriZC",

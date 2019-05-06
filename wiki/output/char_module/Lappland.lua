@@ -163,7 +163,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.3/0.43/0.55/0.7</span>，有<span style='color:#0098DC;'>0.2/0.25/0.3/0.4</span>的概率抵挡物理伤害\n<span style='color:#F49800;'>持续时间无限</span>",
       sp = { 40, 40, 40, 37, 37, 37, 33, 32, 31, 30 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.6/0.75/0.9/1.2</span>，伤害类型变为法术，额外攻击一个目标，远程攻击不再降低攻击力\n<span style='color:#F49800;'>技能自动开启</span>",
       sp = { 30, 29, 28, 27, 26, 25, 24, 22, 20, 17 },
       duration = { 15, 15, 15, 15, 15, 15, 17, 17, 17, 20 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "醉翁之意·α",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite0",
+      description = "当与<span style='color:#00B0FF;'>德克萨斯</span>在同一个贸易站时，心情每小时消耗<span style='color:#0098DC;'>-0.1</span>，订单上限<span style='color:#0098DC;'>+2</span>"
+    },
   },
   meta = {
     illustrator = "幻象黑兔",

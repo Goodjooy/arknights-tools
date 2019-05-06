@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击速度<span style='color:#0098DC;'>+10/30/50/</span>",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -234,7 +234,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "热能充能·α",
+      badge = "power",
+      facility = "POWER",
+      unlockIcon = "elite0",
+      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+10%</span>"
+    },
+    {
+      name = "源石工艺·β",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite1",
+      description = "进驻制造站时，<span style='color:#00B0FF;'>源石</span>类配方的生产力<span style='color:#0098DC;'>+35%</span>"
+    },
   },
   meta = {
     illustrator = "下野宏铭",

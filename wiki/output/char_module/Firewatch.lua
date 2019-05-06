@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.24/0.32/0.4/0.7</span>，进入<span style='color:#0098DC;'>隐匿</span>状态<span style='color:#F49800;'>（不会成为敌方远程单位的攻击目标）</span>",
       sp = { 30, 30, 30, 28, 28, 28, 26, 24, 22, 20 },
       duration = { 25, 26, 27, 30, 31, 32, 35, 40, 45, 50 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "立即对攻击范围内随机投下<span style='color:#0098DC;'>2/2/2/3</span>枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对周围所有敌人造成相当于攻击力<span style='color:#0098DC;'>1.8/2.1/2.4/3</span>的物理伤害。",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -312,7 +312,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "线索搜集·α",
+      badge = "meeting",
+      facility = "MEETING",
+      unlockIcon = "elite0",
+      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>"
+    },
   },
   meta = {
     illustrator = "aZLing4",

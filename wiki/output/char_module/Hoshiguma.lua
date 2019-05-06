@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "防御力<span style='color:#0098DC;'>+0.35/0.5/0.65/0.8</span>，攻击力<span style='color:#0098DC;'>+0.1/0.2/0.3/0.4</span>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "undefined",
+      description = "防御力<span style='color:#0098DC;'>+0.05/0.13/0.21/0.3</span>\n每次受到攻击时对目标造成相当于星熊攻击力<span style='color:#0098DC;'>0.5/0.65/0.8/1</span>的物理伤害",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -183,7 +183,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.65/0.8/0.95/1.4</span>，防御力<span style='color:#0098DC;'>+0.4/0.5/0.6/0.9</span>，对前方一格的所有敌人使用盾牌进行切割",
       sp = { 60, 59, 58, 57, 56, 55, 54, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -339,7 +339,13 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "重装专精·α",
+      badge = "training",
+      facility = "TRAINING",
+      unlockIcon = "elite0",
+      description = "进驻训练室协助位时，重装干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+    },
   },
   meta = {
     illustrator = "infukun",

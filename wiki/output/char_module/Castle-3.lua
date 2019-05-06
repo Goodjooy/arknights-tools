@@ -99,7 +99,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "备用能源",
+      badge = "power",
+      facility = "POWER",
+      unlockIcon = "elite0",
+      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+10%</span>"
+    },
+    {
+      name = "作战指导录像",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+    },
   },
   meta = {
     illustrator = "TOKI",

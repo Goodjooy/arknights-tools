@@ -494,7 +494,7 @@ Promise.all([
     })
   }
 
-  const SHORTLIST = true
+  const SHORTLIST = false
 
   if (SHORTLIST) characters = {
     char_101_sora: characters.char_101_sora,

@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "防御力<span style='color:#0098DC;'>+0.2/0.35/0.5/0.8</span>",
       sp = { 45, 45, 45, 40, 40, 40, 38, 37, 36, 35 },
       duration = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "停止攻击敌人；阻挡数<span style='color:#0098DC;'>+1/1/1/1</span>，防御力<span style='color:#0098DC;'>+0.55/0.75/0.95/1.3</span>，每秒恢复最大生命的<span style='color:#0098DC;'>0.01/0.01/0.02/0.03</span>",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -307,7 +307,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "仓库整备·β",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，仓库容量上限<span style='color:#0098DC;'>+10</span>，生产力<span style='color:#0098DC;'>+10%</span>"
+    },
+    {
+      name = "订单分发·α",
+      badge = "trading",
+      facility = "TRADING",
+      unlockIcon = "elite1",
+      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+20%</span>"
+    },
   },
   meta = {
     illustrator = "Skade",

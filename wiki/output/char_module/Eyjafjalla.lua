@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击速度<span style='color:#0098DC;'>+{amgoat_s_1[a].attack_speed}</span>\n第二次及以后使用时追加攻击力<span style='color:#0098DC;'>+{amgoat_s_1[b].atk:0%}</span>的效果",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "下次攻击造成相当于攻击力<span style='color:#0098DC;'>2.4/2.75/3.1/3.7</span>的法术伤害，命中目标周围的敌人受到一半的爆炸伤害且在<span style='color:#0098DC;'>6/6/6/6</span>秒内法术抗性<span style='color:#0098DC;'>--0.1/-0.15/-0.2/-0.25</span>\n<span style='color:#F49800;'>可充能1/2/2/3次</span>",
       sp = { 7, 7, 7, 7, 7, 7, 6, 6, 6, 5 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -183,7 +183,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+0.55/0.7/0.85/1.3</span>，攻击范围<span style='color:#0098DC;'>增大</span>，攻击间隔<span style='color:#0098DC;'>大幅度缩短</span>，攻击变为随机对攻击范围内至多<span style='color:#0098DC;'>3/4/5/6</span>个敌人发射熔岩",
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -339,7 +339,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "火山学家",
+      badge = "manufacture",
+      facility = "MANUFACTURE",
+      unlockIcon = "elite0",
+      description = "进驻制造站时，<span style='color:#00B0FF;'>源石</span>类配方的生产力<span style='color:#0098DC;'>+35%</span>"
+    },
+    {
+      name = "天灾信使·β",
+      badge = "hire",
+      facility = "HIRE",
+      unlockIcon = "elite2",
+      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+45%</span>"
+    },
   },
   meta = {
     illustrator = "Anmi",

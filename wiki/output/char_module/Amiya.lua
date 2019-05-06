@@ -163,7 +163,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击速度<span style='color:#0098DC;'>+30/45/60/90</span>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -173,7 +173,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "undefined",
+      description = "每次攻击变为攻击力<span style='color:#0098DC;'>0.33/0.39/0.45/0.6</span>的<span style='color:#0098DC;'>6/7/7/8</span>连发，随机攻击范围内的目标\n<span style='color:#F49800;'>技能自动开启，持续时间结束后阿米娅晕眩10/10/10/10秒</span>",
       sp = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -183,7 +183,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "undefined",
+      description = "攻击力<span style='color:#0098DC;'>+1/1.3/1.6/2.3</span>，生命上限<span style='color:#0098DC;'>+0.25/0.5/0.75/1</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，伤害<span style='color:#0098DC;'>无视防御力和法术抗性</span>\n<span style='color:#F49800;'>技能结束后阿米娅强制退出战场</span>",
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -322,7 +322,20 @@ return {
     },
   },
   infrastructure_skills = {
-    
+    {
+      name = "合作协议",
+      badge = "control",
+      facility = "CONTROL",
+      unlockIcon = "elite0",
+      description = "进驻控制中枢时，所有贸易站订单效率<span style='color:#0098DC;'>+7%</span>"
+    },
+    {
+      name = "小提琴独奏",
+      badge = "dormitory",
+      facility = "DORMITORY",
+      unlockIcon = "elite2",
+      description = "进驻宿舍时，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.15</span>（同种效果取最高）"
+    },
   },
   meta = {
     illustrator = "唯@W",
