@@ -467,6 +467,8 @@ Promise.all([
 
       quotes: quotesList(charKey),
     })
+    console.log(t(char.appellation) + ' = require(\'Module:' + t(char.appellation) + '\'),');
+    
     return save({
       destFile: 'output/char_module/' + t(char.appellation) + '.lua',
       destBody: charBody,

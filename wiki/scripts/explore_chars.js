@@ -87,9 +87,16 @@ Promise.resolve({ sourceFile: 'data/character_table.json' })
     // Get potential attribute types
     // char.potentialRanks
     
+    // Check if potential 1 always cost
+    if (char.potentialRanks && char.potentialRanks[0].description.indexOf('部署费用') === -1) console.log(charKey, char.potentialRanks[0].description)
     
   })
 
-  console.log('candidateCounts', candidateCounts);
-  console.log('talentCounts', talentCounts);
+  // console.log('candidateCounts', candidateCounts);
+  // console.log('talentCounts', talentCounts);
+  console.log('');
+  console.log('');
+  console.log('');
+  console.log('');
+  
 })
