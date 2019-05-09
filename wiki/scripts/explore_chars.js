@@ -26,6 +26,8 @@ Promise.all([
   let races = {}
   let origins = {}
 
+  const t = text => tls[text] || text
+
   const skill = (charKey, charSkill) => {
     let baseSkill = skills[charSkill.skillId]
     if (!baseSkill) return
@@ -43,15 +45,116 @@ Promise.all([
     })
   }
 
+  const handbookField = text => {
+    return {
+      '代号': 'codename',
+      '性别': 'gender',
+      '战斗经验': 'combatexp',
+      '出身地': 'origin',
+      '生日': 'birthday',
+      '种族': 'race',
+      '身高': 'height',
+      '体重': 'weight',
+      '矿石病感染情况': 'infection',
+      '物理强度': 'strength',
+      '战场机动': 'mobility',
+      '生理耐受': 'endurance',
+      '战术规划': 'tactic',
+      '战斗技巧': 'skill',
+      '源石技艺适应性': 'originium',
+      '客观履历': 'Resume',
+      '临床诊断分析': 'Diagnosis',
+      '档案资料一': 'Archive 1',
+      '档案资料二': 'Archive 2',
+      '档案资料三': 'Archive 3',
+      '档案资料四': 'Archive 4',
+      '晋升记录': 'Promotion',
+    }[text] || 'ERR_UNKNOWN_FIELD_' + text
+  }
+
+  const padding = text => {
+    return text < 10 ? '0' + text : text
+  }
+
+  const birthday = text => {
+    if (!text) return
+    let data = /(\d+)月(\d+)日/g.exec(text)
+    if (!data) return 'ERROR'
+    const date = new Date(2000, data[1] - 1, 1)
+    const month = date.toLocaleString('en-us', { month: 'long' });
+    return padding(data[1]) + '-' + month + ' ' + data[2]
+  }
+
+  const extractHandbook = handbook => {
+    if (!handbook) return
+    let details = {
+      illustrator: handbook.drawName,
+      voiceactor: handbook.infoName,
+    }
+    let entries = handbook.storyTextAudio
+    entries.forEach(entry => {
+      if (entry.stories.length != 1) console.log('[WARNING] handbook stories not 1', entry.stories)
+      if (entry.stories[0].storyText[0] == '【') {
+        let storyParts = entry.stories[0].storyText.split('\n')
+        let emptyField = null
+        storyParts.forEach(storyPart => {
+          if (storyPart[0] == '【') {
+            let info = /【(.*)】(.*)/g.exec(storyPart)
+            if (!info) return
+            if (info[2]) {
+              details[handbookField(info[1])] = t(info[2])
+            }
+          }
+        })
+      }
+    })
+    details.birthday = birthday(details.birthday)
+    return details
+  }
+
+  // let heights = {}
+  // let weights = {}
+  // let birthMonths = {}
+
+  // chars = {
+  //   char_101_sora: chars.char_101_sora,
+  //   char_102_texas: chars.char_102_texas,
+  //   char_103_angel: chars.char_103_angel,
+  // }
+
   Object.keys(chars).forEach(charKey => {
     if (charKey.indexOf('token_') === 0) return
     let char = chars[charKey]
+    let info = extractHandbook(handbook[charKey])
+    if (!info) return
 
     // Check if skill descriptions are consistent
-    if (char.skills[0]) skill(charKey, char.skills[0])
-    if (char.skills[1]) skill(charKey, char.skills[1])
-    if (char.skills[2]) skill(charKey, char.skills[2])
+    // if (char.skills[0]) skill(charKey, char.skills[0])
+    // if (char.skills[1]) skill(charKey, char.skills[1])
+    // if (char.skills[2]) skill(charKey, char.skills[2])
 
+    // if (info.height) {
+    //   info.height = info.height.trim()
+    //   if (!heights[info.height]) heights[info.height] = []
+    //   heights[info.height].push(char.appellation)
+    // }
+    
+    // if (info.weight) {
+    //   try {
+    //     info.weight = info.weight.trim()
+    //     if (!weights[info.weight]) heights[info.weight] = []
+    //     weights[info.weight].push(char.appellation)
+    //   } catch (error) {}
+    // }
+    
+    // if (info.birthday) {
+    //   try {
+    //     let birthMonth = info.birthday.split(' ')[0]
+    //     if (!birthMonths[birthMonth]) birthMonths[birthMonth] = []
+    //     birthMonths[birthMonth].push(char.appellation)
+    //   } catch (error) {}
+    // }
+    
     // Check if there are any with multiple talens
     // if (char.talents && char.talents.length != 1) {
     //   console.log(charKey, char.talents.length)
@@ -137,6 +240,21 @@ Promise.all([
 
   // console.log('candidateCounts', candidateCounts);
   // console.log('talentCounts', talentCounts);
+
+  // console.log('heights', heights);
+
+  // Object.keys(heights).sort().forEach(height => {
+  //   console.log(height, heights[height].join(', '));
+  // })
+
+  // Object.keys(weights).sort().forEach(weight => {
+  //   console.log(weight, weights[weight].join(', '));
+  // })
+
+  // Object.keys(birthMonths).sort().forEach(birthMonth => {
+  //   console.log('**' + birthMonth + '** - ', birthMonths[birthMonth].join(', '));
+  // })
+  
   
 })
 .then(() => {
