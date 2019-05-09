@@ -15,11 +15,6 @@ return {
   faction = "{{faction}}",
   stars = {{stars}},
   class = "{{class}}",
-  obtain = {
-    recruit = {{obtain_recruit}},
-    gacha = {{obtain_gacha}},
-    mission = {{obtain_mission}},
-  },
   initialStats = {
     hp = {{init_hp}},
     atk = {{init_atk}},
@@ -64,7 +59,6 @@ return {
   meta = {
     illustrator = "{{illustrator}}",
     voiceActor = "{{voiceActor}}",
-    servers = "{{servers}}",
   },
   profile = {
     records = {
@@ -98,9 +92,6 @@ return {
   },
   quotes = {
     {{quotes}}
-  },
-  skins = {
-
   },
 }
 

@@ -205,16 +205,27 @@ Promise.all([
 
     let attrRegex = new RegExp('\{\-?(.*?):?(.*?)\}', 'gim')
     let attrValues = {}
+    let attrTypes = {}
     while (match = attrRegex.exec(baseMessage)) {
       let attrName = match[1] ? match[1] : match[2]
-      attrName = attrName.split(':')[0]
+      let attrPart = attrName.split(':')
+      attrName = attrPart[0]
+      if (attrPart[1] && attrPart[1].indexOf('%') > -1) {
+        attrTypes[attrName.toLowerCase()] = '%'
+      } else {
+        attrTypes[attrName.toLowerCase()] = '.'
+      }
       attrValues[attrName.toLowerCase()] = []
     }
 
     levels.forEach((level, levelNum) => {
       if (level.blackboard) level.blackboard.forEach(item => {
         if (attrValues[item.key]) {
-          attrValues[item.key][levelNum] = item.value
+          if (attrTypes[item.key] == '%') {
+            attrValues[item.key][levelNum] = Math.round(item.value * 100) + '%'
+          } else {
+            attrValues[item.key][levelNum] = item.value
+          }
         } else {
           if (level.description.indexOf(item.key) > -1)
             console.log('ATTR_404', skillId, Object.keys(attrValues), item.key, item.value)
@@ -225,7 +236,7 @@ Promise.all([
     Object.keys(attrValues).forEach(attrName => {
       let attrRegex = new RegExp('\{\-?' + attrName + ':?(.*?)\}', 'gim')
       let showValues = [ attrValues[attrName][0], attrValues[attrName][3], attrValues[attrName][6], attrValues[attrName][9] ]
-      let values = showValues.join('/')
+      let values = showValues.join('<span>/</span>')
       baseMessage = baseMessage.replace(attrRegex, values)
     })
 
@@ -494,7 +505,7 @@ Promise.all([
     })
   }
 
-  const SHORTLIST = false
+  const SHORTLIST = true
 
   if (SHORTLIST) characters = {
     char_101_sora: characters.char_101_sora,
@@ -503,12 +514,10 @@ Promise.all([
   }
 
   return Promise.each(Object.keys(characters), charKey => {
-    // if (SHORTLIST) console.log('---------------------')
+    if (SHORTLIST) console.log('---------------------')
     let char = characters[charKey]
     if (!handbook[charKey]) return
     let info = extractHandbook(handbook[charKey], charKey)
-    // if (SHORTLIST) console.log('details', info.details)
-    // if (SHORTLIST) console.log('records', info.records)
     let extra = custom[charKey] || custom['generic']
     let infraSkills = getInfraSkills(charKey)
     let charBody = fillData(tpl_char_module, {
@@ -527,9 +536,6 @@ Promise.all([
       faction: factionName(char.displayLogo),
       stars: parseInt(char.rarity, 10) + 1,
       class: className(char.profession),
-      obtain_recruit: extra.obtain.recruit,
-      obtain_gacha: extra.obtain.gacha,
-      obtain_mission: extra.obtain.mission,
       init_hp: char.phases[0].attributesKeyFrames[0].data.maxHp,
       init_atk: char.phases[0].attributesKeyFrames[0].data.atk,
       init_def: char.phases[0].attributesKeyFrames[0].data.def,
@@ -573,7 +579,6 @@ Promise.all([
 
       illustrator: info.details.illustrator,
       voiceActor: info.details.voiceactor,
-      servers: extra.servers,
 
       record_resume: info.records.Resume,
       record_archive1: info.records['Archive 1'],
