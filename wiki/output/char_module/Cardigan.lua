@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即恢复最大生命的<span style='color:#0098DC;'>0.2/0.3/0.4/</span>",
+      description = "立即恢复最大生命的<span style='color:#0098DC;'>0.2<span>/</span>0.3<span>/</span>0.4<span>/</span></span>",
       sp = { 26, 25, 24, 23, 22, 21, 20 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },

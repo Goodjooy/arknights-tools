@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#0098DC;'>+0.1/0.3/0.5/</span>",
+      description = "防御力<span style='color:#0098DC;'>+0.1<span>/</span>0.3<span>/</span>0.5<span>/</span></span>",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 30, 30, 30, 30, 30, 30, 30 },
     },

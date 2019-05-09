@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+10/30/50/</span>",
+      description = "攻击速度<span style='color:#0098DC;'>+10<span>/</span>30<span>/</span>50<span>/</span></span>",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },

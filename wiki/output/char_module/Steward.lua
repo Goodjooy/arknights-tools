@@ -105,7 +105,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.5/1.7/1.9/</span>",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.5<span>/</span>1.7<span>/</span>1.9<span>/</span></span>",
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },

@@ -11,15 +11,10 @@ return {
   fileKey = "Sora",
   team = 11,
   position = "Ranged",
-  roles = { "Support", "治疗" },
+  roles = { "Support", "Healing" },
   faction = "Penguin Logistics",
   stars = 5,
   class = "Supporter",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 519,
     atk = 133,
@@ -163,7 +158,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围<span style='color:#0098DC;'>扩大</span>，攻击范围内所有敌人全部进入<span style='color:#0098DC;'>睡眠</span><span style='color:#F49800;'>（眩晕+无敌）</span>，同时特性效果<span style='color:#0098DC;'>提高至0.45/0.55/0.7/1</span>",
+      description = "攻击范围<span style='color:#0098DC;'>扩大</span>，攻击范围内所有敌人全部进入<span style='color:#0098DC;'>睡眠</span><span style='color:#F49800;'>（眩晕+无敌）</span>，同时特性效果<span style='color:#0098DC;'>提高至45%<span>/</span>55%<span>/</span>70%<span>/</span>100%</span>",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
     },
@@ -173,7 +168,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围内所有其他友方单位的<span style='color:#0098DC;'>攻击力</span>额外加上空自身攻击力的<span style='color:#0098DC;'>0.7/0.8/0.9/1</span>",
+      description = "攻击范围内所有其他友方单位的<span style='color:#0098DC;'>攻击力</span>额外加上空自身攻击力的<span style='color:#0098DC;'>70%<span>/</span>80%<span>/</span>90%<span>/</span>100%</span>",
       sp = { 45, 45, 45, 45, 45, 45, 45, 45, 45, 45 },
       duration = { 10, 11, 12, 15, 16, 17, 20, 23, 26, 30 },
     },
@@ -330,7 +325,6 @@ return {
   meta = {
     illustrator = "幻象黑兔",
     voiceActor = "铃木实里",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -398,9 +392,6 @@ return {
     cn036 = "欸嘿嘿~博士，谢谢你~！",
     cn037 = "明日方舟。",
     cn042 = "今天也要开开心心哦，博士。",
-  },
-  skins = {
-
   },
 }
 

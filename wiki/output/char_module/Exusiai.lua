@@ -15,11 +15,6 @@ return {
   faction = "Penguin Logistics",
   stars = 6,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 711,
     atk = 183,
@@ -163,7 +158,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击变为<span style='color:#0098DC;'>3/3/3/3</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>1.05/1.13/1.21/1.45</span>的伤害",
+      description = "下次攻击变为<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>3</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>105%<span>/</span>113%<span>/</span>121%<span>/</span>145%</span>的伤害",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +168,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击变为<span style='color:#0098DC;'>4/4/4/4</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>1/1.05/1.1/1.25</span>的伤害",
+      description = "攻击变为<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>4<span>/</span>4</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>100%<span>/</span>105%<span>/</span>110%<span>/</span>125%</span>的伤害",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -183,7 +178,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击变为<span style='color:#0098DC;'>5/5/5/5</span>连射，攻击间隔<span style='color:#0098DC;'>一定程度缩短</span>，攻击力<span style='color:#0098DC;'>提升至1/1/1/1.1</span>\n<span style='color:#F49800;'>技能会自动开启</span>",
+      description = "攻击变为<span style='color:#0098DC;'>5<span>/</span>5<span>/</span>5<span>/</span>5</span>连射，攻击间隔<span style='color:#0098DC;'>一定程度缩短</span>，攻击力<span style='color:#0098DC;'>提升至100%<span>/</span>100%<span>/</span>100%<span>/</span>110%</span>\n<span style='color:#F49800;'>技能会自动开启</span>",
       sp = { 50, 48, 46, 44, 42, 40, 38, 36, 34, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -350,7 +345,6 @@ return {
   meta = {
     illustrator = "幻象黑兔",
     voiceActor = "石见舞菜香",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -418,9 +412,6 @@ return {
     cn036 = "老板！来试试我的武器吗？",
     cn037 = "明日方舟。",
     cn042 = "哟，老板！",
-  },
-  skins = {
-
   },
 }
 

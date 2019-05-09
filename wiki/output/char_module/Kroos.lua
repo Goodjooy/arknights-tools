@@ -105,7 +105,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击时连续射击<span style='color:#0098DC;'>2/2/2/</span>次，每次射击造成相当于攻击力<span style='color:#0098DC;'>1/1.2/1.4/</span>的物理伤害",
+      description = "下次攻击时连续射击<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span></span>次，每次射击造成相当于攻击力<span style='color:#0098DC;'>1<span>/</span>1.2<span>/</span>1.4<span>/</span></span>的物理伤害",
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },

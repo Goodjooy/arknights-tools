@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "获得<span style='color:#0098DC;'>6/6/6/</span>点部署费用，攻击力<span style='color:#0098DC;'>+0.05/0.2/0.35/</span>",
+      description = "获得<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span></span>点部署费用，攻击力<span style='color:#0098DC;'>+0.05<span>/</span>0.2<span>/</span>0.35<span>/</span></span>",
       sp = { 25, 25, 25, 23, 22, 21, 20 },
       duration = { 10, 10, 10, 10, 10, 10, 10 },
     },

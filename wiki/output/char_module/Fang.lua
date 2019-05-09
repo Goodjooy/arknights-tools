@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>6/6/6/</span>点部署费用",
+      description = "立即获得<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span></span>点部署费用",
       sp = { 30, 29, 28, 27, 26, 25, 25 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },

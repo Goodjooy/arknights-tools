@@ -105,7 +105,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围<span style='color:#0098DC;'>+1/2/2/格</span>，攻击力<span style='color:#0098DC;'>+0.05/0.2/0.4/</span>",
+      description = "攻击范围<span style='color:#0098DC;'>+1<span>/</span>2<span>/</span>2<span>/</span>格</span>，攻击力<span style='color:#0098DC;'>+0.05<span>/</span>0.2<span>/</span>0.4<span>/</span></span>",
       sp = { 45, 44, 43, 40, 39, 38, 35 },
       duration = { 19, 20, 21, 22, 23, 24, 25 },
     },

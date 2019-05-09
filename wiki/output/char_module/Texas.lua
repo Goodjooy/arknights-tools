@@ -15,11 +15,6 @@ return {
   faction = "Penguin Logistics",
   stars = 5,
   class = "Vanguard",
-  obtain = {
-    recruit = true,
-    gacha = true,
-    mission = false,
-  },
   initialStats = {
     hp = 727,
     atk = 203,
@@ -163,7 +158,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>12/12/12/12</span>点部署费用",
+      description = "立即获得<span style='color:#0098DC;'>12<span>/</span>12<span>/</span>12<span>/</span>12</span>点部署费用",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -173,7 +168,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>9/10/11/12</span>点费用；对周围所有敌人造成<span style='color:#0098DC;'>两次</span>相当于攻击力<span style='color:#0098DC;'>1.05/1.2/1.35/1.7</span>的法术伤害，并令击中目标晕眩<span style='color:#0098DC;'>2/2/2/3</span>秒",
+      description = "立即获得<span style='color:#0098DC;'>9<span>/</span>10<span>/</span>11<span>/</span>12</span>点费用；对周围所有敌人造成<span style='color:#0098DC;'>两次</span>相当于攻击力<span style='color:#0098DC;'>105%<span>/</span>120%<span>/</span>135%<span>/</span>170%</span>的法术伤害，并令击中目标晕眩<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>3</span>秒",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -330,7 +325,6 @@ return {
   meta = {
     illustrator = "幻象黑兔",
     voiceActor = "田所梓",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -398,9 +392,6 @@ return {
     cn036 = "怎么了？博士。",
     cn037 = "明日方舟。",
     cn042 = "早。",
-  },
-  skins = {
-
   },
 }
 
