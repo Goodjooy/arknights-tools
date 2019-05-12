@@ -10,73 +10,68 @@ const enAttrsPrc = new RegExp('\\-?\\+?\\d+\\.?\\d?%+x?(?!(}|%}))', 'i')
 Promise.all([
   /* 00 */ readFile('input/excel/character_table.json'),
   /* 01 */ readFile('input/excel/skill_table.json'),
-  /* 02 */ readFile('input/skills.csv'),
-  // /* 03 */ readFile('input/skill_raw.csv'),
+  /* 02 */ readFile('input/skills/caster.csv'),
+  /* 03 */ readFile('input/skills/defender.csv'),
+  /* 04 */ readFile('input/skills/guard.csv'),
+  /* 05 */ readFile('input/skills/medic.csv'),
+  /* 06 */ readFile('input/skills/sniper.csv'),
+  /* 07 */ readFile('input/skills/specialist.csv'),
+  /* 08 */ readFile('input/skills/supporter.csv'),
+  /* 09 */ readFile('input/skills/vanguard.csv'),
 ])
 .then(data => {
-  let characters = JSON.parse(data[0].contents)
   let skills = JSON.parse(data[1].contents)
-  let csvData = csvParse(data[2].contents)
-  // let skillRaw = csvParse(data[3].contents)
 
-  let charSkill = {}
-  Object.keys(characters).forEach(charKey => {
-    character = characters[charKey]
-    character.skills.forEach(skill => {
-      if (!charSkill[character.appellation]) charSkill[character.appellation] = []
-      charSkill[character.appellation].push(skill.skillId)
-    })
+  let output = {}
+
+  let csvContents = [
+    csvParse(data[2].contents),
+    csvParse(data[3].contents),
+    csvParse(data[4].contents),
+    csvParse(data[5].contents),
+    csvParse(data[6].contents),
+    csvParse(data[7].contents),
+    csvParse(data[8].contents),
+    csvParse(data[9].contents),
+  ]
+
+  let allCsv = []
+  csvContents.forEach(csvContent => {
+    allCsv = allCsv.concat(csvContent)
   })
 
-  let jsonData = {}
+  let currentSkill = null
+  let baseSkill = null
 
-  let currentSkill = {}
-
-  csvData.forEach(row => {
+  allCsv.forEach(row => {
     if (row[0] == 'Characters') return
 
-    if (row[0]) {
-      let curChars = row[0].split(',').map(v => v.trim())
-      if (!charSkill[curChars[0]]) {
-        console.log('Unrecorded character', curChars[0])
-        return
-      }
-      let skillId = charSkill[curChars[0]][0]
-      if (!skills[skillId]) {
-        console.log('Unknown skill', skillId)
-        return
-      }
-
-      let levels = skills[skillId].levels
-      let description_cn = levels[levels.length - 1].description
-      let description_en = row[3]
-      while (match = cnAttrs.exec(description_cn)) {
-        let attrName = match[1] ? match[1] : match[2]
-        if (attrName.indexOf('%') > -1) {
-          description_en = description_en.replace(enAttrsPrc, '{' + attrName + '}')
-        } else {
-          description_en = description_en.replace(enAttrsAmt, '{' + attrName + '}')
+    // Row start of a new skill, initialize
+    if (row[2]) {
+      currentSkill = row[2]
+      // baseSkill = skills[currentSkill]
+      // if (baseSkill) {
+        output[currentSkill] = {
+          // name_cn: baseSkill.levels[ baseSkill.levels.length-1 ].name,
+          // desc_cn: baseSkill.levels[ baseSkill.levels.length-1 ].description,
         }
-      }
+      // } else {
+      //   console.log('no base skill', currentSkill)
+      // }
+    }
 
-      jsonData[skillId] = {
-        name_cn: levels[levels.length - 1].name,
-        name_en: row[1],
-        description_cn: description_cn,
-        translation: row[3],
-        description_en: description_en,
-      }
-      curChars.forEach(curChar => {
-        charSkill[curChar] = charSkill[curChar].slice(1)
-      })
-    } else {
-      currentSkill.name_en = row[1]
-      // currentSkill.description_en = row[3].replace(enAttrs, '{0}')
+    if (currentSkill && (baseSkill || true)) {
+      // Update EN skill name
+      if (row[3]) output[currentSkill].name = row[3]
+      // Update EN skill desc
+      if (row[9]) output[currentSkill].desc = row[9]
+      // Update last level recorded
+      // if (row[4]) output[currentSkill].maxLv = row[4]
     }
   })
 
   saveFile({
-    destFile: 'output/skills_tl.json',
-    destBody: JSON.stringify(jsonData, ' ', 2)
+    destFile: 'output/tl_skills.json',
+    destBody: JSON.stringify(output, ' ', 2)
   })
 })
