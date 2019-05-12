@@ -14,6 +14,8 @@
     "potentials": "node scripts/potentials.js",
     "skills": "node scripts/skills_csv.js",
     "skillsread": "node scripts/skills_reader.js",
+    "talentsread": "node scripts/talent_reader.js",
+    "riicread": "node scripts/riic_reader.js",
     "portraits": "node scripts/rename_portraits.js",
     "items": "node scripts/rename_items.js",
     "reformat": "node scripts/reformat.js"

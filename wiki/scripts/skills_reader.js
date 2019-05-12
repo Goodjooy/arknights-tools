@@ -71,7 +71,7 @@ Promise.all([
   })
 
   saveFile({
-    destFile: 'output/tl_skills.json',
+    destFile: 'input/tl/skills.json',
     destBody: JSON.stringify(output, ' ', 2)
   })
 })
