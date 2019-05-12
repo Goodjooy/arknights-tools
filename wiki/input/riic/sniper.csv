@@ -1,0 +1,25 @@
+Character,Rarity,Skill Name,RoomType,BuffCategory,Skill Description,Required Level
+Rangers,2,HR Management·α,HIRE,FUNCTION,"When stationed at Human Resource, accumulation of networking resources +20%",Lvl 1
+,,Skilled Craftsman,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%",Lvl 30
+Kroos,3,Slow Starter,MANUFACTURE,OUTPUT,"When stationed at a Craft Station, production +15% for the first hour. Thereafter, increase by +2% every hour, capping at +25%",Lvl 1
+,,Solitude,DORMITORY,RECOVERY,"When stationed at a Dorm, self mood recovery per hour +0.7",Elite 1 Lvl 1
+Adnachiel,3,Order Distribution·α,TRADING,OUTPUT,"When stationed at a Trade Station, order acquisition efficiency +20%",Lvl 1
+,,Skilled Craftsman,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%",Elite 1 Lvl 1
+ShiraYuki,4,Clue Collection·β,MEETING,FUNCTION,"When stationed at Reception, clue collection speed +20%",Lvl 1
+,,Combat Directive Recordings,MANUFACTURE,OUTPUT,"When stationed at a Craft Station, increase production of EXP cards by +30%",Elite 1 Lvl 1
+Meteor,4,Standardization·α,MANUFACTURE,OUTPUT,"When stationed at a Craft Station, production +15%",Lvl 1
+,,Empathetic,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)",Elite 1 Lvl 1
+Jessica,4,Standardization·β,MANUFACTURE,OUTPUT,"When stationed at a Craft Station, production +25%",Lvl 1
+,,Liaison,MEETING,FUNCTION,"When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Blacksteel",Elite 1 Lvl 1
+Blue Poison,5,Toxicology·α,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%",Lvl 1
+,,Toxicology·β,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 80%",Elite 2 Lvl 1
+Provence,5,Disaster Messenger·α,HIRE,FUNCTION,"When stationed at Human Resource, accumulation of networking resources +30%",Lvl 1
+,,Disaster Messenger·β,HIRE,FUNCTION,"When stationed at Human Resource, accumulation of networking resources +45%",Elite 2 Lvl 1
+Firewatch,5,Clue Collection·α,MEETING,FUNCTION,"When stationed at Reception, clue collection speed +10%",Lvl 1
+,,Clue Collection·β,MEETING,FUNCTION,"When stationed at Reception, clue collection speed +20%",Elite 2 Lvl 1
+Platinum,5,Sniper Specialization·α,TRAINING,FUNCTION,"When stationed at the Training Station, reduce the skill training time of Sniper operatives by -30%",Lvl 1
+,,Sniper Specialization·β,TRAINING,FUNCTION,"When stationed at the Training Station, reduce the skill training time of Sniper operatives by -50%",Elite 2 Lvl 1
+Meteorite,5,Explosive Science·α,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%",Lvl 1
+,,Explosive Science·β,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 80%",Elite 2 Lvl 1
+Exusiai,6,Penguin Logistics·α,TRADING,OUTPUT,"When stationed at a Trade Station, order acquisition efficiency +20%",Lvl 1
+,,Logistics Expert,TRADING,OUTPUT,"When stationed at a Trade Station, order acquisition efficiency +35%",Elite 2 Lvl 1

@@ -1,0 +1,23 @@
+Character,Rarity,Skill Name,RoomType,BuffCategory,Skill Description,Required Level
+Lancet-2,1,Backup Generator,POWER,OUTPUT,"When stationed at a Power Station, drone recovery per hour +10%",Lvl 1
+,,Medical Service,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.65 per hour (When stacked, only the highest effect becomes active)",Lvl 30
+Hibiscus,3,Empathetic,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)",Lvl 1
+,,Nutriology,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 70%",Elite 1 Lvl 1
+Ansel,3,Empathetic,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)",Lvl 1
+,,Pharmacology,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%",Elite 1 Lvl 1
+Myrrh,4,Pharmacology,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%",Lvl 1
+,,Empathetic,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)",Elite 1 Lvl 1
+Perfumer,4,Pharmacology,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%",Lvl 1
+,,Standardization·β,MANUFACTURE,OUTPUT,"When stationed at a Craft Station, production +25%",Elite 1 Lvl 1
+Gavial,4,Pharmacology,WORKSHOP,FUNCTION,"When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%",Lvl 1
+,,Medic Specialization·α,TRAINING,FUNCTION,"When stationed at the Training Station, reduce the skill training time of Medic operatives by -30%",Elite 1 Lvl 1
+Silence,5,Rhine Technology·α,MANUFACTURE,OUTPUT,"When stationed at a Craft Station, production +15%",Lvl 1
+,,Rhine Technology·β,MANUFACTURE,OUTPUT,"When stationed at a Craft Station, production +25%",Elite 2 Lvl 1
+Ptilopsis,5,Rhine Technology·α,MANUFACTURE,OUTPUT,"When stationed at a Craft Station, production +15%",Lvl 1
+,,Rhine Technology·β,MANUFACTURE,OUTPUT,"When stationed at a Craft Station, production +25%",Elite 2 Lvl 1
+Warfarin,5,Medic Specialization·α,TRAINING,FUNCTION,"When stationed at the Training Station, reduce the skill training time of Medic operatives by -30%",Lvl 1
+,,Medic Specialization·β,TRAINING,FUNCTION,"When stationed at the Training Station, reduce the skill training time of Medic operatives by -50%",Elite 2 Lvl 1
+Shining,6,Empathetic,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)",Lvl 1
+,,Benevolence,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.75 per hour (When stacked, only the highest effect becomes active)",Elite 2 Lvl 1
+Nightingale,6,Inspiring,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.1 per hour (When stacked, only the highest effect becomes active)",Lvl 1
+,,The Lady with the Lamp,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active)",Elite 2 Lvl 1
