@@ -1,5 +1,9 @@
 data/*.json
 input/**/*
+!input/riic/**/*
+!input/skills/**/*
+!input/talents/**/*
+!input/tl/**/*
 output/**/*
 !output/.gitkeep
 !output/interactions.json
