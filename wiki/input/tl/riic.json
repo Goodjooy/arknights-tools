@@ -139,6 +139,16 @@
       "desc": "When stationed at a Trade Station, order acquisition efficiency +20%"
     }
   ],
+  "char_196_sunbr": [
+    {
+      "name": "Communication",
+      "desc": "When stationed at a Trade Station, order acquisition efficiency +30% and mood reduction per hour -0.25"
+    },
+    {
+      "name": "Cooking",
+      "desc": "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.35 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.35"
+    }
+  ],
   "char_199_yak": [
     {
       "name": "Karlan Trading·α",
@@ -689,6 +699,16 @@
       "desc": "When stationed at the Training Station, reduce the skill training time of Supporter operatives by -50%"
     }
   ],
+  "char_195_glassb": [
+    {
+      "name": "Supporter Specialization·α",
+      "desc": "When stationed at the Training Station, reduce the skill training time of Supporter operatives by -30%"
+    },
+    {
+      "name": "Staff",
+      "desc": "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Ursus Student Council"
+    }
+  ],
   "char_242_otter": [
     {
       "name": "Mibo·Processing Model",
@@ -787,6 +807,16 @@
     {
       "name": "Good Chemistry",
       "desc": "When stationed together with Exusiai at the same Trade Station, mood reduction per hour -0.3"
+    }
+  ],
+  "char_115_headbr": [
+    {
+      "name": "Leader",
+      "desc": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
+    },
+    {
+      "name": "Winter General",
+      "desc": "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active)"
     }
   ],
   "char_112_siege": [

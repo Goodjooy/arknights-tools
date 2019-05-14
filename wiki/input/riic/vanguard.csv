@@ -15,7 +15,7 @@ Vigna,4,Combat Directive Recordings,MANUFACTURE,OUTPUT,"When stationed at a Craf
 ,,Vanguard Specialization·β,TRAINING,FUNCTION,"When stationed at the Training Station, reduce the skill training time of Vanguard operatives by -50%",Elite 1 Lvl 1
 Texas,5,Resentment,TRADING,OUTPUT,"When stationed together with Lappland at the same Trade Station, mood reduction per hour +0.3 and order acquisition efficiency +65%",Lvl 1
 ,,Good Chemistry,TRADING,OUTPUT,"When stationed together with Exusiai at the same Trade Station, mood reduction per hour -0.3",Elite 2 Lvl 1
-зима (Zima),5,Leader,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)",Lvl 1
+зима,5,Leader,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)",Lvl 1
 ,,Winter General,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active)",Elite 2 Lvl 1
 Siege,6,Leader,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)",Lvl 1
 ,,Lionheart Sovereign,DORMITORY,RECOVERY,"When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active)",Elite 2 Lvl 1
