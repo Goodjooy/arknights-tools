@@ -1,4 +1,5 @@
 const Promise = require('bluebird')
+const ordinal = require('ordinal')
 const read = require('../helpers/readFile')
 const save = require('../helpers/saveFile')
 Promise.all([
@@ -102,6 +103,7 @@ Promise.all([
             let info = /【(.*)】(.*)/g.exec(storyPart)
             if (!info) return
             if (info[2]) {
+              info[2] = info[2].trim()
               details[handbookField(info[1])] = t(info[2])
             }
           }
@@ -112,9 +114,22 @@ Promise.all([
     return details
   }
 
+  const className = classKey => {
+    return {
+      'PIONEER': 'Vanguard',
+      'WARRIOR': 'Guard',
+      'TANK': 'Defender',
+      'SPECIAL': 'Specialist',
+      'SNIPER': 'Sniper',
+      'CASTER': 'Caster',
+      'MEDIC': 'Medic',
+      'SUPPORT': 'Support',
+    }[classKey] || ''
+  }
+
   // let heights = {}
   // let weights = {}
-  // let birthMonths = {}
+  let birthMonths = {}
 
   // chars = {
   //   char_101_sora: chars.char_101_sora,
@@ -147,13 +162,24 @@ Promise.all([
     //   } catch (error) {}
     // }
     
-    // if (info.birthday) {
-    //   try {
-    //     let birthMonth = info.birthday.split(' ')[0]
-    //     if (!birthMonths[birthMonth]) birthMonths[birthMonth] = []
-    //     birthMonths[birthMonth].push(char.appellation)
-    //   } catch (error) {}
-    // }
+    if (info.birthday) {
+      try {
+        let birthParts = info.birthday.split(' ')
+        let birthMonth = birthParts[0]
+        if (!birthMonths[birthMonth]) birthMonths[birthMonth] = []
+        birthMonths[birthMonth].push({ name: char.appellation, day: parseInt(birthParts[1]), class: char.profession })
+      } catch (error) {}
+    }
+
+    if (info.race) {
+      if (!races[info.race]) races[info.race] = []
+      races[info.race].push(char.appellation)
+    }
+
+    if (info.origin) {
+      if (!origins[info.origin]) origins[info.origin] = []
+      origins[info.origin].push(char.appellation)
+    }
     
     // Check if there are any with multiple talens
     // if (char.talents && char.talents.length != 1) {
@@ -252,8 +278,32 @@ Promise.all([
   // })
 
   // Object.keys(birthMonths).sort().forEach(birthMonth => {
-  //   console.log('**' + birthMonth + '** - ', birthMonths[birthMonth].join(', '));
+  //   let displayMonth = birthMonth.split('-')[1]
+  //   // console.log('**Birthdays for the month of ' + displayMonth + '**\n')
+  //   // birthMonths[birthMonth] = birthMonths[birthMonth].sort((a,b) => (a.day > b.day) ? 1 : ((b.day > a.day) ? -1 : 0))
+  //   // birthMonths[birthMonth].forEach(birthChar => {
+  //   //   console.log('  • :Class' + className(birthChar.class) + ': ' + birthChar.name + ' ' + ordinal(parseInt(birthChar.day, 10)) + '\n')
+  //   // })
+  //   // console.log('')
+  //   console.log('**' + displayMonth + '**')
+  //   birthMonths[birthMonth] = birthMonths[birthMonth].sort((a,b) => (a.day > b.day) ? 1 : ((b.day > a.day) ? -1 : 0))
+  //   birthMonths[birthMonth].forEach(birthChar => {
+  //     console.log('  • ' + birthChar.name + ' ' + ordinal(parseInt(birthChar.day, 10)))
+  //   })
+  //   console.log('')
   // })
+
+  console.log('RACES')
+  Object.keys(races).sort().forEach(race => {
+    console.log(race, races[race].join(', '));
+  })
+  console.log('')
+
+  console.log('ORIGINS')
+  Object.keys(origins).sort().forEach(origin => {
+    console.log(origin, origins[origin].join(', '));
+  })
+  console.log('')
   
   
 })
