@@ -15,11 +15,6 @@ return {
   faction = "Ursus",
   stars = 5,
   class = "Supporter",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 581,
     atk = 218,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-glassb-1",
-      name = "专心致志",
+      name = "Absolute Focus",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#0098DC;'>极大幅度缩短</span>",
+      description = "Massively reduce attack interval",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-glassb-2",
-      name = "文学风暴",
+      name = "Literary Storm",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.2<span>/</span>0.25<span>/</span>0.3<span>/</span>0.75</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，额外攻击<span style='color:#0098DC;'>两</span>个目标",
+      description = "Attack power +<undefined>20%</>/<undefined>25%</>/<undefined>30%</>/<undefined>75%</>, Increase attack range, Attack 2 additional targets",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 20, 20, 22, 22, 22, 25, 25, 25, 25 },
     },
@@ -286,8 +281,8 @@ return {
     {
       rank2 = {
         level = 1,
-        name = "探知者",
-        description = "防御力-35%，但攻击速度+18",
+        name = "Detector",
+        description = "Defense power -35%, however Attack speed +18",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "辅助专精·α",
+      name = "Supporter Specialization·α",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite0",
-      description = "进驻训练室协助位时，辅助干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Supporter operatives by -30%"
     },
     {
-      name = "参谋",
+      name = "Staff",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite2",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>，且更容易获得<span style='color:#00B0FF;'>乌萨斯学生自治团</span>线索"
+      description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Ursus Student Council"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "悠木碧",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -393,9 +387,6 @@ return {
     cn036 = "这里好吵啊，我想去博士的办公室看书。",
     cn037 = "明日方舟。",
     cn042 = "你好，博士。",
-  },
-  skins = {
-
   },
 }
 

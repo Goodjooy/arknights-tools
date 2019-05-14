@@ -15,11 +15,6 @@ return {
   faction = "",
   stars = 3,
   class = "Vanguard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 688,
     atk = 229,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-quickattack-1",
-      name = "迅捷打击·α型",
+      name = "Swift Strike·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.06<span>/</span>0.15<span>/</span>0.25<span>/</span></span>，攻击速度<span style='color:#0098DC;'>+10<span>/</span>15<span>/</span>25<span>/</span></span>",
+      description = "Attack power +<undefined>6%</>/<undefined>15%</>/<undefined>25%</>/, Attack speed +<undefined>10</>/<undefined>15</>/<undefined>25</>/",
       sp = { 55, 54, 53, 50, 49, 48, 45 },
       duration = { 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "攻击提升",
-        description = "攻击力+8%",
+        name = "Attack Increase",
+        description = "Attack power +8%",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "先锋专精·α",
+      name = "Vanguard Specialization·α",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite0",
-      description = "进驻训练室协助位时，先锋干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Vanguard operatives by -30%"
     },
     {
-      name = "订单管理·α",
+      name = "Order Management·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite1",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+10%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +10% and order limit +1"
     },
   },
   meta = {
     illustrator = "deel",
     voiceActor = "立花理香",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -260,8 +254,8 @@ return {
       archive1 = "对于立志加入拉特兰戍卫队的黎博利而言，使用好戍卫队配发的标准制式斧枪，被视为成为一名优秀作战人员的起点。<br>而对于拥有优异的速度，但力量并不见长的翎羽而言，这把沉重的斧枪也意味着一种挑战。<br>在初加入戍卫队的那段时间里，翎羽曾积极尝试过强化肢体，提升身体强度等方面的锻炼，试图凭借这些方法弥补自己力量方面的劣势。但这种锻炼并未使翎羽的力量上限显著提高，而侧重力量施展的斧枪战术也处处受制于人，不仅在队内训练中得不到好成绩，还在实习任务中发生了武器操作不当，劈坏公物等种种糗事。<br>虽然遭遇了挫折，但翎羽没有陷入负面情绪。拥有冷静沉着性格的她会驱使自己不停地去寻找原因。在尝试向戍卫队中的同僚和前辈寻求指导，并得到了大家的指点后，翎羽将斧枪使用的重点放在了操使技巧与进攻速度等方面。<br>舍弃了力量路线，潜心钻研使用技巧后，不懈努力的翎羽终于建立起了一套简单有效的标准战斗流程——在战场中四处辗转，不停移动，以天生的迅捷步伐展开突袭，凭借轻巧、灵动、高速的斧枪操使技巧，在极短时间内向指定目标连续发动攻势，逼迫对手出现破绽，并一举击溃。<br>尽管力量方面的上限使她无法胜任诸如硬目标破坏等工作，但翎羽可以完成一名干员所有应承担的基本职责，无论是担当进攻人员还是作为防御部署人员，翎羽均能提供持续而稳定的发挥，并保持高昂的状态和斗志。",
       archive2 = "工作之外的翎羽似乎没有什么生活，或者说，她仍在适应罗德岛，她正在努力地把作为拉特兰戍卫的自己与作为罗德岛干员的自己融合起来。<br>作为拉特兰的戍卫，翎羽认真、坚定、忠于职守，并以身为卫队成员而自豪。她几乎不会区分工作和生活之间的差别，甚至有时将工作视为一种娱乐。<br>但来加入罗德岛后，翎羽逐渐体会到了另一种生活的魅力。<br>根据她的说法，在罗德岛，没有什么高高在上的大人物需要去舍命保护（她发现这些大人物也根本不需要别人去保护），也没有那种她习以为常的流程化、甚至仪式化的生活氛围。性格各异的干员随处可见，彼此间几乎没有上下等级之分。几乎每个人都有自己生活的风格——这对她产生了极大的冲击。<br>翎羽试图担任与自己在拉特兰时相仿的工作，来维持自己的想法不被动摇。但她的目光实在过于敏锐了，形形色色的人们行走于她的面前，他们充满个性的装束、极具差异的举止和言谈，实在是难以装作视而不见。<br>事实上，翎羽也已经坦言，自己也在考虑是否改变一下自己的日常形象——这番话，总意味着一位干员开始融入罗德岛的生活了。<br>或许，可以先从露出笑容做起？",
       archive3 = "不过，身为拉特兰戍卫的翎羽为何会来到罗德岛？<br>对此，这位一贯严肃拘谨的卫士并未透露其中的因由，只是表明自己“暂时没有权限进行说明”。<br>尤其这件事的前前后后，似乎还与那两位离开了拉特兰的资深干员牵扯颇多。<br>目前，仅由翎羽入职当日值班的员工提供了部分目击证词：她似乎正是被那两位拉特兰人拖拽过来的，而且全程都是一副状况之外的样子。<br>换句话说，说不定她当时还不知道自己究竟来到了什么地方。<br>无论是出于谨慎不便对此发言，还是确实不了解太多信息。翎羽离开拉特兰的缘由暂时都无法揭露。也无法从她的故事中探知拉特兰的面貌。<br>只是，以一丝不苟的站姿伫立于罗德岛舰桥边缘附近的翎羽，她瞭望着拉特兰方向的目光中，偶尔会闪过一丝忧虑。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "女 ",
@@ -318,9 +312,6 @@ return {
     cn036 = "博士......感觉我在擅用职权了呢......",
     cn037 = "明日方舟。",
     cn042 = "你好，博士。",
-  },
-  skins = {
-
   },
 }
 

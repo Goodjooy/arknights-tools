@@ -11,15 +11,10 @@ return {
   fileKey = "Courier",
   team = 6,
   position = "Melee",
-  roles = { "Cost recovery", "防护" },
+  roles = { "Cost recovery", "Protection" },
   faction = "Kjerag",
   stars = 4,
   class = "Vanguard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 758,
     atk = 170,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-2",
-      name = "冲锋号令·β型",
+      name = "Assault Order·Type β",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>9<span>/</span>9<span>/</span>9<span>/</span>9</span>点部署费用",
+      description = "Immediately obtain <span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span> cost",
       sp = { 39, 38, 37, 36, 35, 34, 33, 32, 31, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-blackd-2",
-      name = "冲锋号令·防御",
+      name = "Assault Order·Defend",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>{blackd_s_2[once].cost}</span>点部署费用\n技能持续期间内逐渐获得<span style='color:#0098DC;'>{blackd_s_2[period].trig_cnt}</span>点部署费用，防御力<span style='color:#0098DC;'>+{blackd_s_2[period].def:0%}</span>",
+      description = "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "雪境巡逻员",
-        description = "阻挡两个及以上的敌人时，防御力+8%",
+        name = "Snow Patroller",
+        description = "When blocking 2 or more enemies, Defense power +8%",
       },
       rank2 = {
         level = 1,
-        name = "雪境巡逻员",
-        description = "当阻挡住两个及以上的敌人时，防御力+16%",
+        name = "Snow Patroller",
+        description = "When blocking 2 or more enemies, Defense power +16%",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "喀兰贸易·α",
+      name = "Karlan Trading·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+15%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
     },
     {
-      name = "讯使",
+      name = "Messenger",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite1",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>，且更容易获得<span style='color:#00B0FF;'>喀兰贸易</span>线索"
+      description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Karlan Trading"
     },
   },
   meta = {
     illustrator = "竜崎いち",
     voiceActor = "平川大辅",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -393,9 +387,6 @@ return {
     cn036 = "好啦好啦，一会给你做点吃的。",
     cn037 = "明日方舟。",
     cn042 = "随时为您效劳。",
-  },
-  skins = {
-
   },
 }
 

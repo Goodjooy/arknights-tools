@@ -15,11 +15,6 @@ return {
   faction = "ROM Billiton",
   stars = 4,
   class = "Specialist",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 744,
     atk = 313,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-rope-1",
-      name = "勾爪发射",
+      name = "Hook Shot",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击会把敌人<span style='color:#0098DC;'>较大力地</span>牵引至面前，并对其造成相当于攻击力<span style='color:#0098DC;'>1<span>/</span>1.3<span>/</span>1.6<span>/</span>1.9</span>的物理伤害",
+      description = "The next attack will pull the enemy towards self with large force, dealing <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>160%</span>/<span style='color:#0098DC;'>190%</span> physical damage",
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-rope-2",
-      name = "复式勾爪",
+      name = "Duplex Hook",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "将远距离内两个敌人<span style='color:#0098DC;'>较大力地</span>拖拽至面前，并对其造成相当于攻击力<span style='color:#0098DC;'>1.2<span>/</span>1.5<span>/</span>1.8<span>/</span>2.25</span>的物理伤害",
+      description = "Pull 2 faraway enemies towards self with large force, dealing <span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>180%</span>/<span style='color:#0098DC;'>225%</span> physical damage",
       sp = { 25, 24, 23, 22, 21, 20, 19, 18, 17, 15 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "听觉训练",
-        description = "获得15%的物理闪避",
+        name = "Auditory Training",
+        description = "Gain 15% physical evasion",
       },
       rank2 = {
         level = 1,
-        name = "听觉训练",
-        description = "获得30%的物理闪避",
+        name = "Auditory Training",
+        description = "Gain 30% physical evasion",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "线索搜集·β",
+      name = "Clue Collection·β",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite0",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+20%</span>"
+      description = "When stationed at Reception, clue collection speed +20%"
     },
     {
-      name = "谈判",
+      name = "Negotiation",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite1",
-      description = "进驻贸易站时，订单上限<span style='color:#0098DC;'>+3</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+      description = "When stationed at a Trade Station, order limit +3 and mood reduction per hour -0.25"
     },
   },
   meta = {
     illustrator = "m9nokuro",
     voiceActor = "藤村步",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -334,7 +328,7 @@ return {
       archive2 = "小暗索并不记恨自己的父母，因为她知道，对越生越穷，越穷越生的贫民来说，抛弃孩子很多时候是一件没有办法的事。至少，她的父母把她赶出门的时候，是哭着的。<br>小暗索也不憎恨这个世界，毕竟不管怎么咒骂老天，老天也不会给她钱。而且，在贫民窟摸爬滚打这些年，她已经见过不知多少比自己要惨得多的人和事。<br>当然，小暗索也不觉得偷东西有什么问题，她当然知道这是错的，可是，她又能怎么办呢？",
       archive3 = "小暗索其实相当喜欢监狱，毕竟在那里，一日三餐都能保障，还有床可以睡。如果不是每次进去都要接受思想教育，她说不定每隔一段时间就会主动被抓一次。<br>当然，即使偶尔失手才会被抓，在贫民窟混迹了这么多年，她也早就和狱警混熟了。她还知道，自己的盗窃技巧似乎在这些执法人员眼中，还挺厉害。<br>她有时候也会想，自己该不会有一天会被吸收成辅警吧。不过，她怎么也想不到，辅警没当上，她就被“卖”给了一个叫罗德岛的组织。",
       archive4 = "来到罗德岛后，小暗索其实觉得相当不适应。<br>虽然这里古怪的人和可怕的人有很多，但她在这里能吃饱穿暖，也没有人嫌弃她的出身，即使她手痒偷了东西，都只是批评她要还回去和道歉。<br>她在过去从贫民窟锻炼出来的巧言令色，在罗德岛似乎变得完全不适用了，这让她一时间无所适从。<br>但是，这样的感觉，似乎......还不坏。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "其实我也想学一学如何做个普通的女孩子的。可是吧，唉，那样是不是不太适合我呢？",
     cn037 = "明日方舟。",
     cn042 = "嗨，博士。",
-  },
-  skins = {
-
   },
 }
 

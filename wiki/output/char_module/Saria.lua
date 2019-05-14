@@ -11,15 +11,10 @@ return {
   fileKey = "Saria",
   team = 4,
   position = "Melee",
-  roles = { "防护", "治疗", "Support" },
+  roles = { "Protection", "Healing", "Support" },
   faction = "Rhine Lab",
   stars = 6,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1309,
     atk = 200,
@@ -154,31 +149,31 @@ return {
   skills = {
     {
       icon = "skchr-demkni-1",
-      name = "急救",
+      name = "First Aid",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下一次攻击会为周围血量不足一半的一名友方单位恢复相当于攻击力<span style='color:#0098DC;'>1.1<span>/</span>1.3<span>/</span>1.5<span>/</span>1.8的生命</span>\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>3次</span>",
+      description = "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>180%</span> Attack power. Can hold <undefined>1</>/<undefined>1</>/<undefined>2</>/<undefined>3</> charge(s)",
       sp = { 6, 6, 6, 5, 5, 5, 5, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-demkni-2",
-      name = "药物配置",
+      name = "Medicine Preparation",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "治疗附近一定范围内的所有友军相当于塞雷娅攻击力<span style='color:#0098DC;'>0.8<span>/</span>0.95<span>/</span>1.1<span>/</span>1.4</span>的生命",
+      description = "Heal all allies within a certain range for <span style='color:#0098DC;'>80%</span>/<span style='color:#0098DC;'>95%</span>/<span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>140%</span> of Saria's Attack power",
       sp = { 10, 10, 10, 9, 9, 9, 8, 8, 8, 7 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-demkni-3",
-      name = "钙质化",
+      name = "Calcification",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "附近所有友军每秒回复相当于塞雷娅攻击力<span style='color:#0098DC;'>0.1<span>/</span>0.15<span>/</span>0.2<span>/</span>0.35</span>的生命\n附近所有敌军受到的法术伤害<span style='color:#0098DC;'>+0.2<span>/</span>0.3<span>/</span>0.4<span>/</span>0.55</span>，移动速度<span style='color:#0098DC;'>--0.6<span>/</span>-0.6<span>/</span>-0.6<span>/</span>-0.6</span>",
+      description = "All nearby allies are healed for <span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<undefined>20%</>/<undefined>30%</>/<undefined>40%</>/<undefined>55%</> magic damage and <span style='color:#0098DC;'>-60%</span>/<span style='color:#0098DC;'>-60%</span>/<span style='color:#0098DC;'>-60%</span>/<span style='color:#0098DC;'>-60%</span> movement speed",
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 10, 12, 14, 16, 18, 20, 22, 24, 27, 30 },
     },
@@ -301,20 +296,20 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "莱茵充能护服",
-        description = "每在场上停留20秒，攻击力+2%，防御力+2%，最多叠加5层",
+        name = "Rechargeable Armor",
+        description = "Every 20 seconds after deployment, Attack power +2%, Defense power +2%, stacks up to 5 layers",
       },
       rank2 = {
         level = 1,
-        name = "莱茵充能护服",
-        description = "每在场上停留20秒，攻击力+5%，防御力+4%，最多叠加5层",
+        name = "Rechargeable Armor",
+        description = "Every 20 seconds after deployment, Attack power +5%, Defense power +4%, stacks up to 5 layers",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "精神回复",
-        description = "每次回复友方单位生命值时额外回复该单位1点技力",
+        name = "Rechargeable Armor",
+        description = "Every 20 seconds after deployment, Attack power +2%, Defense power +2%, stacks up to 5 layers",
       },
     },
   },
@@ -335,25 +330,24 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "线索搜集·α",
+      name = "Clue Collection·α",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite0",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at Reception, clue collection speed +10%"
     },
   },
   meta = {
     illustrator = "NoriZC",
     voiceActor = "井口裕香",
-    servers = "CN, JP",
   },
   profile = {
     records = {
       resume = "塞雷娅，前莱茵生命防卫科主任。于生命科学，微生物学，源石技艺等领域皆有建树，同时于歼灭战，要员保全，异常事态处理等任务中表现出强大实力。<br>目前与罗德岛在科研等多个领域皆有合作，同时，正与罗德岛针对深入合作计划进行磋商。",
-      archive1 = "undefined",
+      archive1 = "",
       archive2 = "塞雷娅女士曾经是莱茵生命防卫科的主要领导人。<br>塞雷娅女士的盾牌同时也是她的法杖。虽然，大多数情况下，她面对的敌人，都不值得她动用源石技艺。<br>如同少数罗德岛干员所说，塞雷娅女士是罗德岛不可多得的战略性干员之一。<br>一方面，战场上，塞雷娅女士会运用自己的医学知识，使用随身的医疗器械医治自己的队员。<br>另一方面，凭借不凡的搏击技术，塞雷娅女士能用自己的盾牌轻易击碎敌人的身体结构，使他们丧失反抗能力，甚至直接破坏掉他们的装备。<br>更重要的是，塞雷娅女士在战地指挥上，同样颇有造诣。虽然塞雷亚女士在战斗中实行的小队方针偏向固守，但可以肯定的是，有塞雷娅干员参与的任务中，极少有干员伤亡的情况发生。<br>“当塞雷亚女士举起盾牌时，她不是在保护身后的干员，她是在保护整支小队。”<br>当然，许多干员都认为，如果塞雷娅女士肯放弃盾牌与注射器、使用双拳战斗的话，她应该会比现在更强大，至少在破坏力范畴。<br>你不会想看她训练小队成员时，究竟做出了怎样的擒拿示范的。",
       archive3 = "塞雷娅女士与莱茵生命之间的关系十分复杂。<br>虽然与罗德岛合作的莱茵生命干员，一定程度上，都对塞雷娅女士表现出相当程度的尊敬——隶属莱茵生命的医疗干员赫默，却对塞雷娅女士表现出了敌意。<br>同时，塞雷娅女士也并不对干员赫默的表现出的态度感到意外。<br>只是，每当塞雷娅女士尝试着与术师干员伊芙利特沟通，干员赫默都会出面阻止。<br>据资料显示，塞雷娅与赫默间的冲突源于莱茵生命的一项实验，而这项实验的主导人正是赫默。<br>实验可悲地失败了。塞雷娅女士独自行动，镇压了失去控制的实验品。同样，也因为此项实验的缘故，塞雷娅女士决定离开莱茵生命。<br>为何塞雷娅女士在离开莱茵生命后与罗德岛合作，其中缘由，我们尚不得而知。",
-      archive4 = "undefined",
+      archive4 = "",
       token = "塞雷娅女士的个人实力已经被罗德岛承认，但她没有因拥有这种实力而盲目冒进。她尽职恪守，坚定地用盾与源石技艺保护着自己的队友。<br>只是，许多干员都思考过同一个问题：明明拥有如此可怖的力量，为什么塞雷娅女士会坚持使用盾与辅助类源石技艺维护队伍，而非直接解放自己的力量，向对手施以毁灭性的打击呢？<br>塞雷娅亚女士没有直接回答过，相反，她一直在用言行规训其它的干员，力量并非战斗的本质，实力并不意味着肆意妄为。<br>风暴中，唯保守者屹立不倒。",
     },
     bio = {
@@ -413,9 +407,6 @@ return {
     cn036 = "博士，有时间的话去补习一些过往的知识吧，你会在其中，发现许多有趣的事。",
     cn037 = "明日方舟。",
     cn042 = "博士，身体如何？",
-  },
-  skins = {
-
   },
 }
 

@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 2,
   class = "Vanguard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 721,
     atk = 150,
@@ -78,8 +73,8 @@ return {
     {
       rank0 = {
         level = 30,
-        name = "快速重新部署",
-        description = "再部署时间-30秒",
+        name = "Quick Redeployment",
+        description = "Redeployment time -30 seconds",
       },
     },
   },
@@ -100,24 +95,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "订单分发·β",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
     {
-      name = "标准化·α",
+      name = "Standardization·α",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+15%</span>"
+      description = "When stationed at a Craft Station, production +15%"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "藤田咲",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -125,8 +119,8 @@ return {
       archive1 = "沉默寡言的武士。除了脸上的面具，没有任何引人注意的地方。<br>存在感十分稀薄，容易被人忽视，不过本人对此似乎并没有意见，只是坚实地完成着每一个被交给自己的任务。<br>“罗德岛的基石。”——凯尔希医生如是评价过。",
       archive2 = "没人知道夜刀是什么时候加入罗德岛的，事实上也没有人在意过。<br>她如同理所当然一般存在于罗德岛之中，或许哪天她突然消失也不会有多少人察觉。",
       archive3 = "曾有比较八卦的干员询问夜刀，她和黑角是不是曾经交往过，没有得到夜刀的正面回应。<br>无论如何，和黑角一样，她很少摘下她的面具。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -181,9 +175,6 @@ return {
     cn036 = "博士，谢谢您一直守护着我们。",
     cn037 = "明日方舟。",
     cn042 = "博士，由我来保护。",
-  },
-  skins = {
-
   },
 }
 

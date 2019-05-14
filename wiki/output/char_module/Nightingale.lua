@@ -11,15 +11,10 @@ return {
   fileKey = "Nightingale",
   team = 9,
   position = "Ranged",
-  roles = { "治疗", "Support" },
+  roles = { "Healing", "Support" },
   faction = "Rhodes Island",
   stars = 6,
   class = "Medic",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 796,
     atk = 132,
@@ -159,31 +154,31 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-3",
-      name = "治疗强化·γ型",
+      name = "Healing Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.4<span>/</span>0.55<span>/</span>0.7<span>/</span>0.9</span>",
+      description = "Attack power +<undefined>40%</>/<undefined>55%</>/<undefined>70%</>/<undefined>90%</>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-cgbird-2",
-      name = "法术护盾",
+      name = "Arcane Shield",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次治疗使所有目标获得一个持续<span style='color:#0098DC;'>3<span>/</span>3.5<span>/</span>4<span>/</span>5</span>秒的护盾\n护盾能吸收相当于夜莺攻击力<span style='color:#0098DC;'>0.4<span>/</span>0.5<span>/</span>0.6<span>/</span>0.9</span>的<span style='color:#0098DC;'>法术</span>伤害，同时使目标法术抗性<span style='color:#0098DC;'>+5<span>/</span>10<span>/</span>15<span>/</span>20</span>；<span style='color:#F49800;'>可充能1<span>/</span>2<span>/</span>2<span>/</span>3次</span>",
+      description = "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3.5</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>90%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <undefined>5</>/<undefined>10</>/<undefined>15</>/<undefined>20</>. Can hold <undefined>1</>/<undefined>2</>/<undefined>2</>/<undefined>3</> charge(s)",
       sp = { 11, 11, 11, 10, 10, 10, 10, 9, 9, 8 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-cgbird-3",
-      name = "圣域",
+      name = "Holy Territory",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围<span style='color:#0098DC;'>扩大</span>，攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.4<span>/</span>0.5<span>/</span>0.8</span>，攻击范围内的友方单位法术抗性<span style='color:#0098DC;'>+0.75<span>/</span>0.9<span>/</span>1.05<span>/</span>1.5</span>并获得<span style='color:#0098DC;'>0.1<span>/</span>0.15<span>/</span>0.2<span>/</span>0.25</span>的法术闪避",
+      description = "Increase attack range, Attack power +<undefined>30%</>/<undefined>40%</>/<undefined>50%</>/<undefined>80%</>. All allies within attack range gain +<undefined>75%</>/<undefined>90%</>/<undefined>105%</>/<undefined>150%</> magic resistance and <span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span> magic evasion",
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
     },
@@ -306,25 +301,25 @@ return {
     {
       rank0 = {
         level = 1,
-        name = "白恶魔的庇护",
-        description = "攻击范围内的友方单位法术抗性+5",
+        name = "White Devil's Protection",
+        description = "Allies within attack range gain magic resistance +5",
       },
       rank1 = {
         level = 1,
-        name = "白恶魔的庇护",
-        description = "攻击范围内的友方单位法术抗性+10",
+        name = "White Devil's Protection",
+        description = "Allies within attack range gain magic resistance +10",
       },
       rank2 = {
         level = 1,
-        name = "白恶魔的庇护",
-        description = "攻击范围内的友方单位法术抗性+15",
+        name = "White Devil's Protection",
+        description = "Allies within attack range gain magic resistance +15",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "转瞬即逝的幻影",
-        description = "可以使用幻影。幻影无法攻击和阻挡敌人，拥有75法术抗性，30%的物理闪避，并且更容易吸引敌人的攻击，同时每秒损失3%的最大生命",
+        name = "White Devil's Protection",
+        description = "Allies within attack range gain magic resistance +5",
       },
     },
   },
@@ -345,17 +340,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "鼓舞",
+      name = "Inspiring",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.1</span>（同种效果取最高）"
+      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.1 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "石川由依",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -423,9 +417,6 @@ return {
     cn036 = "博士，您现在在做的，就是所谓的亲密接触吗？",
     cn037 = "明日方舟。",
     cn042 = "您好，博士。",
-  },
-  skins = {
-
   },
 }
 

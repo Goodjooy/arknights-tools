@@ -15,11 +15,6 @@ return {
   faction = "Victoria",
   stars = 4,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 619,
     atk = 253,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2",
-      name = "攻击力强化·β型",
+      name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.2<span>/</span>0.35<span>/</span>0.5<span>/</span>0.8</span>",
+      description = "Attack power +<undefined>20%</>/<undefined>35%</>/<undefined>50%</>/<undefined>80%</>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-nights-2",
-      name = "赤色之瞳",
+      name = "Crimson Eyes",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "最大生命值<span style='color:#FF6237;'>--0.75<span>/</span>-0.75<span>/</span>-0.75<span>/</span>-0.75</span>；攻击力<span style='color:#0098DC;'>+0.15<span>/</span>0.3<span>/</span>0.45<span>/</span>0.6</span>，攻击速度<span style='color:#0098DC;'>+35<span>/</span>40<span>/</span>45<span>/</span>60</span>",
+      description = "Max HP <span style='color:#FF6237;'>-75%</span>/<span style='color:#FF6237;'>-75%</span>/<span style='color:#FF6237;'>-75%</span>/<span style='color:#FF6237;'>-75%</span>, Attack power +<undefined>15%</>/<undefined>30%</>/<undefined>45%</>/<undefined>60%</>, Attack speed +<undefined>35</>/<undefined>40</>/<undefined>45</>/<undefined>60</>",
       sp = { 35, 35, 35, 35, 35, 35, 30, 30, 30, 25 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "黑色迷雾",
-        description = "攻击使目标法术抗性-10%，持续1秒",
+        name = "Black Mist",
+        description = "Attacks inflict magic resistance -10% for 1 second",
       },
       rank2 = {
         level = 1,
-        name = "黑色迷雾",
-        description = "攻击使目标法术抗性-20%，持续1秒",
+        name = "Black Mist",
+        description = "Attacks inflict magic resistance -20% for 1 second",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "金属工艺·α",
+      name = "Metal Crafts·α",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>贵金属</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Craft Station, increase production of precious metals by +30%"
     },
     {
-      name = "订单分发·β",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite1",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "卢婷",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -334,7 +328,7 @@ return {
       archive2 = "有着轻度偷盗癖，但一不拿钱二不偷钥匙，只会对一些无关紧要的小东西下手。本来这样的程度连立案都不会立，但因为一次行窃时被发现是感染者，于是立刻被抓捕并送进了感染者监狱。",
       archive3 = "关押夜烟的监狱是专门用以收监感染者罪犯的特殊监狱，想要从这里逃出并获得自由，相当于要越过监狱与隔离区高墙并躲过所有搜查和追踪。做到这点的只有夜烟一人，所以时至今日，维多利亚警署仍在试图逮捕夜烟。",
       archive4 = "夜烟从不掩饰自己对菲林兽亲们的喜爱。即使自己的感染和这些可爱的小生物有直接关系，夜烟却还是一如既往地饲养或喂食它们。因为这个原因，夜烟很喜欢同样可爱的菲林同族们，比如慕斯。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "喵？这些还不够哦。凡是我得不到的东西，我都想要~",
     cn037 = "明日方舟。",
     cn042 = "博士，你在啊喵~",
-  },
-  skins = {
-
   },
 }
 

@@ -11,15 +11,10 @@ return {
   fileKey = "Estelle",
   team = -1,
   position = "Melee",
-  roles = { "Splash", "生存" },
+  roles = { "Splash", "Survival" },
   faction = "Rhodes Island",
   stars = 4,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1140,
     atk = 278,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2",
-      name = "攻击力强化·β型",
+      name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.2<span>/</span>0.35<span>/</span>0.5<span>/</span>0.8</span>",
+      description = "Attack power +<undefined>20%</>/<undefined>35%</>/<undefined>50%</>/<undefined>80%</>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-estell-2",
-      name = "舍身突击",
+      name = "Self-sacrifice",
       recharge = "",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.85<span>/</span>1<span>/</span>1.15<span>/</span>1.5</span>，不再成为其他角色的治疗目标",
+      description = "Attack power +<undefined>85%</>/<undefined>100%</>/<undefined>115%</>/<undefined>150%</>, Become unable to be healed by other operators",
       sp = { 25, 25, 25, 24, 24, 24, 23, 22, 21, 20 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "自愈能力",
-        description = "周围8格内有敌人倒下时，恢复自身最大生命值7%的生命",
+        name = "Self Regeneration",
+        description = "When an enemy dies within 8 tiles of herself, recover 7% Max HP",
       },
       rank2 = {
         level = 1,
-        name = "自愈能力",
-        description = "周围8格内有敌人倒下时，恢复自身最大生命值12%的生命",
+        name = "Self Regeneration",
+        description = "When an enemy dies within 8 tiles of herself, recover 12% Max HP",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "专注·β",
+      name = "Focus·β",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>60%</span>"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 60%"
     },
     {
-      name = "独处",
+      name = "Solitude",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite1",
-      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#0098DC;'>+0.7</span>"
+      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
   },
   meta = {
     illustrator = "鸭",
     voiceActor = "山本希望",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -333,8 +327,8 @@ return {
       archive1 = "干员艾丝黛尔习惯性的表现出紧张和拘束，她始终处于一种坐立不安的状态,即使绝大部分干员并未过多关注她的异状。对其造成影响主要来源于她的异变双角。<br>于日常生活中，干员艾丝黛尔常因异变双角而陷入情绪消沉，并避免一切可能的社交活动。建议博士对该干员进行进一步心理疏通工作，避免其陷入可能的孤立境遇。",
       archive2 = "尽管艾丝黛尔在生活中表现的过分紧张，不过她从未将这种状态带入战场。根据对阿达克利斯种族的观察，这是一个依然保持尚武精神的种族，与同族干员嘉维尔相同，艾丝黛尔具备不凡的近距离战斗技巧。她不适用任何武器，她以自己的身体作为武器，以巨大的双角和极为有力的尾巴，使得艾丝黛尔在针对多项目目标实施打击的战术上取得了突出战果。战场上的她，仿佛以自身作为野兽的直觉与强悍力量进行着战斗。<br>甚至部分己方干员也会被艾丝黛尔强烈的战斗效果所惊讶，对此反应，艾丝黛尔表现出了与日常中并不一致的羞涩，而是选择单打独斗，几乎不与己方干员交流，只听从队长或战地指挥官的指令行事。",
       archive3 = "目前，针对干员艾丝黛尔的生活，罗德岛指定了一系列安排，包括数次心理疏通与病症监护。针对艾丝黛尔表现出的，对自身病症康复的强烈渴求，只能等待时间解答。<br>以目前的数项医疗方案，干员艾丝黛尔的矿石病症的抑制是较为乐观的。在积极监控艾丝黛尔心理状况的同时也需指出：患者的意志正逐渐趋向于”承认病症并将其作为自己的一部分，以非人形态生活下去“，这是积极的进化方向，但亦会为未来造成可能的不稳定影响。<br>由此判断，如何积极地介入，并引导干员艾丝黛尔对自身采取正确的认知，仍需相关人员的调整与权衡。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "博士总是这么关心我，我非常、非常高兴......",
     cn037 = "明日方舟。",
     cn042 = "博，博士...",
-  },
-  skins = {
-
   },
 }
 

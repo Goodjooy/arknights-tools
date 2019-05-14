@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 3,
   class = "Vanguard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 742,
     atk = 157,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-1",
-      name = "冲锋号令·α型",
+      name = "Assault Order·Type α",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span></span>点部署费用",
+      description = "Immediately obtain <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/ cost",
       sp = { 30, 29, 28, 27, 26, 25, 25 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "轻量化",
-        description = "自身部署费用-1",
+        name = "Lightening",
+        description = "Self deployment cost -1",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "急性子",
+      name = "Impatient",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站后，生产力首小时<span style='color:#0098DC;'>+20%</span>，此后每小时<span style='color:#0098DC;'>+1%</span>，最终达到<span style='color:#0098DC;'>+25%</span>"
+      description = "When stationed at a Craft Station, production +20% for the first hour. Thereafter, increase by +1% every hour, capping at +25%"
     },
     {
-      name = "订单分发·β",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite1",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
   },
   meta = {
     illustrator = "下野宏铭",
     voiceActor = "白石凉子",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -261,7 +255,7 @@ return {
       archive2 = "哥伦比亚外围城区聚集了来自各个国家的移民，芬、克洛丝、米格鲁三人从不同的出生地来到这里相遇，都抱着同样的 目标加入了城区警卫，接受了最初的训练。急性子不擅玩笑的芬， 温柔和气的米格鲁，豁然随性的克洛丝，三人性格明明各异，却不可思议的成为了彼此心里的支柱。",
       archive3 = "在正式入选日来临之前，哥伦比亚外围城区爆发了突发地质天灾。为了掩护更多的平民安全离开，三人都没有及时从源石扩散地离开，无法幸免地感染了矿石病。受到排挤和不公对待的芬陷入迷茫和悲伤的时候，克洛丝为三人找到了新的方向，带领大家来到了罗德岛。",
       archive4 = "来到罗德岛后，芬三人和芙蓉炎熔分配在了一组接受杜宾的训练。因为杜宾超乎寻常的严格课程，克洛丝和炎熔老是耍滑摸鱼并抓住任何一个机会偷懒。芬身为队也拿她们没什么办法，目前正在努力练习让自己更有威严和凶一些，目标是成为杜宾教官一样严格的人。不过从芬平时笑嘻嘻的吃着最喜欢的水果的样子看来，这个距离应该很遥远吧。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "女 ",
@@ -316,9 +310,6 @@ return {
     cn036 = "我帮上您的忙了吗？",
     cn037 = "明日方舟。",
     cn042 = "我随时都可以，博士。",
-  },
-  skins = {
-
   },
 }
 

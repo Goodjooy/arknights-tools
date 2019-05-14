@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 5,
   class = "Specialist",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 852,
     atk = 279,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-panda-1",
-      name = "铁意六合",
+      name = "Metallic Union",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击会把目标往攻击方向<span style='color:#0098DC;'>较大力地</span>推动，<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>4<span>/</span>5秒</span>内命中目标的移动速度<span style='color:#0098DC;'>--0.15<span>/</span>-0.18<span>/</span>-0.21<span>/</span>-0.3</span>",
+      description = "The next attack will push the target away with large force, inflicting <span style='color:#0098DC;'>-15%</span>/<span style='color:#0098DC;'>-18%</span>/<span style='color:#0098DC;'>-21%</span>/<span style='color:#0098DC;'>-30%</span> movement speed for <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> seconds",
       sp = { 6, 6, 6, 6, 6, 6, 6, 5, 5, 5 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-panda-2",
-      name = "崩拳式",
+      name = "Collapsing Strike",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即往前方突进，寻找前方直线内的最近目标，<span style='color:#0098DC;'>大力地</span>击退该目标周围的所有敌军，造成相当于攻击力<span style='color:#0098DC;'>1.6<span>/</span>1.75<span>/</span>1.9<span>/</span>2.5</span>的物理伤害，在<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>4<span>/</span>5秒</span>内所有命中目标的移动速度<span style='color:#0098DC;'>--0.15<span>/</span>-0.18<span>/</span>-0.21<span>/</span>-0.3</span>",
+      description = "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with huge force and dealing <span style='color:#0098DC;'>160%</span>/<span style='color:#0098DC;'>175%</span>/<span style='color:#0098DC;'>190%</span>/<span style='color:#0098DC;'>250%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-15%</span>/<span style='color:#0098DC;'>-18%</span>/<span style='color:#0098DC;'>-21%</span>/<span style='color:#0098DC;'>-30%</span> movement speed to all targets for <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> seconds",
       sp = { 20, 20, 20, 19, 19, 19, 18, 17, 16, 15 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "功夫",
-        description = "获得20%的物理闪避",
+        name = "Kungfu",
+        description = "Gain 20% physical evasion",
       },
       rank2 = {
         level = 1,
-        name = "功夫",
-        description = "获得40%的物理闪避",
+        name = "Kungfu",
+        description = "Gain 40% physical evasion",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "作战指导录像",
+      name = "Combat Directive Recordings",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
   },
   meta = {
     illustrator = "RAN",
     voiceActor = "园崎未惠",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -331,8 +325,8 @@ return {
       archive1 = "从影之前的食铁兽就接受了多年的武术训练。身为炎国铁意六合拳法传人，精通全套五行八攻十二式，转瞬间即可造成巨大的攻击威力。",
       archive2 = "感染了矿石病之后，食铁兽的事业和梦想就这样化为了泡影。但是她并没有想周围的人想的一样沉沦，对食铁兽来说，电影也仅仅只是自己发扬正义之心的一个手段而已。乐观豁达的她马上为自己找到了接下来的路。",
       archive3 = "武打演员的名气和高深的拳术修为并没有让食铁兽变成一个高傲冷漠不宜接近的人，反而略有一些傻气的她很轻易的便和其他干员打成一片。闲暇时间的食铁兽喜欢电影，喜欢炎国美食，喜欢和其他人在酒场豪饮。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -391,9 +385,6 @@ return {
     cn036 = "嘿嘿，博士，想不想要我的签名？附赠我们两个的合照哦！",
     cn037 = "明日方舟。",
     cn042 = "博士！有没有好好吃早饭呢！",
-  },
-  skins = {
-
   },
 }
 

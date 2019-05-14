@@ -15,11 +15,6 @@ return {
   faction = "Ursus",
   stars = 5,
   class = "Vanguard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 812,
     atk = 183,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-3",
-      name = "冲锋号令·γ型",
+      name = "Assault Order·Type γ",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>12<span>/</span>12<span>/</span>12<span>/</span>12</span>点部署费用",
+      description = "Immediately obtain <span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span> cost",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-headbr-2",
-      name = "乌萨斯战吼",
+      name = "Roar of Ursus",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "技能持续时间内逐渐获得<span style='color:#0098DC;'>9<span>/</span>10<span>/</span>11<span>/</span>12</span>点部署费用\n所有先锋干员攻击力和防御力<span style='color:#0098DC;'>+0.25<span>/</span>0.35<span>/</span>0.45<span>/</span>0.6</span>，并在击杀敌人时额外获得<span style='color:#0098DC;'>1</span>点部署费用",
+      description = "Gradually obtain <span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>12</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<undefined>25%</>/<undefined>35%</>/<undefined>45%</>/<undefined>60%</>, additionally obtain 1 cost when killing an enemy",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "冲锋领袖",
-        description = "自身部署费用-1",
+        name = "Assault Leader",
+        description = "Self deployment cost -1",
       },
       rank2 = {
         level = 1,
-        name = "冲锋领袖",
-        description = "编入队伍时所有【先锋】职业干员的部署费用-1",
+        name = "Assault Leader",
+        description = "Deployment cost of all 【Vanguard】 operatives in the same team -1",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "领袖",
+      name = "Leader",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.15</span>（同种效果取最高）"
+      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "小清水亚美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -332,7 +326,7 @@ return {
       archive2 = "凛冬出生于乌萨斯帝国切尔诺伯格市。观察报告指出，学生自结社团是近年来流行于乌萨斯年轻群体中的组织形式。受维多利亚，哥伦比亚等国流入的“新文化”影响，他们终日沉浸于摇滚、啤酒和群体斗殴中。每一个学生社团的头领的均有自己的绰号。凛冬最初的绰号是“冬天”，是被她击败的东校区社团首领所赠，而另一伙社团的人则称呼她“将军”（一个暗自揶揄的绰号，在乌萨斯人的笑话中，“将军”等同于无能与欺骗）。但在凛冬陆续剿灭了校园周边所有的学生社团后，人们开始将这两个绰号合并，称呼她为“Генерал Мороз”（通用语意为“凛冬将军”）。",
       archive3 = "显而易见的，自切尔诺伯格事变中生存的乌萨斯学生，目前以凛冬为中心集结为松散团体“乌萨斯学生自治团”。根据部分干员提供的描述，乌萨斯学生常以干员真理的宿舍房间为集合地，称之为“класс”（通用语意为“班级”，或“阶级”）。鉴于对罗德岛内部稳定的管理的考虑，建议对该团体的日常行动进行定期的观察。",
       archive4 = "干员凛冬近期借阅记录：<br>《尼古拉米娜》夏服搭配一百连发！<br>《跃动！》特刊·年中十大动圈式推荐<br>《嫌疑人伊里奇之死》（建议分类：推理文学）<br>《弗里德里希的战争论纲》（沃尔霍夫出版社，10月再版发行）<br>......<br>与印象相反，干员凛冬并未显示出任何疏于阅读的倾向，她颇为广泛的阅读类目给我们留下了深刻印象，或许有重新调查现代女性中学生群体中的流行事物的必要。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -391,9 +385,6 @@ return {
     cn036 = "嘿，最近你的指挥越来越像样了，是不是觉得打架也挺有趣的？",
     cn037 = "明日方舟。",
     cn042 = "干什么？有事吗？",
-  },
-  skins = {
-
   },
 }
 

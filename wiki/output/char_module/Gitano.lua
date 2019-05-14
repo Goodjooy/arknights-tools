@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 4,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 622,
     atk = 303,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-magic-rage-2",
-      name = "战术咏唱·β型",
+      name = "Tactical Chanting·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+15<span>/</span>30<span>/</span>45<span>/</span>75</span>",
+      description = "Attack speed +<undefined>15</>/<undefined>30</>/<undefined>45</>/<undefined>75</>",
       sp = { 45, 45, 45, 40, 40, 40, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-fmout-2",
-      name = "命运",
+      name = "Fate",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.45<span>/</span>0.7<span>/</span>1</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，同时攻击攻击范围内所有敌人\n<span style='color:#F49800;'>技能时间结束后远山停止攻击15<span>/</span>14<span>/</span>13<span>/</span>10秒</span>",
+      description = "Attack power +<undefined>30%</>/<undefined>45%</>/<undefined>70%</>/<undefined>100%</>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <undefined>15</>/<undefined>14</>/<undefined>13</>/<undefined>10</> seconds after skill ends.",
       sp = { 100, 100, 100, 95, 95, 95, 90, 90, 90, 85 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "占卜",
-        description = "部署后随机永久获得下列一项增益：攻击力+7%；攻击速度+7；生命上限+12%",
+        name = "Divination",
+        description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +7%; Attack speed +7; Max HP +12%",
       },
       rank2 = {
         level = 1,
-        name = "占卜",
-        description = "部署后随机永久获得下列一项增益：攻击力+13%；攻击速度+13；生命上限提升20%",
+        name = "Divination",
+        description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +13%; Attack speed +13; Max HP +20%",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "供应管理",
+      name = "Supply Management",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+25%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
     },
     {
-      name = "占卜",
+      name = "Divination",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite1",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+25%</span>"
+      description = "When stationed at Reception, clue collection speed +25%"
     },
   },
   meta = {
     illustrator = "谜肘",
     voiceActor = "优木加奈",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -333,8 +327,8 @@ return {
       archive1 = "占卜者无法占卜自己的未来，但通过预兆远山能够做些准备。在进行法术攻击时，可以通过激发源石水晶球进行爆发性杀伤，只是，释放完力量后，需要接受足以抑制行动的反噬。",
       archive2 = "占卜对于远山来说是一种乐趣，她不收取金钱报酬，只会取个水果或蛋糕作为“对方付出的代价”。至于占卜内容，大到命运，小到钥匙丢哪里都可以问，和其他占卜师一样，远山给出的回答也是那种模棱两可的预言，稍微思考一下，就能对答案有个一知半解。",
       archive3 = "和占卜时轻松的姿态不同，玩牌类游戏时的远山是个容易紧张且求胜心极强的人，因为怕她洗牌时作弊，这个过程总是由别人来完成，即使如此，凭借她对“牌”的熟悉，能够让她做手脚的环节仍旧多到数不胜数，除非被抓现行，她绝不会承认自己动过手脚。不过，有些人依旧喜欢同她打牌，一类是喜欢抓她的出千的瞬间，另一类，则只是喜欢看她那不常见的紧张表情。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "想让我为您占卜下今后的运气？是嘛~请稍等一下。",
     cn037 = "明日方舟。",
     cn042 = "幸运之风吹拂着你，博士。",
-  },
-  skins = {
-
   },
 }
 

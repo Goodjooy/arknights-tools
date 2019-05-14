@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 5,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 699,
     atk = 276,
@@ -159,31 +154,31 @@ return {
   skills = {
     {
       icon = "skcom-magic-rage-3",
-      name = "战术咏唱·γ型",
+      name = "Tactical Chanting·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+30<span>/</span>45<span>/</span>60<span>/</span>90</span>",
+      description = "Attack speed +<undefined>30</>/<undefined>45</>/<undefined>60</>/<undefined>90</>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-amiya-2",
-      name = "精神爆发",
+      name = "Mental Burst",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "每次攻击变为攻击力<span style='color:#0098DC;'>0.33<span>/</span>0.39<span>/</span>0.45<span>/</span>0.6</span>的<span style='color:#0098DC;'>6<span>/</span>7<span>/</span>7<span>/</span>8</span>连发，随机攻击范围内的目标\n<span style='color:#F49800;'>技能自动开启，持续时间结束后阿米娅晕眩10<span>/</span>10<span>/</span>10<span>/</span>10秒</span>",
+      description = "Every attack deals <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>8</span> hits at <span style='color:#0098DC;'>33%</span>/<span style='color:#0098DC;'>39%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span> damage each to random enemies within attack range. Automatic activation, Amiya is stunned for <undefined>10</>/<undefined>10</>/<undefined>10</>/<undefined>10</> seconds after the skill ends",
       sp = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-amiya-3",
-      name = "奇美拉",
+      name = "Chimaera",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+1<span>/</span>1.3<span>/</span>1.6<span>/</span>2.3</span>，生命上限<span style='color:#0098DC;'>+0.25<span>/</span>0.5<span>/</span>0.75<span>/</span>1</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，伤害<span style='color:#0098DC;'>无视防御力和法术抗性</span>\n<span style='color:#F49800;'>技能结束后阿米娅强制退出战场</span>",
+      description = "Attack power +<undefined>100%</>/<undefined>130%</>/<undefined>160%</>/<undefined>230%</>, Max HP +<undefined>25%</>/<undefined>50%</>/<undefined>75%</>/<undefined>100%</>, Increase attack range, attacks ignore defense and magic resistance. Amiya is forcibly retreated after the skill ends",
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -301,8 +296,8 @@ return {
       },
       rank2 = {
         level = 1,
-        name = "情绪吸收",
-        description = "攻击敌人时额外回复2点技力，消灭敌人后额外获得8点技力",
+        name = "Emotion Absorption",
+        description = "Additionally recover 2 SP when attacking enemies. Gain 8 SP after killing an enemy",
       },
     },
   },
@@ -323,40 +318,39 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "合作协议",
+      name = "Cooperation Agreement",
       badge = "control",
       facility = "CONTROL",
       unlockIcon = "elite0",
-      description = "进驻控制中枢时，所有贸易站订单效率<span style='color:#0098DC;'>+7%</span>"
+      description = "When stationed at the Command Center, order acquisition efficiency of all Trade Stations +7%"
     },
     {
-      name = "小提琴独奏",
+      name = "Violin Solo",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite2",
-      description = "进驻宿舍时，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.15</span>（同种效果取最高）"
+      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {
     illustrator = "唯@W",
     voiceActor = "黑泽朋世",
-    servers = "CN, JP",
   },
   profile = {
     records = {
       resume = "罗德岛的公开领袖，在内部拥有最高执行权。虽然，从外表上看起来仅仅是个不成熟的少女，实际上，她却是深受大家信任的合格的领袖。<br>现在，阿米娅正带领着罗德岛，为了感染者的未来，为了让这片大地挣脱矿石病的阴霾而不懈努力。",
-      archive1 = "undefined",
-      archive2 = "undefined",
-      archive3 = "undefined",
-      archive4 = "undefined",
-      token = "undefined",
+      archive1 = "",
+      archive2 = "",
+      archive3 = "",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
       experience = "3 years",
       origin = "Rim Billiton",
       birthday = "December 23",
-      race = "卡特斯/奇美拉",
+      race = "Cartes/Chimera",
       height = "142cm",
     },
     physical = {
@@ -410,9 +404,6 @@ return {
     cn036 = "欸嘿嘿......",
     cn037 = "明日方舟。",
     cn042 = "欢迎回家，博士！",
-  },
-  skins = {
-
   },
 }
 

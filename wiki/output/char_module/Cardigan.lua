@@ -11,15 +11,10 @@ return {
   fileKey = "Cardigan",
   team = 3,
   position = "Melee",
-  roles = { "防护" },
+  roles = { "Protection" },
   faction = "Rhodes Island",
   stars = 3,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1197,
     atk = 190,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-heal-self-1",
-      name = "生命回复·α型",
+      name = "Health Recovery·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即恢复最大生命的<span style='color:#0098DC;'>0.2<span>/</span>0.3<span>/</span>0.4<span>/</span></span>",
+      description = "Immediately recover <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/ of Max HP",
       sp = { 26, 25, 24, 23, 22, 21, 20 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "生命上限提升",
-        description = "生命上限+12%",
+        name = "Max HP Increase",
+        description = "Max HP +12%",
       },
     },
   },
@@ -235,33 +230,32 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "仓库整备·α",
+      name = "Warehouse Organization·α",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，仓库容量上限<span style='color:#0098DC;'>+6</span>，生产力<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at a Craft Station, storage capacity +6 and production +10%"
     },
     {
-      name = "活泼",
+      name = "Lively",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite1",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.2</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.4</span>"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.4"
     },
   },
   meta = {
     illustrator = "一立里子",
     voiceActor = "浅仓杏美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
       resume = "卡缇，行动预备组A4组员，莱塔尼亚公民，正式任职前为雪橇巡逻队队员。于多项测试中获得优异成绩，逐被获准加入罗德岛",
-      archive1 = "undefined",
-      archive2 = "undefined",
-      archive3 = "undefined",
-      archive4 = "undefined",
-      token = "undefined",
+      archive1 = "",
+      archive2 = "",
+      archive3 = "",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -316,9 +310,6 @@ return {
     cn036 = "玫兰莎？哎，怎么是博士......",
     cn037 = "明日方舟。",
     cn042 = "我在这里哦，博士！",
-  },
-  skins = {
-
   },
 }
 

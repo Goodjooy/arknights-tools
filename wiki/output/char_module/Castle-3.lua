@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 1,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 862,
     atk = 221,
@@ -78,8 +73,8 @@ return {
     {
       rank0 = {
         level = 1,
-        name = "战术整理·I",
-        description = "部署后10秒内所有友方【近战位】单位的攻击力和防御力+10%",
+        name = "Tactical Reorganization·I",
+        description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +10% for 10 seconds",
       },
     },
   },
@@ -100,33 +95,32 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "备用能源",
+      name = "Backup Generator",
       badge = "power",
       facility = "POWER",
       unlockIcon = "elite0",
-      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
     {
-      name = "作战指导录像",
+      name = "Combat Directive Recordings",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
   },
   meta = {
     illustrator = "TOKI",
     voiceActor = "--",
-    servers = "CN, JP",
   },
   profile = {
     records = {
       resume = "Castle-3是可露希尔客制化后的雷神存在者™Plus六轮作业平台。受人喜爱，也是吉祥物一般的存在不过因为性格比较正常所以没有获得那么多关注。<br>Castle-3方方正正的形象给人以坚定可靠的感觉。<br>身上的标记可能代表着杀敌数，但是他自己没有手，所以是谁刻上去的呢？",
       archive1 = "对可露希尔改造自己毫不在意，并且对自己被强化了感到高兴。被设置成了最喜欢的东西是可露希尔，对此没有什么评价，觉得主人怎么做都可以。",
-      archive2 = "undefined",
-      archive3 = "undefined",
-      archive4 = "undefined",
-      token = "undefined",
+      archive2 = "",
+      archive3 = "",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "undefined",
@@ -181,9 +175,6 @@ return {
     cn036 = "博士，要一起喝一杯吗？虽然我不能喝，不过我能请您。别担心，最后也是可露希尔主人付帐。",
     cn037 = "明日方舟。",
     cn042 = "今天天气不错啊，博士！",
-  },
-  skins = {
-
   },
 }
 

@@ -11,15 +11,10 @@ return {
   fileKey = "Gravel",
   team = -1,
   position = "Melee",
-  roles = { "Quick resurrection", "防护" },
+  roles = { "Quick resurrection", "Protection" },
   faction = "Kazimierz",
   stars = 4,
   class = "Specialist",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 663,
     atk = 176,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-gravel-1",
-      name = "影袭",
+      name = "Shadow Raid",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后防御力<span style='color:#0098DC;'>+2<span>/</span>2.7<span>/</span>3.4<span>/</span>4</span>，在<span style='color:#0098DC;'>6<span>/</span>7<span>/</span>8<span>/</span>12</span>秒内持续衰减",
+      description = "Defense power +<undefined>200%</>/<undefined>270%</>/<undefined>340%</>/<undefined>400%</> after deploying, effect weakens over <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>12</span> seconds",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-gravel-2",
-      name = "鼠群",
+      name = "Rat Pack",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后获得可吸收相当于自己最大生命<span style='color:#0098DC;'>1<span>/</span>1.4<span>/</span>1.8<span>/</span>2.5</span>的护盾，该护盾会在<span style='color:#0098DC;'>10<span>/</span>10<span>/</span>10<span>/</span>10</span>秒内持续衰减",
+      description = "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>140%</span>/<span style='color:#0098DC;'>180%</span>/<span style='color:#0098DC;'>250%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span> seconds",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "快速部署",
-        description = "自身部署费用-1",
+        name = "Quick Deployment",
+        description = "Self deployment cost -1",
       },
       rank2 = {
         level = 1,
-        name = "小个子支援",
-        description = "自身部署费用-1，所有部署费用不超过10的单位防御力提升6%",
+        name = "Dwarfish Reinforcement",
+        description = "Self deployment cost -1, All operatives with 10 or less cost gain Defense power +6%",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "专注·α",
+      name = "Focus·α",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>40%</span>"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 40%"
     },
     {
-      name = "金属工艺·β",
+      name = "Metal Crafts·β",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite1",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>贵金属</span>类配方的生产力<span style='color:#0098DC;'>+35%</span>"
+      description = "When stationed at a Craft Station, increase production of precious metals by +35%"
     },
   },
   meta = {
     illustrator = "竜崎いち",
     voiceActor = "立花理香",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -334,14 +328,14 @@ return {
       archive2 = "砾小姐的骑士位阶是四级，在骑士阶层中不过是堪堪摸到中层的边缘。<br>但卡西米尔骑士这个称号本身，就已经是身份的象征。通常，很难想象除了临光小姐那样有特殊经历的骑士，会屈尊逗留在罗德岛这样名不见经传的组织。<br>当然，砾小姐也是个特例。毕竟，她的目的，就算是傻子也看得出来。",
       archive3 = "随着时代的变迁，骑士逐渐从一种代表身份的头衔变成了一种职业，因而，他们不再必须保持庄严的形象。<br>像是砾小姐这样擅长隐秘行动的骑士，在如今并不少见。<br>但是，像砾小姐这样从最卑微的身份一步一步成为骑士的人，依然是凤毛麟角。<br>是的，砾小姐曾是被卖到卡西米尔的“商品”，手臂上的条形码是永远无法消去的烙印。<br>她正是以这样的出身，一步一步从最底层爬上来，最后成为了一名四阶骑士，并且正如她从不遮掩条形码一样，她并不忌讳提起自己的过去。<br>虽然在罗德岛， 不存在“商品”的概念，骑士也不会得到优待，但她的这份洒脱，依然应该被肯定。",
       archive4 = "大部分罗德岛干员，是将自己的代号当做自己的真名来使用的，他们有的抛弃了过去，有的将使用代号看作在罗德岛生活的证据，当然，有的只是觉得方便。<br>不过，对砾小姐来说，向效忠对象献上真名有十分特殊的意义——这意味着，她将作为“商品”的自己，和骑士时的自己，毫无保留地献给对方。<br>这是，即使当初给了她成为骑士机会的卡西米尔家族，都不曾享受过的殊荣。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
       experience = "4 years",
       origin = "Kazimierz",
       birthday = "January 20",
-      race = "扎拉克",
+      race = "Zarak",
       height = "156cm",
     },
     physical = {
@@ -393,9 +387,6 @@ return {
     cn036 = "是的，我在这里，一直都在呢.......",
     cn037 = "明日方舟。",
     cn042 = "今天还好吗，博士~",
-  },
-  skins = {
-
   },
 }
 

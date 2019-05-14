@@ -11,15 +11,10 @@ return {
   fileKey = "Matterhorn",
   team = 6,
   position = "Melee",
-  roles = { "防护" },
+  roles = { "Protection" },
   faction = "Kjerag",
   stars = 4,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1273,
     atk = 198,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-yak-1",
-      name = "体能强化",
+      name = "Body Strengthening",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "生命上限<span style='color:#0098DC;'>+0.2<span>/</span>0.3<span>/</span>0.4<span>/</span>0.7</span>，每秒恢复<span style='color:#0098DC;'>20<span>/</span>25<span>/</span>30<span>/</span>40</span>点生命",
+      description = "Max HP +<undefined>20%</>/<undefined>30%</>/<undefined>40%</>/<undefined>70%</>, recover <undefined>20</>/<undefined>25</>/<undefined>30</>/<undefined>40</> HP every second",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 25, 25, 25, 27, 27, 27, 27, 28, 29, 30 },
     },
     {
       icon = "skchr-yak-2",
-      name = "抗寒体质",
+      name = "Cold Resistance",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "生命上限<span style='color:#0098DC;'>+0.2<span>/</span>0.3<span>/</span>0.4<span>/</span>0.5</span>，防御力<span style='color:#0098DC;'>+0.1<span>/</span>0.1<span>/</span>0.15<span>/</span>0.3</span>，法术抗性<span style='color:#0098DC;'>+0.5<span>/</span>0.6<span>/</span>0.7<span>/</span>1</span>",
+      description = "Max HP +<undefined>20%</>/<undefined>30%</>/<undefined>40%</>/<undefined>50%</>, Defense power +<undefined>10%</>/<undefined>10%</>/<undefined>15%</>/<undefined>30%</>, Magic resistance +<undefined>50%</>/<undefined>60%</>/<undefined>70%</>/<undefined>100%</>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 40, 36, 32 },
       duration = { 25, 25, 25, 27, 27, 27, 27, 28, 29, 30 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "雪原卫士",
-        description = "法术抗性+7",
+        name = "Snow Plain Defender",
+        description = "Magic resistance +7",
       },
       rank2 = {
         level = 1,
-        name = "雪原卫士",
-        description = "法术抗性+15",
+        name = "Snow Plain Defender",
+        description = "Magic resistance +15",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "喀兰贸易·α",
+      name = "Karlan Trading·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+15%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
     },
     {
-      name = "重装专精·β",
+      name = "Defender Specialization·β",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite1",
-      description = "进驻训练室协助位时，重装干员的专精技能训练时间<span style='color:#0098DC;'>-50%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Defender operatives by -50%"
     },
   },
   meta = {
     illustrator = "竜崎いち",
     voiceActor = "武内骏辅",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -334,7 +328,7 @@ return {
       archive2 = "和物产丰富的外国相比，谢拉格的可食用动植物品种一双手就能数过来，即使是银灰这样富裕的家族，平常也只是粗茶淡饭。不过在角峰开始掌勺后，一切都变得不太一样了。他在厨艺上的造诣令人目瞪口呆，用着谢拉格的寥寥食材，却能做出本地人完全没有尝过的丰盛美食。难怪谢拉格的政客们从前去议事厅开会，现在却只想着往银灰家会客厅跑。美食的力量，还真是恐怖。",
       archive3 = "来到罗德岛后，角峰的战斗频率与强度都上升了不少，防具，特别是盾牌时常会需要修补，角峰懂得一些战时的简单修补方法，但彻底的维修，还是需要由专业匠人代劳。经人推荐，角峰找到了火神。惊异于对方的手艺，两人迅速达成了长期合作关系：一方维护装备，一方提供报酬，闲暇时交换菜谱，偶尔再来场对决一饱口福。所谓知音，便是如此吧。",
       archive4 = "角峰的祖上出身于谢拉格北部，那里环境恶劣，人们终日与自然抗争。为了让他人更好的生存，所有北谢拉格人一旦出战即视自己为死者。正是这份信念，将他们，还有像角峰这样的后代，塑造成了战场上最为勇猛的战士。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Male",
@@ -393,9 +387,6 @@ return {
     cn036 = "这是我的拿手菜，味道怎么样。",
     cn037 = "明日方舟。",
     cn042 = "您好，博士。",
-  },
-  skins = {
-
   },
 }
 

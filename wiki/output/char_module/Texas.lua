@@ -154,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-3",
-      name = "冲锋号令·γ型",
+      name = "Assault Order·Type γ",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>12<span>/</span>12<span>/</span>12<span>/</span>12</span>点部署费用",
+      description = "Immediately obtain <span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span> cost",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-texas-2",
-      name = "剑雨",
+      name = "Sword Rain",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>9<span>/</span>10<span>/</span>11<span>/</span>12</span>点费用；对周围所有敌人造成<span style='color:#0098DC;'>两次</span>相当于攻击力<span style='color:#0098DC;'>105%<span>/</span>120%<span>/</span>135%<span>/</span>170%</span>的法术伤害，并令击中目标晕眩<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>3</span>秒",
+      description = "Immediately obtain <span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>12</span> cost. Deal <span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>170%</span> magical damage twice to all nearby enemies and stun them for <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>3</span> seconds",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -281,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "战术快递",
-        description = "编入队伍后，额外获得1点初始部署费用",
+        name = "Tactical Delivery",
+        description = "Obtain an additional 1 initial cost on battle start",
       },
       rank2 = {
         level = 1,
-        name = "战术快递",
-        description = "编入队伍后，额外获得2点初始部署费用",
+        name = "Tactical Delivery",
+        description = "Obtain an additional 2 initial cost on battle start",
       },
     },
   },
@@ -308,18 +308,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "恩怨",
+      name = "Resentment",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "当与<span style='color:#00B0FF;'>拉普兰德</span>在同一个贸易站时，心情每小时消耗<span style='color:#FF6237;'>+0.3</span>，订单获取效率<span style='color:#0098DC;'>+65%</span>"
+      description = "When stationed together with Lappland at the same Trade Station, mood reduction per hour +0.3 and order acquisition efficiency +65%"
     },
     {
-      name = "默契",
+      name = "Good Chemistry",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite2",
-      description = "当与<span style='color:#00B0FF;'>能天使</span>在同一个贸易站时，心情每小时消耗<span style='color:#0098DC;'>-0.3</span>"
+      description = "When stationed together with Exusiai at the same Trade Station, mood reduction per hour -0.3"
     },
   },
   meta = {

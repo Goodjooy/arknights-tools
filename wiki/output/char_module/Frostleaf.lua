@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 4,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 949,
     atk = 272,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-frostl-1",
-      name = "寒霜枪刃",
+      name = "Frosty Spear",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击造成攻击力<span style='color:#0098DC;'>1.05<span>/</span>1.2<span>/</span>1.35<span>/</span>1.5</span>的物理伤害，令命中目标在<span style='color:#0098DC;'>1.5<span>/</span>2<span>/</span>2.5<span>/</span>3</span>秒内移动速度<span style='color:#0098DC;'>--0.2<span>/</span>-0.28<span>/</span>-0.35<span>/</span>-0.5</span>",
+      description = "The next attack deals <span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>150%</span> physical damage and inflicts <span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-28%</span>/<span style='color:#0098DC;'>-35%</span>/<span style='color:#0098DC;'>-50%</span> movement speed to the target for {duration} seconds",
       sp = { 5, 5, 5, 4, 4, 4, 4, 3, 3, 3 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-frostl-2",
-      name = "凝冰枪刃",
+      name = "Freezing Spear",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+5<span>/</span>20<span>/</span>35<span>/</span>50</span>；每次攻击使命中目标移动速度<span style='color:#0098DC;'>--0.3<span>/</span>-0.36<span>/</span>-0.42<span>/</span>-0.5</span>，并有<span style='color:#0098DC;'>0.15<span>/</span>0.2<span>/</span>0.25<span>/</span>0.4</span>的几率使其<span style='color:#0098DC;'>冻结（无法移动）1.5<span>/</span>1.5<span>/</span>1.5<span>/</span>2秒</span>",
+      description = "Attack speed +<undefined>5</>/<undefined>20</>/<undefined>35</>/<undefined>50</>. Every attack inflicts <span style='color:#0098DC;'>-30%</span>/<span style='color:#0098DC;'>-36%</span>/<span style='color:#0098DC;'>-42%</span>/<span style='color:#0098DC;'>-50%</span> movement speed and has <span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>40%</span> chance to freeze the target (unable to move) for {debuff} seconds",
       sp = { 60, 59, 58, 57, 56, 55, 54, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -281,8 +276,8 @@ return {
     {
       rank2 = {
         level = 1,
-        name = "掩护打击",
-        description = "攻击范围扩大，但攻击间隔略微增大",
+        name = "Cover Strike",
+        description = "Increase attack range, however attack interval slightly increases",
       },
     },
   },
@@ -303,24 +298,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "独处",
+      name = "Solitude",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#0098DC;'>+0.7</span>"
+      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
     {
-      name = "作战指导录像",
+      name = "Combat Directive Recordings",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite1",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
   },
   meta = {
     illustrator = "下野宏铭",
     voiceActor = "加隈亚衣",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -329,7 +323,7 @@ return {
       archive2 = "霜叶小姐的战斗经验在整个罗德岛里，都称得上是顶尖的，对她来说，战场就像是自家的后院。<br>但这并没有任何值得夸耀的地方，因为这意味着，以她的年纪来说，她没有享受过正常的童年。<br>加之，蠢蠢欲动的哥伦比亚近十年一直都和周边国家有摩擦，小规模战事不断，可以想见霜叶小姐在此之前，过的是什么样的生活。<br>一些老牌干员应当还记得霜叶小姐刚来到罗德岛时的样子，和当时的她相比，如今的她，已经称得上是非常活泼了。",
       archive3 = "霜叶小姐是作为合作佣兵被吸收进入罗德岛的。但是在正式加入后，她却被凯尔希医生下令，短时间内不得执行任务，她唯一的任务就是——作为病人好好修养。<br>这给当时的她带来了巨大的困惑，因为她完全不知道，不需要战斗的自己该做些什么。<br>所幸，在充满个性的罗德岛干员们的帮助下，霜叶小姐逐渐学会了一边战斗，一边去享受生活，她的世界开始变得五颜六色了起来。",
       archive4 = "在花费了一段时间去接受治疗，并学会了如何去生活后，霜叶小姐曾以为自己已经足以返回战场了。她于是去向凯尔希医生申请，凯尔希医生并没有同意，但是允许她可以上战场试一试。<br>然后，当她充满自信地踏上战场，以为自己能更好地战斗时，她忽然发现，把武器挥向敌人，突然变成了一件非常困难的事。按照事后她的说法，当时，她以为自己早就已经忘了的，少年兵时期的记忆，突然如潮水般涌上她的心头。<br>那一天，她在战场上痛哭失声。<br>自那一天起，霜叶小姐才逐渐变成了现在的霜叶小姐，一个爱听音乐，打扮时尚，稍微有点冷淡的酷女孩。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -388,9 +382,6 @@ return {
     cn036 = "一起去喝一杯吧？",
     cn037 = "明日方舟。",
     cn042 = "博士。",
-  },
-  skins = {
-
   },
 }
 

@@ -15,11 +15,6 @@ return {
   faction = "Victoria",
   stars = 4,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1069,
     atk = 273,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-frncat-1",
-      name = "挠伤",
+      name = "Cat Scratch",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击时攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.45<span>/</span>0.6<span>/</span>0.75</span>，<span style='color:#0098DC;'>{frncat_s_1[debuff].duration}</span>秒内使击中目标攻击力<span style='color:#0098DC;'>-{-frncat_s_1[debuff].atk:0%}</span>",
+      description = "The next attack deals +<undefined>30%</>/<undefined>45%</>/<undefined>60%</>/<undefined>75%</> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
       sp = { 6, 6, 6, 5, 5, 5, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-frncat-2",
-      name = "炸毛",
+      name = "Bristling Fur",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力和防御力各<span style='color:#0098DC;'>+0.27<span>/</span>0.36<span>/</span>0.45<span>/</span>0.75</span>",
+      description = "Attack and Defense power +<undefined>27%</>/<undefined>36%</>/<undefined>45%</>/<undefined>75%</>",
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "连击",
-        description = "攻击时有10%的几率连续攻击两次",
+        name = "Multistrike",
+        description = "When attacking, 10% chance to attack twice",
       },
       rank2 = {
         level = 1,
-        name = "连击",
-        description = "攻击时有20%的几率连续攻击两次",
+        name = "Multistrike",
+        description = "When attacking, 20% chance to attack twice",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "订单分发·β",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
     {
-      name = "烘焙",
+      name = "Baking",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite1",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.3</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.3</span>"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.3 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.3"
     },
   },
   meta = {
     illustrator = "Iritoa",
     voiceActor = "高森奈津美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -333,8 +327,8 @@ return {
       archive1 = "干员慕斯出生在维多利亚王国伦蒂尼姆市一个富裕且不缺乏子女的家庭中，拥有众多家人与兄弟姐妹的她在家族中并不显眼。慕斯的哥哥姐姐们很早就进入了各大公司、军队或法术研究领域，而无论在源石技艺领域，还是家族传统的金融领域，慕斯在成长期间并未显示出有什么天赋。不过即使如此，她的父母也没有减少对她的关照，而是尽可能的以自己的方式保障慕斯的成长，只不过在慕斯身上，家族也没有投入什么期望。<br>在维多利亚王国的社会氛围中，富家出身的女性将各色聚会和庄园间穿梭。慕斯并不适应这样的生活。",
       archive2 = "在矿石病在多国造成恐慌情绪之前，伦蒂尼姆已经长期笼罩在不安的氛围中。根据自己的志愿，慕斯在一家名为“瓦莱丽”的蛋糕店打工，专攻蛋糕制作、面点烘培和茶点搭配等。<br>慕斯无法回忆自己感染矿石病的经过。在其双手部出现明确开始异化后，其家人迅速且秘密地将其隔离在单独的庄园中。在这段寂寞而痛苦的日子期间，慕斯与后来她称呼为“猫猫”的生物相遇了。“猫猫”们没有沾染矿石病，成为慕斯唯一的朋友。<br>时间经过半年后，由其家人联络的罗德岛制药相关员工来到庄园，为慕斯进行了全面的检查。在经过慕斯家人的同意并支付相关的费用后，由罗德岛制药秘密接收慕斯，其后转入罗德岛进行进一步治疗。",
       archive3 = "针对干员慕斯称呼为“猫猫”的生物物种，现已确定其没有对罗德岛造成......明显的危害。<br>事实证明，所有针对该物种的无端想象都是无意义的，它们确实只是普通的生物。这些生物会在干员慕斯不注意的情况下，在罗德岛内肆意游走，轻而易举地攀上高处，俯瞰所有立于它们脚下的芸芸众生。它们迈着优雅的步伐，在所有的走廊和房间中都留下了明显的，仿佛宣示什么的踪迹。在它们潇洒的身影后，部分可见或不可见的地带里，一些陡然增加的毛和......一些理应在它们的居所解决好的事物被干员们陆续发现。在干员慕斯、杰西卡、普罗旺斯，以及全体行动预备组与行动组成员的努力下，这些问题才得以妥善解决。<br>针对上述极大增加后勤干员工作量的问题。干员慕斯在约谈过程中，表现出了诚恳的歉意，以及......和那些生物们类似的忧伤神情。鉴于其认错态度良好，并保证对“猫猫”们作出约束和训练，已经取消了对其记过的处理。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "博士，我、我实在忍不住了......能给我抓板吗？呜呜呜......",
     cn037 = "明日方舟。",
     cn042 = "你好，博士。",
-  },
-  skins = {
-
   },
 }
 

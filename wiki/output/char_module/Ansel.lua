@@ -11,15 +11,10 @@ return {
   fileKey = "Ansel",
   team = 3,
   position = "Ranged",
-  roles = { "治疗" },
+  roles = { "Healing" },
   faction = "Rhodes Island",
   stars = 3,
   class = "Medic",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 634,
     atk = 156,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-range-extend",
-      name = "治疗范围强化",
+      name = "Healing Range Strengthening",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围<span style='color:#0098DC;'>+1<span>/</span>2<span>/</span>2<span>/</span>格</span>，攻击力<span style='color:#0098DC;'>+0.05<span>/</span>0.2<span>/</span>0.4<span>/</span></span>",
+      description = "Attack range +<undefined>1</>/<undefined>2</>/<undefined>2</>/ tiles, Attack power +<undefined>5%</>/<undefined>20%</>/<undefined>40%</>/",
       sp = { 45, 44, 43, 40, 39, 38, 35 },
       duration = { 19, 20, 21, 22, 23, 24, 25 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "附加治疗",
-        description = "有15%的几率额外治疗一名友方单位",
+        name = "Additional Healing",
+        description = "Has 15% chance to heal an additional ally",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "善解人意",
+      name = "Empathetic",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.55</span>（同种效果取最高）"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
     },
     {
-      name = "药理学",
+      name = "Pharmacology",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite1",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>75%</span>"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
   },
   meta = {
     illustrator = "一立里子",
     voiceActor = "金子真由美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -260,8 +254,8 @@ return {
       archive1 = "安赛尔的心理状态十分稳定，即使处于复杂紧张的战况中，安赛尔依然能提供及时的医疗支援。身为医疗人员，安赛尔非常清楚自己对患者的责任和义务，在尽可能满足患者需求的同时，面对那些不太遵守医疗守则的人员，他会以轻柔的责备态度去提醒对方的行为。",
       archive2 = "安赛尔出身于雷姆必拓一座以矿业闻名的城市，他拥有三位哥哥和一位妹妹，母亲因病过世后，劳累的父亲将其过继给没有子嗣的兄长作为继子。在寄养环境下成长，且缺乏安稳家庭环境的他很早地形成了柔和的处事态度。当安赛尔意识到身边大多数工人因超负荷的劳动导致身体状况不佳后，他选择了成为一名医疗实习生，希望以医治肉体的方式减轻人们的痛苦。",
       archive3 = "安赛尔在公立医疗专门学校就读期间，就曾多次向雷姆必拓一些大型医疗企业和研究所投送简历，但他缺乏资金进行深造学习，单薄的简历被几乎所有的医疗公司退回。在没有退回简历的两家公司中，安赛尔决定前往草创不久的罗德岛制药公司进行实习。在半年的实习期内，由于安赛尔展现出了勤恳、富有耐心，和对医疗行为优质的专注力，使他受到了公司高层凯尔希医生的认可。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Male",
@@ -316,9 +310,6 @@ return {
     cn036 = "博士，您能喜欢我，我真的很高兴。",
     cn037 = "明日方舟。",
     cn042 = "您好，博士。",
-  },
-  skins = {
-
   },
 }
 

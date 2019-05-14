@@ -11,15 +11,10 @@ return {
   fileKey = "Beagle",
   team = 2,
   position = "Melee",
-  roles = { "防护" },
+  roles = { "Protection" },
   faction = "Rhodes Island",
   stars = 3,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1144,
     atk = 184,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-def-up-1",
-      name = "防御力强化·α型",
+      name = "Defense Strengthening·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#0098DC;'>+0.1<span>/</span>0.3<span>/</span>0.5<span>/</span></span>",
+      description = "Defense power +<undefined>10%</>/<undefined>30%</>/<undefined>50%</>/",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "防御提升",
-        description = "防御力+10%",
+        name = "Defense Increase",
+        description = "Defense power +10%",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "仓库整备·α",
+      name = "Warehouse Organization·α",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，仓库容量上限<span style='color:#0098DC;'>+6</span>，生产力<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at a Craft Station, storage capacity +6 and production +10%"
     },
     {
-      name = "活泼",
+      name = "Lively",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite1",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.2</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.4</span>"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.4"
     },
   },
   meta = {
     illustrator = "下野宏铭",
     voiceActor = "春村奈奈",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -261,7 +255,7 @@ return {
       archive2 = "在哥伦比亚外围警卫预备队的时光，既是米格鲁最辛苦的，也是最宝贵的回忆。为了弥补自身和其他正式成员的差距，芬和克洛丝陪着米格鲁从来没有松懈过。然而最后得知自己感染了矿石病的时候，米格鲁陷入了深深的自责。她觉得是自己拖累了芬和克洛丝，是自己害的大家都失去了机会，一切都是自己的错。",
       archive3 = "沉沦之际，芬和克洛丝都站在了米格鲁面前，一起面对了警备队的驱逐和流放。在克洛丝的推荐下，三人第一次来到了罗德岛。从那一天起，米格鲁在心中决定，要用自己的一切回报一直陪伴着她的芬和克洛丝以及身边的关心她的所有人。",
       archive4 = "看着每天大家的拌嘴、打闹、欢乐，米格鲁发自内心的感到幸福和感激。每天米格鲁都要努力调和吵架的炎熔和芙蓉，陪芬寻找偷懒消失的克洛丝，还得在空余的时间内陪罗德岛的前辈去跑腿干体力活，但是她也都乐在其中。<br>【那个家伙就是完全不会拒绝人......】————克洛丝",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -316,9 +310,6 @@ return {
     cn036 = "博士，我可以每天都去您那里学习吗？",
     cn037 = "明日方舟。",
     cn042 = "你好呀，博士。",
-  },
-  skins = {
-
   },
 }
 

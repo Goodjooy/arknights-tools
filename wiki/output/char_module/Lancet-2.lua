@@ -11,15 +11,10 @@ return {
   fileKey = "Lancet-2",
   team = -1,
   position = "Ranged",
-  roles = { "治疗" },
+  roles = { "Healing" },
   faction = "Rhodes Island",
   stars = 1,
   class = "Medic",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 261,
     atk = 42,
@@ -78,8 +73,8 @@ return {
     {
       rank0 = {
         level = 1,
-        name = "救援喷雾·I",
-        description = "部署后立即恢复全场友方单位200点生命",
+        name = "Healing Mist·I",
+        description = "Immediately restore 200 HP to all allies after deployment",
       },
     },
   },
@@ -100,33 +95,32 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "备用能源",
+      name = "Backup Generator",
       badge = "power",
       facility = "POWER",
       unlockIcon = "elite0",
-      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
     {
-      name = "医疗服务",
+      name = "Medical Service",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.65</span>（同种效果取最高）"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.65 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {
     illustrator = "TOKI",
     voiceActor = "--",
-    servers = "CN, JP",
   },
   profile = {
     records = {
       resume = "Lancet-2是可露希尔客制化后的雷神存在者™S Typer 62六轮作业平台， 圆形的外观让人觉得很可爱所以成为了某种意义上的吉祥物。虽然她说话有时候很消极，但是大家都很喜欢她。<br>Lancet-2经过了可露希尔的改造后使她能够应对更多的罗德岛内的医疗场合，其器械设备也将更注重消毒和源石污染。",
       archive1 = "对可露希尔改造自己比较在意，被设置成了最喜欢的东西是可露希尔，所以搞不懂为什么自己要喜欢可露希尔。可露希尔觉得她的性格偏向消极很有趣，便强化了她这些自嘲性格词条的使用频率。",
-      archive2 = "undefined",
-      archive3 = "undefined",
-      archive4 = "undefined",
-      token = "undefined",
+      archive2 = "",
+      archive3 = "",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "undefined",
@@ -181,9 +175,6 @@ return {
     cn036 = "我曾经找“可爱的可露希尔姐姐”,要求修改我“最喜欢的东西”变成博士你。但是她死活都不愿意......",
     cn037 = "明日方舟。",
     cn042 = "欢迎回来，博士。你的身体状况良好，要继续保持哦。",
-  },
-  skins = {
-
   },
 }
 

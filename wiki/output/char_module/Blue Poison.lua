@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 5,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 536,
     atk = 178,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-bluep-1",
-      name = "二重射击·自动",
+      name = "Double Shot·Auto",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击额外攻击一个目标，造成相当于攻击力<span style='color:#0098DC;'>1.25<span>/</span>1.4<span>/</span>1.55<span>/</span>2</span>的物理伤害",
+      description = "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>125%</span>/<span style='color:#0098DC;'>140%</span>/<span style='color:#0098DC;'>155%</span>/<span style='color:#0098DC;'>200%</span> physical damage",
       sp = { 4, 4, 4, 3, 3, 3, 3, 3, 3, 2 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-bluep-2",
-      name = "毒液散射",
+      name = "Poison Spread",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.1<span>/</span>0.2<span>/</span>0.3<span>/</span>0.5</span>，每次攻击对主目标额外射击<span style='color:#0098DC;'>一</span>次，并额外攻击<span style='color:#0098DC;'>两</span>个敌人",
+      description = "Attack power +<undefined>10%</>/<undefined>20%</>/<undefined>30%</>/<undefined>50%</>, every attack hits the main target a second time as well as an additional 2 enemies",
       sp = { 50, 50, 50, 50, 50, 50, 50, 47, 44, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "神经毒素",
-        description = "攻击使目标中毒，在3秒内每秒受到30点法术伤害",
+        name = "Neurotoxin",
+        description = "Attacks poison the target, dealing 30 magical damage every second for 3 seconds",
       },
       rank2 = {
         level = 1,
-        name = "神经毒素",
-        description = "攻击使目标中毒，在3秒内每秒受到75点法术伤害",
+        name = "Neurotoxin",
+        description = "Attacks poison the target, dealing 75 magical damage every second for 3 seconds",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "毒理学·α",
+      name = "Toxicology·α",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>75%</span>"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
   },
   meta = {
     illustrator = "LLC",
     voiceActor = "种崎敦美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -332,7 +326,7 @@ return {
       archive2 = "根据干员蓝毒的自述，年幼的她已经明白了自己身为“毒物”的事实，任何生命或非生命上都有弱点，利用某些毒物，将这个小小的弱点放大成为无法挽回的致命伤害，是蓝毒对自己毒物能力的理解。<br>目前蓝毒的毒物生成能力由凯尔希医生亲自进行研究并进行日常采样工作。令蓝毒稍感轻松的是，罗德岛是一个人尽其才的组织，且不受强烈的道德观念所束缚，因而她的毒物能力可以在这里发挥出最大的用途。<br>针对自己作为毒物的这一事实，蓝毒表现出较为抗拒的态度，但如果保证毒物能力能被其他干员所接受，并不再影响他人对蓝毒的态度的话，蓝毒是否能接受自己的毒物能力？对此，蓝毒并没有给出明确的回答，以惯常的礼貌而略显含糊的态度将话题轻轻带走。<br>对于毒物的身份，干员蓝毒是否仍怀有厌恶的心情？亦或是她已经接受并逐渐认同了这种能力，但却在与他人交往的过程中不得不处于分裂的心态？这一切仍需博士通过自己与蓝毒的接触来做出判断。",
       archive3 = "目前可以判明的是，干员蓝毒因其独特战斗方式，“毒物”的名声已不胫而走，并对其日常生活产生了一定的影响。<br>针对干员蓝毒的所谓“毒物”能力，医疗组对此多次测试后的详细报告目前尚未公开。但可以确定的是，日常中与干员蓝毒的接触并不会受到其“毒物”能力的影响。事实上，干员蓝毒所谓的“毒物”能力，更多体现在她对含毒制剂熟练的制作手法，以及对毒理学的丰富知识这两点上。<br>对于干员蓝毒来说，战斗之外的闲暇日常，她选择留在罗德岛中进行一些不费功夫的作业，例如烘培糕点。据干员古米（目前乌萨斯学生古米被分配至后勤部厨房进行帮厨工作）介绍，蓝毒的甜点手艺“完全能让一个不吃甜食的人缴械投降！”的程度。根据若干未留姓名的试吃反馈，蓝毒的甜点手艺确实足够担当这样的名号，只是如果她能在成品配色的选择上不那么有个性就更好了。<br>除甜品制作外，蓝毒的时尚嗅觉敏锐，对时下的流行服饰也非常感兴趣，并多次向罗德岛后勤部与贸易站等部门提出自己的服饰搭配建议。",
       archive4 = "尽管缺乏决定性的证据，但根据若干份秘密渠道获得的情报显示，一些对抗大型生物的战斗中曾有人指认过蓝毒的身影。这些情报大多未经证实，且没有图像资料作为参考。<br>鉴于干员蓝毒从未显示出与该类型的作战有任何联系，亦从未提及过此类经历。<br>【权限记录】<br>根据某在场人员的回忆，在干员蓝毒初次见到干员幽灵鲨的时候，曾与后者打过一次招呼。但鉴于干员蓝毒对待任何干员均表现出十足礼貌，此类情报被认为不足以作为参考。为防止针对个体干员的对待偏差，今后应对此类情报加以谨慎审核。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -391,9 +385,6 @@ return {
     cn036 = "您、碰到我了？再做、再做一次，能拜托您再做一次吗？",
     cn037 = "明日方舟。",
     cn042 = "你好，博士。",
-  },
-  skins = {
-
   },
 }
 

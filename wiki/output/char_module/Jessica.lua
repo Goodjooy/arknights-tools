@@ -11,15 +11,10 @@ return {
   fileKey = "Jessica",
   team = 13,
   position = "Ranged",
-  roles = { "DPS", "生存" },
+  roles = { "DPS", "Survival" },
   faction = "BlackSteel",
   stars = 4,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 604,
     atk = 163,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-jesica-1",
-      name = "强力击·β型",
+      name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.7<span>/</span>1.85<span>/</span>2<span>/</span>2.3</span>",
+      description = "The next attack deals <span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>185%</span>/<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>230%</span> damage",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-jesica-2",
-      name = "掩护烟幕",
+      name = "Cover Smoke",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.2<span>/</span>0.35<span>/</span>0.5<span>/</span>0.8</span>，获得<span style='color:#0098DC;'>0.75<span>/</span>0.75<span>/</span>0.75<span>/</span>0.75</span>的物理和法术闪避",
+      description = "Attack power +<undefined>20%</>/<undefined>35%</>/<undefined>50%</>/<undefined>80%</>, Obtain <span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span> physical and magic evasion",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 21, 21, 21, 22, 23, 24, 25 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "快速弹匣",
-        description = "攻击速度+6",
+        name = "Rapid Magazine",
+        description = "Attack speed +6",
       },
       rank2 = {
         level = 1,
-        name = "快速弹匣",
-        description = "攻击速度+12",
+        name = "Rapid Magazine",
+        description = "Attack speed +12",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "标准化·β",
+      name = "Standardization·β",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+25%</span>"
+      description = "When stationed at a Craft Station, production +25%"
     },
     {
-      name = "联络员",
+      name = "Liaison",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite1",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>，且更容易获得<span style='color:#00B0FF;'>黑钢国际</span>线索"
+      description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Blacksteel"
     },
   },
   meta = {
     illustrator = "m9nokuro",
     voiceActor = "广桥凉",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -333,8 +327,8 @@ return {
       archive1 = "总是慌慌张张的黑钢派遣干员。<br>杰西卡虽然是黑钢的正式干员，本人的作战能力也值得信赖，却因为性格过于缺乏自信，而经常给人还不如香草这样的实习干员来得可靠的感觉。",
       archive2 = "或许是性格软弱的原因，在黑钢时就经常被各方抓去测试一些新型的协议和器械，来到罗德岛后，这一点也延续了下来。<br>对新晋干员来说，她们在使用大部分器械前，都要先观看杰西卡的演示。<br>某种意义上，这也是杰西卡值得信赖的表现。",
       archive3 = "杰西卡的缺乏自信，很大程度是因为来自参照物的选择。<br>事实上，以杰西卡的能力，在任何一个小型组织中，都足以担当中坚。而即使在罗德岛或者黑钢之中，对杰西卡的评价，也从来没有低过。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "料理的话我也是会做的......",
     cn037 = "明日方舟。",
     cn042 = "早上好......",
-  },
-  skins = {
-
   },
 }
 

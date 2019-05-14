@@ -35,6 +35,7 @@
   "未公开": "Undisclosed",
   "应经纪公司要求不公开": "Undisclosed",
   "未知": "Unknown",
+  "不明": "Unknown",
 
   "玻利瓦尔": "Bolívar",
   "卡西米尔": "Kazimierz",
@@ -70,6 +71,7 @@
   "阿纳缇": "Anati",
   "曼提柯": "Manticore",
   "札拉克": "Zarak",
+  "扎拉克": "Zarak",
   "菲林": "Feline",
   "依特拉": "Eutheria",
   "丰蹄": "Amplehoof",
@@ -83,6 +85,8 @@
   "阿达克利斯": "Adacolis",
   "卡普里尼": "Caprinae",
   "匹特拉姆": "Ptodiram",
+  "奇美拉": "Chimera",
+  "卡特斯/奇美拉": "Cartes/Chimera",
 
   "因经纪公司要求不公开": "Undisclosed",
 

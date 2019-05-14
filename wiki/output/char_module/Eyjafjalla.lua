@@ -15,11 +15,6 @@ return {
   faction = "",
   stars = 6,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 732,
     atk = 292,
@@ -159,31 +154,31 @@ return {
   skills = {
     {
       icon = "skchr-amgoat-1",
-      name = "二重咏唱",
+      name = "Double Chant",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+{amgoat_s_1[a].attack_speed}</span>\n第二次及以后使用时追加攻击力<span style='color:#0098DC;'>+{amgoat_s_1[b].atk:0%}</span>的效果",
+      description = "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-amgoat-2",
-      name = "点燃",
+      name = "Ignite",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击造成相当于攻击力<span style='color:#0098DC;'>2.4<span>/</span>2.75<span>/</span>3.1<span>/</span>3.7</span>的法术伤害，命中目标周围的敌人受到一半的爆炸伤害且在<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span>6</span>秒内法术抗性<span style='color:#0098DC;'>--0.1<span>/</span>-0.15<span>/</span>-0.2<span>/</span>-0.25</span>\n<span style='color:#F49800;'>可充能1<span>/</span>2<span>/</span>2<span>/</span>3次</span>",
+      description = "The next attack deals <span style='color:#0098DC;'>240%</span>/<span style='color:#0098DC;'>275%</span>/<span style='color:#0098DC;'>310%</span>/<span style='color:#0098DC;'>370%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-10%</span>/<span style='color:#0098DC;'>-15%</span>/<span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-25%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span> seconds. Can hold <undefined>1</>/<undefined>2</>/<undefined>2</>/<undefined>3</> charge(s)",
       sp = { 7, 7, 7, 7, 7, 7, 6, 6, 6, 5 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-amgoat-3",
-      name = "火山",
+      name = "Volcano",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.55<span>/</span>0.7<span>/</span>0.85<span>/</span>1.3</span>，攻击范围<span style='color:#0098DC;'>增大</span>，攻击间隔<span style='color:#0098DC;'>大幅度缩短</span>，攻击变为随机对攻击范围内至多<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>5<span>/</span>6</span>个敌人发射熔岩",
+      description = "Attack power +<undefined>55%</>/<undefined>70%</>/<undefined>85%</>/<undefined>130%</>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>6</span> enemies within attack range",
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -306,20 +301,20 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "炎息",
-        description = "在场时，所有友方【术师】职业干员的攻击力+7%",
+        name = "Inflammation",
+        description = "When deployed, all ally 【Caster】 operatives gain Attack power +7%",
       },
       rank2 = {
         level = 1,
-        name = "炎息",
-        description = "在场时，所有友方【术师】职业干员的攻击力+14%",
+        name = "Inflammation",
+        description = "When deployed, all ally 【Caster】 operatives gain Attack power +14%",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "乱火",
-        description = "部署后立即随机获得一定的技力",
+        name = "Inflammation",
+        description = "When deployed, all ally 【Caster】 operatives gain Attack power +7%",
       },
     },
   },
@@ -340,24 +335,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "火山学家",
+      name = "Volcanologist",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>源石</span>类配方的生产力<span style='color:#0098DC;'>+35%</span>"
+      description = "When stationed at a Craft Station, increase production of originium products by +35%"
     },
     {
-      name = "天灾信使·β",
+      name = "Disaster Messenger·β",
       badge = "hire",
       facility = "HIRE",
       unlockIcon = "elite2",
-      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+45%</span>"
+      description = "When stationed at Human Resource, accumulation of networking resources +45%"
     },
   },
   meta = {
     illustrator = "Anmi",
     voiceActor = "种田梨沙",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -365,7 +359,7 @@ return {
       archive1 = "艾雅法拉初次在罗德岛露面的时候，带领她前往人事办公室的职员就发现了她的一些异状：她时常分辨不出别人在说什么，偶尔还会撞到头。而其他职员们在纷纷猜测，这个体态娇小的女孩子究竟是哪位干员的妹妹，还是罗德岛制药部门派下办事的实习生。<br>几天后，当相关部门的职员们陆续收到高层通知，同意感染者艾雅法拉出任行动干员，并作为法术与天灾等多项领域的研究专家正式加入罗德岛之后，每个人脸上都显露出了不同的神色。<br>表情惊讶者发现，这名他们一开始未加留意的女孩，居然已经在莱塔尼亚一些颇负盛名的高等学府中留下了自己的名字。话题随后很快便转移到了互报学历上。<br>表情欢欣者觉得，年轻能有的职员进驻法术部门，一定能给平日严肃、沉闷的工作带来不小的活力。他们用低沉而难掩兴奋的语气，争论着谁来担任这位女孩子实习期间的教习。<br>表情伤感者叹息，艾雅法拉已经是一名感染者了，没人能预言她的未来将会停留在什么地方。",
       archive2 = "干员艾雅法拉填报的资料显示，她出生于莱塔尼亚一个正统而充满学术氛围的家庭中，父母就职于莱塔尼亚威廉大学，其父为源石技艺学院教授，研修生导师，其母为自然环境与生态系统研究专家。两人已于一次火山实地考察中遭遇火山碎屑流，不幸丧生。<br>艾雅法拉的父母曾共同起草了一项，关于泰拉自然产生的天灾系统的调查项目，其中火山为该项目中的重点调查对象。艾雅法拉携带至罗德岛的资料中，她最为珍视的正是其父母关于火山学若干研究报告。她希望这些研究不会因父母的逝去而中断，因此主动选择继承了他们的火山学研究成果。<br>火山学研究需要在火山喷发前后期进行实地考察，在调查期间需长期停留于火山地带。而火山地带饱含源石颗粒的火山烟尘，以及冷却岩浆中不断翻涌出的源石矿脉，使火山活跃地带同时也会成为一片典型的矿石病易感地区，相信这是艾雅法拉成为感染者的直接因素。",
       archive3 = "艾雅法拉的矿石病病症在生理上表现的十分明显。她的听觉神经系统受矿石病压迫较为严重，伴发不同程度的听觉失灵现象，所幸已在症状近一步恶化前由罗德岛介入治疗，目前病情发展已趋于缓慢。<br>在日常生活中，艾雅法拉必须借助助听工具，或加大对话音量并多次重复对话等方式进行交流。<br>除此以外，一些经多方成功验证的，基于面部表情与肢体动作的交流经验，也被认为是行之有效的。以下作为总结：<br>摇头：对话未能成功进行。<br>摇头并露出惊讶表情：极有可能是某些用词的选择上产生了理解差异，需要尽快进行解释，否则会有产生误会的可能。<br>点头：对话成功进行。<br>点头并露出积极的表情：对话行之有效并成功传达了想法，可视为对话良好正在进行。但同时也要注意用词的精准性。即使是积极的结果，亦有可能是建立在某个双方都未曾发觉的错误信息的堆积上。<br>多次重复某一次词汇或句子：艾雅法拉在积极确认她接收到的内容是否准确，亦要积极进行回应。注意音量。<br>发呆或表情消极：极有可能已经产生了某种误会，需要立刻回忆先前的对话内容，避免误会近一步加大。",
-      archive4 = "undefined",
+      archive4 = "",
       token = "艾雅法拉的宠物<br>与干员慕斯的“猫猫”相仿，与艾雅法拉相伴的这些黑色绒毛生物，无论从生理结构还是行动模式上，都与寻常的动物无异。<br>艾雅法拉昵称它们“小黑羊”，据她所说，这些小黑羊是母亲生前送给她的宠物。<br>与淘气的“猫猫”不同，小黑羊们平日温顺而迟缓，最大的乐趣就是待在艾雅法拉的房间中或罗德岛内较为宽敞的地方睡觉。<br>它们能够帮助艾雅法拉做很多事情，例如搬运书本，递送货物，甚至还能当成枕头枕在它们长满蓬松绒毛的背上睡觉。<br>【权限记录】<br>虽然......并不是非常机密的事，但我认为也相对值得记录。<br>艾雅法拉虽然称呼它们为“小”黑羊，但它们仍属于是体型相对较大的宠物。<br>那么，在罗德岛少看到它们的身影，就显得非常奇怪了。<br>这样一想，它们平日的行踪非常神秘，只有在悠闲吃草，或艾雅法拉需要它们帮忙的时候，才会忽然出现。<br>另一个现象是，当它们生气或高兴的时候，会产生极热的温度，随意伸手去摸的话，甚至有可能烫伤。<br>究竟是什么样的机制，会引发这样的现象，这也许是仍需探讨的事情。",
     },
     bio = {
@@ -425,9 +419,6 @@ return {
     cn036 = "谢谢前辈不断地指引我的成长~",
     cn037 = "明日方舟。",
     cn042 = "前辈，早上好~",
-  },
-  skins = {
-
   },
 }
 

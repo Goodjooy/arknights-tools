@@ -15,11 +15,6 @@ return {
   faction = "Great Lungmen",
   stars = 4,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 834,
     atk = 347,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-yuki-1",
-      name = "敌飙",
+      name = "Whirlwind",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围<span style='color:#0098DC;'>+2<span>/</span>2<span>/</span>2<span>/</span>2格</span>",
+      description = "Increase attack range by <undefined>2</>/<undefined>2</>/<undefined>2</>/<undefined>2</> tiles",
       sp = { 32, 31, 30, 27, 26, 25, 22, 21, 20, 15 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-yuki-2",
-      name = "凝武",
+      name = "Condensed Weapon",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击变为投掷回旋的大飞镖，短时间内使命中目标的移动速度<span style='color:#0098DC;'>降低-0.22<span>/</span>-0.25<span>/</span>-0.28<span>/</span>-0.35</span>，并每秒受到相当于攻击力<span style='color:#0098DC;'>0.5<span>/</span>0.6<span>/</span>0.7<span>/</span>0.8</span>的<span style='color:#0098DC;'>法术伤害</span>",
+      description = "Attacks with spinning darts, inflicting <undefined>-22%</>/<undefined>-25%</>/<undefined>-28%</>/<undefined>-35%</> movement speed and dealing <span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>80%</span> magical damage per second for a short duration",
       sp = { 35, 34, 33, 32, 31, 30, 29, 28, 27, 25 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -281,8 +276,8 @@ return {
     {
       rank2 = {
         level = 1,
-        name = "重型手里剑",
-        description = "攻击间隔略微增大，但攻击力+20%",
+        name = "Heavy Shuriken",
+        description = "Slightly increase attack interval, however Attack power +20%",
       },
     },
   },
@@ -303,24 +298,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "线索搜集·β",
+      name = "Clue Collection·β",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite0",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+20%</span>"
+      description = "When stationed at Reception, clue collection speed +20%"
     },
     {
-      name = "作战指导录像",
+      name = "Combat Directive Recordings",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite1",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
   },
   meta = {
     illustrator = "阿鬼",
     voiceActor = "春村奈奈",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -388,9 +382,6 @@ return {
     cn036 = "你的关照，白雪定会铭记于心。",
     cn037 = "明日方舟。",
     cn042 = "雇主，你好。",
-  },
-  skins = {
-
   },
 }
 

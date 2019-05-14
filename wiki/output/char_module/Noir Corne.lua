@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 2,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1219,
     atk = 180,
@@ -78,8 +73,8 @@ return {
     {
       rank0 = {
         level = 30,
-        name = "装甲改良",
-        description = "生命上限和防御力各+12%",
+        name = "Armor Enhancement",
+        description = "Max HP and Defense power +12%",
       },
     },
   },
@@ -100,24 +95,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "仓库整备·β",
+      name = "Warehouse Organization·β",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，仓库容量上限<span style='color:#0098DC;'>+10</span>，生产力<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at a Craft Station, storage capacity +10 and production +10%"
     },
     {
-      name = "订单管理·α",
+      name = "Order Management·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+10%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +10% and order limit +1"
     },
   },
   meta = {
     illustrator = "竜崎いち",
     voiceActor = "河西健吾",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -125,8 +119,8 @@ return {
       archive1 = "罗德岛的老牌干员，年纪在干员中也偏大，因为戴着面具，常给人以难以交流的印象。 不过交流之后就会发现，本人从不摆出前辈或年长者的架子，是能和年轻人打成一片的活泼大哥哥。 ",
       archive2 = "黑角的房间里收藏着各式各样的面具，在不同的节日，他会戴上符合节日氛围的面具。<br>平时穿戴的似乎是他最喜欢的一款，用他的话说，就是“俺觉得这一款最搭罗德岛的氛围”。<br>顺便一提，面具下并没有见不得人的秘密。",
       archive3 = "黑角的性格中，唯一有些令人在意的地方，就是他似乎有些畏惧夜刀。并不是恐惧，而是不想惹她生气的感觉。这引起了一些比较八卦的干员的注意。<br>不过无论是两人的履历还是相处模式，都无法看出更多的东西。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Male",
@@ -179,9 +173,6 @@ return {
     cn036 = "下班后去好好喝一顿吧？",
     cn037 = "明日方舟。",
     cn042 = "博士，没有异常。",
-  },
-  skins = {
-
   },
 }
 

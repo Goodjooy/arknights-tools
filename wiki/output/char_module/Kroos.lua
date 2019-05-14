@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 3,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 545,
     atk = 154,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skchr-kroos-1",
-      name = "二连射·自动",
+      name = "Consecutive Shot·Auto",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击时连续射击<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span></span>次，每次射击造成相当于攻击力<span style='color:#0098DC;'>1<span>/</span>1.2<span>/</span>1.4<span>/</span></span>的物理伤害",
+      description = "The next attack hits <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/ times, with each hit dealing <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>140%</span>/ physical damage",
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "要害瞄准·初级",
-        description = "攻击时，20%几率当次攻击的攻击力提升至150%",
+        name = "Weakpoint Aiming·Beginner",
+        description = "When attacking, 20% chance to increase Attack power increases to 150%",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "慢性子",
+      name = "Slow Starter",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站后，生产力首小时<span style='color:#0098DC;'>+15%</span>，此后每小时<span style='color:#0098DC;'>+2%</span>，最终达到<span style='color:#0098DC;'>+25%</span>"
+      description = "When stationed at a Craft Station, production +15% for the first hour. Thereafter, increase by +2% every hour, capping at +25%"
     },
     {
-      name = "独处",
+      name = "Solitude",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite1",
-      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#0098DC;'>+0.7</span>"
+      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
   },
   meta = {
     illustrator = "下野宏铭",
     voiceActor = "田所梓",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -261,7 +255,7 @@ return {
       archive2 = "从小性格就不愿意强出头的克洛丝，在训练中显露出了与众不同的射击天赋。当克洛丝在战场上寻找到了优势地形，她会使用擅长的弩，从队友的掩护中抓住每一次射击的机会。是芬和米格鲁信任的射击担当。事实证明，克洛丝也并没有让信任她的人失望过。",
       archive3 = "在警备队的时期，克洛丝总之笑嘻嘻的面对一切，但是在感染了矿石病、受到了歧视的时候，克洛丝一改常态的情绪爆发。将警备队的人员暴风般的怒骂了一通之后，与芬以及米格鲁一起离开。为了给三人找寻生存下去的办法，克洛丝偷偷的四处搜集情报，找到了名为罗德岛，找到了新的归宿。",
       archive4 = "总是笑嘻嘻的克洛丝会给人留下很亲和的印象，但是其实她特别的怕麻烦。喜欢找个安静的地方一个人默默的睡觉偷懒。 虽然总是一副慢性子、事不关己的样子，但是涉及到一些在意的事情的时候却会性情大变，变得毒舌起来。虽然其实偶尔说话的时候也会表现出一点点的腹黑就是了。对付芬很有一套，反而比较不会应付米格鲁，会受不了米格鲁的单纯的眼神。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "女 ",
@@ -317,9 +311,6 @@ return {
     cn036 = "嗯？我成长了吗~",
     cn037 = "明日方舟。",
     cn042 = "博士~啊呼~",
-  },
-  skins = {
-
   },
 }
 

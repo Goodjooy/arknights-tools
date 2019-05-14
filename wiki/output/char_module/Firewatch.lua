@@ -11,15 +11,10 @@ return {
   fileKey = "Firewatch",
   team = -1,
   position = "Ranged",
-  roles = { "DPS", "爆发" },
+  roles = { "DPS", "Burst" },
   faction = "Rhodes Island",
   stars = 5,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 714,
     atk = 486,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-milu-1",
-      name = "环境伪装",
+      name = "Environmental Camouflage",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.24<span>/</span>0.32<span>/</span>0.4<span>/</span>0.7</span>，进入<span style='color:#0098DC;'>隐匿</span>状态<span style='color:#F49800;'>（不会成为敌方远程单位的攻击目标）</span>",
+      description = "Attack power +<undefined>24%</>/<undefined>32%</>/<undefined>40%</>/<undefined>70%</> and gain hidden status (will not be targeted by ranged enemies) ",
       sp = { 30, 30, 30, 28, 28, 28, 26, 24, 22, 20 },
       duration = { 25, 26, 27, 30, 31, 32, 35, 40, 45, 50 },
     },
     {
       icon = "skchr-milu-2",
-      name = "战术电台",
+      name = "Tactical Radio",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即对攻击范围内随机投下<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>3</span>枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对周围所有敌人造成相当于攻击力<span style='color:#0098DC;'>1.8<span>/</span>2.1<span>/</span>2.4<span>/</span>3</span>的物理伤害。",
+      description = "Immediately drop <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>3</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>180%</span>/<span style='color:#0098DC;'>210%</span>/<span style='color:#0098DC;'>240%</span>/<span style='color:#0098DC;'>300%</span> physical damage to all nearby enemies",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "暗杀者",
-        description = "攻击使用远程武器的敌人时，攻击力提升至120%",
+        name = "Assassin",
+        description = "When attacking enemies wielding ranged weapons, Attack power increases to 120%",
       },
       rank2 = {
         level = 1,
-        name = "暗杀者",
-        description = "攻击使用远程武器的敌人时，攻击力提升至140%",
+        name = "Assassin",
+        description = "When attacking enemies wielding ranged weapons, Attack power increases to 140%",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "线索搜集·α",
+      name = "Clue Collection·α",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite0",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at Reception, clue collection speed +10%"
     },
   },
   meta = {
     illustrator = "aZLing4",
     voiceActor = "卢婷",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -331,8 +325,8 @@ return {
       archive1 = "干员守林人身上具备常人对狙击手的一切想象：稳定、专注、冷静，而且极为果决。但相对而言，守林人却不是一位冷酷无情的杀手，只是很少有人能体察出她在“复仇”这一目标之外，也会暗暗地对许多事物流露出自己的感情。<br>只是无论何时，守林人都将外露的感情视为一种软弱的表现。而为了她的“复仇”，她再也不能变得软弱。",
       archive2 = "人们面对守林人，往往会觉得自己在面对一座森林。<br>弓弦振动，箭矢飞鸣，这是守林人小姐无声的话语，就仿佛风吹过森林的时候，摩擦的枝叶所发出的幽声。<br>鉴于守林人小姐对自己过去守口如瓶，因此笔者无缘通过她的故事来了解她。<br>但声音是不会出错的。很多人都未曾注意过这一点——人人都有自己独特的声音，有时从喉中发出，有时也从心中发出。<br>守林人小姐心中的声音，来自于森林。而且来自于森林的最深处。<br>只有最深处，才能听到这些静寂却又震耳欲聋的幽声。<br>守林人小姐曾说过，她的族人和朋友，全都葬身在那里。<br>究竟......她经历过什么呢......？",
       archive3 = "口琴是埃拉菲亚人喜爱的乐器。他们大多出身寒冷的萨米，还有部分民族生活在乌萨斯或卡西米尔的北方部地区，所以他们喜欢小、中型的乐器。除了口琴之外，竖笛、小提琴和吉他都受到这个种族的喜爱。<br>演奏这些乐器不需要消耗过多的体力，对于一年中要经历漫长的秋天与冬天的埃拉菲亚人来说，这是一种非常合适的娱乐方式。而且只需有一名乐手演奏，就能轻易让整个会场中的人陷入喜悦或哀愁的情绪中。<br>偶尔，守林人小姐会坐在无人的舰桥上，吹奏自己的口琴。每一次她都会面朝着北方坐下。<br>每当听到那支口琴，在风中演奏起悠扬但伤感的乐曲，笔者的心也随之迎风飞扬，向着北方的山脉与林海中飘荡。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "女 ",
@@ -391,9 +385,6 @@ return {
     cn036 = "那个，摸我的角的话，有点为难......很痒......",
     cn037 = "明日方舟。",
     cn042 = "嗯？博士啊。",
-  },
-  skins = {
-
   },
 }
 

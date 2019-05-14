@@ -11,15 +11,10 @@ return {
   fileKey = "Specter",
   team = 15,
   position = "Melee",
-  roles = { "Splash", "生存" },
+  roles = { "Splash", "Survival" },
   faction = "",
   stars = 5,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1199,
     atk = 293,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-3",
-      name = "攻击力强化·γ型",
+      name = "Attack Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.45<span>/</span>0.6<span>/</span>1</span>",
+      description = "Attack power +<undefined>30%</>/<undefined>45%</>/<undefined>60%</>/<undefined>100%</>",
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-ghost-2",
-      name = "肉斩骨断",
+      name = "Fractured Body",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "技能持续期间内干员的生命值始终不会低于<span style='color:#0098DC;'>1</span>，攻击力<span style='color:#0098DC;'>+0.4<span>/</span>0.7<span>/</span>1<span>/</span>1.6</span>\n<span style='color:#F49800;'>技能结束后干员晕眩10<span>/</span>10<span>/</span>10<span>/</span>10秒</span>",
+      description = "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<undefined>40%</>/<undefined>70%</>/<undefined>100%</>/<undefined>160%</>. Operator is stunned for <undefined>10</>/<undefined>10</>/<undefined>10</>/<undefined>10</> seconds after the skill ends",
       sp = { 45, 45, 45, 45, 45, 45, 43, 42, 41, 40 },
       duration = { 10, 10, 10, 11, 11, 11, 12, 13, 14, 15 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "体力上限提升",
-        description = "生命上限+10%",
+        name = "Max HP Increase",
+        description = "Max HP +10%",
       },
       rank2 = {
         level = 1,
-        name = "深海再生力",
-        description = "生命上限+10%，每秒回复最大生命2%的生命",
+        name = "Deep Sea Regeneration",
+        description = "Max HP +10%, Recover 2% Max HP every second",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "独处",
+      name = "Solitude",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#0098DC;'>+0.7</span>"
+      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "浅仓杏美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -331,7 +325,7 @@ return {
       archive1 = "对干员幽灵鲨进行的调查进展艰难。在罗德岛接收干员幽灵鲨时，她也曾表现出片刻的清醒，但在罗德岛医治她之前，干员幽灵鲨便陷入了严重的精神失常。<br>在日常生活中，干员幽灵鲨的精神状态缺乏稳定，这使得她与其他干员的接触较为稀少。<br>罗德岛医疗部门会定期对干员幽灵鲨进行检查和治疗，迄今为止，效果较为有限。",
       archive2 = "依据罗德岛多方搜集的信息推断，干员幽灵鲨曾是隶属某教会的修女。之后，鉴于干员幽灵鲨现在的精神状态与罗德岛的现行方针，罗德岛没有对她进行更多的调查。<br>不过，依照凯尔希医生的推测，干员幽灵鲨的过去和此教会息息相关，并且可能存在着与现存证据相悖的事实真相。",
       archive3 = "在医疗部门的深入检查中，医疗干员发现，干员幽灵鲨的身体机能因受到源石感染而大幅退化。<br>另一方面，干员幽灵鲨缺少运用源石技艺所必要的天赋，也缺乏应对源石技艺的必要知识。尽管十分蹊跷，但这确实影响着干员幽灵鲨的作战能力。<br>即便是处在如此不利的情况之下，干员幽灵鲨于执行任务时所展现的攻坚能力与破坏力依然令人惊奇，甚至......使人感到困扰。她的个人能力，毋庸置疑，是极其罕见的。<br>更重要的是，干员幽灵鲨在战斗中表现出的态度与其日常生活中的姿态截然相反。<br>战场之上的幽灵鲨顺从且安静，除了偶尔的喃喃自语之外，干员幽灵鲨会坚决地实现一切命令，完全无视任何阻挠与障碍，这甚至导致了她战场应变能力的匮乏，进而陷入危险。<br>由此判断，干员幽灵鲨对于小队而言十分重要，然而，该干员的运用方针也同样需要战术指挥官的进一步调整与权衡。",
-      archive4 = "undefined",
+      archive4 = "",
       token = "《他乡的歌谣》<br>当她祈祷<br>星星停止闪烁<br>当她流泪<br>夜晚露出微笑<br>当她悲叹<br>痛苦蔓延在她的疯狂<br><br>——记载于干员幽灵鲨的个人物品",
     },
     bio = {
@@ -391,9 +385,6 @@ return {
     cn036 = "博士......你背后究竟是什么样的力量......使我这样欣喜若狂呢......",
     cn037 = "明日方舟。",
     cn042 = "你是......啊，这不是博士吗？",
-  },
-  skins = {
-
   },
 }
 

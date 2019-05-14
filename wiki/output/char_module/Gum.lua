@@ -11,15 +11,10 @@ return {
   fileKey = "Gum",
   team = 8,
   position = "Melee",
-  roles = { "防护", "治疗" },
+  roles = { "Protection", "Healing" },
   faction = "Ursus",
   stars = 4,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1059,
     atk = 179,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-sunbr-1",
-      name = "备用军粮",
+      name = "Reserve Rations",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击会恢复附近一名友方角色相当于古米攻击力<span style='color:#0098DC;'>0.95<span>/</span>1.15<span>/</span>1.3<span>/</span>1.6</span>的生命值\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>3次</span>",
+      description = "The next attack will heal a nearby ally for <span style='color:#0098DC;'>95%</span>/<span style='color:#0098DC;'>115%</span>/<span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>160%</span> of ГУМ's Attack power. Can hold <undefined>1</>/<undefined>1</>/<undefined>2</>/<undefined>3</> charge(s)",
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-sunbr-2",
-      name = "食粮烹制",
+      name = "Food Preparation",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "开始烹饪，<span style='color:#FF6237;'>10<span>/</span>10<span>/</span>10<span>/</span>10</span>秒内停止攻击敌人，防御力<span style='color:#0098DC;'>+0.5<span>/</span>0.6<span>/</span>0.7<span>/</span>0.8</span>\n烹饪完成后专注于治疗附近的友方角色，攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.4<span>/</span>0.5<span>/</span>0.8</span>",
+      description = "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span>/<span style='color:#FF6237;'>10</span>/<span style='color:#FF6237;'>10</span>/<span style='color:#FF6237;'>10</span> seconds, Defense power +<undefined>50%</>/<undefined>60%</>/<undefined>70%</>/<undefined>80%</>. After finishing cooking, focuses on healing nearby allies, Attack power +<undefined>30%</>/<undefined>40%</>/<undefined>50%</>/<undefined>80%</>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "平底锅专精",
-        description = "攻击时，10%几率当次攻击的攻击力提升至150%，并眩晕敌人0.5秒",
+        name = "Saucepan Specialization",
+        description = "When attacking, 10% chance to increase Attack power to 150% and stun the enemy for 0.5 seconds",
       },
       rank2 = {
         level = 1,
-        name = "平底锅专精",
-        description = "攻击时，15%几率当次攻击的攻击力提升至200%，并眩晕敌人1秒",
+        name = "Saucepan Specialization",
+        description = "When attacking, 15% chance to increase Attack power to 200% and stun the enemy for 1 second",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "交际",
+      name = "Communication",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30% and mood reduction per hour -0.25"
     },
     {
-      name = "烹饪",
+      name = "Cooking",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite1",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.35</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.35</span>"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.35 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.35"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "高森奈津美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -333,8 +327,8 @@ return {
       archive1 = "古米是五人中以最积极的态度试图融入罗德岛，她能熟练地将食材处理为烹饪原料，以乌萨斯人惯有的饱满气势将厨房化为不凡的战场。古米的厨艺尚不能满足其他种族与国家的习以为常的口味，也没有做出主厨出道的经验和意愿，但充满新鲜朝气的乌萨斯式烹饪已经成为罗德岛内部一道难以忘怀的风景。<br>某日早餐菜单：雅阔列维奇红香肠（蒜香）、乌萨斯风味煮豆、松软燕麦面包、发酵酸奶等。<br>味道真香。",
       archive2 = "古米活泼、善良、心思单纯，她总是能从内心中表现出，希望大家都能获得幸福的真挚情感。<br>古米信任首领凛冬，积极为自治团内营造欢腾气氛，竭力消除切尔诺伯格事变对乌萨斯学生们造成的困顿不安。古米坚信以行动融入罗德岛的氛围是正确的选择，并对每一位罗德岛干员均表现出友好的态度。<br>由医疗组派遣的心理辅导专员证实了一些事前猜测：古米正试图以工作与接触作为消解恐惧记忆的方式。而在数次咨询谈话中，古米没有透露有关切尔诺伯格事变期间，学生自治团成员们所经历过的事情。",
       archive3 = "古米出生于乌萨斯帝国切尔诺伯格市，其父母目前均在外就职。古米曾参与切尔诺伯格本地童子军组织，并在若干主题活动与竞赛中取得优异成绩。有理由相信，古米极强的生存能力和救护本领，正是基于这一段经历。<br>在古米加入罗德岛初期，她的身上随身携带着各式各样的装备，均由事变期间在各处废墟中寻得。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "博士！就算古米做的菜再好吃，也不能一口气吃太多哦！那样会变重的！",
     cn037 = "明日方舟。",
     cn042 = "博士，要吃点东西吗？",
-  },
-  skins = {
-
   },
 }
 

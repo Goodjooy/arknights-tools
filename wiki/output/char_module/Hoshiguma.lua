@@ -11,15 +11,10 @@ return {
   fileKey = "Hoshiguma",
   team = 12,
   position = "Melee",
-  roles = { "防护", "DPS" },
+  roles = { "Protection", "DPS" },
   faction = "Great Lungmen",
   stars = 6,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1602,
     atk = 221,
@@ -159,31 +154,31 @@ return {
   skills = {
     {
       icon = "skchr-hsguma-1",
-      name = "战意",
+      name = "Battle Intent",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#0098DC;'>+0.35<span>/</span>0.5<span>/</span>0.65<span>/</span>0.8</span>，攻击力<span style='color:#0098DC;'>+0.1<span>/</span>0.2<span>/</span>0.3<span>/</span>0.4</span>",
+      description = "Defense power +<undefined>35%</>/<undefined>50%</>/<undefined>65%</>/<undefined>80%</>, Attack power +<undefined>10%</>/<undefined>20%</>/<undefined>30%</>/<undefined>40%</>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-hsguma-2",
-      name = "荆棘",
+      name = "Thorns",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "防御力<span style='color:#0098DC;'>+0.05<span>/</span>0.13<span>/</span>0.21<span>/</span>0.3</span>\n每次受到攻击时对目标造成相当于星熊攻击力<span style='color:#0098DC;'>0.5<span>/</span>0.65<span>/</span>0.8<span>/</span>1</span>的物理伤害",
+      description = "Defense power +<undefined>5%</>/<undefined>13%</>/<undefined>21%</>/<undefined>30%</>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>65%</span>/<span style='color:#0098DC;'>80%</span>/<span style='color:#0098DC;'>100%</span> physical damage to the attacker",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-hsguma-3",
-      name = "力之锯",
+      name = "Power Saw",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.65<span>/</span>0.8<span>/</span>0.95<span>/</span>1.4</span>，防御力<span style='color:#0098DC;'>+0.4<span>/</span>0.5<span>/</span>0.6<span>/</span>0.9</span>，对前方一格的所有敌人使用盾牌进行切割",
+      description = "Attack power +<undefined>65%</>/<undefined>80%</>/<undefined>95%</>/<undefined>140%</>, Defense power +<undefined>40%</>/<undefined>50%</>/<undefined>60%</>/<undefined>90%</>. Slice all enemies 1 tile ahead using the shield",
       sp = { 60, 59, 58, 57, 56, 55, 54, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -306,20 +301,20 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "战术装甲",
-        description = "获得12%的物理抵挡和法术抵挡",
+        name = "Tactical Armor",
+        description = "Gain 12% physical and magical block",
       },
       rank2 = {
         level = 1,
-        name = "战术装甲",
-        description = "获得25%的物理抵挡和法术抵挡",
+        name = "Tactical Armor",
+        description = "Gain 25% physical and magical block",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "特种作战策略",
-        description = "所有友方【重装】职业干员的防御力提升6%",
+        name = "Tactical Armor",
+        description = "Gain 12% physical and magical block",
       },
     },
   },
@@ -340,17 +335,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "重装专精·α",
+      name = "Defender Specialization·α",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite0",
-      description = "进驻训练室协助位时，重装干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Defender operatives by -30%"
     },
   },
   meta = {
     illustrator = "infukun",
     voiceActor = "安野希世乃",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -418,9 +412,6 @@ return {
     cn036 = "博士，现在不是工作时间了，休息的时候就该好好放松吧。",
     cn037 = "明日方舟。",
     cn042 = "哟，博士。",
-  },
-  skins = {
-
   },
 }
 

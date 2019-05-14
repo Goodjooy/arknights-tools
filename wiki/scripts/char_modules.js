@@ -21,6 +21,9 @@ Promise.all([
   /* 16 */ read('input/excel/gamedata_const.json'),
   /* 17 */ read('input/excel/building_data.json'),
   /* 18 */ read('templates/infra.lua'),
+  /* 19 */ read('input/tl/talents.json'),
+  /* 20 */ read('input/tl/skills.json'),
+  /* 21 */ read('input/tl/riic.json'),
 ])
 .then(data => {
   let tpl_char_module = data[0].contents
@@ -45,6 +48,10 @@ Promise.all([
   let tls = JSON.parse(data[8].contents)
   let custom = JSON.parse(data[14].contents)
   let citems = JSON.parse(data[15].contents)
+
+  let tl_talents = JSON.parse(data[19].contents)
+  let tl_skills = JSON.parse(data[20].contents)
+  let tl_riic = JSON.parse(data[21].contents)
 
   let quotesByChar = {}
   Object.keys(quotes).forEach(quoteKey => {
@@ -199,7 +206,65 @@ Promise.all([
     }
   }
 
-  const skillDesc = (skillId, levels) => {
+  const skillDescFropmTL = (skillId, levels, baseMessage, rich = true) => {
+    let richRegex = new RegExp('<([A-Za-z@\.]*)>\+?\-?\{\{?\-?(.*?)\}?:?(.*?)\}(?!:)', 'gim')
+    let cnFormat = levels[levels.length-1].description
+    let attrColors = {}
+    while (match = richRegex.exec(cnFormat)) {
+      // console.log('colorMatch', match[0], match[1], match[2], match[3])
+      let attrName = match[2] ? match[2] : match[3]
+      let attrPart = attrName.split(/\}?\:/gmi)
+      attrName = attrPart[0]
+      attrColors[attrName] = match[1]
+    }
+    
+    let attrRegex = new RegExp('\{\{?\-?(.*?)\}?:?(.*?)\}(?!:)', 'gim')
+    let attrValues = {}
+    let attrTypes = {}
+    while (match = attrRegex.exec(baseMessage)) {
+      // console.log('match', baseMessage, ' = ', match[0], match[1], match[2])
+      let attrName = match[1] ? match[1] : match[2]
+      let attrPart = attrName.split(/\}?\:/gmi)
+      attrName = attrPart[0]
+      if (attrPart[1] && attrPart[1].indexOf('%') > -1) {
+        attrTypes[attrName.toLowerCase()] = '%'
+      } else {
+        attrTypes[attrName.toLowerCase()] = '.'
+      }
+      attrValues[attrName.toLowerCase()] = []
+    }
+
+    levels.forEach((level, levelNum) => {
+      if (level.blackboard) level.blackboard.forEach(item => {
+        if (attrValues[item.key]) {
+          if (attrTypes[item.key] == '%') {
+            attrValues[item.key][levelNum] = Math.round(item.value * 100) + '%'
+          } else {
+            attrValues[item.key][levelNum] = item.value
+          }
+          if (rich) attrValues[item.key][levelNum] = '<' + attrColors[item.key] + '>' + attrValues[item.key][levelNum] + '</>'
+        } else {
+          if (level.description.indexOf(item.key) > -1)
+            console.log('ATTR_404', skillId, Object.keys(attrValues), item.key, item.value)
+        }
+      })
+    })
+
+    Object.keys(attrValues).forEach(attrName => {
+      let attrRegex = new RegExp('\{\{\-?' + attrName + '\}:?(.*?)\}', 'gim')
+      let showValues = [ attrValues[attrName][0], attrValues[attrName][3], attrValues[attrName][6], attrValues[attrName][9] ]
+      let values = showValues.join('/')
+      // let values = showValues.join('<span>/</span>')
+      baseMessage = baseMessage.replace(attrRegex, values)
+    })
+
+    if (rich) baseMessage = richText(baseMessage)
+
+    // console.log('result', baseMessage)
+    return baseMessage
+  }
+
+  const skillDesc = (skillId, levels, desc) => {
     let baseMessage = levels[levels.length-1].description
     baseMessage = richText(baseMessage)
 
@@ -271,33 +336,41 @@ Promise.all([
     return levels.map(lv => lv.duration).join(', ')
   }
 
-  const skillTemplate = charSkill => {
+  const skillTemplate = (charSkill) => {
     let baseSkill = skills[charSkill.skillId]
+    let skillTL = tl_skills[charSkill.skillId]
     return fillData(tpl_skill, {
       icon: skillIcon(charSkill.skillId),
-      name: baseSkill.levels[0].name,
+      name: skillTL.name,
+      // name: baseSkill.levels[0].name,
       recharge: spType(baseSkill.levels[0].spData.spType),
       trigger: skillTrigger(baseSkill.levels[0].skillType),
       passive: baseSkill.levels[0].skillType == 0 ? 'true' : 'false',
-      description: skillDesc(charSkill.skillId, baseSkill.levels),
+      description: skillDescFropmTL(charSkill.skillId, baseSkill.levels, skillTL.desc),
+      // description: skillDesc(charSkill.skillId, baseSkill.levels),
       spcost: skillSP(baseSkill.levels),
       duration: skillDuration(baseSkill.levels),
     })
   }
 
-  const talentTemplate = charTalent => {
+  const talentTemplate = (charTalent, talentEN) => {
     let candidates = charTalent.candidates
     let phases = ['', '', '']
+    let talentIndex = 0
     candidates.forEach(candidate => {
       if (candidate.requiredPotentialRank == 0) {
         let unlockPhase = candidate.unlockCondition.phase
-        if (candidate.name)
+        if (talentEN[talentIndex]) {
           phases[unlockPhase] = '\n' + fillData(tpl_mastery, {
             num: unlockPhase,
-            name: candidate.name,
-            description: candidate.description,
+            name: talentEN[talentIndex].name,
+            description: talentEN[talentIndex].desc,
             level: candidate.unlockCondition.level,
           })
+          talentIndex++
+        } else {
+          console.log('unknown talent', talentEN, talentIndex)
+        }
       }
     })
     return fillData(tpl_talent, {
@@ -495,17 +568,19 @@ Promise.all([
     return name
   }
 
-  const riicTemplate = infraSkill => {
+  const riicTemplate = (infraSkill, riicEN) => {
     return fillData(tpl_infra, {
-      name: infraSkill.name,
+      name: riicEN.name,
+      // name: infraSkill.name,
       badge: facilityBadge(infraSkill.facility),
       facility: facilityName(infraSkill.facility),
       unlock: 'elite' + infraSkill.unlock,
-      description: infraSkill.description,
+      description: riicEN.desc,
+      // description: infraSkill.description,
     })
   }
 
-  const SHORTLIST = true
+  const SHORTLIST = false
 
   if (SHORTLIST) characters = {
     char_101_sora: characters.char_101_sora,
@@ -520,7 +595,8 @@ Promise.all([
     let info = extractHandbook(handbook[charKey], charKey)
     let extra = custom[charKey] || custom['generic']
     let infraSkills = getInfraSkills(charKey)
-    let charBody = fillData(tpl_char_module, {
+    if (!tl_riic[charKey]) console.log('MISSING RIIC', charKey)
+    let charData = {
       char_key: charKey,
       id: charKey.split('_')[1],
       num: char.displayNumber,
@@ -559,11 +635,11 @@ Promise.all([
       skill1: char.skills[0] ? '\n' + skillTemplate(char.skills[0]) : '',
       skill2: char.skills[1] ? '\n' + skillTemplate(char.skills[1]) : '',
       skill3: char.skills[2] ? '\n' + skillTemplate(char.skills[2]) : '',
-      buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills[0]) : '',
-      buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills[1]) : '',
-      buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills[2]) : '',
-      talent1: char.talents[0] ? '\n' + talentTemplate(char.talents[0]) : '',
-      talent2: char.talents[1] ? '\n' + talentTemplate(char.talents[1]) : '',
+      buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills[0], tl_riic[charKey][0]) : '',
+      buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills[1], tl_riic[charKey][1]) : '',
+      buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills[2], tl_riic[charKey][2]) : '',
+      talent1: char.talents[0] ? '\n' + talentTemplate(char.talents[0], tl_talents[charKey]) : '',
+      talent2: char.talents[1] ? '\n' + talentTemplate(char.talents[1], tl_talents[charKey]) : '',
       potential1:  potentialMessage(char.potentialRanks[0]),
       potential2:  potentialMessage(char.potentialRanks[1]),
       potential3:  potentialMessage(char.potentialRanks[2]),
@@ -580,12 +656,12 @@ Promise.all([
       illustrator: info.details.illustrator,
       voiceActor: info.details.voiceactor,
 
-      record_resume: info.records.Resume,
-      record_archive1: info.records['Archive 1'],
-      record_archive2: info.records['Archive 2'],
-      record_archive3: info.records['Archive 3'],
-      record_archive4: info.records['Archive 4'],
-      record_token:  info.records.Promotion,
+      record_resume: info.records.Resume || '',
+      record_archive1: info.records['Archive 1'] || '',
+      record_archive2: info.records['Archive 2'] || '',
+      record_archive3: info.records['Archive 3'] || '',
+      record_archive4: info.records['Archive 4'] || '',
+      record_token:  info.records.Promotion || '',
 
       gender: info.details.gender,
       experience: info.details.combatexp,
@@ -606,7 +682,8 @@ Promise.all([
       diagnosis: info.records.Diagnosis,
 
       quotes: quotesList(charKey),
-    })
+    }
+    let charBody = fillData(tpl_char_module, charData)
     
     return save({
       destFile: 'output/char_module/' + t(char.appellation) + '.lua',

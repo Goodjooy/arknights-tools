@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 5,
   class = "Specialist",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 703,
     atk = 204,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-red-1",
-      name = "处决模式",
+      name = "Execution Mode",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后攻击力<span style='color:#0098DC;'>+0.35<span>/</span>0.5<span>/</span>0.65<span>/</span>0.8</span>，并获得<span style='color:#0098DC;'>0.2<span>/</span>0.3<span>/</span>0.4<span>/</span>0.5</span>物理闪避",
+      description = "Attack power +<undefined>35%</>/<undefined>50%</>/<undefined>65%</>/<undefined>80%</> after deploying, additionally gain <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span> physical evasion",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },
     {
       icon = "skchr-red-2",
-      name = "狼群",
+      name = "Wolf Pack",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后立即对周围所有敌人造成相当于攻击力<span style='color:#0098DC;'>1.4<span>/</span>1.7<span>/</span>2<span>/</span>2.5</span>的物理伤害，并使命中目标晕眩<span style='color:#0098DC;'>1<span>/</span>1.5<span>/</span>2<span>/</span>3</span>秒",
+      description = "Immediately deal <span style='color:#0098DC;'>140%</span>/<span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>250%</span> physical damage to all nearby enemies after deploying and stun them for {stun} seconds",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "刺骨",
-        description = "每次攻击至少造成20%攻击力的伤害",
+        name = "Bonebreaker",
+        description = "Every attack will deal damage equal to at least 20% Attack power",
       },
       rank2 = {
         level = 1,
-        name = "刺骨",
-        description = "每次攻击至少造成30%攻击力的伤害",
+        name = "Bonebreaker",
+        description = "Every attack will deal damage equal to at least 30% Attack power",
       },
     },
   },
@@ -317,28 +312,27 @@ return {
       badge = "control",
       facility = "CONTROL",
       unlockIcon = "elite0",
-      description = "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<span style='color:#0098DC;'>-0.05</span>"
+      description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
     },
     {
-      name = "追踪者",
+      name = "Tracker",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite2",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+25%</span>"
+      description = "When stationed at Reception, clue collection speed +25%"
     },
   },
   meta = {
     illustrator = "infukun",
     voiceActor = "小清水亚美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
       resume = "红，身份不明，履历缺失，由凯尔希医生接收、监护并担保。于机动作战，特种作战与隐秘作战中表现出极高天赋，成绩斐然。<br>现于凯尔希医生的指导下，作为特种干员为罗德岛提供服务。",
       archive1 = "干员红在战场上的行为无法用常识去理解，比起普通干员的战斗方式，干员红的行为似乎更加精准而......野蛮。<br>日常生活中，干员红行踪诡秘，很少出现在普通干员的视野中。而干员红所具备的教育程度和社交能力，同样也让许多干员怀疑过她的出身。<br>加之有干员红参与的任务大多相当艰巨，甚至可能出现伤亡与损失，红也被部分干员称作“戴小红帽的死神”。<br>然而随着时间推移，干员红展现出了相当幼稚天真的一面，她与某些干员的关系也在加强、升温。<br>或许有那么一天，各位干员也能够真正地理解她，接纳她；而干员红自己，也能更好地融入罗德岛。",
       archive2 = "对于干员红而言，自己与其他鲁珀族人都并非俗语与俚语中所称呼的“狼”。<br>最开始，医疗干员都将干员红的认知当作单纯的教育问题处理，直到在几个实验案例中，干员红切实地展现出了无法被解释的辨别能力，且无论怎么更换对照组/打乱目标分布，干员红都会以自己的方式分类实验项。<br>一部分医疗干员认为，这是类似于典型性色弱的认知障碍，因为神经系统的缺陷或变异导致干员红能观察到普通鲁珀族人不常注意到的细节；另一方面，也有部分医疗干员认为，干员红具有独特的源石技艺天赋，这使得她的认知方式与常人拉开了距离。<br>在相关研究被医疗部门叫停后，干员红的认知方式慢慢被大多数罗德岛干员所接受，并被当作一种个性来处理。",
-      archive3 = "undefined",
-      archive4 = "undefined",
+      archive3 = "",
+      archive4 = "",
       token = "我们需要一支隐秘高效的队伍，阿米娅也同意了。<br>作为这支队伍的首批干员之一，红的价值不用多说。<br>虽然我也看到了，红有问题，但这和我无关，凯尔希会处理。<br>我只负责磨尖她的牙和刀。<br>罗德岛一定得有这种手段，阻止那种事情再次发生。我们也该让博士接受事实。<br><br>——■■■■",
     },
     bio = {
@@ -398,9 +392,6 @@ return {
     cn036 = "咻......呼......",
     cn037 = "明日方舟。",
     cn042 = "博士，累了吗？",
-  },
-  skins = {
-
   },
 }
 

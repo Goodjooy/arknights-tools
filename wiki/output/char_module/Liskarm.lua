@@ -11,15 +11,10 @@ return {
   fileKey = "Liskarm",
   team = 13,
   position = "Melee",
-  roles = { "防护", "DPS" },
+  roles = { "Protection", "DPS" },
   faction = "BlackSteel",
   stars = 5,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1307,
     atk = 219,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-liskam-1",
-      name = "充能防御",
+      name = "Charging Defense",
       recharge = "",
       trigger = "Auto Trigger",
       passive = false,
-      description = "抵挡下一次伤害，在<span style='color:#0098DC;'>8<span>/</span>8<span>/</span>8<span>/</span>8</span>秒内防御力<span style='color:#0098DC;'>+0.4<span>/</span>0.6<span>/</span>0.8<span>/</span>1</span>\n<span style='color:#F49800;'>技能自动开启</span>",
+      description = "Blocks the next attack and increases Defense power by +<undefined>40%</>/<undefined>60%</>/<undefined>80%</>/<undefined>100%</> for <span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span> seconds. Automatic activation",
       sp = { 24, 24, 24, 22, 22, 22, 20, 20, 20, 18 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-liskam-2",
-      name = "反击电弧",
+      name = "Counter Shock",
       recharge = "",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#FF6237;'>增大</span>，攻击力<span style='color:#0098DC;'>+0.85<span>/</span>1.05<span>/</span>1.25<span>/</span>2</span>，每次攻击对最多<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>4</span>个敌人造成<span style='color:#0098DC;'>法术伤害</span>，并有<span style='color:#0098DC;'>0.1<span>/</span>0.15<span>/</span>0.2<span>/</span>0.25</span>概率使命中目标晕眩<span style='color:#0098DC;'>1<span>/</span>1<span>/</span>1<span>/</span>1</span>秒\n<span style='color:#F49800;'>持续时间结束后雷蛇晕眩5<span>/</span>5<span>/</span>5<span>/</span>5秒</span>",
+      description = "Increase attack interval, Attack power +<undefined>85%</>/<undefined>105%</>/<undefined>125%</>/<undefined>200%</>, every attack deals magical damage to up to <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>4</span> enemies and has <span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span> chance to stun the targets for <span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>1</span> second. Liskarm is stunned for <undefined>5</>/<undefined>5</>/<undefined>5</>/<undefined>5</> seconds after the skill ends",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 34 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -286,15 +281,15 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "战术防御",
-        description = "受到攻击时，回复自己和周围一格内随机一名友方角色1点技力",
+        name = "Tactical Defense",
+        description = "When attacked, recover 1 SP to self and a random nearby ally",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "雷抗",
-        description = "法术抗性+10",
+        name = "Tactical Defense",
+        description = "When attacked, recover 1 SP to self and a random nearby ally",
       },
     },
   },
@@ -315,17 +310,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "脉冲电弧·α",
+      name = "Pulsing Arc·α",
       badge = "power",
       facility = "POWER",
       unlockIcon = "elite0",
-      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+15%</span>"
+      description = "When stationed at a Power Station, drone recovery per hour +15%"
     },
   },
   meta = {
     illustrator = "TOKI",
     voiceActor = "石川由依",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -334,7 +328,7 @@ return {
       archive2 = "雷蛇配备的闪光盾牌是一种事实上的大型化法杖设备，只有雷蛇能以自身独特的法术天赋进行启动。<br>盾牌一经启动，将立刻释放超过5400万流明的强烈闪光，以及充斥半径五米的扇形区域的毁灭性电击，若在狭小的场地内用于反击敌人，将会显现出恐怖的歼灭力。<br>但该类源石技艺会在释放过程中夺走雷蛇大量体力，致使雷蛇在释放结束后陷入极度乏力的状态。因此，黑钢指挥官常派遣近战专精干员与雷蛇进行配合。一般情况下，这个位置由芙兰卡担任。<br>雷蛇曾不止一次向上级反映，希望能够约束芙兰卡在战斗中的权限，因为每次反击雷电过后，芙兰卡都会趁雷蛇无法动弹的时候，用尽方法对她进行恶作剧。<br>备注：在通过天赋释放电击类源石技艺时，雷蛇的双角会散发出青蓝色的光芒。",
       archive3 = "在行动搭档芙兰卡确诊矿石病感染后，雷蛇主动向上司申请，作为驻罗德岛特派人员，与芙兰卡共同前往。<br>一方面是，雷蛇觉得芙兰卡应该需要一个相熟的人陪同行动，这样做什么事都能有人帮忙照应。另一方面，她也习惯了与芙兰卡共同战斗的步调，并认为芙兰卡应该也有着同样的感受。<br>然而对此想法，芙兰卡全都一口否定，她同样向上司申请，要求撤回雷蛇的驻派申请：好不容易没有人再盯着自己了，结果来到罗德岛的第二天，就看到自己的（前）搭档正在人事部门办理入住手续，这是一种怎样的心情？<br>据说当天很多干员都目击到这样的场景：两名黑钢干员互相推挤着走出人事部门办公室，相互表示要向对方的上级进行申诉。",
       archive4 = "关于自己的未来，雷蛇的想法是：创办一家属于自己的安全承包公司。最初她之所以选择加入黑钢国际，正是这一想法中最为关键的一步。<br>由于雷蛇在身体数据方面较为不足，而且她所属的种族缺乏传统印象中的尚武文化，也并没有普适的源石技艺教育。几乎没有人对这个矮小的，出生在偏远地带的瓦伊凡少女抱有什么期待。甚至连她自己也一度这样认为。<br>但雷蛇沉稳的性格，以及虽然稍显固执但更富耐心的品性，使得她舍得投入比同龄人更多的时间和努力来达成目的。在加入黑钢后的实习期间，雷蛇积极参与实战行动，从最基础的岗位开始做起，逐步地成长为一名专业可靠的安全承包商。<br>雷蛇的故乡位于瓦伊凡联盟控制区内，是一座以矿业、采石业，以及石材加工业为主的小城。为了维持这些主要行业的发展，这座城市将行动范围设置在便于矿产和石材开采的沙漠与山脉附近。而这一地区常常是移动城市劫匪与流窜佣兵的据点。<br>为了对应随时可能产生的劫掠行动，城市自身配备了一定的防御力量，但迫于训练不足与装备的匮乏，也不得不求助于一些更为专业的安全承包公司。<br>在雷蛇的记忆中，那些在故乡街头操弄崭新的武器与装备，以听不懂的外国语言相互交谈，在骚乱中以小组形式迅速击溃来犯的安全承包商们，是她对这个行业的最初认知。<br>不是为了赚钱，也不是为了寻求战斗的快感，雷蛇只是希望，用手中的武器尽可能的为人们带来安稳，而不是动乱。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "医生，芙兰卡的治疗还在进行吗？对了，工作之外博士请好好休息。",
     cn037 = "明日方舟。",
     cn042 = "早上好，博士。",
-  },
-  skins = {
-
   },
 }
 

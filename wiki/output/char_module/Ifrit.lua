@@ -15,11 +15,6 @@ return {
   faction = "Rhine Lab",
   stars = 6,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 687,
     atk = 377,
@@ -159,31 +154,31 @@ return {
   skills = {
     {
       icon = "skchr-ifrit-1",
-      name = "狂热",
+      name = "Fanaticism",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.1<span>/</span>0.1<span>/</span>0.2<span>/</span>0.2</span>，攻击速度<span style='color:#0098DC;'>+45<span>/</span>58<span>/</span>67<span>/</span>80</span>",
+      description = "Attack power +<undefined>10%</>/<undefined>10%</>/<undefined>20%</>/<undefined>20%</>, Attack speed +<undefined>45</>/<undefined>58</>/<undefined>67</>/<undefined>80</>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
     {
       icon = "skchr-ifrit-2",
-      name = "炎爆",
+      name = "Sunburst",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击造成相当于攻击力<span style='color:#0098DC;'>1.3<span>/</span>1.6<span>/</span>1.9<span>/</span>2.5</span>的法术伤害，命中目标在<span style='color:#0098DC;'>3</span>秒内防御力<span style='color:#0098DC;'>--100<span>/</span>-100<span>/</span>-200<span>/</span>-300</span>并持续受到灼烧伤害\n<span style='color:#F49800;'>可充能2<span>/</span>2<span>/</span>3<span>/</span>3次</span>",
+      description = "The next attack power deals <span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>160%</span>/<span style='color:#0098DC;'>190%</span>/<span style='color:#0098DC;'>250%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-100</span>/<span style='color:#0098DC;'>-100</span>/<span style='color:#0098DC;'>-200</span>/<span style='color:#0098DC;'>-300</span> defense and burn the target for 3 seconds. Can hold <undefined>2</>/<undefined>2</>/<undefined>3</>/<undefined>3</> charge(s)",
       sp = { 9, 9, 9, 8, 8, 8, 8, 7, 7, 7 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-ifrit-3",
-      name = "灼地",
+      name = "Burning Ground",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "对攻击范围内的敌人造成每秒相当于攻击力<span style='color:#0098DC;'>0.75<span>/</span>0.9<span>/</span>1.1<span>/</span>1.4</span>的法术伤害，命中目标的法术抗性<span style='color:#0098DC;'>--7<span>/</span>-7<span>/</span>-10<span>/</span>-20</span>\n<span style='color:#F49800;'>自己每秒损失最大生命值的0.02<span>/</span>0.02<span>/</span>0.02<span>/</span>0.02</span>",
+      description = "Deal <span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>90%</span>/<span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>140%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-7</span>/<span style='color:#0098DC;'>-7</span>/<span style='color:#0098DC;'>-10</span>/<span style='color:#0098DC;'>-20</span> magic resistance. However, Ifrit loses <undefined>2%</>/<undefined>2%</>/<undefined>2%</>/<undefined>2%</> of her Max HP every second",
       sp = { 40, 39, 38, 36, 35, 34, 31, 30, 29, 28 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -306,25 +301,25 @@ return {
     {
       rank0 = {
         level = 1,
-        name = "精神融解",
-        description = "攻击范围内的敌军法术抗性-15%",
+        name = "Mental Dissolution",
+        description = "All enemies within attack range get magic resistance -15%",
       },
       rank1 = {
         level = 1,
-        name = "精神融解",
-        description = "攻击范围内的敌军法术抗性-27%",
+        name = "Mental Dissolution",
+        description = "All enemies within attack range get magic resistance -27%",
       },
       rank2 = {
         level = 1,
-        name = "精神融解",
-        description = "攻击范围内的敌军法术抗性-40%",
+        name = "Mental Dissolution",
+        description = "All enemies within attack range get magic resistance -40%",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "莱茵回路",
-        description = "每6秒额外回复2点技力",
+        name = "Mental Dissolution",
+        description = "All enemies within attack range get magic resistance -15%",
       },
     },
   },
@@ -345,17 +340,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "热能充能·α",
+      name = "Thermal Energy·α",
       badge = "power",
       facility = "POWER",
       unlockIcon = "elite0",
-      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
   },
   meta = {
     illustrator = "NoriZC",
     voiceActor = "花守由美里",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -423,9 +417,6 @@ return {
     cn036 = "嘻嘻，你这家伙对我还挺好嘛，想和我一起玩吗？",
     cn037 = "明日方舟。",
     cn042 = "啊？找我有事吗？",
-  },
-  skins = {
-
   },
 }
 

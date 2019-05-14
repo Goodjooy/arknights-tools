@@ -154,31 +154,31 @@ return {
   skills = {
     {
       icon = "skchr-angel-1",
-      name = "冲锋模式",
+      name = "Assault Mode",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击变为<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>3</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>105%<span>/</span>113%<span>/</span>121%<span>/</span>145%</span>的伤害",
+      description = "The next attack hits <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>113%</span>/<span style='color:#0098DC;'>121%</span>/<span style='color:#0098DC;'>145%</span> damage",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-angel-2",
-      name = "扫射模式",
+      name = "Strafing Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击变为<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>4<span>/</span>4</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>100%<span>/</span>105%<span>/</span>110%<span>/</span>125%</span>的伤害",
+      description = "Attacks deal <span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>125%</span> damage",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
     {
       icon = "skchr-angel-3",
-      name = "过载模式",
+      name = "Overload Mode",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击变为<span style='color:#0098DC;'>5<span>/</span>5<span>/</span>5<span>/</span>5</span>连射，攻击间隔<span style='color:#0098DC;'>一定程度缩短</span>，攻击力<span style='color:#0098DC;'>提升至100%<span>/</span>100%<span>/</span>100%<span>/</span>110%</span>\n<span style='color:#F49800;'>技能会自动开启</span>",
+      description = "Attacks deal <span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span> hits, with each dealing <undefined>100%</>/<undefined>100%</>/<undefined>100%</>/<undefined>110%</> damage. Reduce attack interval by a certain extent. Automatic activation",
       sp = { 50, 48, 46, 44, 42, 40, 38, 36, 34, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -301,20 +301,20 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "快速弹匣",
-        description = "攻击速度+6",
+        name = "Rapid Magazine",
+        description = "Attack speed +6",
       },
       rank2 = {
         level = 1,
-        name = "快速弹匣",
-        description = "攻击速度+12",
+        name = "Rapid Magazine",
+        description = "Attack speed +12",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "天使的祝福",
-        description = "攻击力+6%，生命上限+10%。置入战场后这个效果会同样赋予给一名随机友方单位",
+        name = "Rapid Magazine",
+        description = "Attack speed +6",
       },
     },
   },
@@ -335,11 +335,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "企鹅物流·α",
+      name = "Penguin Logistics·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+20%</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },
   },
   meta = {

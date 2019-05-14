@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 6,
   class = "Supporter",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 629,
     atk = 228,
@@ -154,31 +149,31 @@ return {
   skills = {
     {
       icon = "skchr-aglina-1",
-      name = "秘杖·速充模式",
+      name = "Secret Staff·Speed Charge Mode",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.4<span>/</span>0.6<span>/</span>0.8<span>/</span>1.1</span>\n<span style='color:#F49800;'>技能自动开启</span>",
+      description = "Attack power +<undefined>40%</>/<undefined>60%</>/<undefined>80%</>/<undefined>110%</>. Automatic activation",
       sp = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
       duration = { 20, 21, 22, 25, 26, 27, 30, 31, 33, 35 },
     },
     {
       icon = "skchr-aglina-2",
-      name = "秘杖·微粒模式",
+      name = "Secret Staff·Particle Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#0098DC;'>极大幅度缩短</span>，但每次攻击只能造成相当于攻击力<span style='color:#FF6237;'>0.3<span>/</span>0.35<span>/</span>0.4<span>/</span>0.45的法术伤害</span>\n<span style='color:#F49800;'>技能未开启时无法普通攻击</span>",
+      description = "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>30%</span>/<span style='color:#FF6237;'>35%</span>/<span style='color:#FF6237;'>40%</span>/<span style='color:#FF6237;'>45%</span> magical damage. Unable to attack when skill is not active",
       sp = { 20, 20, 20, 20, 20, 20, 20, 19, 18, 15 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-aglina-3",
-      name = "秘杖·反重力模式",
+      name = "Secret Staff·Anti-Gravity Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "全场所有敌人重量<span style='color:#0098DC;'>下降一个等级</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，攻击力<span style='color:#0098DC;'>+0.75<span>/</span>0.9<span>/</span>1.05<span>/</span>1.5</span>，可以攻击<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>5<span>/</span>5</span>个敌人\n<span style='color:#F49800;'>技能未开启时无法普通攻击</span>",
+      description = "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<undefined>75%</>/<undefined>90%</>/<undefined>105%</>/<undefined>150%</>, Can attack <span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span> enemies. Unable to attack when skill is not active",
       sp = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
       duration = { 10, 11, 12, 14, 15, 16, 18, 20, 22, 25 },
     },
@@ -301,20 +296,20 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "加速力场",
-        description = "全场友方单位攻速+3",
+        name = "Acceleration Field",
+        description = "All allies' Attack speed +3",
       },
       rank2 = {
         level = 1,
-        name = "加速力场",
-        description = "全场友方单位攻速+7",
+        name = "Acceleration Field",
+        description = "All allies' Attack speed +7",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "兼职工作",
-        description = "技能未开启时，全场友方单位每秒回复20点生命",
+        name = "Acceleration Field",
+        description = "All allies' Attack speed +3",
       },
     },
   },
@@ -335,17 +330,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "线索搜集·α",
+      name = "Clue Collection·α",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite0",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at Reception, clue collection speed +10%"
     },
   },
   meta = {
     illustrator = "LM7",
     voiceActor = "大桥彩香",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -354,7 +348,7 @@ return {
       archive2 = "刚成为信使不久的少女。安洁莉娜<br>就像其他的高中生一样，安洁莉娜对未来充满希望，但也花了很多时间在学业与打扮上。<br>喜欢小饰品和流行小说，意外的喜欢稍显复古的音乐，安洁莉娜的人生本应平常而快乐。<br><br>而当罗德岛寻访她时，安洁莉娜却正穿梭在城市的黑夜中，于大楼间轻巧的滑翔而过。",
       archive3 = "这片大地是不公的。<br>意外成为感染者的安洁莉娜，悄悄地从自己的生活中消失了。<br>没有告别，没有徘徊，安洁莉娜离开了家庭，默默地告别了学校中的朋友和自己热爱的故乡。<br>然而，即便已经知晓了感染者的结局，安洁莉娜却并不甘心。<br>每个夜晚，她奔跑着，跳跃着，在建筑间穿梭着，操纵着还不那么熟练的法术，将货物从一个秘密的地方运送到另一个秘密的地方。<br>作为信使，作为感染者，也作为一个普通的高中生，安洁莉娜正在努力地生活下去，无论未来会变成什么模样。",
       archive4 = "在遇见罗德岛与博士之前，安洁莉娜将这些秘密都藏在自己心里。<br>直到罗德岛发掘了安洁莉娜，她才看见了另一种属于感染者的生活。而她，也给罗德岛带来了不同的色彩。如今成为了罗德岛干员的她，兴许也能重新找回自己作为一个高中生应有的生活。<br>......大概。<br>安洁莉娜选择的道路，究竟会通向哪里？<br>可能连她自己都没法想象吧。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -413,9 +407,6 @@ return {
     cn036 = "我的头发很漂亮？嗯哼哼，我可是有秘诀的！",
     cn037 = "明日方舟。",
     cn042 = "早安，{@nickname}！",
-  },
-  skins = {
-
   },
 }
 

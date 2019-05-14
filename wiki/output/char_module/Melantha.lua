@@ -11,15 +11,10 @@ return {
   fileKey = "Melantha",
   team = 3,
   position = "Melee",
-  roles = { "DPS", "生存" },
+  roles = { "DPS", "Survival" },
   faction = "Rhodes Island",
   stars = 3,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1332,
     atk = 361,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-1",
-      name = "攻击力强化·α型",
+      name = "Attack Strengthening·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.1<span>/</span>0.3<span>/</span>0.5<span>/</span></span>",
+      description = "Attack power +<undefined>10%</>/<undefined>30%</>/<undefined>50%</>/",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "攻击提升",
-        description = "攻击力+8%",
+        name = "Attack Increase",
+        description = "Attack power +8%",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "供应管理",
+      name = "Supply Management",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+25%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
     },
     {
-      name = "专注·α",
+      name = "Focus·α",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite1",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>40%</span>"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 40%"
     },
   },
   meta = {
     illustrator = "一立里子",
     voiceActor = "原优子",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -261,7 +255,7 @@ return {
       archive2 = "学生时代的玫兰莎就读于威塞克斯私立中学，各项学科均取得优异成绩，但因其寡言少语，不善沟通的性格，玫兰莎从未成为众人的焦点和核心。<br>在缺乏朋友的环境下，玫兰莎并没有选择积极改变自身性格，而是在父母的安排下，投入进上层社会的学识培育活动中，包括美术、文学、诗歌等。在维多利亚的传统社会中，一名完整的上层社会女性，是必须经历这样的道德教育的。<br>除此以外，为了改善羸弱的体质，玫兰莎在父母的安排下开始学习击剑等上层社会流行的运动项目。<br>在感染者危机爆发后，玫兰莎成为感染者的一员，并在父母安排下接受了罗德岛制药提供的医疗方案，随后转入罗德岛接受治疗。",
       archive3 = "干员玫兰莎与行动预备组A4成员均保持着紧密的联络。内敛的她最初曾对自己能否担任行动预备组A4队长而忧心忡忡，但在组内全体伙伴的帮助下，她成功地突破了自己一直以来的内心障碍。<br>性格活泼开朗的卡缇是玫兰莎形影不离的好友，无论在生活还是战斗中，两人均保持着良好的互补关系。<br>对于性格成熟，行事稳妥的干员史都华德，玫兰莎抱有尊敬的心态；由于干员安赛尔负责玫兰莎的病情记录与日常护理工作，玫兰莎对自己总是为安赛尔添麻烦一事感到歉意和感激；而干员安德切尔是玫兰莎相对缺乏了解的人，她始终无法弄清楚这位出身拉特兰的少年平日的所思所想，不过安德切尔也从未在战斗中给玫兰莎带来麻烦。<br>在担任队长期间，玫兰莎细心、温和的态度受到了组员们的一致好评，而严格律己、遵守纪律的优良素质，使她能够完成罗德岛赋予她的每一项任务。",
       archive4 = "目前为止，无论根据现有档案还是其他干员的观察报告，均无法了解玫兰莎所拥有的剑术是何种流派，这是玫兰莎身上为数不多的谜团之一。<br>根据测试记录与日常战斗录像判断，玫兰莎的剑术似乎来源于维多利亚传统的决斗剑法，但在其学习过程中的某一阶段，她一定受到了某种东方流派剑术的强烈影响。<br>玫兰莎所持有的武器亦可作为一种旁证：她使用一把分外纤细，但极为锋利的直刃长刀。现有资料表明，只有炎国或部分东国武术流派中还保存有此类武器的技术套路。<br>玫兰莎的剑术灵活，技巧优秀，在实战技术方面，玫兰莎拥有较强的战术突击能力，即使在缺乏支援的情况下，也可以凭借自身的机动性进行移动和藏匿。<br>另一方面，玫兰莎缺乏对正面接触战的对抗能力，面对高强度作战的稳定性亦存在一定的不足。<br>至现在为止，玫兰莎在黑钢特别派遣干员芙兰卡的教导下，进行着剑术的提高。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -316,9 +310,6 @@ return {
     cn036 = "博士，感谢您一直这样关心我......那个，其实......我希望自己，今后也能更多地去战斗。",
     cn037 = "明日方舟。",
     cn042 = "博士。",
-  },
-  skins = {
-
   },
 }
 

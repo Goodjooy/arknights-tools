@@ -11,15 +11,10 @@ return {
   fileKey = "Warfarin",
   team = -1,
   position = "Ranged",
-  roles = { "治疗", "Support" },
+  roles = { "Healing", "Support" },
   faction = "Rhodes Island",
   stars = 5,
   class = "Medic",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 805,
     atk = 172,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-bldsk-1",
-      name = "紧急包扎",
+      name = "Emergency Bandage",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次治疗额外回复目标最大生命值的<span style='color:#0098DC;'>0.11<span>/</span>0.15<span>/</span>0.19<span>/</span>0.25</span>\n<span style='color:#F49800;'>只当目标生命值不满一半时才会触发，可充能2<span>/</span>2<span>/</span>3<span>/</span>4次</span>",
+      description = "The next heal will heal an additional <span style='color:#0098DC;'>11%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>19%</span>/<span style='color:#0098DC;'>25%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <undefined>2</>/<undefined>2</>/<undefined>3</>/<undefined>4</> charge(s)",
       sp = { 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-bldsk-2",
-      name = "不稳定血浆",
+      name = "Unstable Plasma",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "自身和攻击范围内随机一名我方单位获得以下状态：\n攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.45<span>/</span>0.6<span>/</span>0.9</span>，每秒损失<span style='color:#FF6237;'>0.03<span>/</span>0.03<span>/</span>0.03<span>/</span>0.03</span>最大生命值，持续<span style='color:#0098DC;'>15<span>/</span>15<span>/</span>15<span>/</span>15</span>秒",
+      description = "Grants the following effects to self and a random ally within attack range: Attack power +<undefined>30%</>/<undefined>45%</>/<undefined>60%</>/<undefined>90%</>, Lose <span style='color:#FF6237;'>3%</span>/<span style='color:#FF6237;'>3%</span>/<span style='color:#FF6237;'>3%</span>/<span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>15</span> seconds",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "血液样本回收",
-        description = "攻击范围内有敌人倒下时，为自身和范围内随机一名友方单位回复1点技力",
+        name = "Blood Sample Collection",
+        description = "When an enemy dies within attack range, recover 1 SP to self and one random ally within attack range",
       },
       rank2 = {
         level = 1,
-        name = "血液样本回收",
-        description = "攻击范围内有敌人倒下时，为自身和范围内随机一名友方单位回复2点技力",
+        name = "Blood Sample Collection",
+        description = "When an enemy dies within attack range, recover 2 SP to self and one random ally within attack range",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "医疗专精·α",
+      name = "Medic Specialization·α",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite0",
-      description = "进驻训练室协助位时，医疗干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Medic operatives by -30%"
     },
   },
   meta = {
     illustrator = "时辰",
     voiceActor = "石见舞菜香",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -391,9 +385,6 @@ return {
     cn036 = "博士，给您做定期检查的日子，是不是快到了？",
     cn037 = "明日方舟。",
     cn042 = "你好，博士。",
-  },
-  skins = {
-
   },
 }
 

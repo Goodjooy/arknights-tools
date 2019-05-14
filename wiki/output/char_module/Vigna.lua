@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 4,
   class = "Vanguard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 724,
     atk = 248,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-vigna-1",
-      name = "攻击力强化·β型",
+      name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.2<span>/</span>0.35<span>/</span>0.5<span>/</span>0.8</span>",
+      description = "Attack power +<undefined>20%</>/<undefined>35%</>/<undefined>50%</>/<undefined>80%</>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-vigna-2",
-      name = "槌音",
+      name = "Hammer-on",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+0.9<span>/</span>1.2<span>/</span>1.5<span>/</span>2</span>",
+      description = "Slightly increase attack interval, Attack power +<undefined>90%</>/<undefined>120%</>/<undefined>150%</>/<undefined>200%</>",
       sp = { 35, 35, 35, 32, 32, 32, 28, 27, 26, 25 },
       duration = { 20, 20, 20, 22, 22, 22, 25, 26, 27, 30 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "蛮力穿刺",
-        description = "攻击时，10%几率当次攻击的攻击力+50%。技能中这个几率提高到30%",
+        name = "Brute Thrust",
+        description = "When attacking, 10% chance to increase Attack power by +50%. Chance is increased to 30% while skill is active",
       },
       rank2 = {
         level = 1,
-        name = "蛮力穿刺",
-        description = "攻击时，10%几率当次攻击的攻击力+100%。技能中这个几率提高到30%",
+        name = "Brute Thrust",
+        description = "When attacking, 10% chance to increase Attack power by +100%. Chance is increased to 30% while skill is active",
       },
     },
   },
@@ -308,33 +303,32 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "作战指导录像",
+      name = "Combat Directive Recordings",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>作战记录</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
     {
-      name = "先锋专精·β",
+      name = "Vanguard Specialization·β",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite1",
-      description = "进驻训练室协助位时，先锋干员的专精技能训练时间<span style='color:#0098DC;'>-50%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Vanguard operatives by -50%"
     },
   },
   meta = {
     illustrator = "下野宏铭",
     voiceActor = "--",
-    servers = "CN, JP",
   },
   profile = {
     records = {
       resume = "红豆，萨卡兹人，经多项测试后许可加入罗德岛，在遭遇战、突击战、战术协同方面具有较高潜力。<br>现于罗德岛小队担任先锋人员，在战术突袭、开辟战场等方面取得突出表现。",
-      archive1 = "undefined",
+      archive1 = "",
       archive2 = "“只要是生存着的人，就都会有想要发出呐喊的时候，对吧！那么这把电吉他，给你！让我们一起用它......呃......对！绽放！用它，来让我们的生命壮丽地绽放吧！”<br>——红豆<br>根据干员再次表达出的强烈意愿，在资料中为她完整地加入上述话语。<br>摇滚的诞生最初是被传统乐理学家归入噪音行列。但当一个足以名垂青史的哥伦比亚摇滚乐团，用嘶吼的嗓音向所有听众发出的呐喊时，这种即将重新定义音乐的演奏形式正式登上时代的舞台。<br>在摇滚的世界里不存在歧视，任何人都有权唱出自己心中的所思所想。<br>干员红豆用省吃俭用的资金购买了一张演唱会的门票。在电吉他的激昂着她的鼓膜的这个夜晚，她的双手始终是在颤抖着。",
       archive3 = "“我觉得，没有不能使用的武器！如果觉得难以使用，那也一定也是使用者的技艺还不够吧。不管怎么样，既然已经被制造出来了，可没有理由让它这样孤独！”<br>上述话语，是红豆选择这把长枪的基本理由。<br>红豆的长枪被制造出来之后，由于结构新颖维护复杂而且难以操作，导致它的销路始终不畅，最终成为了仓库积压产品。而实际上购买武器的时候，红豆准备的资金本能购入更好的武器，但她一眼就看中了仓库角落的这杆长枪。<br>操纵这杆长枪需要十足的力量和扎实的技巧，于是红豆便将日常的锻炼量增加到了两倍；为了进一步提升长枪的威力，红豆还联系了原制造厂定制了新的枪刃，并不断地钻研长枪各种可行的组装方案。<br>经红豆改装过的长枪，已经在她的手中成为了一把轻便、锐利、延展性强、而且威力十足的优质武器。而红豆为了更好的操作使用它，也努力锻炼出了更加强健的身体，战斗的技巧也在不断提升着。<br>红豆从未觉得自己有停下脚步的可能。每一次的训练，每一次的战斗，都让她觉得自己仍在变得更好，而自己的边界——还远远没有触及到。",
       archive4 = "干员红豆加入罗德岛在流程上显得相当正式——简历投递、面试交流、测试检验，最终在她的各项指标均满足罗德岛的任职需求，并获得所有高层人员的许可后，红豆正式加入了罗德岛。<br>提及为何选择加入罗德岛时，红豆给出的答案非常简单：<br>“这里充满了精彩的生命，很多很多，我能感受的到哦。”",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "别、别摸我的头！会长不高的！",
     cn037 = "明日方舟。",
     cn042 = "有事吗？",
-  },
-  skins = {
-
   },
 }
 

@@ -15,11 +15,6 @@ return {
   faction = "Great Lungmen",
   stars = 4,
   class = "Specialist",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 824,
     atk = 252,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-sqrrel-1",
-      name = "水蒸气泵",
+      name = "Steam Pump",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击会把目标往攻击方向<span style='color:#0098DC;'>较大力地</span>推开，并造成相当于攻击力<span style='color:#0098DC;'>1.05<span>/</span>1.24<span>/</span>1.35<span>/</span>1.5</span>的物理伤害",
+      description = "The next attack will push the target away with large force, dealing <span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>124%</span>/<span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>150%</span> physical damage",
       sp = { 6, 6, 6, 6, 6, 6, 6, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-sqrrel-2",
-      name = "高压水炮",
+      name = "High-pressure Water Cannon",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即将前方两格内所有敌人往攻击方向<span style='color:#0098DC;'>较大力地</span>推开，并造成相当于攻击力<span style='color:#0098DC;'>1.8<span>/</span>2.1<span>/</span>2.4<span>/</span>3</span>的物理伤害",
+      description = "Immediately push away all enemies 2 tiles ahead with large force, dealing <span style='color:#0098DC;'>180%</span>/<span style='color:#0098DC;'>210%</span>/<span style='color:#0098DC;'>240%</span>/<span style='color:#0098DC;'>300%</span> physical damage",
       sp = { 20, 20, 20, 20, 20, 20, 20, 19, 18, 17 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "防火护服",
-        description = "法术抗性+7",
+        name = "Fire-fighting Gear",
+        description = "Magic resistance +7",
       },
       rank2 = {
         level = 1,
-        name = "防火护服",
-        description = "法术抗性+15",
+        name = "Fire-fighting Gear",
+        description = "Magic resistance +15",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "工程学",
+      name = "Engineering",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>基建材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+      description = "When stationed at the Synthesis Station and producing infrastructure materials, increase the rate of by-products by 70%"
     },
     {
-      name = "设备维护",
+      name = "Equipment Maintenance",
       badge = "power",
       facility = "POWER",
       unlockIcon = "elite1",
-      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+15%</span>"
+      description = "When stationed at a Power Station, drone recovery per hour +15%"
     },
   },
   meta = {
     illustrator = "阿鬼",
     voiceActor = "广桥凉",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -334,7 +328,7 @@ return {
       archive2 = "身形娇小的阿消能够取得同伴们的高度肯定与信赖，得益于她在消防专业工作中的严谨态度与职业操作。发生于冬季的一次大型火灾抢险行动充分证明了阿消的能力：因违规使用取暖设备导致的一次室内火灾最终点燃整栋大楼时，阿消数次冲入火场疏散受困人群，救助身陷困境的无辜市民，最终成功地主导了一次伤亡为零的救灾行动。事后由龙门执政长官魏彦吾的亲自接见，更是使得阿消的身影占据了龙门当地报纸头版的位置。<br>在这之后，正是由于魏彦吾与近卫局的推荐，阿消得以进入罗德岛，为罗德岛提供有关消防安全技术与保障的相关服务。这项调派显而易见的为罗德岛带来了好处：鉴于大多数干员对火灾防护认知的不足与缺乏相关训练，由一位极为专业的消防安全专员提供的服务是必不可少的。<br>而当阿消亲自查看了罗德岛内复杂的通行结构和消防设施，并了解了部分可以随意操弄火焰法术的干员们的存在后，她很快就明白了自己将要面临的艰巨挑战。",
       archive3 = "为配合阿消的日常工作，罗德岛设备小组为其提供了更为便利的便携消防设备，以及敏感温度检测仪器，然而这台仪器很快就因超限使用而报废了——干员天火与干员伊芙利特均表示自己对这台纤细敏感的仪器的报废不负有任何责任。<br>对此，阿消决定采用有效但稍显传统的方式：编撰易引发火灾的干员名录，同时立刻对罗德岛全体成员进行防火防灾知识普及。第一次火灾知识讲座在凯尔希医生缺席的情况下隆重召开，阿消为干员们展示了自己精心策划的防火知识普及幻灯片（包含各色警示性的火场图片）。整台讲座在阿消独特的快速发言中顺利结束，与会的罗德岛成员们对阿消报以热烈的掌声的同时，纷纷表示自己基本没有听懂讲台上的她到底说了些什么（部分干员表示自己只听到了声音却半天都找不到讲师在哪）。<br>面对预料之外的坎坷局面，阿消仅仅消沉了半天时间便恢复了精神。她始终明白一个道理：人生路上也许有着数不清的坎坷，但火情是永远不会等待一个消沉的人的。",
       archive4 = "根据阿消的回忆，她对火灾的初次认知，来源于她曾经心爱的一家坚果专档因火灾而被彻底焚毁的事故。当她发现，灾难或许因人的意志而产生，但却从不会因人的意志而消失这个事实后，她开始产生了成为一名消防专家的想法。她希望能够避免那些因灾难而产生的，美好的事物彻底消失的故事。这种想法也塑造了阿消对于罗德岛干员的理解。当她发现一些抱有切实恶意或扭曲意志的人在引发灾难，为周遭的人造成不安全的后果时，她愿意去通过自己的行动消除这些灾难。对阿消来说，不再被灾难阴影笼罩下的人们的幸福，与自己收到又大又圆的榛果时的幸福，也许是相同珍贵的，值得保护的事物。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "脸要被捏扁了啦！",
     cn037 = "明日方舟。",
     cn042 = "有事吗长官！",
-  },
-  skins = {
-
   },
 }
 

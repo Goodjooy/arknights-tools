@@ -15,11 +15,6 @@ return {
   faction = "Kjerag",
   stars = 5,
   class = "Supporter",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 629,
     atk = 193,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-slbell-1",
-      name = "传音回响",
+      name = "Echo Reverb",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "同时攻击<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>2</span>个目标，攻击范围内所有敌人攻击速度<span style='color:#0098DC;'>--30<span>/</span>-40<span>/</span>-50<span>/</span>-60</span>",
+      description = "Attacks <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-30</span>/<span style='color:#0098DC;'>-40</span>/<span style='color:#0098DC;'>-50</span>/<span style='color:#0098DC;'>-60</span> attack speed",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 20 },
     },
     {
       icon = "skchr-slbell-2",
-      name = "自然震慑",
+      name = "Natural Shock",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围内所有敌人防御力<span style='color:#0098DC;'>--0.35<span>/</span>-0.4<span>/</span>-0.45<span>/</span>-0.6</span>，法术抗性<span style='color:#0098DC;'>--0.2<span>/</span>-0.23<span>/</span>-0.26<span>/</span>-0.3</span>",
+      description = "All enemies within attack range have <span style='color:#0098DC;'>-35%</span>/<span style='color:#0098DC;'>-40%</span>/<span style='color:#0098DC;'>-45%</span>/<span style='color:#0098DC;'>-60%</span> defense and <span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-23%</span>/<span style='color:#0098DC;'>-26%</span>/<span style='color:#0098DC;'>-30%</span> magic resistance",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 10, 11, 12, 14, 15, 16, 18, 20, 22, 25 },
     },
@@ -286,20 +281,20 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "虚弱化",
-        description = "攻击范围内的敌人生命少于40%时，其受到的伤害提升至115%",
+        name = "Weakening",
+        description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%",
       },
       rank2 = {
         level = 1,
-        name = "虚弱化",
-        description = "攻击范围内的敌人生命少于40%时，其受到的伤害提升至130%",
+        name = "Weakening",
+        description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 130%",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "双响",
-        description = "攻击时同时攻击两个目标",
+        name = "Weakening",
+        description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%",
       },
     },
   },
@@ -320,24 +315,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "喀兰圣女",
+      name = "Saintess of Karlan",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.5</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.25</span>"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.5 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.25"
     },
     {
-      name = "辅助专精·β",
+      name = "Supporter Specialization·β",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite2",
-      description = "进驻训练室协助位时，辅助干员的专精技能训练时间<span style='color:#0098DC;'>-50%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Supporter operatives by -50%"
     },
   },
   meta = {
     illustrator = "竜崎いち",
     voiceActor = "早见沙织",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -405,9 +399,6 @@ return {
     cn036 = "闭上眼，让我带你去个新的地方......一定要闭眼哦。",
     cn037 = "明日方舟。",
     cn042 = "祝福你，博士。",
-  },
-  skins = {
-
   },
 }
 

@@ -11,15 +11,10 @@ return {
   fileKey = "Vulcan",
   team = -1,
   position = "Melee",
-  roles = { "生存", "防护", "DPS" },
+  roles = { "Survival", "Protection", "DPS" },
   faction = "Rhodes Island",
   stars = 5,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1574,
     atk = 344,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-hpsts-1",
-      name = "坚守模式",
+      name = "Guard Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "阻挡数<span style='color:#0098DC;'>+1</span>，防御力<span style='color:#0098DC;'>+0.6<span>/</span>0.75<span>/</span>0.9<span>/</span>1.2</span>，每秒额外恢复最大生命的<span style='color:#0098DC;'>0.02<span>/</span>0.03<span>/</span>0.04<span>/</span>0.05</span>",
+      description = "Block count +1, Defense power +<undefined>60%</>/<undefined>75%</>/<undefined>90%</>/<undefined>120%</>, additionally recover <span style='color:#0098DC;'>2%</span>/<span style='color:#0098DC;'>3%</span>/<span style='color:#0098DC;'>4%</span>/<span style='color:#0098DC;'>5%</span> of Max HP every second",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-hpsts-2",
-      name = "武力模式",
+      name = "Offense Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "阻挡数<span style='color:#FF6237;'>-1</span>，攻击间隔略微<span style='color:#FF6237;'>增大</span>，攻击力<span style='color:#0098DC;'>+0.65<span>/</span>0.85<span>/</span>1.05<span>/</span>1.5</span>，每次攻击恢复自身最大生命值的<span style='color:#0098DC;'>0.05<span>/</span>0.06<span>/</span>0.07<span>/</span>0.1</span>，同时攻击阻挡的所有敌人",
+      description = "Block count -1, Slightly increase attack interval, Attack power +<undefined>65%</>/<undefined>85%</>/<undefined>105%</>/<undefined>150%</>, every attack recovers <span style='color:#0098DC;'>5%</span>/<span style='color:#0098DC;'>6%</span>/<span style='color:#0098DC;'>7%</span>/<span style='color:#0098DC;'>10%</span> of Max HP, attacks all blocked enemies simultaneously",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "自我防护",
-        description = "技能开启时，每秒恢复最大生命值4%的生命",
+        name = "Self-defense",
+        description = "While skill is active, recover 4% Max HP every second",
       },
       rank2 = {
         level = 1,
-        name = "自我防护",
-        description = "技能开启时，每秒恢复最大生命值4%的生命，同时获得25%的近战物理闪避",
+        name = "Self-defense",
+        description = "While skill is active, recover 4% Max HP every second and gain 25% melee physical evasion",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "工匠精神·α",
+      name = "Craftsmanship·α",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，生产力<span style='color:#FF6237;'>-10%</span>，仓库容量上限<span style='color:#0098DC;'>+16</span>，每小时心情消耗<span style='color:#0098DC;'>-0.05</span>"
+      description = "When stationed at a Craft Station, production-10%, storage capacity +16 and mood reduction per hour -0.05"
     },
   },
   meta = {
     illustrator = "neco",
     voiceActor = "佐藤利奈",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -332,7 +326,7 @@ return {
       archive2 = "经常会有干员提出这样的疑惑：为什么火神小姐被归类为机甲干员？她明明只有右腿是机械。<br>事实上目睹过火神小姐战斗方式的人就会明白：火神小姐在战斗中，是用她的机械右腿进行攻击的。<br>经过她精心的改装，她的机械右腿普通状态的功率就与她全力挥舞铁锤相当，在这种情况下，她的主要进攻手段也就自然而然地变为了右腿，而她身体的其他部位，往往被手中的巨盾保护得很好。<br>因此，在战斗中主要会受到损耗的也会是她的右腿，在这种情况下，治疗法术自然无法对她起到很大的帮助。",
       archive3 = "正如火神小姐所说，跟不上时代的人理应被淘汰。<br>在时间步入近代后，铁匠这个行业事实上也早已摆脱了在火炉边挥汗如雨的印象，他们更多地是利用发达的工业器械来更高效率地制造武器。<br>在火神小姐的铁匠铺中，就摆放着各种当今最为先进的机器，并且每隔一段时间还会得到更新。也正是这个在罗德岛基地中较为偏僻的小角落，支撑起了所有罗德岛干员的武器维护工作。",
       archive4 = "然而，在火神小姐的铁匠铺中，事实上最显眼的却并不是那些先端设备，而是——巨大的锻造台与火炉。是的，正是她口中“跟不上时代”的设备。<br>而火神小姐每天都会在锻造台上升起火，找来一块铁锭，敲打一段时间，一如那些古老的铁匠们所做的那样。<br>当然，武器的制作与维护都与这项行为无关，她这么做更像是在进行某种仪式，不过她从不解释其中含义。<br>或许，对她来说，跟不上时代的人固然应该被淘汰，但那些完全抛弃传统的人，也不配再被称为铁匠吧。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -391,9 +385,6 @@ return {
     cn036 = "想要什么好装备了吗？我可以试着帮你做出来。",
     cn037 = "明日方舟。",
     cn042 = "早安，博士。",
-  },
-  skins = {
-
   },
 }
 

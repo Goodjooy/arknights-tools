@@ -11,15 +11,10 @@ return {
   fileKey = "Perfumer",
   team = -1,
   position = "Ranged",
-  roles = { "治疗" },
+  roles = { "Healing" },
   faction = "Rhodes Island",
   stars = 4,
   class = "Medic",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 710,
     atk = 117,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-2",
-      name = "治疗强化·β型",
+      name = "Healing Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.15<span>/</span>0.3<span>/</span>0.5<span>/</span>0.7</span>",
+      description = "Attack power +<undefined>15%</>/<undefined>30%</>/<undefined>50%</>/<undefined>70%</>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-flower-2",
-      name = "精调",
+      name = "Fine-tuning",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#FF6237;'>--50<span>/</span>-50<span>/</span>-50<span>/</span>-50</span>，攻击力<span style='color:#0098DC;'>+1.5<span>/</span>1.8<span>/</span>2.1<span>/</span>2.5</span>",
+      description = "Attack speed <span style='color:#FF6237;'>-50</span>/<span style='color:#FF6237;'>-50</span>/<span style='color:#FF6237;'>-50</span>/<span style='color:#FF6237;'>-50</span>, Attack power +<undefined>150%</>/<undefined>180%</>/<undefined>210%</>/<undefined>250%</>",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "熏衣草",
-        description = "在战场时全体友方单位每秒恢复相当于调香师攻击力3%的生命",
+        name = "Lavender",
+        description = "When deployed, heal all allies for 3% of Perfumer's Attack power every second",
       },
       rank2 = {
         level = 1,
-        name = "熏衣香",
-        description = "在战场时全体友方单位每秒恢复相当于调香师攻击力5%的生命",
+        name = "Incense",
+        description = "When deployed, heal all allies for 5% of Perfumer's Attack power every second",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "药理学",
+      name = "Pharmacology",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>75%</span>"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
     {
-      name = "标准化·β",
+      name = "Standardization·β",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite1",
-      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+25%</span>"
+      description = "When stationed at a Craft Station, production +25%"
     },
   },
   meta = {
     illustrator = "Lanzi",
     voiceActor = "高桥李依",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -334,7 +328,7 @@ return {
       archive2 = "莱娜成长于一个兴旺发达的家族，不必为生计发愁，这样的家庭环境使得她可以尽情投入自己的兴趣而不必承担太多的风险。莱娜热爱自然，喜欢植物、花香和阳光，选择调香师作为职业正是对这份热爱的回应。<br>作为调香师的莱娜以专注而努力的态度对待自己的工作，并且她已经决定在不借助家庭帮助的情况下，将这份工作发展为自己的一项事业。在最初的阶段，较少亲自体验劳动与工作的莱娜吃了许多苦头，调香的学习和实践均遭遇了一段时间的低谷。但出身大家的莱娜凭借长久养成的骄傲和自信，将本应沉浸于沮丧于沮丧中的情绪化为了自身前进的行动力，以惊人的毅力熬过了最艰难的时期。<br>当莱娜用沾满泥土的双手，捧起由自己亲手栽培的花束时，她嗅到了一阵从未体验过的芳香。",
       archive3 = "在进入罗德岛并任职于疗养庭园期间，莱娜经过凯尔希医生的许可，将罗德岛一处闲置空间改造为一间小型温室。莱娜将自己所培育的花种栽种在温室中，同时在花园内建立了调香工作室。<br>经莱娜之手混合的不同植物原料制成的香料，拥有使人陷入丰富的情绪和想象的效果。她将这种技术用于辅助治疗，尤其对于部分受矿石病影响，进而诱发精神障碍的患者，这种疗法具备稳定精神波动的良好效果。",
       archive4 = "就职于疗养庭园期间，莱娜展现出的温柔，耐心和十足的修养，以及足以令人沉醉其中的调制香薰，使她在干员之间颇受欢迎。对此，莱娜也在积极地回应着大家对自己的喜爱。<br>在医疗组的协助下，莱娜开始接收部分需要调养的患者。其中显著的案例来自于干员夜魔：这名因患有矿石病引发的双重人格障碍的柔弱菲林族人，在莱娜的悉心照料下，已经将其病症发作的周期控制在了较为稳定的状态下，两人也因此结下了友谊。<br>在来来往往，光顾温室的人员中，博士的出现引起了莱娜的注意。照料这位对干员们来说举足轻重的人物，成了莱娜将要面对的崭新的使命。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "博士身上......有着美妙的香气呢。",
     cn037 = "明日方舟。",
     cn042 = "博士，您好。",
-  },
-  skins = {
-
   },
 }
 

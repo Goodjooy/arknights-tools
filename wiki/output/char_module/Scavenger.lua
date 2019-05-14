@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 4,
   class = "Vanguard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 693,
     atk = 185,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-2",
-      name = "冲锋号令·β型",
+      name = "Assault Order·Type β",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>9<span>/</span>9<span>/</span>9<span>/</span>9</span>点部署费用",
+      description = "Immediately obtain <span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span> cost",
       sp = { 39, 38, 37, 36, 35, 34, 33, 32, 31, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-scave-2",
-      name = "冲锋号令·攻击",
+      name = "Assault Order·Attack",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>11<span>/</span>11<span>/</span>11<span>/</span>11</span>点部署费用\n攻击力<span style='color:#0098DC;'>+0.2<span>/</span>0.3<span>/</span>0.4<span>/</span>0.7</span>",
+      description = "Immediately obtain <span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span> cost. Attack power +<undefined>20%</>/<undefined>30%</>/<undefined>40%</>/<undefined>70%</>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "单独行动者",
-        description = "当周围四格内没有其他友方单位时，攻击力和防御力各+5%",
+        name = "Lone Wolf",
+        description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +5%",
       },
       rank2 = {
         level = 1,
-        name = "单独行动者",
-        description = "当周围四格内没有其他友方单位时，攻击力和防御力各+11%",
+        name = "Lone Wolf",
+        description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +11%",
       },
     },
   },
@@ -312,20 +307,19 @@ return {
       badge = "control",
       facility = "CONTROL",
       unlockIcon = "elite0",
-      description = "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<span style='color:#0098DC;'>-0.05</span>"
+      description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
     },
     {
-      name = "拾荒者",
+      name = "Scavenger",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite1",
-      description = "进驻制造站时，仓库容量上限<span style='color:#0098DC;'>+8</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+      description = "When stationed at a Craft Station, storage capacity +8 and mood reduction per hour -0.25"
     },
   },
   meta = {
     illustrator = "戏言咸咸",
     voiceActor = "大地叶",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -393,9 +387,6 @@ return {
     cn036 = "你也想被“清理”一下吗？",
     cn037 = "明日方舟。",
     cn042 = "有任务？",
-  },
-  skins = {
-
   },
 }
 

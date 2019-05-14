@@ -11,15 +11,10 @@ return {
   fileKey = "Gavial",
   team = -1,
   position = "Ranged",
-  roles = { "治疗" },
+  roles = { "Healing" },
   faction = "Rhodes Island",
   stars = 4,
   class = "Medic",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 851,
     atk = 159,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-ccheal-1",
-      name = "活力再生",
+      name = "Revitalization",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<span style='color:#0098DC;'>0.2<span>/</span>0.23<span>/</span>0.26<span>/</span>0.35</span>（血量低于一半时为<span style='color:#0098DC;'>0.2<span>/</span>0.23<span>/</span>0.26<span>/</span>0.35</span>）的生命，持续<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>4<span>/</span>5</span>秒\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>2次</span>",
+      description = "On the next heal, additionally heal the target for <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>23%</span>/<span style='color:#0098DC;'>26%</span>/<span style='color:#0098DC;'>35%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>46%</span>/<span style='color:#0098DC;'>52%</span>/<span style='color:#0098DC;'>70%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> seconds. Can hold <undefined>1</>/<undefined>1</>/<undefined>2</>/<undefined>2</> charge(s)",
       sp = { 10, 10, 10, 9, 9, 9, 9, 9, 9, 8 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-ccheal-2",
-      name = "活力再生·广域",
+      name = "Revitalization·Area",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<span style='color:#0098DC;'>0.15<span>/</span>0.18<span>/</span>0.21<span>/</span>0.3</span>（血量低于一半时为<span style='color:#0098DC;'>0.15<span>/</span>0.18<span>/</span>0.21<span>/</span>0.3</span>）的生命，持续<span style='color:#0098DC;'>7<span>/</span>7<span>/</span>7<span>/</span>10</span>秒",
+      description = "Heal all allies within range for <span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>18%</span>/<span style='color:#0098DC;'>21%</span>/<span style='color:#0098DC;'>30%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>38%</span>/<span style='color:#0098DC;'>44%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span> when HP is below 1/2) for <span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>10</span> seconds.",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "战地医师",
-        description = "部署后全体友方【医疗】职业干员攻击力+5%，防御力+50，持续15秒",
+        name = "Battlefield Medic",
+        description = "After deployment, all ally 【Medic】 operatives gain Attack power +5%, Defense power +50 for 15 seconds",
       },
       rank2 = {
         level = 1,
-        name = "战地医师",
-        description = "部署后全体友方【医疗】职业干员攻击力+10%，防御力+100，持续15秒",
+        name = "Battlefield Medic",
+        description = "After deployment, all ally 【Medic】 operatives gain Attack power +10%, Defense power +100 for 15 seconds",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "药理学",
+      name = "Pharmacology",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>75%</span>"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
     {
-      name = "医疗专精·α",
+      name = "Medic Specialization·α",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite1",
-      description = "进驻训练室协助位时，医疗干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Medic operatives by -30%"
     },
   },
   meta = {
     illustrator = "LLC",
     voiceActor = "诹访彩花",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -333,8 +327,8 @@ return {
       archive1 = "各种意义上都不像是医生的医生，经常会被怀疑手中的魔杖是用来敲人而非使用治疗法术的。<br>为人直爽，深入接触之后会发现她是一个十分尽职的医生，不过在那之前，往往要先经过害怕被她失手做掉等一系列疑虑的洗礼。<br>一般不给人摸尾巴。",
       archive2 = "阿达克里斯在世人中眼中，一直是个全民尚武的族群，从他们之中走出的，无一不是骁勇善战的战士，而像嘉维尔小姐这样的医生却是绝无仅有。<br>更让人奇怪的是，虽然她确实拥有阿达克里斯中少见的治疗法术天赋，但这并不意味着她的战斗能力有任何缺陷。相反，她的综合战斗能力相当之高，这样的她究竟为什么会成为一名医生呢？幸好，她并不忌讳谈起她的过去：<br>曾经，她也是自己部族数一数二的战士。但在觉醒了治疗法术天赋后，她毅然选择了以救死扶伤为己任。<br>......是的，就这么简单，如同她这个人一样，即使因此被同胞排斥，最终被迫离开部族，她也从未后悔过。",
       archive3 = "嘉维尔小姐感染矿石病的经历，在她的口中，也和她成为医生的经历一样简单明了：<br>冲进矿区救人，然后感染了。<br>在她口中，成为医生而被族人排挤也好，感染矿石病后遭受的冷眼也好，似乎都是不值一提的小事。<br>她现在在这里，她为每个人疗伤，对她来说，这样就足够了。<br>这样的嘉维尔小姐，是值得每个人去尊敬和学习的。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "想让我老实听话？不 可 能！",
     cn037 = "明日方舟。",
     cn042 = "哟，博士。",
-  },
-  skins = {
-
   },
 }
 

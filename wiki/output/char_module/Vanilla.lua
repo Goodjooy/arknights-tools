@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 3,
   class = "Vanguard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 711,
     atk = 168,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skchr-wyvern-1",
-      name = "冲锋号令·援军",
+      name = "Assault Order·Reinforcements",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "获得<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span></span>点部署费用，攻击力<span style='color:#0098DC;'>+0.05<span>/</span>0.2<span>/</span>0.35<span>/</span></span>",
+      description = "Immediately obtain <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/ cost, Attack power +<undefined>5%</>/<undefined>20%</>/<undefined>35%</>/",
       sp = { 25, 25, 25, 23, 22, 21, 20 },
       duration = { 10, 10, 10, 10, 10, 10, 10 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "攻击提升",
-        description = "攻击力+8%",
+        name = "Attack Increase",
+        description = "Attack power +8%",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "标准化·β",
+      name = "Standardization·β",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+25%</span>"
+      description = "When stationed at a Craft Station, production +25%"
     },
     {
-      name = "订单分发·α",
+      name = "Order Distribution·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite1",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+20%</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },
   },
   meta = {
     illustrator = "m9nokuro",
     voiceActor = "杉浦栞",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -260,8 +254,8 @@ return {
       archive1 = "稍显稚嫩的黑钢国际派遣干员。<br>虽然加入黑钢也没有经过很长时间，但因为其努力认真的态度而破格成为派往罗德岛的干员之一。<br>虽然身高比雷蛇与芙兰卡都要高不少，不过经常会看到她对两人唯唯诺诺的光景。",
       archive2 = "香草十分爱护动物，在有关动物的话题上，平时有些沉默的她会表现出明显的热情，这一点似乎也与她离开家乡的原因有关。<br>不过，因为她爱护的动物对象还包括了源石蜗牛等在常人看来有些难以接受的生物，偶尔也会吓到旁人。",
       archive3 = "由于出身与世隔绝的部族，香草在黑钢接受培训时，相比普通学员，有一门叫常识课的额外课程。<br>据芙兰卡说，她最早见到香草时，这大姑娘对基地里的自动门都会一惊一乍。<br>事实上即使现在，香草似乎也没有适应罗德岛的大部分设施。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -318,9 +312,6 @@ return {
     cn036 = "博士，要一起吃晚饭吗？",
     cn037 = "明日方舟。",
     cn042 = "博士，早。",
-  },
-  skins = {
-
   },
 }
 

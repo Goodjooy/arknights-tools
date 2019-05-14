@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 4,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 743,
     atk = 239,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-doberm-1",
-      name = "强力击·β型",
+      name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.7<span>/</span>1.85<span>/</span>2<span>/</span>2.3</span>",
+      description = "The next attack deals <span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>185%</span>/<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>230%</span> damage",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-doberm-2",
-      name = "鞭策",
+      name = "Supervision",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.4<span>/</span>0.5<span>/</span>0.8</span>，天赋的效果提升至<span style='color:#0098DC;'>2.1<span>/</span>2.4<span>/</span>2.7<span>/</span>3</span>倍",
+      description = "Attack power +<undefined>30%</>/<undefined>40%</>/<undefined>50%</>/<undefined>80%</>, Increase effect of self talent by {talent_scale}x",
       sp = { 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "新人教官",
-        description = "所有三星干员的攻击力+5%",
+        name = "Instructor",
+        description = "All 3* operatives gain Attack power +5%",
       },
       rank2 = {
         level = 1,
-        name = "新人教官",
-        description = "所有三星干员的攻击力+10%",
+        name = "Instructor",
+        description = "All 3* operatives gain Attack power +10%",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "左膀右臂",
+      name = "Competent",
       badge = "control",
       facility = "CONTROL",
       unlockIcon = "elite0",
-      description = "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<span style='color:#0098DC;'>-0.05</span>"
+      description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
     },
     {
-      name = "教官",
+      name = "Instructor",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite1",
-      description = "进驻训练室协助位时，干员的训练时间<span style='color:#0098DC;'>-25%</span>"
+      description = "When stationed at the Training Station, operative skill training time -25%"
     },
   },
   meta = {
     illustrator = "LLC",
     voiceActor = "种崎敦美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -333,8 +327,8 @@ return {
       archive1 = "不苟言笑的铁面教官。<br>每一个新加入罗德岛的干员，无论在加入之前拥有怎样的光辉过去，都必须要接受杜宾小姐的洗礼。再桀骜不驯的烈马，经过她的调教，也会逐渐融入这个群体。",
       archive2 = "罗德岛的教官并不只有杜宾小姐一人，在她的手下，还有一批训练有素，负责各项专门训练的教官。<br>这些教官几乎全都是经过杜宾小姐调教的基层干员，在经过严格的选拔后脱颖而出，毫不夸张地说，他们肩负起了为罗德岛开创未来的重要使命。",
       archive3 = "军人出身的杜宾小姐十分看重纪律，在她的手下训练，要承受十数条苛刻的规则，而且她绝不容忍任何破坏纪律的行为，这使得她在许多干员看来有些难以接近。<br>但同时，她也十分关心其他干员的饮食平衡，身体状况，甚至是精神面貌，并且如果有正当理由，她也从来没有勉强任何干员要求他们付出超出自身承受范围的努力。只不过，她的这些付出很少被人察觉。<br>当然，归根结底，这也是她不擅表达的性格所致，随着她也罗德岛的关系不断加深，能够理解她的人也会不断出现吧。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "让我心情变好的方法啊......哼，也许，参与一场审讯也可以。",
     cn037 = "明日方舟。",
     cn042 = "早上好，博士。",
-  },
-  skins = {
-
   },
 }
 

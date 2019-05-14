@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 3,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 592,
     atk = 249,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skchr-stward-1",
-      name = "强力击·α型",
+      name = "Powerful Strike·Type α",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.5<span>/</span>1.7<span>/</span>1.9<span>/</span></span>",
+      description = "The next attack deals <span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>190%</span>/ damage",
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "铠甲突破",
-        description = "攻击力+6%，优先攻击防御力最高的敌人",
+        name = "Armor Break",
+        description = "Attack power +6%, prioritize attacking the enemy with the highest defense",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "谈判",
+      name = "Negotiation",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单上限<span style='color:#0098DC;'>+3</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+      description = "When stationed at a Trade Station, order limit +3 and mood reduction per hour -0.25"
     },
     {
-      name = "标准化·β",
+      name = "Standardization·β",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite1",
-      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+25%</span>"
+      description = "When stationed at a Craft Station, production +25%"
     },
   },
   meta = {
     illustrator = "一立里子",
     voiceActor = "铃木千寻",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -260,8 +254,8 @@ return {
       archive1 = "史都华德出生于谢拉格南部领地，在双亲的教育下度过了童年时代。他流露出与同龄玩伴截然不同的沉稳气质，并初步展现出对源石法术的一定天赋。但鉴于雪境的环境与研读源石法术所需的高昂费用，一度使史都华德任由自己的法术天赋掩埋在谢拉格无尽的风雪中。",
       archive2 = "谢拉格南领地长期作为谢拉格地区的出口，在银灰家族颁布新经济政策刺激下，由哥伦比亚、莱塔尼亚、雷姆必拓的商人们启动了数次投资计划。在此期间，史都华德主动申请成为各国商人开展商业活动的向导与本地服务人员，并作为商品展示模特等多种工作。来自哥伦比亚的崭新商品使史都华德感到印象深刻。而史都华德的优良服务亦使商人们为此交口称赞。",
       archive3 = "雪蓝短法杖<br>品质认证：莱塔尼亚法术协会监制<br>生产商：鲁道夫兄弟短杖设计工作室<br>产品编号：ADD-143.<br>史都华德使用的雪蓝色法杖。<br>术师开始熟练掌握法术技巧的证明，把柄处篆刻有“Legendary future”字样。<br>使用它释放法术时，耳边仿佛能听到谢拉格风雪的呼啸。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Male",
@@ -316,9 +310,6 @@ return {
     cn036 = "有什么我能为您效劳的吗，博士？",
     cn037 = "明日方舟。",
     cn042 = "请多关照，博士。",
-  },
-  skins = {
-
   },
 }
 

@@ -15,11 +15,6 @@ return {
   faction = "Kazimierz",
   stars = 4,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 612,
     atk = 159,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-shotst-1",
-      name = "碎甲击",
+      name = "Armor-crushing Shot",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下一次攻击造成相当于攻击力<span style='color:#0098DC;'>1.2<span>/</span>1.35<span>/</span>1.5<span>/</span>1.8</span>的物理伤害，5<span>/</span>5<span>/</span>5<span>/</span>5秒内使命中目标的防御力<span style='color:#0098DC;'>--0.2<span>/</span>-0.25<span>/</span>-0.3<span>/</span>-0.35</span>",
+      description = "The next attack deals <span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>180%</span> physical damage and inflicts <span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-25%</span>/<span style='color:#0098DC;'>-30%</span>/<span style='color:#0098DC;'>-35%</span> defense to the target for <undefined>5</>/<undefined>5</>/<undefined>5</>/<undefined>5</> seconds",
       sp = { 5, 5, 5, 5, 5, 5, 4, 4, 4, 4 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-shotst-2",
-      name = "碎甲击·扩散",
+      name = "Armor-crushing Shot·Spread",
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即对攻击范围内至多<span style='color:#0098DC;'>5</span>个敌人造成相当于攻击力<span style='color:#0098DC;'>1.4<span>/</span>1.55<span>/</span>1.7<span>/</span>2</span>的物理伤害，<span style='color:#0098DC;'>5<span>/</span>5<span>/</span>5<span>/</span>5</span>秒内使命中目标的防御力<span style='color:#0098DC;'>--0.25<span>/</span>-0.3<span>/</span>-0.35<span>/</span>-0.4</span>",
+      description = "Immediately deal <span style='color:#0098DC;'>140%</span>/<span style='color:#0098DC;'>155%</span>/<span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>200%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-25%</span>/<span style='color:#0098DC;'>-30%</span>/<span style='color:#0098DC;'>-35%</span>/<span style='color:#0098DC;'>-40%</span> defense to the targets for <span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span> seconds",
       sp = { 20, 20, 20, 19, 19, 19, 18, 17, 16, 15 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "空射专精",
-        description = "攻击飞行目标时，攻击力+20%",
+        name = "Anti-air Specialization",
+        description = "When attacking flying targets, Attack power +20%",
       },
       rank2 = {
         level = 1,
-        name = "空射专精",
-        description = "攻击飞行目标时，攻击力+35%",
+        name = "Anti-air Specialization",
+        description = "When attacking flying targets, Attack power +35%",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "标准化·α",
+      name = "Standardization·α",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+15%</span>"
+      description = "When stationed at a Craft Station, production +15%"
     },
     {
-      name = "善解人意",
+      name = "Empathetic",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite1",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.55</span>（同种效果取最高）"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {
     illustrator = "HUG",
     voiceActor = "福原绫香",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -334,7 +328,7 @@ return {
       archive2 = "流星十分不习惯电子器械。<br>对她来说，操控这些东西似乎是比感染了矿石病还要头疼的事，这使得她最初加入罗德岛时，遇到了和其他人全然不同的水土不服问题。<br>事实上即使到了现在，流星已经成为了资深干员，她也在尽可能避免使用电子器械。",
       archive3 = "在复合弓逐渐取代反曲弓的潮流下，流星依然坚持使用反曲弓。<br>一方面，这对她来说是一种纪念，纪念过去共同战斗的伙伴，以及在森林中的生活。<br>另一方面，以她的能力，即使没有复合弓的各种辅助，也能达到符合战术标准甚至在那之上的杀伤力。",
       archive4 = "在离开森林后，无处可去的流星流浪了一段时间，不习惯现代社会生活的她饱尝了世间冷暖，也发现了人们对矿石病的恐惧。<br>不过这些都没有让她对生活失去信心，她最后找到了罗德岛，希望能够作为干员工作的同时，接受治疗，罗德岛自然不会拒绝这样的人才。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "和博士在一起的时光，就像沐浴在春天的阳光里一样温暖，很舒服。",
     cn037 = "明日方舟。",
     cn042 = "博士，您好。",
-  },
-  skins = {
-
   },
 }
 

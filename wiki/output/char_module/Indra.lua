@@ -11,15 +11,10 @@ return {
   fileKey = "Indra",
   team = 10,
   position = "Melee",
-  roles = { "DPS", "生存" },
+  roles = { "DPS", "Survival" },
   faction = "Victoria",
   stars = 5,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1071,
     atk = 206,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-tiger-1",
-      name = "碎甲拳",
+      name = "Armor-crushing Fist",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力<span style='color:#0098DC;'>+0.5<span>/</span>0.8<span>/</span>1.1<span>/</span>1.4</span>，无视目标防御<span style='color:#0098DC;'>0.35<span>/</span>0.4<span>/</span>0.45<span>/</span>0.6</span>",
+      description = "The next attack deals +<undefined>50%</>/<undefined>80%</>/<undefined>110%</>/<undefined>140%</> damage and ignores <span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span> of enemy defense",
       sp = { 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-tiger-2",
-      name = "裂魂",
+      name = "Soul Rend",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.45<span>/</span>0.6<span>/</span>0.75<span>/</span>1.2</span>，伤害类型变为<span style='color:#0098DC;'>法术</span>，每次攻击恢复相当于造成伤害<span style='color:#0098DC;'>0.1<span>/</span>0.15<span>/</span>0.2<span>/</span>0.25</span>的生命",
+      description = "Attack power +<undefined>45%</>/<undefined>60%</>/<undefined>75%</>/<undefined>120%</>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span> of the damage dealt",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "虎拳迅击",
-        description = "有15%的概率闪避敌人的近战物理攻击，成功闪避后自身下一次攻击攻击力+80%",
+        name = "Tiger Fist",
+        description = "Has 15% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%",
       },
       rank2 = {
         level = 1,
-        name = "虎拳迅击",
-        description = "有30%的概率闪避敌人的近战物理攻击，成功闪避后自身下一次攻击攻击力+100%",
+        name = "Tiger Fist",
+        description = "Has 30% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +100%",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "线索搜集·α",
+      name = "Clue Collection·α",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite0",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at Reception, clue collection speed +10%"
     },
   },
   meta = {
     illustrator = "infukun",
     voiceActor = "原优子",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -332,7 +326,7 @@ return {
       archive2 = "格拉斯哥帮混迹于维多利亚的贫民区，最开始本身是由摩根和因陀罗带领的街头组织。她们霸占了一方的地盘，为了生存过着混乱的生活，直到推进之王出现在了她们面前。对力量有着绝对自信的因陀罗在面对推进之王时第一次尝到了败北的滋味。",
       archive3 = "并不是单纯的因为输了，而是因为推进之王的人格和目标，因陀罗和摩根一起成为了其忠诚的下属和朋友。虽然推进之王自己不喜欢上下级关系，但是对因陀罗来说，自己就是推进之王最忠诚的下属，为其奉献一切。谁又能想到，一个连骑士精神是啥都懒得理解的混混，却远比卡西米尔国内的政府骑士更为纯粹?",
       archive4 = "直来直去的因陀罗最不喜欢的就是油腔滑调的人，刷什么心机，刷什么计谋，战斗不就是要面对面的正面对决吗?只有胆小鬼才会想这些东西！这样的性格让因陀罗在罗德岛和不少豪爽的干员成为了好友，大家会在练习房中切磋战斗经验，流了汗之后再去豪爽的大吃大喝一番，再说说那些智力派干员的坏话，人生诸事还有什么比这更畅快？",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "女 ",
@@ -391,9 +385,6 @@ return {
     cn036 = "来吧！拥抱一下！对，就是拥抱的那个意思！",
     cn037 = "明日方舟。",
     cn042 = "哟！博士。",
-  },
-  skins = {
-
   },
 }
 

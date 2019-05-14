@@ -11,15 +11,10 @@ return {
   fileKey = "Hibiscus",
   team = 2,
   position = "Ranged",
-  roles = { "治疗" },
+  roles = { "Healing" },
   faction = "Rhodes Island",
   stars = 3,
   class = "Medic",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 682,
     atk = 153,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-1",
-      name = "治疗强化·α型",
+      name = "Healing Strengthening·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.1<span>/</span>0.3<span>/</span>0.5<span>/</span></span>",
+      description = "Attack power +<undefined>10%</>/<undefined>30%</>/<undefined>50%</>/",
       sp = { 40, 40, 40, 35, 35, 35, 30 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "治疗力提升",
-        description = "攻击力+8%",
+        name = "Healing Power Increase",
+        description = "Attack power +8%",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "善解人意",
+      name = "Empathetic",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.55</span>（同种效果取最高）"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
     },
     {
-      name = "营养学",
+      name = "Nutriology",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite1",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 70%"
     },
   },
   meta = {
     illustrator = "下野宏铭",
     voiceActor = "井口裕香",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -260,8 +254,8 @@ return {
       archive1 = "出身在伦蒂尼姆的芙蓉，从小就是周围的邻居们都很喜欢的孩子。她体贴、勤快、礼貌、谦虚，而且特别善于照顾他人。虽然在外人看起来，炎熔不是很喜欢搭理芙蓉，两姐妹的关系好像不怎么样。但是其实芙蓉也很清楚，炎熔只是不善于表达这<br>样的感情罢了。",
       archive2 = "在两姐妹感染了矿石病之后，芙蓉带着炎熔离开了父母来到了罗德岛。内心坚强的芙蓉决定，一定要在罗德岛努力，为了妹妹和自己，为了远在他乡的父母，也为了其他的所有感染者。",
       archive3 = "因为炎熔老是不听自己的，所以从小的芙蓉便养成了强硬的态度。“这些营养餐都是为了你的身体好所以你要每天都吃” ”这些零食有害身体我已经丢掉了“”10点半了快睡觉！“难怪炎熔会越来越不会应付自己的姐姐，周围的大家都默默的这么想着。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -316,9 +310,6 @@ return {
     cn036 = "博士，要试一下新的功能饮品吗？",
     cn037 = "明日方舟。",
     cn042 = "博士，要不要尝尝这个？",
-  },
-  skins = {
-
   },
 }
 

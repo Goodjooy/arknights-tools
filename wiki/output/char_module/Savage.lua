@@ -11,15 +11,10 @@ return {
   fileKey = "Savage",
   team = -1,
   position = "Melee",
-  roles = { "Splash", "爆发" },
+  roles = { "Splash", "Burst" },
   faction = "ROM Billiton",
   stars = 5,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1108,
     atk = 284,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-savage-1",
-      name = "强力击·β型",
+      name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.7<span>/</span>1.85<span>/</span>2<span>/</span>2.3</span>",
+      description = "The next attack deals <span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>185%</span>/<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>230%</span> damage",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-savage-2",
-      name = "微差爆破",
+      name = "Millisecond Blasting",
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "对前方三格范围内至多<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>4<span>/</span>5</span>个敌人造成相当于攻击力<span style='color:#0098DC;'>3<span>/</span>3.3<span>/</span>3.6<span>/</span>4</span>的物理伤害",
+      description = "Deal <span style='color:#0098DC;'>300%</span>/<span style='color:#0098DC;'>330%</span>/<span style='color:#0098DC;'>360%</span>/<span style='color:#0098DC;'>400%</span> physical damage to up to <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> enemies within 3 tiles in front of the operator",
       sp = { 20, 20, 20, 20, 20, 20, 19, 19, 18, 17 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "山谷",
-        description = "周围四格中有两格以上的高地地形时攻击力和防御力+5%",
+        name = "Valley",
+        description = "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +5%",
       },
       rank2 = {
         level = 1,
-        name = "山谷",
-        description = "周围四格中有两格以上的高地地形时攻击力和防御力+10%",
+        name = "Valley",
+        description = "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +10%",
       },
     },
   },
@@ -313,24 +308,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "技巧理论",
+      name = "Skill Theory",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>技巧概要</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+      description = "When stationed at the Synthesis Station and producing skill materials, increase the rate of by-products by 70%"
     },
     {
-      name = "烹饪",
+      name = "Cooking",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite2",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.35</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.35</span>"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.35 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.35"
     },
   },
   meta = {
     illustrator = "TOKI",
     voiceActor = "藤村步",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -338,7 +332,7 @@ return {
       archive1 = "干员暴行在战斗中使用了特殊的源石技艺，具体表现为，当干员暴行运用源石技艺之后，经受锤击的区域会在数毫秒至数十毫秒后发生爆破。干员暴行正是利用这种源石技艺破坏硬目标。<br>在对干员暴行配备的战术爆破攻坚锤进行逆向工程研究之后，工程干员们发现，雷神工业所生产的此种爆破锤并未配备任何爆破装置，相反，它更像是一种变形魔杖。干员暴行能够运用爆破锤内部严格排布过的源石，产生类似微差爆破的效果。<br>虽然该干员并未完全理解自己所施放的源石技艺的原理，但当她释放源石技艺时，往往会挟带大量放电现象。<br>其它相关信息还需等待进一步研究的结果。",
       archive2 = "干员暴行的代号，据称来源于她经常在作战与矿物开采任务中造成的破坏，而干员的体格也同样足以支撑起这个代号。<br>事实上，与代号相反，暴行是一个相当和善且开朗的干员。无论是在任务还是在生活中，暴行都被评价为友善、可靠且令人喜爱。<br>当然，橄榄球场上的暴行很可怕。请不要在球场上对她口出狂言。",
       archive3 = "战斗中，干员暴行担任着相当重要的角色，无论是敲碎墙壁还是破除障碍，在干员暴行的帮助下 ，攻坚任务变得简单且高效。不仅如此，该干员还十分擅长运用种种手法保护其他干员，这使得暴行所在小队的伤亡率比行动预测估算的数值更低。<br>生活中，干员暴行偶尔会在厨房中进行烹饪活动，为其他干员提供食物，包括蔬菜浓汤，蘑菇派等雷姆必拓菜肴。<br>据部分干员描述，暴行所烹饪的菜肴使他们感受到一种如同家庭般的温暖。<br>同时，干员暴行也常常帮助其他干员，这使得她在干员中的评价不断提升。<br>请不要把被她拒绝的约会请求记录在各休息室公告栏上，谢谢合作。",
-      archive4 = "undefined",
+      archive4 = "",
       token = "干员暴行明确表示，自己与阿米娅/凯尔希医生，甚至是博士都是旧识。<br>但干员暴行同样也声明，自己的身份对于罗德岛并不重要。她认为，只要能为自己的朋友贡献一份力量，那么无论身在何方、肩负的是何种任务，对她来说，都不重要。<br>她大概就是会一直战斗下去。而真正的极限在哪里，只有她自己才了解。",
     },
     bio = {
@@ -398,9 +392,6 @@ return {
     cn036 = "今天的工作也顺利地完成了！",
     cn037 = "明日方舟。",
     cn042 = "呀嗬~！博士早上好啊~！",
-  },
-  skins = {
-
   },
 }
 

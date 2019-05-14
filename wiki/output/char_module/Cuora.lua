@@ -11,15 +11,10 @@ return {
   fileKey = "Cuora",
   team = -1,
   position = "Melee",
-  roles = { "防护" },
+  roles = { "Protection" },
   faction = "Rhodes Island",
   stars = 4,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1221,
     atk = 193,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-def-up-2",
-      name = "防御力强化·β型",
+      name = "Defense Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#0098DC;'>+0.2<span>/</span>0.35<span>/</span>0.5<span>/</span>0.8</span>",
+      description = "Defense power +<undefined>20%</>/<undefined>35%</>/<undefined>50%</>/<undefined>80%</>",
       sp = { 45, 45, 45, 40, 40, 40, 38, 37, 36, 35 },
       duration = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
     },
     {
       icon = "skchr-snakek-2",
-      name = "壳状防御",
+      name = "Shell-shaped Defense",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "停止攻击敌人；阻挡数<span style='color:#0098DC;'>+1<span>/</span>1<span>/</span>1<span>/</span>1</span>，防御力<span style='color:#0098DC;'>+0.55<span>/</span>0.75<span>/</span>0.95<span>/</span>1.3</span>，每秒恢复最大生命的<span style='color:#0098DC;'>0.01<span>/</span>0.01<span>/</span>0.02<span>/</span>0.03</span>",
+      description = "Stops attacking enemies. Block count +<undefined>1</>/<undefined>1</>/<undefined>1</>/<undefined>1</>, Defense power +<undefined>55%</>/<undefined>75%</>/<undefined>95%</>/<undefined>130%</>, Recover <span style='color:#0098DC;'>1%</span>/<span style='color:#0098DC;'>1%</span>/<span style='color:#0098DC;'>2%</span>/<span style='color:#0098DC;'>3%</span> of Max HP every second",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -281,13 +276,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "防御专精",
-        description = "防御力+6%",
+        name = "Defense Specialization",
+        description = "Defense power +6%",
       },
       rank2 = {
         level = 1,
-        name = "防御专精",
-        description = "防御力+12%",
+        name = "Defense Specialization",
+        description = "Defense power +12%",
       },
     },
   },
@@ -308,24 +303,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "仓库整备·β",
+      name = "Warehouse Organization·β",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite0",
-      description = "进驻制造站时，仓库容量上限<span style='color:#0098DC;'>+10</span>，生产力<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at a Craft Station, storage capacity +10 and production +10%"
     },
     {
-      name = "订单分发·α",
+      name = "Order Distribution·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite1",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+20%</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "诹访彩花",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -334,7 +328,7 @@ return {
       archive2 = "棒球是一项发源于维多利亚王国，发展并壮大于哥伦比亚的一项体育运动。随着来自哥伦比亚的流行文化开始向周边地区辐射，这项适合平民——尤其是平民的孩子们，很快就成为了这项运动的忠实拥簇。<br>根据干员蛇屠箱的说法，棒球无论在有效强化体质方面，还是培养团队精神方面，都能带来非常显著的效果。她极力推荐在罗德岛内也进行这项运动有关的普及和推广，并身体力行地进行了数项基础动作及常用战术的演练。可以看出，她的各种动作十分规范，战术讲解也给人相当职业的印象。通过这些观察可以发现，干员蛇屠箱虽然并不具备任何作战相关的经验，却能够较为顺利地领悟行动计划、目的，以及具体的战术布置，或许这得益于她在棒球场上经受的严格训练，与一丝不苟的职业精神。<br>在蛇屠箱的演示取得干员们积极的回应后，她兴高采烈地从自己的背包中取出了一些棒球，开始塞给在场的每一位干员。<br>等等......这样一个看似普通的背包，究竟为什么能被蛇屠箱用以进行各式各样的防御行为呢？",
       archive3 = "经过基础建设与武器整备部门相关人员的检测，蛇屠箱的背包被认为是一种良性防御武器，它所能提供有效防御，并不逊色于罗德岛基础行动人员配发的制式盾牌。<br>事实上，这枚背包的正面材质并非布料，而是具有相当硬度，却极为轻巧的金属板材。此外，它的缝合极为强韧，数次的锤击测试均未能破坏这枚背包的完整结构。<br>对于背包的由来，干员蛇屠箱以一如既往的愉快态度表示自己没有相关记忆。在查询相关领域的资料均告失败后，对于该武器（物品？）的调查不得不暂时告于段落。<br>此外，蛇屠箱的球棒被检测出拥有同样的金属成分，但相对背包的惊人设计，球棒显得较为朴实，没有任何独特之处，因此不再加以赘述。<br>那么......毫无战斗背景，又持有这样奇妙工具的蛇屠箱，究竟为何会出现在罗德岛中的呢？",
       archive4 = "根据当事职员的回忆，他们发现躺在罗德岛舰桥甲板上，一边晒太阳一边睡午觉的蛇屠箱时，罗德岛刚刚于哥伦比亚某小城市进行补给，正处于驶离该地区的通航状态。在叫醒蛇屠箱并进行询问的过程中，蛇屠箱发现自己完全没有来到罗德岛的相关记忆。随后在罗德岛为蛇屠箱安排了一次免费的检查中发现，她是一名轻度感染者。<br>基于现行的对感染者处理方针，蛇屠箱以普通感染者的身份被接纳进入罗德岛，而在此期间，她的奥妙之处才逐渐被人所察觉。<br>无论如何，已作为正式干员的蛇屠箱已经成为罗德岛的一份子。关于她的信息仍有待发掘，这将是未来一项必要的工作。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -393,9 +387,6 @@ return {
     cn036 = "博士，博士！再稍微玩一会儿吧？就一小会儿！",
     cn037 = "明日方舟。",
     cn042 = "博士！你好！",
-  },
-  skins = {
-
   },
 }
 

@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 5,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 686,
     atk = 332,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-3",
-      name = "攻击力强化·γ型",
+      name = "Attack Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.45<span>/</span>0.6<span>/</span>1</span>",
+      description = "Attack power +<undefined>30%</>/<undefined>45%</>/<undefined>60%</>/<undefined>100%</>",
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-skfire-2",
-      name = "天坠之火",
+      name = "Flame of Heaven",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#FF6237;'>增大</span>，攻击变为从天空召唤陨石；陨石需要时间降落，落地后对大范围敌人造成相当于攻击力<span style='color:#0098DC;'>1.7<span>/</span>1.9<span>/</span>2.1<span>/</span>2.4</span>的法术伤害，并使所有命中目标晕眩<span style='color:#0098DC;'>0.1<span>/</span>0.15<span>/</span>0.2<span>/</span>1</span>秒",
+      description = "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>190%</span>/<span style='color:#0098DC;'>210%</span>/<span style='color:#0098DC;'>240%</span> magical damage to enemies in a large area and stun them for {attack@stun} seconds",
       sp = { 35, 34, 33, 32, 31, 30, 29, 28, 27, 25 },
       duration = { 25, 25, 25, 28, 28, 28, 31, 33, 35, 40 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "法术狙击",
-        description = "在场时，所有被阻挡的敌人受到法术伤害时提升7%",
+        name = "Arcane Sniping",
+        description = "When deployed, all blocked enemies receive +7% magical damage",
       },
       rank2 = {
         level = 1,
-        name = "法术狙击",
-        description = "在场时，所有被阻挡的敌人受到法术伤害时伤害提升15%",
+        name = "Arcane Sniping",
+        description = "When deployed, all blocked enemies receive +15% magical damage",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "术师专精·α",
+      name = "Caster Specialization·α",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite0",
-      description = "进驻训练室协助位时，术师干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Caster operatives by -30%"
     },
   },
   meta = {
     illustrator = "TOKI",
     voiceActor = "植田佳奈",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -391,9 +385,6 @@ return {
     cn036 = "博士，可以为我说明一下这种理论吗？只要占用你十二分钟就够了。",
     cn037 = "明日方舟。",
     cn042 = "心情如何？",
-  },
-  skins = {
-
   },
 }
 

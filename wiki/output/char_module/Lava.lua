@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 3,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 576,
     atk = 296,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-magic-rage-1",
-      name = "战术咏唱·α型",
+      name = "Tactical Chanting·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+10<span>/</span>30<span>/</span>50<span>/</span></span>",
+      description = "Attack speed +<undefined>10</>/<undefined>30</>/<undefined>50</>/",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "快速技能使用",
-        description = "部署后立即获得30点技力",
+        name = "Rapid Skill Use",
+        description = "After deployment, immediately gain 30 SP",
       },
     },
   },
@@ -235,33 +230,32 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "热能充能·α",
+      name = "Thermal Energy·α",
       badge = "power",
       facility = "POWER",
       unlockIcon = "elite0",
-      description = "当进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+10%</span>"
+      description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
     {
-      name = "源石工艺·β",
+      name = "Originium Crafts·β",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite1",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>源石</span>类配方的生产力<span style='color:#0098DC;'>+35%</span>"
+      description = "When stationed at a Craft Station, increase production of originium products by +35%"
     },
   },
   meta = {
     illustrator = "下野宏铭",
     voiceActor = "水桥香织",
-    servers = "CN, JP",
   },
   profile = {
     records = {
       resume = "生于维多利亚的伦蒂尼姆，干员芙蓉的孪生妹妹。因为感染了矿石病来到了罗德岛。觉得付出努力拯救他人是一件很酷的事情，于是自愿加入了罗德岛的训练之中。",
       archive1 = "不同于混迹于阴暗小巷子里面的其他的流浪的孩子，炎熔出生于并不算贫穷的维多利亚普通家庭里。比起站在远处，炎熔更相信去亲身去实践去行动才是能够帮助他人。从小喜欢跟贫民和流浪的孤儿打交道的炎熔，心中很清楚，这些人们的生活到<br>底有多少痛苦要经历。也正是因此，小小的正义的种子早早的就在炎熔的心中生根发芽。",
       archive2 = "嘴巴倔，做事一点都听不进去别人的指指点点。但是其实炎熔心中一直都有比谁都温柔和孩子气的一面，当然，炎熔自己绝对不会承认这件事就是了。这一点都不酷，每次炎熔都会说着这样的话结束这个话题。",
-      archive3 = "undefined",
-      archive4 = "undefined",
-      token = "undefined",
+      archive3 = "",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -316,9 +310,6 @@ return {
     cn036 = "别、别以为这么做就能赚取我的好感啊！",
     cn037 = "明日方舟。",
     cn042 = "是博士啊。早。",
-  },
-  skins = {
-
   },
 }
 

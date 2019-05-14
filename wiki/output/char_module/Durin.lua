@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 2,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 571,
     atk = 238,
@@ -78,8 +73,8 @@ return {
     {
       rank0 = {
         level = 30,
-        name = "小个子的幸运",
-        description = "获得50%的法术闪避",
+        name = "Shorty's Luck",
+        description = "Gain 50% magic evasion",
       },
     },
   },
@@ -100,26 +95,25 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "慵懒",
+      name = "Lazy",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，自身心情每小时恢复<span style='color:#FF6237;'>-0.1</span>，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.2</span>（同种效果取最高）"
+      description = "When stationed at a Dorm, self mood recovery per hour -0.1 and increase mood recovery of all operators within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "影山灯",
-    servers = "CN, JP",
   },
   profile = {
     records = {
       resume = "杜林，罗德岛A4行动组所属干员。<br>有着较强的法术天赋，但因自身性格和体质原因无法完全施展。<br>极度嗜睡，会随时在任何地方进入睡眠状态，日均睡眠时间远高于干员平均值，但工作却鲜少有缺漏。",
       archive1 = "工作模式：充分借助自己的身高优势，使用法术对敌人发起偷袭。<br>普通模式：找个稍微舒适点的地方，睡觉。",
       archive2 = "因为出身与众不同，杜林的饮食结构和大家稍有区别，但这并不意味着她吃的就比别人少，杜林虽然矮小，但吃东西的速度比普通人要快上许多，有时，其他干员还没吃上几口，杜林用餐结束找地方睡觉了。",
-      archive3 = "undefined",
-      archive4 = "undefined",
-      token = "undefined",
+      archive3 = "",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -172,9 +166,6 @@ return {
     cn036 = "现在我心情很好，给你变个魔术怎么样？",
     cn037 = "明日方舟。",
     cn042 = "呼啊......早安......",
-  },
-  skins = {
-
   },
 }
 

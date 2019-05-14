@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 2,
   class = "Caster",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1378,
     atk = 280,
@@ -78,8 +73,8 @@ return {
     {
       rank0 = {
         level = 30,
-        name = "闪避率提升",
-        description = "获得50%的物理闪避",
+        name = "Evasion Increase",
+        description = "Gain 50% physical evasion",
       },
     },
   },
@@ -100,24 +95,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "线索搜集·β",
+      name = "Clue Collection·β",
       badge = "meeting",
       facility = "MEETING",
       unlockIcon = "elite0",
-      description = "进驻会客室时，线索搜集速度<span style='color:#0098DC;'>+20%</span>"
+      description = "When stationed at Reception, clue collection speed +20%"
     },
     {
-      name = "特训记录",
+      name = "Special Training Records",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>芯片</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+      description = "When stationed at the Synthesis Station and producing chips, increase the rate of by-products by 70%"
     },
   },
   meta = {
     illustrator = "海猫络合物",
     voiceActor = "--",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -126,12 +120,12 @@ return {
       archive2 = "12F虽然看上去非常严肃，甚至让人觉得不好交流，不过实际在收集人员反馈的过程中，大多数与他合作过的干员，都对这名不起眼的术士表现出了肯定。这些反馈通常集中在，“没有拖后腿”、“帮助协调组内关系”、“在关键时刻提供必要的帮助”、“提供了意想不到的建议”。",
       archive3 = "12F与很多干员关系都非常好，相反与12F关系最紧密的关系人员——巨枭则在罗德岛几乎没有朋友。12F常会刻意前往巨枭常见的地方与她谈话。由于医疗中心对巨枭的心理状况长期处于不明朗状态，目前巨枭的心理状况已委托12F定期向医疗中心汇报。",
       archive4 = "12F描述过很多他经历过的战场细节，不过他说他已经忘记了家乡和亲人的样子。而12F这个代号，则是他第一次加入到战场时被给予的编号。那次战斗中，他遇到了作为敌人的巨枭，而后他受到重伤，但侥幸活下来，并成为了战俘。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Male",
       experience = "5 years",
-      origin = "不明",
+      origin = "Unknown",
       birthday = "March 3",
       race = "Savra",
       height = "181cm",
@@ -181,9 +175,6 @@ return {
     cn036 = "博士，感谢你为我做了这么多，而我却没有什么可以报答你的，抱歉。",
     cn037 = "明日方舟。",
     cn042 = "早上好，博士。",
-  },
-  skins = {
-
   },
 }
 

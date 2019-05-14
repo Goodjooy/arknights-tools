@@ -11,15 +11,10 @@ return {
   fileKey = "Nearl",
   team = 9,
   position = "Melee",
-  roles = { "防护", "治疗" },
+  roles = { "Protection", "Healing" },
   faction = "Rhodes Island",
   stars = 5,
   class = "Defender",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1154,
     atk = 191,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-nearl-1",
-      name = "急救",
+      name = "First Aid",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下一次攻击会为周围血量不足一半的一名友方单位恢复相当于攻击力<span style='color:#0098DC;'>1.1<span>/</span>1.3<span>/</span>1.5<span>/</span>1.8的生命</span>\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>3次</span>",
+      description = "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>180%</span> Attack power. Can hold <undefined>1</>/<undefined>1</>/<undefined>2</>/<undefined>3</> charge(s)",
       sp = { 6, 6, 6, 5, 5, 5, 5, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-nearl-2",
-      name = "急救模式",
+      name = "First Aid Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.2<span>/</span>0.35<span>/</span>0.5<span>/</span>0.8</span>，停止攻击并专心对周围友方角色进行治疗",
+      description = "Attack power +<undefined>20%</>/<undefined>35%</>/<undefined>50%</>/<undefined>80%</>, stops attacking enemies and focuses on healing nearby allies",
       sp = { 60, 59, 58, 55, 54, 53, 52, 50, 45, 40 },
       duration = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "医疗效果大提升",
-        description = "自身医疗效果提高10%",
+        name = "Healing Effect Enhancement",
+        description = "Healing effectiveness +10%",
       },
       rank2 = {
         level = 1,
-        name = "天马光环",
-        description = "在场时，全地图的友方单位医疗效果提高10%",
+        name = "Pegasus Aura",
+        description = "When deployed, all allies' healing effectiveness +10%",
       },
     },
   },
@@ -313,24 +308,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "左膀右臂",
+      name = "Competent",
       badge = "control",
       facility = "CONTROL",
       unlockIcon = "elite0",
-      description = "进驻控制中枢时，控制中枢内的其他干员心情每小时消耗<span style='color:#0098DC;'>-0.05</span>"
+      description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
     },
     {
-      name = "耀骑士",
+      name = "Knight of Light",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite2",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.5</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.25</span>"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.5 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.25"
     },
   },
   meta = {
     illustrator = "竜崎いち",
     voiceActor = "佐仓绫音",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -398,9 +392,6 @@ return {
     cn036 = "博士，那个......咳，我可以进来吗？听说您的办公室里，收藏了大量的书籍。",
     cn037 = "明日方舟。",
     cn042 = "早上好，博士。",
-  },
-  skins = {
-
   },
 }
 

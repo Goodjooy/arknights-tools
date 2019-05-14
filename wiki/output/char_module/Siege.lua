@@ -15,11 +15,6 @@ return {
   faction = "Victoria",
   stars = 6,
   class = "Vanguard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 911,
     atk = 212,
@@ -154,31 +149,31 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-3",
-      name = "冲锋号令·γ型",
+      name = "Assault Order·Type γ",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>12<span>/</span>12<span>/</span>12<span>/</span>12</span>点部署费用",
+      description = "Immediately obtain <span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span> cost",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-siege-2",
-      name = "跃空锤",
+      name = "Leaping Hammer",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击对四周所有敌人造成相当于攻击力<span style='color:#0098DC;'>2.2<span>/</span>2.5<span>/</span>2.8<span>/</span>3.4</span>的物理伤害，并获得<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>3</span>点部署费用\n<span style='color:#F49800;'>可充能1<span>/</span>2<span>/</span>3<span>/</span>3次</span>",
+      description = "The next attack deals <span style='color:#0098DC;'>220%</span>/<span style='color:#0098DC;'>250%</span>/<span style='color:#0098DC;'>280%</span>/<span style='color:#0098DC;'>340%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span> cost. Can hold <undefined>1</>/<undefined>2</>/<undefined>3</>/<undefined>3</> charge(s)",
       sp = { 12, 12, 12, 11, 11, 11, 11, 10, 10, 10 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-siege-3",
-      name = "碎颅击",
+      name = "Skull Crusher",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#FF6237;'>增大</span>，攻击时攻击力提高至<span style='color:#0098DC;'>2.6<span>/</span>2.9<span>/</span>3.2<span>/</span>3.8</span>，并且有<span style='color:#0098DC;'>0.4<span>/</span>0.4<span>/</span>0.4<span>/</span>0.4</span>的概率击晕目标<span style='color:#0098DC;'>0.5<span>/</span>0.8<span>/</span>1.1<span>/</span>1.5</span>秒",
+      description = "Increase attack interval, every attack deals <span style='color:#0098DC;'>260%</span>/<span style='color:#0098DC;'>290%</span>/<span style='color:#0098DC;'>320%</span>/<span style='color:#0098DC;'>380%</span> damage and has <span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>40%</span> chance to stun the target for {attack@stun} seconds",
       sp = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
       duration = { 15, 16, 17, 18, 19, 20, 21, 22, 23, 25 },
     },
@@ -301,20 +296,20 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "万兽之王",
-        description = "所有【先锋】职业干员的攻击力和防御力各+4%",
+        name = "King of Beasts",
+        description = "All 【Vanguard】 operatives gain Attack power and Defense power +4%",
       },
       rank2 = {
         level = 1,
-        name = "万兽之王",
-        description = "所有【先锋】职业干员的攻击力和防御力各+8%",
+        name = "King of Beasts",
+        description = "All 【Vanguard】 operatives gain Attack power and Defense power +8%",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "粉碎",
-        description = "周围四格内有敌人倒下时获得1点技力",
+        name = "King of Beasts",
+        description = "All 【Vanguard】 operatives gain Attack power and Defense power +4%",
       },
     },
   },
@@ -335,17 +330,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "领袖",
+      name = "Leader",
       badge = "dormitory",
       facility = "DORMITORY",
       unlockIcon = "elite0",
-      description = "进驻宿舍时，该宿舍内所有干员心情每小时恢复<span style='color:#0098DC;'>+0.15</span>（同种效果取最高）"
+      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {
     illustrator = "infukun",
     voiceActor = "川澄绫子",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -353,7 +347,7 @@ return {
       archive1 = "推进之王领导着一支小队：格拉斯哥帮。<br>罗德岛的干员们推测，原本属于伦蒂尼姆街头帮派的她们，只是因为种种事端被迫加入罗德岛，因此，干员们对她们的实力并不抱很大期望。<br>但当推进之王与她的队员们参与体检测试时，干员们发现，她们并不像表面上那样是群街头打手。她们是相当专业的战士。<br>医疗干员们甚至怀疑起了格拉斯哥帮众人的真实身份，究竟是怎样困苦而又残酷的环境，才能培养出她们精湛的战斗技巧、丰富的作战经验和充沛的体能？<br>虽然推进之王明确地表示，过去的她们也只是正常地生活在伦蒂尼姆而已，诚实的语气令人无处生疑。<br>互相信任是建立友谊的第一步，在场的干员都选择相信推进之王的证言。信任是罗德岛得以成立的基础之一，毕竟，罗德岛也因此得到了数位优秀的干员。",
       archive2 = "推进之王与格拉斯哥帮的各位干员有着十分深厚的联系，这从她们日常生活的紧密联系与作战时的默契程度中可见一斑。<br>推进之王并未止步于此。罗德岛交予她的任务，推进之王都会尽力完成，她在任务中展现出的果敢、勇猛，以及处理问题时的冷静、机敏，使得推进之王成为了最受罗德岛干员们欢迎的先锋干员之一。<br>而推进之王在少数任务中展现出的指挥天赋与战术规划能力，更是在危险中数次拯救自己的队友，并使任务得以完美收场。<br>因为推进之王在日常生活中表现得颇为彬彬有礼，这一举动使得推进之王并不像是普通的帮派成员；而这种态度，很遗憾，也使得许多干员没能与她培养深厚的友谊，但干员对她的尊敬有增无减。",
       archive3 = "当然，格拉斯哥帮的各位干员们对推进之王都有着不同的个人见解。但有一条是她们的共识：其实推进之王并不一定是刻意与其他干员保持距离，只是因为她对人际交往有些冷淡，甚至算是种懒惰，导致她并不太与别人交流。<br>之后，格拉斯哥帮的干员们还向资料撰写员抖露了各种信息，包括推进之王其实不喜欢吃土豆，睡眠的时间比大多数人都长，总是随身携带酸味很浓的棒棒糖，等等。<br>然而她们从来不会提及伦蒂尼姆的现状，即便是在闲聊过往生活时，她们也会巧妙地避开“现在的伦蒂尼姆”这一话题，同样，她们也很少讲述与推进之王相遇的过程。<br>推进之王却表示，她对当年击败格拉斯哥帮干员因陀罗一事记忆犹新。而与每一个人的相遇，每一个动作每一句话，她也同样熟记在心，绝不忘记。<br>因此，罗德岛的许多干员都认为，干员推进之王确实配得上“推进之王”这个颇具领袖风范的称号；如果想要真正理解这位干员，罗德岛还要花上许多功夫。",
-      archive4 = "undefined",
+      archive4 = "",
       token = "......<br>不必惊惶。<br>我非怪物，也非幻象。<br>我在你面前现身，只是因为有此必要。<br>维娜必须成长，而你可以引导她。<br>你不是她的封臣、并非她的导师、也没有与她为敌的理由。<br>你应该意识到了，她和你之间的关系独一无二。<br>我们可以继续等待，但维娜不能。<br>指引她吧，维娜所信任的人。你是她的火种，也是她的发条。",
     },
     bio = {
@@ -413,9 +407,6 @@ return {
     cn036 = "外面太吵闹了......你的办公室就不一样，很安静，挺不错的，让我待一会吧。",
     cn037 = "明日方舟。",
     cn042 = "噢！博士。",
-  },
-  skins = {
-
   },
 }
 

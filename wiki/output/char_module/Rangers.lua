@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 2,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 546,
     atk = 161,
@@ -78,8 +73,8 @@ return {
     {
       rank0 = {
         level = 30,
-        name = "空射大师",
-        description = "攻击飞行目标时，攻击力+50%",
+        name = "Anti-air Master",
+        description = "When attacking flying targets, Attack power +50%",
       },
     },
   },
@@ -100,24 +95,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "人事管理·α",
+      name = "HR Management·α",
       badge = "hire",
       facility = "HIRE",
       unlockIcon = "elite0",
-      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+20%</span>"
+      description = "When stationed at Human Resource, accumulation of networking resources +20%"
     },
     {
-      name = "能工巧匠",
+      name = "Skilled Craftsman",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>50%</span>"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%"
     },
   },
   meta = {
     illustrator = "竜崎いち",
     voiceActor = "武内骏辅",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -125,8 +119,8 @@ return {
       archive1 = "比起守株待兔更擅长发起突袭，先发制人，熟练运用环境来掩盖本身体色在隐蔽性上的劣势。",
       archive2 = "毫无疑问，巡林者是个优秀的说书人，他的脑袋里，永远储藏着你从未听闻过的精彩故事，他本人似乎也期待着与他人分享这些故事，因此，当罗德岛的小干员们上完清晨的课程后，许多人便会请“巡林者爷爷”讲故事，于是，一杯热水，一个说书人，孩子们美好的休闲时光便开始了。",
       archive3 = "与大部分萨弗拉人不同，巡林者的体色完全无法为他提供拟态和遮蔽，但相对的，巡林者要比其他萨弗拉更加自信，也更乐于与人交流。这既是诅咒，也是馈赠。好坏与否只取决于巡林者本人对此的看法。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Male",
@@ -179,9 +173,6 @@ return {
     cn036 = "没想到您居然好这口。",
     cn037 = "明日方舟。",
     cn042 = "博士，有什么事？",
-  },
-  skins = {
-
   },
 }
 

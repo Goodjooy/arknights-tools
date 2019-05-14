@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 5,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 987,
     atk = 285,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-whitew-1",
-      name = "日晷",
+      name = "Sundial",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.43<span>/</span>0.55<span>/</span>0.7</span>，有<span style='color:#0098DC;'>0.2<span>/</span>0.25<span>/</span>0.3<span>/</span>0.4</span>的概率抵挡物理伤害\n<span style='color:#F49800;'>持续时间无限</span>",
+      description = "Attack power +<undefined>30%</>/<undefined>43%</>/<undefined>55%</>/<undefined>70%</>, <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span> chance to block physical damage. Infinite duration",
       sp = { 40, 40, 40, 37, 37, 37, 33, 32, 31, 30 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-whitew-2",
-      name = "狼魂",
+      name = "Wolf Spirit",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.6<span>/</span>0.75<span>/</span>0.9<span>/</span>1.2</span>，伤害类型变为法术，额外攻击一个目标，远程攻击不再降低攻击力\n<span style='color:#F49800;'>技能自动开启</span>",
+      description = "Attack power +<undefined>60%</>/<undefined>75%</>/<undefined>90%</>/<undefined>120%</>, change damage type to magical damage, attack an additional target, ranged attacks no longer reduce Attack power. Automatic activation",
       sp = { 30, 29, 28, 27, 26, 25, 24, 22, 20, 17 },
       duration = { 15, 15, 15, 15, 15, 15, 17, 17, 17, 20 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "精神摧毁",
-        description = "攻击使目标的特殊能力失效，持续1秒",
+        name = "Mental Destruction",
+        description = "Attacks seal the target's special abilities for 1 second",
       },
       rank2 = {
         level = 1,
-        name = "精神摧毁",
-        description = "攻击使目标的特殊能力失效，持续5秒",
+        name = "Mental Destruction",
+        description = "Attacks seal the target's special abilities for 5 seconds",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "醉翁之意·α",
+      name = "Drunkard's Intent·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "当与<span style='color:#00B0FF;'>德克萨斯</span>在同一个贸易站时，心情每小时消耗<span style='color:#0098DC;'>-0.1</span>，订单上限<span style='color:#0098DC;'>+2</span>"
+      description = "When stationed together with Texas at the same Trade Station, mood reduction per hour -0.1 and order limit +2"
     },
   },
   meta = {
     illustrator = "幻象黑兔",
     voiceActor = "今井麻美",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -331,8 +325,8 @@ return {
       archive1 = "干员拉普兰德很少考虑自身安全，她看上去喜欢寻求刺激，享受破坏和战争的混乱，在战斗中无所畏惧的她还具备某种奇特的幽默感，喜欢用稍显残酷的笑话来捉弄她眼前所有的人。<br>由于显示出较为严重的矿石病感染情况已经为她带来一定的影响，干员拉普兰德已被列为医疗组监控对象之一。<br>若干未经证实的情报显示，拉普兰德极有可能出身于叙拉古最为危险的某个家族。但在勘查过所有叙拉古过去活动或正在活动的家族名单后，并未发现拉普兰德与这些家族间存在联系。基于对叙拉古统治家族的调查拥有极高的危险性，相关调查工作已终止。",
       archive2 = "矿石病的创伤不止反应在生理层面，同时也体现在拉普兰德对于特定目标的异常执着上，这会导致她大量暴力行为的发生。<br>尽管她的行动某种程度上均受到罗德岛的控制，但她在战场上我行我素的战斗方式，仍旧阻碍着她与部分干员之间的合作关系。<br>拉普兰德较为特殊的矿石病症状，似乎在某种程度上强化了她原本的战斗能力，这在普通的矿石病感染者以及非矿石病干员身上是非常罕见的。她独特的武器——一对经过特殊设计的，带有东方风格的剑，可以配合她释放出法术效果的冲击性效果。由于她对源石技艺的控制似乎采用了未经训练，仅仅凭借天赋而产生的力量。尽管这种力量在释放上会受到弱化，但在拉普兰德吊诡的战斗风格与狂暴攻势下，这些弱点完全被她克服了。<br>另一方面，拉普兰德极其擅长洞察敌人的弱点，这使得拥有特殊能力或源石技艺的敌人，在她的面前同样占不到便宜。只需数次对敌人技法的观察，拉普兰德就可以迅速封锁敌人的特殊能力。",
       archive3 = "根据若干份调查报告与目击详情，干员拉普兰德对企鹅物流职员，作为罗德岛行动协助人员的德克萨斯怀有密切的关注，而对方也在有意回避双方的碰面。不过，即使在不得不进行合作的场合下，干员拉普兰德并未对德克萨斯采取过分的攻势，或者说，她在有意的配合德克萨斯的步调的情况下，对这种若即若离的关系乐在其中。<br>针对企鹅物流其他协助人员，拉普兰德均报以热诚的态度加以对待，而她的行为并未得到其他企鹅物流成员的积极响应。每当双方碰面（尽管这样的情况分外罕见），总会形成一种微妙尴尬的氛围。<br>针对罗德岛其他干员，拉普兰德会尽可能地满足和平共处的环境，只要没有人妨碍她的行动。<br>【权限记录】<br>针对干员红，所有鲁珀族干员表现出了同样的、源于生理性的忌惮反应，其中干员拉普兰德的应激性反应最为强烈，情绪中混杂着无法抑制的恐惧、鲜明的敌意，以及溢于言表的欣快。在尚未得出对干员拉普兰德极端化状态的应对方案前，建议完全避免其与干员红的接触。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -391,9 +385,6 @@ return {
     cn036 = "越了解你，也就越了解德克萨斯。太棒了。",
     cn037 = "明日方舟。",
     cn042 = "呵，你好，博士。",
-  },
-  skins = {
-
   },
 }
 

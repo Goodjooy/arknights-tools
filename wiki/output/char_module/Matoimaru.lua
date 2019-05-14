@@ -11,15 +11,10 @@ return {
   fileKey = "Matoimaru",
   team = -1,
   position = "Melee",
-  roles = { "生存", "DPS" },
+  roles = { "Survival", "DPS" },
   faction = "Rhodes Island",
   stars = 4,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1443,
     atk = 370,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-heal-self-2",
-      name = "生命回复·β型",
+      name = "Health Recovery·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即恢复最大生命的<span style='color:#0098DC;'>0.2<span>/</span>0.3<span>/</span>0.4<span>/</span>0.5</span>",
+      description = "Immediately recover <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span> of Max HP",
       sp = { 30, 29, 28, 27, 26, 25, 24, 23, 22, 20 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-gyuki-2",
-      name = "恶鬼之力",
+      name = "Demon Strength",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#FF6237;'>降至0</span>，攻击力<span style='color:#0098DC;'>+0.75<span>/</span>0.9<span>/</span>1.05<span>/</span>1.5</span>",
+      description = "Reduce self Defense power to 0, Attack power +<undefined>75%</>/<undefined>90%</>/<undefined>105%</>/<undefined>150%</>",
       sp = { 35, 35, 35, 32, 32, 32, 29, 28, 27, 25 },
       duration = { 10, 10, 10, 11, 11, 11, 12, 13, 14, 15 },
     },
@@ -281,8 +276,8 @@ return {
     {
       rank2 = {
         level = 1,
-        name = "恶鬼体质",
-        description = "防御力-20%，但最大生命值+20%",
+        name = "Demonic Constitution",
+        description = "Defense power -20%, however Max HP+20%",
       },
     },
   },
@@ -303,24 +298,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "技巧理论",
+      name = "Skill Theory",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>技巧概要</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+      description = "When stationed at the Synthesis Station and producing skill materials, increase the rate of by-products by 70%"
     },
     {
-      name = "订单分发·β",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite1",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
   },
   meta = {
     illustrator = "竜崎いち",
     voiceActor = "--",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -328,8 +322,8 @@ return {
       archive1 = "大大咧咧的东国武者。<br>心思单纯，容易被骗。虽然第一次上当后就会产生警惕，但只要换一个她没见过的手法，还是会上当。<br>爱好有比武、踢球、插花，在每一样上都颇有造诣，还经常会主动组织相应活动——当然，她的组织，一般就是硬拉。",
       archive2 = "迄今为止，鬼族对大部分人来说依然是个谜团，除了只生活于东国之外，还没有人发现他们之间有什么明显的共通之处。<br>不过，很显然，缠丸小姐也确实有一些异于常人的地方：她在战场上的嗜血，和她平日所表现的性格截然不同，而她似乎对此并没有自觉。",
       archive3 = "不少干员对缠丸小姐有一些误解，以为她只有平日那粗神经的一面，事实上这个认知是错误的。<br>有这种想法的人，都应该在每周六的下午三点，去参观一下缠丸小姐的插花教室。<br>在那里，他们一定会为缠丸小姐的美而惊叹的。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -388,9 +382,6 @@ return {
     cn036 = "有什么高兴的事？一定要和缠丸我分享哦！",
     cn037 = "明日方舟。",
     cn042 = "嗯嗯，我在听呢。",
-  },
-  skins = {
-
   },
 }
 

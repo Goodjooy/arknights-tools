@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 5,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 716,
     atk = 332,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-prove-1",
-      name = "狼眼",
+      name = "Wolf's Eye",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "目标敌人的生命<span style='color:#0098DC;'>每降低0.2<span>/</span>0.2<span>/</span>0.2<span>/</span>0.2</span>，对其造成伤害时的攻击力<span style='color:#0098DC;'>+0.08<span>/</span>0.12<span>/</span>0.16<span>/</span>0.25</span>",
+      description = "Increase damage to the target by +<undefined>8%</>/<undefined>12%</>/<undefined>16%</>/<undefined>25%</> for every <undefined>20%</>/<undefined>20%</>/<undefined>20%</>/<undefined>20%</> HP the enemy loses",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-prove-2",
-      name = "杀戮嗅觉",
+      name = "Slaughter Sense",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+1.3<span>/</span>1.45<span>/</span>1.6<span>/</span>2.2</span>，但普通攻击不再以生命值高于<span style='color:#FF6237;'>80%</span>的敌人作为目标",
+      description = "Attack power +<undefined>130%</>/<undefined>145%</>/<undefined>160%</>/<undefined>220%</>, however normal attacks no longer target enemies with higher than 80% HP",
       sp = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
       duration = { 20, 20, 20, 25, 25, 25, 30, 31, 32, 35 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "狩猎箭头",
-        description = "攻击时，20%几率当次攻击的攻击力提升至140%。当敌人在正前方一格时，该几率提升到50%",
+        name = "Hunting Arrow",
+        description = "When attacking, 20% chance to increase Attack power to 140%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
       },
       rank2 = {
         level = 1,
-        name = "狩猎箭头",
-        description = "攻击时，20%几率当次攻击的攻击力提升至180%。当敌人在正前方一格时，该几率提升到50%",
+        name = "Hunting Arrow",
+        description = "When attacking, 20% chance to increase Attack power to 180%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "天灾信使·α",
+      name = "Disaster Messenger·α",
       badge = "hire",
       facility = "HIRE",
       unlockIcon = "elite0",
-      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at Human Resource, accumulation of networking resources +30%"
     },
   },
   meta = {
     illustrator = "渣念",
     voiceActor = "影山灯",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -332,7 +326,7 @@ return {
       archive2 = "普罗旺斯希望以自己的行动来改善人们面对天灾所处的不利环境。她反对浪费和随意丢弃行为，积极倡导大家节约资源，以切实的行动来改善自己所处生活环境。<br>在生活中，普罗旺斯显得分外勤快而忙碌，总是奔波在荒野与罗德岛之间的她，即使闲暇时间中也会为罗德岛提供义务性的清洁扫除，资源回收和分类等工作。部分人员对她的劝告熟视无睹的时候，普罗旺斯会以和气，认真，耐心的态度，为他们讲解这样做的理由和带来的好处。很少有人会在她诚恳的态度下，仍旧坚持自己错误的行为。",
       archive3 = "虽然极为难得，但当所有工作都已经妥善完成，生活环境也打理归整后，普罗旺斯终于能迎来属于自己的假日时光了。在人们眼中总是忙忙碌碌的她，也开始显露出享受生活的一面——放假的第一件事，当然是精心梳理自己的尾巴。<br>除了打理尾巴之外，在销售站挑选近期的货品，为自己和朋友选择小礼物，挑选一些好看的衣服加入自己的衣柜，陪罗德岛内的孩子们玩耍，挑战一下从未尝试过的烹饪食谱（不必说，自然是荒野中采摘与捕获的食材），邀请朋友共同举办派对——普罗旺斯热爱着这样的生活，并希望自己的生活总能保持着这样的步调。",
       archive4 = "“罗德岛附近出现了风暴的征兆——不用担心，组织避难就交给我吧！我可是这方面的专家！”<br>留下这样话语之后，就立刻投入到下一场荒野行动的普罗旺斯——<br>事实上，她仍在不断地接近着危险。<br>事实上，她已经成为一名感染者了。<br>即使她时常因工作而忘记身为感染者的身份，即使她知道自己的情况后，依然选择积极面对生活。<br>但是，与博士的相遇，似乎使她开始有些在意起自己的情况了。<br>为了不让博士担心，为了能让博士所在的罗德岛变得更加安全，普罗旺斯，今日依旧踏入荒野之中。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -391,9 +385,6 @@ return {
     cn036 = "我的大尾巴毛绒绒~毛绒绒~♪",
     cn037 = "明日方舟。",
     cn042 = "啊，博士早上好~",
-  },
-  skins = {
-
   },
 }
 

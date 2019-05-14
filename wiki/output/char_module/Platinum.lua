@@ -15,11 +15,6 @@ return {
   faction = "Kazimierz",
   stars = 5,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 693,
     atk = 167,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-3",
-      name = "攻击力强化·γ型",
+      name = "Attack Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.3<span>/</span>0.45<span>/</span>0.6<span>/</span>1</span>",
+      description = "Attack power +<undefined>30%</>/<undefined>45%</>/<undefined>60%</>/<undefined>100%</>",
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-platnm-2",
-      name = "天马视域",
+      name = "Pegasus Sight",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击速度略微<span style='color:#FF6237;'>降低</span>，但攻击力<span style='color:#0098DC;'>+0.5<span>/</span>0.6<span>/</span>0.7<span>/</span>1</span>，攻击范围<span style='color:#0098DC;'>扩大</span>\n<span style='color:#F49800;'>持续时间无限</span>",
+      description = "Slightly decreases attack speed, Attack power +<undefined>50%</>/<undefined>60%</>/<undefined>70%</>/<undefined>100%</>, Increase attack range. Infinite duration",
       sp = { 70, 69, 68, 67, 66, 65, 63, 59, 55, 50 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -286,13 +281,13 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "蓄力攻击",
-        description = "距离上次攻击的间隔越长，下次攻击的攻击力就越高（最长2.5秒，攻击力140%）",
+        name = "Charged Attack",
+        description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 140%）",
       },
       rank2 = {
         level = 1,
-        name = "蓄力攻击",
-        description = "距离上次攻击的间隔越长，下次攻击的攻击力就越高（最长2.5秒，攻击力180%）",
+        name = "Charged Attack",
+        description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 180%）",
       },
     },
   },
@@ -313,17 +308,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "狙击专精·α",
+      name = "Sniper Specialization·α",
       badge = "training",
       facility = "TRAINING",
       unlockIcon = "elite0",
-      description = "进驻训练室协助位时，狙击干员的专精技能训练时间<span style='color:#0098DC;'>-30%</span>"
+      description = "When stationed at the Training Station, reduce the skill training time of Sniper operatives by -30%"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "茅野愛衣",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -331,7 +325,7 @@ return {
       archive1 = "干员白金来自卡西米尔。除此之外，其它由干员白金自由申报的所有信息，可信性大多存疑。即使是医学体检中的胸围与体重等数据，同样应干员白金（以种种方式要挟）要求，进行了非公开和假数据处理。<br>“女孩子总是有很多秘密！”这是在进行书面调查时干员白金的留言。<br>所以干员白金档案中记载的某些公开资料，显而易见，是没有参考价值的。<br>当然，核心的记录与非公开资料等，依然经过了严密的审核。",
       archive2 = "骑士杀手是卡西米尔各势力在与骑士阶层长久的政治拉锯战中培养出的隐秘军事力量。<br>传闻中，为了对抗拥有强韧体格、高超战斗技巧，甚至身负特殊装备与独特能力的落单骑士，骑士杀手磨练出了特殊的刺杀与地形利用技巧，并以此不断猎杀那些拒绝与当局合作的落单骑士。<br>虽然无法验证传闻的真实性，但干员白金确实展现了足可在某些方面匹敌卡西米尔骑士的实力。兼具无法以常理衡量的行动方式与匪夷所思的弓术，特定情况下，白金对于硬目标的威胁是相当巨大的。<br>由此判断，对干员白金的调查必须继续。",
       archive3 = "最终，干员白金选择加入由凯尔希医生直接指挥的小队以发挥自身的特长，并尝试以此证明自己与罗德岛之间的合作是稳固的。这对于罗德岛而言是可以接受的结果。<br>除去经常捉弄其他干员，于日常值班中偷偷溜走，以及其它各类轻微违规行为之外，干员白金的表现确实展现出了优秀的干员素质。<br>即使如此，干员白金也理应向管理部门申请查看权限，而不是偷看资料的编撰过程。<br>希望凯尔希医生能够考虑制止一下她的出格举动，谢谢。",
-      archive4 = "undefined",
+      archive4 = "",
       token = "目前，罗德岛所拥有的有关卡西米尔无胄盟的情报，全部来自干员白金的口述，不建议全盘采信。<br>与此同时，在卡西米尔的各个大型城市指挥干员执行秘密任务时，必须注意观察无胄盟的进一步动作。罗德岛应警惕同处暗处且敌我不明的集团。",
     },
     bio = {
@@ -391,9 +385,6 @@ return {
     cn036 = "要不要陪我去城市里走走？不方便的话，下次也可以。",
     cn037 = "明日方舟。",
     cn042 = "气色不错呢，博士~",
-  },
-  skins = {
-
   },
 }
 

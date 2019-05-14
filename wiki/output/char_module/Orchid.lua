@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 3,
   class = "Supporter",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 553,
     atk = 192,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-quickattack-1",
-      name = "迅捷打击·α型",
+      name = "Swift Strike·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.06<span>/</span>0.15<span>/</span>0.25<span>/</span></span>，攻击速度<span style='color:#0098DC;'>+10<span>/</span>15<span>/</span>25<span>/</span></span>",
+      description = "Attack power +<undefined>6%</>/<undefined>15%</>/<undefined>25%</>/, Attack speed +<undefined>10</>/<undefined>15</>/<undefined>25</>/",
       sp = { 55, 54, 53, 50, 49, 48, 45 },
       duration = { 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "施法速度提升",
-        description = "攻击速度+9",
+        name = "Casting Speed Increase",
+        description = "Attack speed +9",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "心理学",
+      name = "Psychology",
       badge = "hire",
       facility = "HIRE",
       unlockIcon = "elite0",
-      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+40%</span>"
+      description = "When stationed at Human Resource, accumulation of networking resources +40%"
     },
     {
-      name = "供应管理",
+      name = "Supply Management",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite1",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+25%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
     },
   },
   meta = {
     illustrator = "Skade",
     voiceActor = "--",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -261,7 +255,7 @@ return {
       archive2 = "担任过时尚杂志编辑的梓兰小姐，在时尚领域有着敏锐的嗅觉，而且并不盲从，拥有属于自己独到的眼光，她的穿着往往就是罗德岛的潮流指向标。<br>更重要的是，她能够通过各种精妙的手法，在掩盖体表矿石病特征的同时，保持一个人的整体形象，甚至将之作为展示其魅力的手段——正如她对自己做的那样。这对于许多矿石病的患者，尤其是接受过现代社会熏陶的女性来说，都是一件求之不得的事。<br>因而，在罗德岛的部分女孩子心中，梓兰小姐有着独特的地位。",
       archive3 = "原本，梓兰小姐这样的都市女性，是断然不会主动选择干员这样的高危职业。<br>不过，在罗德岛接受治疗毕竟不是免费的（虽然有各种优惠措施和分期手段），而她又因为矿石病失去了工作，最终，在尝试了一段时间后，她决定接受这份新工作。<br>当然，如果她当时知道自己将要带领A6这样一群怪人的话，说不定会当场拒绝。",
       archive4 = "归根结底，梓兰小姐是最知道A6虽然是一群怪人，却没有一个是坏人这一点的。<br>浮夸却真挚的月见夜，冒失但没有恶意的泡普卡，外冷内热的斑点，空爆......好吧，先不管她，总之，这些人，其实都是她的宝物。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -318,9 +312,6 @@ return {
     cn036 = "啊啊？还要加班？我就知道——",
     cn037 = "明日方舟。",
     cn042 = "博士你好，今天也好好把计划的任务完成吧。",
-  },
-  skins = {
-
   },
 }
 

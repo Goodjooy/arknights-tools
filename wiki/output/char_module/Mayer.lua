@@ -15,11 +15,6 @@ return {
   faction = "Rhine Lab",
   stars = 5,
   class = "Supporter",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 480,
     atk = 199,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skchr-otter-1",
-      name = "迷惑装置",
+      name = "Confusing Device",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "所有机械水獭获得<span style='color:#0098DC;'>0.1<span>/</span>0.18<span>/</span>0.25<span>/</span>0.35</span>的<span style='color:#0098DC;'>物理</span>和<span style='color:#0098DC;'>法术闪避</span>\n机械水獭周围四格的友军也获得同样的效果",
+      description = "All mechanical otters gain <span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>18%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>35%</span> physical and magic evasion. Allies adjacent to them also gain the same effect",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-otter-2",
-      name = "爆破回收",
+      name = "Explosive Retrieval",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即引爆所有配置的机械水獭，爆炸时对周围敌人造成相当于梅尔攻击力<span style='color:#0098DC;'>3<span>/</span>3.8<span>/</span>4.5<span>/</span>6</span>的法术伤害，并使所有命中目标晕眩<span style='color:#0098DC;'>1<span>/</span>1<span>/</span>1<span>/</span>2</span>秒\n<span style='color:#F49800;'>被引爆的机械水獭会被回收</span>",
+      description = "Immediately detonate all deployed mechanical otters, dealing <span style='color:#0098DC;'>300%</span>/<span style='color:#0098DC;'>380%</span>/<span style='color:#0098DC;'>450%</span>/<span style='color:#0098DC;'>600%</span> magical damage to nearby enemies and stunning them for {stun} seconds. All detonated mechanical otters will be retrieved",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -286,18 +281,18 @@ return {
     {
       rank0 = {
         level = 1,
-        name = "机械水獭",
-        description = "可以使用3个机械水獭召唤物。攻击机械水獭的敌人攻击速度-10",
+        name = "Mechanical Otters",
+        description = "Can summon 3 mechanical otters. Inflict Attack speed -10 to enemies attacking the otters",
       },
       rank1 = {
         level = 1,
-        name = "机械水獭",
-        description = "可以使用4个机械水獭召唤物。攻击机械水獭的敌人攻击速度-25",
+        name = "Mechanical Otters",
+        description = "Can summon 4 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters",
       },
       rank2 = {
         level = 1,
-        name = "机械水獭",
-        description = "可以使用5个机械水獭召唤物。攻击机械水獭的敌人攻击速度-25",
+        name = "Mechanical Otters",
+        description = "Can summon 5 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters",
       },
     },
   },
@@ -318,24 +313,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "咪波·加工型",
+      name = "Mibo·Processing Model",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>65%</span>"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 65%"
     },
     {
-      name = "咪波·制造型",
+      name = "Mibo·Production Model",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite2",
-      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Craft Station, production +30%"
     },
   },
   meta = {
     illustrator = "幻象黑兔",
     voiceActor = "斋藤千和",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -403,9 +397,6 @@ return {
     cn036 = "博士，让我摸摸你的头，会很有灵感的！",
     cn037 = "明日方舟。",
     cn042 = "博士！你好！",
-  },
-  skins = {
-
   },
 }
 

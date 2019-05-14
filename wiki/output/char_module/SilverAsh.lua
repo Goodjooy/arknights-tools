@@ -15,11 +15,6 @@ return {
   faction = "Kjerag",
   stars = 6,
   class = "Guard",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 1075,
     atk = 297,
@@ -159,31 +154,31 @@ return {
   skills = {
     {
       icon = "skchr-svrash-1",
-      name = "强力击·γ型",
+      name = "Powerful Strike·Type γ",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>1.9<span>/</span>2.05<span>/</span>2.25<span>/</span>2.9</span>",
+      description = "The next attack deals <span style='color:#0098DC;'>190%</span>/<span style='color:#0098DC;'>205%</span>/<span style='color:#0098DC;'>225%</span>/<span style='color:#0098DC;'>290%</span> damage",
       sp = { 4, 4, 4, 3, 3, 3, 3, 3, 3, 2 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-svrash-2",
-      name = "雪境生存法则",
+      name = "Arctic Law of Survival",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "<span style='color:#F49800;'>可以在下列状态和初始状态间切换：</span>\n攻击范围<span style='color:#FF6237;'>缩小</span>，防御力<span style='color:#0098DC;'>+0.35<span>/</span>0.5<span>/</span>0.65<span>/</span>1</span>，每秒恢复最大生命的<span style='color:#0098DC;'>0.03<span>/</span>0.035<span>/</span>0.04<span>/</span>0.06</span>",
+      description = "Can switch between the default state and the following state: Reduce attack range, Defense power +<undefined>35%</>/<undefined>50%</>/<undefined>65%</>/<undefined>100%</>, Recover <undefined>3%</>/<undefined>4%</>/<undefined>4%</>/<undefined>6%</> of Max HP every second",
       sp = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-svrash-3",
-      name = "真银斩",
+      name = "True Silver Slash",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#FF6237;'>--0.7<span>/</span>-0.7<span>/</span>-0.7<span>/</span>-0.7</span>，攻击力<span style='color:#0098DC;'>+1.1<span>/</span>1.25<span>/</span>1.4<span>/</span>2</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，同时攻击至多<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>5<span>/</span>6</span>个目标（视为近距离攻击）",
+      description = "Defense power <span style='color:#FF6237;'>-70%</span>/<span style='color:#FF6237;'>-70%</span>/<span style='color:#FF6237;'>-70%</span>/<span style='color:#FF6237;'>-70%</span>, Attack power +<undefined>110%</>/<undefined>125%</>/<undefined>140%</>/<undefined>200%</>, Increase attack range and attack up to <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>6</span> targets simultaneously (treated as melee attacks)",
       sp = { 90, 90, 90, 90, 90, 90, 90, 90, 90, 90 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -306,20 +301,20 @@ return {
     {
       rank1 = {
         level = 1,
-        name = "领袖",
-        description = "攻击力+5%，所有干员的再部署时间-5%",
+        name = "Leader",
+        description = "Attack power +5%, All operatives' redeployment time -5%",
       },
       rank2 = {
         level = 1,
-        name = "领袖",
-        description = "攻击力+10%，所有干员的再部署时间-10%",
+        name = "Leader",
+        description = "Attack power +10%, All operatives' redeployment time -10%",
       },
     },
     {
       rank2 = {
         level = 1,
-        name = "鹰眼视觉",
-        description = "攻击范围内敌人的隐匿效果失效",
+        name = "Leader",
+        description = "Attack power +5%, All operatives' redeployment time -5%",
       },
     },
   },
@@ -340,17 +335,16 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "喀兰贸易·α",
+      name = "Karlan Trading·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+15%</span>，且订单上限<span style='color:#0098DC;'>+1</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
     },
   },
   meta = {
     illustrator = "竜崎いち",
     voiceActor = "小西克幸",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -358,8 +352,8 @@ return {
       archive1 = "喀兰贸易公司是一家从事对外贸易的国营企业，位于被称作“雪境”的宗教化小国，谢拉格。<br>因为地势的原因，谢拉格很少受到天灾侵袭，这使得谢拉格的居民不依靠移动城邦也能安居乐业，相应的，险峻的地势也使谢拉格的发展十分缓慢。<br>而喀兰贸易公司的名称，大概来源于谢拉格的宗教信徒们对其宗教圣山的称呼。<br>由银灰一手操办的喀兰贸易公司，现在已经成为了封闭保守的谢拉格唯一的对外窗口，同时，这家贸易公司也不可避免地改变了谢拉格。<br>拥有如此程度的远见与执行力，银灰究竟有着怎么样的经历，值得罗德岛进一步审查。",
       archive2 = "喜爱文学与艺术，热衷狩猎和收藏，甚至十分擅长传统谢拉格剑技，银灰的做派中有许多传统贵族的影子。<br>然而，银灰的思维与行事方式又与传统背道而驰，充满了现代教育赋予的进步情结与激烈。<br>这样的喀兰贸易公司总裁银灰，在罗德岛内是个颇有争议的人物。<br>无论如何，干员们都有一个共识：银灰都并非能够被轻易调遣与掌控的普通罗德岛干员。<br>银灰与他的雇员们和罗德岛之间的合作十分紧密，但合作时，相互间也不存在等级关系。<br>无论是战略策划还是战术指挥，多数干员都会为银灰的实力所折服，而比大多数干员更多虑、更熟悉阴谋与政治手段的另一些干员，则都对银灰的目的感到怀疑。<br>虽然银灰确实很关心自己正在罗德岛接受医治的感染者妹妹，崖心——不过，这并不能成为他信任罗德岛，或者是罗德岛足以信任他的理由。<br>也许正如传言所说，银灰真正感兴趣的，就只有罗德岛制药本身的价值，以及被他当作旗鼓相当的对手的博士......<br>凯尔希医生明确反对与银灰的进一步接触，而博士，也许有着自己的想法。",
       archive3 = "据传言，银灰的父母在银灰少年时意外身亡，现场证据更是指向银灰-希瓦艾什家族的政敌。<br>然而，也许是因为希瓦艾什家族的没落太过迅速，这件事竟然不了了之。<br>事故对年少的银灰必然造成了巨大影响，而银灰也并非软弱的富家子弟，他没有陷入自怨自艾的境地，而是继续抚养两位胞妹，直到她们能够自理为止。<br>之后，银灰离开了谢拉格，前往维多利亚接受现代化教育，任由政敌们瓜分希瓦艾什家族的政治遗产。谢拉格三族议会名存实亡。<br>这一状况持续到银灰归国为止。回国之后，银灰重新担负起了振兴家族的重任。<br>当然，据罗德岛干员崖心的证词，归来的银灰已经不再是当年那个和善早熟，咬着牙忍耐一切的银灰少爷。<br>之后，喀兰贸易公司迅速崛起，垄断了原本被谢拉格禁止开发的多项现代产业，向其它国家大量出口商品与原料，并进口现代工业产品，于短时间内积累了巨额资本，而希瓦艾什家族也因为企业的成功，重新自取回了自己在三族议会中的地位。<br>也许是因为另一场政治阴谋，银灰的两位妹妹都各自遭遇了会对希瓦艾什家族产生巨大影响的事件：长妹初雪在宗教仪式中被选作喀兰圣女，幺妹崖心感染了矿石病。<br>罗德岛方面倾向于这是一种政治对抗的举措，但崖心认为，这一切都再一次催化了银灰的意志。<br>现在，没人知道银灰会采取什么手段，正如没人知道他与罗德岛的合作究竟源于何种目的。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Male",
@@ -418,9 +412,6 @@ return {
     cn036 = "过于疲劳了，抱歉。让我稍微休息一下。",
     cn037 = "明日方舟。",
     cn042 = "没什么变化啊，我的盟友。",
-  },
-  skins = {
-
   },
 }
 

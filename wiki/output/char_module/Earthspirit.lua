@@ -15,11 +15,6 @@ return {
   faction = "",
   stars = 4,
   class = "Supporter",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 548,
     atk = 202,
@@ -159,21 +154,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2",
-      name = "攻击力强化·β型",
+      name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.2<span>/</span>0.35<span>/</span>0.5<span>/</span>0.8</span>",
+      description = "Attack power +<undefined>20%</>/<undefined>35%</>/<undefined>50%</>/<undefined>80%</>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-skgoat-2",
-      name = "流沙化",
+      name = "Quicksand",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "<span style='color:#FF6237;'>停止攻击</span>；攻击范围内的敌方单位每<span style='color:#0098DC;'>1.8<span>/</span>1.7<span>/</span>1.6<span>/</span>1.4</span>秒受到一次停顿效果",
+      description = "Stops attacking enemies. All enemies within attack range get stopped once every {interval} seconds",
       sp = { 60, 58, 56, 54, 52, 50, 48, 46, 44, 40 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -281,8 +276,8 @@ return {
     {
       rank2 = {
         level = 1,
-        name = "地质勘探",
-        description = "略微延长特性停顿的持续时间",
+        name = "Geological Exploration",
+        description = "Slight increase to the duration of the stop effect",
       },
     },
   },
@@ -303,24 +298,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "天灾信使·α",
+      name = "Disaster Messenger·α",
       badge = "hire",
       facility = "HIRE",
       unlockIcon = "elite0",
-      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at Human Resource, accumulation of networking resources +30%"
     },
     {
-      name = "地质学家",
+      name = "Geologist",
       badge = "manufacture",
       facility = "MANUFACTURE",
       unlockIcon = "elite1",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>源石</span>类配方的生产力<span style='color:#0098DC;'>+35%</span>"
+      description = "When stationed at a Craft Station, increase production of originium products by +35%"
     },
   },
   meta = {
     illustrator = "HUG",
     voiceActor = "悠木碧",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -329,7 +323,7 @@ return {
       archive2 = "身为地质学研究者，地灵自学生时代就对岩石研究产生了深厚的热爱。根据她的解释，籍由对不同年代，不同成分的土壤成分的研究，有助于人类更加深入地了解这片大地的历史与经历（在提及“大地”这一词汇时，地灵至少使用了四种不同语言加以描述），而研究岩石是踏入这门学科的最初，也是最为重要的一步。<br>地灵的专长领域是田野调查，她熟知不同的土壤与岩石的成分、分布与形成历史，也了解土地对人的危害是什么。不过她从未想到，有朝一日竟然能将这种技能运用在战斗中。",
       archive3 = "地灵成为感染者的契机是在一次针对源石采样的田野调查中。不过对于自己成为感染者一事，她显得缺乏兴趣，因为这并未使她更加贴近源石或别的什么石头，反而成了妨碍她工作的关键。地灵向提供给她治疗方案的罗德岛投入了百分百的信任，因为她根本没有功夫去管顾自己的病症。<br>基于缺乏更多研究经费的原因，地灵在田野调查工作中会顺带帮助临近的村镇或城市提供有关天灾调查与预警的工作，这使得她成为了一名天灾信使（地灵着重的强调，天灾信使理应只是她的副业，但人们显然是因为这层身份才更多地求助于她，这使得她非常困扰）。<br>在天灾信使中，地灵与普罗旺斯有一定交情（在罗德岛，作为干员的普罗旺斯依然发挥着天灾信使这一重要的职能），而对于同族后辈，同时也是火山学家的艾雅法拉，地灵在工作中也对其多有照顾。",
       archive4 = "据干员地灵反馈，她所持有的法杖上的源石经常在她的耳边形成絮语。这种絮语原本只是根本听不懂的噪音，但进入罗德岛后，这种絮语开始有了一定的分辨度。<br>地灵表示这种感觉让她非常反感。但由于她的法杖是特别定制的产品，在满足莱塔尼亚法术流派释放法术的技能同时，加入了以音波形式进行地质勘探等功能，她无法舍弃这根法杖而换成其他产品，因此地灵只能选择接受，并努力使这种絮语成为其生活与工作的一部分。<br>鉴于这种噪音只有地灵一人能够听见，目前尚未收到其他干员有关这种噪音的反馈，建议以经矿石病强化后的工作压力造成的疲劳性耳鸣作为处理方案。",
-      token = "undefined",
+      token = "",
     },
     bio = {
       gender = "Female",
@@ -388,9 +382,6 @@ return {
     cn036 = "这块矿石......给我的？真的可以吗......这......很贵重啊？",
     cn037 = "明日方舟。",
     cn042 = "博士，该工作了。",
-  },
-  skins = {
-
   },
 }
 

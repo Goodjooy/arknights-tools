@@ -15,11 +15,6 @@ return {
   faction = "Rhodes Island",
   stars = 3,
   class = "Sniper",
-  obtain = {
-    recruit = false,
-    gacha = false,
-    mission = false,
-  },
   initialStats = {
     hp = 531,
     atk = 150,
@@ -101,11 +96,11 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-1",
-      name = "攻击力强化·α型",
+      name = "Attack Strengthening·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+0.1<span>/</span>0.3<span>/</span>0.5<span>/</span></span>",
+      description = "Attack power +<undefined>10%</>/<undefined>30%</>/<undefined>50%</>/",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -213,8 +208,8 @@ return {
     {
       rank1 = {
         level = 55,
-        name = "短板突破",
-        description = "攻击速度+8，优先攻击使用远程武器的敌人",
+        name = "Weakness Breakthrough",
+        description = "Attack speed +8, prioritize attacking enemies using ranged weapons",
       },
     },
   },
@@ -235,24 +230,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "订单分发·α",
+      name = "Order Distribution·α",
       badge = "trading",
       facility = "TRADING",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+20%</span>"
+      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },
     {
-      name = "能工巧匠",
+      name = "Skilled Craftsman",
       badge = "workshop",
       facility = "WORKSHOP",
       unlockIcon = "elite1",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>50%</span>"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%"
     },
   },
   meta = {
     illustrator = "一立里子",
     voiceActor = "河西健吾",
-    servers = "CN, JP",
   },
   profile = {
     records = {
@@ -260,8 +254,8 @@ return {
       archive1 = "安德切尔智商高且善于观察，通常是最快掌握训练内容的人。在交际场合中，他总是平静地保持长时间的沉默，不会显示出任何的局促不安，也不会让他人感到不自然。安德切尔偏好以观察、分析的说话方式，只要谈话牵涉到他所熟悉的事物，他会以不间断的分析，准确地指出某项事物的特点和运作规律。",
       archive2 = "暂无出动任务的休息时间中，安德切尔常前往罗德岛整备与维修工作间。作为实习助手，安德切尔手腕灵活，心思缜密，且时常流露出对罗德岛设备无法掩饰的，十足的好奇心。",
       archive3 = "安德切尔尚未通过拉特兰铳型武装运用许可协议，他备受信赖的武器是他亲自改装的十字弩弓（拉特兰的设计有别于雷神工业量产化的金属弩弓）。鉴于力量方面的不足，他的弩弓仍保有踏具这一传统弩具部件。",
-      archive4 = "undefined",
-      token = "undefined",
+      archive4 = "",
+      token = "",
     },
     bio = {
       gender = "Male",
@@ -316,9 +310,6 @@ return {
     cn036 = "博士？能和您在一起，我也很开心。",
     cn037 = "明日方舟。",
     cn042 = "愿上天祝福您，博士。",
-  },
-  skins = {
-
   },
 }
 
