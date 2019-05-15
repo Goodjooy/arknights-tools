@@ -2,7 +2,8 @@
   "name": "slice",
   "scripts": {
     "json": "node scripts/json.js",
-    "slice": "node scripts/slice.js"
+    "slice": "node scripts/slice.js",
+    "slice2": "node scripts/slice2.js"
   },
   "dependencies": {
     "glob": "^7.1.3",

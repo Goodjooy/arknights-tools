@@ -30,7 +30,8 @@ new Promise(done => glob('input/dump/'+category+'/*.json', (err, data) => done(d
       if (contents) {
         let data = JSON.parse(contents)
         let offset = data['0 Sprite Base']['1 SpriteRenderData m_RD']['0 Rectf textureRect']
-        coords[spriteKey] = [ offset['0 float x'], offset['0 float y'], offset['0 float width'], offset['0 float height'] ]
+        let atlasId = String(data['0 Sprite Base']['1 SpriteRenderData m_RD']['0 PPtr<Texture2D> texture']['0 SInt64 m_PathID']).substring(0, 10)
+        coords[spriteKey] = [ atlasId, offset['0 float x'], offset['0 float y'], offset['0 float width'], offset['0 float height'] ]
       }
     })
 
