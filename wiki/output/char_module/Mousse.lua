@@ -332,7 +332,7 @@ return {
     },
     bio = {
       gender = "Female",
-      experience = "Half a years",
+      experience = "Half a year",
       origin = "Victoria",
       birthday = "August 19",
       race = "Feline",

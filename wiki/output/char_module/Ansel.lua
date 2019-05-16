@@ -259,7 +259,7 @@ return {
     },
     bio = {
       gender = "Male",
-      experience = "Half a years",
+      experience = "Half a year",
       origin = "Rim Billiton",
       birthday = "January 31",
       race = "Cartes",

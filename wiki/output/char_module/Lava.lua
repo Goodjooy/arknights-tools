@@ -259,7 +259,7 @@ return {
     },
     bio = {
       gender = "Female",
-      experience = "Half a years",
+      experience = "Half a year",
       origin = "Victoria",
       birthday = "June 22",
       race = "Sarkaz",

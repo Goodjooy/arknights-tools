@@ -140,7 +140,7 @@ Promise.all([
     if (text.indexOf('年') == text.length - 1) {
       let numYears = text.split('年')[0]
       numYears = t(numYears)
-      return numYears + (['Half', '1'].indexOf(numYears) > -1 ? ' year' : ' years')
+      return numYears + (['Half', 'Half a', '1'].indexOf(numYears) > -1 ? ' year' : ' years')
     }
     if (text == '无战斗经验')
       return 'No combat experience'
