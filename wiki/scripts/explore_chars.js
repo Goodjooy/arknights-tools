@@ -129,7 +129,9 @@ Promise.all([
 
   // let heights = {}
   // let weights = {}
-  let birthMonths = {}
+  // let birthMonths = {}
+  let illustrators = {}
+  let voiceactors = {}
 
   // chars = {
   //   char_101_sora: chars.char_101_sora,
@@ -179,6 +181,16 @@ Promise.all([
     if (info.origin) {
       if (!origins[info.origin]) origins[info.origin] = []
       origins[info.origin].push(char.appellation)
+    }
+
+    if (info.illustrator) {
+      if (!illustrators[info.illustrator]) illustrators[info.illustrator] = []
+      illustrators[info.illustrator].push(char.appellation)
+    }
+
+    if (info.voiceactor) {
+      if (!voiceactors[info.voiceactor]) voiceactors[info.voiceactor] = []
+      voiceactors[info.voiceactor].push(char.appellation)
     }
     
     // Check if there are any with multiple talens
@@ -293,15 +305,28 @@ Promise.all([
   //   console.log('')
   // })
 
-  console.log('RACES')
-  Object.keys(races).sort().forEach(race => {
-    console.log(race, races[race].join(', '));
+  // console.log('RACES')
+  // Object.keys(races).sort().forEach(race => {
+  //   console.log(race, races[race].join(', '));
+  // })
+  // console.log('')
+
+  // console.log('ORIGINS')
+  // Object.keys(origins).sort().forEach(origin => {
+  //   console.log(origin, origins[origin].join(', '));
+  // })
+  // console.log('')
+
+  console.log('ILLUSTRATORS')
+  Object.keys(illustrators).sort().forEach(key => {
+    console.log(key, illustrators[key].join(', '));
   })
   console.log('')
 
-  console.log('ORIGINS')
-  Object.keys(origins).sort().forEach(origin => {
-    console.log(origin, origins[origin].join(', '));
+  console.log('VOICE ACTORS')
+  Object.keys(voiceactors).sort().forEach(key => {
+    // console.log(key, voiceactors[key].join(', '));
+    console.log(key);
   })
   console.log('')
   
