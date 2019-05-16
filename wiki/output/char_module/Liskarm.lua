@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "TOKI",
-    voiceActor = "石川由依",
+    voiceActor = "Yui Ishikawa",
   },
   profile = {
     records = {

@@ -339,7 +339,7 @@ return {
   },
   meta = {
     illustrator = "infukun",
-    voiceActor = "川澄绫子",
+    voiceActor = "Ayako Kawasumi",
   },
   profile = {
     records = {

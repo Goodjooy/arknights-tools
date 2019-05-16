@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "Skade",
-    voiceActor = "浅仓杏美",
+    voiceActor = "Azumi Asakura",
   },
   profile = {
     records = {

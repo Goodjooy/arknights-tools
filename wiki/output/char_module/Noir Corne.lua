@@ -111,7 +111,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "河西健吾",
+    voiceActor = "Kengo Kawanishi",
   },
   profile = {
     records = {

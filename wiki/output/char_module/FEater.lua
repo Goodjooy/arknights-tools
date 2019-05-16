@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "RAN",
-    voiceActor = "园崎未惠",
+    voiceActor = "Mie Sonozaki",
   },
   profile = {
     records = {

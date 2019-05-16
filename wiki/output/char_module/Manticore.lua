@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "诹访彩花",
+    voiceActor = "Ayaka Suwa",
   },
   profile = {
     records = {

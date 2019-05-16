@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "aZLing4",
-    voiceActor = "卢婷",
+    voiceActor = "Ru Thing",
   },
   profile = {
     records = {

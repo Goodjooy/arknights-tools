@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "neco",
-    voiceActor = "佐藤利奈",
+    voiceActor = "Rina Satou",
   },
   profile = {
     records = {

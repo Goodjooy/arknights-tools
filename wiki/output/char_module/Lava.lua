@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "下野宏铭",
-    voiceActor = "水桥香织",
+    voiceActor = "Kaori Mizuhashi",
   },
   profile = {
     records = {

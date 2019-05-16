@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "阿鬼",
-    voiceActor = "广桥凉",
+    voiceActor = "Ryō Hirohashi",
   },
   profile = {
     records = {

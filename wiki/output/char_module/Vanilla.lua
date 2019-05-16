@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "m9nokuro",
-    voiceActor = "杉浦栞",
+    voiceActor = "Shiori Sugiura",
   },
   profile = {
     records = {

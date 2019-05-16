@@ -344,7 +344,7 @@ return {
   },
   meta = {
     illustrator = "幻象黑兔",
-    voiceActor = "石见舞菜香",
+    voiceActor = "Manaka Iwami",
   },
   profile = {
     records = {

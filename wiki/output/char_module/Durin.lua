@@ -104,7 +104,7 @@ return {
   },
   meta = {
     illustrator = "Skade",
-    voiceActor = "影山灯",
+    voiceActor = "Akari Kageyama",
   },
   profile = {
     records = {

@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "一立里子",
-    voiceActor = "金子真由美",
+    voiceActor = "Mayumi Kaneko",
   },
   profile = {
     records = {

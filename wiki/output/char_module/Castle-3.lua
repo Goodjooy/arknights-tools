@@ -8,7 +8,7 @@ return {
     kr = "?",
     ex = "Castle-3",
   },
-  fileKey = "Castle-3",
+  fileKey = "Castle3",
   team = -1,
   position = "Melee",
   roles = { "Support" },
@@ -39,8 +39,8 @@ return {
       range = "1-1",
       maxLevel = 30,
       images = {
-          portrait = "Castle-3-0-portrait.png",
-          full = "Castle-3-0.png"
+          portrait = "Castle3-0-portrait.png",
+          full = "Castle3-0.png"
       },
       maxStats = {
         hp = 1106,

@@ -349,7 +349,7 @@ return {
   },
   meta = {
     illustrator = "NoriZC",
-    voiceActor = "花守由美里",
+    voiceActor = "Yumiri Hanamori",
   },
   profile = {
     records = {

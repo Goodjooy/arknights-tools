@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "一立里子",
-    voiceActor = "原优子",
+    voiceActor = "Yuuko Hara",
   },
   profile = {
     records = {

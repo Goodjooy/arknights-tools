@@ -344,7 +344,7 @@ return {
   },
   meta = {
     illustrator = "infukun",
-    voiceActor = "安野希世乃",
+    voiceActor = "Kiyono Yasuno",
   },
   profile = {
     records = {

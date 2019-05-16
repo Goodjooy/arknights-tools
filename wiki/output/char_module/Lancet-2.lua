@@ -8,7 +8,7 @@ return {
     kr = "?",
     ex = "Lancet-2",
   },
-  fileKey = "Lancet-2",
+  fileKey = "Lancet2",
   team = -1,
   position = "Ranged",
   roles = { "Healing" },
@@ -39,8 +39,8 @@ return {
       range = "3-1",
       maxLevel = 30,
       images = {
-          portrait = "Lancet-2-0-portrait.png",
-          full = "Lancet-2-0.png"
+          portrait = "Lancet2-0-portrait.png",
+          full = "Lancet2-0.png"
       },
       maxStats = {
         hp = 435,

@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "幻象黑兔",
-    voiceActor = "久保百合花",
+    voiceActor = "Yurika Kubo",
   },
   profile = {
     records = {

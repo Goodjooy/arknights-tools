@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "Lanzi",
-    voiceActor = "高桥李依",
+    voiceActor = "Rie Takahashi",
   },
   profile = {
     records = {

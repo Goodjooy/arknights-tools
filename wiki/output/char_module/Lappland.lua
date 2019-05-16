@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "幻象黑兔",
-    voiceActor = "今井麻美",
+    voiceActor = "Asami Imai",
   },
   profile = {
     records = {

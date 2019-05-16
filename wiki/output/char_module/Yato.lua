@@ -111,7 +111,7 @@ return {
   },
   meta = {
     illustrator = "Skade",
-    voiceActor = "藤田咲",
+    voiceActor = "Saki Fujita",
   },
   profile = {
     records = {

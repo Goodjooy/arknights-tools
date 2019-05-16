@@ -331,7 +331,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "早见沙织",
+    voiceActor = "Saori Hayami",
   },
   profile = {
     records = {

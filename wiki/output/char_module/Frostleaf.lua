@@ -314,7 +314,7 @@ return {
   },
   meta = {
     illustrator = "下野宏铭",
-    voiceActor = "加隈亚衣",
+    voiceActor = "Ai Kakuma",
   },
   profile = {
     records = {

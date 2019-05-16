@@ -314,7 +314,7 @@ return {
   },
   meta = {
     illustrator = "HUG",
-    voiceActor = "悠木碧",
+    voiceActor = "Aoi Yūki",
   },
   profile = {
     records = {

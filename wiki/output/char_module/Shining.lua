@@ -344,7 +344,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "清水理沙",
+    voiceActor = "Risa Shimizu",
   },
   profile = {
     records = {

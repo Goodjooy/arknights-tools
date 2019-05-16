@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "Skade",
-    voiceActor = "高森奈津美",
+    voiceActor = "Natsumi Takamori",
   },
   profile = {
     records = {

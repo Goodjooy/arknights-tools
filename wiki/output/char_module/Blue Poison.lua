@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "LLC",
-    voiceActor = "种崎敦美",
+    voiceActor = "Atsumi Tanezaki",
   },
   profile = {
     records = {

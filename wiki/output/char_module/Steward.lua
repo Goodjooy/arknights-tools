@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "一立里子",
-    voiceActor = "铃木千寻",
+    voiceActor = "Chihiro Suzuki",
   },
   profile = {
     records = {

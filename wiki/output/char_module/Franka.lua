@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "TOKI",
-    voiceActor = "加隈亚衣",
+    voiceActor = "Ai Kakuma",
   },
   profile = {
     records = {

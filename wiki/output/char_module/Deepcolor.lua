@@ -324,7 +324,7 @@ return {
   },
   meta = {
     illustrator = "REALMBW",
-    voiceActor = "大地叶",
+    voiceActor = "You Taichi",
   },
   profile = {
     records = {

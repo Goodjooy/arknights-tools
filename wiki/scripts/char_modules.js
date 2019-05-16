@@ -73,7 +73,7 @@ Promise.all([
   }
 
   const fileKey = name => {
-    return titleCase(name).replace(/\s/g, '').replace(/’/g, '')
+    return titleCase(t(name)).replace(/[\s’-]/g, '')
   }
 
   const richText = text => {
@@ -469,8 +469,8 @@ Promise.all([
     return fillData(tpl_char_rank, {
       range: charPhase.rangeId,
       maxLevel: charPhase.maxLevel,
-      img_portrait: fileKey(t(char.appellation)) + '-' + skinNum + '-portrait.png',
-      img_full: fileKey(t(char.appellation)) + '-' + skinNum + '.png',
+      img_portrait: fileKey(char.appellation) + '-' + skinNum + '-portrait.png',
+      img_full: fileKey(char.appellation) + '-' + skinNum + '.png',
       hp: charPhase.attributesKeyFrames[1].data.maxHp,
       atk: charPhase.attributesKeyFrames[1].data.atk,
       def: charPhase.attributesKeyFrames[1].data.def,
@@ -605,7 +605,7 @@ Promise.all([
       name_jp: '?',
       name_kr: '?',
       name_ex: char.appellation,
-      file: fileKey(t(char.appellation)),
+      file: fileKey(char.appellation),
       team: char.team,
       position: t(char.position),
       roles: char.tagList.map(t).map(v => '"'+v+'"').join(', '),
@@ -654,7 +654,7 @@ Promise.all([
       trust: trustList(char.favorKeyFrames),
 
       illustrator: info.details.illustrator,
-      voiceActor: info.details.voiceactor,
+      voiceActor: t(info.details.voiceactor),
 
       record_resume: info.records.Resume || '',
       record_archive1: info.records['Archive 1'] || '',

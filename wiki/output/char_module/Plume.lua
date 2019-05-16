@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "deel",
-    voiceActor = "立花理香",
+    voiceActor = "Rika Tachibana",
   },
   profile = {
     records = {

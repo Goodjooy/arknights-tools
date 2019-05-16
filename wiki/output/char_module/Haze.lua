@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "Skade",
-    voiceActor = "卢婷",
+    voiceActor = "Ru Thing",
   },
   profile = {
     records = {

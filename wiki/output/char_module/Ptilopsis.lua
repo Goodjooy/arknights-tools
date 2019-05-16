@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "金元寿子",
+    voiceActor = "Hisako Kanemoto",
   },
   profile = {
     records = {

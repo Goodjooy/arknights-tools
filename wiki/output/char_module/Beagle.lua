@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "下野宏铭",
-    voiceActor = "春村奈奈",
+    voiceActor = "Harumura Nana",
   },
   profile = {
     records = {

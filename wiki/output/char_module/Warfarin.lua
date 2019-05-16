@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "时辰",
-    voiceActor = "石见舞菜香",
+    voiceActor = "Manaka Iwami",
   },
   profile = {
     records = {

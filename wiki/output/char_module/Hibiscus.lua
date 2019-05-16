@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "下野宏铭",
-    voiceActor = "井口裕香",
+    voiceActor = "Yuka Iguchi",
   },
   profile = {
     records = {

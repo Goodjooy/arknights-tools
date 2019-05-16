@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "下野宏铭",
-    voiceActor = "田所梓",
+    voiceActor = "Azusa Tadokoro",
   },
   profile = {
     records = {

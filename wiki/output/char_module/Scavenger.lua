@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "戏言咸咸",
-    voiceActor = "大地叶",
+    voiceActor = "You Taichi",
   },
   profile = {
     records = {

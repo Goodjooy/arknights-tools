@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "鸭",
-    voiceActor = "山本希望",
+    voiceActor = "Nozomi Yamamoto",
   },
   profile = {
     records = {

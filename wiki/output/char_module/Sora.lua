@@ -324,7 +324,7 @@ return {
   },
   meta = {
     illustrator = "幻象黑兔",
-    voiceActor = "铃木实里",
+    voiceActor = "Minori Suzuki",
   },
   profile = {
     records = {

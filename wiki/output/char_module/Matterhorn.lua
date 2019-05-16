@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "武内骏辅",
+    voiceActor = "Shunsuke Takeuchi",
   },
   profile = {
     records = {

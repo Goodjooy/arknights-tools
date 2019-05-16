@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "NoriZC",
-    voiceActor = "鬼头明里",
+    voiceActor = "Akari Kitō",
   },
   profile = {
     records = {

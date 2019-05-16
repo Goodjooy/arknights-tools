@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "渣念",
-    voiceActor = "影山灯",
+    voiceActor = "Akari Kageyama",
   },
   profile = {
     records = {

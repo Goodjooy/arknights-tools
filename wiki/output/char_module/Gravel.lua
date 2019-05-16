@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "立花理香",
+    voiceActor = "Rika Tachibana",
   },
   profile = {
     records = {

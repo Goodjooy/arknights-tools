@@ -334,7 +334,7 @@ return {
   },
   meta = {
     illustrator = "唯@W",
-    voiceActor = "黑泽朋世",
+    voiceActor = "Tomoyo Kurosawa",
   },
   profile = {
     records = {

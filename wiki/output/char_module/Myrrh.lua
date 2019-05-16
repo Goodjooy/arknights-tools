@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "下野宏铭",
-    voiceActor = "优木加奈",
+    voiceActor = "Kana Yuuki",
   },
   profile = {
     records = {

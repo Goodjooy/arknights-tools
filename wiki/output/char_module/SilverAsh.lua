@@ -344,7 +344,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "小西克幸",
+    voiceActor = "Katsuyuki Konishi",
   },
   profile = {
     records = {

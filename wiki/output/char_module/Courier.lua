@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "平川大辅",
+    voiceActor = "Daisuke Hirakawa",
   },
   profile = {
     records = {

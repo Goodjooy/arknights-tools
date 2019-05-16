@@ -324,7 +324,7 @@ return {
   },
   meta = {
     illustrator = "幻象黑兔",
-    voiceActor = "田所梓",
+    voiceActor = "Azusa Tadokoro",
   },
   profile = {
     records = {

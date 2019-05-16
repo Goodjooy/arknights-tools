@@ -319,7 +319,7 @@ return {
   },
   meta = {
     illustrator = "HUG",
-    voiceActor = "福原绫香",
+    voiceActor = "Ayaka Fukuhara",
   },
   profile = {
     records = {

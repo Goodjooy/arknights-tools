@@ -329,7 +329,7 @@ return {
   },
   meta = {
     illustrator = "幻象黑兔",
-    voiceActor = "斋藤千和",
+    voiceActor = "Chiwa Saitō",
   },
   profile = {
     records = {

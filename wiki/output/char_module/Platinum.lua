@@ -317,7 +317,7 @@ return {
   },
   meta = {
     illustrator = "Skade",
-    voiceActor = "茅野愛衣",
+    voiceActor = "Ai Kayano",
   },
   profile = {
     records = {

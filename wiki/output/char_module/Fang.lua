@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "下野宏铭",
-    voiceActor = "白石凉子",
+    voiceActor = "Ryoko Shiraishi",
   },
   profile = {
     records = {

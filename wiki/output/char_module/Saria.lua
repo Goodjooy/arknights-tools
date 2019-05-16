@@ -339,7 +339,7 @@ return {
   },
   meta = {
     illustrator = "NoriZC",
-    voiceActor = "井口裕香",
+    voiceActor = "Yuka Iguchi",
   },
   profile = {
     records = {

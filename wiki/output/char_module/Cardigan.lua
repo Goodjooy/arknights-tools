@@ -246,7 +246,7 @@ return {
   },
   meta = {
     illustrator = "一立里子",
-    voiceActor = "浅仓杏美",
+    voiceActor = "Azumi Asakura",
   },
   profile = {
     records = {

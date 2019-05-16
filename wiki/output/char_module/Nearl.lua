@@ -324,7 +324,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "佐仓绫音",
+    voiceActor = "Ayane Sakura",
   },
   profile = {
     records = {

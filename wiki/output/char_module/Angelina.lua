@@ -339,7 +339,7 @@ return {
   },
   meta = {
     illustrator = "LM7",
-    voiceActor = "大桥彩香",
+    voiceActor = "Ayaka Ohashi",
   },
   profile = {
     records = {
