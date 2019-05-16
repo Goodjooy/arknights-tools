@@ -525,7 +525,7 @@ Promise.all([
       'logo_rim': 'RIM Billiton',
       'logo_ursus': 'Ursus',
       'logo_victoria': 'Victoria',
-    }[factionKey] || ''
+    }[factionKey.toLowerCase()] || ''
   }
 
   let voiceTitles = {}

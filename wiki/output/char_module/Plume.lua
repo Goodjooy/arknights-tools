@@ -12,7 +12,7 @@ return {
   team = -1,
   position = "Melee",
   roles = { "DPS", "Cost Recovery" },
-  faction = "",
+  faction = "Laterano",
   stars = 3,
   class = "Vanguard",
   initialStats = {

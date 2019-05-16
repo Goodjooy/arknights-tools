@@ -12,7 +12,7 @@ return {
   team = -1,
   position = "Ranged",
   roles = { "DPS", "Debuffer" },
-  faction = "",
+  faction = "Leithanien",
   stars = 6,
   class = "Caster",
   initialStats = {
