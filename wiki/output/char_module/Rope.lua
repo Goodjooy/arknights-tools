@@ -12,7 +12,7 @@ return {
   team = -1,
   position = "Melee",
   roles = { "Displacement" },
-  faction = "ROM Billiton",
+  faction = "RIM Billiton",
   stars = 4,
   class = "Specialist",
   initialStats = {

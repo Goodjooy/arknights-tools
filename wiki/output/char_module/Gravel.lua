@@ -11,7 +11,7 @@ return {
   fileKey = "Gravel",
   team = -1,
   position = "Melee",
-  roles = { "Quick resurrection", "Protection" },
+  roles = { "Quick Resurrection", "Protection" },
   faction = "Kazimierz",
   stars = 4,
   class = "Specialist",

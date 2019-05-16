@@ -11,7 +11,7 @@ return {
   fileKey = "Fang",
   team = 2,
   position = "Melee",
-  roles = { "Cost recovery" },
+  roles = { "Cost Recovery" },
   faction = "Rhodes Island",
   stars = 3,
   class = "Vanguard",

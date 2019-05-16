@@ -11,7 +11,7 @@ return {
   fileKey = "Texas",
   team = 11,
   position = "Melee",
-  roles = { "Cost recovery", "Crowd Control" },
+  roles = { "Cost Recovery", "Crowd Control" },
   faction = "Penguin Logistics",
   stars = 5,
   class = "Vanguard",

@@ -11,7 +11,7 @@ return {
   fileKey = "ProjektRed",
   team = 5,
   position = "Melee",
-  roles = { "Quick resurrection", "Crowd Control" },
+  roles = { "Quick Resurrection", "Crowd Control" },
   faction = "Rhodes Island",
   stars = 5,
   class = "Specialist",

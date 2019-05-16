@@ -11,7 +11,7 @@ return {
   fileKey = "Siege",
   team = 10,
   position = "Melee",
-  roles = { "Cost recovery", "DPS" },
+  roles = { "Cost Recovery", "DPS" },
   faction = "Victoria",
   stars = 6,
   class = "Vanguard",

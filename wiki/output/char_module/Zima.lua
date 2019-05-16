@@ -11,7 +11,7 @@ return {
   fileKey = "Zima",
   team = 8,
   position = "Melee",
-  roles = { "Cost recovery", "Support" },
+  roles = { "Cost Recovery", "Support" },
   faction = "Ursus",
   stars = 5,
   class = "Vanguard",

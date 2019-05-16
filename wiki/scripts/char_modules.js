@@ -522,7 +522,7 @@ Promise.all([
       'logo_reunion': 'Reunion Movement',
       'logo_rhine': 'Rhine Lab',
       'logo_rhodes': 'Rhodes Island',
-      'logo_rim': 'ROM Billiton',
+      'logo_rim': 'RIM Billiton',
       'logo_ursus': 'Ursus',
       'logo_victoria': 'Victoria',
     }[factionKey] || ''
@@ -684,7 +684,9 @@ Promise.all([
       quotes: quotesList(charKey),
     }
     let charBody = fillData(tpl_char_module, charData)
-    
+
+    // console.log(t(char.appellation) + ' = require("Module:' + t(char.appellation) + '"),');
+
     return save({
       destFile: 'output/char_module/' + t(char.appellation) + '.lua',
       destBody: charBody,

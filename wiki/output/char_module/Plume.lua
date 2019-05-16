@@ -11,7 +11,7 @@ return {
   fileKey = "Plume",
   team = -1,
   position = "Melee",
-  roles = { "DPS", "Cost recovery" },
+  roles = { "DPS", "Cost Recovery" },
   faction = "",
   stars = 3,
   class = "Vanguard",
