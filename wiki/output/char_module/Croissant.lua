@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-moeshd-1",
+      icon = "skchr-moeshd-1.png",
       name = "Automatic Defense",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 20, 20, 20, 23, 23, 23, 26, 27, 28, 30 },
     },
     {
-      icon = "skchr-moeshd-2",
+      icon = "skchr-moeshd-2.png",
       name = "Magnetic Hammer",
       recharge = "",
       trigger = "Manual Trigger",

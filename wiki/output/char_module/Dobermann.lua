@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-doberm-1",
+      icon = "skchr-doberm-1.png",
       name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-doberm-2",
+      icon = "skchr-doberm-2.png",
       name = "Supervision",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-yak-1",
+      icon = "skchr-yak-1.png",
       name = "Body Strengthening",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 25, 25, 25, 27, 27, 27, 27, 28, 29, 30 },
     },
     {
-      icon = "skchr-yak-2",
+      icon = "skchr-yak-2.png",
       name = "Cold Resistance",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

@@ -146,7 +146,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-shining-1",
+      icon = "skchr-shining-1.png",
       name = "Creed",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -156,7 +156,7 @@ return {
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
     {
-      icon = "skchr-shining-2",
+      icon = "skchr-shining-2.png",
       name = "Automatic Cover",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -166,7 +166,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-shining-3",
+      icon = "skchr-shining-3.png",
       name = "Dogmatic Field",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

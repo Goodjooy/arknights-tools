@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-angel-1",
+      icon = "skchr-angel-1.png",
       name = "Assault Mode",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-angel-2",
+      icon = "skchr-angel-2.png",
       name = "Strafing Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -171,7 +171,7 @@ return {
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
     {
-      icon = "skchr-angel-3",
+      icon = "skchr-angel-3.png",
       name = "Overload Mode",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",

@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-myrrh-1",
+      icon = "skchr-myrrh-1.png",
       name = "Double Heal",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-myrrh-2",
+      icon = "skchr-myrrh-2.png",
       name = "Healing Field",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

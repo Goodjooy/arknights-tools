@@ -93,7 +93,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-range-extend",
+      icon = "skcom-range-extend.png",
       name = "Healing Range Strengthening",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

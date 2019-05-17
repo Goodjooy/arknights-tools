@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-yuki-1",
+      icon = "skchr-yuki-1.png",
       name = "Whirlwind",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
-      icon = "skchr-yuki-2",
+      icon = "skchr-yuki-2.png",
       name = "Condensed Weapon",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

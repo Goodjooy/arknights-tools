@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-panda-1",
+      icon = "skchr-panda-1.png",
       name = "Metallic Union",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-panda-2",
+      icon = "skchr-panda-2.png",
       name = "Collapsing Strike",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

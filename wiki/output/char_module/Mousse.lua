@@ -151,17 +151,17 @@ return {
   },
   skills = {
     {
-      icon = "skchr-frncat-1",
+      icon = "skchr-frncat-1.png",
       name = "Cat Scratch",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>75%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+      description = "The next attack deals +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>75%</span> damage and inflicts <span style='color:#0098DC;'>-15%</span>/<span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-25%</span>/<span style='color:#0098DC;'>-40%</span> attack power to the target for {frncat_s_1[debuff].duration} seconds",
       sp = { 6, 6, 6, 5, 5, 5, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-frncat-2",
+      icon = "skchr-frncat-2.png",
       name = "Bristling Fur",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

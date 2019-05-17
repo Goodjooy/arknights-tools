@@ -151,17 +151,17 @@ return {
   },
   skills = {
     {
-      icon = "skchr-amgoat-1",
+      icon = "skchr-amgoat-1.png",
       name = "Double Chant",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+      description = "Attack speed +<span style='color:#0098DC;'>30</span>/<span style='color:#0098DC;'>38</span>/<span style='color:#0098DC;'>45</span>/<span style='color:#0098DC;'>60</span>. On the 2nd cast and onwards, additionally increase Attack power by +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>38%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
-      icon = "skchr-amgoat-2",
+      icon = "skchr-amgoat-2.png",
       name = "Ignite",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -171,7 +171,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-amgoat-3",
+      icon = "skchr-amgoat-3.png",
       name = "Volcano",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

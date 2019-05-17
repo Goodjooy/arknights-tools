@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-magic-rage-2",
+      icon = "skcom-magic-rage-2.png",
       name = "Tactical Chanting·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
-      icon = "skchr-fmout-2",
+      icon = "skchr-fmout-2.png",
       name = "Fate",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

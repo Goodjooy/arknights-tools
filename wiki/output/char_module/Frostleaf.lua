@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-frostl-1",
+      icon = "skchr-frostl-1.png",
       name = "Frosty Spear",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-frostl-2",
+      icon = "skchr-frostl-2.png",
       name = "Freezing Spear",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

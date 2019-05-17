@@ -93,7 +93,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-def-up-1",
+      icon = "skcom-def-up-1.png",
       name = "Defense Strengthening·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

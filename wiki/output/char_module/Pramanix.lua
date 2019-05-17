@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-slbell-1",
+      icon = "skchr-slbell-1.png",
       name = "Echo Reverb",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 20 },
     },
     {
-      icon = "skchr-slbell-2",
+      icon = "skchr-slbell-2.png",
       name = "Natural Shock",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

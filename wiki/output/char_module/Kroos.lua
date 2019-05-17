@@ -93,7 +93,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-kroos-1",
+      icon = "skchr-kroos-1.png",
       name = "Consecutive Shot·Auto",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",

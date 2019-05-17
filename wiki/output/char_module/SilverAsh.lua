@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-svrash-1",
+      icon = "skchr-svrash-1.png",
       name = "Powerful Strike·Type γ",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-svrash-2",
+      icon = "skchr-svrash-2.png",
       name = "Arctic Law of Survival",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -171,7 +171,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-svrash-3",
+      icon = "skchr-svrash-3.png",
       name = "True Silver Slash",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

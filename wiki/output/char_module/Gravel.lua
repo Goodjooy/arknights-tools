@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-gravel-1",
+      icon = "skchr-gravel-1.png",
       name = "Shadow Raid",
       recharge = "",
       trigger = "Passive",
@@ -161,7 +161,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-gravel-2",
+      icon = "skchr-gravel-2.png",
       name = "Rat Pack",
       recharge = "",
       trigger = "Passive",

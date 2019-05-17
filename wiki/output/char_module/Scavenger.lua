@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-charge-cost-2",
+      icon = "skcom-charge-cost-2.png",
       name = "Assault Order·Type β",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-scave-2",
+      icon = "skchr-scave-2.png",
       name = "Assault Order·Attack",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

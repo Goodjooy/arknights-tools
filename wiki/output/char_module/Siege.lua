@@ -146,7 +146,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-charge-cost-3",
+      icon = "skcom-charge-cost-3.png",
       name = "Assault Order·Type γ",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -156,7 +156,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-siege-2",
+      icon = "skchr-siege-2.png",
       name = "Leaping Hammer",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -166,7 +166,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-siege-3",
+      icon = "skchr-siege-3.png",
       name = "Skull Crusher",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

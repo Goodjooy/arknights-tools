@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-red-1",
+      icon = "skchr-red-1.png",
       name = "Execution Mode",
       recharge = "",
       trigger = "Passive",
@@ -161,7 +161,7 @@ return {
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },
     {
-      icon = "skchr-red-2",
+      icon = "skchr-red-2.png",
       name = "Wolf Pack",
       recharge = "",
       trigger = "Passive",

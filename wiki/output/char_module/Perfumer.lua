@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-heal-up-2",
+      icon = "skcom-heal-up-2.png",
       name = "Healing Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
-      icon = "skchr-flower-2",
+      icon = "skchr-flower-2.png",
       name = "Fine-tuning",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

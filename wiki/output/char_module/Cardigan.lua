@@ -93,7 +93,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-heal-self-1",
+      icon = "skcom-heal-self-1.png",
       name = "Health Recovery·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

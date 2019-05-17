@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-slchan-1",
+      icon = "skchr-slchan-1.png",
       name = "Chain Hook",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-slchan-2",
+      icon = "skchr-slchan-2.png",
       name = "Binding Chain",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

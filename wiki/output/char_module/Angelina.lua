@@ -146,7 +146,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-aglina-1",
+      icon = "skchr-aglina-1.png",
       name = "Secret Staff·Speed Charge Mode",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -156,7 +156,7 @@ return {
       duration = { 20, 21, 22, 25, 26, 27, 30, 31, 33, 35 },
     },
     {
-      icon = "skchr-aglina-2",
+      icon = "skchr-aglina-2.png",
       name = "Secret Staff·Particle Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -166,7 +166,7 @@ return {
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
-      icon = "skchr-aglina-3",
+      icon = "skchr-aglina-3.png",
       name = "Secret Staff·Anti-Gravity Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-jesica-1",
+      icon = "skchr-jesica-1.png",
       name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-jesica-2",
+      icon = "skchr-jesica-2.png",
       name = "Cover Smoke",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

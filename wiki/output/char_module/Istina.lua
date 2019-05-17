@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-glassb-1",
+      icon = "skchr-glassb-1.png",
       name = "Absolute Focus",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
-      icon = "skchr-glassb-2",
+      icon = "skchr-glassb-2.png",
       name = "Literary Storm",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

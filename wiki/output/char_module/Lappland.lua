@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-whitew-1",
+      icon = "skchr-whitew-1.png",
       name = "Sundial",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-whitew-2",
+      icon = "skchr-whitew-2.png",
       name = "Wolf Spirit",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",

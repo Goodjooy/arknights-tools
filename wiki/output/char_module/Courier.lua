@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-charge-cost-2",
+      icon = "skcom-charge-cost-2.png",
       name = "Assault Order·Type β",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,12 +161,12 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-blackd-2",
+      icon = "skchr-blackd-2.png",
       name = "Assault Order·Defend",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+      description = "Immediately obtain <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span> cost. Gradually obtain <span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span> cost while the skill is active, additionally Defense power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },

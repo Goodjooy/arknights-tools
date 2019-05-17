@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-heal-up-3",
+      icon = "skcom-heal-up-3.png",
       name = "Healing Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
-      icon = "skchr-silent-2",
+      icon = "skchr-silent-2.png",
       name = "Healing Drone",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",

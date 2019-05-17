@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-milu-1",
+      icon = "skchr-milu-1.png",
       name = "Environmental Camouflage",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 25, 26, 27, 30, 31, 32, 35, 40, 45, 50 },
     },
     {
-      icon = "skchr-milu-2",
+      icon = "skchr-milu-2.png",
       name = "Tactical Radio",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

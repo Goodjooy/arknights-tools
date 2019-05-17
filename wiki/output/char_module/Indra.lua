@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-tiger-1",
+      icon = "skchr-tiger-1.png",
       name = "Armor-crushing Fist",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-tiger-2",
+      icon = "skchr-tiger-2.png",
       name = "Soul Rend",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

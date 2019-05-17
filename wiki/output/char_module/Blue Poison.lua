@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-bluep-1",
+      icon = "skchr-bluep-1.png",
       name = "Double Shot·Auto",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-bluep-2",
+      icon = "skchr-bluep-2.png",
       name = "Poison Spread",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

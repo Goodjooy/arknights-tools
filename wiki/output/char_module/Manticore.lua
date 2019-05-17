@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-mantic-1",
+      icon = "skchr-mantic-1.png",
       name = "Scorpion Venom",
       recharge = "",
       trigger = "Passive",
@@ -161,7 +161,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-mantic-2",
+      icon = "skchr-mantic-2.png",
       name = "Charging Poison Strike",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

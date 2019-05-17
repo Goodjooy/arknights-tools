@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-liskam-1",
+      icon = "skchr-liskam-1.png",
       name = "Charging Defense",
       recharge = "",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-liskam-2",
+      icon = "skchr-liskam-2.png",
       name = "Counter Shock",
       recharge = "",
       trigger = "Manual Trigger",

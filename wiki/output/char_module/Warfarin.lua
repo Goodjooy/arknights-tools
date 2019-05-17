@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-bldsk-1",
+      icon = "skchr-bldsk-1.png",
       name = "Emergency Bandage",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-bldsk-2",
+      icon = "skchr-bldsk-2.png",
       name = "Unstable Plasma",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

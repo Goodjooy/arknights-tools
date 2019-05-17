@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-shotst-1",
+      icon = "skchr-shotst-1.png",
       name = "Armor-crushing Shot",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-shotst-2",
+      icon = "skchr-shotst-2.png",
       name = "Armor-crushing Shot·Spread",
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",

@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-sora-1",
+      icon = "skchr-sora-1.png",
       name = "Song of Slumber",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
     },
     {
-      icon = "skchr-sora-2",
+      icon = "skchr-sora-2.png",
       name = "Song of Battle",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

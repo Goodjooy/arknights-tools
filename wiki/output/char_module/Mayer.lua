@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-otter-1",
+      icon = "skchr-otter-1.png",
       name = "Confusing Device",
       recharge = "",
       trigger = "Passive",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-otter-2",
+      icon = "skchr-otter-2.png",
       name = "Explosive Retrieval",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

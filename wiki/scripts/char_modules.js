@@ -256,7 +256,7 @@ Promise.all([
     })
 
     Object.keys(attrValues).forEach(attrName => {
-      let attrRegex = new RegExp('\{\{\-?' + attrName + '\}:?(.*?)\}', 'gim')
+      let attrRegex = new RegExp('\{\{\-?' + (attrName.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')) + '\}:?(.*?)\}', 'gim')
       let showValues = [ attrValues[attrName][0], attrValues[attrName][3], attrValues[attrName][6], attrValues[attrName][9] ]
       let values = showValues.join('/')
       // let values = showValues.join('<span>/</span>')
@@ -345,7 +345,7 @@ Promise.all([
     let baseSkill = skills[charSkill.skillId]
     let skillTL = tl_skills[charSkill.skillId]
     return fillData(tpl_skill, {
-      icon: skillIcon(charSkill.skillId),
+      icon: skillIcon(charSkill.skillId) + '.png',
       name: skillTL.name,
       // name: baseSkill.levels[0].name,
       recharge: spType(baseSkill.levels[0].spData.spType),

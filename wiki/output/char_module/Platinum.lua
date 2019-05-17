@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-atk-up-3",
+      icon = "skcom-atk-up-3.png",
       name = "Attack Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
-      icon = "skchr-platnm-2",
+      icon = "skchr-platnm-2.png",
       name = "Pegasus Sight",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",

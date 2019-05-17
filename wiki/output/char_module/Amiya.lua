@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-magic-rage-3",
+      icon = "skcom-magic-rage-3.png",
       name = "Tactical Chanting·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
-      icon = "skchr-amiya-2",
+      icon = "skchr-amiya-2.png",
       name = "Mental Burst",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -171,7 +171,7 @@ return {
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
-      icon = "skchr-amiya-3",
+      icon = "skchr-amiya-3.png",
       name = "Chimaera",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

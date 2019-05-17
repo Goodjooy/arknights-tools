@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-def-up-2",
+      icon = "skcom-def-up-2.png",
       name = "Defense Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
     },
     {
-      icon = "skchr-snakek-2",
+      icon = "skchr-snakek-2.png",
       name = "Shell-shaped Defense",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

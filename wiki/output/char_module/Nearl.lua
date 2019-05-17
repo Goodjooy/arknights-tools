@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-nearl-1",
+      icon = "skchr-nearl-1.png",
       name = "First Aid",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-nearl-2",
+      icon = "skchr-nearl-2.png",
       name = "First Aid Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

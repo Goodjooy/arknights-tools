@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-prove-1",
+      icon = "skchr-prove-1.png",
       name = "Wolf's Eye",
       recharge = "",
       trigger = "Passive",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-prove-2",
+      icon = "skchr-prove-2.png",
       name = "Slaughter Sense",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

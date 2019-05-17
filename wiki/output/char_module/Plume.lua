@@ -93,7 +93,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-quickattack-1",
+      icon = "skcom-quickattack-1.png",
       name = "Swift Strike·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

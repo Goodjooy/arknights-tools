@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-hsguma-1",
+      icon = "skchr-hsguma-1.png",
       name = "Battle Intent",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
-      icon = "skchr-hsguma-2",
+      icon = "skchr-hsguma-2.png",
       name = "Thorns",
       recharge = "",
       trigger = "Passive",
@@ -171,7 +171,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-hsguma-3",
+      icon = "skchr-hsguma-3.png",
       name = "Power Saw",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

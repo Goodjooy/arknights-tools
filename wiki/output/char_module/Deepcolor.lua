@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-deepcl-1",
+      icon = "skchr-deepcl-1.png",
       name = "Tentacles of Light & Shadow",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
-      icon = "skchr-deepcl-2",
+      icon = "skchr-deepcl-2.png",
       name = "Vision Trap",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

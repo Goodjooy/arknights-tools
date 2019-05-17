@@ -146,7 +146,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-demkni-1",
+      icon = "skchr-demkni-1.png",
       name = "First Aid",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -156,7 +156,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-demkni-2",
+      icon = "skchr-demkni-2.png",
       name = "Medicine Preparation",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -166,7 +166,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-demkni-3",
+      icon = "skchr-demkni-3.png",
       name = "Calcification",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

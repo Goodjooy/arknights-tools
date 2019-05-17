@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-sunbr-1",
+      icon = "skchr-sunbr-1.png",
       name = "Reserve Rations",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-sunbr-2",
+      icon = "skchr-sunbr-2.png",
       name = "Food Preparation",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

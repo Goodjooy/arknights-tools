@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-quickattack-3",
+      icon = "skcom-quickattack-3.png",
       name = "Swift Strike·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
     },
     {
-      icon = "skchr-franka-2",
+      icon = "skchr-franka-2.png",
       name = "Extreme Sharpness",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

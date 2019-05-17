@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-heal-up-3",
+      icon = "skcom-heal-up-3.png",
       name = "Healing Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
-      icon = "skchr-cgbird-2",
+      icon = "skchr-cgbird-2.png",
       name = "Arcane Shield",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -171,7 +171,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-cgbird-3",
+      icon = "skchr-cgbird-3.png",
       name = "Holy Territory",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

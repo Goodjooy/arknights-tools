@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-heal-self-2",
+      icon = "skcom-heal-self-2.png",
       name = "Health Recovery·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-gyuki-2",
+      icon = "skchr-gyuki-2.png",
       name = "Demon Strength",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

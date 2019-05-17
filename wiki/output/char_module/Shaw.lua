@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-sqrrel-1",
+      icon = "skchr-sqrrel-1.png",
       name = "Steam Pump",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-sqrrel-2",
+      icon = "skchr-sqrrel-2.png",
       name = "High-pressure Water Cannon",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

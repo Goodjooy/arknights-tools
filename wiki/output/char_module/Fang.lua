@@ -93,7 +93,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-charge-cost-1",
+      icon = "skcom-charge-cost-1.png",
       name = "Assault Order·Type α",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",

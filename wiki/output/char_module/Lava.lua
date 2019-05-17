@@ -93,7 +93,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-magic-rage-1",
+      icon = "skcom-magic-rage-1.png",
       name = "Tactical Chanting·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

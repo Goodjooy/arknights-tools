@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-ifrit-1",
+      icon = "skchr-ifrit-1.png",
       name = "Fanaticism",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
     {
-      icon = "skchr-ifrit-2",
+      icon = "skchr-ifrit-2.png",
       name = "Sunburst",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -171,7 +171,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-ifrit-3",
+      icon = "skchr-ifrit-3.png",
       name = "Burning Ground",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

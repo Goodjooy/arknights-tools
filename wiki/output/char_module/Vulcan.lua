@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-hpsts-1",
+      icon = "skchr-hpsts-1.png",
       name = "Guard Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
-      icon = "skchr-hpsts-2",
+      icon = "skchr-hpsts-2.png",
       name = "Offense Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

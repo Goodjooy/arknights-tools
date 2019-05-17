@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skcom-atk-up-2",
+      icon = "skcom-atk-up-2.png",
       name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
-      icon = "skchr-estell-2",
+      icon = "skchr-estell-2.png",
       name = "Self-sacrifice",
       recharge = "",
       trigger = "Manual Trigger",

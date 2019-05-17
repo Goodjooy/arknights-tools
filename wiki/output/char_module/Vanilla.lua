@@ -93,7 +93,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-wyvern-1",
+      icon = "skchr-wyvern-1.png",
       name = "Assault Order·Reinforcements",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-vigna-1",
+      icon = "skchr-vigna-1.png",
       name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
-      icon = "skchr-vigna-2",
+      icon = "skchr-vigna-2.png",
       name = "Hammer-on",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

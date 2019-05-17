@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-meteo-1",
+      icon = "skchr-meteo-1.png",
       name = "Spread Shot",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-meteo-2",
+      icon = "skchr-meteo-2.png",
       name = "High-explosive Round",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

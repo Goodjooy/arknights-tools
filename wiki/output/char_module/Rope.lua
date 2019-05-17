@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-rope-1",
+      icon = "skchr-rope-1.png",
       name = "Hook Shot",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-rope-2",
+      icon = "skchr-rope-2.png",
       name = "Duplex Hook",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

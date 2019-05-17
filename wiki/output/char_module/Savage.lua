@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-savage-1",
+      icon = "skchr-savage-1.png",
       name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
-      icon = "skchr-savage-2",
+      icon = "skchr-savage-2.png",
       name = "Millisecond Blasting",
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",

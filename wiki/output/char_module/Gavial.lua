@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-ccheal-1",
+      icon = "skchr-ccheal-1.png",
       name = "Revitalization",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
@@ -161,7 +161,7 @@ return {
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
-      icon = "skchr-ccheal-2",
+      icon = "skchr-ccheal-2.png",
       name = "Revitalization·Area",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
