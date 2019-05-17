@@ -62,7 +62,7 @@ Promise.coroutine(function*() {
     let filename = spriteKey
     switch(category) {
       case 'skills':
-        filename = filename.substring(11).replace(/\]$/, '').replace(/[\[_]/g, '-')
+        filename = filename.substring(11).replace(/\]$/, '').replace(/\[/g, '-').replace(/_/g, '-')
         break
     }
 

@@ -18,13 +18,13 @@ new Promise(done => glob('input/dump/'+category+'/*.json', (err, data) => done(d
     files.forEach(file => {
       let spriteKey = path.basename(file).split('-')[0]
 
-      let keyParts = spriteKey.split('_')
-      if (!keyParts.pop().match(/^\d+$/)) spriteKey = spriteKey + '_1'
+      // let keyParts = spriteKey.split('_')
+      // if (!keyParts.pop().match(/^\d+$/)) spriteKey = spriteKey + '_1'
 
-      if (charlist && charlist.indexOf(spriteKey) === -1) return
+      // if (charlist && charlist.indexOf(spriteKey) === -1) return
 
-      spriteKey = spriteKey.replace('+', 'a')
-      spriteKey = spriteKey.replace('#', 'b')
+      // spriteKey = spriteKey.replace('+', 'a')
+      // spriteKey = spriteKey.replace('#', 'b')
 
       let contents = fs.readFileSync(file, { encoding: 'utf8' })
       if (contents) {
