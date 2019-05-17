@@ -4,8 +4,6 @@ return {
   name = {
     en = "Deepcolor",
     cn = "深海色",
-    jp = "?",
-    kr = "?",
     ex = "Deepcolor",
   },
   fileKey = "Deepcolor",
@@ -158,7 +156,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "All tentacles gain +<undefined>15%</>/<undefined>30%</>/<undefined>45%</>/<undefined>60%</> Attack and Defense power, Recover <span style='color:#0098DC;'>30</span>/<span style='color:#0098DC;'>40</span>/<span style='color:#0098DC;'>50</span>/<span style='color:#0098DC;'>70</span> HP every second",
+      description = "All tentacles gain +<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span> Attack and Defense power, Recover <span style='color:#0098DC;'>30</span>/<span style='color:#0098DC;'>40</span>/<span style='color:#0098DC;'>50</span>/<span style='color:#0098DC;'>70</span> HP every second",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },

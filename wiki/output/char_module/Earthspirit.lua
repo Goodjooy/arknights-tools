@@ -4,8 +4,6 @@ return {
   name = {
     en = "Earthspirit",
     cn = "地灵",
-    jp = "?",
-    kr = "?",
     ex = "Earthspirit",
   },
   fileKey = "Earthspirit",
@@ -158,7 +156,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>20%</>/<undefined>35%</>/<undefined>50%</>/<undefined>80%</>",
+      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },

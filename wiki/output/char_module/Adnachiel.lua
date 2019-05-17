@@ -4,8 +4,6 @@ return {
   name = {
     en = "Adnachiel",
     cn = "安德切尔",
-    jp = "?",
-    kr = "?",
     ex = "Adnachiel",
   },
   fileKey = "Adnachiel",
@@ -100,7 +98,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>10%</>/<undefined>30%</>/<undefined>50%</>/",
+      description = "Attack power +<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>50%</span>/",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },

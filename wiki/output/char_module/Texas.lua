@@ -4,8 +4,6 @@ return {
   name = {
     en = "Texas",
     cn = "德克萨斯",
-    jp = "?",
-    kr = "?",
     ex = "Texas",
   },
   fileKey = "Texas",

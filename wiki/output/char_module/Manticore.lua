@@ -4,8 +4,6 @@ return {
   name = {
     en = "Manticore",
     cn = "狮蝎",
-    jp = "?",
-    kr = "?",
     ex = "Manticore",
   },
   fileKey = "Manticore",
@@ -168,7 +166,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Slows attack animation, Increase attack interval, Attack power +<undefined>30%</>/<undefined>45%</>/<undefined>60%</>/<undefined>90%</>, attacked targets get stunned for {attack@stun} seconds",
+      description = "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>90%</span>, attacked targets get stunned for {attack@stun} seconds",
       sp = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
       duration = { 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 },
     },

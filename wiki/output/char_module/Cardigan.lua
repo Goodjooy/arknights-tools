@@ -4,8 +4,6 @@ return {
   name = {
     en = "Cardigan",
     cn = "卡缇",
-    jp = "?",
-    kr = "?",
     ex = "Cardigan",
   },
   fileKey = "Cardigan",

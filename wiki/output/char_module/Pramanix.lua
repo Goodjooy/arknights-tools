@@ -4,8 +4,6 @@ return {
   name = {
     en = "Pramanix",
     cn = "初雪",
-    jp = "?",
-    kr = "?",
     ex = "Pramanix",
   },
   fileKey = "Pramanix",

@@ -4,8 +4,6 @@ return {
   name = {
     en = "Vanilla",
     cn = "香草",
-    jp = "?",
-    kr = "?",
     ex = "Vanilla",
   },
   fileKey = "Vanilla",
@@ -100,7 +98,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/ cost, Attack power +<undefined>5%</>/<undefined>20%</>/<undefined>35%</>/",
+      description = "Immediately obtain <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/ cost, Attack power +<span style='color:#0098DC;'>5%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/",
       sp = { 25, 25, 25, 23, 22, 21, 20 },
       duration = { 10, 10, 10, 10, 10, 10, 10 },
     },

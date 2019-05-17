@@ -4,8 +4,6 @@ return {
   name = {
     en = "Ansel",
     cn = "安赛尔",
-    jp = "?",
-    kr = "?",
     ex = "Ansel",
   },
   fileKey = "Ansel",
@@ -100,7 +98,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack range +<undefined>1</>/<undefined>2</>/<undefined>2</>/ tiles, Attack power +<undefined>5%</>/<undefined>20%</>/<undefined>40%</>/",
+      description = "Attack range +<span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/ tiles, Attack power +<span style='color:#0098DC;'>5%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>40%</span>/",
       sp = { 45, 44, 43, 40, 39, 38, 35 },
       duration = { 19, 20, 21, 22, 23, 24, 25 },
     },

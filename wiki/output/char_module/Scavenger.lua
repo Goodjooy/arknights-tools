@@ -4,8 +4,6 @@ return {
   name = {
     en = "Scavenger",
     cn = "清道夫",
-    jp = "?",
-    kr = "?",
     ex = "Scavenger",
   },
   fileKey = "Scavenger",
@@ -168,7 +166,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span> cost. Attack power +<undefined>20%</>/<undefined>30%</>/<undefined>40%</>/<undefined>70%</>",
+      description = "Immediately obtain <span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>70%</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },

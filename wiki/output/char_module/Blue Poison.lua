@@ -4,8 +4,6 @@ return {
   name = {
     en = "Blue Poison",
     cn = "蓝毒",
-    jp = "?",
-    kr = "?",
     ex = "Blue Poison",
   },
   fileKey = "BluePoison",
@@ -168,7 +166,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>10%</>/<undefined>20%</>/<undefined>30%</>/<undefined>50%</>, every attack hits the main target a second time as well as an additional 2 enemies",
+      description = "Attack power +<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>50%</span>, every attack hits the main target a second time as well as an additional 2 enemies",
       sp = { 50, 50, 50, 50, 50, 50, 50, 47, 44, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },

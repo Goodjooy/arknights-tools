@@ -4,8 +4,6 @@ return {
   name = {
     en = "Fang",
     cn = "芬",
-    jp = "?",
-    kr = "?",
     ex = "Fang",
   },
   fileKey = "Fang",

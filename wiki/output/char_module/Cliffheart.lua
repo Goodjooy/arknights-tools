@@ -4,8 +4,6 @@ return {
   name = {
     en = "Cliffheart",
     cn = "崖心",
-    jp = "?",
-    kr = "?",
     ex = "Cliffheart",
   },
   fileKey = "Cliffheart",

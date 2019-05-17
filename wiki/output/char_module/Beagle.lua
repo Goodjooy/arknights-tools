@@ -4,8 +4,6 @@ return {
   name = {
     en = "Beagle",
     cn = "米格鲁",
-    jp = "?",
-    kr = "?",
     ex = "Beagle",
   },
   fileKey = "Beagle",
@@ -100,7 +98,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Defense power +<undefined>10%</>/<undefined>30%</>/<undefined>50%</>/",
+      description = "Defense power +<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>50%</span>/",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 30, 30, 30, 30, 30, 30, 30 },
     },

@@ -207,14 +207,13 @@ Promise.all([
   }
 
   const skillDescFropmTL = (skillId, levels, baseMessage, rich = true) => {
-    let richRegex = new RegExp('<([A-Za-z@\.]*)>\+?\-?\{\{?\-?(.*?)\}?:?(.*?)\}(?!:)', 'gim')
+    let richRegex = new RegExp('<([A-Za-z@\.]*)>((?![</>]).)*{(.*?)}.*?<\/>', 'gim')
     let cnFormat = levels[levels.length-1].description
     let attrColors = {}
+    // console.log('\n\ncnFormat', cnFormat)
     while (match = richRegex.exec(cnFormat)) {
       // console.log('colorMatch', match[0], match[1], match[2], match[3])
-      let attrName = match[2] ? match[2] : match[3]
-      let attrPart = attrName.split(/\}?\:/gmi)
-      attrName = attrPart[0]
+      let attrName = match[3].split(/\}?\:/gmi)[0].replace(/-+/gmi, '').toLowerCase()
       attrColors[attrName] = match[1]
     }
     
@@ -242,7 +241,13 @@ Promise.all([
           } else {
             attrValues[item.key][levelNum] = item.value
           }
-          if (rich) attrValues[item.key][levelNum] = '<' + attrColors[item.key] + '>' + attrValues[item.key][levelNum] + '</>'
+          if (rich) {
+            if (attrColors[item.key]) {
+              attrValues[item.key][levelNum] = '<' + attrColors[item.key] + '>' + attrValues[item.key][levelNum] + '</>'
+            } else {
+              console.log('unknown attr color', skillId, attrColors, item.key)
+            }
+          }
         } else {
           if (level.description.indexOf(item.key) > -1)
             console.log('ATTR_404', skillId, Object.keys(attrValues), item.key, item.value)
@@ -586,6 +591,7 @@ Promise.all([
     char_101_sora: characters.char_101_sora,
     char_102_texas: characters.char_102_texas,
     char_103_angel: characters.char_103_angel,
+    char_172_svrash: characters.char_172_svrash,
   }
 
   return Promise.each(Object.keys(characters), charKey => {

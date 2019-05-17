@@ -4,8 +4,6 @@ return {
   name = {
     en = "Sora",
     cn = "空",
-    jp = "?",
-    kr = "?",
     ex = "Sora",
   },
   fileKey = "Sora",
@@ -158,7 +156,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <undefined>45%</>/<undefined>55%</>/<undefined>70%</>/<undefined>100%</>",
+      description = "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>55%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>100%</span>",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
     },

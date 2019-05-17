@@ -4,8 +4,6 @@ return {
   name = {
     en = "Castle-3",
     cn = "Castle-3",
-    jp = "?",
-    kr = "?",
     ex = "Castle-3",
   },
   fileKey = "Castle3",

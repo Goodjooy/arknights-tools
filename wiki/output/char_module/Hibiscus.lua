@@ -4,8 +4,6 @@ return {
   name = {
     en = "Hibiscus",
     cn = "芙蓉",
-    jp = "?",
-    kr = "?",
     ex = "Hibiscus",
   },
   fileKey = "Hibiscus",
@@ -100,7 +98,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>10%</>/<undefined>30%</>/<undefined>50%</>/",
+      description = "Attack power +<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>50%</span>/",
       sp = { 40, 40, 40, 35, 35, 35, 30 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },

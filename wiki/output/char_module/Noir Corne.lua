@@ -4,8 +4,6 @@ return {
   name = {
     en = "Noir Corne",
     cn = "黑角",
-    jp = "?",
-    kr = "?",
     ex = "Noir Corne",
   },
   fileKey = "NoirCorne",

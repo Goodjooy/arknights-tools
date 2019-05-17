@@ -4,8 +4,6 @@ return {
   name = {
     en = "Projekt Red",
     cn = "红",
-    jp = "?",
-    kr = "?",
     ex = "Projekt Red",
   },
   fileKey = "ProjektRed",
@@ -158,7 +156,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "Attack power +<undefined>35%</>/<undefined>50%</>/<undefined>65%</>/<undefined>80%</> after deploying, additionally gain <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span> physical evasion",
+      description = "Attack power +<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>65%</span>/<span style='color:#0098DC;'>80%</span> after deploying, additionally gain <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span> physical evasion",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },

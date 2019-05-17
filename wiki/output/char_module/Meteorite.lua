@@ -4,8 +4,6 @@ return {
   name = {
     en = "Meteorite",
     cn = "陨星",
-    jp = "?",
-    kr = "?",
     ex = "Meteorite",
   },
   fileKey = "Meteorite",

@@ -4,8 +4,6 @@ return {
   name = {
     en = "Istina",
     cn = "真理",
-    jp = "?",
-    kr = "?",
     ex = "Истина",
   },
   fileKey = "Istina",
@@ -168,7 +166,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>20%</>/<undefined>25%</>/<undefined>30%</>/<undefined>75%</>, Increase attack range, Attack 2 additional targets",
+      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>75%</span>, Increase attack range, Attack 2 additional targets",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 20, 20, 22, 22, 22, 25, 25, 25, 25 },
     },

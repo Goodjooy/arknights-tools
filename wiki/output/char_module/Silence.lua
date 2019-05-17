@@ -4,8 +4,6 @@ return {
   name = {
     en = "Silence",
     cn = "赫默",
-    jp = "?",
-    kr = "?",
     ex = "Silence",
   },
   fileKey = "Silence",
@@ -158,7 +156,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>40%</>/<undefined>55%</>/<undefined>70%</>/<undefined>90%</>",
+      description = "Attack power +<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>55%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>90%</span>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },

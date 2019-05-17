@@ -4,8 +4,6 @@ return {
   name = {
     en = "Siege",
     cn = "推进之王",
-    jp = "?",
-    kr = "?",
     ex = "Siege",
   },
   fileKey = "Siege",
@@ -163,7 +161,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals <span style='color:#0098DC;'>220%</span>/<span style='color:#0098DC;'>250%</span>/<span style='color:#0098DC;'>280%</span>/<span style='color:#0098DC;'>340%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span> cost. Can hold <undefined>1</>/<undefined>2</>/<undefined>3</>/<undefined>3</> charge(s)",
+      description = "The next attack deals <span style='color:#0098DC;'>220%</span>/<span style='color:#0098DC;'>250%</span>/<span style='color:#0098DC;'>280%</span>/<span style='color:#0098DC;'>340%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>3</span>/<span style='color:#F49800;'>3</span> charge(s)",
       sp = { 12, 12, 12, 11, 11, 11, 11, 10, 10, 10 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },

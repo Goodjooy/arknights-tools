@@ -4,8 +4,6 @@ return {
   name = {
     en = "Matoimaru",
     cn = "缠丸",
-    jp = "?",
-    kr = "?",
     ex = "Matoimaru",
   },
   fileKey = "Matoimaru",
@@ -168,7 +166,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Reduce self Defense power to 0, Attack power +<undefined>75%</>/<undefined>90%</>/<undefined>105%</>/<undefined>150%</>",
+      description = "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>90%</span>/<span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>150%</span>",
       sp = { 35, 35, 35, 32, 32, 32, 29, 28, 27, 25 },
       duration = { 10, 10, 10, 11, 11, 11, 12, 13, 14, 15 },
     },

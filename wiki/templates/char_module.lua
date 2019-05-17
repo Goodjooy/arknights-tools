@@ -4,8 +4,6 @@ return {
   name = {
     en = "{{name_en}}",
     cn = "{{name_cn}}",
-    jp = "{{name_jp}}",
-    kr = "{{name_kr}}",
     ex = "{{name_ex}}",
   },
   fileKey = "{{file}}",

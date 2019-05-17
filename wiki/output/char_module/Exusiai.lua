@@ -4,8 +4,6 @@ return {
   name = {
     en = "Exusiai",
     cn = "能天使",
-    jp = "?",
-    kr = "?",
     ex = "Exusiai",
   },
   fileKey = "Exusiai",
@@ -178,7 +176,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Attacks deal <span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span> hits, with each dealing <undefined>100%</>/<undefined>100%</>/<undefined>100%</>/<undefined>110%</> damage. Reduce attack interval by a certain extent. Automatic activation",
+      description = "Attacks deal <span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span> hits, with each dealing <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>110%</span> damage. Reduce attack interval by a certain extent. Automatic activation",
       sp = { 50, 48, 46, 44, 42, 40, 38, 36, 34, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },

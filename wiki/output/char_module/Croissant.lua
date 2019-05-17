@@ -4,8 +4,6 @@ return {
   name = {
     en = "Croissant",
     cn = "可颂",
-    jp = "?",
-    kr = "?",
     ex = "Croissant",
   },
   fileKey = "Croissant",
@@ -158,7 +156,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Defense power +<undefined>20%</>/<undefined>30%</>/<undefined>40%</>/<undefined>70%</>, Talent effect increased to <undefined>110%</>/<undefined>140%</>/<undefined>170%</>/<undefined>200%</>. Automatic activation",
+      description = "Defense power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>70%</span>, Talent effect increased to <span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>140%</span>/<span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>200%</span>. Automatic activation",
       sp = { 30, 29, 28, 27, 26, 25, 24, 23, 22, 20 },
       duration = { 20, 20, 20, 23, 23, 23, 26, 27, 28, 30 },
     },

@@ -4,8 +4,6 @@ return {
   name = {
     en = "Gavial",
     cn = "嘉维尔",
-    jp = "?",
-    kr = "?",
     ex = "Gavial",
   },
   fileKey = "Gavial",
@@ -158,7 +156,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "On the next heal, additionally heal the target for <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>23%</span>/<span style='color:#0098DC;'>26%</span>/<span style='color:#0098DC;'>35%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>46%</span>/<span style='color:#0098DC;'>52%</span>/<span style='color:#0098DC;'>70%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> seconds. Can hold <undefined>1</>/<undefined>1</>/<undefined>2</>/<undefined>2</> charge(s)",
+      description = "On the next heal, additionally heal the target for <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>23%</span>/<span style='color:#0098DC;'>26%</span>/<span style='color:#0098DC;'>35%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>46%</span>/<span style='color:#0098DC;'>52%</span>/<span style='color:#0098DC;'>70%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> seconds. Can hold <span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>2</span> charge(s)",
       sp = { 10, 10, 10, 9, 9, 9, 9, 9, 9, 8 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },

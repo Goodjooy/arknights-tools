@@ -4,8 +4,6 @@ return {
   name = {
     en = "Firewatch",
     cn = "守林人",
-    jp = "?",
-    kr = "?",
     ex = "Firewatch",
   },
   fileKey = "Firewatch",
@@ -158,7 +156,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>24%</>/<undefined>32%</>/<undefined>40%</>/<undefined>70%</> and gain hidden status (will not be targeted by ranged enemies) ",
+      description = "Attack power +<span style='color:#0098DC;'>24%</span>/<span style='color:#0098DC;'>32%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>70%</span> and gain hidden status (will not be targeted by ranged enemies) ",
       sp = { 30, 30, 30, 28, 28, 28, 26, 24, 22, 20 },
       duration = { 25, 26, 27, 30, 31, 32, 35, 40, 45, 50 },
     },

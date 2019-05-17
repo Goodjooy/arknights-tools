@@ -4,8 +4,6 @@ return {
   name = {
     en = "Skyfire",
     cn = "天火",
-    jp = "?",
-    kr = "?",
     ex = "Skyfire",
   },
   fileKey = "Skyfire",
@@ -158,7 +156,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>30%</>/<undefined>45%</>/<undefined>60%</>/<undefined>100%</>",
+      description = "Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>100%</span>",
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },

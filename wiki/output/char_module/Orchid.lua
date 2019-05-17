@@ -4,8 +4,6 @@ return {
   name = {
     en = "Orchid",
     cn = "梓兰",
-    jp = "?",
-    kr = "?",
     ex = "Orchid",
   },
   fileKey = "Orchid",
@@ -100,7 +98,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>6%</>/<undefined>15%</>/<undefined>25%</>/, Attack speed +<undefined>10</>/<undefined>15</>/<undefined>25</>/",
+      description = "Attack power +<span style='color:#0098DC;'>6%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>25%</span>/, Attack speed +<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>25</span>/",
       sp = { 55, 54, 53, 50, 49, 48, 45 },
       duration = { 25, 25, 25, 25, 25, 25, 25 },
     },

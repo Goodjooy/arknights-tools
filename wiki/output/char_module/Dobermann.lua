@@ -4,8 +4,6 @@ return {
   name = {
     en = "Dobermann",
     cn = "杜宾",
-    jp = "?",
-    kr = "?",
     ex = "Dobermann",
   },
   fileKey = "Dobermann",
@@ -168,7 +166,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>30%</>/<undefined>40%</>/<undefined>50%</>/<undefined>80%</>, Increase effect of self talent by {talent_scale}x",
+      description = "Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>, Increase effect of self talent by {talent_scale}x",
       sp = { 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },

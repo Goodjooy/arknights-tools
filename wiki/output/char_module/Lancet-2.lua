@@ -4,8 +4,6 @@ return {
   name = {
     en = "Lancet-2",
     cn = "Lancet-2",
-    jp = "?",
-    kr = "?",
     ex = "Lancet-2",
   },
   fileKey = "Lancet2",

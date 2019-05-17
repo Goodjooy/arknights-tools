@@ -4,8 +4,6 @@ return {
   name = {
     en = "Gravel",
     cn = "砾",
-    jp = "?",
-    kr = "?",
     ex = "Gravel",
   },
   fileKey = "Gravel",
@@ -158,7 +156,7 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "Defense power +<undefined>200%</>/<undefined>270%</>/<undefined>340%</>/<undefined>400%</> after deploying, effect weakens over <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>12</span> seconds",
+      description = "Defense power +<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>270%</span>/<span style='color:#0098DC;'>340%</span>/<span style='color:#0098DC;'>400%</span> after deploying, effect weakens over <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>12</span> seconds",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },

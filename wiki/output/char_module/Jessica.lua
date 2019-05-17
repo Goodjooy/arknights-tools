@@ -4,8 +4,6 @@ return {
   name = {
     en = "Jessica",
     cn = "杰西卡",
-    jp = "?",
-    kr = "?",
     ex = "Jessica",
   },
   fileKey = "Jessica",
@@ -168,7 +166,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<undefined>20%</>/<undefined>35%</>/<undefined>50%</>/<undefined>80%</>, Obtain <span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span> physical and magic evasion",
+      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>, Obtain <span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span> physical and magic evasion",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 21, 21, 21, 22, 23, 24, 25 },
     },

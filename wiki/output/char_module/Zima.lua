@@ -4,8 +4,6 @@ return {
   name = {
     en = "Zima",
     cn = "凛冬",
-    jp = "?",
-    kr = "?",
     ex = "зима",
   },
   fileKey = "Zima",
@@ -168,7 +166,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Gradually obtain <span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>12</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<undefined>25%</>/<undefined>35%</>/<undefined>45%</>/<undefined>60%</>, additionally obtain 1 cost when killing an enemy",
+      description = "Gradually obtain <span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>12</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>, additionally obtain 1 cost when killing an enemy",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },

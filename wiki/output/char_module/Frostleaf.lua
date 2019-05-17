@@ -4,8 +4,6 @@ return {
   name = {
     en = "Frostleaf",
     cn = "霜叶",
-    jp = "?",
-    kr = "?",
     ex = "Frostleaf",
   },
   fileKey = "Frostleaf",
@@ -168,7 +166,7 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack speed +<undefined>5</>/<undefined>20</>/<undefined>35</>/<undefined>50</>. Every attack inflicts <span style='color:#0098DC;'>-30%</span>/<span style='color:#0098DC;'>-36%</span>/<span style='color:#0098DC;'>-42%</span>/<span style='color:#0098DC;'>-50%</span> movement speed and has <span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>40%</span> chance to freeze the target (unable to move) for {debuff} seconds",
+      description = "Attack speed +<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>20</span>/<span style='color:#0098DC;'>35</span>/<span style='color:#0098DC;'>50</span>. Every attack inflicts <span style='color:#0098DC;'>-30%</span>/<span style='color:#0098DC;'>-36%</span>/<span style='color:#0098DC;'>-42%</span>/<span style='color:#0098DC;'>-50%</span> movement speed and has <span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>40%</span> chance to freeze the target (unable to move) for {debuff} seconds",
       sp = { 60, 59, 58, 57, 56, 55, 54, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },

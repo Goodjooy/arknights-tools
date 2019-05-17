@@ -4,8 +4,6 @@ return {
   name = {
     en = "Meteor",
     cn = "流星",
-    jp = "?",
-    kr = "?",
     ex = "Meteor",
   },
   fileKey = "Meteor",
@@ -158,7 +156,7 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals <span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>180%</span> physical damage and inflicts <span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-25%</span>/<span style='color:#0098DC;'>-30%</span>/<span style='color:#0098DC;'>-35%</span> defense to the target for <undefined>5</>/<undefined>5</>/<undefined>5</>/<undefined>5</> seconds",
+      description = "The next attack deals <span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>180%</span> physical damage and inflicts <span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-25%</span>/<span style='color:#0098DC;'>-30%</span>/<span style='color:#0098DC;'>-35%</span> defense to the target for 5/5/5/5 seconds",
       sp = { 5, 5, 5, 5, 5, 5, 4, 4, 4, 4 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
