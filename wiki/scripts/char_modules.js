@@ -345,7 +345,7 @@ Promise.all([
     let baseSkill = skills[charSkill.skillId]
     let skillTL = tl_skills[charSkill.skillId]
     return fillData(tpl_skill, {
-      icon: skillIcon(charSkill.skillId) + '.png',
+      icon: skillIcon(baseSkill.iconId || charSkill.skillId) + '.png',
       name: skillTL.name,
       // name: baseSkill.levels[0].name,
       recharge: spType(baseSkill.levels[0].spData.spType),

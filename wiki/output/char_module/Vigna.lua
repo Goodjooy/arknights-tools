@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-vigna-1.png",
+      icon = "skcom-atk-up-2.png",
       name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",

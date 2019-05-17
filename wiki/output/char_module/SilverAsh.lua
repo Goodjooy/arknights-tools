@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-svrash-1.png",
+      icon = "skcom-powerstrike-3.png",
       name = "Powerful Strike·Type γ",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",

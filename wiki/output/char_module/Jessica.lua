@@ -151,7 +151,7 @@ return {
   },
   skills = {
     {
-      icon = "skchr-jesica-1.png",
+      icon = "skcom-powerstrike-2.png",
       name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
