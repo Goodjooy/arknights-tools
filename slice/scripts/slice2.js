@@ -7,8 +7,6 @@ const Canvas = require('canvas')
 const Image = Canvas.Image
 
 const category = process.argv[2]
-const fileName = process.argv[3]
-const suffix = process.argv[4] || ''
 
 const loadImage = inputPath => {
   return new Promise((done, fail) => {
@@ -52,6 +50,7 @@ Promise.coroutine(function*() {
 
   yield Promise.each(Object.keys(coords), spriteKey => {
     let sliceCoord = coords[spriteKey]
+
     let imgEl = imgEls[ sliceCoord[0] ]
 
     let spriteTop = imgEl.height - sliceCoord[2] - sliceCoord[4]
@@ -60,7 +59,14 @@ Promise.coroutine(function*() {
     let ctx = canvas.getContext('2d')
     ctx.drawImage(imgEl, sliceCoord[1], spriteTop, sliceCoord[3], sliceCoord[4], 0, 0, sliceCoord[3], sliceCoord[4])
 
-    return saveImage(targetDir + '/' + spriteKey + suffix + '.png', canvas)
+    let filename = spriteKey
+    switch(category) {
+      case 'skills':
+        filename = filename.substring(11).replace(/\]$/, '').replace(/[\[_]/g, '-')
+        break
+    }
+
+    return saveImage(targetDir + '/' + filename + '.png', canvas)
   })
 
   console.log('Done!');
