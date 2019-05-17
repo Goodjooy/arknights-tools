@@ -297,15 +297,15 @@ return {
   infrastructure_skills = {
     {
       name = "Skill Theory",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing skill materials, increase the rate of by-products by 70%"
     },
     {
       name = "Order Distribution·β",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite1",
       description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },

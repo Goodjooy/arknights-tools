@@ -307,15 +307,15 @@ return {
   infrastructure_skills = {
     {
       name = "Competent",
-      badge = "control",
-      facility = "CONTROL",
+      badge = "riicqh",
+      facility = "Control Center",
       unlockIcon = "elite0",
       description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
     },
     {
       name = "Knight of Light",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite2",
       description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.5 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.25"
     },

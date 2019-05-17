@@ -307,8 +307,8 @@ return {
   infrastructure_skills = {
     {
       name = "Disaster Messenger·α",
-      badge = "hire",
-      facility = "HIRE",
+      badge = "hr",
+      facility = "HR Office",
       unlockIcon = "elite0",
       description = "When stationed at Human Resource, accumulation of networking resources +30%"
     },

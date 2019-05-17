@@ -297,15 +297,15 @@ return {
   infrastructure_skills = {
     {
       name = "Clue Collection·β",
-      badge = "meeting",
-      facility = "MEETING",
+      badge = "reception",
+      facility = "Reception",
       unlockIcon = "elite0",
       description = "When stationed at Reception, clue collection speed +20%"
     },
     {
       name = "Combat Directive Recordings",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite1",
       description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },

@@ -229,15 +229,15 @@ return {
   infrastructure_skills = {
     {
       name = "Slow Starter",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite0",
       description = "When stationed at a Craft Station, production +15% for the first hour. Thereafter, increase by +2% every hour, capping at +25%"
     },
     {
       name = "Solitude",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite1",
       description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },

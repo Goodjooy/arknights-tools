@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "S.W.E.E.P",
-      badge = "control",
-      facility = "CONTROL",
+      badge = "riicqh",
+      facility = "Control Center",
       unlockIcon = "elite0",
       description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
     },
     {
       name = "Scavenger",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite1",
       description = "When stationed at a Craft Station, storage capacity +8 and mood reduction per hour -0.25"
     },

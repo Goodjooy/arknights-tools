@@ -229,15 +229,15 @@ return {
   infrastructure_skills = {
     {
       name = "Psychology",
-      badge = "hire",
-      facility = "HIRE",
+      badge = "hr",
+      facility = "HR Office",
       unlockIcon = "elite0",
       description = "When stationed at Human Resource, accumulation of networking resources +40%"
     },
     {
       name = "Supply Management",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite1",
       description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
     },

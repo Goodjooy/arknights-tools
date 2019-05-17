@@ -307,15 +307,15 @@ return {
   infrastructure_skills = {
     {
       name = "S.W.E.E.P",
-      badge = "control",
-      facility = "CONTROL",
+      badge = "riicqh",
+      facility = "Control Center",
       unlockIcon = "elite0",
       description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
     },
     {
       name = "Tracker",
-      badge = "meeting",
-      facility = "MEETING",
+      badge = "reception",
+      facility = "Reception",
       unlockIcon = "elite2",
       description = "When stationed at Reception, clue collection speed +25%"
     },

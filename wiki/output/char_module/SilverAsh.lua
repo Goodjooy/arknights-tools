@@ -335,7 +335,7 @@ return {
     {
       name = "Karlan Trading·α",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite0",
       description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
     },

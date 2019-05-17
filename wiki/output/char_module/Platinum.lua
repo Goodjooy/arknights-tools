@@ -307,8 +307,8 @@ return {
   infrastructure_skills = {
     {
       name = "Sniper Specialization·α",
-      badge = "training",
-      facility = "TRAINING",
+      badge = "trading",
+      facility = "Training",
       unlockIcon = "elite0",
       description = "When stationed at the Training Station, reduce the skill training time of Sniper operatives by -30%"
     },

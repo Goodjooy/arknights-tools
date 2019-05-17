@@ -317,15 +317,15 @@ return {
   infrastructure_skills = {
     {
       name = "Cooperation Agreement",
-      badge = "control",
-      facility = "CONTROL",
+      badge = "riicqh",
+      facility = "Control Center",
       unlockIcon = "elite0",
       description = "When stationed at the Command Center, order acquisition efficiency of all Trade Stations +7%"
     },
     {
       name = "Violin Solo",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite2",
       description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
     },

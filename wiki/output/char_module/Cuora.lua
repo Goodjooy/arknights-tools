@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Warehouse Organization·β",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite0",
       description = "When stationed at a Craft Station, storage capacity +10 and production +10%"
     },
     {
       name = "Order Distribution·α",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite1",
       description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },

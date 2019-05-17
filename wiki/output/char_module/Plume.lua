@@ -229,15 +229,15 @@ return {
   infrastructure_skills = {
     {
       name = "Vanguard Specialization·α",
-      badge = "training",
-      facility = "TRAINING",
+      badge = "trading",
+      facility = "Training",
       unlockIcon = "elite0",
       description = "When stationed at the Training Station, reduce the skill training time of Vanguard operatives by -30%"
     },
     {
       name = "Order Management·α",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite1",
       description = "When stationed at a Trade Station, order acquisition efficiency +10% and order limit +1"
     },

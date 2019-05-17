@@ -95,14 +95,14 @@ return {
     {
       name = "Order Distribution·β",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite0",
       description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
     {
       name = "Standardization·α",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite0",
       description = "When stationed at a Craft Station, production +15%"
     },

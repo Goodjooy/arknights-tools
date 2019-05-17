@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Standardization·β",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite0",
       description = "When stationed at a Craft Station, production +25%"
     },
     {
       name = "Liaison",
-      badge = "meeting",
-      facility = "MEETING",
+      badge = "reception",
+      facility = "Reception",
       unlockIcon = "elite1",
       description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Blacksteel"
     },

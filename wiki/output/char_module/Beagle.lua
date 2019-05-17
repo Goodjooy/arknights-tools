@@ -229,15 +229,15 @@ return {
   infrastructure_skills = {
     {
       name = "Warehouse Organization·α",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite0",
       description = "When stationed at a Craft Station, storage capacity +6 and production +10%"
     },
     {
       name = "Lively",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite1",
       description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.4"
     },

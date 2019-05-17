@@ -334,15 +334,15 @@ return {
   infrastructure_skills = {
     {
       name = "Volcanologist",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite0",
       description = "When stationed at a Craft Station, increase production of originium products by +35%"
     },
     {
       name = "Disaster Messenger·β",
-      badge = "hire",
-      facility = "HIRE",
+      badge = "hr",
+      facility = "HR Office",
       unlockIcon = "elite2",
       description = "When stationed at Human Resource, accumulation of networking resources +45%"
     },

@@ -307,8 +307,8 @@ return {
   infrastructure_skills = {
     {
       name = "Solitude",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite0",
       description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },

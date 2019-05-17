@@ -307,8 +307,8 @@ return {
   infrastructure_skills = {
     {
       name = "Craftsmanship·α",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite0",
       description = "When stationed at a Craft Station, production-10%, storage capacity +16 and mood reduction per hour -0.05"
     },

@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Competent",
-      badge = "control",
-      facility = "CONTROL",
+      badge = "riicqh",
+      facility = "Control Center",
       unlockIcon = "elite0",
       description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
     },
     {
       name = "Instructor",
-      badge = "training",
-      facility = "TRAINING",
+      badge = "trading",
+      facility = "Training",
       unlockIcon = "elite1",
       description = "When stationed at the Training Station, operative skill training time -25%"
     },

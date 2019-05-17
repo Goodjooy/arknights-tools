@@ -245,7 +245,7 @@ Promise.all([
             if (attrColors[item.key]) {
               attrValues[item.key][levelNum] = '<' + attrColors[item.key] + '>' + attrValues[item.key][levelNum] + '</>'
             } else {
-              console.log('unknown attr color', skillId, attrColors, item.key)
+              // console.log('unknown attr color', skillId, attrColors, item.key)
             }
           }
         } else {
@@ -566,11 +566,31 @@ Promise.all([
   }
 
   const facilityBadge = name => {
-    return name.toLowerCase()
+    return {
+      POWER: 'power',
+      DORMITORY: 'dorm',
+      MANUFACTURE: 'craft',
+      TRADING: 'trading',
+      HIRE: 'hr',
+      WORKSHOP: 'synth',
+      MEETING: 'reception',
+      TRAINING: 'trading',
+      CONTROL: 'riicqh',
+    }[name] || name
   }
 
   const facilityName = name => {
-    return name
+    return {
+      POWER: 'Power Plant',
+      DORMITORY: 'Dormitory',
+      MANUFACTURE: 'Production',
+      TRADING: 'Trading',
+      HIRE: 'HR Office',
+      WORKSHOP: 'Workshop',
+      MEETING: 'Reception',
+      TRAINING: 'Training',
+      CONTROL: 'Control Center',
+    }[name] || name
   }
 
   const riicTemplate = (infraSkill, riicEN) => {
@@ -698,7 +718,6 @@ Promise.all([
       destBody: charBody,
     })
   })
-  
 })
 .then(() => {
   console.log('DONE!')

@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Pharmacology",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
     {
       name = "Medic Specialization·α",
-      badge = "training",
-      facility = "TRAINING",
+      badge = "trading",
+      facility = "Training",
       unlockIcon = "elite1",
       description = "When stationed at the Training Station, reduce the skill training time of Medic operatives by -30%"
     },

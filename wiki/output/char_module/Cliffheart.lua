@@ -307,15 +307,15 @@ return {
   infrastructure_skills = {
     {
       name = "Explorer's Enthusiasm",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite0",
       description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.25 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.5"
     },
     {
       name = "Karlan Trading·β",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite2",
       description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +2"
     },

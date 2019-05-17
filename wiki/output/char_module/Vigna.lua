@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Combat Directive Recordings",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite0",
       description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
     {
       name = "Vanguard Specialization·β",
-      badge = "training",
-      facility = "TRAINING",
+      badge = "trading",
+      facility = "Training",
       unlockIcon = "elite1",
       description = "When stationed at the Training Station, reduce the skill training time of Vanguard operatives by -50%"
     },

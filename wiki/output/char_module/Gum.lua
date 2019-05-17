@@ -303,14 +303,14 @@ return {
     {
       name = "Communication",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite0",
       description = "When stationed at a Trade Station, order acquisition efficiency +30% and mood reduction per hour -0.25"
     },
     {
       name = "Cooking",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite1",
       description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.35 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.35"
     },

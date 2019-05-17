@@ -307,8 +307,8 @@ return {
   infrastructure_skills = {
     {
       name = "Clue Collection·α",
-      badge = "meeting",
-      facility = "MEETING",
+      badge = "reception",
+      facility = "Reception",
       unlockIcon = "elite0",
       description = "When stationed at Reception, clue collection speed +10%"
     },

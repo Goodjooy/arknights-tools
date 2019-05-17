@@ -230,14 +230,14 @@ return {
     {
       name = "Supply Management",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite0",
       description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
     },
     {
       name = "Focus·α",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite1",
       description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 40%"
     },

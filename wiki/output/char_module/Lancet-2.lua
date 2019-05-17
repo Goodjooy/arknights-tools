@@ -95,14 +95,14 @@ return {
     {
       name = "Backup Generator",
       badge = "power",
-      facility = "POWER",
+      facility = "Power Plant",
       unlockIcon = "elite0",
       description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
     {
       name = "Medical Service",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite0",
       description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.65 per hour (When stacked, only the highest effect becomes active)"
     },

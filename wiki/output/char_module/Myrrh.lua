@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Pharmacology",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
     {
       name = "Empathetic",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite1",
       description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
     },

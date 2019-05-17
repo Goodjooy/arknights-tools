@@ -297,15 +297,15 @@ return {
   infrastructure_skills = {
     {
       name = "Solitude",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite0",
       description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
     {
       name = "Combat Directive Recordings",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite1",
       description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },

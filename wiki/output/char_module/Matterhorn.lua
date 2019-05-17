@@ -303,14 +303,14 @@ return {
     {
       name = "Karlan Trading·α",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite0",
       description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
     },
     {
       name = "Defender Specialization·β",
-      badge = "training",
-      facility = "TRAINING",
+      badge = "trading",
+      facility = "Training",
       unlockIcon = "elite1",
       description = "When stationed at the Training Station, reduce the skill training time of Defender operatives by -50%"
     },

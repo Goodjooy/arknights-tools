@@ -307,8 +307,8 @@ return {
   infrastructure_skills = {
     {
       name = "Caster Specialization·α",
-      badge = "training",
-      facility = "TRAINING",
+      badge = "trading",
+      facility = "Training",
       unlockIcon = "elite0",
       description = "When stationed at the Training Station, reduce the skill training time of Caster operatives by -30%"
     },

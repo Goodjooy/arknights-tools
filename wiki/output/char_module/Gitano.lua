@@ -303,14 +303,14 @@ return {
     {
       name = "Supply Management",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite0",
       description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
     },
     {
       name = "Divination",
-      badge = "meeting",
-      facility = "MEETING",
+      badge = "reception",
+      facility = "Reception",
       unlockIcon = "elite1",
       description = "When stationed at Reception, clue collection speed +25%"
     },

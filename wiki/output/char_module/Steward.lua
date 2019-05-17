@@ -230,14 +230,14 @@ return {
     {
       name = "Negotiation",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite0",
       description = "When stationed at a Trade Station, order limit +3 and mood reduction per hour -0.25"
     },
     {
       name = "Standardization·β",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite1",
       description = "When stationed at a Craft Station, production +25%"
     },

@@ -307,15 +307,15 @@ return {
   infrastructure_skills = {
     {
       name = "Skill Theory",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing skill materials, increase the rate of by-products by 70%"
     },
     {
       name = "Cooking",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite2",
       description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.35 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.35"
     },

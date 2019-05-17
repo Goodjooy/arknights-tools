@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Engineering",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing infrastructure materials, increase the rate of by-products by 70%"
     },
     {
       name = "Equipment Maintenance",
       badge = "power",
-      facility = "POWER",
+      facility = "Power Plant",
       unlockIcon = "elite1",
       description = "When stationed at a Power Station, drone recovery per hour +15%"
     },

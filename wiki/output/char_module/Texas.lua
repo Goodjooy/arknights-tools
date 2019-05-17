@@ -308,14 +308,14 @@ return {
     {
       name = "Resentment",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite0",
       description = "When stationed together with Lappland at the same Trade Station, mood reduction per hour +0.3 and order acquisition efficiency +65%"
     },
     {
       name = "Good Chemistry",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite2",
       description = "When stationed together with Exusiai at the same Trade Station, mood reduction per hour -0.3"
     },

@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Supporter Specialization·α",
-      badge = "training",
-      facility = "TRAINING",
+      badge = "trading",
+      facility = "Training",
       unlockIcon = "elite0",
       description = "When stationed at the Training Station, reduce the skill training time of Supporter operatives by -30%"
     },
     {
       name = "Staff",
-      badge = "meeting",
-      facility = "MEETING",
+      badge = "reception",
+      facility = "Reception",
       unlockIcon = "elite2",
       description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Ursus Student Council"
     },

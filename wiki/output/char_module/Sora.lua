@@ -307,15 +307,15 @@ return {
   infrastructure_skills = {
     {
       name = "Idol",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite0",
       description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
     },
     {
       name = "Penguin Logistics·β",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite2",
       description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },

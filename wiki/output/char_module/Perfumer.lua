@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Pharmacology",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
     {
       name = "Standardization·β",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite1",
       description = "When stationed at a Craft Station, production +25%"
     },

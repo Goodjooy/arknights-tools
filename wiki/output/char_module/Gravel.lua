@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Focus·α",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 40%"
     },
     {
       name = "Metal Crafts·β",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite1",
       description = "When stationed at a Craft Station, increase production of precious metals by +35%"
     },

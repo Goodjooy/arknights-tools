@@ -310,7 +310,7 @@ return {
     {
       name = "Pulsing Arc·α",
       badge = "power",
-      facility = "POWER",
+      facility = "Power Plant",
       unlockIcon = "elite0",
       description = "When stationed at a Power Station, drone recovery per hour +15%"
     },

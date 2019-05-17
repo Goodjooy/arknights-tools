@@ -312,15 +312,15 @@ return {
   infrastructure_skills = {
     {
       name = "Mibo·Processing Model",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 65%"
     },
     {
       name = "Mibo·Production Model",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite2",
       description = "When stationed at a Craft Station, production +30%"
     },

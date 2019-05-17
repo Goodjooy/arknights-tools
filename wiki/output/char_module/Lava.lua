@@ -230,14 +230,14 @@ return {
     {
       name = "Thermal Energy·α",
       badge = "power",
-      facility = "POWER",
+      facility = "Power Plant",
       unlockIcon = "elite0",
       description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
     {
       name = "Originium Crafts·β",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite1",
       description = "When stationed at a Craft Station, increase production of originium products by +35%"
     },

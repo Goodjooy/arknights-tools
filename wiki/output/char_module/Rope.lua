@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Clue Collection·β",
-      badge = "meeting",
-      facility = "MEETING",
+      badge = "reception",
+      facility = "Reception",
       unlockIcon = "elite0",
       description = "When stationed at Reception, clue collection speed +20%"
     },
     {
       name = "Negotiation",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite1",
       description = "When stationed at a Trade Station, order limit +3 and mood reduction per hour -0.25"
     },

@@ -95,14 +95,14 @@ return {
     {
       name = "Backup Generator",
       badge = "power",
-      facility = "POWER",
+      facility = "Power Plant",
       unlockIcon = "elite0",
       description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
     {
       name = "Combat Directive Recordings",
-      badge = "manufacture",
-      facility = "MANUFACTURE",
+      badge = "craft",
+      facility = "Production",
       unlockIcon = "elite0",
       description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },

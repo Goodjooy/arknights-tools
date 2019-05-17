@@ -307,8 +307,8 @@ return {
   infrastructure_skills = {
     {
       name = "Explosive Science·α",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },

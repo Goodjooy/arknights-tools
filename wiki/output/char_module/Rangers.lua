@@ -94,15 +94,15 @@ return {
   infrastructure_skills = {
     {
       name = "HR Management·α",
-      badge = "hire",
-      facility = "HIRE",
+      badge = "hr",
+      facility = "HR Office",
       unlockIcon = "elite0",
       description = "When stationed at Human Resource, accumulation of networking resources +20%"
     },
     {
       name = "Skilled Craftsman",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%"
     },

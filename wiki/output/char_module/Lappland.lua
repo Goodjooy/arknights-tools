@@ -308,7 +308,7 @@ return {
     {
       name = "Drunkard's Intent·α",
       badge = "trading",
-      facility = "TRADING",
+      facility = "Trading",
       unlockIcon = "elite0",
       description = "When stationed together with Texas at the same Trade Station, mood reduction per hour -0.1 and order limit +2"
     },

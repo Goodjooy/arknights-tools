@@ -302,15 +302,15 @@ return {
   infrastructure_skills = {
     {
       name = "Focus·β",
-      badge = "workshop",
-      facility = "WORKSHOP",
+      badge = "synth",
+      facility = "Workshop",
       unlockIcon = "elite0",
       description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 60%"
     },
     {
       name = "Solitude",
-      badge = "dormitory",
-      facility = "DORMITORY",
+      badge = "dorm",
+      facility = "Dormitory",
       unlockIcon = "elite1",
       description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
