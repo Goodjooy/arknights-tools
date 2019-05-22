@@ -1,25 +1,5 @@
 let chars = [
-  // "elite.png",
-  // "SpriteAtlasTexture-ICON_ELITE-256x1024-fmt34.png",
-  // "SpriteAtlasTexture-ICON_POTENTIAL-1024x1024-fmt34.png",
-  // "npc_001_doctor.png",
-  // "char_002_amiya_1.png",
-  // "char_002_amiya_2.png",
-  // "char_002_amiya_2.png",
-  // "char_002_amiya_2b.png",
-  // "char_002_amiya_winter.png",
-  // "char_009_12fce_1.png",
-  // "char_291_aglina_1.png",
-  // "char_291_aglina_2.png",
-  // "char_291_aglina_2b.png",
-  // "a.png",
-  // "b.png",
-  // "char_230_savage_1.png",
-  // "char_230_savage_2.png",
-  "char_123_fang_winterb1.png",
-  // "xxxxxx",
-  // "xxxxxx",
-  // "xxxxxx",
+  "avatars03.png",
 ]
 
 let coords = {
