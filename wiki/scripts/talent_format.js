@@ -17,16 +17,17 @@ Promise.all([
     let en = talentEN[charKey]
     if (!char.talents) return
     if (!en) return
-    output[charKey] = char.talents
+    output[charKey] = []
 
     let enIndex = 0
-    output[charKey].forEach((talentObj, talentIndex) => {
-      if (!talentObj.candidates) return
-      talentObj.candidates.forEach((candidateObj, candidateIndex) => {
-        output[charKey][talentIndex].candidates[candidateIndex].name = en[enIndex].name
-        output[charKey][talentIndex].candidates[candidateIndex].description = en[enIndex].desc
+    char.talents.forEach(talent => {
+      if (!talent.candidates) return
+      let talentList = []
+      talent.candidates.forEach(candidate => {
+        talentList.push(en[enIndex])
         enIndex++
       })
+      output[charKey].push(talentList)
     })
   })
 
