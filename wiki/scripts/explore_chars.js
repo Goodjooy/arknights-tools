@@ -22,11 +22,6 @@ Promise.all([
   let custom = JSON.parse(data[6].contents)
   let citems = JSON.parse(data[7].contents)
 
-  // let talentCounts = {}
-  // let candidateCounts = {}
-  let races = {}
-  let origins = {}
-
   const t = text => tls[text] || text
 
   const skill = (charKey, charSkill) => {
@@ -127,11 +122,15 @@ Promise.all([
     }[classKey] || ''
   }
 
+  let talentCounts = {}
+  // let candidateCounts = {}
+  // let races = {}
+  // let origins = {}
   // let heights = {}
   // let weights = {}
   // let birthMonths = {}
-  let illustrators = {}
-  let voiceactors = {}
+  // let illustrators = {}
+  // let voiceactors = {}
 
   // chars = {
   //   char_101_sora: chars.char_101_sora,
@@ -164,34 +163,34 @@ Promise.all([
     //   } catch (error) {}
     // }
     
-    if (info.birthday) {
-      try {
-        let birthParts = info.birthday.split(' ')
-        let birthMonth = birthParts[0]
-        if (!birthMonths[birthMonth]) birthMonths[birthMonth] = []
-        birthMonths[birthMonth].push({ name: char.appellation, day: parseInt(birthParts[1]), class: char.profession })
-      } catch (error) {}
-    }
+    // if (info.birthday) {
+    //   try {
+    //     let birthParts = info.birthday.split(' ')
+    //     let birthMonth = birthParts[0]
+    //     if (!birthMonths[birthMonth]) birthMonths[birthMonth] = []
+    //     birthMonths[birthMonth].push({ name: char.appellation, day: parseInt(birthParts[1]), class: char.profession })
+    //   } catch (error) {}
+    // }
 
-    if (info.race) {
-      if (!races[info.race]) races[info.race] = []
-      races[info.race].push(char.appellation)
-    }
+    // if (info.race) {
+    //   if (!races[info.race]) races[info.race] = []
+    //   races[info.race].push(char.appellation)
+    // }
 
-    if (info.origin) {
-      if (!origins[info.origin]) origins[info.origin] = []
-      origins[info.origin].push(char.appellation)
-    }
+    // if (info.origin) {
+    //   if (!origins[info.origin]) origins[info.origin] = []
+    //   origins[info.origin].push(char.appellation)
+    // }
 
-    if (info.illustrator) {
-      if (!illustrators[info.illustrator]) illustrators[info.illustrator] = []
-      illustrators[info.illustrator].push(char.appellation)
-    }
+    // if (info.illustrator) {
+    //   if (!illustrators[info.illustrator]) illustrators[info.illustrator] = []
+    //   illustrators[info.illustrator].push(char.appellation)
+    // }
 
-    if (info.voiceactor) {
-      if (!voiceactors[info.voiceactor]) voiceactors[info.voiceactor] = []
-      voiceactors[info.voiceactor].push(char.appellation)
-    }
+    // if (info.voiceactor) {
+    //   if (!voiceactors[info.voiceactor]) voiceactors[info.voiceactor] = []
+    //   voiceactors[info.voiceactor].push(char.appellation)
+    // }
     
     // Check if there are any with multiple talens
     // if (char.talents && char.talents.length != 1) {
@@ -237,10 +236,10 @@ Promise.all([
     // })
 
     // Check how many talents per character
-    // if (char.talents) {
-    //   if (!talentCounts[char.talents.length]) talentCounts[char.talents.length] = []
-    //   talentCounts[char.talents.length].push(charKey)
-    // }
+    if (char.talents) {
+      if (!talentCounts[char.talents.length]) talentCounts[char.talents.length] = []
+      talentCounts[char.talents.length].push(charKey)
+    }
     
     // Check if favor keyframes have bonuses other than basic stats
     // if (char.favorKeyFrames) char.favorKeyFrames.forEach(keyframe => {
@@ -277,7 +276,7 @@ Promise.all([
   })
 
   // console.log('candidateCounts', candidateCounts);
-  // console.log('talentCounts', talentCounts);
+  console.log('talentCounts', talentCounts);
 
   // console.log('heights', heights);
 
@@ -317,18 +316,18 @@ Promise.all([
   // })
   // console.log('')
 
-  console.log('ILLUSTRATORS')
-  Object.keys(illustrators).sort().forEach(key => {
-    console.log(key, illustrators[key].join(', '));
-  })
-  console.log('')
+  // console.log('ILLUSTRATORS')
+  // Object.keys(illustrators).sort().forEach(key => {
+  //   console.log(key, illustrators[key].join(', '));
+  // })
+  // console.log('')
 
-  console.log('VOICE ACTORS')
-  Object.keys(voiceactors).sort().forEach(key => {
-    // console.log(key, voiceactors[key].join(', '));
-    console.log(key);
-  })
-  console.log('')
+  // console.log('VOICE ACTORS')
+  // Object.keys(voiceactors).sort().forEach(key => {
+  //   // console.log(key, voiceactors[key].join(', '));
+  //   console.log(key);
+  // })
+  // console.log('')
   
   
 })
