@@ -44,6 +44,7 @@ Promise.all([
   })
 
   let currentChar = null
+  let currentTalent = null
   allCsv.forEach(row => {
     if (row[0] == 'Character') return
 
@@ -52,23 +53,25 @@ Promise.all([
       let baseChar = characters[row[0]]
       if (baseChar) {
         currentChar = baseChar.charKey
-        output[currentChar] = []
+        currentTalent = null
+        output[currentChar] = {}
       } else {
         console.log('[ERR] no base char', row[0])
         currentChar = null
+        currentTalent = null
       }
     }
 
     // Add talent to list
     if (currentChar) {
-      if (row[5] == '0') {
-        output[currentChar].push({
+      if (!output[currentChar][row[2]])
+        output[currentChar][row[2]] = {
           name: row[2],
-          desc: row[3],
-        })
-      } else if (output[currentChar].length == 0) {
-        console.log('talent doesnt start with 0 potential', currentChar, row[2], row[3])
-      }
+          desc: [],
+          boosted: [],
+        }
+      if (row[5] == '0') output[currentChar][row[2]].desc.push(row[3])
+      else output[currentChar][row[2]].boosted.push(row[3])
     }
   })
 

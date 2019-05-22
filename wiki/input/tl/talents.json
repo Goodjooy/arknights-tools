@@ -1,844 +1,1176 @@
 {
-  "char_501_durin": [
-    {
+  "char_501_durin": {
+    "Shorty's Luck": {
       "name": "Shorty's Luck",
-      "desc": "Gain 50% magic evasion"
+      "desc": [
+        "Gain 50% magic evasion"
+      ],
+      "boosted": []
     }
-  ],
-  "char_009_12fce": [
-    {
+  },
+  "char_009_12fce": {
+    "Evasion Increase": {
       "name": "Evasion Increase",
-      "desc": "Gain 50% physical evasion"
+      "desc": [
+        "Gain 50% physical evasion"
+      ],
+      "boosted": []
     }
-  ],
-  "char_121_lava": [
-    {
+  },
+  "char_121_lava": {
+    "Rapid Skill Use": {
       "name": "Rapid Skill Use",
-      "desc": "After deployment, immediately gain 15 SP"
-    },
-    {
-      "name": "Rapid Skill Use",
-      "desc": "After deployment, immediately gain 30 SP"
+      "desc": [
+        "After deployment, immediately gain 15 SP",
+        "After deployment, immediately gain 30 SP"
+      ],
+      "boosted": [
+        "After deployment, immediately gain 20 (+5) SP",
+        "After deployment, immediately gain 35 (+5) SP"
+      ]
     }
-  ],
-  "char_210_stward": [
-    {
+  },
+  "char_210_stward": {
+    "Armor Break": {
       "name": "Armor Break",
-      "desc": "Attack power +3%, prioritize attacking the enemy with the highest defense"
-    },
-    {
-      "name": "Armor Break",
-      "desc": "Attack power +6%, prioritize attacking the enemy with the highest defense"
+      "desc": [
+        "Attack power +3%, prioritize attacking the enemy with the highest defense",
+        "Attack power +6%, prioritize attacking the enemy with the highest defense"
+      ],
+      "boosted": []
     }
-  ],
-  "char_141_nights": [
-    {
+  },
+  "char_141_nights": {
+    "Black Mist": {
       "name": "Black Mist",
-      "desc": "Attacks inflict magic resistance -10% for 1 second"
-    },
-    {
-      "name": "Black Mist",
-      "desc": "Attacks inflict magic resistance -20% for 1 second"
+      "desc": [
+        "Attacks inflict magic resistance -10% for 1 second",
+        "Attacks inflict magic resistance -20% for 1 second"
+      ],
+      "boosted": [
+        "Attacks inflict magic resistance -13% (+3%) for 1 second",
+        "Attacks inflict magic resistance -23% (+3%) for 1 second"
+      ]
     }
-  ],
-  "char_109_fmout": [
-    {
+  },
+  "char_109_fmout": {
+    "Divination": {
       "name": "Divination",
-      "desc": "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +7%; Attack speed +7; Max HP +12%"
-    },
-    {
-      "name": "Divination",
-      "desc": "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +13%; Attack speed +13; Max HP +20%"
+      "desc": [
+        "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +7%; Attack speed +7; Max HP +12%",
+        "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +13%; Attack speed +13; Max HP +20%"
+      ],
+      "boosted": [
+        "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +9% (+2%); Attack speed +9 (+2); Max HP +14% (+2%)",
+        "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +15% (+2%); Attack speed +15 (+2); Max HP +22% (+2%)"
+      ]
     }
-  ],
-  "char_002_amiya": [
-    {
+  },
+  "char_002_amiya": {
+    "？？？": {
       "name": "？？？",
-      "desc": "？？？？？"
+      "desc": [
+        "？？？？？"
+      ],
+      "boosted": []
     },
-    {
+    "Emotion Absorption": {
       "name": "Emotion Absorption",
-      "desc": "Additionally recover 2 SP when attacking enemies. Gain 8 SP after killing an enemy"
+      "desc": [
+        "Additionally recover 2 SP when attacking enemies. Gain 8 SP after killing an enemy"
+      ],
+      "boosted": [
+        "Additionally recover 3 (+1) SP when attacking enemies. Gain 10 (+2) SP after killing an enemy"
+      ]
     }
-  ],
-  "char_166_skfire": [
-    {
+  },
+  "char_166_skfire": {
+    "Arcane Sniping": {
       "name": "Arcane Sniping",
-      "desc": "When deployed, all blocked enemies receive +7% magical damage"
-    },
-    {
-      "name": "Arcane Sniping",
-      "desc": "When deployed, all blocked enemies receive +15% magical damage"
+      "desc": [
+        "When deployed, all blocked enemies receive +7% magical damage",
+        "When deployed, all blocked enemies receive +15% magical damage"
+      ],
+      "boosted": [
+        "When deployed, all blocked enemies receive +10% (+3%) magical damage",
+        "When deployed, all blocked enemies receive +18% (+3%) magical damage"
+      ]
     }
-  ],
-  "char_134_ifrit": [
-    {
+  },
+  "char_134_ifrit": {
+    "Mental Dissolution": {
       "name": "Mental Dissolution",
-      "desc": "All enemies within attack range get magic resistance -15%"
+      "desc": [
+        "All enemies within attack range get magic resistance -15%",
+        "All enemies within attack range get magic resistance -27%",
+        "All enemies within attack range get magic resistance -40%"
+      ],
+      "boosted": [
+        "All enemies within attack range get magic resistance -19% (+4%)",
+        "All enemies within attack range get magic resistance -31% (+4%)",
+        "All enemies within attack range get magic resistance -44% (+4%)"
+      ]
     },
-    {
-      "name": "Mental Dissolution",
-      "desc": "All enemies within attack range get magic resistance -27%"
-    },
-    {
-      "name": "Mental Dissolution",
-      "desc": "All enemies within attack range get magic resistance -40%"
-    },
-    {
+    "Rhine Circuitry": {
       "name": "Rhine Circuitry",
-      "desc": "Recover an additional 2 SP every 6 seconds"
+      "desc": [
+        "Recover an additional 2 SP every 6 seconds"
+      ],
+      "boosted": [
+        "Recover an additional 2 SP every 5.5 (-0.5) seconds"
+      ]
     }
-  ],
-  "char_180_amgoat": [
-    {
+  },
+  "char_180_amgoat": {
+    "Inflammation": {
       "name": "Inflammation",
-      "desc": "When deployed, all ally 【Caster】 operatives gain Attack power +7%"
+      "desc": [
+        "When deployed, all ally 【Caster】 operatives gain Attack power +7%",
+        "When deployed, all ally 【Caster】 operatives gain Attack power +14%"
+      ],
+      "boosted": [
+        "When deployed, all ally 【Caster】 operatives gain Attack power +9% (+2%)",
+        "When deployed, all ally 【Caster】 operatives gain Attack power +16% (+2%)"
+      ]
     },
-    {
-      "name": "Inflammation",
-      "desc": "When deployed, all ally 【Caster】 operatives gain Attack power +14%"
-    },
-    {
+    "Chaotic Flame": {
       "name": "Chaotic Flame",
-      "desc": "After deployment, immediately gain a random amount of SP"
+      "desc": [
+        "After deployment, immediately gain a random amount of SP"
+      ],
+      "boosted": [
+        "After deployment, immediately gain a random (higher) amount of SP"
+      ]
     }
-  ],
-  "char_500_noirc": [
-    {
+  },
+  "char_500_noirc": {
+    "Armor Enhancement": {
       "name": "Armor Enhancement",
-      "desc": "Max HP and Defense power +12%"
+      "desc": [
+        "Max HP and Defense power +12%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_209_ardign": [
-    {
+  },
+  "char_209_ardign": {
+    "Max HP Increase": {
       "name": "Max HP Increase",
-      "desc": "Max HP +6%"
-    },
-    {
-      "name": "Max HP Increase",
-      "desc": "Max HP +12%"
+      "desc": [
+        "Max HP +6%",
+        "Max HP +12%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_122_beagle": [
-    {
+  },
+  "char_122_beagle": {
+    "Defense Increase": {
       "name": "Defense Increase",
-      "desc": "Defense power +5%"
-    },
-    {
-      "name": "Defense Increase",
-      "desc": "Defense power +10%"
+      "desc": [
+        "Defense power +5%",
+        "Defense power +10%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_199_yak": [
-    {
+  },
+  "char_199_yak": {
+    "Snow Plain Defender": {
       "name": "Snow Plain Defender",
-      "desc": "Magic resistance +7"
-    },
-    {
-      "name": "Snow Plain Defender",
-      "desc": "Magic resistance +15"
+      "desc": [
+        "Magic resistance +7",
+        "Magic resistance +15"
+      ],
+      "boosted": []
     }
-  ],
-  "char_150_snakek": [
-    {
+  },
+  "char_150_snakek": {
+    "Defense Specialization": {
       "name": "Defense Specialization",
-      "desc": "Defense power +6%"
-    },
-    {
-      "name": "Defense Specialization",
-      "desc": "Defense power +12%"
+      "desc": [
+        "Defense power +6%",
+        "Defense power +12%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_196_sunbr": [
-    {
+  },
+  "char_196_sunbr": {
+    "Saucepan Specialization": {
       "name": "Saucepan Specialization",
-      "desc": "When attacking, 10% chance to increase Attack power to 150% and stun the enemy for 0.5 seconds"
-    },
-    {
-      "name": "Saucepan Specialization",
-      "desc": "When attacking, 15% chance to increase Attack power to 200% and stun the enemy for 1 second"
+      "desc": [
+        "When attacking, 10% chance to increase Attack power to 150% and stun the enemy for 0.5 seconds",
+        "When attacking, 15% chance to increase Attack power to 200% and stun the enemy for 1 second"
+      ],
+      "boosted": [
+        "When attacking, 13% (+3%) chance to increase Attack power to 150% and stun the enemy for 0.5 seconds",
+        "When attacking, 18% (+3%) chance to increase Attack power to 200% and stun the enemy for 1 second"
+      ]
     }
-  ],
-  "char_148_nearl": [
-    {
+  },
+  "char_148_nearl": {
+    "Healing Effect Enhancement": {
       "name": "Healing Effect Enhancement",
-      "desc": "Healing effectiveness +10%"
+      "desc": [
+        "Healing effectiveness +10%"
+      ],
+      "boosted": [
+        "Healing effectiveness +12% (+2%)"
+      ]
     },
-    {
+    "Pegasus Aura": {
       "name": "Pegasus Aura",
-      "desc": "When deployed, all allies' healing effectiveness +10%"
+      "desc": [
+        "When deployed, all allies' healing effectiveness +10%"
+      ],
+      "boosted": [
+        "When deployed, all allies' healing effectiveness +12% (+2%)"
+      ]
     }
-  ],
-  "char_107_liskam": [
-    {
+  },
+  "char_107_liskam": {
+    "Tactical Defense": {
       "name": "Tactical Defense",
-      "desc": "When attacked, recover 1 SP to self and a random nearby ally"
+      "desc": [
+        "When attacked, recover 1 SP to self and a random nearby ally"
+      ],
+      "boosted": []
     },
-    {
+    "Lightning Resistance": {
       "name": "Lightning Resistance",
-      "desc": "Magic resistance +10"
+      "desc": [
+        "Magic resistance +10"
+      ],
+      "boosted": [
+        "Magic resistance +13 (+3)"
+      ]
     }
-  ],
-  "char_201_moeshd": [
-    {
+  },
+  "char_201_moeshd": {
+    "Miracle Field": {
       "name": "Miracle Field",
-      "desc": "Has 10% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect"
-    },
-    {
-      "name": "Miracle Field",
-      "desc": "Has 20% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect"
+      "desc": [
+        "Has 10% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
+        "Has 20% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect"
+      ],
+      "boosted": [
+        "Has 13% (+3%) chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
+        "Has 23% (+3%) chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect"
+      ]
     }
-  ],
-  "char_163_hpsts": [
-    {
+  },
+  "char_163_hpsts": {
+    "Self-defense": {
       "name": "Self-defense",
-      "desc": "While skill is active, recover 4% Max HP every second"
-    },
-    {
-      "name": "Self-defense",
-      "desc": "While skill is active, recover 4% Max HP every second and gain 25% melee physical evasion"
+      "desc": [
+        "While skill is active, recover 4% Max HP every second",
+        "While skill is active, recover 4% Max HP every second and gain 25% melee physical evasion"
+      ],
+      "boosted": [
+        "While skill is active, recover 5% (+1%) Max HP every second",
+        "While skill is active, recover 5% (+1%) Max HP every second and gain 30% (+5%) melee physical evasion"
+      ]
     }
-  ],
-  "char_136_hsguma": [
-    {
+  },
+  "char_136_hsguma": {
+    "Tactical Armor": {
       "name": "Tactical Armor",
-      "desc": "Gain 12% physical and magical block"
+      "desc": [
+        "Gain 12% physical and magical block",
+        "Gain 25% physical and magical block"
+      ],
+      "boosted": [
+        "Gain 15% (+3%) physical and magical block",
+        "Gain 28% (+3%) physical and magical block"
+      ]
     },
-    {
-      "name": "Tactical Armor",
-      "desc": "Gain 25% physical and magical block"
-    },
-    {
+    "Special Tactics": {
       "name": "Special Tactics",
-      "desc": "All ally 【Defender】 operatives gain Defense power +6%"
+      "desc": [
+        "All ally 【Defender】 operatives gain Defense power +6%"
+      ],
+      "boosted": [
+        "All ally 【Defender】 operatives gain Defense power +8% (+2%)"
+      ]
     }
-  ],
-  "char_202_demkni": [
-    {
+  },
+  "char_202_demkni": {
+    "Rechargeable Armor": {
       "name": "Rechargeable Armor",
-      "desc": "Every 20 seconds after deployment, Attack power +2%, Defense power +2%, stacks up to 5 layers"
+      "desc": [
+        "Every 20 seconds after deployment, Attack power +2%, Defense power +2%, stacks up to 5 layers",
+        "Every 20 seconds after deployment, Attack power +5%, Defense power +4%, stacks up to 5 layers"
+      ],
+      "boosted": [
+        "Every 20 seconds after deployment, Attack power +3% (+1%), Defense power +3% (+1%), stacks up to 5 layers",
+        "Every 20 seconds after deployment, Attack power +6% (+1%), Defense power +5% (+1%), stacks up to 5 layers"
+      ]
     },
-    {
-      "name": "Rechargeable Armor",
-      "desc": "Every 20 seconds after deployment, Attack power +5%, Defense power +4%, stacks up to 5 layers"
-    },
-    {
+    "Spiritual Recovery": {
       "name": "Spiritual Recovery",
-      "desc": "When healing an ally, grant 1 SP to the target"
+      "desc": [
+        "When healing an ally, grant 1 SP to the target"
+      ],
+      "boosted": []
     }
-  ],
-  "char_286_cast3": [
-    {
+  },
+  "char_286_cast3": {
+    "Tactical Reorganization·I": {
       "name": "Tactical Reorganization·I",
-      "desc": "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +10% for 10 seconds"
-    }
-  ],
-  "char_208_melan": [
-    {
-      "name": "Attack Increase",
-      "desc": "Attack power +4%"
+      "desc": [
+        "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +10% for 10 seconds"
+      ],
+      "boosted": []
     },
-    {
-      "name": "Attack Increase",
-      "desc": "Attack power +8%"
-    }
-  ],
-  "char_130_doberm": [
-    {
-      "name": "Instructor",
-      "desc": "All 3* operatives gain Attack power +5%"
+    "Tactical Reorganization·II": {
+      "name": "Tactical Reorganization·II",
+      "desc": [],
+      "boosted": [
+        "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +12% for 12 seconds"
+      ]
     },
-    {
-      "name": "Instructor",
-      "desc": "All 3* operatives gain Attack power +10%"
+    "Tactical Reorganization·III": {
+      "name": "Tactical Reorganization·III",
+      "desc": [],
+      "boosted": [
+        "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +14% for 14 seconds"
+      ]
+    },
+    "Tactical Reorganization·IV": {
+      "name": "Tactical Reorganization·IV",
+      "desc": [],
+      "boosted": [
+        "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +16% for 16 seconds"
+      ]
+    },
+    "Tactical Reorganization·V": {
+      "name": "Tactical Reorganization·V",
+      "desc": [],
+      "boosted": [
+        "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +18% for 18 seconds"
+      ]
+    },
+    "Tactical Reorganization·VI": {
+      "name": "Tactical Reorganization·VI",
+      "desc": [],
+      "boosted": [
+        "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +20% for 20 seconds"
+      ]
     }
-  ],
-  "char_289_gyuki": [
-    {
+  },
+  "char_208_melan": {
+    "Attack Increase": {
+      "name": "Attack Increase",
+      "desc": [
+        "Attack power +4%",
+        "Attack power +8%"
+      ],
+      "boosted": []
+    }
+  },
+  "char_130_doberm": {
+    "Instructor": {
+      "name": "Instructor",
+      "desc": [
+        "All 3* operatives gain Attack power +5%",
+        "All 3* operatives gain Attack power +10%"
+      ],
+      "boosted": [
+        "All 3* operatives gain Attack power +6% (+1%)",
+        "All 3* operatives gain Attack power +11% (+1%)"
+      ]
+    }
+  },
+  "char_289_gyuki": {
+    "Demonic Constitution": {
       "name": "Demonic Constitution",
-      "desc": "Defense power -20%, however Max HP+20%"
+      "desc": [
+        "Defense power -20%, however Max HP+20%"
+      ],
+      "boosted": [
+        "Defense power -20%, however Max HP+23% (+3%)"
+      ]
     }
-  ],
-  "char_193_frostl": [
-    {
+  },
+  "char_193_frostl": {
+    "Cover Strike": {
       "name": "Cover Strike",
-      "desc": "Increase attack range, however attack interval slightly increases"
+      "desc": [
+        "Increase attack range, however attack interval slightly increases"
+      ],
+      "boosted": []
     }
-  ],
-  "char_127_estell": [
-    {
+  },
+  "char_127_estell": {
+    "Self Regeneration": {
       "name": "Self Regeneration",
-      "desc": "When an enemy dies within 8 tiles of herself, recover 7% Max HP"
-    },
-    {
-      "name": "Self Regeneration",
-      "desc": "When an enemy dies within 8 tiles of herself, recover 12% Max HP"
+      "desc": [
+        "When an enemy dies within 8 tiles of herself, recover 7% Max HP",
+        "When an enemy dies within 8 tiles of herself, recover 12% Max HP"
+      ],
+      "boosted": [
+        "When an enemy dies within 8 tiles of herself, recover 9% (+2%) Max HP",
+        "When an enemy dies within 8 tiles of herself, recover 14% (+2%) Max HP"
+      ]
     }
-  ],
-  "char_185_frncat": [
-    {
+  },
+  "char_185_frncat": {
+    "Multistrike": {
       "name": "Multistrike",
-      "desc": "When attacking, 10% chance to attack twice"
-    },
-    {
-      "name": "Multistrike",
-      "desc": "When attacking, 20% chance to attack twice"
+      "desc": [
+        "When attacking, 10% chance to attack twice",
+        "When attacking, 20% chance to attack twice"
+      ],
+      "boosted": [
+        "When attacking, 13% (+3%) chance to attack twice",
+        "When attacking, 23% (+3%) chance to attack twice"
+      ]
     }
-  ],
-  "char_106_franka": [
-    {
+  },
+  "char_106_franka": {
+    "Thermite Blade": {
       "name": "Thermite Blade",
-      "desc": "When attacking, 10% chance to ignore the target's defense"
-    },
-    {
-      "name": "Thermite Blade",
-      "desc": "When attacking, 20% chance to ignore the target's defense"
+      "desc": [
+        "When attacking, 10% chance to ignore the target's defense",
+        "When attacking, 20% chance to ignore the target's defense"
+      ],
+      "boosted": []
     }
-  ],
-  "char_155_tiger": [
-    {
+  },
+  "char_155_tiger": {
+    "Tiger Fist": {
       "name": "Tiger Fist",
-      "desc": "Has 15% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%"
-    },
-    {
-      "name": "Tiger Fist",
-      "desc": "Has 30% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +100%"
+      "desc": [
+        "Has 15% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%",
+        "Has 30% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +100%"
+      ],
+      "boosted": [
+        "Has 18% (+3%) chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%",
+        "Has 33% (+3%) chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +100%"
+      ]
     }
-  ],
-  "char_140_whitew": [
-    {
+  },
+  "char_140_whitew": {
+    "Mental Destruction": {
       "name": "Mental Destruction",
-      "desc": "Attacks seal the target's special abilities for 1 second"
-    },
-    {
-      "name": "Mental Destruction",
-      "desc": "Attacks seal the target's special abilities for 5 seconds"
+      "desc": [
+        "Attacks seal the target's special abilities for 1 second",
+        "Attacks seal the target's special abilities for 5 seconds"
+      ],
+      "boosted": [
+        "Attacks seal the target's special abilities for 2 (+1) seconds",
+        "Attacks seal the target's special abilities for 6 (+1) seconds"
+      ]
     }
-  ],
-  "char_143_ghost": [
-    {
+  },
+  "char_143_ghost": {
+    "Max HP Increase": {
       "name": "Max HP Increase",
-      "desc": "Max HP +10%"
+      "desc": [
+        "Max HP +10%"
+      ],
+      "boosted": [
+        "Max HP +12% (+2%)"
+      ]
     },
-    {
+    "Deep Sea Regeneration": {
       "name": "Deep Sea Regeneration",
-      "desc": "Max HP +10%, Recover 2% Max HP every second"
+      "desc": [
+        "Max HP +10%, Recover 2% Max HP every second"
+      ],
+      "boosted": [
+        "Max HP +12% (+2%), Recover 2.5% (+0.5%) Max HP every second"
+      ]
     }
-  ],
-  "char_230_savage": [
-    {
+  },
+  "char_230_savage": {
+    "Valley": {
       "name": "Valley",
-      "desc": "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +5%"
-    },
-    {
-      "name": "Valley",
-      "desc": "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +10%"
+      "desc": [
+        "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +5%",
+        "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +10%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_172_svrash": [
-    {
+  },
+  "char_172_svrash": {
+    "Leader": {
       "name": "Leader",
-      "desc": "Attack power +5%, All operatives' redeployment time -5%"
+      "desc": [
+        "Attack power +5%, All operatives' redeployment time -5%",
+        "Attack power +10%, All operatives' redeployment time -10%"
+      ],
+      "boosted": [
+        "Attack power +7% (+2%), All operatives' redeployment time -7% (+2%)",
+        "Attack power +12% (+2%), All operatives' redeployment time -12% (+2%)"
+      ]
     },
-    {
-      "name": "Leader",
-      "desc": "Attack power +10%, All operatives' redeployment time -10%"
-    },
-    {
+    "Eagle Eye": {
       "name": "Eagle Eye",
-      "desc": "Enemies within attack range lose stealth status"
+      "desc": [
+        "Enemies within attack range lose stealth status"
+      ],
+      "boosted": []
     }
-  ],
-  "char_285_medic2": [
-    {
+  },
+  "char_285_medic2": {
+    "Healing Mist·I": {
       "name": "Healing Mist·I",
-      "desc": "Immediately restore 200 HP to all allies after deployment"
+      "desc": [
+        "Immediately restore 200 HP to all allies after deployment"
+      ],
+      "boosted": []
+    },
+    "Healing Mist·II": {
+      "name": "Healing Mist·II",
+      "desc": [],
+      "boosted": [
+        "Immediately restore 260 HP to all allies after deployment"
+      ]
+    },
+    "Healing Mist·III": {
+      "name": "Healing Mist·III",
+      "desc": [],
+      "boosted": [
+        "Immediately restore 320 HP to all allies after deployment"
+      ]
+    },
+    "Healing Mist·IV": {
+      "name": "Healing Mist·IV",
+      "desc": [],
+      "boosted": [
+        "Immediately restore 380 HP to all allies after deployment"
+      ]
+    },
+    "Healing Mist·V": {
+      "name": "Healing Mist·V",
+      "desc": [],
+      "boosted": [
+        "Immediately restore 440 HP to all allies after deployment"
+      ]
+    },
+    "Healing Mist·VI": {
+      "name": "Healing Mist·VI",
+      "desc": [],
+      "boosted": [
+        "Immediately restore 500 HP to all allies after deployment"
+      ]
     }
-  ],
-  "char_120_hibisc": [
-    {
+  },
+  "char_120_hibisc": {
+    "Healing Power Increase": {
       "name": "Healing Power Increase",
-      "desc": "Attack power +4%"
-    },
-    {
-      "name": "Healing Power Increase",
-      "desc": "Attack power +8%"
+      "desc": [
+        "Attack power +4%",
+        "Attack power +8%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_212_ansel": [
-    {
+  },
+  "char_212_ansel": {
+    "Additional Healing": {
       "name": "Additional Healing",
-      "desc": "Has 7% chance to heal an additional ally"
-    },
-    {
-      "name": "Additional Healing",
-      "desc": "Has 15% chance to heal an additional ally"
+      "desc": [
+        "Has 7% chance to heal an additional ally",
+        "Has 15% chance to heal an additional ally"
+      ],
+      "boosted": [
+        "Has 10% (+3%) chance to heal an additional ally",
+        "Has 18% (+3%) chance to heal an additional ally"
+      ]
     }
-  ],
-  "char_117_myrrh": [
-    {
+  },
+  "char_117_myrrh": {
+    "First Aid Kit": {
       "name": "First Aid Kit",
-      "desc": "After deployment, immediately heal all allies for 100% of Myrrh's Attack power"
-    },
-    {
-      "name": "First Aid Kit",
-      "desc": "After deployment, immediately heal all allies for 150% of Myrrh's Attack power"
+      "desc": [
+        "After deployment, immediately heal all allies for 100% of Myrrh's Attack power",
+        "After deployment, immediately heal all allies for 150% of Myrrh's Attack power"
+      ],
+      "boosted": [
+        "After deployment, immediately heal all allies for 110% (+10%) of Myrrh's Attack power",
+        "After deployment, immediately heal all allies for 160% (+10%) of Myrrh's Attack power"
+      ]
     }
-  ],
-  "char_187_ccheal": [
-    {
+  },
+  "char_187_ccheal": {
+    "Battlefield Medic": {
       "name": "Battlefield Medic",
-      "desc": "After deployment, all ally 【Medic】 operatives gain Attack power +5%, Defense power +50 for 15 seconds"
-    },
-    {
-      "name": "Battlefield Medic",
-      "desc": "After deployment, all ally 【Medic】 operatives gain Attack power +10%, Defense power +100 for 15 seconds"
+      "desc": [
+        "After deployment, all ally 【Medic】 operatives gain Attack power +5%, Defense power +50 for 15 seconds",
+        "After deployment, all ally 【Medic】 operatives gain Attack power +10%, Defense power +100 for 15 seconds"
+      ],
+      "boosted": [
+        "After deployment, all ally 【Medic】 operatives gain Attack power +7% (+2%), Defense power +70 (+20) for 17 (+2) seconds",
+        "After deployment, all ally 【Medic】 operatives gain Attack power +12% (+2%), Defense power +120 (+20) for 17 (+2) seconds"
+      ]
     }
-  ],
-  "char_181_flower": [
-    {
+  },
+  "char_181_flower": {
+    "Lavender": {
       "name": "Lavender",
-      "desc": "When deployed, heal all allies for 3% of Perfumer's Attack power every second"
+      "desc": [
+        "When deployed, heal all allies for 3% of Perfumer's Attack power every second"
+      ],
+      "boosted": [
+        "When deployed, heal all allies for 3.5% (+0.5%) of Perfumer's Attack power every second"
+      ]
     },
-    {
+    "Incense": {
       "name": "Incense",
-      "desc": "When deployed, heal all allies for 5% of Perfumer's Attack power every second"
+      "desc": [
+        "When deployed, heal all allies for 5% of Perfumer's Attack power every second"
+      ],
+      "boosted": [
+        "When deployed, heal all allies for 5.5% (+0.5%) of Perfumer's Attack power every second"
+      ]
     }
-  ],
-  "char_128_plosis": [
-    {
+  },
+  "char_128_plosis": {
+    "Ability Aura": {
       "name": "Ability Aura",
-      "desc": "When deployed, slightly increase the SP recovery speed of all allies"
-    },
-    {
-      "name": "Ability Aura",
-      "desc": "When deployed, largely increase the SP recovery speed of all allies"
+      "desc": [
+        "When deployed, slightly increase the SP recovery speed of all allies",
+        "When deployed, largely increase the SP recovery speed of all allies"
+      ],
+      "boosted": []
     }
-  ],
-  "char_108_silent": [
-    {
+  },
+  "char_108_silent": {
+    "Injection Enhancement": {
       "name": "Injection Enhancement",
-      "desc": "When deployed, all ally 【Medic】 operatives gain Attack speed +6"
-    },
-    {
-      "name": "Injection Enhancement",
-      "desc": "When deployed, all ally 【Medic】 operatives gain Attack speed +12"
+      "desc": [
+        "When deployed, all ally 【Medic】 operatives gain Attack speed +6",
+        "When deployed, all ally 【Medic】 operatives gain Attack speed +12"
+      ],
+      "boosted": [
+        "When deployed, all ally 【Medic】 operatives gain Attack speed +8 (+2)",
+        "When deployed, all ally 【Medic】 operatives gain Attack speed +14 (+2)"
+      ]
     }
-  ],
-  "char_171_bldsk": [
-    {
+  },
+  "char_171_bldsk": {
+    "Blood Sample Collection": {
       "name": "Blood Sample Collection",
-      "desc": "When an enemy dies within attack range, recover 1 SP to self and one random ally within attack range"
-    },
-    {
-      "name": "Blood Sample Collection",
-      "desc": "When an enemy dies within attack range, recover 2 SP to self and one random ally within attack range"
+      "desc": [
+        "When an enemy dies within attack range, recover 1 SP to self and one random ally within attack range",
+        "When an enemy dies within attack range, recover 2 SP to self and one random ally within attack range"
+      ],
+      "boosted": []
     }
-  ],
-  "char_147_shining": [
-    {
+  },
+  "char_147_shining": {
+    "Black Devil's Protection": {
       "name": "Black Devil's Protection",
-      "desc": "Allies within attack range gain Defense power +20"
+      "desc": [
+        "Allies within attack range gain Defense power +20",
+        "Allies within attack range gain Defense power +40",
+        "Allies within attack range gain Defense power +60"
+      ],
+      "boosted": [
+        "Allies within attack range gain Defense power +25 (+5)",
+        "Allies within attack range gain Defense power +45 (+5)",
+        "Allies within attack range gain Defense power +65 (+5)"
+      ]
     },
-    {
-      "name": "Black Devil's Protection",
-      "desc": "Allies within attack range gain Defense power +40"
-    },
-    {
-      "name": "Black Devil's Protection",
-      "desc": "Allies within attack range gain Defense power +60"
-    },
-    {
+    "Codex": {
       "name": "Codex",
-      "desc": "Attack speed +10"
+      "desc": [
+        "Attack speed +10"
+      ],
+      "boosted": [
+        "Attack speed +13 (+3)"
+      ]
     }
-  ],
-  "char_179_cgbird": [
-    {
+  },
+  "char_179_cgbird": {
+    "White Devil's Protection": {
       "name": "White Devil's Protection",
-      "desc": "Allies within attack range gain magic resistance +5"
+      "desc": [
+        "Allies within attack range gain magic resistance +5",
+        "Allies within attack range gain magic resistance +10",
+        "Allies within attack range gain magic resistance +15"
+      ],
+      "boosted": [
+        "Allies within attack range gain magic resistance +7 (+2)",
+        "Allies within attack range gain magic resistance +12 (+2)",
+        "Allies within attack range gain magic resistance +17 (+2)"
+      ]
     },
-    {
-      "name": "White Devil's Protection",
-      "desc": "Allies within attack range gain magic resistance +10"
-    },
-    {
-      "name": "White Devil's Protection",
-      "desc": "Allies within attack range gain magic resistance +15"
-    },
-    {
+    "Ephemeral Phantom": {
       "name": "Ephemeral Phantom",
-      "desc": "Able to use phantoms. Phantoms cannot attack or block enemies. They have 75 magic resistance, 30% physical evasion and draw enemy attacks easily. Additionally, they lose 3% Max HP every second"
+      "desc": [
+        "Able to use phantoms. Phantoms cannot attack or block enemies. They have 75 magic resistance, 30% physical evasion and draw enemy attacks easily. Additionally, they lose 3% Max HP every second"
+      ],
+      "boosted": []
     }
-  ],
-  "char_503_rang": [
-    {
+  },
+  "char_503_rang": {
+    "Anti-air Master": {
       "name": "Anti-air Master",
-      "desc": "When attacking flying targets, Attack power +50%"
+      "desc": [
+        "When attacking flying targets, Attack power +50%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_124_kroos": [
-    {
+  },
+  "char_124_kroos": {
+    "Weakpoint Aiming·Beginner": {
       "name": "Weakpoint Aiming·Beginner",
-      "desc": "When attacking, 10% chance to increase Attack power increases to 150%"
-    },
-    {
-      "name": "Weakpoint Aiming·Beginner",
-      "desc": "When attacking, 20% chance to increase Attack power increases to 150%"
+      "desc": [
+        "When attacking, 10% chance to increase Attack power increases to 150%",
+        "When attacking, 20% chance to increase Attack power increases to 150%"
+      ],
+      "boosted": [
+        "When attacking, 10% chance to increase Attack power increases to 160% (+10%)",
+        "When attacking, 20% chance to increase Attack power increases to 160% (+10%)"
+      ]
     }
-  ],
-  "char_211_adnach": [
-    {
+  },
+  "char_211_adnach": {
+    "Weakness Breakthrough": {
       "name": "Weakness Breakthrough",
-      "desc": "Attack speed +4, prioritize attacking enemies using ranged weapons"
-    },
-    {
-      "name": "Weakness Breakthrough",
-      "desc": "Attack speed +8, prioritize attacking enemies using ranged weapons"
+      "desc": [
+        "Attack speed +4, prioritize attacking enemies using ranged weapons",
+        "Attack speed +8, prioritize attacking enemies using ranged weapons"
+      ],
+      "boosted": []
     }
-  ],
-  "char_235_jesica": [
-    {
+  },
+  "char_235_jesica": {
+    "Rapid Magazine": {
       "name": "Rapid Magazine",
-      "desc": "Attack speed +6"
-    },
-    {
-      "name": "Rapid Magazine",
-      "desc": "Attack speed +12"
+      "desc": [
+        "Attack speed +6",
+        "Attack speed +12"
+      ],
+      "boosted": []
     }
-  ],
-  "char_126_shotst": [
-    {
+  },
+  "char_126_shotst": {
+    "Anti-air Specialization": {
       "name": "Anti-air Specialization",
-      "desc": "When attacking flying targets, Attack power +20%"
-    },
-    {
-      "name": "Anti-air Specialization",
-      "desc": "When attacking flying targets, Attack power +35%"
+      "desc": [
+        "When attacking flying targets, Attack power +20%",
+        "When attacking flying targets, Attack power +35%"
+      ],
+      "boosted": [
+        "When attacking flying targets, Attack power +25% (+25%)",
+        "When attacking flying targets, Attack power +40% (+5%)"
+      ]
     }
-  ],
-  "char_118_yuki": [
-    {
+  },
+  "char_118_yuki": {
+    "Heavy Shuriken": {
       "name": "Heavy Shuriken",
-      "desc": "Slightly increase attack interval, however Attack power +20%"
+      "desc": [
+        "Slightly increase attack interval, however Attack power +20%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_129_bluep": [
-    {
+  },
+  "char_129_bluep": {
+    "Neurotoxin": {
       "name": "Neurotoxin",
-      "desc": "Attacks poison the target, dealing 30 magical damage every second for 3 seconds"
-    },
-    {
-      "name": "Neurotoxin",
-      "desc": "Attacks poison the target, dealing 75 magical damage every second for 3 seconds"
+      "desc": [
+        "Attacks poison the target, dealing 30 magical damage every second for 3 seconds",
+        "Attacks poison the target, dealing 75 magical damage every second for 3 seconds"
+      ],
+      "boosted": [
+        "Attacks poison the target, dealing 40 (+10) magical damage every second for 3 seconds",
+        "Attacks poison the target, dealing 85 (+10) magical damage every second for 3 seconds"
+      ]
     }
-  ],
-  "char_204_platnm": [
-    {
+  },
+  "char_204_platnm": {
+    "Charged Attack": {
       "name": "Charged Attack",
-      "desc": "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 140%）"
-    },
-    {
-      "name": "Charged Attack",
-      "desc": "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 180%）"
+      "desc": [
+        "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 140%）",
+        "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 180%）"
+      ],
+      "boosted": [
+        "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 150% (+10%)）",
+        "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 190% (+10%)）"
+      ]
     }
-  ],
-  "char_219_meteo": [
-    {
+  },
+  "char_219_meteo": {
+    "High-explosive Modification": {
       "name": "High-explosive Modification",
-      "desc": "When attacking or using skills, 15% chance to increase Attack power by +60%"
-    },
-    {
-      "name": "High-explosive Modification",
-      "desc": "When attacking or using skills, 30% chance to increase Attack power by +60%"
+      "desc": [
+        "When attacking or using skills, 15% chance to increase Attack power by +60%",
+        "When attacking or using skills, 30% chance to increase Attack power by +60%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_145_prove": [
-    {
+  },
+  "char_145_prove": {
+    "Hunting Arrow": {
       "name": "Hunting Arrow",
-      "desc": "When attacking, 20% chance to increase Attack power to 140%. If the enemy is in the tile in front of Provence, the chance increases to 50%"
-    },
-    {
-      "name": "Hunting Arrow",
-      "desc": "When attacking, 20% chance to increase Attack power to 180%. If the enemy is in the tile in front of Provence, the chance increases to 50%"
+      "desc": [
+        "When attacking, 20% chance to increase Attack power to 140%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
+        "When attacking, 20% chance to increase Attack power to 180%. If the enemy is in the tile in front of Provence, the chance increases to 50%"
+      ],
+      "boosted": [
+        "When attacking, 20% chance to increase Attack power to 150% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%",
+        "When attacking, 20% chance to increase Attack power to 190% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%"
+      ]
     }
-  ],
-  "char_158_milu": [
-    {
+  },
+  "char_158_milu": {
+    "Assassin": {
       "name": "Assassin",
-      "desc": "When attacking enemies wielding ranged weapons, Attack power increases to 120%"
-    },
-    {
-      "name": "Assassin",
-      "desc": "When attacking enemies wielding ranged weapons, Attack power increases to 140%"
+      "desc": [
+        "When attacking enemies wielding ranged weapons, Attack power increases to 120%",
+        "When attacking enemies wielding ranged weapons, Attack power increases to 140%"
+      ],
+      "boosted": [
+        "When attacking enemies wielding ranged weapons, Attack power increases to 125% (+5%)",
+        "When attacking enemies wielding ranged weapons, Attack power increases to 145% (+5%)"
+      ]
     }
-  ],
-  "char_103_angel": [
-    {
+  },
+  "char_103_angel": {
+    "Rapid Magazine": {
       "name": "Rapid Magazine",
-      "desc": "Attack speed +6"
+      "desc": [
+        "Attack speed +6",
+        "Attack speed +12"
+      ],
+      "boosted": [
+        "Attack speed +9 (+3)",
+        "Attack speed +15 (+3)"
+      ]
     },
-    {
-      "name": "Rapid Magazine",
-      "desc": "Attack speed +12"
-    },
-    {
+    "Angel's Blessings": {
       "name": "Angel's Blessings",
-      "desc": "Attack power +6%, Max HP +10%. When deployed, grant the same effect to a random ally"
+      "desc": [
+        "Attack power +6%, Max HP +10%. When deployed, grant the same effect to a random ally"
+      ],
+      "boosted": [
+        "Attack power +8% (+2%), Max HP +13% (+3%). When deployed, grant the same effect to a random ally"
+      ]
     }
-  ],
-  "char_237_gravel": [
-    {
+  },
+  "char_237_gravel": {
+    "Quick Deployment": {
       "name": "Quick Deployment",
-      "desc": "Self deployment cost -1"
+      "desc": [
+        "Self deployment cost -1"
+      ],
+      "boosted": []
     },
-    {
+    "Dwarfish Reinforcement": {
       "name": "Dwarfish Reinforcement",
-      "desc": "Self deployment cost -1, All operatives with 10 or less cost gain Defense power +6%"
+      "desc": [
+        "Self deployment cost -1, All operatives with 10 or less cost gain Defense power +6%"
+      ],
+      "boosted": [
+        "Self deployment cost -1, All operatives with 10 or less cost gain Defense power +8% (+2%)"
+      ]
     }
-  ],
-  "char_236_rope": [
-    {
+  },
+  "char_236_rope": {
+    "Auditory Training": {
       "name": "Auditory Training",
-      "desc": "Gain 15% physical evasion"
-    },
-    {
-      "name": "Auditory Training",
-      "desc": "Gain 30% physical evasion"
+      "desc": [
+        "Gain 15% physical evasion",
+        "Gain 30% physical evasion"
+      ],
+      "boosted": [
+        "Gain 19% (+4%) physical evasion",
+        "Gain 34% (+4%) physical evasion"
+      ]
     }
-  ],
-  "char_277_sqrrel": [
-    {
+  },
+  "char_277_sqrrel": {
+    "Fire-fighting Gear": {
       "name": "Fire-fighting Gear",
-      "desc": "Magic resistance +7"
-    },
-    {
-      "name": "Fire-fighting Gear",
-      "desc": "Magic resistance +15"
+      "desc": [
+        "Magic resistance +7",
+        "Magic resistance +15"
+      ],
+      "boosted": []
     }
-  ],
-  "char_144_red": [
-    {
+  },
+  "char_144_red": {
+    "Bonebreaker": {
       "name": "Bonebreaker",
-      "desc": "Every attack will deal damage equal to at least 20% Attack power"
-    },
-    {
-      "name": "Bonebreaker",
-      "desc": "Every attack will deal damage equal to at least 30% Attack power"
+      "desc": [
+        "Every attack will deal damage equal to at least 20% Attack power",
+        "Every attack will deal damage equal to at least 30% Attack power"
+      ],
+      "boosted": [
+        "Every attack will deal damage equal to at least 23% (+3%) Attack power",
+        "Every attack will deal damage equal to at least 33% (+3%) Attack power"
+      ]
     }
-  ],
-  "char_173_slchan": [
-    {
+  },
+  "char_173_slchan": {
+    "Snow Hunter": {
       "name": "Snow Hunter",
-      "desc": "When not blocking any enemies, Attack power and Defense power +6%"
-    },
-    {
-      "name": "Snow Hunter",
-      "desc": "When not blocking any enemies, Attack power and Defense power +12%"
+      "desc": [
+        "When not blocking any enemies, Attack power and Defense power +6%",
+        "When not blocking any enemies, Attack power and Defense power +12%"
+      ],
+      "boosted": [
+        "When not blocking any enemies, Attack power and Defense power +8% (+2%)",
+        "When not blocking any enemies, Attack power and Defense power +14% (+2%)"
+      ]
     }
-  ],
-  "char_215_mantic": [
-    {
+  },
+  "char_215_mantic": {
+    "Hidden Killer·Intermediate": {
       "name": "Hidden Killer·Intermediate",
-      "desc": "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +25%. Regain hidden status after not attacking for 6 seconds"
+      "desc": [
+        "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +25%. Regain hidden status after not attacking for 6 seconds"
+      ],
+      "boosted": [
+        "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +29% (+4%). Regain hidden status after not attacking for 6 seconds"
+      ]
     },
-    {
+    "Hidden Killer·Elite": {
       "name": "Hidden Killer·Elite",
-      "desc": "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +50%. Regain hidden status after not attacking for 5 seconds"
+      "desc": [
+        "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +50%. Regain hidden status after not attacking for 5 seconds"
+      ],
+      "boosted": [
+        "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +54% (+4%). Regain hidden status after not attacking for 5 seconds"
+      ]
     }
-  ],
-  "char_241_panda": [
-    {
+  },
+  "char_241_panda": {
+    "Kungfu": {
       "name": "Kungfu",
-      "desc": "Gain 20% physical evasion"
-    },
-    {
-      "name": "Kungfu",
-      "desc": "Gain 40% physical evasion"
+      "desc": [
+        "Gain 20% physical evasion",
+        "Gain 40% physical evasion"
+      ],
+      "boosted": [
+        "Gain 23% (+3%) physical evasion",
+        "Gain 43% (+3%) physical evasion"
+      ]
     }
-  ],
-  "char_278_orchid": [
-    {
+  },
+  "char_278_orchid": {
+    "Casting Speed Increase": {
       "name": "Casting Speed Increase",
-      "desc": "Attack speed +5"
-    },
-    {
-      "name": "Casting Speed Increase",
-      "desc": "Attack speed +9"
+      "desc": [
+        "Attack speed +5",
+        "Attack speed +9"
+      ],
+      "boosted": []
     }
-  ],
-  "char_110_deepcl": [
-    {
+  },
+  "char_110_deepcl": {
+    "Summon Tentacles": {
       "name": "Summon Tentacles",
-      "desc": "Can summon 2 tentacles to assist in battle"
-    },
-    {
-      "name": "Summon Tentacles",
-      "desc": "Can summon 3 tentacles to assist in battle"
-    },
-    {
-      "name": "Summon Tentacles",
-      "desc": "Can summon 4 tentacles to assist in battle"
+      "desc": [
+        "Can summon 2 tentacles to assist in battle",
+        "Can summon 3 tentacles to assist in battle",
+        "Can summon 4 tentacles to assist in battle"
+      ],
+      "boosted": []
     }
-  ],
-  "char_183_skgoat": [
-    {
+  },
+  "char_183_skgoat": {
+    "Geological Exploration": {
       "name": "Geological Exploration",
-      "desc": "Slight increase to the duration of the stop effect"
+      "desc": [
+        "Slight increase to the duration of the stop effect"
+      ],
+      "boosted": [
+        "Small increase to the duration of the stop effect"
+      ]
     }
-  ],
-  "char_242_otter": [
-    {
+  },
+  "char_242_otter": {
+    "Mechanical Otters": {
       "name": "Mechanical Otters",
-      "desc": "Can summon 3 mechanical otters. Inflict Attack speed -10 to enemies attacking the otters"
-    },
-    {
-      "name": "Mechanical Otters",
-      "desc": "Can summon 4 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters"
-    },
-    {
-      "name": "Mechanical Otters",
-      "desc": "Can summon 5 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters"
+      "desc": [
+        "Can summon 3 mechanical otters. Inflict Attack speed -10 to enemies attacking the otters",
+        "Can summon 4 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters",
+        "Can summon 5 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters"
+      ],
+      "boosted": []
     }
-  ],
-  "char_174_slbell": [
-    {
+  },
+  "char_174_slbell": {
+    "Weakening": {
       "name": "Weakening",
-      "desc": "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%"
+      "desc": [
+        "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%",
+        "When enemies within attack range have less than 40% HP, their damage taken is increased to 130%"
+      ],
+      "boosted": [
+        "When enemies within attack range have less than 40% HP, their damage taken is increased to 118% (+3%)",
+        "When enemies within attack range have less than 40% HP, their damage taken is increased to 133% (+3%)"
+      ]
     },
-    {
-      "name": "Weakening",
-      "desc": "When enemies within attack range have less than 40% HP, their damage taken is increased to 130%"
-    },
-    {
+    "Echo": {
       "name": "Echo",
-      "desc": "Attacks 2 targets simultaneously"
+      "desc": [
+        "Attacks 2 targets simultaneously"
+      ],
+      "boosted": []
     }
-  ],
-  "char_195_glassb": [
-    {
+  },
+  "char_195_glassb": {
+    "Detector": {
       "name": "Detector",
-      "desc": "Defense power -35%, however Attack speed +18"
+      "desc": [
+        "Defense power -35%, however Attack speed +18"
+      ],
+      "boosted": [
+        "Defense power -35%, however Attack speed +21 (+3)"
+      ]
     }
-  ],
-  "char_101_sora": [
-    {
+  },
+  "char_101_sora": {
+    "Encore": {
       "name": "Encore",
-      "desc": "When the skill ends, 50% chance to immediately recover 25% maximum SP"
-    },
-    {
-      "name": "Encore",
-      "desc": "When the skill ends, 50% chance to immediately recover 50% maximum SP"
+      "desc": [
+        "When the skill ends, 50% chance to immediately recover 25% maximum SP",
+        "When the skill ends, 50% chance to immediately recover 50% maximum SP"
+      ],
+      "boosted": []
     }
-  ],
-  "char_291_aglina": [
-    {
+  },
+  "char_291_aglina": {
+    "Acceleration Field": {
       "name": "Acceleration Field",
-      "desc": "All allies' Attack speed +3"
+      "desc": [
+        "All allies' Attack speed +3",
+        "All allies' Attack speed +7"
+      ],
+      "boosted": [
+        "All allies' Attack speed +4 (+1)",
+        "All allies' Attack speed +8 (+1)"
+      ]
     },
-    {
-      "name": "Acceleration Field",
-      "desc": "All allies' Attack speed +7"
-    },
-    {
+    "Part-time Job": {
       "name": "Part-time Job",
-      "desc": "While skill is not active, all allies recover 20 HP every second"
+      "desc": [
+        "While skill is not active, all allies recover 20 HP every second"
+      ],
+      "boosted": [
+        "While skill is not active, all allies recover 25 (+5) HP every second"
+      ]
     }
-  ],
-  "char_502_nblade": [
-    {
+  },
+  "char_502_nblade": {
+    "Quick Redeployment": {
       "name": "Quick Redeployment",
-      "desc": "Redeployment time -30 seconds"
+      "desc": [
+        "Redeployment time -30 seconds"
+      ],
+      "boosted": []
     }
-  ],
-  "char_123_fang": [
-    {
+  },
+  "char_123_fang": {
+    "Lightening": {
       "name": "Lightening",
-      "desc": "Self deployment cost -1"
+      "desc": [
+        "Self deployment cost -1"
+      ],
+      "boosted": []
     }
-  ],
-  "char_240_wyvern": [
-    {
+  },
+  "char_240_wyvern": {
+    "Attack Increase": {
       "name": "Attack Increase",
-      "desc": "Attack power +4%"
-    },
-    {
-      "name": "Attack Increase",
-      "desc": "Attack power +8%"
+      "desc": [
+        "Attack power +4%",
+        "Attack power +8%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_192_falco": [
-    {
+  },
+  "char_192_falco": {
+    "Attack Increase": {
       "name": "Attack Increase",
-      "desc": "Attack power +4%"
-    },
-    {
-      "name": "Attack Increase",
-      "desc": "Attack power +8%"
+      "desc": [
+        "Attack power +4%",
+        "Attack power +8%"
+      ],
+      "boosted": []
     }
-  ],
-  "char_198_blackd": [
-    {
+  },
+  "char_198_blackd": {
+    "Snow Patroller": {
       "name": "Snow Patroller",
-      "desc": "When blocking 2 or more enemies, Defense power +8%"
-    },
-    {
-      "name": "Snow Patroller",
-      "desc": "When blocking 2 or more enemies, Defense power +16%"
+      "desc": [
+        "When blocking 2 or more enemies, Defense power +8%",
+        "When blocking 2 or more enemies, Defense power +16%"
+      ],
+      "boosted": [
+        "When blocking 2 or more enemies, Defense power +11% (+3%)",
+        "When blocking 2 or more enemies, Defense power +19% (+3%)"
+      ]
     }
-  ],
-  "char_149_scave": [
-    {
+  },
+  "char_149_scave": {
+    "Lone Wolf": {
       "name": "Lone Wolf",
-      "desc": "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +5%"
-    },
-    {
-      "name": "Lone Wolf",
-      "desc": "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +11%"
+      "desc": [
+        "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +5%",
+        "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +11%"
+      ],
+      "boosted": [
+        "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +7% (+2%)",
+        "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +13% (+2%)"
+      ]
     }
-  ],
-  "char_290_vigna": [
-    {
+  },
+  "char_290_vigna": {
+    "Brute Thrust": {
       "name": "Brute Thrust",
-      "desc": "When attacking, 10% chance to increase Attack power by +50%. Chance is increased to 30% while skill is active"
-    },
-    {
-      "name": "Brute Thrust",
-      "desc": "When attacking, 10% chance to increase Attack power by +100%. Chance is increased to 30% while skill is active"
+      "desc": [
+        "When attacking, 10% chance to increase Attack power by +50%. Chance is increased to 30% while skill is active",
+        "When attacking, 10% chance to increase Attack power by +100%. Chance is increased to 30% while skill is active"
+      ],
+      "boosted": [
+        "When attacking, 10% chance to increase Attack power by +60% (+10%). Chance is increased to 30% while skill is active",
+        "When attacking, 10% chance to increase Attack power by +110% (+10%). Chance is increased to 30% while skill is active"
+      ]
     }
-  ],
-  "char_115_headbr": [
-    {
+  },
+  "char_115_headbr": {
+    "Assault Leader": {
       "name": "Assault Leader",
-      "desc": "Self deployment cost -1"
-    },
-    {
-      "name": "Assault Leader",
-      "desc": "Deployment cost of all 【Vanguard】 operatives in the same team -1"
+      "desc": [
+        "Self deployment cost -1",
+        "Deployment cost of all 【Vanguard】 operatives in the same team -1"
+      ],
+      "boosted": []
     }
-  ],
-  "char_102_texas": [
-    {
+  },
+  "char_102_texas": {
+    "Tactical Delivery": {
       "name": "Tactical Delivery",
-      "desc": "Obtain an additional 1 initial cost on battle start"
-    },
-    {
-      "name": "Tactical Delivery",
-      "desc": "Obtain an additional 2 initial cost on battle start"
+      "desc": [
+        "Obtain an additional 1 initial cost on battle start",
+        "Obtain an additional 2 initial cost on battle start"
+      ],
+      "boosted": []
     }
-  ],
-  "char_112_siege": [
-    {
+  },
+  "char_112_siege": {
+    "King of Beasts": {
       "name": "King of Beasts",
-      "desc": "All 【Vanguard】 operatives gain Attack power and Defense power +4%"
+      "desc": [
+        "All 【Vanguard】 operatives gain Attack power and Defense power +4%",
+        "All 【Vanguard】 operatives gain Attack power and Defense power +8%"
+      ],
+      "boosted": [
+        "All 【Vanguard】 operatives gain Attack power and Defense power +6% (+2%)",
+        "All 【Vanguard】 operatives gain Attack power and Defense power +10% (+2%)"
+      ]
     },
-    {
-      "name": "King of Beasts",
-      "desc": "All 【Vanguard】 operatives gain Attack power and Defense power +8%"
-    },
-    {
+    "Obliterate": {
       "name": "Obliterate",
-      "desc": "Obtain 1 SP when an enemy dies within the adjacent 4 tiles"
+      "desc": [
+        "Obtain 1 SP when an enemy dies within the adjacent 4 tiles"
+      ],
+      "boosted": []
     }
-  ]
+  }
 }
