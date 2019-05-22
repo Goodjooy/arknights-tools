@@ -15,6 +15,7 @@
     "skills": "node scripts/skills_csv.js",
     "skillsread": "node scripts/skills_reader.js",
     "talentsread": "node scripts/talent_reader.js",
+    "talentsformat": "node scripts/talent_format.js",
     "riicread": "node scripts/riic_reader.js",
     "portraits": "node scripts/rename_portraits.js",
     "items": "node scripts/rename_items.js",
