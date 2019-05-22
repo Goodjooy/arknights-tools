@@ -54,7 +54,7 @@ Promise.all([
       if (baseChar) {
         currentChar = baseChar.charKey
         currentTalent = null
-        output[currentChar] = {}
+        output[currentChar] = []
       } else {
         console.log('[ERR] no base char', row[0])
         currentChar = null
@@ -64,14 +64,10 @@ Promise.all([
 
     // Add talent to list
     if (currentChar) {
-      if (!output[currentChar][row[2]])
-        output[currentChar][row[2]] = {
-          name: row[2],
-          desc: [],
-          boosted: [],
-        }
-      if (row[5] == '0') output[currentChar][row[2]].desc.push(row[3])
-      else output[currentChar][row[2]].boosted.push(row[3])
+      output[currentChar].push({
+        name: row[2],
+        desc: row[3],
+      })
     }
   })
 
