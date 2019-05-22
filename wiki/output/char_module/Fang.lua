@@ -260,12 +260,12 @@ return {
       token = "",
     },
     bio = {
-      gender = "女 ",
-      experience = "一年 ",
-      origin = "卡西米尔 ",
+      gender = "Female",
+      experience = "1 year",
+      origin = "Kazimierz",
       birthday = "December 2",
-      race = "库兰塔 ",
-      height = "158cm ",
+      race = "Kuranta",
+      height = "158cm",
     },
     physical = {
       strength = "Average",

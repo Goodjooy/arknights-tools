@@ -344,12 +344,12 @@ return {
       token = "",
     },
     bio = {
-      gender = "女 ",
-      experience = "五年 ",
-      origin = "未公开 ",
+      gender = "Female",
+      experience = "5 years",
+      origin = "Undisclosed",
       birthday = "ERROR",
-      race = "埃拉菲亚 ",
-      height = "158cm ",
+      race = "Hirvea",
+      height = "158cm",
     },
     physical = {
       strength = "Ordinary",
@@ -360,7 +360,7 @@ return {
       originium = "Ordinary",
     },
     oripathy = {
-      infected = "Yes",
+      infected = "No",
       diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。<br><br>【体细胞与源石融合率】0%<br>干员守林人没有被源石感染的迹象。<br><br>【血液源石结晶密度】0.08u/L<br>干员守林人甚少接触源石。",
     }
   },

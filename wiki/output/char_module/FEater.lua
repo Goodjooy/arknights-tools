@@ -345,7 +345,7 @@ return {
     },
     bio = {
       gender = "Female",
-      experience = "undefined",
+      experience = "",
       origin = "Flame",
       birthday = "August 10",
       race = "Ursus",

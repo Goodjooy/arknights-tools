@@ -143,7 +143,7 @@ return {
   },
   meta = {
     illustrator = "TOKI",
-    voiceActor = "--",
+    voiceActor = "",
   },
   profile = {
     records = {
@@ -155,24 +155,24 @@ return {
       token = "",
     },
     bio = {
-      gender = "undefined",
-      experience = "undefined",
-      origin = "undefined",
-      birthday = "undefined",
-      race = "undefined",
-      height = "undefined",
+      gender = "Female",
+      experience = "2 years",
+      origin = "Columbia",
+      birthday = "May 12",
+      race = "",
+      height = "",
     },
     physical = {
-      strength = "undefined",
-      mobility = "undefined",
-      endurance = "undefined",
-      tactic = "undefined",
-      skill = "undefined",
-      originium = "undefined",
+      strength = "",
+      mobility = "15km/h",
+      endurance = "Nice",
+      tactic = "",
+      skill = "",
+      originium = "",
     },
     oripathy = {
       infected = "No",
-      diagnosis = "undefined",
+      diagnosis = "",
     }
   },
   quotes = {

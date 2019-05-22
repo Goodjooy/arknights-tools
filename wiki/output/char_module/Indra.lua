@@ -344,12 +344,12 @@ return {
       token = "",
     },
     bio = {
-      gender = "女 ",
-      experience = "undefined",
-      origin = "不明 ",
+      gender = "Female",
+      experience = "",
+      origin = "Unknown",
       birthday = "April 15",
-      race = "菲林 ",
-      height = "173cm ",
+      race = "Feline",
+      height = "173cm",
     },
     physical = {
       strength = "Nice",

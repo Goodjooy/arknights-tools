@@ -113,7 +113,7 @@ return {
   },
   meta = {
     illustrator = "海猫络合物",
-    voiceActor = "--",
+    voiceActor = "",
   },
   profile = {
     records = {

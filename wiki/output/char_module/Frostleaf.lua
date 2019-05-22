@@ -333,7 +333,7 @@ return {
       origin = "Columbia",
       birthday = "May 1",
       race = "Vulpes",
-      height = "undefined",
+      height = "",
     },
     physical = {
       strength = "Ordinary",

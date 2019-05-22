@@ -266,7 +266,7 @@ return {
       token = "",
     },
     bio = {
-      gender = "女 ",
+      gender = "Female",
       experience = "1 year",
       origin = "Laterano",
       birthday = "October 28",

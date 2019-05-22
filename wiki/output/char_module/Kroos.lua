@@ -278,11 +278,11 @@ return {
       token = "",
     },
     bio = {
-      gender = "女 ",
+      gender = "Female",
       experience = "1 year",
-      origin = " 雷姆必拓",
+      origin = "Rim Billiton",
       birthday = "November 22",
-      race = " 卡特斯",
+      race = "Cartes",
       height = "154cm",
     },
     physical = {

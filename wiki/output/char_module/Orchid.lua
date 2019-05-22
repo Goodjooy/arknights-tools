@@ -254,7 +254,7 @@ return {
   },
   meta = {
     illustrator = "Skade",
-    voiceActor = "--",
+    voiceActor = "",
   },
   profile = {
     records = {

@@ -102,15 +102,24 @@ Promise.all([
   }
 
   const handbookField = text => {
+    text = text.trim()
     return {
       '代号': 'codename',
+      '型号': 'codename',
       '性别': 'gender',
+      '设定性别': 'gender',
       '战斗经验': 'combatexp',
+      '出厂时间': 'combatexp',
+      '制造商': 'manufacturer',
       '出身地': 'origin',
+      '产地': 'origin',
       '生日': 'birthday',
+      '出厂日': 'birthday',
       '种族': 'race',
       '身高': 'height',
       '体重': 'weight',
+      '高度': 'weight',
+      '重量': 'weight',
       '矿石病感染情况': 'infection',
       '物理强度': 'strength',
       '战场机动': 'mobility',
@@ -125,6 +134,13 @@ Promise.all([
       '档案资料三': 'Archive 3',
       '档案资料四': 'Archive 4',
       '晋升记录': 'Promotion',
+      '维护检测报告': 'Maintenance',
+      '最高速度': 'mobility',
+      '爬坡能力': 'gradeability',
+      '制动效能': 'brakes',
+      '通过性': 'passiveness',
+      '续航': 'endurance',
+      '结构稳定性': 'stability',
     }[text] || 'ERR_UNKNOWN_FIELD_' + text
   }
 
@@ -149,15 +165,9 @@ Promise.all([
     return text
   }
 
-  // let knownLevels = []
   const examination = (text, charKey, field) => {
     if (!text) return
     text = text.trim()
-    // if (text == '优秀') console.log('优秀', charKey, field)
-    // if (knownLevels.indexOf(text) === -1) {
-    //   console.log(text)
-    //   knownLevels.push(text)
-    // }
     return t(text)
   }
 
@@ -178,6 +188,7 @@ Promise.all([
             let info = /【(.*)】(.*)/g.exec(storyPart)
             if (!info) return
             if (info[2]) {
+              info[2] = info[2].trim()
               details[handbookField(info[1])] = t(info[2])
             } else {
               emptyField = info[1]
@@ -678,7 +689,7 @@ Promise.all([
       trust: trustList(char.favorKeyFrames),
 
       illustrator: info.details.illustrator,
-      voiceActor: t(info.details.voiceactor),
+      voiceActor: info.details.voiceactor != '--' ? t(info.details.voiceactor) : '',
 
       record_resume: info.records.Resume || '',
       record_archive1: info.records['Archive 1'] || '',
@@ -687,23 +698,23 @@ Promise.all([
       record_archive4: info.records['Archive 4'] || '',
       record_token:  info.records.Promotion || '',
 
-      gender: info.details.gender,
-      experience: info.details.combatexp,
-      origin: info.details.origin,
-      birthday: info.details.birthday,
-      race: info.details.race,
-      height: info.details.height,
-      weight: info.details.weight,
+      gender: info.details.gender || '',
+      experience: info.details.combatexp || '',
+      origin: info.details.origin || '',
+      birthday: info.details.birthday || '',
+      race: info.details.race || '',
+      height: info.details.height || '',
+      weight: info.details.weight || '',
 
-      profile_strength: info.details.strength,
-      profile_mobility: info.details.mobility,
-      profile_endurance: info.details.endurance,
-      profile_tactic: info.details.tactic,
-      profile_skill: info.details.skill,
-      profile_originium: info.details.originium,
+      profile_strength: info.details.strength || '',
+      profile_mobility: info.details.mobility || '',
+      profile_endurance: info.details.endurance || '',
+      profile_tactic: info.details.tactic || '',
+      profile_skill: info.details.skill || '',
+      profile_originium: info.details.originium || '',
 
       oripathy: info.details.infection ? 'Yes' : 'No',
-      diagnosis: info.records.Diagnosis,
+      diagnosis: info.records.Diagnosis || '',
 
       quotes: quotesList(charKey),
     }

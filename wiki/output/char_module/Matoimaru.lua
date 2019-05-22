@@ -322,7 +322,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "--",
+    voiceActor = "",
   },
   profile = {
     records = {

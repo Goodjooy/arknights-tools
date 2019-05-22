@@ -334,7 +334,7 @@ return {
   },
   meta = {
     illustrator = "下野宏铭",
-    voiceActor = "--",
+    voiceActor = "",
   },
   profile = {
     records = {
