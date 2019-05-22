@@ -205,9 +205,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 55,
+        level = 1,
         name = "Defense Increase",
-        description = "Defense power +10%",
+        description = "Defense power +5%",
       },
     },
   },

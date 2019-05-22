@@ -282,11 +282,6 @@ return {
         name = "Kungfu",
         description = "Gain 20% physical evasion",
       },
-      rank2 = {
-        level = 1,
-        name = "Kungfu",
-        description = "Gain 40% physical evasion",
-      },
     },
   },
   potential = {

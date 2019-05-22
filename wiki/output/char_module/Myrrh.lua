@@ -277,11 +277,6 @@ return {
         name = "First Aid Kit",
         description = "After deployment, immediately heal all allies for 100% of Myrrh's Attack power",
       },
-      rank2 = {
-        level = 1,
-        name = "First Aid Kit",
-        description = "After deployment, immediately heal all allies for 150% of Myrrh's Attack power",
-      },
     },
   },
   potential = {

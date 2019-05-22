@@ -205,9 +205,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 55,
+        level = 1,
         name = "Rapid Skill Use",
-        description = "After deployment, immediately gain 30 SP",
+        description = "After deployment, immediately gain 15 SP",
       },
     },
   },

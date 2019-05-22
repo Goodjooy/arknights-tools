@@ -304,13 +304,8 @@ return {
       },
       rank1 = {
         level = 1,
-        name = "White Devil's Protection",
-        description = "Allies within attack range gain magic resistance +10",
-      },
-      rank2 = {
-        level = 1,
-        name = "White Devil's Protection",
-        description = "Allies within attack range gain magic resistance +15",
+        name = "Ephemeral Phantom",
+        description = "Able to use phantoms. Phantoms cannot attack or block enemies. They have 75 magic resistance, 30% physical evasion and draw enemy attacks easily. Additionally, they lose 3% Max HP every second",
       },
     },
     {

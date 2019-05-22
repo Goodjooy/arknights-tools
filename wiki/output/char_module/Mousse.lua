@@ -277,11 +277,6 @@ return {
         name = "Multistrike",
         description = "When attacking, 10% chance to attack twice",
       },
-      rank2 = {
-        level = 1,
-        name = "Multistrike",
-        description = "When attacking, 20% chance to attack twice",
-      },
     },
   },
   potential = {

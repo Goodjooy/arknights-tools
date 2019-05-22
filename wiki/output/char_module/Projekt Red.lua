@@ -282,11 +282,6 @@ return {
         name = "Bonebreaker",
         description = "Every attack will deal damage equal to at least 20% Attack power",
       },
-      rank2 = {
-        level = 1,
-        name = "Bonebreaker",
-        description = "Every attack will deal damage equal to at least 30% Attack power",
-      },
     },
   },
   potential = {

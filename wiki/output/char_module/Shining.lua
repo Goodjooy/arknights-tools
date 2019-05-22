@@ -299,13 +299,8 @@ return {
       },
       rank1 = {
         level = 1,
-        name = "Black Devil's Protection",
-        description = "Allies within attack range gain Defense power +40",
-      },
-      rank2 = {
-        level = 1,
-        name = "Black Devil's Protection",
-        description = "Allies within attack range gain Defense power +60",
+        name = "Codex",
+        description = "Attack speed +10",
       },
     },
     {

@@ -277,11 +277,6 @@ return {
         name = "Saucepan Specialization",
         description = "When attacking, 10% chance to increase Attack power to 150% and stun the enemy for 0.5 seconds",
       },
-      rank2 = {
-        level = 1,
-        name = "Saucepan Specialization",
-        description = "When attacking, 15% chance to increase Attack power to 200% and stun the enemy for 1 second",
-      },
     },
   },
   potential = {

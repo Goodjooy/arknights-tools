@@ -277,11 +277,6 @@ return {
         name = "Fire-fighting Gear",
         description = "Magic resistance +7",
       },
-      rank2 = {
-        level = 1,
-        name = "Fire-fighting Gear",
-        description = "Magic resistance +15",
-      },
     },
   },
   potential = {

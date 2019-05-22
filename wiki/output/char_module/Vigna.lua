@@ -277,11 +277,6 @@ return {
         name = "Brute Thrust",
         description = "When attacking, 10% chance to increase Attack power by +50%. Chance is increased to 30% while skill is active",
       },
-      rank2 = {
-        level = 1,
-        name = "Brute Thrust",
-        description = "When attacking, 10% chance to increase Attack power by +100%. Chance is increased to 30% while skill is active",
-      },
     },
   },
   potential = {

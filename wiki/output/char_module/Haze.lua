@@ -277,11 +277,6 @@ return {
         name = "Black Mist",
         description = "Attacks inflict magic resistance -10% for 1 second",
       },
-      rank2 = {
-        level = 1,
-        name = "Black Mist",
-        description = "Attacks inflict magic resistance -20% for 1 second",
-      },
     },
   },
   potential = {

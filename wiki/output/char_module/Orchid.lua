@@ -205,9 +205,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 55,
+        level = 1,
         name = "Casting Speed Increase",
-        description = "Attack speed +9",
+        description = "Attack speed +5",
       },
     },
   },

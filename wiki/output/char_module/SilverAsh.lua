@@ -304,8 +304,8 @@ return {
       },
       rank2 = {
         level = 1,
-        name = "Leader",
-        description = "Attack power +10%, All operatives' redeployment time -10%",
+        name = "Eagle Eye",
+        description = "Enemies within attack range lose stealth status",
       },
     },
     {

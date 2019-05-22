@@ -282,11 +282,6 @@ return {
         name = "Charged Attack",
         description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 140%）",
       },
-      rank2 = {
-        level = 1,
-        name = "Charged Attack",
-        description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 180%）",
-      },
     },
   },
   potential = {

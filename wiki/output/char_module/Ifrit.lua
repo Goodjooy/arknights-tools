@@ -304,13 +304,8 @@ return {
       },
       rank1 = {
         level = 1,
-        name = "Mental Dissolution",
-        description = "All enemies within attack range get magic resistance -27%",
-      },
-      rank2 = {
-        level = 1,
-        name = "Mental Dissolution",
-        description = "All enemies within attack range get magic resistance -40%",
+        name = "Rhine Circuitry",
+        description = "Recover an additional 2 SP every 6 seconds",
       },
     },
     {

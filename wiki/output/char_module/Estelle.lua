@@ -277,11 +277,6 @@ return {
         name = "Self Regeneration",
         description = "When an enemy dies within 8 tiles of herself, recover 7% Max HP",
       },
-      rank2 = {
-        level = 1,
-        name = "Self Regeneration",
-        description = "When an enemy dies within 8 tiles of herself, recover 12% Max HP",
-      },
     },
   },
   potential = {

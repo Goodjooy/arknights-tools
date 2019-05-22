@@ -282,11 +282,6 @@ return {
         name = "Injection Enhancement",
         description = "When deployed, all ally 【Medic】 operatives gain Attack speed +6",
       },
-      rank2 = {
-        level = 1,
-        name = "Injection Enhancement",
-        description = "When deployed, all ally 【Medic】 operatives gain Attack speed +12",
-      },
     },
   },
   potential = {

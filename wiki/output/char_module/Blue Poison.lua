@@ -282,11 +282,6 @@ return {
         name = "Neurotoxin",
         description = "Attacks poison the target, dealing 30 magical damage every second for 3 seconds",
       },
-      rank2 = {
-        level = 1,
-        name = "Neurotoxin",
-        description = "Attacks poison the target, dealing 75 magical damage every second for 3 seconds",
-      },
     },
   },
   potential = {

@@ -282,11 +282,6 @@ return {
         name = "Snow Hunter",
         description = "When not blocking any enemies, Attack power and Defense power +6%",
       },
-      rank2 = {
-        level = 1,
-        name = "Snow Hunter",
-        description = "When not blocking any enemies, Attack power and Defense power +12%",
-      },
     },
   },
   potential = {

@@ -282,11 +282,6 @@ return {
         name = "Miracle Field",
         description = "Has 10% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
       },
-      rank2 = {
-        level = 1,
-        name = "Miracle Field",
-        description = "Has 20% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
-      },
     },
   },
   potential = {

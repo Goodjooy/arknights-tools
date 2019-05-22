@@ -205,9 +205,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 55,
+        level = 1,
         name = "Weakpoint Aiming·Beginner",
-        description = "When attacking, 20% chance to increase Attack power increases to 150%",
+        description = "When attacking, 10% chance to increase Attack power increases to 150%",
       },
     },
   },

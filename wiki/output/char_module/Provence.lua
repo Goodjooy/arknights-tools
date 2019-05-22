@@ -282,11 +282,6 @@ return {
         name = "Hunting Arrow",
         description = "When attacking, 20% chance to increase Attack power to 140%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
       },
-      rank2 = {
-        level = 1,
-        name = "Hunting Arrow",
-        description = "When attacking, 20% chance to increase Attack power to 180%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
-      },
     },
   },
   potential = {

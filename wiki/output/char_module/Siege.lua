@@ -299,8 +299,8 @@ return {
       },
       rank2 = {
         level = 1,
-        name = "King of Beasts",
-        description = "All 【Vanguard】 operatives gain Attack power and Defense power +8%",
+        name = "Obliterate",
+        description = "Obtain 1 SP when an enemy dies within the adjacent 4 tiles",
       },
     },
     {

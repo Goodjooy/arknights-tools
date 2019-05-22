@@ -277,11 +277,6 @@ return {
         name = "Auditory Training",
         description = "Gain 15% physical evasion",
       },
-      rank2 = {
-        level = 1,
-        name = "Auditory Training",
-        description = "Gain 30% physical evasion",
-      },
     },
   },
   potential = {

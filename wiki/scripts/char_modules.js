@@ -359,6 +359,7 @@ Promise.all([
   }
 
   const talentTemplate = (charTalent, talentEN) => {
+    if (!charTalent) return
     let candidates = charTalent.candidates
     let phases = ['', '', '']
     let talentIndex = 0

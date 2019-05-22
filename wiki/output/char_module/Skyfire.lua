@@ -282,11 +282,6 @@ return {
         name = "Arcane Sniping",
         description = "When deployed, all blocked enemies receive +7% magical damage",
       },
-      rank2 = {
-        level = 1,
-        name = "Arcane Sniping",
-        description = "When deployed, all blocked enemies receive +15% magical damage",
-      },
     },
   },
   potential = {

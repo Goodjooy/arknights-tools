@@ -282,11 +282,6 @@ return {
         name = "Tiger Fist",
         description = "Has 15% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%",
       },
-      rank2 = {
-        level = 1,
-        name = "Tiger Fist",
-        description = "Has 30% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +100%",
-      },
     },
   },
   potential = {

@@ -282,11 +282,6 @@ return {
         name = "Thermite Blade",
         description = "When attacking, 10% chance to ignore the target's defense",
       },
-      rank2 = {
-        level = 1,
-        name = "Thermite Blade",
-        description = "When attacking, 20% chance to ignore the target's defense",
-      },
     },
   },
   potential = {

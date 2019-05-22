@@ -282,11 +282,6 @@ return {
         name = "Self-defense",
         description = "While skill is active, recover 4% Max HP every second",
       },
-      rank2 = {
-        level = 1,
-        name = "Self-defense",
-        description = "While skill is active, recover 4% Max HP every second and gain 25% melee physical evasion",
-      },
     },
   },
   potential = {

@@ -282,11 +282,6 @@ return {
         name = "Tactical Delivery",
         description = "Obtain an additional 1 initial cost on battle start",
       },
-      rank2 = {
-        level = 1,
-        name = "Tactical Delivery",
-        description = "Obtain an additional 2 initial cost on battle start",
-      },
     },
   },
   potential = {

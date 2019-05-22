@@ -277,11 +277,6 @@ return {
         name = "Anti-air Specialization",
         description = "When attacking flying targets, Attack power +20%",
       },
-      rank2 = {
-        level = 1,
-        name = "Anti-air Specialization",
-        description = "When attacking flying targets, Attack power +35%",
-      },
     },
   },
   potential = {

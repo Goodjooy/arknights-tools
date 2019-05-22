@@ -282,11 +282,6 @@ return {
         name = "High-explosive Modification",
         description = "When attacking or using skills, 15% chance to increase Attack power by +60%",
       },
-      rank2 = {
-        level = 1,
-        name = "High-explosive Modification",
-        description = "When attacking or using skills, 30% chance to increase Attack power by +60%",
-      },
     },
   },
   potential = {

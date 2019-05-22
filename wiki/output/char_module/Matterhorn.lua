@@ -277,11 +277,6 @@ return {
         name = "Snow Plain Defender",
         description = "Magic resistance +7",
       },
-      rank2 = {
-        level = 1,
-        name = "Snow Plain Defender",
-        description = "Magic resistance +15",
-      },
     },
   },
   potential = {

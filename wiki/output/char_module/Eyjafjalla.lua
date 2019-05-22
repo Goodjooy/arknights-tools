@@ -304,8 +304,8 @@ return {
       },
       rank2 = {
         level = 1,
-        name = "Inflammation",
-        description = "When deployed, all ally 【Caster】 operatives gain Attack power +14%",
+        name = "Chaotic Flame",
+        description = "After deployment, immediately gain a random amount of SP",
       },
     },
     {

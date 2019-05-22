@@ -277,16 +277,6 @@ return {
         name = "Summon Tentacles",
         description = "Can summon 2 tentacles to assist in battle",
       },
-      rank1 = {
-        level = 1,
-        name = "Summon Tentacles",
-        description = "Can summon 3 tentacles to assist in battle",
-      },
-      rank2 = {
-        level = 1,
-        name = "Summon Tentacles",
-        description = "Can summon 4 tentacles to assist in battle",
-      },
     },
   },
   potential = {

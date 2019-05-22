@@ -205,9 +205,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 55,
+        level = 1,
         name = "Weakness Breakthrough",
-        description = "Attack speed +8, prioritize attacking enemies using ranged weapons",
+        description = "Attack speed +4, prioritize attacking enemies using ranged weapons",
       },
     },
   },

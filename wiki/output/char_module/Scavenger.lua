@@ -277,11 +277,6 @@ return {
         name = "Lone Wolf",
         description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +5%",
       },
-      rank2 = {
-        level = 1,
-        name = "Lone Wolf",
-        description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +11%",
-      },
     },
   },
   potential = {

@@ -277,11 +277,6 @@ return {
         name = "Rapid Magazine",
         description = "Attack speed +6",
       },
-      rank2 = {
-        level = 1,
-        name = "Rapid Magazine",
-        description = "Attack speed +12",
-      },
     },
   },
   potential = {

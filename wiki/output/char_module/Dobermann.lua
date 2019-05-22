@@ -277,11 +277,6 @@ return {
         name = "Instructor",
         description = "All 3* operatives gain Attack power +5%",
       },
-      rank2 = {
-        level = 1,
-        name = "Instructor",
-        description = "All 3* operatives gain Attack power +10%",
-      },
     },
   },
   potential = {

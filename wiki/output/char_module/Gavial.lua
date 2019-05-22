@@ -277,11 +277,6 @@ return {
         name = "Battlefield Medic",
         description = "After deployment, all ally 【Medic】 operatives gain Attack power +5%, Defense power +50 for 15 seconds",
       },
-      rank2 = {
-        level = 1,
-        name = "Battlefield Medic",
-        description = "After deployment, all ally 【Medic】 operatives gain Attack power +10%, Defense power +100 for 15 seconds",
-      },
     },
   },
   potential = {

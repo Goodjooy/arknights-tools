@@ -277,11 +277,6 @@ return {
         name = "Defense Specialization",
         description = "Defense power +6%",
       },
-      rank2 = {
-        level = 1,
-        name = "Defense Specialization",
-        description = "Defense power +12%",
-      },
     },
   },
   potential = {

@@ -282,11 +282,6 @@ return {
         name = "Blood Sample Collection",
         description = "When an enemy dies within attack range, recover 1 SP to self and one random ally within attack range",
       },
-      rank2 = {
-        level = 1,
-        name = "Blood Sample Collection",
-        description = "When an enemy dies within attack range, recover 2 SP to self and one random ally within attack range",
-      },
     },
   },
   potential = {

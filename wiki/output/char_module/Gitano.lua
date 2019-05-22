@@ -277,11 +277,6 @@ return {
         name = "Divination",
         description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +7%; Attack speed +7; Max HP +12%",
       },
-      rank2 = {
-        level = 1,
-        name = "Divination",
-        description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +13%; Attack speed +13; Max HP +20%",
-      },
     },
   },
   potential = {

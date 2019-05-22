@@ -299,8 +299,8 @@ return {
       },
       rank2 = {
         level = 1,
-        name = "Acceleration Field",
-        description = "All allies' Attack speed +7",
+        name = "Part-time Job",
+        description = "While skill is not active, all allies recover 20 HP every second",
       },
     },
     {

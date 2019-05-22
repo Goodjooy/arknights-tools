@@ -205,9 +205,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 55,
+        level = 1,
         name = "Max HP Increase",
-        description = "Max HP +12%",
+        description = "Max HP +6%",
       },
     },
   },

@@ -304,8 +304,8 @@ return {
       },
       rank2 = {
         level = 1,
-        name = "Rapid Magazine",
-        description = "Attack speed +12",
+        name = "Angel's Blessings",
+        description = "Attack power +6%, Max HP +10%. When deployed, grant the same effect to a random ally",
       },
     },
     {

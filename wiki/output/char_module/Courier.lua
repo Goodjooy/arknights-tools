@@ -277,11 +277,6 @@ return {
         name = "Snow Patroller",
         description = "When blocking 2 or more enemies, Defense power +8%",
       },
-      rank2 = {
-        level = 1,
-        name = "Snow Patroller",
-        description = "When blocking 2 or more enemies, Defense power +16%",
-      },
     },
   },
   potential = {

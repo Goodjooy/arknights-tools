@@ -282,11 +282,6 @@ return {
         name = "Mental Destruction",
         description = "Attacks seal the target's special abilities for 1 second",
       },
-      rank2 = {
-        level = 1,
-        name = "Mental Destruction",
-        description = "Attacks seal the target's special abilities for 5 seconds",
-      },
     },
   },
   potential = {

@@ -282,11 +282,6 @@ return {
         name = "Valley",
         description = "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +5%",
       },
-      rank2 = {
-        level = 1,
-        name = "Valley",
-        description = "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +10%",
-      },
     },
   },
   potential = {

@@ -282,11 +282,6 @@ return {
         name = "Encore",
         description = "When the skill ends, 50% chance to immediately recover 25% maximum SP",
       },
-      rank2 = {
-        level = 1,
-        name = "Encore",
-        description = "When the skill ends, 50% chance to immediately recover 50% maximum SP",
-      },
     },
   },
   potential = {

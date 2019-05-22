@@ -282,11 +282,6 @@ return {
         name = "Assassin",
         description = "When attacking enemies wielding ranged weapons, Attack power increases to 120%",
       },
-      rank2 = {
-        level = 1,
-        name = "Assassin",
-        description = "When attacking enemies wielding ranged weapons, Attack power increases to 140%",
-      },
     },
   },
   potential = {

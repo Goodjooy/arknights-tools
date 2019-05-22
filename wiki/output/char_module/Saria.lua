@@ -299,8 +299,8 @@ return {
       },
       rank2 = {
         level = 1,
-        name = "Rechargeable Armor",
-        description = "Every 20 seconds after deployment, Attack power +5%, Defense power +4%, stacks up to 5 layers",
+        name = "Spiritual Recovery",
+        description = "When healing an ally, grant 1 SP to the target",
       },
     },
     {

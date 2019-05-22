@@ -205,9 +205,9 @@ return {
   talents = {
     {
       rank1 = {
-        level = 55,
+        level = 1,
         name = "Armor Break",
-        description = "Attack power +6%, prioritize attacking the enemy with the highest defense",
+        description = "Attack power +3%, prioritize attacking the enemy with the highest defense",
       },
     },
   },

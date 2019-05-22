@@ -304,8 +304,8 @@ return {
       },
       rank2 = {
         level = 1,
-        name = "Tactical Armor",
-        description = "Gain 25% physical and magical block",
+        name = "Special Tactics",
+        description = "All ally 【Defender】 operatives gain Defense power +6%",
       },
     },
     {

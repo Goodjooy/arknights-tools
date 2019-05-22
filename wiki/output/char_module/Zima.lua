@@ -282,11 +282,6 @@ return {
         name = "Assault Leader",
         description = "Self deployment cost -1",
       },
-      rank2 = {
-        level = 1,
-        name = "Assault Leader",
-        description = "Deployment cost of all 【Vanguard】 operatives in the same team -1",
-      },
     },
   },
   potential = {

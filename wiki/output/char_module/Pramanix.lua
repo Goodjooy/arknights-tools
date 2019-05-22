@@ -284,8 +284,8 @@ return {
       },
       rank2 = {
         level = 1,
-        name = "Weakening",
-        description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 130%",
+        name = "Echo",
+        description = "Attacks 2 targets simultaneously",
       },
     },
     {

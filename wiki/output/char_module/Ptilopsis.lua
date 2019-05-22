@@ -282,11 +282,6 @@ return {
         name = "Ability Aura",
         description = "When deployed, slightly increase the SP recovery speed of all allies",
       },
-      rank2 = {
-        level = 1,
-        name = "Ability Aura",
-        description = "When deployed, largely increase the SP recovery speed of all allies",
-      },
     },
   },
   potential = {
