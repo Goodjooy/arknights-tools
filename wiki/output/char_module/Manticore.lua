@@ -277,21 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Hidden Killer·Intermediate",
-        description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +25%. Regain hidden status after not attacking for 6 seconds",
-      },
-      rank2 = {
-        level = 1,
-        name = "Hidden Killer·Elite",
-        description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +50%. Regain hidden status after not attacking for 5 seconds",
-      },
+      name = "Hidden Killer·Intermediate",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +25%. Regain hidden status after not attacking for 6 seconds",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +29% (+4%). Regain hidden status after not attacking for 6 seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +50%. Regain hidden status after not attacking for 5 seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +54% (+4%). Regain hidden status after not attacking for 5 seconds",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 30",
     "Talent Boost",
     "Deploy Cost - 1",

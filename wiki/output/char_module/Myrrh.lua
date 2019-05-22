@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "First Aid Kit",
-        description = "After deployment, immediately heal all allies for 100% of Myrrh's Attack power",
-      },
+      name = "First Aid Kit",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "After deployment, immediately heal all allies for 100% of Myrrh's Attack power",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "After deployment, immediately heal all allies for 110% (+10%) of Myrrh's Attack power",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "After deployment, immediately heal all allies for 150% of Myrrh's Attack power",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "After deployment, immediately heal all allies for 160% (+10%) of Myrrh's Attack power",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 23",
     "Talent Boost",
     "Deploy Cost - 1",

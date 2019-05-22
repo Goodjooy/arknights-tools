@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Assassin",
-        description = "When attacking enemies wielding ranged weapons, Attack power increases to 120%",
-      },
+      name = "Assassin",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When attacking enemies wielding ranged weapons, Attack power increases to 120%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When attacking enemies wielding ranged weapons, Attack power increases to 125% (+5%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When attacking enemies wielding ranged weapons, Attack power increases to 140%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When attacking enemies wielding ranged weapons, Attack power increases to 145% (+5%)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 35",
     "Talent Boost",
     "Deploy Cost - 1",

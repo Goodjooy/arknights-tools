@@ -204,16 +204,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Weakpoint Aiming·Beginner",
-        description = "When attacking, 10% chance to increase Attack power increases to 150%",
-      },
+      name = "Weakpoint Aiming·Beginner",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 10% chance to increase Attack power increases to 150%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When attacking, 10% chance to increase Attack power increases to 160% (+10%)",
+        },
+        {
+          elite = 1,
+          level = 55,
+          potential = 0,
+          description = "When attacking, 20% chance to increase Attack power increases to 150%",
+        },
+        {
+          elite = 1,
+          level = 55,
+          potential = 4,
+          description = "When attacking, 20% chance to increase Attack power increases to 160% (+10%)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 21",
     "Talent Boost",
     "Deploy Cost - 1",

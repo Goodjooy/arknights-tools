@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Multistrike",
-        description = "When attacking, 10% chance to attack twice",
-      },
+      name = "Multistrike",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 10% chance to attack twice",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When attacking, 13% (+3%) chance to attack twice",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 20% chance to attack twice",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When attacking, 23% (+3%) chance to attack twice",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 26",
     "Talent Boost",
     "Deploy Cost - 1",

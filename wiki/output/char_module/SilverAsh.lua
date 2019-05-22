@@ -297,28 +297,49 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Leader",
-        description = "Attack power +5%, All operatives' redeployment time -5%",
-      },
-      rank2 = {
-        level = 1,
-        name = "Eagle Eye",
-        description = "Enemies within attack range lose stealth status",
-      },
+      name = "Leader",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Attack power +5%, All operatives' redeployment time -5%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Attack power +7% (+2%), All operatives' redeployment time -7% (+2%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Attack power +10%, All operatives' redeployment time -10%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Attack power +12% (+2%), All operatives' redeployment time -12% (+2%)",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Leader",
-        description = "Attack power +5%, All operatives' redeployment time -5%",
-      },
+      name = "Eagle Eye",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Enemies within attack range lose stealth status",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 26",
     "First Talent Boost",
     "Deploy Cost - 1",

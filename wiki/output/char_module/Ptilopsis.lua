@@ -277,18 +277,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Ability Aura",
-        description = "When deployed, slightly increase the SP recovery speed of all allies",
-      },
+      name = "Ability Aura",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When deployed, slightly increase the SP recovery speed of all allies",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When deployed, largely increase the SP recovery speed of all allies",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 21",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

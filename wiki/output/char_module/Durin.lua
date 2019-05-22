@@ -69,17 +69,21 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 30,
-        name = "Shorty's Luck",
-        description = "Gain 50% magic evasion",
-      },
+      name = "Shorty's Luck",
+      levels = {
+        {
+          elite = 0,
+          level = 30,
+          potential = 0,
+          description = "Gain 50% magic evasion",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
     "Maximum Health + 50",
-    "Buyback time - 5",
+    "Respawn Time - 5",
     "Maximum Health + 50",
     "Deploy Cost - 1",
   },

@@ -292,23 +292,50 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Acceleration Field",
-        description = "All allies' Attack speed +3",
-      },
-      rank2 = {
-        level = 1,
-        name = "Part-time Job",
-        description = "While skill is not active, all allies recover 20 HP every second",
-      },
+      name = "Acceleration Field",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "All allies' Attack speed +3",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 5,
+          description = "All allies' Attack speed +4 (+1)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "All allies' Attack speed +7",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 5,
+          description = "All allies' Attack speed +8 (+1)",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Acceleration Field",
-        description = "All allies' Attack speed +3",
-      },
+      name = "Part-time Job",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "While skill is not active, all allies recover 20 HP every second",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 2,
+          description = "While skill is not active, all allies recover 25 (+5) HP every second",
+        },
+      }
     },
   },
   potential = {

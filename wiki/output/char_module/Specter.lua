@@ -277,21 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Max HP Increase",
-        description = "Max HP +10%",
-      },
-      rank2 = {
-        level = 1,
-        name = "Deep Sea Regeneration",
-        description = "Max HP +10%, Recover 2% Max HP every second",
-      },
+      name = "Max HP Increase",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Max HP +10%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Max HP +12% (+2%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Max HP +10%, Recover 2% Max HP every second",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Max HP +12% (+2%), Recover 2.5% (+0.5%) Max HP every second",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 27",
     "Talent Boost",
     "Deploy Cost - 1",

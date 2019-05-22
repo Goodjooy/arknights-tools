@@ -69,16 +69,20 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 30,
-        name = "Quick Redeployment",
-        description = "Redeployment time -30 seconds",
-      },
+      name = "Quick Redeployment",
+      levels = {
+        {
+          elite = 0,
+          level = 30,
+          potential = 0,
+          description = "Redeployment time -30 seconds",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 5",
+    "Respawn Time - 5",
     "Attack + 9",
     "Attack + 9",
     "Deploy Cost - 1",

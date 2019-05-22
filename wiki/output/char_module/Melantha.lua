@@ -204,18 +204,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Attack Increase",
-        description = "Attack power +4%",
-      },
+      name = "Attack Increase",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Attack power +4%",
+        },
+        {
+          elite = 1,
+          level = 55,
+          potential = 0,
+          description = "Attack power +8%",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 25",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

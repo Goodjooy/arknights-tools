@@ -272,22 +272,33 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Quick Deployment",
-        description = "Self deployment cost -1",
-      },
-      rank2 = {
-        level = 1,
-        name = "Dwarfish Reinforcement",
-        description = "Self deployment cost -1, All operatives with 10 or less cost gain Defense power +6%",
-      },
+      name = "Quick Deployment",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Self deployment cost -1",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Self deployment cost -1, All operatives with 10 or less cost gain Defense power +6%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Self deployment cost -1, All operatives with 10 or less cost gain Defense power +8% (+2%)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
     "Maximum Health + 160",
-    "Buyback time - 2",
+    "Respawn Time - 2",
     "Talent Boost",
     "Deploy Cost - 1",
   },

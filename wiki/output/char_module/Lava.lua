@@ -204,16 +204,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Rapid Skill Use",
-        description = "After deployment, immediately gain 15 SP",
-      },
+      name = "Rapid Skill Use",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "After deployment, immediately gain 15 SP",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "After deployment, immediately gain 20 (+5) SP",
+        },
+        {
+          elite = 1,
+          level = 55,
+          potential = 0,
+          description = "After deployment, immediately gain 30 SP",
+        },
+        {
+          elite = 1,
+          level = 55,
+          potential = 4,
+          description = "After deployment, immediately gain 35 (+5) SP",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack Speed + 8",
     "Talent Boost",
     "Deploy Cost - 1",

@@ -272,18 +272,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Rapid Magazine",
-        description = "Attack speed +6",
-      },
+      name = "Rapid Magazine",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Attack speed +6",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Attack speed +12",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 23",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Auditory Training",
-        description = "Gain 15% physical evasion",
-      },
+      name = "Auditory Training",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Gain 15% physical evasion",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Gain 19% (+4%) physical evasion",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Gain 30% physical evasion",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Gain 34% (+4%) physical evasion",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Defense + 22",
     "Talent Boost",
     "Deploy Cost - 1",

@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Kungfu",
-        description = "Gain 20% physical evasion",
-      },
+      name = "Kungfu",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Gain 20% physical evasion",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Gain 23% (+3%) physical evasion",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Gain 40% physical evasion",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Gain 43% (+3%) physical evasion",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack Speed + 8",
     "Talent Boost",
     "Deploy Cost - 1",

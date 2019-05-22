@@ -292,28 +292,49 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Rechargeable Armor",
-        description = "Every 20 seconds after deployment, Attack power +2%, Defense power +2%, stacks up to 5 layers",
-      },
-      rank2 = {
-        level = 1,
-        name = "Spiritual Recovery",
-        description = "When healing an ally, grant 1 SP to the target",
-      },
+      name = "Rechargeable Armor",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Every 20 seconds after deployment, Attack power +2%, Defense power +2%, stacks up to 5 layers",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Every 20 seconds after deployment, Attack power +3% (+1%), Defense power +3% (+1%), stacks up to 5 layers",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Every 20 seconds after deployment, Attack power +5%, Defense power +4%, stacks up to 5 layers",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Every 20 seconds after deployment, Attack power +6% (+1%), Defense power +5% (+1%), stacks up to 5 layers",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Rechargeable Armor",
-        description = "Every 20 seconds after deployment, Attack power +2%, Defense power +2%, stacks up to 5 layers",
-      },
+      name = "Spiritual Recovery",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When healing an ally, grant 1 SP to the target",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Defense + 27",
     "First Talent Boost",
     "Deploy Cost - 1",

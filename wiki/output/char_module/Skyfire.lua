@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Arcane Sniping",
-        description = "When deployed, all blocked enemies receive +7% magical damage",
-      },
+      name = "Arcane Sniping",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When deployed, all blocked enemies receive +7% magical damage",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When deployed, all blocked enemies receive +10% (+3%) magical damage",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When deployed, all blocked enemies receive +15% magical damage",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When deployed, all blocked enemies receive +18% (+3%) magical damage",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 33",
     "Talent Boost",
     "Deploy Cost - 1",

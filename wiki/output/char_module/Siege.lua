@@ -292,28 +292,49 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "King of Beasts",
-        description = "All 【Vanguard】 operatives gain Attack power and Defense power +4%",
-      },
-      rank2 = {
-        level = 1,
-        name = "Obliterate",
-        description = "Obtain 1 SP when an enemy dies within the adjacent 4 tiles",
-      },
+      name = "King of Beasts",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "All 【Vanguard】 operatives gain Attack power and Defense power +4%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "All 【Vanguard】 operatives gain Attack power and Defense power +6% (+2%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "All 【Vanguard】 operatives gain Attack power and Defense power +8%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "All 【Vanguard】 operatives gain Attack power and Defense power +10% (+2%)",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "King of Beasts",
-        description = "All 【Vanguard】 operatives gain Attack power and Defense power +4%",
-      },
+      name = "Obliterate",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Obtain 1 SP when an enemy dies within the adjacent 4 tiles",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 25",
     "First Talent Boost",
     "Deploy Cost - 1",

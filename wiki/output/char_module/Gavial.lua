@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Battlefield Medic",
-        description = "After deployment, all ally 【Medic】 operatives gain Attack power +5%, Defense power +50 for 15 seconds",
-      },
+      name = "Battlefield Medic",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "After deployment, all ally 【Medic】 operatives gain Attack power +5%, Defense power +50 for 15 seconds",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "After deployment, all ally 【Medic】 operatives gain Attack power +7% (+2%), Defense power +70 (+20) for 17 (+2) seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "After deployment, all ally 【Medic】 operatives gain Attack power +10%, Defense power +100 for 15 seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "After deployment, all ally 【Medic】 operatives gain Attack power +12% (+2%), Defense power +120 (+20) for 17 (+2) seconds",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 23",
     "Talent Boost",
     "Deploy Cost - 1",

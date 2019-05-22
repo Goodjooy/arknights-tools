@@ -277,18 +277,34 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "Mechanical Otters",
-        description = "Can summon 3 mechanical otters. Inflict Attack speed -10 to enemies attacking the otters",
-      },
+      name = "Mechanical Otters",
+      levels = {
+        {
+          elite = 0,
+          level = 1,
+          potential = 0,
+          description = "Can summon 3 mechanical otters. Inflict Attack speed -10 to enemies attacking the otters",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Can summon 4 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Can summon 5 mechanical otters. Inflict Attack speed -25 to enemies attacking the otters",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Resistance + 8",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

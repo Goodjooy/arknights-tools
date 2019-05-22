@@ -272,18 +272,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Snow Plain Defender",
-        description = "Magic resistance +7",
-      },
+      name = "Snow Plain Defender",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Magic resistance +7",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Magic resistance +15",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Maximum Health + 250",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

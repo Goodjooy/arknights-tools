@@ -272,21 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Lavender",
-        description = "When deployed, heal all allies for 3% of Perfumer's Attack power every second",
-      },
-      rank2 = {
-        level = 1,
-        name = "Incense",
-        description = "When deployed, heal all allies for 5% of Perfumer's Attack power every second",
-      },
+      name = "Lavender",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When deployed, heal all allies for 3% of Perfumer's Attack power every second",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When deployed, heal all allies for 3.5% (+0.5%) of Perfumer's Attack power every second",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When deployed, heal all allies for 5% of Perfumer's Attack power every second",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When deployed, heal all allies for 5.5% (+0.5%) of Perfumer's Attack power every second",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 19",
     "Talent Boost",
     "Deploy Cost - 1",

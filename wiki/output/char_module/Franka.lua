@@ -277,18 +277,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Thermite Blade",
-        description = "When attacking, 10% chance to ignore the target's defense",
-      },
+      name = "Thermite Blade",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 10% chance to ignore the target's defense",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 20% chance to ignore the target's defense",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 30",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

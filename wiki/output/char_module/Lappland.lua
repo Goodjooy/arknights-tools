@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Mental Destruction",
-        description = "Attacks seal the target's special abilities for 1 second",
-      },
+      name = "Mental Destruction",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Attacks seal the target's special abilities for 1 second",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Attacks seal the target's special abilities for 2 (+1) seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Attacks seal the target's special abilities for 5 seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Attacks seal the target's special abilities for 6 (+1) seconds",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 25",
     "Talent Boost",
     "Deploy Cost - 1",

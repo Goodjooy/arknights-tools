@@ -204,18 +204,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Weakness Breakthrough",
-        description = "Attack speed +4, prioritize attacking enemies using ranged weapons",
-      },
+      name = "Weakness Breakthrough",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Attack speed +4, prioritize attacking enemies using ranged weapons",
+        },
+        {
+          elite = 1,
+          level = 55,
+          potential = 0,
+          description = "Attack speed +8, prioritize attacking enemies using ranged weapons",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 23",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

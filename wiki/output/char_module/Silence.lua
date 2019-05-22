@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Injection Enhancement",
-        description = "When deployed, all ally 【Medic】 operatives gain Attack speed +6",
-      },
+      name = "Injection Enhancement",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When deployed, all ally 【Medic】 operatives gain Attack speed +6",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When deployed, all ally 【Medic】 operatives gain Attack speed +8 (+2)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When deployed, all ally 【Medic】 operatives gain Attack speed +12",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When deployed, all ally 【Medic】 operatives gain Attack speed +14 (+2)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 24",
     "Talent Boost",
     "Deploy Cost - 1",

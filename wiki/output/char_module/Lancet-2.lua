@@ -69,11 +69,45 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "Healing Mist·I",
-        description = "Immediately restore 200 HP to all allies after deployment",
-      },
+      name = "Healing Mist·I",
+      levels = {
+        {
+          elite = 0,
+          level = 1,
+          potential = 0,
+          description = "Immediately restore 200 HP to all allies after deployment",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 1,
+          description = "Immediately restore 260 HP to all allies after deployment",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 2,
+          description = "Immediately restore 320 HP to all allies after deployment",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 3,
+          description = "Immediately restore 380 HP to all allies after deployment",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 4,
+          description = "Immediately restore 440 HP to all allies after deployment",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 5,
+          description = "Immediately restore 500 HP to all allies after deployment",
+        },
+      }
     },
   },
   potential = {

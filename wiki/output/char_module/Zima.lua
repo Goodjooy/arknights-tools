@@ -277,18 +277,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Assault Leader",
-        description = "Self deployment cost -1",
-      },
+      name = "Assault Leader",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Self deployment cost -1",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Deployment cost of all 【Vanguard】 operatives in the same team -1",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Defense + 24",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

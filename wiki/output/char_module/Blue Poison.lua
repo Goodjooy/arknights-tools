@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Neurotoxin",
-        description = "Attacks poison the target, dealing 30 magical damage every second for 3 seconds",
-      },
+      name = "Neurotoxin",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Attacks poison the target, dealing 30 magical damage every second for 3 seconds",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Attacks poison the target, dealing 40 (+10) magical damage every second for 3 seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Attacks poison the target, dealing 75 magical damage every second for 3 seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Attacks poison the target, dealing 85 (+10) magical damage every second for 3 seconds",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 24",
     "Talent Boost",
     "Deploy Cost - 1",

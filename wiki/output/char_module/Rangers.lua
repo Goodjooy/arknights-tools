@@ -69,18 +69,22 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 30,
-        name = "Anti-air Master",
-        description = "When attacking flying targets, Attack power +50%",
-      },
+      name = "Anti-air Master",
+      levels = {
+        {
+          elite = 0,
+          level = 30,
+          potential = 0,
+          description = "When attacking flying targets, Attack power +50%",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
     "Attack Speed + 6",
     "Attack Speed + 6",
-    "Buyback time - 5",
+    "Respawn Time - 5",
     "Deploy Cost - 1",
   },
   trust = {

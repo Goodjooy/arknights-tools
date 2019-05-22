@@ -277,18 +277,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Blood Sample Collection",
-        description = "When an enemy dies within attack range, recover 1 SP to self and one random ally within attack range",
-      },
+      name = "Blood Sample Collection",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When an enemy dies within attack range, recover 1 SP to self and one random ally within attack range",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When an enemy dies within attack range, recover 2 SP to self and one random ally within attack range",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 27",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

@@ -41,8 +41,8 @@ return {
   },
   skillup = {{{skillup2}}{{skillup3}}{{skillup4}}{{skillup5}}{{skillup6}}{{skillup7}}
   },
-  talents = {{{talent1}}{{talent2}}
-  },
+  talents = {
+{{talent1}}{{talent2}}{{talent3}}  },
   potential = {
     "{{potential1}}",
     "{{potential2}}",

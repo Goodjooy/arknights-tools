@@ -24,6 +24,7 @@ Promise.all([
   /* 19 */ read('input/tl/talents.json'),
   /* 20 */ read('input/tl/skills.json'),
   /* 21 */ read('input/tl/riic.json'),
+  /* 22 */ read('input/tl/talents-gameformat.json'),
 ])
 .then(data => {
   let tpl_char_module = data[0].contents
@@ -49,9 +50,10 @@ Promise.all([
   let custom = JSON.parse(data[14].contents)
   let citems = JSON.parse(data[15].contents)
 
-  let tl_talents = JSON.parse(data[19].contents)
+  // let tl_talents = JSON.parse(data[19].contents)
   let tl_skills = JSON.parse(data[20].contents)
   let tl_riic = JSON.parse(data[21].contents)
+  let tl_talents = JSON.parse(data[22].contents)
 
   let quotesByChar = {}
   Object.keys(quotes).forEach(quoteKey => {
@@ -360,30 +362,24 @@ Promise.all([
 
   const talentTemplate = (charTalent, talentEN) => {
     if (!charTalent) return
-    let candidates = charTalent.candidates
-    let phases = ['', '', '']
-    let talentIndex = 0
-    candidates.forEach(candidate => {
-      if (candidate.requiredPotentialRank == 0) {
-        let unlockPhase = candidate.unlockCondition.phase
-        if (talentEN[talentIndex]) {
-          phases[unlockPhase] = '\n' + fillData(tpl_mastery, {
-            num: unlockPhase,
-            name: talentEN[talentIndex].name,
-            description: talentEN[talentIndex].desc,
-            level: candidate.unlockCondition.level,
-          })
-          talentIndex++
-        } else {
-          console.log('unknown talent', talentEN, talentIndex)
-        }
-      }
+    if (!talentEN) return
+    let talentBody = ''
+    charTalent.candidates.forEach((candidate, candidateIndex) => {
+      talentBody += fillData(tpl_mastery, {
+        elite: candidate.unlockCondition.phase,
+        level: candidate.unlockCondition.level,
+        potential: candidate.requiredPotentialRank,
+        name: talentEN[ candidateIndex ].name,
+        description: talentEN[ candidateIndex ].desc,
+      })
+      talentBody += '\n'
     })
-    return fillData(tpl_talent, {
-      phase1: phases[0],
-      phase2: phases[1],
-      phase3: phases[2],
-    })
+    let full = `    {
+      name = "` + talentEN[0].name + `",
+      levels = {
+` + talentBody + `      }
+    },\n`
+    return full
   }
 
   const trustList = favorKeyframes => {
@@ -419,7 +415,7 @@ Promise.all([
         case 3: return 'Resistance + ' + modifier.value
         case 4: return 'Deploy Cost - ' + Math.abs(modifier.value)
         case 7: return 'Attack Speed + ' + modifier.value
-        case 21: return 'Buyback time - ' + Math.abs(modifier.value)
+        case 21: return 'Respawn Time - ' + Math.abs(modifier.value)
       }
       console.log('unknown attribute type', potentialRank)
       return '?'
@@ -665,8 +661,9 @@ Promise.all([
       buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills[0], tl_riic[charKey][0]) : '',
       buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills[1], tl_riic[charKey][1]) : '',
       buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills[2], tl_riic[charKey][2]) : '',
-      talent1: char.talents[0] ? '\n' + talentTemplate(char.talents[0], tl_talents[charKey]) : '',
-      talent2: char.talents[1] ? '\n' + talentTemplate(char.talents[1], tl_talents[charKey]) : '',
+      talent1: char.talents[0] ? talentTemplate(char.talents[0], tl_talents[charKey][0]) : '',
+      talent2: char.talents[1] ? talentTemplate(char.talents[1], tl_talents[charKey][1]) : '',
+      talent3: char.talents[2] ? talentTemplate(char.talents[2], tl_talents[charKey][2]) : '',
       potential1:  potentialMessage(char.potentialRanks[0]),
       potential2:  potentialMessage(char.potentialRanks[1]),
       potential3:  potentialMessage(char.potentialRanks[2]),

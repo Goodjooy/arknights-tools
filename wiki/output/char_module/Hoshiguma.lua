@@ -297,23 +297,50 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Tactical Armor",
-        description = "Gain 12% physical and magical block",
-      },
-      rank2 = {
-        level = 1,
-        name = "Special Tactics",
-        description = "All ally 【Defender】 operatives gain Defense power +6%",
-      },
+      name = "Tactical Armor",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Gain 12% physical and magical block",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 2,
+          description = "Gain 15% (+3%) physical and magical block",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Gain 25% physical and magical block",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 2,
+          description = "Gain 28% (+3%) physical and magical block",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Tactical Armor",
-        description = "Gain 12% physical and magical block",
-      },
+      name = "Special Tactics",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "All ally 【Defender】 operatives gain Defense power +6%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 5,
+          description = "All ally 【Defender】 operatives gain Defense power +8% (+2%)",
+        },
+      }
     },
   },
   potential = {

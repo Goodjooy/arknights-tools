@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Divination",
-        description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +7%; Attack speed +7; Max HP +12%",
-      },
+      name = "Divination",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +7%; Attack speed +7; Max HP +12%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +9% (+2%); Attack speed +9 (+2); Max HP +14% (+2%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +13%; Attack speed +13; Max HP +20%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +15% (+2%); Attack speed +15 (+2); Max HP +22% (+2%)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 27",
     "Talent Boost",
     "Deploy Cost - 1",

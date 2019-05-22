@@ -297,23 +297,50 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Rapid Magazine",
-        description = "Attack speed +6",
-      },
-      rank2 = {
-        level = 1,
-        name = "Angel's Blessings",
-        description = "Attack power +6%, Max HP +10%. When deployed, grant the same effect to a random ally",
-      },
+      name = "Rapid Magazine",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Attack speed +6",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 2,
+          description = "Attack speed +9 (+3)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Attack speed +12",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 2,
+          description = "Attack speed +15 (+3)",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Rapid Magazine",
-        description = "Attack speed +6",
-      },
+      name = "Angel's Blessings",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Attack power +6%, Max HP +10%. When deployed, grant the same effect to a random ally",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 5,
+          description = "Attack power +8% (+2%), Max HP +13% (+3%). When deployed, grant the same effect to a random ally",
+        },
+      }
     },
   },
   potential = {

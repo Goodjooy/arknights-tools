@@ -277,18 +277,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Tactical Delivery",
-        description = "Obtain an additional 1 initial cost on battle start",
-      },
+      name = "Tactical Delivery",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Obtain an additional 1 initial cost on battle start",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Obtain an additional 2 initial cost on battle start",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 24",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

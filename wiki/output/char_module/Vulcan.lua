@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Self-defense",
-        description = "While skill is active, recover 4% Max HP every second",
-      },
+      name = "Self-defense",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "While skill is active, recover 4% Max HP every second",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "While skill is active, recover 5% (+1%) Max HP every second",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "While skill is active, recover 4% Max HP every second and gain 25% melee physical evasion",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "While skill is active, recover 5% (+1%) Max HP every second and gain 30% (+5%) melee physical evasion",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Maximum Health + 250",
     "Talent Boost",
     "Deploy Cost - 1",

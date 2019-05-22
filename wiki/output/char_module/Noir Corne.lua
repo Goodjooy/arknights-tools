@@ -69,17 +69,21 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 30,
-        name = "Armor Enhancement",
-        description = "Max HP and Defense power +12%",
-      },
+      name = "Armor Enhancement",
+      levels = {
+        {
+          elite = 0,
+          level = 30,
+          potential = 0,
+          description = "Max HP and Defense power +12%",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
     "Maximum Health + 45",
-    "Buyback time - 5",
+    "Respawn Time - 5",
     "Maximum Health + 45",
     "Deploy Cost - 1",
   },

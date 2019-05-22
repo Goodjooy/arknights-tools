@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Brute Thrust",
-        description = "When attacking, 10% chance to increase Attack power by +50%. Chance is increased to 30% while skill is active",
-      },
+      name = "Brute Thrust",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 10% chance to increase Attack power by +50%. Chance is increased to 30% while skill is active",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When attacking, 10% chance to increase Attack power by +60% (+10%). Chance is increased to 30% while skill is active",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 10% chance to increase Attack power by +100%. Chance is increased to 30% while skill is active",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When attacking, 10% chance to increase Attack power by +110% (+10%). Chance is increased to 30% while skill is active",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 24",
     "Talent Boost",
     "Deploy Cost - 1",

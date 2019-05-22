@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Snow Patroller",
-        description = "When blocking 2 or more enemies, Defense power +8%",
-      },
+      name = "Snow Patroller",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When blocking 2 or more enemies, Defense power +8%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When blocking 2 or more enemies, Defense power +11% (+3%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When blocking 2 or more enemies, Defense power +16%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When blocking 2 or more enemies, Defense power +19% (+3%)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Defense + 23",
     "Talent Boost",
     "Deploy Cost - 1",

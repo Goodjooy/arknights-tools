@@ -297,23 +297,62 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "Mental Dissolution",
-        description = "All enemies within attack range get magic resistance -15%",
-      },
-      rank1 = {
-        level = 1,
-        name = "Rhine Circuitry",
-        description = "Recover an additional 2 SP every 6 seconds",
-      },
+      name = "Mental Dissolution",
+      levels = {
+        {
+          elite = 0,
+          level = 1,
+          potential = 0,
+          description = "All enemies within attack range get magic resistance -15%",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 2,
+          description = "All enemies within attack range get magic resistance -19% (+4%)",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "All enemies within attack range get magic resistance -27%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 2,
+          description = "All enemies within attack range get magic resistance -31% (+4%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "All enemies within attack range get magic resistance -40%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 2,
+          description = "All enemies within attack range get magic resistance -44% (+4%)",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Mental Dissolution",
-        description = "All enemies within attack range get magic resistance -15%",
-      },
+      name = "Rhine Circuitry",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Recover an additional 2 SP every 6 seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 5,
+          description = "Recover an additional 2 SP every 5.5 (-0.5) seconds",
+        },
+      }
     },
   },
   potential = {

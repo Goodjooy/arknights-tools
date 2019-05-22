@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Charged Attack",
-        description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 140%）",
-      },
+      name = "Charged Attack",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 140%）",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 150% (+10%)）",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 180%）",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 190% (+10%)）",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 23",
     "Talent Boost",
     "Deploy Cost - 1",

@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Snow Hunter",
-        description = "When not blocking any enemies, Attack power and Defense power +6%",
-      },
+      name = "Snow Hunter",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When not blocking any enemies, Attack power and Defense power +6%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When not blocking any enemies, Attack power and Defense power +8% (+2%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When not blocking any enemies, Attack power and Defense power +12%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When not blocking any enemies, Attack power and Defense power +14% (+2%)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack Speed + 8",
     "Talent Boost",
     "Deploy Cost - 1",

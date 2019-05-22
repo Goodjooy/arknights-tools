@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Tiger Fist",
-        description = "Has 15% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%",
-      },
+      name = "Tiger Fist",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Has 15% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Has 18% (+3%) chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Has 30% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +100%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Has 33% (+3%) chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +100%",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 23",
     "Talent Boost",
     "Deploy Cost - 1",

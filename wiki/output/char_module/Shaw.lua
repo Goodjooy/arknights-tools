@@ -272,18 +272,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Fire-fighting Gear",
-        description = "Magic resistance +7",
-      },
+      name = "Fire-fighting Gear",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Magic resistance +7",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Magic resistance +15",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Maximum Health + 140",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

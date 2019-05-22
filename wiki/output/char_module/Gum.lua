@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Saucepan Specialization",
-        description = "When attacking, 10% chance to increase Attack power to 150% and stun the enemy for 0.5 seconds",
-      },
+      name = "Saucepan Specialization",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 10% chance to increase Attack power to 150% and stun the enemy for 0.5 seconds",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When attacking, 13% (+3%) chance to increase Attack power to 150% and stun the enemy for 0.5 seconds",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 15% chance to increase Attack power to 200% and stun the enemy for 1 second",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When attacking, 18% (+3%) chance to increase Attack power to 200% and stun the enemy for 1 second",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 21",
     "Talent Boost",
     "Deploy Cost - 1",

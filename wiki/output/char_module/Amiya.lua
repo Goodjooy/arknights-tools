@@ -287,16 +287,27 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "？？？",
-        description = "？？？？？",
-      },
-      rank2 = {
-        level = 1,
-        name = "Emotion Absorption",
-        description = "Additionally recover 2 SP when attacking enemies. Gain 8 SP after killing an enemy",
-      },
+      name = "？？？",
+      levels = {
+        {
+          elite = 0,
+          level = 1,
+          potential = 0,
+          description = "？？？？？",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Additionally recover 2 SP when attacking enemies. Gain 8 SP after killing an enemy",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 5,
+          description = "Additionally recover 3 (+1) SP when attacking enemies. Gain 10 (+2) SP after killing an enemy",
+        },
+      }
     },
   },
   potential = {

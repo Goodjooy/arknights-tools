@@ -204,16 +204,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Additional Healing",
-        description = "Has 7% chance to heal an additional ally",
-      },
+      name = "Additional Healing",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Has 7% chance to heal an additional ally",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Has 10% (+3%) chance to heal an additional ally",
+        },
+        {
+          elite = 1,
+          level = 55,
+          potential = 0,
+          description = "Has 15% chance to heal an additional ally",
+        },
+        {
+          elite = 1,
+          level = 55,
+          potential = 4,
+          description = "Has 18% (+3%) chance to heal an additional ally",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 20",
     "Talent Boost",
     "Deploy Cost - 1",

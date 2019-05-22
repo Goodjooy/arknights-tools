@@ -277,23 +277,37 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Tactical Defense",
-        description = "When attacked, recover 1 SP to self and a random nearby ally",
-      },
+      name = "Tactical Defense",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When attacked, recover 1 SP to self and a random nearby ally",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Tactical Defense",
-        description = "When attacked, recover 1 SP to self and a random nearby ally",
-      },
+      name = "Lightning Resistance",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Magic resistance +10",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Magic resistance +13 (+3)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Defense + 27",
     "Talent Boost",
     "Deploy Cost - 1",

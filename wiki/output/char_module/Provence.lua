@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Hunting Arrow",
-        description = "When attacking, 20% chance to increase Attack power to 140%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
-      },
+      name = "Hunting Arrow",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 20% chance to increase Attack power to 140%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When attacking, 20% chance to increase Attack power to 150% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When attacking, 20% chance to increase Attack power to 180%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When attacking, 20% chance to increase Attack power to 190% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 30",
     "Talent Boost",
     "Deploy Cost - 1",

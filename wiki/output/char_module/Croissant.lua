@@ -277,16 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Miracle Field",
-        description = "Has 10% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
-      },
+      name = "Miracle Field",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Has 10% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Has 13% (+3%) chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Has 20% chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Has 23% (+3%) chance to block physical and magical damage. Allies within the adjacent 4 tiles gain half the effect",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Defense + 26",
     "Talent Boost",
     "Deploy Cost - 1",

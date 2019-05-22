@@ -204,18 +204,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Armor Break",
-        description = "Attack power +3%, prioritize attacking the enemy with the highest defense",
-      },
+      name = "Armor Break",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Attack power +3%, prioritize attacking the enemy with the highest defense",
+        },
+        {
+          elite = 1,
+          level = 55,
+          potential = 0,
+          description = "Attack power +6%, prioritize attacking the enemy with the highest defense",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 23",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

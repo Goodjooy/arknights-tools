@@ -277,28 +277,49 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Weakening",
-        description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%",
-      },
-      rank2 = {
-        level = 1,
-        name = "Echo",
-        description = "Attacks 2 targets simultaneously",
-      },
+      name = "Weakening",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 118% (+3%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 130%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 133% (+3%)",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Weakening",
-        description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%",
-      },
+      name = "Echo",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Attacks 2 targets simultaneously",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Resistance + 8",
     "Talent Boost",
     "Deploy Cost - 1",

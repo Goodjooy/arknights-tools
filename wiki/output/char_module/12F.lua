@@ -69,17 +69,21 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 30,
-        name = "Evasion Increase",
-        description = "Gain 50% physical evasion",
-      },
+      name = "Evasion Increase",
+      levels = {
+        {
+          elite = 0,
+          level = 30,
+          potential = 0,
+          description = "Gain 50% physical evasion",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
     "Attack + 12",
-    "Buyback time - 5",
+    "Respawn Time - 5",
     "Attack + 12",
     "Deploy Cost - 1",
   },

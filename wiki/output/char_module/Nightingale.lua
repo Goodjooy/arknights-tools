@@ -297,28 +297,61 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "White Devil's Protection",
-        description = "Allies within attack range gain magic resistance +5",
-      },
-      rank1 = {
-        level = 1,
-        name = "Ephemeral Phantom",
-        description = "Able to use phantoms. Phantoms cannot attack or block enemies. They have 75 magic resistance, 30% physical evasion and draw enemy attacks easily. Additionally, they lose 3% Max HP every second",
-      },
+      name = "White Devil's Protection",
+      levels = {
+        {
+          elite = 0,
+          level = 1,
+          potential = 0,
+          description = "Allies within attack range gain magic resistance +5",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 4,
+          description = "Allies within attack range gain magic resistance +7 (+2)",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Allies within attack range gain magic resistance +10",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Allies within attack range gain magic resistance +12 (+2)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Allies within attack range gain magic resistance +15",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Allies within attack range gain magic resistance +17 (+2)",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "White Devil's Protection",
-        description = "Allies within attack range gain magic resistance +5",
-      },
+      name = "Ephemeral Phantom",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Able to use phantoms. Phantoms cannot attack or block enemies. They have 75 magic resistance, 30% physical evasion and draw enemy attacks easily. Additionally, they lose 3% Max HP every second",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Resistance + 10",
     "First Talent Boost",
     "Deploy Cost - 1",

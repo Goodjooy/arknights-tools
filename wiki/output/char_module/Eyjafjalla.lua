@@ -297,23 +297,50 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Inflammation",
-        description = "When deployed, all ally 【Caster】 operatives gain Attack power +7%",
-      },
-      rank2 = {
-        level = 1,
-        name = "Chaotic Flame",
-        description = "After deployment, immediately gain a random amount of SP",
-      },
+      name = "Inflammation",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When deployed, all ally 【Caster】 operatives gain Attack power +7%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 5,
+          description = "When deployed, all ally 【Caster】 operatives gain Attack power +9% (+2%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When deployed, all ally 【Caster】 operatives gain Attack power +14%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 5,
+          description = "When deployed, all ally 【Caster】 operatives gain Attack power +16% (+2%)",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Inflammation",
-        description = "When deployed, all ally 【Caster】 operatives gain Attack power +7%",
-      },
+      name = "Chaotic Flame",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "After deployment, immediately gain a random amount of SP",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 2,
+          description = "After deployment, immediately gain a random (higher) amount of SP",
+        },
+      }
     },
   },
   potential = {

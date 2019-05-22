@@ -272,18 +272,34 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "Summon Tentacles",
-        description = "Can summon 2 tentacles to assist in battle",
-      },
+      name = "Summon Tentacles",
+      levels = {
+        {
+          elite = 0,
+          level = 1,
+          potential = 0,
+          description = "Can summon 2 tentacles to assist in battle",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Can summon 3 tentacles to assist in battle",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Can summon 4 tentacles to assist in battle",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack Speed + 8",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

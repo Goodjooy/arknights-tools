@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Self Regeneration",
-        description = "When an enemy dies within 8 tiles of herself, recover 7% Max HP",
-      },
+      name = "Self Regeneration",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When an enemy dies within 8 tiles of herself, recover 7% Max HP",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "When an enemy dies within 8 tiles of herself, recover 9% (+2%) Max HP",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When an enemy dies within 8 tiles of herself, recover 12% Max HP",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When an enemy dies within 8 tiles of herself, recover 14% (+2%) Max HP",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Maximum Health + 200",
     "Talent Boost",
     "Deploy Cost - 1",

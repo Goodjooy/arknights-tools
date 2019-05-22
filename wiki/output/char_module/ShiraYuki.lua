@@ -272,18 +272,22 @@ return {
   },
   talents = {
     {
-      rank2 = {
-        level = 1,
-        name = "Heavy Shuriken",
-        description = "Slightly increase attack interval, however Attack power +20%",
-      },
+      name = "Heavy Shuriken",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Slightly increase attack interval, however Attack power +20%",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 30",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Instructor",
-        description = "All 3* operatives gain Attack power +5%",
-      },
+      name = "Instructor",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "All 3* operatives gain Attack power +5%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "All 3* operatives gain Attack power +6% (+1%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "All 3* operatives gain Attack power +10%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "All 3* operatives gain Attack power +11% (+1%)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Maximum Health + 150",
     "Talent Boost",
     "Deploy Cost - 1",

@@ -277,21 +277,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Healing Effect Enhancement",
-        description = "Healing effectiveness +10%",
-      },
-      rank2 = {
-        level = 1,
-        name = "Pegasus Aura",
-        description = "When deployed, all allies' healing effectiveness +10%",
-      },
+      name = "Healing Effect Enhancement",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Healing effectiveness +10%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Healing effectiveness +12% (+2%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When deployed, all allies' healing effectiveness +10%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "When deployed, all allies' healing effectiveness +12% (+2%)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Defense + 25",
     "Talent Boost",
     "Deploy Cost - 1",

@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Lone Wolf",
-        description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +5%",
-      },
+      name = "Lone Wolf",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +5%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +7% (+2%)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +11%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +13% (+2%)",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack + 25",
     "Talent Boost",
     "Deploy Cost - 1",

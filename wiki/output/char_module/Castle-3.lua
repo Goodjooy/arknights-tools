@@ -69,11 +69,45 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "Tactical Reorganization·I",
-        description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +10% for 10 seconds",
-      },
+      name = "Tactical Reorganization·I",
+      levels = {
+        {
+          elite = 0,
+          level = 1,
+          potential = 0,
+          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +10% for 10 seconds",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 1,
+          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +12% for 12 seconds",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 2,
+          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +14% for 14 seconds",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 3,
+          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +16% for 16 seconds",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 4,
+          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +18% for 18 seconds",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 5,
+          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +20% for 20 seconds",
+        },
+      }
     },
   },
   potential = {

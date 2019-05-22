@@ -1,5 +1,6 @@
-      rank{{num}} = {
-        level = {{level}},
-        name = "{{name}}",
-        description = "{{description}}",
-      },
+        {
+          elite = {{elite}},
+          level = {{level}},
+          potential = {{potential}},
+          description = "{{description}}",
+        },

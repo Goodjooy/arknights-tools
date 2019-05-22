@@ -277,18 +277,28 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Encore",
-        description = "When the skill ends, 50% chance to immediately recover 25% maximum SP",
-      },
+      name = "Encore",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "When the skill ends, 50% chance to immediately recover 25% maximum SP",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "When the skill ends, 50% chance to immediately recover 50% maximum SP",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Maximum Health + 140",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

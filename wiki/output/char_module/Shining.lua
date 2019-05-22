@@ -292,23 +292,62 @@ return {
   },
   talents = {
     {
-      rank0 = {
-        level = 1,
-        name = "Black Devil's Protection",
-        description = "Allies within attack range gain Defense power +20",
-      },
-      rank1 = {
-        level = 1,
-        name = "Codex",
-        description = "Attack speed +10",
-      },
+      name = "Black Devil's Protection",
+      levels = {
+        {
+          elite = 0,
+          level = 1,
+          potential = 0,
+          description = "Allies within attack range gain Defense power +20",
+        },
+        {
+          elite = 0,
+          level = 1,
+          potential = 5,
+          description = "Allies within attack range gain Defense power +25 (+5)",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Allies within attack range gain Defense power +40",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 5,
+          description = "Allies within attack range gain Defense power +45 (+5)",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Allies within attack range gain Defense power +60",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 5,
+          description = "Allies within attack range gain Defense power +65 (+5)",
+        },
+      }
     },
     {
-      rank2 = {
-        level = 1,
-        name = "Black Devil's Protection",
-        description = "Allies within attack range gain Defense power +20",
-      },
+      name = "Codex",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Attack speed +10",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 2,
+          description = "Attack speed +13 (+3)",
+        },
+      }
     },
   },
   potential = {

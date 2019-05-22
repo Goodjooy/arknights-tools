@@ -277,17 +277,39 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Bonebreaker",
-        description = "Every attack will deal damage equal to at least 20% Attack power",
-      },
+      name = "Bonebreaker",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Every attack will deal damage equal to at least 20% Attack power",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Every attack will deal damage equal to at least 23% (+3%) Attack power",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Every attack will deal damage equal to at least 30% Attack power",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Every attack will deal damage equal to at least 33% (+3%) Attack power",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
     "Attack + 20",
-    "Buyback time - 2",
+    "Respawn Time - 2",
     "Talent Boost",
     "Deploy Cost - 1",
   },

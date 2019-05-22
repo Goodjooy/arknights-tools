@@ -204,18 +204,22 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Lightening",
-        description = "Self deployment cost -1",
-      },
+      name = "Lightening",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Self deployment cost -1",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Defense + 20",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {

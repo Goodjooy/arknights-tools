@@ -272,16 +272,38 @@ return {
   },
   talents = {
     {
-      rank1 = {
-        level = 1,
-        name = "Black Mist",
-        description = "Attacks inflict magic resistance -10% for 1 second",
-      },
+      name = "Black Mist",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "Attacks inflict magic resistance -10% for 1 second",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "Attacks inflict magic resistance -13% (+3%) for 1 second",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Attacks inflict magic resistance -20% for 1 second",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "Attacks inflict magic resistance -23% (+3%) for 1 second",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Maximum Health + 100",
     "Talent Boost",
     "Deploy Cost - 1",

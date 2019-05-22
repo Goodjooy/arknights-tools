@@ -272,18 +272,22 @@ return {
   },
   talents = {
     {
-      rank2 = {
-        level = 1,
-        name = "Cover Strike",
-        description = "Increase attack range, however attack interval slightly increases",
-      },
+      name = "Cover Strike",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "Increase attack range, however attack interval slightly increases",
+        },
+      }
     },
   },
   potential = {
     "Deploy Cost - 1",
-    "Buyback time - 4",
+    "Respawn Time - 4",
     "Attack Speed + 8",
-    "Buyback time - 6",
+    "Respawn Time - 6",
     "Deploy Cost - 1",
   },
   trust = {
