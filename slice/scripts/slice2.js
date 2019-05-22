@@ -43,6 +43,7 @@ Promise.coroutine(function*() {
     Object.keys(images).map(atlasId => {
       return loadImage('../input/images/' + images[atlasId])
         .then(imgEl => {
+          if (!imgEl) console.log('cannot load image', atlasId)
           imgEls[atlasId] = imgEl
         })
     })
