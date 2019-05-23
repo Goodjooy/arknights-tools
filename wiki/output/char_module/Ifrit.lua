@@ -394,7 +394,7 @@ return {
     },
     bio = {
       gender = "Female",
-      experience = "没有战斗经验",
+      experience = "No combat experience",
       origin = "Undisclosed",
       birthday = "ERROR",
       race = "萨■卡訧譱瀫?",

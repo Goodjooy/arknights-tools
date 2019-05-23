@@ -389,7 +389,7 @@ return {
     },
     bio = {
       gender = "Female",
-      experience = "没有战斗经验",
+      experience = "No combat experience",
       origin = "Leithanian",
       birthday = "October 18",
       race = "Caprinae",

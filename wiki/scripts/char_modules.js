@@ -160,8 +160,8 @@ Promise.all([
       numYears = t(numYears)
       return numYears + (['Half', 'Half a', '1'].indexOf(numYears) > -1 ? ' year' : ' years')
     }
-    if (text == '无战斗经验')
-      return 'No combat experience'
+    if (text == '无战斗经验') return 'No combat experience'
+    if (text == '没有战斗经验') return 'No combat experience'
     return text
   }
 
@@ -201,7 +201,7 @@ Promise.all([
           }
         })
       } else {
-        records[handbookField(entry.storyTitle)] = entry.stories[0].storyText.replace(/[ ]?\n/g, '<br>') //.substring(0,30) + '...'
+        records[handbookField(entry.storyTitle)] = entry.stories[0].storyText.replace(/[ ]?(\r\n|\r|\n)/g, '<br>')
       }
     })
     details.combatexp = combatexp(details.combatexp)
@@ -359,13 +359,11 @@ Promise.all([
     let skillTL = tl_skills[charSkill.skillId]
     return fillData(tpl_skill, {
       icon: skillIcon(baseSkill.iconId || charSkill.skillId) + '.png',
-      name: skillTL.name,
-      // name: baseSkill.levels[0].name,
+      name: skillTL ? skillTL.name : baseSkill.levels[0].name,
       recharge: spType(baseSkill.levels[0].spData.spType),
       trigger: skillTrigger(baseSkill.levels[0].skillType),
       passive: baseSkill.levels[0].skillType == 0 ? 'true' : 'false',
-      description: skillDescFropmTL(charSkill.skillId, baseSkill.levels, skillTL.desc),
-      // description: skillDesc(charSkill.skillId, baseSkill.levels),
+      description: skillTL ? skillDescFropmTL(charSkill.skillId, baseSkill.levels, skillTL.desc) : skillDesc(charSkill.skillId, baseSkill.levels),
       spcost: skillSP(baseSkill.levels),
       duration: skillDuration(baseSkill.levels),
     })
@@ -373,20 +371,19 @@ Promise.all([
 
   const talentTemplate = (charTalent, talentEN) => {
     if (!charTalent) return
-    if (!talentEN) return
     let talentBody = ''
     charTalent.candidates.forEach((candidate, candidateIndex) => {
       talentBody += fillData(tpl_mastery, {
         elite: candidate.unlockCondition.phase,
         level: candidate.unlockCondition.level,
         potential: candidate.requiredPotentialRank,
-        name: talentEN[ candidateIndex ].name,
-        description: talentEN[ candidateIndex ].desc,
+        name: talentEN ? talentEN[ candidateIndex ].name : candidate.name,
+        description: talentEN ? talentEN[ candidateIndex ].desc : candidate.description,
       })
       talentBody += '\n'
     })
     let full = `    {
-      name = "` + talentEN[0].name + `",
+      name = "` + (talentEN ? talentEN[0].name : charTalent.candidates[0].name) + `",
       levels = {
 ` + talentBody + `      }
     },\n`
@@ -602,14 +599,13 @@ Promise.all([
   }
 
   const riicTemplate = (infraSkill, riicEN) => {
+    if (!infraSkill) return
     return fillData(tpl_infra, {
-      name: riicEN.name,
-      // name: infraSkill.name,
+      name: riicEN ? riicEN.name : infraSkill.name,
       badge: facilityBadge(infraSkill.facility),
       facility: facilityName(infraSkill.facility),
       unlock: 'elite' + infraSkill.unlock,
-      description: riicEN.desc,
-      // description: infraSkill.description,
+      description: riicEN ? riicEN.desc : infraSkill.description,
     })
   }
 
@@ -669,12 +665,12 @@ Promise.all([
       skill1: char.skills[0] ? '\n' + skillTemplate(char.skills[0]) : '',
       skill2: char.skills[1] ? '\n' + skillTemplate(char.skills[1]) : '',
       skill3: char.skills[2] ? '\n' + skillTemplate(char.skills[2]) : '',
-      buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills[0], tl_riic[charKey][0]) : '',
-      buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills[1], tl_riic[charKey][1]) : '',
-      buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills[2], tl_riic[charKey][2]) : '',
-      talent1: char.talents[0] ? talentTemplate(char.talents[0], tl_talents[charKey][0]) : '',
-      talent2: char.talents[1] ? talentTemplate(char.talents[1], tl_talents[charKey][1]) : '',
-      talent3: char.talents[2] ? talentTemplate(char.talents[2], tl_talents[charKey][2]) : '',
+      buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills[0], tl_riic[charKey] ? tl_riic[charKey][0] : null ) : '',
+      buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills[1], tl_riic[charKey] ? tl_riic[charKey][1] : null ) : '',
+      buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills[2], tl_riic[charKey] ? tl_riic[charKey][2] : null ) : '',
+      talent1: char.talents[0] ? talentTemplate(char.talents[0], tl_talents[charKey] ? tl_talents[charKey][0] : null ) : '',
+      talent2: char.talents[1] ? talentTemplate(char.talents[1], tl_talents[charKey] ? tl_talents[charKey][1] : null ) : '',
+      talent3: char.talents[2] ? talentTemplate(char.talents[2], tl_talents[charKey] ? tl_talents[charKey][2] : null ) : '',
       potential1:  potentialMessage(char.potentialRanks[0]),
       potential2:  potentialMessage(char.potentialRanks[1]),
       potential3:  potentialMessage(char.potentialRanks[2]),

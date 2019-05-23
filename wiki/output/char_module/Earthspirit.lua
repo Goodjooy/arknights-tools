@@ -335,7 +335,7 @@ return {
     },
     bio = {
       gender = "Female",
-      experience = "没有战斗经验",
+      experience = "No combat experience",
       origin = "Leithanian",
       birthday = "April 5",
       race = "Caprinae",
@@ -351,7 +351,7 @@ return {
     },
     oripathy = {
       infected = "Yes",
-      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。<br><br>【体细胞与源石融合率】14%<br>干员地灵体表已生成可见结晶，病灶处位于手腕。<br><br>【血液源石结晶密度】0.31u/L<br>干员地灵血液结晶密度尚处于可控状态。",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。<br><br>【体细胞与源石融合率】14%<br>干员地灵体表已生成可见结晶，病灶处位于手腕。<br><br>【血液源石结晶密度】0.31u/L<br>感染步入中期，尚处于可控状态。",
     }
   },
   quotes = {

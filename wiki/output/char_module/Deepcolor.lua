@@ -341,7 +341,7 @@ return {
     },
     bio = {
       gender = "Female",
-      experience = "无",
+      experience = "No combat experience",
       origin = "Undisclosed",
       birthday = "June 12",
       race = "Undisclosed",
