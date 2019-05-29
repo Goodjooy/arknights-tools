@@ -31,6 +31,8 @@
   "治疗": "Healing",
   "爆发": "Burst",
 
+  "雷神工业": "Raytheon Industry",
+
 
   "未公开": "Undisclosed",
   "应经纪公司要求不公开": "Undisclosed",
@@ -116,6 +118,8 @@
   "普通": "Ordinary",
   "缺陷": "Lacking",
 
+  "保密": "Confidential",
+
   "久保百合花": "Yurika Kubo",
   "井口裕香": "Yuka Iguchi",
   "今井麻美": "Asami Imai",
@@ -168,6 +172,7 @@
   "高森奈津美": "Natsumi Takamori",
   "鬼头明里": "Akari Kitō",
   "黑泽朋世": "Tomoyo Kurosawa",
+  "白石涼子": "Ryoko Shiraishi",
 
   "": ""
 }

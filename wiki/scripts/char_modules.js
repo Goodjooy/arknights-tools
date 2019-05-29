@@ -66,7 +66,10 @@ Promise.all([
     })
   })
 
-  const t = text => tls[text] || text
+  const t = (text, logUntranslated = true, marker) => {
+    if (!tls[text] && logUntranslated && !parseInt(text[0], 10) && ['约','■'].indexOf(text[0])===-1 && text) console.log('untranslated', text, ' >> ', marker)
+    return tls[text] || text
+  }
 
   const titleCase = str => {
     return str.replace(/\w\S*/g, txt => {
@@ -75,7 +78,7 @@ Promise.all([
   }
 
   const fileKey = name => {
-    return titleCase(t(name)).replace(/[\s’-]/g, '')
+    return titleCase(t(name, false)).replace(/[\s’-]/g, '')
   }
 
   const richText = text => {
@@ -141,6 +144,8 @@ Promise.all([
       '通过性': 'passiveness',
       '续航': 'endurance',
       '结构稳定性': 'stability',
+      '角长度': 'angularlength',
+      '角长': 'angularlength',
     }[text] || 'ERR_UNKNOWN_FIELD_' + text
   }
 
@@ -157,18 +162,20 @@ Promise.all([
     if (!text) return
     if (text.indexOf('年') == text.length - 1) {
       let numYears = text.split('年')[0]
-      numYears = t(numYears)
+      numYears = t(numYears, true, 'numYears')
       return numYears + (['Half', 'Half a', '1'].indexOf(numYears) > -1 ? ' year' : ' years')
     }
     if (text == '无战斗经验') return 'No combat experience'
     if (text == '没有战斗经验') return 'No combat experience'
+    console.log('untranslated combatexp', text)
     return text
   }
 
   const examination = (text, charKey, field) => {
-    if (!text) return
-    text = text.trim()
-    return t(text)
+    return text
+    // if (!text) return
+    // text = text.trim()
+    // return t(text)
   }
 
   const extractHandbook = (handbook, charKey) => {
@@ -189,7 +196,7 @@ Promise.all([
             if (!info) return
             if (info[2]) {
               info[2] = info[2].trim()
-              details[handbookField(info[1])] = t(info[2])
+              details[handbookField(info[1])] = t(info[2], ['combatexp','codename','infection'].indexOf(handbookField(info[1])) === -1, 'handbookField:' + handbookField(info[1]))
             } else {
               emptyField = info[1]
             }
@@ -630,14 +637,14 @@ Promise.all([
       char_key: charKey,
       id: charKey.split('_')[1],
       num: char.displayNumber,
-      name_en: t(char.appellation),
+      name_en: t(char.appellation, false),
       name_cn: char.name,
       name_jp: '?',
       name_kr: '?',
       name_ex: char.appellation,
       file: fileKey(char.appellation),
       team: char.team,
-      position: t(char.position),
+      position: t(char.position, true, 'position'),
       roles: char.tagList.map(t).map(v => '"'+v+'"').join(', '),
       faction: factionName(char.displayLogo),
       stars: parseInt(char.rarity, 10) + 1,
@@ -685,7 +692,7 @@ Promise.all([
       trust: trustList(char.favorKeyFrames),
 
       illustrator: info.details.illustrator,
-      voiceActor: info.details.voiceactor != '--' ? t(info.details.voiceactor) : '',
+      voiceActor: info.details.voiceactor != '--' ? t(info.details.voiceactor, true, 'voiceActor') : '',
 
       record_resume: info.records.Resume || '',
       record_archive1: info.records['Archive 1'] || '',
@@ -719,7 +726,7 @@ Promise.all([
     // console.log(t(char.appellation) + ' = require("Module:' + t(char.appellation) + '"),');
 
     return save({
-      destFile: 'output/char_module/' + t(char.appellation) + '.lua',
+      destFile: 'output/char_module/' + t(char.appellation, false) + '.lua',
       destBody: charBody,
     })
   })
