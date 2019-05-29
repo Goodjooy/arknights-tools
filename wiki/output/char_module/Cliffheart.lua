@@ -339,7 +339,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "白石涼子",
+    voiceActor = "Ryoko Shiraishi",
   },
   profile = {
     records = {
