@@ -16,6 +16,7 @@ npm install
 * File names for main image and its alpha file should be in this format:
   * `mainimage.png`
   * `mainimage[alpha].png`
+* Supports multiple files in the same folder, processes all at once
 
 ## Run
 ```
