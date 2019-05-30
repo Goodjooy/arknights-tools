@@ -1,6 +1,6 @@
 # arknights-tools/alpha
 
-Applies alpha channel to CG and other assets
+Applies alpha channel to Arknights extracted images
 
 ## Install
 #### Requirements
@@ -12,16 +12,17 @@ npm install
 ```
 
 ## Prepare files
-* Place image files inside `/input`
-* File names are in this format:
-  * `char_002_amiya_1.png`
-  * `char_002_amiya_1[alpha].png`
-
-See `list.json` for more info
-* `list.json` only includes characters from main story
+* Place image files inside a subfolder in `/input`
+* File names for main image and its alpha file should be in this format:
+  * `mainimage.png`
+  * `mainimage[alpha].png`
 
 ## Run
 ```
-npm run start
+npm run start <subfolder>
+
+e.g.
+
+npm run start characters
 ```
-then go to `http://localhost:61001`
+Output will be in `/output` folder, in a subfolder, the same name as your input

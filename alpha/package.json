@@ -1,12 +1,12 @@
 {
   "name": "arknights-alpha",
-  "version": "1.0.0",
-  "description": "Applies alpha channel to CG",
+  "version": "2.0.0",
+  "description": "Applies alpha channel to Arknights extracted images",
   "scripts": {
-    "list": "node list.js",
-    "start": "http-server -p 61001"
+    "start": "node index.js"
   },
   "dependencies": {
+    "canvas": "^2.5.0",
     "glob": "^7.1.2",
     "http-server": "^0.11.1"
   }
