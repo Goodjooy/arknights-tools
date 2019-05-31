@@ -542,7 +542,7 @@ Promise.all([
       'logo_rim': 'RIM Billiton',
       'logo_ursus': 'Ursus',
       'logo_victoria': 'Victoria',
-      'logo_abyssal': 'Abyssal',
+      'logo_abyssal': 'Abyssal Hunters',
     }[factionKey.toLowerCase()] || ''
   }
 
