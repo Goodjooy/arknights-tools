@@ -24,10 +24,12 @@ module.exports = data => {
           quote.zh = playerMatch[2].trim()
 
         } else if (anonymMatch) {
-          // console.log(data.sourceFile, anonymMatch[0])
           quote.ch = ''
           quote.zh = anonymMatch[0].trim()
 
+        } else if (line.trim() && line.trim()[0] != '[' && line.trim()[0] != '/') {
+          quote.ch = ''
+          quote.zh = line.trim()
         }
 
         if (!(/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(quote.zh))) {
