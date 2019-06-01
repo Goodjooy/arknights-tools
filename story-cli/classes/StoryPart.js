@@ -1,6 +1,7 @@
 const path = require('path')
 const config = require('config')
 const Promise = require('bluebird')
+const wrap = require('word-wrap')
 const CanvasTextWrapper = require('canvas-text-wrapper').CanvasTextWrapper
 const Canvas = require('canvas')
 Canvas.registerFont(path.resolve(path.join(__dirname, '..', 'assets', 'font', 'mint.ttf')), {family: 'Chinese'})
@@ -21,6 +22,7 @@ class StoryPart {
   static get TYPE_IMAGE() { return 'image' }
   static get TYPE_CHOICE() { return 'choice' }
   static get TYPE_SOUND() { return 'sound' }
+  static get TYPE_COVER() { return 'cover' }
 
   static get REGEX_HEADER() { return /\[HEADER\((.*?)\)\] (.*)/g }
   static get REGEX_BACKGROUND() { return /\[Background\(image="([a-zA-Z0-9_]+)"/g }
@@ -34,6 +36,7 @@ class StoryPart {
   static get REGEX_IMAGE() { return /\[Image\(image="(.*?)"(.*)\)\]/g }
   static get REGEX_CHOICE() { return /\[Decision\(options="(.*?)"/g }
   static get REGEX_SOUND() { return /\[PlaySound\(key="(.*?)"/g }
+  static get REGEX_COVER() { return /\[Cover\(image="(.*?)", title="(.*?)", translator="(.*?)"\)\]/g }
 
   constructor(line, translations) {
     this.line = line
@@ -64,6 +67,8 @@ class StoryPart {
     if (StoryPart.REGEX_SOUND.test(this.line)) return this.sound()
     if (StoryPart.REGEX_FULLCHARACTER.test(this.line)) return this.fullchar()
     if (StoryPart.REGEX_ANONQUOTE.test(this.line)) return this.anonquote()
+    if (StoryPart.REGEX_COVER.test(this.line)) return this.cover()
+    if (this.line.trim() && this.line.trim()[0] != '[' && this.line.trim()[0] != '/') return this.wildquote()
     return Promise.resolve()
   }
 
@@ -76,6 +81,7 @@ class StoryPart {
   }
 
   header() {
+    return Promise.resolve()
     // Set type of this instance
     this.type = StoryPart.TYPE_HEADER
     // Extract data from the line
@@ -147,8 +153,16 @@ class StoryPart {
     // Extract data from the line
     let data = StoryPart.REGEX_ANONQUOTE.exec(this.line)
     this.line = '[name=""]   ' + data[0]
-    this.characters[1] = null
-    this.focusedCharacter = 2
+    this.characters[0] = null
+    this.focusedCharacter = 1
+    return this.quote()
+  }
+
+  wildquote() {
+    // Extract data from the line
+    this.line = '[name=""]   ' + this.line.trim()
+    this.characters[0] = null
+    this.focusedCharacter = 1
     return this.quote()
   }
 
@@ -204,7 +218,7 @@ class StoryPart {
           if (self.focusedCharacter == 2) bothBubbleX += quoteSpace
 
           // Draw containers
-          pageCtx.fillStyle = 'rgba(0,0,0,0.4)'
+          pageCtx.fillStyle = 'rgba(0,0,0,0.5)'
           if (speakerName) pageCtx.fillRect(bothBubbleX, speakerBubbleY, bothBubbleWidth, speakerBubbleHeight)
           pageCtx.fillRect(bothBubbleX, textBubbleY, bothBubbleWidth, textBubbleHeight)
 
@@ -217,9 +231,9 @@ class StoryPart {
           let speakerContext = speakerCanvas.getContext('2d');
           speakerCanvas.width = bothBubbleWidth
           speakerCanvas.height = speakerBubbleHeight
-          speakerContext.fillStyle = '#ffffff'
+          speakerContext.fillStyle = '#ffcc00'
           CanvasTextWrapper(speakerCanvas, speakerName, {
-            font:  pageOpts.part.speakerSize + 'px ' + (config.font || 'Chinese'),
+            font: 'bold  ' + pageOpts.part.speakerSize + 'px ' + (config.font || 'Chinese'),
             textAlign: self.focusedCharacter == 1 ? 'left' : 'right',
             verticalAlign: 'middle',
             sizeToFill: false,
@@ -236,15 +250,18 @@ class StoryPart {
           textCanvas.width = bothBubbleWidth
           textCanvas.height = textBubbleHeight
           textContext.fillStyle = '#ffffff'
+          if (config.wrapWidth) quoteMessage = wrap(quoteMessage, { width: config.wrapWidth, indent:0, cut: true }) // wrap fullwidth characters
           CanvasTextWrapper(textCanvas, quoteMessage, {
-            font:  pageOpts.part.messageSize + 'px ' + (config.font || 'Chinese'),
+            font:  pageOpts.part.messageSize + 'px ' + (config.font || 'Chinese') + ', bold',
             textAlign: self.focusedCharacter == 1 ? 'left' : 'right',
+            lineHeight: (pageOpts.part.messageSize + 3) + 'px',
+            lineBreak: 'auto',
             verticalAlign: 'top',
             sizeToFill: false,
             renderHDPI: false,
             allowNewLine: true,
-            paddingX: 10,
-            paddingY: 10,
+            paddingX: 8,
+            paddingY: 3,
           })
           pageCtx.drawImage(textCanvas, 0, 0, textCanvas.width, textCanvas.height, bothBubbleX, textBubbleY, textCanvas.width, textCanvas.height)
 
@@ -264,6 +281,123 @@ class StoryPart {
     if (!imgName) return Promise.resolve()
     this.image_name = imgName[1]
     return Promise.resolve()
+  }
+
+  cover() {
+    // Set type of this instance
+    this.type = StoryPart.TYPE_COVER
+    // Extract data from the line
+    let coverData = StoryPart.REGEX_COVER.exec(this.line)
+    this.image_name = coverData[1]
+    let title = coverData[2]
+    let translator = coverData[3]
+    // Create rendering process
+    let self = this
+    self.height = 0
+    return Promise.coroutine(function*() {
+      // Get series name
+      let seriesName = yield self.translations.get(config.chapter.series)
+      // Load the logo
+      let akLogo = yield Utils.loadImage(['icons', 'arknights.png'])
+
+      // Set the make renderer
+      self.makeRenderer = (pageOpts, foregroundY) => {
+        return pageCanvas => {
+          let pageCtx = pageCanvas.getContext('2d')
+
+          // Dimensions
+          let containerY = 420
+          let containerPadding = 15
+          let logoSpacing = 15
+          let seriesSpacing = 10
+          let logoY = containerY + containerPadding
+          let seriesY = logoY + pageOpts.part.logoSize + logoSpacing
+          let titleY = seriesY + pageOpts.part.seriesSize + seriesSpacing
+          let containerHeight = pageOpts.part.seriesSize + pageOpts.part.logoSize + pageOpts.part.titleSize + logoSpacing + seriesSpacing + (containerPadding * 2) - 10
+          let creditsY = containerY + containerHeight + 50
+          let creditsWidth = pageOpts.width - (pageOpts.padding.left + pageOpts.padding.right)
+
+          // Draw containers
+          pageCtx.fillStyle = 'rgba(0,0,0,0.5)'
+          pageCtx.fillRect(0, containerY, pageOpts.width, containerHeight)
+
+          // Draw logo
+          let logoScale = pageOpts.part.logoSize / akLogo.height
+          let logoWidth = akLogo.width * logoScale
+          let logoLeft = (pageOpts.width - logoWidth) / 2
+          pageCtx.drawImage(akLogo, 0, 0, akLogo.width, akLogo.height, logoLeft, logoY, akLogo.width * logoScale, pageOpts.part.logoSize)
+
+          // Draw Series
+          let seriesCanvas = new Canvas.createCanvas(pageOpts.width, pageOpts.part.seriesSize)
+          let seriesContext = seriesCanvas.getContext('2d');
+          seriesContext.fillStyle = '#ffcc00'
+          CanvasTextWrapper(seriesCanvas, seriesName, {
+            font:  pageOpts.part.seriesSize + 'px ' + (config.font || 'Chinese'),
+            textAlign: 'center',
+            verticalAlign: 'middle',
+            sizeToFill: false,
+            renderHDPI: false,
+            allowNewLine: false,
+          })
+          pageCtx.drawImage(seriesCanvas, 0, 0, seriesCanvas.width, seriesCanvas.height, 0, seriesY, seriesCanvas.width, seriesCanvas.height)
+
+          // Draw title
+          let titleCanvas = new Canvas.createCanvas(pageOpts.width, pageOpts.part.titleSize)
+          let titleContext = titleCanvas.getContext('2d');
+          titleContext.fillStyle = '#ffffff'
+          CanvasTextWrapper(titleCanvas, title, {
+            font:  pageOpts.part.titleSize + 'px ' + (config.font || 'Chinese'),
+            textAlign: 'center',
+            verticalAlign: 'middle',
+            sizeToFill: false,
+            renderHDPI: false,
+            allowNewLine: false,
+          })
+          pageCtx.drawImage(titleCanvas, 0, 0, titleCanvas.width, titleCanvas.height, 0, titleY, titleCanvas.width, titleCanvas.height)
+
+          // Draw credits (always english)
+          pageCtx.shadowColor = "#000000"
+          pageCtx.shadowBlur = 5
+          let creditsCanvas = new Canvas.createCanvas(creditsWidth, 200)
+          let creditsContext = creditsCanvas.getContext('2d');
+          creditsContext.fillStyle = '#ffffff'
+          let creditsText = 'Comic Generator by: dragonjet\n\n'
+          creditsText += 'Chapter Translator: ' + translator + '\n\n'
+          creditsText += 'English Community: https://discord.gg/vJvAP8X'
+          CanvasTextWrapper(creditsCanvas, creditsText, {
+            font:  pageOpts.part.creditsSize + 'px Arial',
+            textAlign: 'left',
+            verticalAlign: 'top',
+            sizeToFill: false,
+            renderHDPI: false,
+            allowNewLine: true,
+          })
+          pageCtx.drawImage(creditsCanvas, 0, 0, creditsCanvas.width, creditsCanvas.height, pageOpts.padding.left, creditsY, creditsCanvas.width, creditsCanvas.height)
+
+          // Draw disclaimer
+          let disclaimerText = self.translations.constant('DISCLAIMER')
+          let dscCanvas = new Canvas.createCanvas(pageOpts.width, 100)
+          let dscContext = dscCanvas.getContext('2d');
+          dscContext.fillStyle = '#ffffff'
+          CanvasTextWrapper(dscCanvas, disclaimerText, {
+            font:  '14px ' + (config.font || 'Chinese'),
+            lineHeight: '20px',
+            textAlign: 'center',
+            verticalAlign: 'bottom',
+            sizeToFill: false,
+            renderHDPI: false,
+            allowNewLine: false,
+            paddingX: 70,
+          })
+          let disclaimerY = pageOpts.height - pageOpts.padding.bottom - 100
+          pageCtx.drawImage(dscCanvas, 0, 0, dscCanvas.width, dscCanvas.height, 0, disclaimerY, dscCanvas.width, dscCanvas.height)
+
+          // Clear text shadows from ctx
+          pageCtx.shadowColor = "none"
+          pageCtx.shadowBlur = 0
+        }
+      }
+    })()
   }
 
   fullchar() {

@@ -15,6 +15,7 @@ class Translation {
     this.overrides = []
     this.googleCache = {}
     this.sounds = {}
+    this.constants = {}
   }
 
   loadLocale() {
@@ -30,6 +31,7 @@ class Translation {
   useMessages(content) {
     let self = this
     let parsed = JSON.parse(content)
+    let languageKey = self.targetLanguage == 'ja' ? 'jp' : self.targetLanguage
     if (parsed.messages) parsed.messages.forEach(message => {
       if (message[self.targetLanguage])
         self.messages[message.zh] = message[self.targetLanguage]
@@ -54,19 +56,32 @@ class Translation {
         self.overrides.push({ find: name.zh, replace: name['jp'] })
       }
     })
+    if (parsed.constants) {
+      Object.keys(parsed.constants).forEach(key => {
+        self.constants[key] = parsed.constants[key][languageKey]
+      })
+    }
+  }
+
+  constant(name) {
+    return this.constants[name]
   }
 
   get(text) {
     let self = this
     return Promise.coroutine(function*(){
+      if (self.targetLanguage == 'zh') {
+        // text = text.replace(/，/g, '， ').replace(/。/g, '。 ')
+        return text
+      }
       text = text.trim()
       let cleanText = text.replace(/(<([^>]+)>)/ig, '')
       if (!cleanText) return ''
       if ((/^[$-/:-?{-~!"^_`\[\]—]+$/g.test(cleanText))) return cleanText
       if (cleanText == '？？？') return '???'
-      
+
       if (self.messages[text] && self.targetLanguage != 'zh') return self.messages[text]
-      if (!self.messages[text] && self.targetLanguage != 'ja') return self.messages['jp']
+      if (!self.messages[text] && self.targetLanguage == 'ja') return self.messages['jp']
 
       // Translations from Google cache
       if (self.googleCache[cleanText]) return self.googleCache[cleanText]
@@ -94,7 +109,7 @@ class Translation {
   }
 
   google(text) {
-    return Promise.resolve([ '*' ])
+    return Promise.resolve([ text ])
     return axios.post('https://translation.googleapis.com/language/translate/v2?key=' + config.google_api_key, {
       q: [ text ],
       source: 'zh-CN',

@@ -26,7 +26,10 @@ Promise.coroutine(function*(){
   // Global config
   let fileTitle = options.src
   let targetLanguage = options.lang || config.targetLanguage
-  let pageNumOffset = options.page || 1
+  let pageNumOffset = parseInt(options.page, 10) || 2
+  let coverArt = options.cover || config.chapter.cover
+  let coverTitle = options.title || ''
+  let coverTranslator = options.tl || config.chapter.translator
   let sourcePath = path.resolve(path.join(__dirname, 'input', fileTitle + '.txt'))
   let destPath = path.resolve(path.join(__dirname, 'output', targetLanguage, fileTitle))
   yield new Promise(done => { rmrf(destPath, done) })
@@ -40,7 +43,7 @@ Promise.coroutine(function*(){
   let chapter = new Chapter({
     pageOpts: config.pageOpts,
     outputPath: destPath,
-    pageNumOffset: pageNumOffset,
+    pageNumOffset: pageNumOffset - 2,
   })
 
   // Create translation object
@@ -48,6 +51,11 @@ Promise.coroutine(function*(){
     targetLanguage: targetLanguage
   })
   yield tls.loadLocale()
+
+  // let originalLines = lines.slice(0,30)
+  lines = [
+    '[Cover(image="'+coverArt+'", title="'+coverTitle+'", translator="'+coverTranslator+'")]',
+  ].concat(lines)
 
   // Run through all lines one by one
   yield Promise.each(lines, line => {

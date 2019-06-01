@@ -10,6 +10,8 @@ class Chapter {
   constructor(opts) {
     this.pageOpts = opts.pageOpts
     this.outputPath = opts.outputPath
+    this.pageNumOffset = opts.pageNumOffset
+    this.coverArt = opts.coverArt
 
     this.background = null
     this.characters = [ null, null ]
@@ -55,7 +57,7 @@ class Chapter {
           break;
 
         case StoryPart.TYPE_QUOTE:
-          console.log('\nQUOTE', part.line.substring(0,30))
+          console.log('\nQUOTE', part.line)
           yield self.addToPage(part)
           break;
 
@@ -102,6 +104,14 @@ class Chapter {
           self.characters = part.characters
           self.focusedCharacter = part.focusedCharacter
           break;
+        
+        case StoryPart.TYPE_COVER:
+          console.log('\nCOVER', part.line)
+          yield currentPage.updateBackground(part.image_name)
+          yield self.addToPage(part)
+          yield currentPage.finish()
+          self.newPage(0)
+          break;
 
         default:
       }
@@ -136,7 +146,7 @@ class Chapter {
   newPage(foregroundY) {
     // console.log('Chapter.newPage()', this.background, this.characters, this.focusedCharacter)
     // Get zero-padded next page number as string for the filename output path
-    let pageNumString = Utils.zeroPadPageNum(  this.getCurrentPageNum() + 1 )
+    let pageNumString = Utils.zeroPadPageNum( this.pageNumOffset + this.getCurrentPageNum() + 1 )
     // File output path for this specific new page
     let pageOutputPath = path.join(this.outputPath, pageNumString + '.png')
     // console.log('pageNumString', pageNumString)
