@@ -1,5 +1,59 @@
 {
   "constants": {
+    "GT-1": {
+      "zh": "GT-1: 日正当中",
+      "en": "GT-1: High Noon",
+      "jp": "",
+      "kr": ""
+    },
+    "GT-2": {
+      "zh": "GT-2: 察言观色",
+      "en": "GT-2: Observations",
+      "jp": "",
+      "kr": ""
+    },
+    "GT-3": {
+      "zh": "GT-3: 意外之旅",
+      "en": "GT-3: Unexpected Journey",
+      "jp": "",
+      "kr": ""
+    },
+    "GT-4": {
+      "zh": "GT-4: 污点证人",
+      "en": "GT-4: Tainted Witness",
+      "jp": "",
+      "kr": ""
+    },
+    "GT-5": {
+      "zh": "GT-5: 各抒己见",
+      "en": "GT-5: Differing Opinion",
+      "jp": "",
+      "kr": ""
+    },
+    "GT-6": {
+      "zh": "GT-6: 黄金三角",
+      "en": "GT-6: ",
+      "jp": "",
+      "kr": ""
+    },
+    "GT-EX-1": {
+      "zh": "GT-EX-1: 大地惊雷",
+      "en": "GT-EX-1: ",
+      "jp": "",
+      "kr": ""
+    },
+    "GT-EX-2": {
+      "zh": "GT-EX-2: 老无所依",
+      "en": "GT-EX-2: ",
+      "jp": "",
+      "kr": ""
+    },
+    "GT-EX-3": {
+      "zh": "GT-EX-3: 与狼共舞",
+      "en": "GT-EX-3: ",
+      "jp": "",
+      "kr": ""
+    },
     "DISCLAIMER": {
       "zh": "所有产品名称、标识、人物形象、故事和所有其他资产都是Hypergryph网络技术有限公司的财产。该漫画系列是为了粉丝翻译和展示的目的，不会进行商业发行",
       "en": "All product names, logos, character images, story, and all other assets are properties of Hypergryph Network Technology Co.Ltd. The comic series are meant for fan translation and presentation purposes, and will not be distributed commercially.",
