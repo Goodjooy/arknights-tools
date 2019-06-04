@@ -1,181 +1,187 @@
 {
   "messages": [
     {
-      "zh": "第三关（前）",
-      "en": "",
+      "zh": "意外之旅",
+      "en": "Unexpected Journey",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "通向宝藏的旅途总归不会一帆风顺，麻烦总是接踵而至，而其中大部分明显不懂得何为公平决斗。",
+      "en": "The journey toward the treasure will not always be smooth sailing, trouble follows afoot, and most obvious are those who don’t understand the concept of what a fair fight is. ",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "咕......",
-      "en": "",
+      "en": "*Gulp*",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "你，你把我的同伴，全干掉了？",
-      "en": "",
+      "en": "You, you taken out my teammates?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "......别、别过来啊！求你了！",
-      "en": "",
+      "en": "... Don’t, Don’t come any closer! I beg you!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "我、我把金币都给你！我把我的武器给你！你要什么我都——",
-      "en": "",
+      "en": "I, I’ll give you all the gold I have! I’ll even give you my weapon! I'll give you anything --",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "那个女孩子在哪里。",
-      "en": "",
+      "en": "Where is the girl?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "你在说什么——？？",
-      "en": "",
+      "en": "Who are you talking about--?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "别靠近我——！",
-      "en": "",
+      "en": "Don’t come any closer--!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "你这个——",
-      "en": "",
+      "en": "You --",
       "jp": "",
       "kr": ""
     },
     {
-      "zh": "晴 \\ 能见度 14公里",
-      "en": "",
+      "zh": "晴 。 能见度 14公里",
+      "en": "Sunny \\ Visibility 14 km",
       "jp": "",
       "kr": ""
     },
     {
       "zh": "塔拉特山前森林",
-      "en": "",
+      "en": "Mount Talat Forest",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "......这块石头......",
-      "en": "",
+      "en": "....These rocks....",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "你们两个，跟上。小心脚底，跟着我的脚印走，手也不要到处摸。",
-      "en": "",
+      "en": "You two, keep up. Watch your step. Follow my footsteps. And don't touch anything.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "这片森林，恐怕比你我想的还要危险。",
-      "en": "",
+      "en": "I'm afraid this forest is more dangerous than you or I think.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "石头上是不是刻了什么？",
-      "en": "",
+      "en": "Was there something carved on that rock?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "这是赏金猎人留下的符号。不按照符号指示行动的话，就会踩进设置好的陷阱。",
-      "en": "",
+      "en": "Those were bounty hunter's symbols. If you don't follow them, you'll step into a trap.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "我们要直接躲开陷阱吗？",
-      "en": "",
+      "en": "Should we just avoid the trap?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "看我的吧。",
-      "en": "",
+      "en": "Watch me.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "——绊索加捕兽夹，老土的小把戏。",
-      "en": "",
+      "en": "Tripwire trap, what an old trick.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "树丛恰好挡住了摆锤，一旦贸然前进就会被击中。",
-      "en": "",
+      "en": "The bush covered the pendulum, if you rush forward recklessly you’ll get hit.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "那里，可萝尔小姐，小心点。",
-      "en": "",
+      "en": "Stop there, Miss Carol. Be careful.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "嗯，嗯？",
-      "en": "",
+      "en": "Huh?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "你再向前走一步，大概就会掉进满是尖头的深坑了。",
-      "en": "",
+      "en": "If you take one more step forward, you will probably fall into a pit full of sharp pointy ends.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "啊......！",
-      "en": "",
+      "en": "Ah...!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不愧是赏金猎人，很擅长这些嘛。",
-      "en": "",
+      "en": "As expected of a bounty hunter, you’re really good at this.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "那当然，毕竟我以前——",
-      "en": "",
+      "en": "Of course I am, after all, I used to --",
       "jp": "",
       "kr": ""
     },
@@ -186,98 +192,98 @@
     {
       "ch": "大鲍勃",
       "zh": "想要绕开陷阱是不现实的。果然，还是要全部解除掉才方便行动。",
-      "en": "",
+      "en": "It’s not realistic to try to avoid the trap. Sure enough, it’s more convenient to disarm them all.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "毕竟他们最危险的道路，马上就会变成对我们来说最安全的那种了。",
-      "en": "",
+      "en": "Their most dangerous path, after all, will soon be the safest one for us.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "走吧。",
-      "en": "",
+      "en": "Let's go.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "停下。",
-      "en": "",
+      "en": "Stop.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "不太对劲。",
-      "en": "",
+      "en": "Something is not right.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "是陷阱？",
-      "en": "",
+      "en": "Is it a trap?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "不。",
-      "en": "",
+      "en": "No.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "沾血的符号......",
-      "en": "",
+      "en": "A bloody symbol.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "“——怪物？”",
-      "en": "",
+      "en": "“--Monster?”",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "这什么意思？这么多年来，我都没见过有人用过这个符号。",
-      "en": "",
+      "en": "What does that mean? I haven't seen anyone use this symbol in all these years.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "......啊。",
-      "en": "",
+      "en": "...Ah.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不会吧......",
-      "en": "",
+      "en": "Could it be...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "怪物，怪物！",
-      "en": "",
+      "en": "Monster, Monster!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "别，别过来！",
-      "en": "",
+      "en": "D-don’t come near me!",
       "jp": "",
       "kr": ""
     },
@@ -296,210 +302,210 @@
     {
       "ch": "格拉尼",
       "zh": "真的是你啊！",
-      "en": "",
+      "en": "It really is you!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "斯卡蒂，你是斯卡蒂，没错吧？",
-      "en": "",
+      "en": "Skadi, you're Skadi right?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "——原来滴水村村长是和你在一起？",
-      "en": "",
+      "en": "--So the village chief was with you all along.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "啊，什么？你认识可萝尔.....",
-      "en": "",
+      "en": "Huh? What? You know Carol --?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "把她交给我。现在。",
-      "en": "",
+      "en": "Give her to me. Now.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "格拉尼，她的眼神，不太对啊。",
-      "en": "",
+      "en": "Grani, something doesn’t seem right about her eyes.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "那可不行，我们应该谈——",
-      "en": "",
+      "en": "No, we should talk first --",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "欸，欸？",
-      "en": "",
+      "en": "E-Eh?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "呜啊！",
-      "en": "",
+      "en": "Uwah!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "这只是警告。",
-      "en": "",
+      "en": "This is just a warning.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不，可萝尔小姐，鲍勃大叔.....",
-      "en": "",
+      "en": "Don’t, miss Carol, uncle Bob.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "她，她怎么会攻击你？",
-      "en": "",
+      "en": "She -- how could she attack you?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "你不是认识她，她怎么就——",
-      "en": "",
+      "en": "Didn’t you say you know her. How could she --",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "别问那么多了！快，快跑！",
-      "en": "",
+      "en": "Don't ask so many questions now! Come on, run!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "哈，哈，她还在追着我们跑吗？？",
-      "en": "",
+      "en": "Ha, ha, is she still chasing after us??",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "格，格拉尼，我，我跑不动了......",
-      "en": "",
+      "en": "G-Grani, I-I can’t run anymore.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "那个女人，真的，是怪物吧？她甚至，都没在喘气啊！",
-      "en": "",
+      "en": "That woman really is a freak! She's not even short on breath!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "为什么我要陪你们浪费时间？",
-      "en": "",
+      "en": "Why am I wasting my time with you?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "她真的要砍了我，啊不，她要拿可萝尔小姐干什么！",
-      "en": "",
+      "en": "She's really gonna cut me down. Oh no, what is she intending to do with miss Carol!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "她的眼睛，好，好红.....格，格拉尼！",
-      "en": "",
+      "en": "Her eyes are, very, red... G-Grani!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不行了不行了，为什么还会有这种事啊！",
-      "en": "",
+      "en": "I can't I can't, how could this happen?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "停！",
-      "en": "",
+      "en": "Stop!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "埋伏！",
-      "en": "",
+      "en": "Ambush!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "“上尉”",
       "zh": "就是现在！放箭！",
-      "en": "",
+      "en": "Now! Unleash the arrows!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "嗯？",
-      "en": "",
+      "en": "Hmm?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "“上尉”",
       "zh": "就是她，那个突袭我们的灾星！快，快射她！",
-      "en": "",
+      "en": "That's her, the walking disaster who attacked us! Come on! Shoot her!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "你们给我住手！",
-      "en": "",
+      "en": "You stop it!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "“上尉”",
       "zh": "你小子想干什么？",
-      "en": "",
+      "en": "What do you want, kid?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "虽然不知道为什么她要追我，但好歹也是我的同事！",
-      "en": "",
+      "en": "While I don’t know why she chased me, but she is still my colleague!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "“上尉”",
       "zh": "为、为什么要坏我的事！混账——！",
-      "en": "",
+      "en": "W-why are you ruining everything! You bastard--!",
       "jp": "",
       "kr": ""
     },
@@ -510,28 +516,28 @@
     {
       "ch": "格拉尼",
       "zh": "趁现在，快点走！",
-      "en": "",
+      "en": "Now, move!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "——向东突围！走！",
-      "en": "",
+      "en": "Let’s break to the east! Go!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "别想逃出去！受死吧怪物！！",
-      "en": "",
+      "en": "Don't even think about getting out! Die monster!!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "（阿戈尔语）滚开!",
-      "en": "",
+      "en": "(Aegir language) Get out of my way!",
       "jp": "",
       "kr": ""
     }

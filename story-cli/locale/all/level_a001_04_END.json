@@ -1,57 +1,51 @@
 {
   "messages": [
     {
-      "zh": "第四关（后）",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
       "ch": "大鲍勃",
       "zh": "咕......",
-      "en": "",
+      "en": "*Grunt*",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "整合运动",
       "zh": "这家伙是个瘸的！先解决掉他！",
-      "en": "",
+      "en": "This guy leg is limp! Finish him off first!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "格拉尼！继续耗下去，我们全得交代在这儿了！",
-      "en": "",
+      "en": "Grani! We can’t keep this up for much longer! We’ll all go down if we stay here!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "就算你这么说！",
-      "en": "",
+      "en": "Even if you say it!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "快！带着可萝尔走！",
-      "en": "",
+      "en": "Quick! Take Carol and run!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "我受了伤，会拖慢你们的速度！",
-      "en": "",
+      "en": "My injury will only slow you down!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "之后我会找办法和你们会合的！走！",
-      "en": "",
+      "en": "I'll find a way to join you later! Go!",
       "jp": "",
       "kr": ""
     },
@@ -62,224 +56,224 @@
     {
       "ch": "格拉尼",
       "zh": "说好了，记得要来拿你的那份！",
-      "en": "",
+      "en": "As agreed! Remember to come and get your share!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "......哼。",
-      "en": "",
+      "en": "...*Grunts*",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "快走！",
-      "en": "",
+      "en": "Go now!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "整合运动",
       "zh": "她们跑了！",
-      "en": "",
+      "en": "They're getting away!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "你们的敌人是我！",
-      "en": "",
+      "en": "Your enemy is me!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "......交战的声音似乎平息下来了。",
-      "en": "",
+      "en": "...The fighting seemed to have die down.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "但是抱歉，可萝尔，现在我们没有休息的时间，还得快走才行。",
-      "en": "",
+      "en": "But I'm sorry, Carol. We don't have time to rest right now. We have to go.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "没事......那个，鲍勃先生他，不知道怎么样了......！",
-      "en": "",
+      "en": "Alright... But what about Mr. Bob, we don't know... !",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "可能，要给他一些时间吧。",
-      "en": "",
+      "en": "Maybe we should give him some time.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "给他些时间......？你是说——",
-      "en": "",
+      "en": "Give him some time... ? Are you saying we--",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "啊！",
-      "en": "",
+      "en": "Ah!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "可萝尔！你没事吧？",
-      "en": "",
+      "en": "Carol! are you alright?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "抱歉，被这个树根绊了一下......",
-      "en": "",
+      "en": "I'm sorry, I tripped over a tree root.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "来，拉住我的手。",
-      "en": "",
+      "en": "Here, take my hand.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "......谢谢你。",
-      "en": "",
+      "en": "... Thank you.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "能走吗？",
-      "en": "",
+      "en": "Can you walk?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "......没事的，只是擦伤。就像你说的，我们还是别停下脚步比较好......",
-      "en": "",
+      "en": "..It's okay. It's just a scratch. Like you said, we better move...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "只要穿过森林就是莫拉蒂山的山脚下了，我们得进入半山腰第二个洞窟。",
-      "en": "",
+      "en": "Past the forest is the foot of mount Moratti. We will have to enter the second cave located halfway up the mountain.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "只能从洞口进去吗？",
-      "en": "",
+      "en": "Our only way is through that cave?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "是的，里面还有很多岔路和暗道，不过我知道该怎么走。宝藏就在洞窟的最深处。",
-      "en": "",
+      "en": "Yes, the cave has many branches and tunnels but I know the correct path. The treasure is at the deepest part of the cave.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "嗯。这样的话......",
-      "en": "",
+      "en": "Well. In that case...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "咦？好、好可怕的声音......远处有什么爆炸了吗......？",
-      "en": "",
+      "en": "Eh? W-what terrible sound... Was that an explosion in the distance... ?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "仔细听，还有呐喊和惨叫。",
-      "en": "",
+      "en": "Listen carefully, I hear shouts and screams.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "是战斗的声音。还没结束。",
-      "en": "",
+      "en": "It's the sound of battle. The battle is not over yet.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "......可萝尔，你害怕吗？",
-      "en": "",
+      "en": ".... Carol, are you scared?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "我——",
-      "en": "",
+      "en": "I --",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "......我很害怕。",
-      "en": "",
+      "en": ".... I’m afraid.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "但是，为了让我的村子平静下来，让我们的土地重归安宁......我也有一定要去做的事。",
-      "en": "",
+      "en": "But in order to calm my village and bring peace to our land... This is what I must do.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "是吗……",
-      "en": "",
+      "en": "I see...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "你真坚强啊。",
-      "en": "",
+      "en": "You are really strong.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "欸？",
-      "en": "",
+      "en": "Huh?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "没事。事不宜迟，我们继续前进吧。",
-      "en": "",
+      "en": "It’s nothing. Let's move on without further ado.",
       "jp": "",
       "kr": ""
     }

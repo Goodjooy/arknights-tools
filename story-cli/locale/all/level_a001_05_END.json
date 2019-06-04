@@ -1,71 +1,65 @@
 {
   "messages": [
     {
-      "zh": "第五关（后）",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
       "ch": "格拉尼",
       "zh": "呃......！",
-      "en": "",
+      "en": "Urgh!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "你，你这个碍事的混蛋小子！",
-      "en": "",
+      "en": "You, you’re in the way bastard!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "都、都头破血流成这样了，还敢在这挡我们的好事——！",
-      "en": "",
+      "en": "You are already wounded! You still dare to stop us from--!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "区区这点伤，连日常训练都算不上！",
-      "en": "",
+      "en": "A little wound like this can’t even match up to my routine training!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "咕——",
-      "en": "",
+      "en": "Argh--",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "还剩多少人？",
-      "en": "",
+      "en": "How many of them are left?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "算了，记不清了，反正已经全都挡住——",
-      "en": "",
+      "en": "Nevermind, I can’t recall all their numbers. What matters is that I stopped them all anyway---",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "发、发生地震了？",
-      "en": "",
+      "en": "A-an earthquake?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "欸？那边的山岩怎么崩塌了？",
-      "en": "",
+      "en": "Huh? How did that section of rock over there collapsed?",
       "jp": "",
       "kr": ""
     },
@@ -76,42 +70,42 @@
     {
       "ch": "格拉尼",
       "zh": "骗人的吧？她居然打破了那么厚的石壁？",
-      "en": "",
+      "en": "Are you kidding me? She broke through such a thick wall of rock?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "入口被打开了一条新的路！赶紧进去！",
-      "en": "",
+      "en": "There’s a new path opened! Get in there!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "糟了，那些人一定会从斯卡蒂打出的通道涌进来！",
-      "en": "",
+      "en": "Oh, no, those people must be flooding in through the hole that Skadi made!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "得赶快去帮可——",
-      "en": "",
+      "en": "Got to go help--",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "站住。",
-      "en": "",
+      "en": "Stop where you are.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "斯卡蒂——",
-      "en": "",
+      "en": "Skadi——",
       "jp": "",
       "kr": ""
     },
@@ -122,91 +116,91 @@
     {
       "ch": "格拉尼",
       "zh": "居然能直接破坏山体，强行穿过去，罗德岛的异闻果然是真的啊。",
-      "en": "",
+      "en": "You truly can destroy a mountain and force your way through. So the stories from Rhode Island were true.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "那个女孩在哪？",
-      "en": "",
+      "en": "Where is the girl?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "我不能告诉你。",
-      "en": "",
+      "en": "I can’t tell you.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "盯上那东西的人不止我一个。",
-      "en": "",
+      "en": "I'm not the only one after that thing.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "难道我非要把你好好教训一顿，你才不会碍事？",
-      "en": "",
+      "en": "Must I first teach you a lesson so that you won’t get in the way?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "你突然就要带走可萝尔，我怎么也不能轻易把她交给你啊！",
-      "en": "",
+      "en": "You’re the one who all of a sudden wants to take Carol away. I couldn’t exactly just give her to you that easily!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "你要......阻碍罗德岛的任务？",
-      "en": "",
+      "en": "Are you intending to... hinder my mission?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "你也没告诉我罗德岛给你分配了什么任务啊！",
-      "en": "",
+      "en": "You didn't even told me what kind of mission you were assigned to!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "除非你......",
-      "en": "",
+      "en": "Unless you were...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不要突然攻击同伴啊！",
-      "en": "",
+      "en": "Don’t suddenly attack your fellow partner!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "谁是你的同伴？",
-      "en": "",
+      "en": "I have never said I was your partner.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "我最后一次问，带我去见那个女孩。",
-      "en": "",
+      "en": "I will ask one last time, where is the girl?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "只要她还是我的委托人，我就绝不会这么做。",
-      "en": "",
+      "en": "As long as she is my client, I'll never say anything to you.",
       "jp": "",
       "kr": ""
     },
@@ -217,28 +211,28 @@
     {
       "ch": "格拉尼",
       "zh": "呜呃......",
-      "en": "",
+      "en": "Urgh!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "可恶，她只是用剑随手碰了下我的枪而已啊，可我的胳膊好像要断了......",
-      "en": "",
+      "en": "Damn, I can feel my arms almost break just from one hit of her sword.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "只凭你这种能力，你真的认为自己保护得了她？",
-      "en": "",
+      "en": "Did you really think you can protect her with your strength alone?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "能不能做到，和去不去做是两回事！",
-      "en": "",
+      "en": "Whether I could do it, and whether I just do it are two different things!",
       "jp": "",
       "kr": ""
     },
@@ -249,133 +243,133 @@
     {
       "ch": "格拉尼",
       "zh": "嗯？先等等！",
-      "en": "",
+      "en": "Huh? Wait a second!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "小心！",
-      "en": "",
+      "en": "Look out!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "嘁，这下总该打中了吧！",
-      "en": "",
+      "en": "Hmph. That should be a hit.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "好像有，不对，好像没有！那家伙还好好的！",
-      "en": "",
+      "en": "I think so. Wait no it’s not! That woman is still fine!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "......又来？",
-      "en": "",
+      "en": "...Again?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "呃......！",
-      "en": "",
+      "en": "Ergh!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "灾、灾星！把上尉打伤的，就是你吧！你今天就别想从这里——",
-      "en": "",
+      "en": "W-walking disaster! You will pay for attacking the captain! Don’t think you will pass through here today--",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "好机会，趁现在！",
-      "en": "",
+      "en": "Now is a good opportunity!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "你也别想过去！",
-      "en": "",
+      "en": "You can’t pass either!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "你们还是想想办法先拦住她吧！",
-      "en": "",
+      "en": "You should be thinking now of how to stop her!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "——咦？",
-      "en": "",
+      "en": "——What?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "什么情况？！那个小个子，从我们头上跳过去了？",
-      "en": "",
+      "en": "What's going on? ! That little guy jumped over our heads?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "斯卡蒂，我先走一步了！",
-      "en": "",
+      "en": "Skadi, I'm leaving first!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "你......",
-      "en": "",
+      "en": "You...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不好意思！等你想清楚，准备告诉我事实了，我再考虑可萝尔的事！",
-      "en": "",
+      "en": "I’m sorry! When you finally figured it out and ready to tell me the truth, I'll think about your request on Carol!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "站住，你去哪里！",
-      "en": "",
+      "en": "Stop! Where are you going!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "抱歉！",
-      "en": "",
+      "en": "I'm really sorry!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "你怎么就放她走了！",
-      "en": "",
+      "en": "Why did you just let her go!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "她跑得太快了，我们追不上她啊！",
-      "en": "",
+      "en": "She ran so fast that we couldn’t catch up to her!",
       "jp": "",
       "kr": ""
     },
@@ -386,42 +380,42 @@
     {
       "ch": "粗暴的赏金猎人",
       "zh": "没事，这不是还有一个吗。",
-      "en": "",
+      "en": "It's okay. There's another one here.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "你个子那么大，不可能也跳过去吧？",
-      "en": "",
+      "en": "You're too big to jump over us. Right?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "你们完蛋了。",
-      "en": "",
+      "en": "You are all done for.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "岔路好多啊。这里就是可萝尔所说的墓穴了吧。",
-      "en": "",
+      "en": "So many branching paths. I guess this is the tomb that Carol spoke about.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "呃，赏金猎人——",
-      "en": "",
+      "en": "A bounty hunter——",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "咕......救命......",
-      "en": "",
+      "en": "*Groan*.... Help me...",
       "jp": "",
       "kr": ""
     },
@@ -432,42 +426,42 @@
     {
       "ch": "格拉尼",
       "zh": "太惨了吧？",
-      "en": "",
+      "en": "What a poor bounty hunter.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "就像是被罗德岛号来回碾压过好几遍......",
-      "en": "",
+      "en": "It seems like he was run over by Rhode Island (Rhode Island is a land vehicle moving base) several times.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "可、可斯卡蒂不是还没进来吗？",
-      "en": "",
+      "en": "But Skadi hasn't been here before?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "这个看上去像炸开的洞是？",
-      "en": "",
+      "en": "This looks like a blast hole?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "也就是说——",
-      "en": "",
+      "en": "Then that means————",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "你已经想明白了。",
-      "en": "",
+      "en": "It seems you made your choice.",
       "jp": "",
       "kr": ""
     },
@@ -478,14 +472,14 @@
     {
       "ch": "？？？",
       "zh": "我哪里演得不好吗？",
-      "en": "",
+      "en": "What part of my acting stood out?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "你果然是————",
-      "en": "",
+      "en": "I knew it, it was you————",
       "jp": "",
       "kr": ""
     }

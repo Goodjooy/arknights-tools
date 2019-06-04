@@ -1,36 +1,60 @@
 {
   "messages": [
     {
-      "zh": "第二关（前）",
-      "en": "",
+      "zh": "各种各样的人和事汇聚在村子里的酒吧，",
+      "en": "All kinds of people and information gathered in the village bar.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "他们各怀鬼胎，权衡利弊，",
+      "en": "Each person with their own goals to pursuit, after weighing the pros and cons.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "最后在杯酒间作出决定，",
+      "en": "In the end, between alcohol drinks they form teams to hunt.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "成群结队的出发，刚到门口就大打出手，",
+      "en": "With a team formed, they may even fight with one another before walking out of the bar.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "这就是赏金猎人。",
+      "en": "That is what it means to be a bounty hunter.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "拦住她！",
-      "en": "",
+      "en": "Stop her!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "拦什么啊！你没看到他们全部被干掉了吗！",
-      "en": "",
+      "en": "What do you mean stop her?! Don't you see how they all got killed?!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "你上啊，你平常不是很厉害吗！",
-      "en": "",
+      "en": "Face her then! You always boast how strong you are!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "我，我不行！这家伙可是那个灾星啊！",
-      "en": "",
+      "en": "I-I can't! This person is a walking disaster!",
       "jp": "",
       "kr": ""
     },
@@ -41,385 +65,385 @@
     {
       "ch": "？？？",
       "zh": "（阿戈尔语）拦住我的都会死。",
-      "en": "",
+      "en": "(Aegir language) Death to those who stop me.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "（阿戈尔语）向我挥出武器的都粉身碎骨。",
-      "en": "",
+      "en": "(Aegir language) Those who brandished their weapons at me shall be crushed into pieces.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "（阿戈尔语）想死的，向前踏出一步。",
-      "en": "",
+      "en": "(Aegir language) If you seek death, take a step forward.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "“上尉”",
       "zh": "你究竟在说些什么？",
-      "en": "",
+      "en": "What on earth are you talking about?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "唉？上尉？上尉怎么消失了？",
-      "en": "",
+      "en": "Eh? Captain? How did he disappear?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "上尉掉进河里了......！",
-      "en": "",
+      "en": "H-he fell into the river..!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "这、这家伙一击就......",
-      "en": "",
+      "en": "This person… w-with only one blow...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "啊，忘了他们听不懂......算了。",
-      "en": "",
+      "en": "Ah, I forgot they don't understand... Nevermind.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "说，她在哪？",
-      "en": "",
+      "en": "Speak, where is she?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "她？你指谁？别问我，我什么不知道啊！",
-      "en": "",
+      "en": "She? Who? Don't ask me, I don’t know anything!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "呃啊！！！",
-      "en": "",
+      "en": "Argh!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "给、给我记住！",
-      "en": "",
+      "en": "W-we shall remember this!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "喂！你们别急着撤退！先把上尉捞起来！",
-      "en": "",
+      "en": "Hey! All of you stop retreating! We still need to get the captain out of the water!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "那、那个人是——",
-      "en": "",
+      "en": "T-that person is!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "你认识她？",
-      "en": "",
+      "en": "Do… you know her?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "她可能是我的同事......",
-      "en": "",
+      "en": "She could be a colleague of mine...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不过，接到这项委托的应该是我啊？我可是好不容易才从陨星姐手里抢到这项任务的......",
-      "en": "",
+      "en": "But I should be the only one who accepted this request? I had a hard time getting this job from Meteorite.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "唔唔唔......也许她是为别的任务来的？",
-      "en": "",
+      "en": "W-well.... maybe she's here on a different mission?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "唔，赏金猎人好像溃退了？",
-      "en": "",
+      "en": "Hey… The bounty hunters seem to be retreating?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "事不宜迟，我们趁现在溜出村子吧。",
-      "en": "",
+      "en": "Without further ado, let's slip out of the village now.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "既然还有其他干员在这个村子里，说不定事情会好办一些。",
-      "en": "",
+      "en": "Perhaps things will be easier now that there are other operator in the village.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "可萝尔，楼梯很黑，你要扶紧我。",
-      "en": "",
+      "en": "Carol, the stairs are very dark. Please support me.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "那个，你要和她联络一下吗？",
-      "en": "",
+      "en": "Do you want to get in touch with her?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "嗯，如果可能的话，我想——",
-      "en": "",
+      "en": "Yes, if possible, I'd like to --",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
       "zh": "噗啊————————！",
-      "en": "",
+      "en": "Urgh!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "哇——————！",
-      "en": "",
+      "en": "W-what!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "我、我的鼻子！这个门怎么自己弹开——",
-      "en": "",
+      "en": "My, my nose! How did this door opened by itself --",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "欸？这里怎么会蹲着人——",
-      "en": "",
+      "en": "Huh… Why there are people squatting here.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "格拉尼！发生了什——",
-      "en": "",
+      "en": "Grani! What happen--",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "你们全都给我闭嘴！嘘！",
-      "en": "",
+      "en": "Shh! All of you shut up!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "......嘘？",
-      "en": "",
+      "en": ".... Shh?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "唉，你们这些干农活的肯定什么都不懂。没看到那个灾星吗！",
-      "en": "",
+      "en": "You farm workers don't know anything. Didn't you see that walking disaster!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "无论是哪个赏金猎人，都不会想和她碰面的！敢在她面前昂首挺胸的，多半是没见过她毁掉整座城市的样子吧！",
-      "en": "",
+      "en": "No bounty hunter wants to encounter her! Those daring enough to hold their heads high in front of her probably haven’t seen her destroy a whole city!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "这么夸张吗！那不是靠她一个人就可以把————",
-      "en": "",
+      "en": "Is that an exaggeration? Does that mean she alone can--",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "声音轻点，别被她发现！",
-      "en": "",
+      "en": "Keep your voices down. Don't let her see you!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "唔，可是我还要找她——",
-      "en": "",
+      "en": "Well, b-but I still have to find her and...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "说了小声点！",
-      "en": "",
+      "en": "I said keep your voice down!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "好，好......",
-      "en": "",
+      "en": "O-okay...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "感觉比罗德岛里流传的版本更离谱......",
-      "en": "",
+      "en": "It feels even more outrageous than the version circulating in Rhode Island.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "那、那个怪物走了吗？",
-      "en": "",
+      "en": "Is t-the monster gone?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "好，好像走了......！",
-      "en": "",
+      "en": "I think she left...!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "总算走了，啊哟，吓死我了。",
-      "en": "",
+      "en": "Finally, she scared the living crap out of me.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "是，是啊。",
-      "en": "",
+      "en": "Y-yeah.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "原以为这点活我们一队就能搞定，怎么会碰上这种麻烦事。那种家伙都来了的话，得做好准备才能——",
-      "en": "",
+      "en": "We thought we could handle this job with only one team. How could we get into such trouble? If even that walking disaster showed up, we need to be more prepared --",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "——等等！",
-      "en": "",
+      "en": "Wait a minute!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "啊。",
-      "en": "",
+      "en": "Ah.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "哈！拿枪的小子！居然在这里碰见你！",
-      "en": "",
+      "en": "Haha, guy with the lance, I can't believe I ran into you here.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "还有村长！你真是送上门来了！",
-      "en": "",
+      "en": "And the village chief right in my doorstep!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "格拉尼，你难道是故意......",
-      "en": "",
+      "en": "Grani, did you intend for this to happen?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不，只是他们态度那么好，我也没回过神来啊！",
-      "en": "",
+      "en": "No, it's just that their attitude was so good that I didn't come to my senses sooner!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "废话少说，把村长交给我们！不然我手里这把刀保证就让你吃足苦头！",
-      "en": "",
+      "en": "Stop talking nonsense and hand over the village chief! Or this sword in my hand will make you suffer!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "就用那把断刀？",
-      "en": "",
+      "en": "That broken sword?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "......这，这小子什么时候出的枪？！",
-      "en": "",
+      "en": "...W-when did this guy used his lance?!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "用暗号召集附近还在的人！",
-      "en": "",
+      "en": "Call everyone who is still around with the code!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "粗暴的赏金猎人",
       "zh": "还有，去把之前用来毁掉农田的虫子都赶出来，让她们尝尝厉害！",
-      "en": "",
+      "en": "Also, bring me all the bugs that were used to destroy the fields, let them have a taste it!",
       "jp": "",
       "kr": ""
     }

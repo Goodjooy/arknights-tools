@@ -1,253 +1,247 @@
 {
   "messages": [
     {
-      "zh": "第三关（后）",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
       "ch": "格拉尼",
       "zh": "干掉了！",
-      "en": "",
+      "en": "Taken out!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "大鲍勃，你没事——",
-      "en": "",
+      "en": "Big Bob, are you okay--",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "咦？你腿上的伤口......",
-      "en": "",
+      "en": "Huh, that injury on your leg.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "那里有漏网的！可能是瓦各斯克团的人！",
-      "en": "",
+      "en": "There's a leak! Could be Gdańsk people.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "这个我自己能处理！先击退敌人！",
-      "en": "",
+      "en": "I can handle this myself! Defeat the enemy first!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "好。",
-      "en": "",
+      "en": "Alright.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "嗯？",
-      "en": "",
+      "en": "Huh?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "这小个子......",
-      "en": "",
+      "en": "This little guy...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "喂，喂，你那是什么眼神？",
-      "en": "",
+      "en": "Hey, hey, what’s with that look in your eye?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "别，别过来，不怕我在你身上开个窟窿吗！",
-      "en": "",
+      "en": "Don't! Don't come any closer! Do you want me to blow a hole in you!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "赏金猎人",
       "zh": "唉？",
-      "en": "",
+      "en": "What?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "你都解决了？",
-      "en": "",
+      "en": "Have you taken care of them?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "是。",
-      "en": "",
+      "en": "Yeah.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "真厉害。这么小的个子，本事倒是不小。",
-      "en": "",
+      "en": "Pretty good. Not bad for someone your size.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "坐在那里别动。我来给你包扎。",
-      "en": "",
+      "en": "Sit still. Let me dress you up.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "不碍事，让我起来。",
-      "en": "",
+      "en": "It's not a problem. Let me get up.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不行。",
-      "en": "",
+      "en": "No.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "你看到了吧。",
-      "en": "",
+      "en": "So you seen it.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "嗯。",
-      "en": "",
+      "en": "Yes.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "你看到我身上的结晶了吧？你难道想被感染吗？！",
-      "en": "",
+      "en": "You see the crystals on me? Do you want to get infected as well?!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "感染者，本来就是我们罗德岛的救助对象。",
-      "en": "",
+      "en": "Infected people are always the target of help for Rhode Island.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "罗德岛......",
-      "en": "",
+      "en": "Rhode Island...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "罗德岛是......？不是维多利亚......？",
-      "en": "",
+      "en": "Rhode Island...? I thought you were Victoria...?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "以前是维多利亚的骑警，不过现在，是罗德岛的干员。",
-      "en": "",
+      "en": "Used to be Victoria mounted police, but now I work for Rhode Island.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "离我远一点，小姑娘。我是感染者。",
-      "en": "",
+      "en": "Stay away from me, young lady. I'm infected.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "我......",
-      "en": "",
+      "en": "I...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "可萝尔小姐，这可能有点血腥，你稍稍回避下吧？",
-      "en": "",
+      "en": "Miss Carol, this might get a little gory. Can you excuse yourself for a little while?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "好啦，已经止血了。",
-      "en": "",
+      "en": "Okay, the bleeding has stopped.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "你经常这么做吗，给感染者？",
-      "en": "",
+      "en": "Do you do this frequently... for infected people?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "你就不怕......",
-      "en": "",
+      "en": "Aren’t you scare of...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "我的同事有很多都感染了矿石病，但我分不出究竟有谁感染了。",
-      "en": "",
+      "en": "Many of my colleagues are infected with the disease, but I can't tell who has it.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "啊？",
-      "en": "",
+      "en": "Huh?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "也就洗澡的时候能看得出来吧？",
-      "en": "",
+      "en": "It's only obvious when they take a shower?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "——哼。",
-      "en": "",
+      "en": "Hmm...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "多谢你了，没戒心的小个子。",
-      "en": "",
+      "en": "Thank you very much. Trustful girl.",
       "jp": "",
       "kr": ""
     },
