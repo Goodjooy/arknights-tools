@@ -59,6 +59,7 @@ class Utils {
       let breakName = name.split('#')[0].split('_')
       breakName.pop()
       breakName.push(spriteIndex)
+      console.log('fixCharName', name, breakName.join('_'));
       return breakName.join('_')
     }
     return name

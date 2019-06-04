@@ -36,7 +36,7 @@ class StoryPart {
   static get REGEX_IMAGE() { return /\[Image\(image="(.*?)"(.*)\)\]/g }
   static get REGEX_CHOICE() { return /\[Decision\(options="(.*?)"/g }
   static get REGEX_SOUND() { return /\[PlaySound\(key="(.*?)"/g }
-  static get REGEX_COVER() { return /\[Cover\(image="(.*?)", title="(.*?)", translator="(.*?)"\)\]/g }
+  static get REGEX_COVER() { return /\[Cover\(image="(.*?)", title="(.*?)", translator="(.*?)", qc="(.*?)"\)\]/g }
 
   constructor(line, translations) {
     this.line = line
@@ -226,6 +226,9 @@ class StoryPart {
           pageCtx.shadowColor = "#000000"
           pageCtx.shadowBlur = 5
 
+          // Derived config
+          let fontWeightStr = config.fontWeight ? config.fontWeight + ' ' : ''
+
           // Draw speaker name
           let speakerCanvas = new Canvas.createCanvas(bothBubbleWidth, speakerBubbleHeight)
           let speakerContext = speakerCanvas.getContext('2d');
@@ -233,7 +236,7 @@ class StoryPart {
           speakerCanvas.height = speakerBubbleHeight
           speakerContext.fillStyle = '#ffcc00'
           CanvasTextWrapper(speakerCanvas, speakerName, {
-            font: 'bold  ' + pageOpts.part.speakerSize + 'px ' + (config.font || 'Chinese'),
+            font: fontWeightStr + pageOpts.part.speakerSize + 'px ' + (config.font || 'Chinese'),
             textAlign: self.focusedCharacter == 1 ? 'left' : 'right',
             verticalAlign: 'middle',
             sizeToFill: false,
@@ -252,7 +255,7 @@ class StoryPart {
           textContext.fillStyle = '#ffffff'
           if (config.wrapWidth) quoteMessage = wrap(quoteMessage, { width: config.wrapWidth, indent:0, cut: true }) // wrap fullwidth characters
           CanvasTextWrapper(textCanvas, quoteMessage, {
-            font:  pageOpts.part.messageSize + 'px ' + (config.font || 'Chinese') + ', bold',
+            font:  fontWeightStr + pageOpts.part.messageSize + 'px ' + (config.font || 'Chinese'),
             textAlign: self.focusedCharacter == 1 ? 'left' : 'right',
             lineHeight: (pageOpts.part.messageSize + 3) + 'px',
             lineBreak: 'auto',
@@ -289,8 +292,9 @@ class StoryPart {
     // Extract data from the line
     let coverData = StoryPart.REGEX_COVER.exec(this.line)
     this.image_name = coverData[1]
-    let title = coverData[2]
+    let title = this.translations.constant(coverData[2])
     let translator = coverData[3]
+    let qc = coverData[4]
     // Create rendering process
     let self = this
     self.height = 0
@@ -313,7 +317,7 @@ class StoryPart {
           let logoY = containerY + containerPadding
           let seriesY = logoY + pageOpts.part.logoSize + logoSpacing
           let titleY = seriesY + pageOpts.part.seriesSize + seriesSpacing
-          let containerHeight = pageOpts.part.seriesSize + pageOpts.part.logoSize + pageOpts.part.titleSize + logoSpacing + seriesSpacing + (containerPadding * 2) - 10
+          let containerHeight = pageOpts.part.seriesSize + pageOpts.part.logoSize + pageOpts.part.titleSize + logoSpacing + seriesSpacing + (containerPadding * 2)
           let creditsY = containerY + containerHeight + 50
           let creditsWidth = pageOpts.width - (pageOpts.padding.left + pageOpts.padding.right)
 
@@ -361,9 +365,10 @@ class StoryPart {
           let creditsCanvas = new Canvas.createCanvas(creditsWidth, 200)
           let creditsContext = creditsCanvas.getContext('2d');
           creditsContext.fillStyle = '#ffffff'
-          let creditsText = 'Comic Generator by: dragonjet\n\n'
-          creditsText += 'Chapter Translator: ' + translator + '\n\n'
-          creditsText += 'English Community: https://discord.gg/vJvAP8X'
+          let creditsText = 'Presentation: dragonjet\n\n'
+          if (translator)  creditsText += 'Chapter Translator: ' + translator + '\n\n'
+          if (qc) creditsText += 'Quality Control: ' + qc + '\n\n'
+          creditsText += 'With assistance from contributors on English community:\nhttps://discord.gg/vJvAP8X'
           CanvasTextWrapper(creditsCanvas, creditsText, {
             font:  pageOpts.part.creditsSize + 'px Arial',
             textAlign: 'left',

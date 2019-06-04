@@ -158,7 +158,7 @@ class Chapter {
       foregroundY: foregroundY ? foregroundY : null
     })
     // Set page carry overs
-    if (this.background) newPage.setBackground(this.background)
+    if (this.background) newPage.setBackground(this.background, true)
     // if (this.characters) newPage.setCharacters(this.characters)
     // if (this.focusedCharacter) newPage.setFocusedCharacter(this.focusedCharacter)
     // Add new page to list

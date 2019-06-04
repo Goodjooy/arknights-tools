@@ -29,7 +29,8 @@ Promise.coroutine(function*(){
   let pageNumOffset = parseInt(options.page, 10) || 2
   let coverArt = options.cover || config.chapter.cover
   let coverTitle = options.title || ''
-  let coverTranslator = options.tl || config.chapter.translator
+  let coverTranslator = options.tl || ''
+  let coverQC = options.qc || ''
   let sourcePath = path.resolve(path.join(__dirname, 'input', fileTitle + '.txt'))
   let destPath = path.resolve(path.join(__dirname, 'output', targetLanguage, fileTitle))
   yield new Promise(done => { rmrf(destPath, done) })
@@ -54,7 +55,7 @@ Promise.coroutine(function*(){
 
   // let originalLines = lines.slice(0,30)
   lines = [
-    '[Cover(image="'+coverArt+'", title="'+coverTitle+'", translator="'+coverTranslator+'")]',
+    '[Cover(image="'+coverArt+'", title="'+coverTitle+'", translator="'+coverTranslator+'", qc="'+coverQC+'")]',
   ].concat(lines)
 
   // Run through all lines one by one
