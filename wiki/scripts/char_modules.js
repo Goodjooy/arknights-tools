@@ -141,7 +141,7 @@ Promise.all([
       '最高速度': 'mobility',
       '爬坡能力': 'gradeability',
       '制动效能': 'brakes',
-      '通过性': 'passiveness',
+      '通过性': 'trafficability',
       '续航': 'endurance',
       '结构稳定性': 'stability',
       '角长度': 'angularlength',
