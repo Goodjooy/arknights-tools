@@ -1,647 +1,643 @@
 {
   "messages": [
     {
-      "zh": "第六关（后）",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
       "ch": "大鲍勃",
       "zh": "哈，果然......",
-      "en": "",
+      "en": "Ah, sure enough...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "整合运动",
       "zh": "鲍勃！你，你在流血！",
-      "en": "",
+      "en": "Bob! Y-you’re bleeding!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "整合运动",
       "zh": "我们不能在这里白白流血！我还能——",
-      "en": "",
+      "en": "We can't bleed in vain here! I can also -",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "够了。",
-      "en": "",
+      "en": "Enough.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "整合运动",
       "zh": "鲍勃......",
-      "en": "",
+      "en": "Bob...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "我们流过的血还少吗？",
-      "en": "",
+      "en": "Haven't we shed enough blood today?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "还要打吗？",
-      "en": "",
+      "en": "Do you still want to fight?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "哼，我们为了活命而战斗，为什么要在战斗中送命？",
-      "en": "",
+      "en": "Hpmh. We fight to stay alive. Why should we continue to waste our life in a losing battle?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "我不够强，我认命了。",
-      "en": "",
+      "en": "I'm not strong enough. I accept my fate.",
       "jp": "",
       "kr": ""
     },
     {
-      "ch": "格拉尼",
-      "zh": "......"
-    },
-    {
       "ch": "可萝尔",
       "zh": "鲍勃，抱歉......没有这箱宝藏，我们的村子就完了。",
-      "en": "",
+      "en": "Bob, I'm sorry... Without this treasure, my village will be done for.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "离那箱东西远一点。把钥匙交给我。",
-      "en": "",
+      "en": "Stay away from the chest. And give me the key.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "呜，呜?",
-      "en": "",
+      "en": "*Whimpers*",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "在你用那把钥匙打开宝箱的一瞬间，你会没命的。",
-      "en": "",
+      "en": "The moment you open the chest with that key, you will lose your life.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "我————",
-      "en": "",
+      "en": "I————",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
-      "zh": "这可是家里历代流传的贵重物品，父亲说我们最重要的职责之一就是要负责保管这枚钥匙——",
-      "en": "",
+      "zh": "这可是家里历代流传的贵重物品，",
+      "en": "This valuable key handed down for generation is important to my family.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "可萝尔",
+      "zh": "父亲说我们最重要的职责之一就是要负责保管这枚钥匙——",
+      "en": "My father always said that one of our most important duties was to take care of the key",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
-      "zh": "——钥匙使用后会割破你的手，吸走你的血。如果不是你这样的库兰塔人的血的话，钥匙就毁了。",
-      "en": "",
+      "zh": "——钥匙使用后会割破你的手，吸走你的血。",
+      "en": "——That key will cut your hand and suck on your blood.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "斯卡蒂",
+      "zh": "如果不是你这样的库兰塔人的血的话，钥匙就毁了。",
+      "en": "If you are not of Kuranta blood, the key will destroy itself.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "把钥匙给我！",
-      "en": "",
+      "en": "Give me the key!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "不行，这是村子里的所有人的未来。",
-      "en": "",
+      "en": "No, this is the future of everyone in my village.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "唔。",
-      "en": "",
+      "en": "Oh.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "这些都是真的吗，斯卡蒂？",
-      "en": "",
+      "en": "Is that all true, Skadi?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "藏匿了骑士宝藏的人，为了守护骑士的秘密，不择手段。只有——",
-      "en": "",
+      "en": "The people who hid the knights treasure are ruthless. They will do anything to protect the knights secret. Only——",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "——只有来自卡西米尔的血脉才能破除所有的阻碍。",
-      "en": "",
+      "en": "——only the blood of Kazimierz can overcome all obstacles.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "“只有来自不惧牺牲，无畏艰险的卡西米尔血脉才能破除所有的阻碍。”",
-      "en": "",
+      "en": "“Only Kazimierz blood that is unafraid of sacrifice and danger can overcome all obstacles.”",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "虽然也知道可能会要付出一些代价，但没有想到结果会是这样。",
-      "en": "",
+      "en": "I knew there would be a price to pay, but I didn't expect it to be so heavy.",
       "jp": "",
       "kr": ""
     },
     {
-      "ch": "格拉尼",
-      "zh": "......"
-    },
-    {
       "ch": "可萝尔",
       "zh": "为了村子的所有人，我也早就做好觉悟了。我必须打开这个箱子！",
-      "en": "",
+      "en": "For the sake of everyone in my village, I have made up my mind on this. I must open this chest!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "格拉尼，如果我出了意外，请把这些宝藏换来的钱带回给村民们！",
-      "en": "",
+      "en": "Grani, if anything happens to me, please bring the treasure back to the villagers!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "对不起，父亲......",
-      "en": "",
+      "en": "I’m sorry, father...",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "等等！",
-      "en": "",
+      "en": "Wait!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "诶？",
-      "en": "",
+      "en": "Yes?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "可萝尔。能把钥匙给我看看吗？",
-      "en": "",
+      "en": "Carol. Can I see the key, please?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "我......好。",
-      "en": "",
+      "en": "I... Okay.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "这个钥匙也不是很大不是吗？",
-      "en": "",
+      "en": "Is it a big key?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "虽然它不大，但是它吸走的血液量，一般人恐怕撑不住——",
-      "en": "",
+      "en": "It's not big, but it can suck up a lot of blood than an average person could possibly withstand——",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "所以，这个怪物钥匙，吸走的血是有限的吧？",
-      "en": "",
+      "en": "So there's a limit to the amount of blood this strange key can draw, right?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "可萝尔。",
-      "en": "",
+      "en": "Carol.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "我来打开箱子。",
-      "en": "",
+      "en": "I shall open the box.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "！！",
-      "en": "",
+      "en": "!!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "咦？可是这样一来，格拉尼你就。",
-      "en": "",
+      "en": "Eh? But this way, Grani you will ——",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "没关系。",
-      "en": "",
+      "en": "It’s alright.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "抱歉了，可萝尔。",
-      "en": "",
+      "en": "I’m sorry, Carol.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "斯卡蒂啊，如果我晕过去了的话，请接住我的身体哦。",
-      "en": "",
+      "en": "Skadi, if I faint, please catch me.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "格拉尼你快住手！别这么做！",
-      "en": "",
+      "en": "Grani stop! Don't do it!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "唔！！！",
-      "en": "",
+      "en": "Urgh!!!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "格拉尼！",
-      "en": "",
+      "en": "Grani!!",
       "jp": "",
       "kr": ""
     },
     {
       "zh": "数日后",
-      "en": "",
+      "en": "A few days later",
       "jp": "",
       "kr": ""
     },
     {
-      "zh": "晴 \\ 能见度 12公里",
-      "en": "",
+      "zh": "晴 。 能见度 12公里",
+      "en": "Sunny \\ Visibility 12 km",
       "jp": "",
       "kr": ""
     },
     {
       "zh": "赏金猎人营地外",
-      "en": "",
+      "en": "Outside the bounty hunter camp",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "“上尉”",
       "zh": "......你们是......你们竟然还敢回来！",
-      "en": "",
+      "en": ".... You... How dare you come back!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "“上尉”",
       "zh": "集合！所有人都给我过来！",
-      "en": "",
+      "en": "Gather everyone! Get them all over here!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "真是麻烦，为什么我要来帮忙处理这些赏金猎人呢？",
-      "en": "",
+      "en": "What a nuisance. Why am I here to help you with these bounty hunters?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "没办法，既然你得到了钥匙，就要帮我做这件事情。",
-      "en": "",
+      "en": "It can't be helped, since you've got the key, you owe me one.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "其实之前只要有你在的，也就不用雇佣其他的人来帮助村子了不是吗。",
-      "en": "",
+      "en": "As long as you are here, I don’t need to hire anyone else to protect Carol's village.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "啧。明明不关我的事。",
-      "en": "",
+      "en": "Hmph. It's supposed to be none of my business.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "人数不少。才刚捡回一条命的你，能对付得过来吗？",
-      "en": "",
+      "en": "That's a lot of people. You just got your life back, think you can handle it?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "不是还有你在吗？",
-      "en": "",
+      "en": "Well, I got your help.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "动作快点。我赶着回罗德岛。",
-      "en": "",
+      "en": "Hurry up then. I want to get back to Rhode Island sooner.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "好啊，那么动手吧！",
-      "en": "",
+      "en": "Okay, let’s do it!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "可萝尔还在等我们呢！",
-      "en": "",
+      "en": "Carol is still waiting for us!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "抱歉，最后还是没能帮上忙——",
-      "en": "",
+      "en": "Sorry, I couldn't help you out in the end.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "没关系，村子里的人也害怕感染者......",
-      "en": "",
+      "en": "It’s alright. The villagers are still scared of the infected people.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "这些事情只有我们自己知道就好。",
-      "en": "",
+      "en": "Let’s keep this to ourselves.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "总之,谢谢你们。",
-      "en": "",
+      "en": "Regardless, thank you very much.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "谢谢你和格拉尼做这个决定......",
-      "en": "",
+      "en": "Thank you and Grani for making this decision.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "没关系！",
-      "en": "",
+      "en": "It’s okay!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "斯卡蒂",
       "zh": "所以这个事情终于告一段落了吗，我要走了。",
-      "en": "",
+      "en": "So is this finally over? I'm leaving.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "诶，等等我！",
-      "en": "",
+      "en": "Hey! Wait for me!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "抱歉，可萝尔！我们先回村子吧，村子还有好多事情需要我帮忙......",
-      "en": "",
+      "en": "Sorry Carol! Let's get back to the village first. There's so much I can do for the village!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "可萝尔",
       "zh": "嗯！",
-      "en": "",
+      "en": "Yeah!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "还有，鲍勃大叔，要保重身体！需要治疗的时候，记得来罗德岛！",
-      "en": "",
+      "en": "And, uncle Bob, please take care of yourself! If you ever need treatment, remember to come to Rhode Island!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "小个子，等等！",
-      "en": "",
+      "en": "Little kid, wait!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "大鲍勃",
       "zh": "这枚金币，接好了！",
-      "en": "",
+      "en": "Here's a gold coin. Catch!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "嘿！",
-      "en": "",
+      "en": "Haha! Thanks!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "格拉尼",
       "zh": "我会好好珍惜这份纪念品的！",
-      "en": "",
+      "en": "I will cherish this souvenir!",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "数月后",
-      "en": "",
+      "en": "A few months later.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "【大鲍勃的信件】",
-      "en": "",
+      "en": "Big Bob's letter",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "敬启。",
-      "en": "",
+      "en": "Yours truly,",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "我是鲍勃。",
-      "en": "",
+      "en": "I'm Big Bob.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "我正在哥伦比亚的一处偏僻的庄园里，给你写下这封信。",
-      "en": "",
+      "en": "I am writing this letter to you from a remote estate in Colombia.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "大家都过得很好。感染者的身份还是有些不便，但阳光下的生活，比想象中还要美好。",
-      "en": "",
+      "en": "Everyone is doing well. While the status as an infected people is still a little inconvenient, but life under the sunshine is even better than imagined.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "多亏那个叫可萝尔的小姑娘和格拉尼在修缮完村子后，决定把多余的宝藏都留给我，我才能够顺利给这批弟兄们安居。",
-      "en": "",
+      "en": "Thanks to those little girls, Carol, and Grani, who had been fixing up the village. They had decided to leave the surplus treasure to me, I was finally able to settle down with my companions.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "我们已经可以自给自足了，甚至还打算试种啤酒花。",
-      "en": "",
+      "en": "We are now self-sufficient and are even trying to grow hops.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "这多亏了滴水村的那笔宝藏。",
-      "en": "",
+      "en": "All thanks to that treasure in droplet village.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "那是一个有趣的故事，十分有趣。不是应该潦草地写在信里的故事。",
-      "en": "",
+      "en": "It's an interesting story, a very good one at that. Not the kind of story that should be scrawled in a letter.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "我稍微改变了一点想法。",
-      "en": "",
+      "en": "I changed my mind a little.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "而我知道，你很早就有了自己的想法，整合运动并不是感染者唯一的归宿。",
-      "en": "",
+      "en": "And I know that you have your own thoughts from the start. The fact that the reunion movement is not the only home for the infected.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "你一定可以做出你自己的选择。",
-      "en": "",
+      "en": "You can surely make your own choices.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "我很想念你，希望能在哥伦比亚见到你。",
-      "en": "",
+      "en": "I miss you so much and hope to see you in Colombia soon.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "鲍勃",
-      "en": "",
+      "en": "Bob",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "",
       "zh": "致   泥岩",
-      "en": "",
+      "en": "To Mudstone ",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "？？？",
-      "zh": "......"
-    },
-    {
-      "ch": "？？？",
       "zh": "那真是太好了。",
-      "en": "",
+      "en": "That’s really nice.",
       "jp": "",
       "kr": ""
     }

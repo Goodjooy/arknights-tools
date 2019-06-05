@@ -1,12 +1,6 @@
 {
   "messages": [
     {
-      "zh": "第一关（后）",
-      "en": "",
-      "jp": "",
-      "kr": ""
-    },
-    {
       "ch": "格拉尼",
       "zh": "走廊好黑！而且好挤！",
       "en": "It’s so dark and crowded!",
@@ -141,8 +135,15 @@
     },
     {
       "ch": "可萝尔",
-      "zh": "虽然委托内容是希望有人能来帮我们找到宝藏，但其实我们希望的也只是驱逐那些赏金猎人、让村子恢复安宁。",
-      "en": "While the request did state we were hoping someone would help us find the treasure. What we really want is help in driving out the bounty hunters and restoring peace to the village.",
+      "zh": "虽然委托内容是希望有人能来帮我们找到宝藏，",
+      "en": "While the request did state we were hoping someone would help us find the treasure.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "可萝尔",
+      "zh": "但其实我们希望的也只是驱逐那些赏金猎人、让村子恢复安宁。",
+      "en": "What we really want is help in driving out the bounty hunters and restoring peace to the village.",
       "jp": "",
       "kr": ""
     },
