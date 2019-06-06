@@ -322,7 +322,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "",
+    voiceActor = "大津爱理",
   },
   profile = {
     records = {
@@ -342,12 +342,12 @@ return {
       height = "172cm",
     },
     physical = {
-      strength = "Nice",
-      mobility = "Average",
-      endurance = "Nice",
-      tactic = "Ordinary",
-      skill = "Average",
-      originium = "Nice",
+      strength = "Great",
+      mobility = "Standard",
+      endurance = "Great",
+      tactic = "Below Standard",
+      skill = "Standard",
+      originium = "Great",
     },
     oripathy = {
       infected = "No",

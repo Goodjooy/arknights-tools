@@ -401,12 +401,12 @@ return {
       height = "1歸 #掅3?敎YX畨V 扙諴尙 hw蜷 BaB?禀",
     },
     physical = {
-      strength = "Ordinary",
-      mobility = "Average",
-      endurance = "Ordinary",
+      strength = "Below Standard",
+      mobility = "Standard",
+      endurance = "Below Standard",
       tactic = "Lacking",
-      skill = "Ordinary",
-      originium = "Splendid",
+      skill = "Below Standard",
+      originium = "Prodigy",
     },
     oripathy = {
       infected = "Yes",

@@ -334,7 +334,7 @@ return {
   },
   meta = {
     illustrator = "下野宏铭",
-    voiceActor = "",
+    voiceActor = "下田麻美",
   },
   profile = {
     records = {
@@ -354,12 +354,12 @@ return {
       height = "142cm",
     },
     physical = {
-      strength = "Nice",
-      mobility = "Average",
-      endurance = "Nice",
-      tactic = "Ordinary",
-      skill = "Average",
-      originium = "Average",
+      strength = "Great",
+      mobility = "Standard",
+      endurance = "Great",
+      tactic = "Below Standard",
+      skill = "Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

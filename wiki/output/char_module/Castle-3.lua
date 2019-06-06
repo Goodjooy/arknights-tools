@@ -165,7 +165,7 @@ return {
     physical = {
       strength = "",
       mobility = "23km/h",
-      endurance = "Nice",
+      endurance = "Great",
       tactic = "",
       skill = "",
       originium = "",

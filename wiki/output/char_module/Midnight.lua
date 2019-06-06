@@ -266,7 +266,7 @@ return {
   },
   meta = {
     illustrator = "竜崎いち",
-    voiceActor = "",
+    voiceActor = "佐藤拓也",
   },
   profile = {
     records = {
@@ -286,12 +286,12 @@ return {
       height = "187cm",
     },
     physical = {
-      strength = "Average",
-      mobility = "Average",
-      endurance = "Nice",
-      tactic = "Ordinary",
-      skill = "Average",
-      originium = "Nice",
+      strength = "Standard",
+      mobility = "Standard",
+      endurance = "Great",
+      tactic = "Below Standard",
+      skill = "Standard",
+      originium = "Great",
     },
     oripathy = {
       infected = "Yes",
@@ -321,8 +321,6 @@ return {
     cn024 = "好的！",
     cn025 = "剑啊，划破这月夜吧！",
     cn026 = "渴饮鲜血吧！",
-    cn027 = "-",
-    cn028 = "-",
     cn029 = "果然不能小瞧你啊，Dr.{@nickname}，您今天的闪耀程度已经快超越我了。",
     cn030 = "这世间对于我来说只有一件事办不到，那就是——“不完美”。",
     cn031 = "这样也不坏，总之先庆祝一下吧！",

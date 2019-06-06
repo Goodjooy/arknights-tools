@@ -347,12 +347,12 @@ return {
       height = "156cm",
     },
     physical = {
-      strength = "Ordinary",
-      mobility = "Ordinary",
-      endurance = "Ordinary",
-      tactic = "Nice",
-      skill = "Nice",
-      originium = "Nice",
+      strength = "Below Standard",
+      mobility = "Below Standard",
+      endurance = "Below Standard",
+      tactic = "Great",
+      skill = "Great",
+      originium = "Great",
     },
     oripathy = {
       infected = "No",

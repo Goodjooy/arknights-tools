@@ -398,9 +398,9 @@ return {
       strength = "Lacking",
       mobility = "Lacking",
       endurance = "Lacking",
-      tactic = "Ordinary",
-      skill = "Ordinary",
-      originium = "Splendid",
+      tactic = "Below Standard",
+      skill = "Below Standard",
+      originium = "Prodigy",
     },
     oripathy = {
       infected = "Yes",

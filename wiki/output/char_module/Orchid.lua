@@ -254,7 +254,7 @@ return {
   },
   meta = {
     illustrator = "Skade",
-    voiceActor = "",
+    voiceActor = "大津爱理",
   },
   profile = {
     records = {
@@ -274,12 +274,12 @@ return {
       height = "164cm",
     },
     physical = {
-      strength = "Ordinary",
-      mobility = "Ordinary",
-      endurance = "Ordinary",
-      tactic = "Average",
-      skill = "Average",
-      originium = "Nice",
+      strength = "Below Standard",
+      mobility = "Below Standard",
+      endurance = "Below Standard",
+      tactic = "Standard",
+      skill = "Standard",
+      originium = "Great",
     },
     oripathy = {
       infected = "Yes",

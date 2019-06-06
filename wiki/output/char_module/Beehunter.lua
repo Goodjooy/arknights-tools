@@ -354,15 +354,15 @@ return {
       height = "163cm",
     },
     physical = {
-      strength = "Nice",
-      mobility = "Average",
-      endurance = "Average",
-      tactic = "Ordinary",
-      skill = "Average",
-      originium = "Ordinary",
+      strength = "Great",
+      mobility = "Standard",
+      endurance = "Standard",
+      tactic = "Below Standard",
+      skill = "Standard",
+      originium = "Below Standard",
     },
     oripathy = {
-      infected = "No",
+      infected = "Yes",
       diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。<br><br>【体细胞与源石融合率】1%<br>患者目前病程控制稳定。<br><br>【血液源石结晶密度】0.14u/L<br>患有轻度矿石病感染，目前无扩散倾向。",
     }
   },

@@ -10,7 +10,7 @@ return {
   team = 15,
   position = "Melee",
   roles = { "DPS", "Survival" },
-  faction = "",
+  faction = "Abyssal Hunters",
   stars = 6,
   class = "Guard",
   initialStats = {
@@ -384,10 +384,10 @@ return {
     },
     physical = {
       strength = "■■",
-      mobility = "Average",
-      endurance = "Splendid",
-      tactic = "Average",
-      skill = "Nice",
+      mobility = "Standard",
+      endurance = "Prodigy",
+      tactic = "Standard",
+      skill = "Great",
       originium = "Lacking",
     },
     oripathy = {

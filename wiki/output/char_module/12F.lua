@@ -113,7 +113,7 @@ return {
   },
   meta = {
     illustrator = "海猫络合物",
-    voiceActor = "",
+    voiceActor = "佐藤拓也",
   },
   profile = {
     records = {
@@ -133,12 +133,12 @@ return {
       height = "181cm",
     },
     physical = {
-      strength = "Ordinary",
-      mobility = "Nice",
-      endurance = "Ordinary",
-      tactic = "Ordinary",
-      skill = "Ordinary",
-      originium = "Average",
+      strength = "Below Standard",
+      mobility = "Great",
+      endurance = "Below Standard",
+      tactic = "Below Standard",
+      skill = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "No",

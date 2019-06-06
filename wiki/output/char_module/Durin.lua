@@ -127,11 +127,11 @@ return {
     },
     physical = {
       strength = "Lacking",
-      mobility = "Ordinary",
+      mobility = "Below Standard",
       endurance = "Lacking",
-      tactic = "Ordinary",
-      skill = "Ordinary",
-      originium = "Nice",
+      tactic = "Below Standard",
+      skill = "Below Standard",
+      originium = "Great",
     },
     oripathy = {
       infected = "No",
