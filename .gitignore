@@ -62,5 +62,4 @@ typings/
 
 # Custom
 .vscode
-githubtoken.txt
-crack/**/*
+dev/
