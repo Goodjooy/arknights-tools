@@ -3,13 +3,13 @@
     {
       "zh": "博士",
       "en": "Doctor",
-      "jp": "Doctor",
+      "jp": "ドクター",
       "kr": "Doctor"
     },
     {
       "zh": "模糊的声音",
       "en": "Blurry voice",
-      "jp": "不明瞭な声",
+      "jp": "こもった声",
       "kr": ""
     },
     {
@@ -27,7 +27,7 @@
     {
       "zh": "罗德岛干员",
       "en": "Rhodes Island operator",
-      "jp": "ロドスアイランド隊員",
+      "jp": "ロドス隊員",
       "kr": ""
     },
     {
@@ -39,13 +39,13 @@
     {
       "zh": "陈",
       "en": "Ch’en",
-      "jp": "",
+      "jp": "チェン",
       "kr": ""
     },
     {
       "zh": "魏彦吾",
       "en": "Wei Yenwu",
-      "jp": "",
+      "jp": "ウェイ",
       "kr": ""
     },
     {
@@ -57,7 +57,7 @@
     {
       "zh": "罗德岛精英干员",
       "en": "Rhodes Island elite operator",
-      "jp": "エリート隊員",
+      "jp": "精鋭隊員",
       "kr": ""
     },
     {
@@ -81,91 +81,91 @@
     {
       "zh": "广播",
       "en": "Broadcast",
-      "jp": "",
+      "jp": "ニュースキャスター",
       "kr": ""
     },
     {
       "zh": "近卫局队员",
       "en": "Guard Bureau member",
-      "jp": "",
+      "jp": "警衛局隊員",
       "kr": ""
     },
     {
       "zh": "普通人",
       "en": "Ordinary people",
-      "jp": "",
+      "jp": "一般人",
       "kr": ""
     },
     {
       "zh": "感染者",
       "en": "Infected",
-      "jp": "",
+      "jp": "感染者",
       "kr": ""
     },
     {
       "zh": "凯尔希",
       "en": "Kal’tsit",
-      "jp": "",
+      "jp": "ケルシー",
       "kr": ""
     },
     {
       "zh": "小孩们",
       "en": "Children",
-      "jp": "",
+      "jp": "子供",
       "kr": ""
     },
     {
       "zh": "米莎",
       "en": "Misha",
-      "jp": "",
+      "jp": "ミーシャ",
       "kr": ""
     },
     {
       "zh": "暴民",
       "en": "Mobster",
-      "jp": "",
+      "jp": "暴徒",
       "kr": ""
     },
     {
       "zh": "小孩",
       "en": "Child",
-      "jp": "",
+      "jp": "子供たち",
       "kr": ""
     },
     {
       "zh": "芙兰卡",
       "en": "Franka",
-      "jp": "",
+      "jp": "フランカ",
       "kr": ""
     },
     {
       "zh": "雷蛇",
       "en": "Liskarm",
-      "jp": "",
+      "jp": "リスカム",
       "kr": ""
     },
     {
       "zh": "能天使",
       "en": "Exusiai",
-      "jp": "",
+      "jp": "エクシア",
       "kr": ""
     },
     {
       "zh": "德克萨斯",
       "en": "Texas",
-      "jp": "",
+      "jp": "テキサス",
       "kr": ""
     },
     {
       "zh": "整合运动",
       "en": "Reunion Movement",
-      "jp": "レユニオン・ムーヴメント",
+      "jp": "レユニオンムーブメント",
       "kr": ""
     },
     {
       "zh": "碎骨",
       "en": "Bone Breaker",
-      "jp": "",
+      "jp": "ボーンブレイカー",
       "kr": ""
     },
     {
@@ -177,7 +177,7 @@
     {
       "zh": "干员们",
       "en": "Operators",
-      "jp": "",
+      "jp": "隊員",
       "kr": ""
     },
     {
@@ -189,49 +189,49 @@
     {
       "zh": "星熊",
       "en": "Hoshiguma",
-      "jp": "",
+      "jp": "星熊",
       "kr": ""
     },
     {
       "zh": "陨星",
       "en": "Meteorite",
-      "jp": "",
+      "jp": "メテオリーテ",
       "kr": ""
     },
     {
       "zh": "霜叶",
       "en": "Frostleaf",
-      "jp": "",
+      "jp": "フロストリーフ",
       "kr": ""
     },
     {
       "zh": "杰西卡",
       "en": "Jessica",
-      "jp": "",
+      "jp": "ジェシカ",
       "kr": ""
     },
     {
       "zh": "芙兰卡&能天使",
       "en": "Franka&Exusiai",
-      "jp": "",
+      "jp": "フランカ・エクシア",
       "kr": ""
     },
     {
       "zh": "孩童",
       "en": "Kid",
-      "jp": "",
+      "jp": "子供",
       "kr": ""
     },
     {
       "zh": "小女孩",
       "en": "Little Girl",
-      "jp": "",
+      "jp": "女の子",
       "kr": ""
     },
     {
       "zh": "另一个少女的声音",
       "en": "Another girl’s voice",
-      "jp": "",
+      "jp": "もう一人の少女の声",
       "kr": ""
     },
     {
@@ -243,7 +243,7 @@
     {
       "zh": "霜星",
       "en": "Froststar",
-      "jp": "",
+      "jp": "フロストスター",
       "kr": ""
     },
     {
@@ -279,73 +279,73 @@
     {
       "zh": "可萝尔",
       "en": "Carol",
-      "jp": "",
+      "jp": "キャロル",
       "kr": ""
     },
     {
       "zh": "格拉尼",
       "en": "Grani",
-      "jp": "",
+      "jp": "グラニ",
       "kr": ""
     },
     {
       "zh": "村民",
       "en": "Villager",
-      "jp": "",
+      "jp": "村人",
       "kr": ""
     },
     {
       "zh": "粗暴的赏金猎人",
       "en": "Rough Bounty Hunter",
-      "jp": "",
+      "jp": "気が強い賞金稼ぎ",
       "kr": ""
     },
     {
       "zh": "赏金猎人",
       "en": "Bounty Hunter",
-      "jp": "",
+      "jp": "賞金稼ぎ",
       "kr": ""
     },
     {
       "zh": "幽灵鲨",
       "en": "Specter",
-      "jp": "",
+      "jp": "スペクター",
       "kr": ""
     },
     {
       "zh": "斯卡蒂",
       "en": "Skadi",
-      "jp": "",
+      "jp": "スカジ",
       "kr": ""
     },
     {
       "zh": "大鲍勃",
       "en": "Big Bob",
-      "jp": "",
+      "jp": "ビッグボブ",
       "kr": ""
     },
     {
       "zh": "上尉",
       "en": "Captain",
-      "jp": "",
+      "jp": "大尉",
       "kr": ""
     },
     {
       "zh": "“上尉”",
-      "en": "Captain",
-      "jp": "",
+      "en": "“Captain”",
+      "jp": "“大尉”",
       "kr": ""
     },
     {
       "zh": "整合运动A",
       "en": "Reunion Member A",
-      "jp": "",
+      "jp": "レユニオンメンバーA",
       "kr": ""
     },
     {
       "zh": "整合运动B",
       "en": "Reunion Member B",
-      "jp": "",
+      "jp": "レユニオンメンバーB",
       "kr": ""
     }
   ]
