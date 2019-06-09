@@ -399,7 +399,7 @@
     {
       "ch": "斯卡蒂",
       "zh": "动作快点。我赶着回罗德岛。",
-      "en": "Hurry up then. I want to get back to Rhode Island sooner.",
+      "en": "Hurry up then. I want to get back to Rhodes Island sooner.",
       "jp": "",
       "kr": ""
     },
@@ -490,7 +490,7 @@
     {
       "ch": "格拉尼",
       "zh": "还有，鲍勃大叔，要保重身体！需要治疗的时候，记得来罗德岛！",
-      "en": "And, uncle Bob, please take care of yourself! If you ever need treatment, remember to come to Rhode Island!",
+      "en": "And, uncle Bob, please take care of yourself! If you ever need treatment, remember to come to Rhodes Island!",
       "jp": "",
       "kr": ""
     },
@@ -566,8 +566,15 @@
     },
     {
       "ch": "",
-      "zh": "多亏那个叫可萝尔的小姑娘和格拉尼在修缮完村子后，决定把多余的宝藏都留给我，我才能够顺利给这批弟兄们安居。",
-      "en": "Thanks to those little girls, Carol, and Grani, who had been fixing up the village. They had decided to leave the surplus treasure to me, I was finally able to settle down with my companions.",
+      "zh": "多亏那个叫可萝尔的小姑娘和格拉尼在修缮完村子后，",
+      "en": "Thanks to those little girls, Carol, and Grani, who had been fixing up the village.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "",
+      "zh": "决定把多余的宝藏都留给我，我才能够顺利给这批弟兄们安居。",
+      "en": "They had decided to leave the surplus treasure to me, I was finally able to settle down with my companions.",
       "jp": "",
       "kr": ""
     },
