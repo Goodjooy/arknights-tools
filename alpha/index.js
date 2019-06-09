@@ -54,7 +54,8 @@ const Image = Canvas.Image
     let alphaData = alphaImgData.data
     let mainData = mainImgData.data
     mainData.forEach((v, i) => {
-      if (i % 4 == 3) mainData[i] = alphaData[i-1]
+      // if (i % 4 == 3) mainData[i] = alphaData[i-1]
+      if (i % 4 == 3) mainData[i] = alphaData[i-3] * (alphaData[i-1]/100)
     })
     mainCtx.putImageData(mainImgData, 0, 0)
 
