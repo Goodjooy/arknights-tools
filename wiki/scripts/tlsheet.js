@@ -1,0 +1,148 @@
+(async function() {
+  const config = require('config')
+  const { google } = require('googleapis')
+  const readFile = require('../helpers/readFile')
+  const saveFile = require('../helpers/saveFile')
+
+  const GOOGLE_API_KEY = config.GOOGLE_API_KEY
+  const sheetsAPI = google.sheets({ version: 'v4', auth: GOOGLE_API_KEY })
+
+  let character_table = JSON.parse((await readFile('input/excel/character_table.json')).contents)
+  let skill_table = JSON.parse((await readFile('input/excel/skill_table.json')).contents)
+
+  // Load data from live google sheets
+  const loadSheetData = (sheetDocId, cellRange) => {
+    return new Promise((resolve, reject) => {
+      // Request data from google sheets
+      sheetsAPI.spreadsheets.values.get({
+        spreadsheetId: sheetDocId,
+        range: cellRange,
+      }, (err, response) => {
+        if (err) return reject(err)
+        resolve(response.data.values)
+      })
+    })
+  }
+
+  // Handle special names in CSV
+  const specialNames = name => {
+    return {
+      'ГУМ (Gum)': 'ГУМ',
+      'Истина (Istina)': 'Истина',
+      'зима (Zima)': 'зима',
+    }[name] || name
+  }
+
+  // Index characters by name
+  let characters = {}
+  Object.keys(character_table).forEach(charKey => {
+    let baseChar = character_table[charKey]
+    baseChar.charKey = charKey
+    characters[baseChar.appellation] = baseChar
+  })
+
+  // Vars
+  let currentChar
+
+  // -------------------------------
+  // SKILLS
+  // -------------------------------
+  currentChar = null
+  let inputSkills = []
+  let outputSkills = {}
+  let currentSkill = null
+  let skillIndex = 0
+  // Load data
+  for(const sheetName of [ 'Vanguard', 'Guard', 'Defender', 'Specialist', 'Sniper', 'Caster', 'Medic', 'Supporter' ]) {
+    let cellRange = sheetName + '!A2:E'
+    let sheetData = await loadSheetData('12KYk7mjsm6h_9wtkZMpXN-4e3YcmHlGGHVEZngmmFiw', cellRange)
+    console.log('Skills', sheetName, sheetData.length + ' rows')
+    inputSkills = inputSkills.concat(sheetData)
+  }
+  // Process records
+  inputSkills.forEach(row => {
+    if (row[0] && specialNames(row[0]) != currentChar) skillIndex = -1
+    if (row[0]) currentChar = specialNames(row[0])
+    if (row[2] && row[2] != currentSkill) skillIndex++
+    if (row[2]) currentSkill = row[2]
+    let baseChar = characters[currentChar]
+    let charKey = baseChar.charKey
+    if (!outputSkills[charKey]) outputSkills[charKey] = {}
+    let skillLevel = parseInt(row[3]) < 10 ? '0'+row[3] : row[3]
+    let skillDesc = row[4]
+    let skillKey = baseChar.skills[skillIndex].skillId
+    let baseSkill = skill_table[skillKey]
+    if (!outputSkills[charKey][skillKey]) outputSkills[charKey][skillKey] = {}
+    outputSkills[charKey][skillKey][skillLevel] = skillDesc
+      // .replace(/\{\{(.*?)\}:(.*?)\}/gi, '<<$1>>')
+      // .replace(/(\+|\-){1}\{(.*?)\}/gi, '$1<<$2>>')
+  })
+  // Sort levels
+  Object.keys(outputSkills).forEach(charKey => {
+    Object.keys(outputSkills[charKey]).forEach(skillKey => {
+      outputSkills[charKey][skillKey] = Object.keys(outputSkills[charKey][skillKey]).sort().map(levelKey => {
+        return outputSkills[charKey][skillKey][levelKey]
+      })
+    })
+  })
+  // Save output
+  await saveFile({ destFile: 'input/tl/skills.json', destBody: JSON.stringify(outputSkills, ' ', 2) })
+  console.log('[OUTPUT] input/tl/skills.json')
+
+
+  // -------------------------------
+  // TALENTS
+  // -------------------------------
+  currentChar = null
+  let inputTalents = []
+  let outputTalents = {}
+  let currentTalent = null
+  // Load data
+  for(const sheetName of [ 'Vanguard', 'Guard', 'Defender', 'Specialist', 'Sniper', 'Caster', 'Medic', 'Supporter' ]) {
+    let cellRange = sheetName + '!A2:D'
+    let sheetData = await loadSheetData('1cU2vu_sQJFgZ4s7WMrq7Mb14JSjXykj2LSaKP8nsdnQ', cellRange)
+    console.log('Talent', sheetName, sheetData.length + ' rows')
+    inputTalents = inputTalents.concat(sheetData)
+  }
+  // Process records
+  inputTalents.forEach(row => {
+    if (row[0]) {
+      let charName = specialNames(row[0])
+      let baseChar = characters[charName]
+      if (baseChar) {
+        currentChar = baseChar.charKey
+        currentTalent = null
+        if (!outputTalents[currentChar]) outputTalents[currentChar] = []
+      } else {
+        console.log('[ERR] no base char', row[0])
+        currentChar = null
+        currentTalent = null
+      }
+    }
+    if (currentChar) outputTalents[currentChar].push({
+      name: row[2],
+      desc: row[3],
+    })
+  })
+  // Save output
+  await saveFile({ destFile: 'input/tl/talents.json', destBody: JSON.stringify(outputTalents, ' ', 2) })
+  console.log('[OUTPUT] input/tl/talents.json')
+
+
+  // -------------------------------
+  // RIIC
+  // -------------------------------
+  currentChar = null
+  let inputRiic = []
+  let outputRiic = []
+  for(const sheetName of [ 'Vanguard', 'Guard', 'Defender', 'Specialist', 'Sniper', 'Caster', 'Medic', 'Supporter' ]) {
+    let cellRange = sheetName + '!A2:F'
+    let sheetData = await loadSheetData('1ZRuit7r-UGwWq0DvrynsD-tUMD0vdfRU-Mq8pWDmxPE', cellRange)
+    console.log('Riic', sheetName, sheetData.length + ' rows')
+    inputRiic = inputRiic.concat(sheetData)
+  }
+  // Save output
+  await saveFile({ destFile: 'input/tl/riic.json', destBody: JSON.stringify(outputRiic, ' ', 2) })
+  console.log('[OUTPUT] input/tl/riic.json')
+
+})();

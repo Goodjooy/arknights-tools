@@ -19,12 +19,15 @@
     "riicread": "node scripts/riic_reader.js",
     "portraits": "node scripts/rename_portraits.js",
     "items": "node scripts/rename_items.js",
-    "reformat": "node scripts/reformat.js"
+    "reformat": "node scripts/reformat.js",
+    "tlsheet": "node scripts/tlsheet.js"
   },
   "dependencies": {
     "bluebird": "^3.5.3",
+    "config": "^3.1.0",
     "csv": "^5.0.1",
     "glob": "^7.1.3",
+    "googleapis": "^40.0.0",
     "ordinal": "^1.0.3"
   }
 }
