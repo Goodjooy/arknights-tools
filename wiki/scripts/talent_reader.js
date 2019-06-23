@@ -15,12 +15,28 @@ Promise.all([
   /* 08 */ readFile('input/talents/vanguard.csv'),
 ])
 .then(data => {
-  let baseChars = JSON.parse(data[0].contents)
+  let character_table = JSON.parse(data[0].contents)
+  let skill_table = JSON.parse(data[1].contents)
 
-  let output = {}
+  // Handle special names in CSV
+  const specialNames = name => {
+    return {
+      'ГУМ (Gum)': 'ГУМ',
+      'Истина (Istina)': 'Истина',
+      'зима (Zima)': 'зима',
+    }[name] || name
+  }
 
-  let csvContents = [
-    csvParse(data[1].contents),
+  // Index characters by name
+  let characters = {}
+  Object.keys(character_table).forEach(charKey => {
+    let baseChar = character_table[charKey]
+    baseChar.charKey = charKey
+    characters[baseChar.appellation] = baseChar
+  })
+
+  // Compile CSV data
+  let allCsv = [
     csvParse(data[2].contents),
     csvParse(data[3].contents),
     csvParse(data[4].contents),
@@ -28,21 +44,11 @@ Promise.all([
     csvParse(data[6].contents),
     csvParse(data[7].contents),
     csvParse(data[8].contents),
-  ]
+    csvParse(data[9].contents),
+  ].reduce((c, v) => c.concat(v))
 
-  let allCsv = []
-  csvContents.forEach(csvContent => {
-    allCsv = allCsv.concat(csvContent)
-  })
-
-  // Index characters by name
-  let characters = {}
-  Object.keys(baseChars).forEach(charKey => {
-    let baseChar = baseChars[charKey]
-    baseChar.charKey = charKey
-    characters[baseChar.appellation] = baseChar
-  })
-
+  // Process records
+  let output = {}
   let currentChar = null
   let currentTalent = null
   allCsv.forEach(row => {
@@ -50,11 +56,12 @@ Promise.all([
 
     // Row start of a new char, initialize
     if (row[0]) {
-      let baseChar = characters[row[0]]
+      let charName = specialNames(row[0])
+      let baseChar = characters[charName]
       if (baseChar) {
         currentChar = baseChar.charKey
         currentTalent = null
-        output[currentChar] = []
+        if (!output[currentChar]) output[currentChar] = []
       } else {
         console.log('[ERR] no base char', row[0])
         currentChar = null
