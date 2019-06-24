@@ -9,6 +9,7 @@
 
   let character_table = JSON.parse((await readFile('input/excel/character_table.json')).contents)
   let skill_table = JSON.parse((await readFile('input/excel/skill_table.json')).contents)
+  let building_data = JSON.parse((await readFile('input/excel/building_data.json')).contents)
 
   // Load data from live google sheets
   const loadSheetData = (sheetDocId, cellRange) => {
@@ -74,8 +75,6 @@
     let baseSkill = skill_table[skillKey]
     if (!outputSkills[charKey][skillKey]) outputSkills[charKey][skillKey] = {}
     outputSkills[charKey][skillKey][skillLevel] = skillDesc
-      // .replace(/\{\{(.*?)\}:(.*?)\}/gi, '<<$1>>')
-      // .replace(/(\+|\-){1}\{(.*?)\}/gi, '$1<<$2>>')
   })
   // Sort levels
   Object.keys(outputSkills).forEach(charKey => {
@@ -96,7 +95,6 @@
   currentChar = null
   let inputTalents = []
   let outputTalents = {}
-  let currentTalent = null
   // Load data
   for(const sheetName of [ 'Vanguard', 'Guard', 'Defender', 'Specialist', 'Sniper', 'Caster', 'Medic', 'Supporter' ]) {
     let cellRange = sheetName + '!A2:D'
@@ -111,12 +109,9 @@
       let baseChar = characters[charName]
       if (baseChar) {
         currentChar = baseChar.charKey
-        currentTalent = null
         if (!outputTalents[currentChar]) outputTalents[currentChar] = []
       } else {
-        console.log('[ERR] no base char', row[0])
         currentChar = null
-        currentTalent = null
       }
     }
     if (currentChar) outputTalents[currentChar].push({
@@ -134,13 +129,59 @@
   // -------------------------------
   currentChar = null
   let inputRiic = []
-  let outputRiic = []
+  let outputRiic = {}
+  let buffIndex = 0
   for(const sheetName of [ 'Vanguard', 'Guard', 'Defender', 'Specialist', 'Sniper', 'Caster', 'Medic', 'Supporter' ]) {
     let cellRange = sheetName + '!A2:F'
     let sheetData = await loadSheetData('1ZRuit7r-UGwWq0DvrynsD-tUMD0vdfRU-Mq8pWDmxPE', cellRange)
     console.log('Riic', sheetName, sheetData.length + ' rows')
     inputRiic = inputRiic.concat(sheetData)
   }
+  // Process records
+  inputRiic.forEach(row => {
+    let charName = specialNames(row[0])
+    let baseChar = characters[charName]
+    if (row[0]) {
+      if (baseChar) {
+        currentChar = baseChar.charKey
+        outputRiic[currentChar] = []
+        buffIndex = 0
+      } else {
+        currentChar = null
+        buffIndex = 0
+      }
+    }
+    if (currentChar) {
+      let charBuffs = []
+      building_data.chars[currentChar].buffChar.forEach(buffChars => {
+        buffChars.buffData.forEach(buffData => {
+          charBuffs = charBuffs.concat(buffData)
+        })
+      })
+      let charBuff = charBuffs[buffIndex]
+      let baseBuff = building_data.buffs[charBuff.buffId]
+      if (!baseBuff) {
+        console.log('no base buff', currentChar, charBuff[0].buffId)
+        return
+      }
+      let findClue = /<@cc\.kw>(.*?)<\/>/g.exec(baseBuff.description)
+      let clueNum = findClue ? ({
+        '莱茵生命': 1,
+        '企鹅物流': 2,
+        '黑钢国际': 3,
+        '乌萨斯学生自治团': 4,
+        '格拉斯哥帮': 5,
+        '喀兰贸易': 6,
+        '罗德岛制药': 7,
+      }[findClue[1]] || null) : null
+      outputRiic[currentChar].push({
+        name: row[2],
+        desc: row[5],
+        clue: clueNum
+      })
+      buffIndex++
+    }
+  })
   // Save output
   await saveFile({ destFile: 'input/tl/riic.json', destBody: JSON.stringify(outputRiic, ' ', 2) })
   console.log('[OUTPUT] input/tl/riic.json')
