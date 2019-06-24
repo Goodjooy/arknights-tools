@@ -55,8 +55,8 @@
   let skillIndex = 0
   // Load data
   for(const sheetName of [ 'Vanguard', 'Guard', 'Defender', 'Specialist', 'Sniper', 'Caster', 'Medic', 'Supporter' ]) {
-    let cellRange = sheetName + '!A2:E'
-    let sheetData = await loadSheetData('12KYk7mjsm6h_9wtkZMpXN-4e3YcmHlGGHVEZngmmFiw', cellRange)
+    let cellRange = sheetName + '!A2:J'
+    let sheetData = await loadSheetData('10g0Lxx38typ2hOQA4G8M1gk4epkIcmOVnftIYicyp9A', cellRange)
     console.log('Skills', sheetName, sheetData.length + ' rows')
     inputSkills = inputSkills.concat(sheetData)
   }
@@ -64,23 +64,30 @@
   inputSkills.forEach(row => {
     if (row[0] && specialNames(row[0]) != currentChar) skillIndex = -1
     if (row[0]) currentChar = specialNames(row[0])
-    if (row[2] && row[2] != currentSkill) skillIndex++
-    if (row[2]) currentSkill = row[2]
+    if (row[2] && row[2] != currentSkill) {
+      currentSkill = row[2]
+      skillIndex++
+    }
     let baseChar = characters[currentChar]
     let charKey = baseChar.charKey
     if (!outputSkills[charKey]) outputSkills[charKey] = {}
-    let skillLevel = parseInt(row[3]) < 10 ? '0'+row[3] : row[3]
-    let skillDesc = row[4]
-    let skillKey = baseChar.skills[skillIndex].skillId
-    let baseSkill = skill_table[skillKey]
-    if (!outputSkills[charKey][skillKey]) outputSkills[charKey][skillKey] = {}
-    outputSkills[charKey][skillKey][skillLevel] = skillDesc
+    let skillName = row[3]
+    let skillLevel = parseInt(row[4]) < 10 ? '0'+row[4] : row[4]
+    let skillDesc = row[9]
+    let baseSkill = skill_table[currentSkill]
+    if (!outputSkills[charKey][currentSkill]) outputSkills[charKey][currentSkill] = {
+      name: skillName,
+      description: {},
+    }
+    outputSkills[charKey][currentSkill].description[skillLevel] = skillDesc
+      // .replace(/\{\{(.*?)\}:(.*?)\}/gi, '<<$1>>') 
+      // .replace(/(\+|\-){1}\{(.*?)\}/gi, '$1<<$2>>') 
   })
   // Sort levels
   Object.keys(outputSkills).forEach(charKey => {
     Object.keys(outputSkills[charKey]).forEach(skillKey => {
-      outputSkills[charKey][skillKey] = Object.keys(outputSkills[charKey][skillKey]).sort().map(levelKey => {
-        return outputSkills[charKey][skillKey][levelKey]
+      outputSkills[charKey][skillKey].description = Object.keys(outputSkills[charKey][skillKey].description).sort().map(levelKey => {
+        return outputSkills[charKey][skillKey].description[levelKey]
       })
     })
   })
