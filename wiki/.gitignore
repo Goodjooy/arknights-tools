@@ -9,3 +9,4 @@ output/**/*
 !output/interactions.json
 !output/char_module/*
 dev/**/*
+config/**/*
