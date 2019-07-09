@@ -181,6 +181,24 @@
       "desc": "Attack +8%"
     }
   ],
+  "char_281_popka": [
+    {
+      "name": "Max HP & Attack Increase",
+      "desc": "Max HP +3%, Attack +3%"
+    },
+    {
+      "name": "Max HP & Attack Increase",
+      "desc": "Max HP +5% (+2%), Attack +5% (+2%)"
+    },
+    {
+      "name": "Max HP & Attack Increase",
+      "desc": "Max HP +6%, Attack +6%"
+    },
+    {
+      "name": "Max HP & Attack Increase",
+      "desc": "Max HP +8% (+2%), Attack +8% (+2%)"
+    }
+  ],
   "char_283_midn": [
     {
       "name": "Weakpoint Aiming·Beginner",
@@ -287,6 +305,32 @@
       "desc": "When attacking the same target, every attack increases Attack by 6% (+1%), stacking up to 5 layers. Changing targets will reset the effect"
     }
   ],
+  "char_308_swire": [
+    {
+      "name": "Close-range Combat Guidance",
+      "desc": "When deployed, melee operatives in the surrounding 8 tiles gain +3% Attack"
+    },
+    {
+      "name": "Close-range Combat Guidance",
+      "desc": "When deployed, melee operatives in the surrounding 8 tiles gain +5% (+2%) Attack"
+    },
+    {
+      "name": "Close-range Combat Guidance",
+      "desc": "When deployed, melee operatives in the surrounding 8 tiles gain +6% Attack"
+    },
+    {
+      "name": "Close-range Combat Guidance",
+      "desc": "When deployed, melee operatives in the surrounding 8 tiles gain +8% (+2%) Attack"
+    },
+    {
+      "name": "Close-range Combat Guidance",
+      "desc": "When deployed, melee operatives in the surrounding 8 tiles gain +10% Attack"
+    },
+    {
+      "name": "Close-range Combat Guidance",
+      "desc": "When deployed, melee operatives in the surrounding 8 tiles gain +12% (+2%) Attack"
+    }
+  ],
   "char_106_franka": [
     {
       "name": "Thermite Blade",
@@ -383,22 +427,40 @@
       "desc": "Enemies within attack range lose stealth status"
     }
   ],
+  "char_010_chen": [
+    {
+      "name": "Berate",
+      "desc": "When deployed, recover 1 [On attack/When attacked] SP to all allies every 5 seconds"
+    },
+    {
+      "name": "Berate",
+      "desc": "When deployed, recover 1 [On attack/When attacked] SP to all allies every 4 seconds"
+    },
+    {
+      "name": "Swordplay",
+      "desc": "Attack +5%, Defense +5%, Physical evasion +10%"
+    },
+    {
+      "name": "Swordplay",
+      "desc": "Attack +6% (+1%), Defense +6% (+1%), Physical evasion +13% (+3%)"
+    }
+  ],
   "char_263_skadi": [
     {
       "name": "Deep Sea Predators",
-      "desc": "When deployed, all 【Abyssal Hunters】 operatives gain Attack +7%"
+      "desc": "All 【Abyssal Hunters】 operatives gain Attack +7%"
     },
     {
       "name": "Deep Sea Predators",
-      "desc": "When deployed, all 【Abyssal Hunters】 operatives gain Attack +9% (+2%)"
+      "desc": "All 【Abyssal Hunters】 operatives gain Attack +9% (+2%)"
     },
     {
       "name": "Deep Sea Predators",
-      "desc": "When deployed, all 【Abyssal Hunters】 operatives gain Attack +14%"
+      "desc": "All 【Abyssal Hunters】 operatives gain Attack +14%"
     },
     {
       "name": "Deep Sea Predators",
-      "desc": "When deployed, all 【Abyssal Hunters】 operatives gain Attack +16% (+2%)"
+      "desc": "All 【Abyssal Hunters】 operatives gain Attack +16% (+2%)"
     },
     {
       "name": "Swift Deployment",
@@ -429,6 +491,24 @@
     {
       "name": "Defense Increase",
       "desc": "Defense +10%"
+    }
+  ],
+  "char_284_spot": [
+    {
+      "name": "Smoke Device",
+      "desc": "After healing an ally, grant 10% physical evasion to them for 3 seconds"
+    },
+    {
+      "name": "Smoke Device",
+      "desc": "After healing an ally, grant 15% (+5%) physical evasion to them for 3 seconds"
+    },
+    {
+      "name": "Smoke Device",
+      "desc": "After healing an ally, grant 20% physical evasion to them for 3 seconds"
+    },
+    {
+      "name": "Smoke Device",
+      "desc": "After healing an ally, grant 25% (+5%) physical evasion to them for 3 seconds"
     }
   ],
   "char_199_yak": [
@@ -955,6 +1035,16 @@
     {
       "name": "Divination",
       "desc": "After deployment, randomly gain one of the following effects for the rest of the battle: Attack +15% (+2%); Attack speed +15 (+2); Max HP +22% (+2%)"
+    }
+  ],
+  "char_253_greyy": [
+    {
+      "name": "Static Field",
+      "desc": "Attacks inflict 0.4 seconds of stop effect to enemies"
+    },
+    {
+      "name": "Static Field",
+      "desc": "Attacks inflict 0.6 seconds of stop effect to enemies"
     }
   ],
   "char_002_amiya": [

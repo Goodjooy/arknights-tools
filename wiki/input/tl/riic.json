@@ -50,7 +50,7 @@
   "char_149_scave": [
     {
       "name": "S.W.E.E.P",
-      "desc": "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05",
+      "desc": "When stationed at the Command Center, mood reduction per hour of all operatives in the Command Center -0.05",
       "clue": null
     },
     {
@@ -167,6 +167,18 @@
       "clue": null
     }
   ],
+  "char_281_popka": [
+    {
+      "name": "Troublesome Creator",
+      "desc": "When stationed at a Craft Station, production +25%, storage capacity -12 and mood reduction per hour +0.25",
+      "clue": null
+    },
+    {
+      "name": "Harmonius",
+      "desc": "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.4 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.2",
+      "clue": null
+    }
+  ],
   "char_127_estell": [
     {
       "name": "Focus·β",
@@ -182,7 +194,7 @@
   "char_130_doberm": [
     {
       "name": "Competent",
-      "desc": "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05",
+      "desc": "When stationed at the Command Center, mood reduction per hour of all operatives in the Command Center -0.05",
       "clue": null
     },
     {
@@ -299,6 +311,18 @@
       "clue": null
     }
   ],
+  "char_308_swire": [
+    {
+      "name": "Little Missy",
+      "desc": "When stationed at the Command Center, order acquisition efficiency of all Trade Stations +7% (Only highest effect becomes active)",
+      "clue": null
+    },
+    {
+      "name": "Instructor",
+      "desc": "When stationed at the Training Station, operative skill training speed +25%",
+      "clue": null
+    }
+  ],
   "char_172_svrash": [
     {
       "name": "Karlan Trading·α",
@@ -320,6 +344,18 @@
     {
       "name": "Elegy",
       "desc": "When stationed at a Dorm, self mood recovery per hour +1",
+      "clue": null
+    }
+  ],
+  "char_010_chen": [
+    {
+      "name": "Ability & Integrity",
+      "desc": "When stationed at the Command Center, for every operative from Lungmen Guard Bureau in the Command Center, mood reduction per hour of all operatives in the Command Center -0.05",
+      "clue": null
+    },
+    {
+      "name": "Superintendent",
+      "desc": "When stationed at Reception, clue collection speed +25%",
       "clue": null
     }
   ],
@@ -356,6 +392,18 @@
     {
       "name": "Lively",
       "desc": "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.4",
+      "clue": null
+    }
+  ],
+  "char_284_spot": [
+    {
+      "name": "Skilled Craftsman",
+      "desc": "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%",
+      "clue": null
+    },
+    {
+      "name": "Metal Crafts·α",
+      "desc": "When stationed at a Craft Station, increase production of precious metals by +30%",
       "clue": null
     }
   ],
@@ -410,7 +458,7 @@
   "char_148_nearl": [
     {
       "name": "Competent",
-      "desc": "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05",
+      "desc": "When stationed at the Command Center, mood reduction per hour of all operatives in the Command Center -0.05",
       "clue": null
     },
     {
@@ -506,7 +554,7 @@
   "char_144_red": [
     {
       "name": "S.W.E.E.P",
-      "desc": "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05",
+      "desc": "When stationed at the Command Center, mood reduction per hour of all operatives in the Command Center -0.05",
       "clue": null
     },
     {
@@ -776,6 +824,18 @@
     {
       "name": "Order Distribution·β",
       "desc": "When stationed at a Trade Station, order acquisition efficiency +30%",
+      "clue": null
+    }
+  ],
+  "char_253_greyy": [
+    {
+      "name": "Static Field",
+      "desc": "When stationed at a Power Station, drone recovery per hour +20%",
+      "clue": null
+    },
+    {
+      "name": "Skilled Craftsman",
+      "desc": "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%",
       "clue": null
     }
   ],
