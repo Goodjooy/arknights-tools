@@ -152,31 +152,31 @@ return {
   skills = {
     {
       icon = "skchr-angel-1.png",
-      name = "Assault Mode",
+      name = "冲锋模式",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack hits <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>113%</span>/<span style='color:#0098DC;'>121%</span>/<span style='color:#0098DC;'>145%</span> damage",
+      description = "下次攻击变为<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>3</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>105%<span>/</span>113%<span>/</span>121%<span>/</span>145%</span>的伤害",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-angel-2.png",
-      name = "Strafing Mode",
+      name = "扫射模式",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attacks deal <span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>125%</span> damage",
+      description = "攻击变为<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>4<span>/</span>4</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>100%<span>/</span>105%<span>/</span>110%<span>/</span>125%</span>的伤害",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
     {
       icon = "skchr-angel-3.png",
-      name = "Overload Mode",
+      name = "过载模式",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Attacks deal <span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span> hits, with each dealing <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>110%</span> damage. Reduce attack interval by a certain extent. Automatic activation",
+      description = "攻击变为<span style='color:#0098DC;'>5<span>/</span>5<span>/</span>5<span>/</span>5</span>连射，攻击间隔<span style='color:#0098DC;'>一定程度缩短</span>，攻击力<span style='color:#0098DC;'>提升至100%<span>/</span>100%<span>/</span>100%<span>/</span>110%</span>\n<span style='color:#F49800;'>技能会自动开启</span>",
       sp = { 50, 48, 46, 44, 42, 40, 38, 36, 34, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -326,19 +326,19 @@ return {
       }
     },
     {
-      name = "Angel's Blessings",
+      name = "Rapid Magazine",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Attack power +6%, Max HP +10%. When deployed, grant the same effect to a random ally",
+          description = "Attack speed +6",
         },
         {
           elite = 2,
           level = 1,
           potential = 5,
-          description = "Attack power +8% (+2%), Max HP +13% (+3%). When deployed, grant the same effect to a random ally",
+          description = "Attack speed +9 (+3)",
         },
       }
     },
@@ -360,11 +360,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Penguin Logistics·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
+      description = "undefined"
     },
   },
   meta = {
@@ -373,9 +373,9 @@ return {
   },
   profile = {
     records = {
-      resume = "能天使，拉特兰公民，适用于拉特兰一至十三项公民权益。企鹅物流公司成员。从事秘密联络，武装押运等非公开活动，推测身份：信使。于合约期内任企鹅物流驻罗德岛联络人员，同时为罗德岛多项行动提供协助。",
+      resume = "能天使，拉特兰公民，适用拉特兰一至十三项公民权益。企鹅物流公司成员。从事秘密联络，武装押运等非公开活动，推测身份：信使。于合约期内任企鹅物流驻罗德岛联络人员，同时为罗德岛多项行动提供协助。",
       archive1 = "与大多数拉特兰人给人的印象不同，是个彻头彻尾的乐天派。<br>精通各种娱乐方式，无论什么时候都能找到让自己高兴的办法，在团队中总是充当活跃气氛的那个人。<br>为人慷慨大方，不过也因此总是存不起钱。",
-      archive2 = "铳是一种构造独特的中远距离杀伤武器，据传最先由拉特兰人发现，也因此成为了拉特兰的标志之一。<br>它的杀伤力并不十分出色，但由于相比其他冷兵器更为契合拉特兰人的习性，因此逐渐成为了大部分拉特兰人的首选武器，并且每个拉特兰人都会有至少一把守护铳。<br>能天使小姐虽然平日吊儿郎当，但她的射击技术在罗德岛中是名列前茅的。一方面，她唯有在铳的保养和使用训练上从来没有含糊过。另一方面，她在射击方面的天赋，包括动态视力，空间把握等能力，足以令每一个射手嫉妒。",
+      archive2 = "铳是一种构造独特的中远距离杀伤武器，据传最先由拉特兰人发现，也因此成为了拉特兰的标志之一。<br>它的杀伤力并不十分出色，但由于相比冷兵器更为契合拉特兰人的习性，因而逐渐成为了大部分拉特兰人的首选武器，并且每个拉特兰人都会有至少一把守护铳。<br>能天使小姐虽然平日吊儿郎当，但她的射击技术在罗德岛中是名列前茅的。一方面，她唯有在铳的保养和使用训练上从来没有含糊过。另一方面，她在射击方面的天赋，包括动态视力，空间把握等能力，足以令每一个射手嫉妒。",
       archive3 = "虽然能天使小姐给人的印象与拉特兰完全相反，但令人难以置信的是，她并没有经历过什么因爱好而不被理解的童年，或者是因为某种并不美好的原因而选择离经叛道。<br>她只是喜欢快乐的事，然后变成了这样的人，仅此而已。<br>从她能茁壮成长至今这一点来看，拉特兰或许并不像世人所想像的那么陈腐......也说不定。",
       archive4 = "虽然即使拥有光环和翅膀，能天使小姐也经常能让人遗忘她是一个拉特兰人，但唯有在涉及信仰话题时，她的反应与一个普通的拉特兰人别无二致——虔诚。<br>除了拉特兰，仅有少数地区拥有一些非常简陋的原始信仰，也因此，很少有人注意到能天使小姐的这份虔诚。<br>但若是能够注意到，便会发现一点，对前卫的追求，和对信仰的虔诚，竟然在一个人身上同时出现，且互相毫不显得突兀。<br>并且，唯有从这一角度去观察能天使小姐，才能够发现她那坏坏的笑容背后，有着怎样一颗七窍玲珑的心。",
       token = "能天使这家伙，和我不一样，虽然表面上能和任何人打好关系，但真正能被她承认的人很少。<br>——德克萨斯",

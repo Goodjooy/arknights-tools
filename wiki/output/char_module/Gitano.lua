@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-magic-rage-2.png",
-      name = "Tactical Chanting·Type β",
+      name = "战术咏唱·β型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack speed +<span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>30</span>/<span style='color:#0098DC;'>45</span>/<span style='color:#0098DC;'>75</span>",
+      description = "攻击速度<span style='color:#0098DC;'>+15<span>/</span>30<span>/</span>45<span>/</span>75</span>",
       sp = { 45, 45, 45, 40, 40, 40, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-fmout-2.png",
-      name = "Fate",
+      name = "命运",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>100%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>15</span>/<span style='color:#F49800;'>14</span>/<span style='color:#F49800;'>13</span>/<span style='color:#F49800;'>10</span> seconds after skill ends.",
+      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>70%<span>/</span>100%</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，同时攻击攻击范围内所有敌人\n<span style='color:#F49800;'>技能时间结束后远山停止攻击15<span>/</span>14<span>/</span>13<span>/</span>10秒</span>",
       sp = { 100, 100, 100, 95, 95, 95, 90, 90, 90, 85 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +7%; Attack speed +7; Max HP +12%",
+          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack +7%; Attack speed +7; Max HP +12%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +9% (+2%); Attack speed +9 (+2); Max HP +14% (+2%)",
+          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack +9% (+2%); Attack speed +9 (+2); Max HP +14% (+2%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +13%; Attack speed +13; Max HP +20%",
+          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack +13%; Attack speed +13; Max HP +20%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack power +15% (+2%); Attack speed +15 (+2); Max HP +22% (+2%)",
+          description = "After deployment, randomly gain one of the following effects for the rest of the battle: Attack +15% (+2%); Attack speed +15 (+2); Max HP +22% (+2%)",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Supply Management",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
+      description = "undefined"
     },
     {
-      name = "Divination",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite1",
-      description = "When stationed at Reception, clue collection speed +25%"
+      description = "undefined"
     },
   },
   meta = {

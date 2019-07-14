@@ -122,13 +122,13 @@ Promise.all([
     }[classKey] || ''
   }
 
-  let talentCounts = {}
+  // let talentCounts = {}
   // let candidateCounts = {}
   // let races = {}
   // let origins = {}
   // let heights = {}
   // let weights = {}
-  // let birthMonths = {}
+  let birthMonths = {}
   // let illustrators = {}
   // let voiceactors = {}
 
@@ -163,14 +163,14 @@ Promise.all([
     //   } catch (error) {}
     // }
     
-    // if (info.birthday) {
-    //   try {
-    //     let birthParts = info.birthday.split(' ')
-    //     let birthMonth = birthParts[0]
-    //     if (!birthMonths[birthMonth]) birthMonths[birthMonth] = []
-    //     birthMonths[birthMonth].push({ name: char.appellation, day: parseInt(birthParts[1]), class: char.profession })
-    //   } catch (error) {}
-    // }
+    if (info.birthday) {
+      try {
+        let birthParts = info.birthday.split(' ')
+        let birthMonth = birthParts[0]
+        if (!birthMonths[birthMonth]) birthMonths[birthMonth] = []
+        birthMonths[birthMonth].push({ name: char.appellation, day: parseInt(birthParts[1]), class: char.profession })
+      } catch (error) {}
+    }
 
     // if (info.race) {
     //   if (!races[info.race]) races[info.race] = []
@@ -236,10 +236,10 @@ Promise.all([
     // })
 
     // Check how many talents per character
-    if (char.talents) {
-      if (!talentCounts[char.talents.length]) talentCounts[char.talents.length] = []
-      talentCounts[char.talents.length].push(charKey)
-    }
+    // if (char.talents) {
+    //   if (!talentCounts[char.talents.length]) talentCounts[char.talents.length] = []
+    //   talentCounts[char.talents.length].push(charKey)
+    // }
     
     // Check if favor keyframes have bonuses other than basic stats
     // if (char.favorKeyFrames) char.favorKeyFrames.forEach(keyframe => {
@@ -276,7 +276,7 @@ Promise.all([
   })
 
   // console.log('candidateCounts', candidateCounts);
-  console.log('talentCounts', talentCounts);
+  // console.log('talentCounts', talentCounts);
 
   // console.log('heights', heights);
 
@@ -288,21 +288,22 @@ Promise.all([
   //   console.log(weight, weights[weight].join(', '));
   // })
 
-  // Object.keys(birthMonths).sort().forEach(birthMonth => {
-  //   let displayMonth = birthMonth.split('-')[1]
-  //   // console.log('**Birthdays for the month of ' + displayMonth + '**\n')
-  //   // birthMonths[birthMonth] = birthMonths[birthMonth].sort((a,b) => (a.day > b.day) ? 1 : ((b.day > a.day) ? -1 : 0))
-  //   // birthMonths[birthMonth].forEach(birthChar => {
-  //   //   console.log('  • :Class' + className(birthChar.class) + ': ' + birthChar.name + ' ' + ordinal(parseInt(birthChar.day, 10)) + '\n')
-  //   // })
-  //   // console.log('')
-  //   console.log('**' + displayMonth + '**')
-  //   birthMonths[birthMonth] = birthMonths[birthMonth].sort((a,b) => (a.day > b.day) ? 1 : ((b.day > a.day) ? -1 : 0))
-  //   birthMonths[birthMonth].forEach(birthChar => {
-  //     console.log('  • ' + birthChar.name + ' ' + ordinal(parseInt(birthChar.day, 10)))
-  //   })
-  //   console.log('')
-  // })
+  console.log('**OPERATOR BIRTHDAYS**\n')
+  Object.keys(birthMonths).sort().forEach(birthMonth => {
+    let displayMonth = birthMonth.split('-')[1]
+    // console.log('**Birthdays for the month of ' + displayMonth + '**\n')
+    // birthMonths[birthMonth] = birthMonths[birthMonth].sort((a,b) => (a.day > b.day) ? 1 : ((b.day > a.day) ? -1 : 0))
+    // birthMonths[birthMonth].forEach(birthChar => {
+    //   console.log('  • :Class' + className(birthChar.class) + ': ' + birthChar.name + ' ' + ordinal(parseInt(birthChar.day, 10)) + '\n')
+    // })
+    // console.log('')
+    console.log('**' + (displayMonth || 'Undisclosed') + '**')
+    birthMonths[birthMonth] = birthMonths[birthMonth].sort((a,b) => (a.day > b.day) ? 1 : ((b.day > a.day) ? -1 : 0))
+    birthMonths[birthMonth].forEach(birthChar => {
+      console.log('  • ' + birthChar.name + ' ' + (ordinal(parseInt(birthChar.day, 10))) || '')
+    })
+    console.log('')
+  })
 
   // console.log('RACES')
   // Object.keys(races).sort().forEach(race => {

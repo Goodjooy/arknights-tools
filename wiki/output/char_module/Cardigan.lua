@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skcom-heal-self-1.png",
-      name = "Health Recovery·Type α",
+      name = "生命回复·α型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately recover <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/ of Max HP",
+      description = "立即恢复最大生命的<span style='color:#0098DC;'>20%<span>/</span>30%<span>/</span>40%<span>/</span></span>",
       sp = { 26, 25, 24, 23, 22, 21, 20 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -238,18 +238,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Warehouse Organization·α",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, storage capacity +6 and production +10%"
+      description = "undefined"
     },
     {
-      name = "Lively",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.4"
+      description = "undefined"
     },
   },
   meta = {
@@ -258,7 +258,7 @@ return {
   },
   profile = {
     records = {
-      resume = "卡缇，行动预备组A4组员，莱塔尼亚公民，正式任职前为雪橇巡逻队队员。于多项测试中获得优异成绩，遂获准加入罗德岛",
+      resume = "卡缇，行动预备组A4组员，莱塔尼亚公民，正式任职前为雪橇巡逻队队员。于多项测试中获得优异成绩，遂获准加入罗德岛。",
       archive1 = "",
       archive2 = "",
       archive3 = "",

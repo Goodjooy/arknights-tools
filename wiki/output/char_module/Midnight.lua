@@ -204,31 +204,31 @@ return {
   },
   talents = {
     {
-      name = "要害瞄准·初级",
+      name = "Weakpoint Aiming·Beginner",
       levels = {
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "攻击时，10%几率当次攻击的攻击力提升至150%",
+          description = "When attacking, 10% chance to increase Attack to 150%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "攻击时，10%几率当次攻击的攻击力提升至160%<@ba.talpu>（+10%）</>",
+          description = "When attacking, 10% chance to increase Attack to 160% (+10%)",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "攻击时，20%几率当次攻击的攻击力提升至150%",
+          description = "When attacking, 20% chance to increase Attack to 150%",
         },
         {
           elite = 1,
           level = 55,
           potential = 4,
-          description = "攻击时，20%几率当次攻击的攻击力提升至160%<@ba.talpu>（+10%）</>",
+          description = "When attacking, 20% chance to increase Attack to 160% (+10%)",
         },
       }
     },
@@ -250,18 +250,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "交际",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+      description = "undefined"
     },
     {
-      name = "源石工艺·α",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>源石</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+      description = "undefined"
     },
   },
   meta = {

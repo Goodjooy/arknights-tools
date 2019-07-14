@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skcom-quickattack-1.png",
-      name = "Swift Strike·Type α",
+      name = "迅捷打击·α型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>6%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>25%</span>/, Attack speed +<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>25</span>/",
+      description = "攻击力<span style='color:#0098DC;'>+6%<span>/</span>15%<span>/</span>25%<span>/</span></span>，攻击速度<span style='color:#0098DC;'>+10<span>/</span>15<span>/</span>25<span>/</span></span>",
       sp = { 55, 54, 53, 50, 49, 48, 45 },
       duration = { 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -210,13 +210,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Attack power +4%",
+          description = "Attack +4%",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "Attack power +8%",
+          description = "Attack +8%",
         },
       }
     },
@@ -238,18 +238,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Vanguard Specialization·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "When stationed at the Training Station, reduce the skill training time of Vanguard operatives by -30%"
+      description = "undefined"
     },
     {
-      name = "Order Management·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "When stationed at a Trade Station, order acquisition efficiency +10% and order limit +1"
+      description = "undefined"
     },
   },
   meta = {

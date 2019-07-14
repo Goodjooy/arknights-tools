@@ -97,18 +97,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Clue Collection·β",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "When stationed at Reception, clue collection speed +20%"
+      description = "undefined"
     },
     {
-      name = "Special Training Records",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing chips, increase the rate of by-products by 70%"
+      description = "undefined"
     },
   },
   meta = {
@@ -117,7 +117,7 @@ return {
   },
   profile = {
     records = {
-      resume = "12F，为该干员被雇佣时常使用的代号。根据自身汇报履历于多个势力之间游荡，并参与过过去几年较为著名的几次势力冲突之中。<br>仅有的少量可查证的资料也确认12F曾在这部分作战中以基础的雇佣兵，或是本地设施保全人员参与到行动中。<br>与巨枭一起加入罗德岛，因特殊的经历和战场经验被录用。现作为常规术士干员加入到罗德岛的常规任务中。",
+      resume = "12F，为该干员被雇佣时常使用的代号。根据自身汇报履历于多个势力之间游荡，并活跃在过去几年较为著名的几次势力冲突之中。<br>仅有的少量可查证的资料也确认12F曾在这部分作战中以基础的雇佣兵，或是本地设施保全人员的身份参与到行动中。<br>与巨枭一起加入罗德岛，因特殊的经历和战场经验被录用。现作为常规术士干员加入到罗德岛的常规任务中。",
       archive1 = "源石技艺评定：<br>相比他经历过的战场数量而言，12F的源石技艺水平看上去并没有到能在这些事件中占据优势的程度，这与他提供的作战经历所吻合。不过他对于源石技艺的理解相比通常接触过的术士会更深刻一点，或许是这一点，让他能够活用目前水平的源石技艺提高他的生存几率。",
       archive2 = "12F虽然看上去非常严肃，甚至让人觉得不好交流，不过实际在收集人员反馈的过程中，大多数与他合作过的干员，都对这名不起眼的术士表现出了肯定。这些反馈通常集中在，“没有拖后腿”、“帮助协调组内关系”、“在关键时刻提供必要的帮助”、“提供了意想不到的建议”。",
       archive3 = "12F与很多干员关系都非常好，相反与12F关系最紧密的关系人员——巨枭则在罗德岛几乎没有朋友。12F常会刻意前往巨枭常见的地方与她谈话。由于医疗中心对巨枭的心理状况长期处于不明朗状态，目前巨枭的心理状况已委托12F定期向医疗中心汇报。",

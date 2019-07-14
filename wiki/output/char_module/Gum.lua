@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-sunbr-1.png",
-      name = "Reserve Rations",
+      name = "备用军粮",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack will heal a nearby ally for <span style='color:#0098DC;'>95%</span>/<span style='color:#0098DC;'>115%</span>/<span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>160%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>3</span> charge(s)",
+      description = "下次攻击会恢复附近一名友方角色相当于古米攻击力<span style='color:#0098DC;'>95%<span>/</span>115%<span>/</span>130%<span>/</span>160%</span>的生命值\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>3次</span>",
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-sunbr-2.png",
-      name = "Food Preparation",
+      name = "食粮烹制",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span>/<span style='color:#FF6237;'>10</span>/<span style='color:#FF6237;'>10</span>/<span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>80%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>",
+      description = "开始烹饪，<span style='color:#FF6237;'>10<span>/</span>10<span>/</span>10<span>/</span>10</span>秒内停止攻击敌人，防御力<span style='color:#0098DC;'>+50%<span>/</span>60%<span>/</span>70%<span>/</span>80%</span>\n烹饪完成后专注于治疗附近的友方角色，攻击力<span style='color:#0098DC;'>+30%<span>/</span>40%<span>/</span>50%<span>/</span>80%</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When attacking, 10% chance to increase Attack power to 150% and stun the enemy for 0.5 seconds",
+          description = "When attacking, 10% chance to increase Attack to 150% and stun the enemy for 0.5 seconds",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "When attacking, 13% (+3%) chance to increase Attack power to 150% and stun the enemy for 0.5 seconds",
+          description = "When attacking, 13% (+3%) chance to increase Attack to 150% and stun the enemy for 0.5 seconds",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When attacking, 15% chance to increase Attack power to 200% and stun the enemy for 1 second",
+          description = "When attacking, 15% chance to increase Attack to 200% and stun the enemy for 1 second",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "When attacking, 18% (+3%) chance to increase Attack power to 200% and stun the enemy for 1 second",
+          description = "When attacking, 18% (+3%) chance to increase Attack to 200% and stun the enemy for 1 second",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Communication",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +30% and mood reduction per hour -0.25"
+      description = "undefined"
     },
     {
-      name = "Cooking",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.35 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.35"
+      description = "undefined"
     },
   },
   meta = {

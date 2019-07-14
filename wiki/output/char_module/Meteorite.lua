@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-meteo-1.png",
-      name = "Spread Shot",
+      name = "霰射弹头",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>215%</span> physical damage",
+      description = "下次攻击的爆炸范围<span style='color:#0098DC;'>扩大</span>，造成相当于攻击力<span style='color:#0098DC;'>135%<span>/</span>150%<span>/</span>170%<span>/</span>215%</span>的物理伤害",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-meteo-2.png",
-      name = "High-explosive Round",
+      name = "高爆弹头",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>180%</span>/<span style='color:#0098DC;'>210%</span>/<span style='color:#0098DC;'>240%</span>/<span style='color:#0098DC;'>300%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-130</span>/<span style='color:#0098DC;'>-170</span>/<span style='color:#0098DC;'>-210</span>/<span style='color:#0098DC;'>-330</span> Defense power for <span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span> seconds",
+      description = "立即发射一枚火焰弹，对目标范围内所有敌人造成相当于攻击力<span style='color:#0098DC;'>180%<span>/</span>210%<span>/</span>240%<span>/</span>300%</span>的物理伤害，所有命中目标在<span style='color:#0098DC;'>10<span>/</span>10<span>/</span>10<span>/</span>10</span>秒内防御力<span style='color:#0098DC;'>--130<span>/</span>-170<span>/</span>-210<span>/</span>-330</span>",
       sp = { 25, 25, 25, 24, 24, 24, 23, 22, 21, 20 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -283,13 +283,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When attacking or using skills, 15% chance to increase Attack power by +60%",
+          description = "When attacking or using skills, 15% chance to increase Attack by +60%",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When attacking or using skills, 30% chance to increase Attack power by +60%",
+          description = "When attacking or using skills, 30% chance to increase Attack by +60%",
         },
       }
     },
@@ -311,11 +311,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Explosive Science·α",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
+      description = "undefined"
     },
   },
   meta = {

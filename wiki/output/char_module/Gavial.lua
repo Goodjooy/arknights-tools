@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-ccheal-1.png",
-      name = "Revitalization",
+      name = "活力再生",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "On the next heal, additionally heal the target for <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>23%</span>/<span style='color:#0098DC;'>26%</span>/<span style='color:#0098DC;'>35%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>46%</span>/<span style='color:#0098DC;'>52%</span>/<span style='color:#0098DC;'>70%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> seconds. Can hold <span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>2</span> charge(s)",
+      description = "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<span style='color:#0098DC;'>20%<span>/</span>23%<span>/</span>26%<span>/</span>35%</span>（血量低于一半时为<span style='color:#0098DC;'>20%<span>/</span>23%<span>/</span>26%<span>/</span>35%</span>）的生命，持续<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>4<span>/</span>5</span>秒\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>2次</span>",
       sp = { 10, 10, 10, 9, 9, 9, 9, 9, 9, 8 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-ccheal-2.png",
-      name = "Revitalization·Area",
+      name = "活力再生·广域",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Heal all allies within range for <span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>18%</span>/<span style='color:#0098DC;'>21%</span>/<span style='color:#0098DC;'>30%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>38%</span>/<span style='color:#0098DC;'>44%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span> when HP is below 1/2) for <span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>10</span> seconds.",
+      description = "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<span style='color:#0098DC;'>15%<span>/</span>18%<span>/</span>21%<span>/</span>30%</span>（血量低于一半时为<span style='color:#0098DC;'>15%<span>/</span>18%<span>/</span>21%<span>/</span>30%</span>）的生命，持续<span style='color:#0098DC;'>7<span>/</span>7<span>/</span>7<span>/</span>10</span>秒",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "After deployment, all ally 【Medic】 operatives gain Attack power +5%, Defense power +50 for 15 seconds",
+          description = "After deployment, all ally 【Medic】 operatives gain Attack +5%, Defense +50 for 15 seconds",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "After deployment, all ally 【Medic】 operatives gain Attack power +7% (+2%), Defense power +70 (+20) for 17 (+2) seconds",
+          description = "After deployment, all ally 【Medic】 operatives gain Attack +7% (+2%), Defense +70 (+20) for 17 (+2) seconds",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "After deployment, all ally 【Medic】 operatives gain Attack power +10%, Defense power +100 for 15 seconds",
+          description = "After deployment, all ally 【Medic】 operatives gain Attack +10%, Defense +100 for 15 seconds",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "After deployment, all ally 【Medic】 operatives gain Attack power +12% (+2%), Defense power +120 (+20) for 17 (+2) seconds",
+          description = "After deployment, all ally 【Medic】 operatives gain Attack +12% (+2%), Defense +120 (+20) for 17 (+2) seconds",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Pharmacology",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
+      description = "undefined"
     },
     {
-      name = "Medic Specialization·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite1",
-      description = "When stationed at the Training Station, reduce the skill training time of Medic operatives by -30%"
+      description = "undefined"
     },
   },
   meta = {

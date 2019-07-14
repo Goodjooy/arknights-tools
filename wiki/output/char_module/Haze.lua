@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2.png",
-      name = "Attack Strengthening·Type β",
+      name = "攻击力强化·β型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>",
+      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-nights-2.png",
-      name = "Crimson Eyes",
+      name = "赤色之瞳",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Max HP <span style='color:#FF6237;'>-75%</span>/<span style='color:#FF6237;'>-75%</span>/<span style='color:#FF6237;'>-75%</span>/<span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>, Attack speed +<span style='color:#0098DC;'>35</span>/<span style='color:#0098DC;'>40</span>/<span style='color:#0098DC;'>45</span>/<span style='color:#0098DC;'>60</span>",
+      description = "最大生命值<span style='color:#FF6237;'>--75%<span>/</span>-75%<span>/</span>-75%<span>/</span>-75%</span>；攻击力<span style='color:#0098DC;'>+15%<span>/</span>30%<span>/</span>45%<span>/</span>60%</span>，攻击速度<span style='color:#0098DC;'>+35<span>/</span>40<span>/</span>45<span>/</span>60</span>",
       sp = { 35, 35, 35, 35, 35, 35, 30, 30, 30, 25 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Attacks inflict magic resistance -10% for 1 second",
+          description = "Attacks inflict Magic resistance -10% for 1 second",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "Attacks inflict magic resistance -13% (+3%) for 1 second",
+          description = "Attacks inflict Magic resistance -13% (+3%) for 1 second",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Attacks inflict magic resistance -20% for 1 second",
+          description = "Attacks inflict Magic resistance -20% for 1 second",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Attacks inflict magic resistance -23% (+3%) for 1 second",
+          description = "Attacks inflict Magic resistance -23% (+3%) for 1 second",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Metal Crafts·α",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, increase production of precious metals by +30%"
+      description = "undefined"
     },
     {
-      name = "Order Distribution·β",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
+      description = "undefined"
     },
   },
   meta = {

@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-myrrh-1.png",
-      name = "Double Heal",
+      name = "二重治疗",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next heal will recover HP equal to <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>106%</span>/<span style='color:#0098DC;'>112%</span>/<span style='color:#0098DC;'>125%</span> of Attack power and heal an additional target. Can hold <span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>3</span>/<span style='color:#F49800;'>3</span> charge(s)",
+      description = "下次治疗可以恢复相当于攻击力<span style='color:#0098DC;'>100%<span>/</span>106%<span>/</span>112%<span>/</span>125%</span>的生命，并额外治疗一名单位\n<span style='color:#F49800;'>可充能1<span>/</span>2<span>/</span>3<span>/</span>3次</span>",
       sp = { 10, 10, 10, 9, 9, 9, 9, 8, 8, 8 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-myrrh-2.png",
-      name = "Healing Field",
+      name = "医疗力场",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>5%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>65%</span>, heal an additional target on every heal",
+      description = "攻击力<span style='color:#0098DC;'>+5%<span>/</span>20%<span>/</span>35%<span>/</span>65%</span>，每次可额外治疗一名单位",
       sp = { 65, 65, 65, 60, 60, 60, 55, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "After deployment, immediately heal all allies for 100% of Myrrh's Attack power",
+          description = "After deployment, immediately heal all allies for 100% of Myrrh's Attack",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "After deployment, immediately heal all allies for 110% (+10%) of Myrrh's Attack power",
+          description = "After deployment, immediately heal all allies for 110% (+10%) of Myrrh's Attack",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "After deployment, immediately heal all allies for 150% of Myrrh's Attack power",
+          description = "After deployment, immediately heal all allies for 150% of Myrrh's Attack",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "After deployment, immediately heal all allies for 160% (+10%) of Myrrh's Attack power",
+          description = "After deployment, immediately heal all allies for 160% (+10%) of Myrrh's Attack",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Pharmacology",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
+      description = "undefined"
     },
     {
-      name = "Empathetic",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
+      description = "undefined"
     },
   },
   meta = {
@@ -339,7 +339,7 @@ return {
   profile = {
     records = {
       resume = "末药，出身地未公开，药师。于药物研发方面展现出值得期待的天赋。<br>目前于罗德岛担任医疗小组干员，并提供药物制作等方面的服务。",
-      archive1 = "干员末药好奇心强，且工作意愿极高，但她有些缺乏常识面的倾向。虽然她在制药方面具备良好天赋，但在处理人际关系时却常常遇到问题。加上她较为笨拙的人际交往方式，以及她所制作的药物的影响下，使干员们在接受与她并肩作战变得有些麻烦。",
+      archive1 = "干员末药好奇心强，且工作意愿极高，但她有些缺乏常识面的倾向。虽然她在制药方面具备良好天赋，但在处理人际关系时却常常遇到问题。她那较为笨拙的人际交往方式，以及她所制作的药物，都使得干员们在接受与她并肩作战时变得有些麻烦。",
       archive2 = "在正式于罗德岛任职后，干员末药展现出了其较为宝贵的积极性一面。相对于其他资深干员，末药无论在工作流程的熟悉或战斗经验上都显得较为稚嫩。但她勤勉肯干，不怕麻烦的个性帮助她度过了最初，也是最艰难的适应期。尤其是让她牵肠挂肚的，好友哈默妮的康复状况，更是支撑着她无论如何也要在罗德岛立足的决心。<br>不过，相较于其他新进干员，末药在某些方面融入得相当之快：她几乎没有花费太多的力气便熟悉了罗德岛内复杂的建筑结构和通行方式，而且几乎未曾迷路过。在如何获取一些偏僻地区的独特资源的方法上，末药也提出过一些具有参考价值的提议。这使得末药很快取得了在罗德岛内的一席之地。",
       archive3 = "干员末药的草药被鉴定是一种良药，但具备所有非现代医学制药产品所拥有的一切缺点：原料需特定产地，制作工序复杂，且味道极苦，甚至其制药配方中还混杂有某种程度的民间巫术成分。在医药现代化的当下时代，可以认为这种制药方式即将被彻底淘汰。<br>在末药本人的强烈意愿下，凯尔希医生为其分配了专门的药理学深化课程以及现代制药方法培训。目前该特训已取得较为积极的成果。<br>经培训的后末药迅速掌握了流程简化的制药方法，并迅速应用于实战中。其制作的药物，除一定程度上仍保留其独特的苦味外，其药效和治疗效果已经收到了干员们的好评。<br>目前干员末药在疗养庭园工作人员的协助下，正在努力克服其药物的最后一个弱点。",
       archive4 = "对于自己与朋友哈默妮的出身，末药并未给予正面回答，她对所谓的“废墟”与“秘境”的回答显得闪烁其词，或许有意避开回答，却也显示出对事实缺乏了解的状况。目前可知的是，两人均来自某缺乏国家控制力保障的地带，而该地带具有严格的守密原则，避免任何可能的情报泄露，导致该地区被外人发现。基于这种情况，对该份资料的调查目前处于搁置状态。<br>目前根据干员末药的自述，其好友哈默妮的矿石病感染皆因两人在某次探险中，末药失误的行为所导致。但末药并未详细描述探险的详细过程以及哈默妮感染的原因。通过交谈可以发现，末药因创伤性记忆导致的缺失，是她无法完整复述该事件，以及无法理解的若干发现的关键。<br>备注：针对哈默妮的病情与病症进程，目前因系统原因暂时无法调取。患者目前以普通感染者的身份接受罗德岛治疗，但谢绝接受咨询与调查。",

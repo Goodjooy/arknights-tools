@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-2.png",
-      name = "Healing Strengthening·Type β",
+      name = "治疗强化·β型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>70%</span>",
+      description = "攻击力<span style='color:#0098DC;'>+15%<span>/</span>30%<span>/</span>50%<span>/</span>70%</span>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-flower-2.png",
-      name = "Fine-tuning",
+      name = "精调",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack speed <span style='color:#FF6237;'>-50</span>/<span style='color:#FF6237;'>-50</span>/<span style='color:#FF6237;'>-50</span>/<span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>180%</span>/<span style='color:#0098DC;'>210%</span>/<span style='color:#0098DC;'>250%</span>",
+      description = "攻击速度<span style='color:#FF6237;'>--50<span>/</span>-50<span>/</span>-50<span>/</span>-50</span>，攻击力<span style='color:#0098DC;'>+150%<span>/</span>180%<span>/</span>210%<span>/</span>250%</span>",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When deployed, heal all allies for 3% of Perfumer's Attack power every second",
+          description = "When deployed, heal all allies for 3% of Perfumer's Attack every second",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "When deployed, heal all allies for 3.5% (+0.5%) of Perfumer's Attack power every second",
+          description = "When deployed, heal all allies for 3.5% (+0.5%) of Perfumer's Attack every second",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When deployed, heal all allies for 5% of Perfumer's Attack power every second",
+          description = "When deployed, heal all allies for 5% of Perfumer's Attack every second",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "When deployed, heal all allies for 5.5% (+0.5%) of Perfumer's Attack power every second",
+          description = "When deployed, heal all allies for 5.5% (+0.5%) of Perfumer's Attack every second",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Pharmacology",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
+      description = "undefined"
     },
     {
-      name = "Standardization·β",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "When stationed at a Craft Station, production +25%"
+      description = "undefined"
     },
   },
   meta = {
@@ -338,7 +338,7 @@ return {
   },
   profile = {
     records = {
-      resume = "调香师莱娜，米诺斯大家族出身，家境殷实，不谙世事。由于种族特性听觉灵敏，但嗅觉更在其上，因此在香料调制上有着极高天赋。通过正常应聘程序来到罗德岛，作为休养设施“疗养庭院”的管理人为其他干员提供支援。",
+      resume = "调香师莱娜，米诺斯大家族出身，家境殷实，不谙世事。虽然种族特性以听觉灵敏著称，但调香师的嗅觉更在其上，因此在香料调制上有着极高天赋。她通过正常应聘程序来到罗德岛，作为休养设施“疗养庭院”的管理人为其他干员提供支援。",
       archive1 = "对气味的敏感成就了莱娜现在的能力。她能在气味繁杂的市场中分辨她想要的东西是否混杂其中，也可以在整个罗德岛中通过嗅觉找到特定的人物。她本能比现在做的更多，但是，天性中对于美好的追求，让她最终接受了以医学作为主导的崭新调香形式。对于莱娜本人来说，这是一项挑战，而生性谨慎的莱娜用事实证明了，将香薰与现代医疗相结合的行为（尤其反应在心理调控方面），的确可以带来崭新的可能性。",
       archive2 = "莱娜成长于一个兴旺发达的家族，不必为生计发愁，这样的家庭环境使得她可以尽情投入自己的兴趣而不必承担太多的风险。莱娜热爱自然，喜欢植物、花香和阳光，选择调香师作为职业正是对这份热爱的回应。<br>作为调香师的莱娜以专注而努力的态度对待自己的工作，并且她已经决定在不借助家庭帮助的情况下，将这份工作发展为自己的一项事业。在最初的阶段，较少亲自体验劳动与工作的莱娜吃了许多苦头，调香的学习和实践均遭遇了一段时间的低谷。但出身大家的莱娜凭借长久养成的骄傲和自信，将本应沉浸于沮丧于沮丧中的情绪化为了自身前进的行动力，以惊人的毅力熬过了最艰难的时期。<br>当莱娜用沾满泥土的双手，捧起由自己亲手栽培的花束时，她嗅到了一阵从未体验过的芳香。",
       archive3 = "在进入罗德岛并任职于疗养庭园期间，莱娜经过凯尔希医生的许可，将罗德岛一处闲置空间改造为一间小型温室。莱娜将自己所培育的花种栽种在温室中，同时在花园内建立了调香工作室。<br>经莱娜之手混合的不同植物原料制成的香料，拥有使人陷入丰富的情绪和想象的效果。她将这种技术用于辅助治疗，尤其对于部分受矿石病影响，进而诱发精神障碍的患者，这种疗法具备稳定精神波动的良好效果。",

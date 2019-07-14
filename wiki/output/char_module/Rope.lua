@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-rope-1.png",
-      name = "Hook Shot",
+      name = "勾爪发射",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack will pull the enemy towards self with large force, dealing <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>160%</span>/<span style='color:#0098DC;'>190%</span> physical damage",
+      description = "下次攻击会把敌人<span style='color:#0098DC;'>较大力地</span>牵引至面前，并对其造成相当于攻击力<span style='color:#0098DC;'>100%<span>/</span>130%<span>/</span>160%<span>/</span>190%</span>的物理伤害",
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-rope-2.png",
-      name = "Duplex Hook",
+      name = "复式勾爪",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Pull 2 faraway enemies towards self with large force, dealing <span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>180%</span>/<span style='color:#0098DC;'>225%</span> physical damage",
+      description = "将远距离内两个敌人<span style='color:#0098DC;'>较大力地</span>拖拽至面前，并对其造成相当于攻击力<span style='color:#0098DC;'>120%<span>/</span>150%<span>/</span>180%<span>/</span>225%</span>的物理伤害",
       sp = { 25, 24, 23, 22, 21, 20, 19, 18, 17, 15 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Clue Collection·β",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "When stationed at Reception, clue collection speed +20%"
+      description = "undefined"
     },
     {
-      name = "Negotiation",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "When stationed at a Trade Station, order limit +3 and mood reduction per hour -0.25"
+      description = "undefined"
     },
   },
   meta = {

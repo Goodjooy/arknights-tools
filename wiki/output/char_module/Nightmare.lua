@@ -277,31 +277,31 @@ return {
   },
   talents = {
     {
-      name = "表里人格",
+      name = "Dual Personality",
       levels = {
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "装备技能1时获得20%的物理和法术闪避，装备技能2时获得+9%攻击力",
+          description = "When equipping Skill 1, obtain 20% physical and magic evasion. When equipping Skill 2, Attack +9%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "装备技能1时获得25%<@ba.talpu>（+5%）</>的物理和法术闪避，装备技能2时获得+12%<@ba.talpu>（+3%）</>攻击力",
+          description = "When equipping Skill 1, obtain 25% (+5%) physical and magic evasion. When equipping Skill 2, Attack +12% (+3%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "装备技能1时获得40%的物理和法术闪避，装备技能2时获得+15%攻击力",
+          description = "When equipping Skill 1, obtain 40% physical and magic evasion. When equipping Skill 2, Attack +15%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "装备技能1时获得45%<@ba.talpu>（+5%）</>的物理和法术闪避，装备技能2时获得+18%<@ba.talpu>（+3%）</>攻击力",
+          description = "When equipping Skill 1, obtain 45% (+5%) physical and magic evasion. When equipping Skill 2, Attack +18% (+3%)",
         },
       }
     },
@@ -323,18 +323,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "术师专精·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "进驻训练室协助位时，术师干员的专精技能训练速度<span style='color:#0098DC;'>+30%</span>"
+      description = "undefined"
     },
     {
-      name = "心理学",
+      name = "undefined",
       badge = "hr",
       facility = "HR Office",
       unlockIcon = "elite2",
-      description = "进驻人力办公室时，人脉资源的累计速度<span style='color:#0098DC;'>+40%</span>"
+      description = "undefined"
     },
   },
   meta = {

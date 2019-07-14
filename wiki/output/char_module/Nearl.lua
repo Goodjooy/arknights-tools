@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-nearl-1.png",
-      name = "First Aid",
+      name = "急救",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>180%</span> Attack power. Can hold <span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>3</span> charge(s)",
+      description = "下一次攻击会为周围血量不足一半的一名友方单位恢复相当于攻击力<span style='color:#0098DC;'>110%<span>/</span>130%<span>/</span>150%<span>/</span>180%的生命</span>\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>3次</span>",
       sp = { 6, 6, 6, 5, 5, 5, 5, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-nearl-2.png",
-      name = "First Aid Mode",
+      name = "急救模式",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>, stops attacking enemies and focuses on healing nearby allies",
+      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>，停止攻击并专心对周围友方角色进行治疗",
       sp = { 60, 59, 58, 55, 54, 53, 52, 50, 45, 40 },
       duration = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
     },
@@ -323,18 +323,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Competent",
+      name = "undefined",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
+      description = "undefined"
     },
     {
-      name = "Knight of Light",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite2",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.5 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.25"
+      description = "undefined"
     },
   },
   meta = {
@@ -368,7 +368,7 @@ return {
     },
     oripathy = {
       infected = "Yes",
-      diagnosis = "<br>临光的体检情况由医疗部门保管，请不用担心，如果有需要，可以查阅相关文件。<br>——医疗干员闪灵",
+      diagnosis = "临光的体检情况由医疗部门保管，请不用担心，如果有需要，可以查阅相关文件。<br>——医疗干员闪灵",
     }
   },
   quotes = {

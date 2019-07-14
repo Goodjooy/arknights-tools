@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skchr-wyvern-1.png",
-      name = "Assault Order·Reinforcements",
+      name = "冲锋号令·援军",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/ cost, Attack power +<span style='color:#0098DC;'>5%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/",
+      description = "获得<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span></span>点部署费用，攻击力<span style='color:#0098DC;'>+5%<span>/</span>20%<span>/</span>35%<span>/</span></span>",
       sp = { 25, 25, 25, 23, 22, 21, 20 },
       duration = { 10, 10, 10, 10, 10, 10, 10 },
     },
@@ -210,13 +210,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Attack power +4%",
+          description = "Attack +4%",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "Attack power +8%",
+          description = "Attack +8%",
         },
       }
     },
@@ -238,18 +238,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Standardization·β",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, production +25%"
+      description = "undefined"
     },
     {
-      name = "Order Distribution·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
+      description = "undefined"
     },
   },
   meta = {

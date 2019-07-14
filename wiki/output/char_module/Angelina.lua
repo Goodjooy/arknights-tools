@@ -147,31 +147,31 @@ return {
   skills = {
     {
       icon = "skchr-aglina-1.png",
-      name = "Secret Staff·Speed Charge Mode",
+      name = "秘杖·速充模式",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>80%</span>/<span style='color:#0098DC;'>110%</span>. Automatic activation",
+      description = "攻击力<span style='color:#0098DC;'>+40%<span>/</span>60%<span>/</span>80%<span>/</span>110%</span>\n<span style='color:#F49800;'>技能自动开启</span>",
       sp = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
       duration = { 20, 21, 22, 25, 26, 27, 30, 31, 33, 35 },
     },
     {
       icon = "skchr-aglina-2.png",
-      name = "Secret Staff·Particle Mode",
+      name = "秘杖·微粒模式",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>30%</span>/<span style='color:#FF6237;'>35%</span>/<span style='color:#FF6237;'>40%</span>/<span style='color:#FF6237;'>45%</span> magical damage. Unable to attack when skill is not active",
+      description = "攻击间隔<span style='color:#0098DC;'>极大幅度缩短</span>，但每次攻击只能造成相当于攻击力<span style='color:#FF6237;'>30%<span>/</span>35%<span>/</span>40%<span>/</span>45%的法术伤害</span>\n<span style='color:#F49800;'>技能未开启时无法普通攻击</span>",
       sp = { 20, 20, 20, 20, 20, 20, 20, 19, 18, 15 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-aglina-3.png",
-      name = "Secret Staff·Anti-Gravity Mode",
+      name = "秘杖·反重力模式",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>90%</span>/<span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>150%</span>, Can attack <span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>5</span> enemies. Unable to attack when skill is not active",
+      description = "全场所有敌人重量<span style='color:#0098DC;'>下降一个等级</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，攻击力<span style='color:#0098DC;'>+75%<span>/</span>90%<span>/</span>105%<span>/</span>150%</span>，可以攻击<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>5<span>/</span>5</span>个敌人\n<span style='color:#F49800;'>技能未开启时无法普通攻击</span>",
       sp = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
       duration = { 10, 11, 12, 14, 15, 16, 18, 20, 22, 25 },
     },
@@ -321,19 +321,19 @@ return {
       }
     },
     {
-      name = "Part-time Job",
+      name = "Acceleration Field",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "While skill is not active, all allies recover 20 HP every second",
+          description = "All allies' Attack speed +3",
         },
         {
           elite = 2,
           level = 1,
           potential = 2,
-          description = "While skill is not active, all allies recover 25 (+5) HP every second",
+          description = "All allies' Attack speed +4 (+1)",
         },
       }
     },
@@ -355,11 +355,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Clue Collection·α",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "When stationed at Reception, clue collection speed +10%"
+      description = "undefined"
     },
   },
   meta = {
@@ -368,9 +368,9 @@ return {
   },
   profile = {
     records = {
-      resume = "安洁莉娜，本名安心院安吉丽娜。于叙拉古从事情报递送、货物运输等公开活动，推测身份：信使。<br>现作为实习术师干员，为罗德岛提供后勤保障、战场辅助与战术协同等服务。",
+      resume = "安洁莉娜，本名安心院安洁莉娜。于叙拉古从事情报递送、货物运输等公开活动，推测身份：信使。<br>现作为实习术师干员，为罗德岛提供后勤保障、战场辅助与战术协同等服务。",
       archive1 = "虽然安洁莉娜她自己没意识到，不过她可是有着相当独特的法术天赋的哦！好像，是能让各种物品，变重或者是变轻的样子......如果能得到进一步的引导和开发的话，我觉得，总有一天她会变得很了不起的！",
-      archive2 = "刚成为信使不久的少女。安洁莉娜<br>就像其他的高中生一样，安洁莉娜对未来充满希望，但也花了很多时间在学业与打扮上。<br>喜欢小饰品和流行小说，意外的喜欢稍显复古的音乐，安洁莉娜的人生本应平常而快乐。<br><br>而当罗德岛寻访她时，安洁莉娜却正穿梭在城市的黑夜中，于大楼间轻巧的滑翔而过。",
+      archive2 = "刚成为信使不久的少女。安洁莉娜就像其他的高中生一样，对未来充满希望，但也花了很多时间在学业与打扮上。<br>喜欢小饰品和流行小说，意外的喜欢稍显复古的音乐，安洁莉娜的人生本应平常而快乐。<br><br>而当罗德岛寻访她时，安洁莉娜却正穿梭在城市的黑夜中，于大楼间轻巧地滑翔而过。",
       archive3 = "这片大地是不公的。<br>意外成为感染者的安洁莉娜，悄悄地从自己的生活中消失了。<br>没有告别，没有徘徊，安洁莉娜离开了家庭，默默地告别了学校中的朋友和自己热爱的故乡。<br>然而，即便已经知晓了感染者的结局，安洁莉娜却并不甘心。<br>每个夜晚，她奔跑着，跳跃着，在建筑间穿梭着，操纵着还不那么熟练的法术，将货物从一个秘密的地方运送到另一个秘密的地方。<br>作为信使，作为感染者，也作为一个普通的高中生，安洁莉娜正在努力地生活下去，无论未来会变成什么模样。",
       archive4 = "在遇见罗德岛与博士之前，安洁莉娜将这些秘密都藏在自己心里。<br>直到罗德岛发掘了安洁莉娜，她才看见了另一种属于感染者的生活。而她，也给罗德岛带来了不同的色彩。如今成为了罗德岛干员的她，兴许也能重新找回自己作为一个高中生应有的生活。<br>......大概。<br>安洁莉娜选择的道路，究竟会通向哪里？<br>可能连她自己都没法想象吧。",
       token = "",

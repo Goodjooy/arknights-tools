@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-slbell-1.png",
-      name = "Echo Reverb",
+      name = "传音回响",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attacks <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-30</span>/<span style='color:#0098DC;'>-40</span>/<span style='color:#0098DC;'>-50</span>/<span style='color:#0098DC;'>-60</span> attack speed",
+      description = "同时攻击<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>2</span>个目标，攻击范围内所有敌人攻击速度<span style='color:#0098DC;'>--30<span>/</span>-40<span>/</span>-50<span>/</span>-60</span>",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 20 },
     },
     {
       icon = "skchr-slbell-2.png",
-      name = "Natural Shock",
+      name = "自然震慑",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "All enemies within attack range have <span style='color:#0098DC;'>-35%</span>/<span style='color:#0098DC;'>-40%</span>/<span style='color:#0098DC;'>-45%</span>/<span style='color:#0098DC;'>-60%</span> defense and <span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-23%</span>/<span style='color:#0098DC;'>-26%</span>/<span style='color:#0098DC;'>-30%</span> magic resistance",
+      description = "攻击范围内所有敌人防御力<span style='color:#0098DC;'>--35%<span>/</span>-40%<span>/</span>-45%<span>/</span>-60%</span>，法术抗性<span style='color:#0098DC;'>--20%<span>/</span>-23%<span>/</span>-26%<span>/</span>-30%</span>",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 10, 11, 12, 14, 15, 16, 18, 20, 22, 25 },
     },
@@ -306,13 +306,13 @@ return {
       }
     },
     {
-      name = "Echo",
+      name = "Weakening",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Attacks 2 targets simultaneously",
+          description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%",
         },
       }
     },
@@ -334,18 +334,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Saintess of Karlan",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.5 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.25"
+      description = "undefined"
     },
     {
-      name = "Supporter Specialization·β",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite2",
-      description = "When stationed at the Training Station, reduce the skill training time of Supporter operatives by -50%"
+      description = "undefined"
     },
   },
   meta = {
@@ -357,8 +357,8 @@ return {
       resume = "初雪，谢拉格出身，喀兰圣女，全谢拉格的宗教领袖。运用神赐的圣铃，呼唤风雪的力量。现通过保密途径来到罗德岛，具体担任事务与驻留时间不便公开。",
       archive1 = "喀兰圣女、神启者、应被称颂者......这样那样的称号，都只属于初雪一人。作为整个谢拉格地方宗教至高无上的权首，她拥有着一系列特权，即使是她的哥哥，谢拉格名义上的最高长官银灰，在公开场合见到她时也必须合掌行礼。她是那样的尊贵，她是那样的完美，她是那样的神圣，整个谢拉格，皆因她的存在而荣耀。可是，她心中的苦痛，又有谁知道呢？",
       archive2 = "选拔圣女的仪式，无疑是神圣而残酷的。当前代圣女驾崩后，当年适龄的少女将要全数进入选圣祠，只有被当日祠中第一滴融化的雪水击中，才有成为圣女的资格。在那之后，受选者要拿着试炼铃从选圣祠出发，沿着天路前往山上的神居，直到把试炼铃挂在铃架上才算结束，途中，一定要遵守三步一颔首五步一摇铃的准则，违者将失去成为圣女的资格，新的受选者则从第二日的融雪中产生。由于天路漫漫，整个选拔其实极为严苛，一些人直接放弃，另一些则倒在了天路两旁，只有体质优良，精力充沛，信仰虔诚且受到神灵眷顾的人，才有机会成为圣女。",
-      archive3 = "除了蔓珠院的长老团外，初雪还要应付教团的日常俗事，前来会面的政治人物，各式各样的会议祭典与无穷无尽的经文解读。太多太多的事物，压得她喘不过气来。也正因如此，她会想法设法放松自己，到那时，她会卸下身上的重担，显露出自己真正的本性。",
-      archive4 = "如果没有成为圣女，她或许会留在希瓦艾什家的老宅中，摆弄自己喜爱的织物，抿一口香茶，然后看上一下午的书。但是，她的哥哥做出了那样的决定，她妥协了，两人也从此决裂了，即使是血亲，也无法弥补她对银灰的失望。从那以后，除了公众场合的问候外，两人再也没有一句交谈。",
+      archive3 = "除了蔓珠院的长老团外，初雪还要应付教团的日常俗事，前来会面的政治人物，各式各样的会议祭典与无穷无尽的经文解读。太多太多的事务，压得她喘不过气来。也正因如此，她会想法设法放松自己，到那时，她会卸下身上的重担，显露出自己真正的本性。",
+      archive4 = "如果没有成为圣女，她或许会留在希瓦艾什家的老宅中，摆弄自己喜爱的织物，抿一口香茶，然后看上一下午的书。但是，她的哥哥作出了那样的决定，她妥协了，两人也从此决裂了，即使是血亲，也无法弥补她对银灰的失望。从那以后，除了公众场合的问候外，两人再也没有一句交谈。",
       token = "初雪的铃，乃是神赐的圣铃，根据传说，铃音能够召唤冰雪熄灭火焰，冷却整个世界。现实中虽然没有这样夸张，但作为武器仍旧比普通法杖要强上不少。需要注意的是，摇动圣铃时必须配上相应的祷词，如果摇铃不发声，持铃人会被冻成冰块，若是乱念一气，法术就会实打实作用在持铃人自己身上，可以说，除了初雪，别人根本无法使用。",
     },
     bio = {

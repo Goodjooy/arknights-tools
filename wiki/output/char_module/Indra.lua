@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-tiger-1.png",
-      name = "Armor-crushing Fist",
+      name = "碎甲拳",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals +<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>/<span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>140%</span> damage and ignores <span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span> of enemy defense",
+      description = "下次攻击的攻击力<span style='color:#0098DC;'>+50%<span>/</span>80%<span>/</span>110%<span>/</span>140%</span>，无视目标防御<span style='color:#0098DC;'>35%<span>/</span>40%<span>/</span>45%<span>/</span>60%</span>",
       sp = { 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-tiger-2.png",
-      name = "Soul Rend",
+      name = "裂魂",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>120%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span> of the damage dealt",
+      description = "攻击力<span style='color:#0098DC;'>+45%<span>/</span>60%<span>/</span>75%<span>/</span>120%</span>，伤害类型变为<span style='color:#0098DC;'>法术</span>，每次攻击恢复相当于造成伤害<span style='color:#0098DC;'>10%<span>/</span>15%<span>/</span>20%<span>/</span>25%</span>的生命",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -283,25 +283,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Has 15% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%",
+          description = "Has 15% chance to evade melee physical attacks. After a successful evade, the next attack has +80% Attack power",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "Has 18% (+3%) chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +80%",
+          description = "Has 18% (+3%) chance to evade melee physical attacks. After a successful evade, the next attack has +80% Attack power",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Has 30% chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +100%",
+          description = "Has 30% chance to evade melee physical attacks. After a successful evade, the next attack has +100% Attack power",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Has 33% (+3%) chance to evade melee physical attacks. After a successful evade, increase the Attack power of the next attack by +100%",
+          description = "Has 33% (+3%) chance to evade melee physical attacks. After a successful evade, the next attack has +100% Attack power",
         },
       }
     },
@@ -323,11 +323,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Clue Collection·α",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "When stationed at Reception, clue collection speed +10%"
+      description = "undefined"
     },
   },
   meta = {

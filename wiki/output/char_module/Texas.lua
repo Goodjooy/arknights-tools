@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-3.png",
-      name = "Assault Order·Type γ",
+      name = "冲锋号令·γ型",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span> cost",
+      description = "立即获得<span style='color:#0098DC;'>12<span>/</span>12<span>/</span>12<span>/</span>12</span>点部署费用",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-texas-2.png",
-      name = "Sword Rain",
+      name = "剑雨",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>12</span> cost. Deal <span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>170%</span> magical damage twice to all nearby enemies and stun them for <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>3</span> seconds",
+      description = "立即获得<span style='color:#0098DC;'>9<span>/</span>10<span>/</span>11<span>/</span>12</span>点费用；对周围所有敌人造成<span style='color:#0098DC;'>两次</span>相当于攻击力<span style='color:#0098DC;'>105%<span>/</span>120%<span>/</span>135%<span>/</span>170%</span>的法术伤害，并令击中目标晕眩<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>3</span>秒",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -311,18 +311,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Resentment",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed together with Lappland at the same Trade Station, mood reduction per hour +0.3 and order acquisition efficiency +65%"
+      description = "undefined"
     },
     {
-      name = "Good Chemistry",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite2",
-      description = "When stationed together with Exusiai at the same Trade Station, mood reduction per hour -0.3"
+      description = "undefined"
     },
   },
   meta = {

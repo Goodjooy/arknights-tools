@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skchr-kroos-1.png",
-      name = "Consecutive Shot·Auto",
+      name = "二连射·自动",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack hits <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/ times, with each hit dealing <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>140%</span>/ physical damage",
+      description = "下次攻击时连续射击<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span></span>次，每次射击造成相当于攻击力<span style='color:#0098DC;'>100%<span>/</span>120%<span>/</span>140%<span>/</span></span>的物理伤害",
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -210,25 +210,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When attacking, 10% chance to increase Attack power increases to 150%",
+          description = "When attacking, 10% chance to increase Attack to 150%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "When attacking, 10% chance to increase Attack power increases to 160% (+10%)",
+          description = "When attacking, 10% chance to increase Attack to 160% (+10%)",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "When attacking, 20% chance to increase Attack power increases to 150%",
+          description = "When attacking, 20% chance to increase Attack to 150%",
         },
         {
           elite = 1,
           level = 55,
           potential = 4,
-          description = "When attacking, 20% chance to increase Attack power increases to 160% (+10%)",
+          description = "When attacking, 20% chance to increase Attack to 160% (+10%)",
         },
       }
     },
@@ -250,18 +250,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Slow Starter",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, production +15% for the first hour. Thereafter, increase by +2% every hour, capping at +25%"
+      description = "undefined"
     },
     {
-      name = "Solitude",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
+      description = "undefined"
     },
   },
   meta = {
@@ -273,8 +273,8 @@ return {
       resume = "来自雷姆必拓的克洛丝跟芬和米格鲁一样，之前受训于哥伦比亚霍尔姆加德警备队。性格冷静客观，脸上永远挂着笑容，性子慢，圆滑而温和，但是偶尔也会露出毒舌腹黑的一面。",
       archive1 = "讨厌麻烦的克洛丝为了减少在战场上的行动量，选择了现代弩作为自己的武器。怕麻烦的人总会费尽心思让自己远离麻烦，经过了努力之后的克洛丝可以灵活地配合其他干员从背后精准的狙击敌人。",
       archive2 = "从小性格就不愿意强出头的克洛丝，在训练中显露出了与众不同的射击天赋。当克洛丝在战场上寻找到了优势地形，她会使用擅长的弩，从队友的掩护中抓住每一次射击的机会。是芬和米格鲁信任的射击担当。事实证明，克洛丝也并没有让信任她的人失望过。",
-      archive3 = "在警备队的时期，克洛丝总之笑嘻嘻的面对一切，但是在感染了矿石病、受到了歧视的时候，克洛丝一改常态的情绪爆发。将警备队的人员暴风般的怒骂了一通之后，与芬以及米格鲁一起离开。为了给三人找寻生存下去的办法，克洛丝偷偷的四处搜集情报，找到了名为罗德岛，找到了新的归宿。",
-      archive4 = "总是笑嘻嘻的克洛丝会给人留下很亲和的印象，但是其实她特别的怕麻烦。喜欢找个安静的地方一个人默默的睡觉偷懒。 虽然总是一副慢性子、事不关己的样子，但是涉及到一些在意的事情的时候却会性情大变，变得毒舌起来。虽然其实偶尔说话的时候也会表现出一点点的腹黑就是了。对付芬很有一套，反而比较不会应付米格鲁，会受不了米格鲁的单纯的眼神。",
+      archive3 = "在警备队的时期，克洛丝总是笑嘻嘻地面对一切，但是在感染了矿石病、受到了歧视的时候，克洛丝一改常态地情绪爆发。将警备队的人员暴风般地怒骂了一通之后，与芬以及米格鲁一起离开。为了给三人找寻生存下去的办法，克洛丝偷偷地四处搜集情报，找到了名为罗德岛的新归宿。",
+      archive4 = "总是笑嘻嘻的克洛丝会给人留下很亲和的印象，但是其实她特别的怕麻烦。喜欢找个安静的地方一个人默默地睡觉偷懒。 虽然总是一副慢性子、事不关己的样子，但是涉及到一些在意的事情的时候却会性情大变，变得毒舌起来。虽然其实偶尔说话的时候也会表现出一点点的腹黑就是了。对付芬很有一套，反而比较不会应付米格鲁，会受不了米格鲁的单纯的眼神。",
       token = "",
     },
     bio = {

@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-3.png",
-      name = "Attack Strengthening·Type γ",
+      name = "攻击力强化·γ型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>100%</span>",
+      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>100%</span>",
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-platnm-2.png",
-      name = "Pegasus Sight",
+      name = "天马视域",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>100%</span>, Increase attack range. Infinite duration",
+      description = "攻击速度略微<span style='color:#FF6237;'>降低</span>，但攻击力<span style='color:#0098DC;'>+50%<span>/</span>60%<span>/</span>70%<span>/</span>100%</span>，攻击范围<span style='color:#0098DC;'>扩大</span>\n<span style='color:#F49800;'>持续时间无限</span>",
       sp = { 70, 69, 68, 67, 66, 65, 63, 59, 55, 50 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -283,25 +283,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 140%）",
+          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack 140%)",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 150% (+10%)）",
+          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack 150% (+10%))",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 180%）",
+          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack 180%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack power 190% (+10%)）",
+          description = "The longer the interval since the last attack, the higher the Attack power of the next attack (Maximum 2.5 seconds, Attack 190% (+10%))",
         },
       }
     },
@@ -323,11 +323,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Sniper Specialization·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "When stationed at the Training Station, reduce the skill training time of Sniper operatives by -30%"
+      description = "undefined"
     },
   },
   meta = {

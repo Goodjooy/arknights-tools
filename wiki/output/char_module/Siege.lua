@@ -147,31 +147,31 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-3.png",
-      name = "Assault Order·Type γ",
+      name = "冲锋号令·γ型",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span>/<span style='color:#0098DC;'>12</span> cost",
+      description = "立即获得<span style='color:#0098DC;'>12<span>/</span>12<span>/</span>12<span>/</span>12</span>点部署费用",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-siege-2.png",
-      name = "Leaping Hammer",
+      name = "跃空锤",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals <span style='color:#0098DC;'>220%</span>/<span style='color:#0098DC;'>250%</span>/<span style='color:#0098DC;'>280%</span>/<span style='color:#0098DC;'>340%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>3</span>/<span style='color:#F49800;'>3</span> charge(s)",
+      description = "下次攻击对四周所有敌人造成相当于攻击力<span style='color:#0098DC;'>220%<span>/</span>250%<span>/</span>280%<span>/</span>340%</span>的物理伤害，并获得<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>3</span>点部署费用\n<span style='color:#F49800;'>可充能1<span>/</span>2<span>/</span>3<span>/</span>3次</span>",
       sp = { 12, 12, 12, 11, 11, 11, 11, 10, 10, 10 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-siege-3.png",
-      name = "Skull Crusher",
+      name = "碎颅击",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Increase attack interval, every attack deals <span style='color:#0098DC;'>260%</span>/<span style='color:#0098DC;'>290%</span>/<span style='color:#0098DC;'>320%</span>/<span style='color:#0098DC;'>380%</span> damage and has <span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>40%</span> chance to stun the target for {attack@stun} seconds",
+      description = "攻击间隔<span style='color:#FF6237;'>增大</span>，攻击时攻击力提高至<span style='color:#0098DC;'>260%<span>/</span>290%<span>/</span>320%<span>/</span>380%</span>，并且有<span style='color:#0098DC;'>40%<span>/</span>40%<span>/</span>40%<span>/</span>40%</span>的概率击晕目标<span style='color:#0098DC;'>0.5<span>/</span>0.8<span>/</span>1.1<span>/</span>1.5</span>秒",
       sp = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
       duration = { 15, 16, 17, 18, 19, 20, 21, 22, 23, 25 },
     },
@@ -298,36 +298,36 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "All 【Vanguard】 operatives gain Attack power and Defense power +4%",
+          description = "When deployed, all 【Vanguard】 operatives gain Attack and Defense +4%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "All 【Vanguard】 operatives gain Attack power and Defense power +6% (+2%)",
+          description = "When deployed, all 【Vanguard】 operatives gain Attack and Defense +6% (+2%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "All 【Vanguard】 operatives gain Attack power and Defense power +8%",
+          description = "When deployed, all 【Vanguard】 operatives gain Attack and Defense +8%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "All 【Vanguard】 operatives gain Attack power and Defense power +10% (+2%)",
+          description = "When deployed, all 【Vanguard】 operatives gain Attack and Defense +10% (+2%)",
         },
       }
     },
     {
-      name = "Obliterate",
+      name = "King of Beasts",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Obtain 1 SP when an enemy dies within the adjacent 4 tiles",
+          description = "When deployed, all 【Vanguard】 operatives gain Attack and Defense +4%",
         },
       }
     },
@@ -349,11 +349,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Leader",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
+      description = "undefined"
     },
   },
   meta = {

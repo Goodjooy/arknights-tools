@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-moeshd-1.png",
-      name = "Automatic Defense",
+      name = "自动防御",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Defense power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>70%</span>, Talent effect increased to <span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>140%</span>/<span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>200%</span>. Automatic activation",
+      description = "防御力<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>70%</span>，天赋效果<span style='color:#0098DC;'>提升至110%<span>/</span>140%<span>/</span>170%<span>/</span>200%</span>\n<span style='color:#F49800;'>技能自动开启</span>",
       sp = { 30, 29, 28, 27, 26, 25, 24, 23, 22, 20 },
       duration = { 20, 20, 20, 23, 23, 23, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-moeshd-2.png",
-      name = "Magnetic Hammer",
+      name = "磁爆锤",
       recharge = "",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Push away nearby enemies with huge force and stun them for {stun} seconds, dealing <span style='color:#0098DC;'>240%</span>/<span style='color:#0098DC;'>300%</span>/<span style='color:#0098DC;'>360%</span>/<span style='color:#0098DC;'>480%</span> physical damage",
+      description = "将周围敌人<span style='color:#0098DC;'>大力地</span>弹开并击晕<span style='color:#0098DC;'>2.5<span>/</span>3<span>/</span>3.5<span>/</span>4</span>秒，造成相当于攻击力<span style='color:#0098DC;'>240%<span>/</span>300%<span>/</span>360%<span>/</span>480%</span>的物理伤害",
       sp = { 22, 22, 22, 21, 21, 21, 20, 19, 18, 17 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -323,11 +323,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Penguin Logistics·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
+      description = "undefined"
     },
   },
   meta = {
@@ -338,7 +338,7 @@ return {
     records = {
       resume = "企鹅物流员工，于合约期内任企鹅物流驻罗德岛外派干员。 擅长防守，能同时牵制数个敌人，并拥有怪力，能用巨锤轻松击飞瘦弱的敌人。",
       archive1 = "充满活力的信使少女。<br>认为工作的目标就是为了提高生活品质和买买买，全心享受着现代生活。<br>对金钱并不执着，但因为总是入不敷出，所以总是在寻找着赚钱的机会，经常能看到她在基地内摆摊的身影。",
-      archive2 = "信使的工作通常分为两种，一种是传递信件或者信息，另一种则是传递货物。<br>前者需要速度，而后者，则往往需要力气和耐性。在企鹅物流中，可颂小姐显然主要负责后一种的信使工作。<br>而且，需要指出的是，即使作为丰蹄，可颂小姐的怪力也是惊人的，她能够单手挥舞那把几十公斤的磁暴锤，另一只手还能使用重盾，这对她来说是如同呼吸一样简单的事。",
+      archive2 = "信使的工作通常分为两种，一种是传递信件或者信息，另一种则是传递货物。<br>前者需要速度，而后者，则往往需要力气和耐性。在企鹅物流中，可颂小姐显然主要负责后一种的信使工作。<br>而且，需要指出的是，即使作为丰蹄，可颂小姐的怪力也是惊人的。她能够单手挥舞那把几十公斤的磁暴锤，另一只手还能使用重盾，这对她来说是如同呼吸一样简单的事。",
       archive3 = "企鹅物流虽然规模不大，但在龙门之中拥有相当的灰色地位，和各方都有所接触。<br>因此，利用了这些渠道来收集货物的可颂小姐，她不定时开张的店铺事实上是不容小觑的。说不定在其中，就能发现一些不得了的东西。<br>——当然，如果真的有的话，最好不要让可颂小姐察觉，不然的话，她可不会在价格上客气。",
       archive4 = "即使成为了干员，可颂小姐也完全不打算放弃她在日常生活中的兴趣爱好。<br>她知道成为干员后要面临许多前所未有的危险，她也知道成为干员后会遇到很多笑不出来的事，她没有忽视这些，而是在此之上，她依然会是那个精打细算的都市少女。<br>这或许只是温室中花朵的初生牛犊不怕虎，但罗德岛吸收民间干员的本意，也绝不是出于想让他们认识到世界的残酷这样愚蠢的理由。倒不如说，罗德岛之中已经有太多不幸的人，需要有可颂小姐这样可爱的人去告诉他们，幸福而正常的生活是什么样的。<br>当然，不幸的人或许会去仇恨幸福的人，但这种事，至少绝不会发生在罗德岛之中。",
       token = "",

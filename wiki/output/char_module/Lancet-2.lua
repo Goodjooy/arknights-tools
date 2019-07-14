@@ -127,27 +127,27 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Backup Generator",
+      name = "undefined",
       badge = "power",
       facility = "Power Plant",
       unlockIcon = "elite0",
-      description = "When stationed at a Power Station, drone recovery per hour +10%"
+      description = "undefined"
     },
     {
-      name = "Medical Service",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.65 per hour (When stacked, only the highest effect becomes active)"
+      description = "undefined"
     },
   },
   meta = {
     illustrator = "TOKI",
-    voiceActor = "",
+    voiceActor = "下田麻美",
   },
   profile = {
     records = {
-      resume = "Lancet-2是可露希尔客制化后的雷神存在者™S Typer 62六轮作业平台， 圆形的外观让人觉得很可爱所以成为了某种意义上的吉祥物。虽然她说话有时候很消极，但是大家都很喜欢她。<br>Lancet-2经过了可露希尔的改造后使她能够应对更多的罗德岛内的医疗场合，其器械设备也将更注重消毒和源石污染。",
+      resume = "Lancet-2是可露希尔客制化后的雷神存在者™S Typer 62六轮作业平台， 圆形的外观让人觉得很可爱所以成为了某种意义上的吉祥物。虽然她说话有时候很消极，但是大家都很喜欢她。<br>Lancet-2在经过可露希尔的改造后，得以满足更多罗德岛内的医疗需求，其器械设备也更注重于消毒和应对源石污染。",
       archive1 = "对可露希尔改造自己比较在意，被设置成了最喜欢的东西是可露希尔，所以搞不懂为什么自己要喜欢可露希尔。可露希尔觉得她的性格偏向消极很有趣，便强化了她这些自嘲性格词条的使用频率。",
       archive2 = "",
       archive3 = "",
@@ -204,7 +204,7 @@ return {
     cn032 = "没关系我们已经暂时撤退了。那个......接下我要清创，可能会有点痛，请忍住哦。",
     cn033 = "“可爱的可露希尔姐姐”说这里需要帮忙。",
     cn034 = "啊啊啊......",
-    cn036 = "我曾经找“可爱的可露希尔姐姐”,要求修改我“最喜欢的东西”变成博士你。但是她死活都不愿意......",
+    cn036 = "我曾经找“可爱的可露希尔姐姐”，要求修改我“最喜欢的东西”变成博士你。但是她死活都不愿意......",
     cn037 = "明日方舟。",
     cn042 = "欢迎回来，博士。你的身体状况良好，要继续保持哦。",
   },

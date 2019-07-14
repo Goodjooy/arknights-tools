@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-gravel-1.png",
-      name = "Shadow Raid",
+      name = "影袭",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "Defense power +<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>270%</span>/<span style='color:#0098DC;'>340%</span>/<span style='color:#0098DC;'>400%</span> after deploying, effect weakens over <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>12</span> seconds",
+      description = "部署后防御力<span style='color:#0098DC;'>+200%<span>/</span>270%<span>/</span>340%<span>/</span>400%</span>，在<span style='color:#0098DC;'>6<span>/</span>7<span>/</span>8<span>/</span>12</span>秒内持续衰减",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-gravel-2.png",
-      name = "Rat Pack",
+      name = "鼠群",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>140%</span>/<span style='color:#0098DC;'>180%</span>/<span style='color:#0098DC;'>250%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span> seconds",
+      description = "部署后获得可吸收相当于自己最大生命<span style='color:#0098DC;'>100%<span>/</span>140%<span>/</span>180%<span>/</span>250%</span>的护盾，该护盾会在<span style='color:#0098DC;'>10<span>/</span>10<span>/</span>10<span>/</span>10</span>秒内持续衰减",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -284,13 +284,13 @@ return {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Self deployment cost -1, All operatives with 10 or less cost gain Defense power +6%",
+          description = "Self deployment cost -1, All operatives with 10 or less cost gain Defense +6%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Self deployment cost -1, All operatives with 10 or less cost gain Defense power +8% (+2%)",
+          description = "Self deployment cost -1, All operatives with 10 or less cost gain Defense +8% (+2%)",
         },
       }
     },
@@ -312,18 +312,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Focus·α",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 40%"
+      description = "undefined"
     },
     {
-      name = "Metal Crafts·β",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "When stationed at a Craft Station, increase production of precious metals by +35%"
+      description = "undefined"
     },
   },
   meta = {

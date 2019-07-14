@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-1.png",
-      name = "Powerful Strike·Type α",
+      name = "强力击·α型",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals <span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>190%</span>/ damage",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>150%<span>/</span>170%<span>/</span>190%<span>/</span></span>",
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -210,13 +210,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Attack power +3%, prioritize attacking the enemy with the highest defense",
+          description = "Attack +3%, prioritize attacking the enemy with the highest Defense",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "Attack power +6%, prioritize attacking the enemy with the highest defense",
+          description = "Attack +6%, prioritize attacking the enemy with the highest Defense",
         },
       }
     },
@@ -238,18 +238,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Negotiation",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order limit +3 and mood reduction per hour -0.25"
+      description = "undefined"
     },
     {
-      name = "Standardization·β",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "When stationed at a Craft Station, production +25%"
+      description = "undefined"
     },
   },
   meta = {
@@ -260,7 +260,7 @@ return {
     records = {
       resume = "史都华德，行动预备组A4组员，谢拉格公民，正式任职前为自由职业者。于多项测试中获得优异成绩，遂获准加入罗德岛，现于罗德岛行动预备组A4小组任职。<br>在法术支援、确认路径、支援作战等项目中展现出值得期待的潜力。",
       archive1 = "史都华德出生于谢拉格南部领地，在双亲的教育下度过了童年时代。他流露出与同龄玩伴截然不同的沉稳气质，并初步展现出对源石法术的一定天赋。但鉴于雪境的环境与研读源石法术所需的高昂费用，一度使史都华德任由自己的法术天赋掩埋在谢拉格无尽的风雪中。",
-      archive2 = "谢拉格南领地长期作为谢拉格地区的出口，在银灰家族颁布新经济政策刺激下，由哥伦比亚、莱塔尼亚、雷姆必拓的商人们启动了数次投资计划。在此期间，史都华德主动申请成为各国商人开展商业活动的向导与本地服务人员，并作为商品展示模特等多种工作。来自哥伦比亚的崭新商品使史都华德感到印象深刻。而史都华德的优良服务亦使商人们为此交口称赞。",
+      archive2 = "谢拉格南领地长期作为谢拉格地区的出口，在银灰家族颁布新经济政策刺激下，由哥伦比亚、莱塔尼亚、雷姆必拓的商人们启动了数次投资计划。在此期间，史都华德主动申请成为各国商人开展商业活动的向导与本地服务人员，并兼任商品展示模特等多种工作。来自哥伦比亚的崭新商品使史都华德感到印象深刻。而史都华德的优良服务亦使商人们为此交口称赞。",
       archive3 = "雪蓝短法杖<br>品质认证：莱塔尼亚法术协会监制<br>生产商：鲁道夫兄弟短杖设计工作室<br>产品编号：ADD-143.<br>史都华德使用的雪蓝色法杖。<br>术师开始熟练掌握法术技巧的证明，把柄处篆刻有“Legendary future”字样。<br>使用它释放法术时，耳边仿佛能听到谢拉格风雪的呼啸。",
       archive4 = "",
       token = "",

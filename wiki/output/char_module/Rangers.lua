@@ -75,7 +75,7 @@ return {
           elite = 0,
           level = 30,
           potential = 0,
-          description = "When attacking flying targets, Attack power +50%",
+          description = "When attacking flying targets, Attack +50%",
         },
       }
     },
@@ -97,18 +97,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "HR Management·α",
+      name = "undefined",
       badge = "hr",
       facility = "HR Office",
       unlockIcon = "elite0",
-      description = "When stationed at Human Resource, accumulation of networking resources +20%"
+      description = "undefined"
     },
     {
-      name = "Skilled Craftsman",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%"
+      description = "undefined"
     },
   },
   meta = {

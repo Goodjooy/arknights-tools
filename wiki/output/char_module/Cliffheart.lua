@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-slchan-1.png",
-      name = "Chain Hook",
+      name = "锁链勾爪",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack will pull the enemy towards self with large force, dealing <span style='color:#0098DC;'>115%</span>/<span style='color:#0098DC;'>125%</span>/<span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>180%</span> magical damage",
+      description = "下次攻击会将目标<span style='color:#0098DC;'>较大力地</span>拖拽至面前，并对其造成相当于攻击力<span style='color:#0098DC;'>115%<span>/</span>125%<span>/</span>135%<span>/</span>180%</span>的<span style='color:#0098DC;'>法术伤害</span>",
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-slchan-2.png",
-      name = "Binding Chain",
+      name = "束缚链",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately pull up to <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>3</span> enemies from a large area ahead towards self with large force, dealing <span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>200%</span> damage that ignores defense and magic resistance and stuns them for {stun} seconds",
+      description = "立即将前方大范围内至多<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>3</span>个目标<span style='color:#0098DC;'>较大力地</span>拖拽至面前，对其造成相当于自己攻击力<span style='color:#0098DC;'>130%<span>/</span>150%<span>/</span>170%<span>/</span>200%</span>的<span style='color:#0098DC;'>无视防御与法术抗性</span>的伤害，并使其晕眩<span style='color:#0098DC;'>1.5<span>/</span>1.5<span>/</span>1.5<span>/</span>3</span>秒",
       sp = { 25, 24, 23, 22, 21, 20, 19, 18, 17, 15 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -283,25 +283,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When not blocking any enemies, Attack power and Defense power +6%",
+          description = "When not blocking any enemies, Attack and Defense +6%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "When not blocking any enemies, Attack power and Defense power +8% (+2%)",
+          description = "When not blocking any enemies, Attack and Defense +8% (+2%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When not blocking any enemies, Attack power and Defense power +12%",
+          description = "When not blocking any enemies, Attack and Defense +12%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "When not blocking any enemies, Attack power and Defense power +14% (+2%)",
+          description = "When not blocking any enemies, Attack and Defense +14% (+2%)",
         },
       }
     },
@@ -323,18 +323,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Explorer's Enthusiasm",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.25 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.5"
+      description = "undefined"
     },
     {
-      name = "Karlan Trading·β",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite2",
-      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +2"
+      description = "undefined"
     },
   },
   meta = {

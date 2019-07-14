@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-1.png",
-      name = "Healing Strengthening·Type α",
+      name = "治疗强化·α型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>50%</span>/",
+      description = "攻击力<span style='color:#0098DC;'>+10%<span>/</span>30%<span>/</span>50%<span>/</span></span>",
       sp = { 40, 40, 40, 35, 35, 35, 30 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -210,13 +210,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Attack power +4%",
+          description = "Attack +4%",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "Attack power +8%",
+          description = "Attack +8%",
         },
       }
     },
@@ -238,18 +238,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Empathetic",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
+      description = "undefined"
     },
     {
-      name = "Nutriology",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 70%"
+      description = "undefined"
     },
   },
   meta = {
@@ -258,8 +258,8 @@ return {
   },
   profile = {
     records = {
-      resume = "生于维多利亚的伦蒂尼姆，干员炎熔的孪生姐姐。因为感染了矿石病来到了罗德岛。在接收救治的过程中，萌生了希望自己也能帮助大家的想法。天生就擅长照顾他人的性格和努力帮助芙蓉顺利的成为了罗德岛的医师。",
-      archive1 = "出身在伦蒂尼姆的芙蓉，从小就是周围的邻居们都很喜欢的孩子。她体贴、勤快、礼貌、谦虚，而且特别善于照顾他人。虽然在外人看起来，炎熔不是很喜欢搭理芙蓉，两姐妹的关系好像不怎么样。但是其实芙蓉也很清楚，炎熔只是不善于表达这<br>样的感情罢了。",
+      resume = "生于维多利亚的伦蒂尼姆，干员炎熔的孪生姐姐。因为感染了矿石病来到了罗德岛。在接受救治的过程中，萌生了希望自己也能帮助大家的想法。天生就擅长照顾他人的性格和努力帮助芙蓉顺利地成为了罗德岛的医师。",
+      archive1 = "出身在伦蒂尼姆的芙蓉，从小就是周围的邻居们都很喜欢的孩子。她体贴、勤快、礼貌、谦虚，而且特别善于照顾他人。虽然在外人看起来，炎熔不是很喜欢搭理芙蓉，两姐妹的关系好像不怎么样。但是其实芙蓉也很清楚，炎熔只是不善于表达这样的感情罢了。",
       archive2 = "在两姐妹感染了矿石病之后，芙蓉带着炎熔离开了父母来到了罗德岛。内心坚强的芙蓉决定，一定要在罗德岛努力，为了妹妹和自己，为了远在他乡的父母，也为了其他的所有感染者。",
       archive3 = "因为炎熔老是不听自己的，所以芙蓉从小就养成了强硬的态度。“这些营养餐都是为了你的身体好所以你要每天都吃”“这些零食有害健康我已经丢掉了”“10点半了快睡觉！”难怪炎熔总是不擅长应付自己的姐姐，周围的大家都默默地这么想着。",
       archive4 = "",

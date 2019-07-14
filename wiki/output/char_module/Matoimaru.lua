@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-heal-self-2.png",
-      name = "Health Recovery·Type β",
+      name = "生命回复·β型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately recover <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span> of Max HP",
+      description = "立即恢复最大生命的<span style='color:#0098DC;'>20%<span>/</span>30%<span>/</span>40%<span>/</span>50%</span>",
       sp = { 30, 29, 28, 27, 26, 25, 24, 23, 22, 20 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-gyuki-2.png",
-      name = "Demon Strength",
+      name = "恶鬼之力",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>90%</span>/<span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>150%</span>",
+      description = "防御力<span style='color:#FF6237;'>降至0</span>，攻击力<span style='color:#0098DC;'>+75%<span>/</span>90%<span>/</span>105%<span>/</span>150%</span>",
       sp = { 35, 35, 35, 32, 32, 32, 29, 28, 27, 25 },
       duration = { 10, 10, 10, 11, 11, 11, 12, 13, 14, 15 },
     },
@@ -278,13 +278,13 @@ return {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Defense power -20%, however Max HP+20%",
+          description = "Defense -20%, however Max HP +20%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Defense power -20%, however Max HP+23% (+3%)",
+          description = "Defense -20%, however Max HP +23% (+3%)",
         },
       }
     },
@@ -306,18 +306,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Skill Theory",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing skill materials, increase the rate of by-products by 70%"
+      description = "undefined"
     },
     {
-      name = "Order Distribution·β",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
+      description = "undefined"
     },
   },
   meta = {

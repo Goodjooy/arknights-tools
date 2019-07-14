@@ -147,31 +147,31 @@ return {
   skills = {
     {
       icon = "skchr-shining-1.png",
-      name = "Creed",
+      name = "信条",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>58%</span>/<span style='color:#0098DC;'>67%</span>/<span style='color:#0098DC;'>80%</span>, Attack speed +<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>20</span>/<span style='color:#0098DC;'>20</span>",
+      description = "攻击力<span style='color:#0098DC;'>+45%<span>/</span>58%<span>/</span>67%<span>/</span>80%</span>，攻击速度<span style='color:#0098DC;'>+10<span>/</span>10<span>/</span>20<span>/</span>20</span>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
     {
       icon = "skchr-shining-2.png",
-      name = "Automatic Cover",
+      name = "自动掩护",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>28%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>. Can hold <span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>3</span> charge(s)",
+      description = "下次治疗使目标获得一个持续<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>3<span>/</span>3</span>秒的护盾\n护盾可以吸收相当于闪灵攻击力<span style='color:#0098DC;'>20%<span>/</span>28%<span>/</span>35%<span>/</span>50%</span>的伤害，同时使目标防御力<span style='color:#0098DC;'>+20%<span>/</span>25%<span>/</span>35%<span>/</span>50%</span>；<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>3次</span>",
       sp = { 8, 8, 8, 7, 7, 7, 7, 6, 6, 5 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-shining-3.png",
-      name = "Dogmatic Field",
+      name = "教条力场",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>100%</span>",
+      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>50%</span>\n攻击范围内的所有友方单位防御力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>100%</span>",
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
     },
@@ -298,54 +298,54 @@ return {
           elite = 0,
           level = 1,
           potential = 0,
-          description = "Allies within attack range gain Defense power +20",
+          description = "Allies within attack range gain Defense +20",
         },
         {
           elite = 0,
           level = 1,
           potential = 5,
-          description = "Allies within attack range gain Defense power +25 (+5)",
+          description = "Allies within attack range gain Defense +25 (+5)",
         },
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Allies within attack range gain Defense power +40",
+          description = "Allies within attack range gain Defense +40",
         },
         {
           elite = 1,
           level = 1,
           potential = 5,
-          description = "Allies within attack range gain Defense power +45 (+5)",
+          description = "Allies within attack range gain Defense +45 (+5)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Allies within attack range gain Defense power +60",
+          description = "Allies within attack range gain Defense +60",
         },
         {
           elite = 2,
           level = 1,
           potential = 5,
-          description = "Allies within attack range gain Defense power +65 (+5)",
+          description = "Allies within attack range gain Defense +65 (+5)",
         },
       }
     },
     {
-      name = "Codex",
+      name = "Black Devil's Protection",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Attack speed +10",
+          description = "Allies within attack range gain Defense +20",
         },
         {
           elite = 2,
           level = 1,
           potential = 2,
-          description = "Attack speed +13 (+3)",
+          description = "Allies within attack range gain Defense +25 (+5)",
         },
       }
     },
@@ -367,11 +367,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Empathetic",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
+      description = "undefined"
     },
   },
   meta = {
@@ -384,7 +384,7 @@ return {
       archive1 = "干员闪灵在医疗类源石技艺上有着极深厚的造诣。她为罗德岛医疗部门提供了大量成体系理论，使得罗德岛对此类源石技艺的认知向前推进了许多。<br>事实上，据干员闪灵称，这些源石技艺都是她与同僚开发出来缓解感染者的病痛的。她的悲悯与苦行感，令众多医疗干员与术师干员肃然起敬。<br>当然，研究发现，她所提供的源石技艺所能做到的，可能不止如此......正如战场报告所言，干员闪灵在战场上不仅能治疗干员们受到的伤害，她甚至能......字面意义上的，“庇护他们”，以源石技艺使他们免遭战火损伤。<br>具体原理，可能需要等待术师干员们进一步的研究才能得出阶段性结论。",
       archive2 = "传闻中，干员闪灵偶尔会在私人聚会中，表演一些奇特的源石技艺。据描述，温和的光辉在黑暗的房间里缓缓摇动，逐渐扩张，甚至在墙壁上飞舞、变色。罗德岛抚养的孩子们都对这种表演十分着迷。<br>区别于临光等干员所散发出的炽烈光芒，干员闪灵所带来的发光现象，近乎于有形的实体。<br>关于这种辉光究竟是什么构造，以及为何离开自己的族群、有着怎样的情感经历、如何看待萨卡兹在各个政治实体中的地位之类的提问，干员闪灵一概拒绝回答。",
       archive3 = "",
-      archive4 = "<br>“赦罪师”是萨卡兹们的一个神秘机构。有关这个机构的情报，即使是我也知之甚少。<br>实际上，闪灵绝不只是一个普通的萨卡兹流浪医者，她在初次见到阿米娅时的反应证明了这点：微小，但是明显。这在我们几人间已经是一个共识。<br>那么，她究竟站在哪一边？<br>“赦罪师”并不像她所说的那样，是个单纯医治萨卡兹的组织。如果再次被卷入所谓“赦罪师”所带来的风波，闪灵与我们之间的联系，是否紧密到足够让她袖手旁观，甚至与我们并肩作战？<br>她的过去与她的心灵一样深邃，要凭平常事物照亮根本无稽之谈。<br>也许只有博士这样能让闪灵放下大部分戒心的人，我们才有机会了解到她的真实想法。<br>毕竟能了解闪灵想法的人，我很肯定，绝不会向任何机构透露她的信息。<br><br>——凯尔希",
+      archive4 = "<br>“赦罪师”是萨卡兹们的一个神秘机构。有关这个机构的情报，即使是我也知之甚少。<br>实际上，闪灵绝不只是一个普通的萨卡兹流浪医者，她在初次见到阿米娅时的反应证明了这点：微小，但是明显。这在我们几人间已经是一个共识。<br>那么，她究竟站在哪一边？<br>“赦罪师”并不像她所说的那样，是个单纯医治萨卡兹的组织。如果再次被卷入所谓“赦罪师”所带来的风波，闪灵与我们之间的联系，是否紧密到足够让她袖手旁观，甚至与我们并肩作战？<br>她的过去与她的心灵一样深邃，要凭平常事物照亮根本无稽之谈。<br>也许只有靠博士这样能让闪灵放下大部分戒心的人，我们才有机会了解到她的真实想法。<br>毕竟能了解闪灵想法的人，我很肯定，绝不会向任何机构透露她的信息。<br><br>——凯尔希",
       token = "<br>闪灵小姐在医疗部门与凯尔希医生争执时宣称的言论，据说已经成为了许多医疗干员铭刻于心的准则。<br>“如果对于罗德岛来说，一位敬职可靠的干员十分重要；那么对于医者来说，一个珍惜自己性命的病人也是同样。”<br>在医治患者时，也要让患者理解生命的可贵，这可能也同样是许多医疗干员的心愿。<br>闪灵小姐不仅医治那些想要活下去的人，她还要伸出手去保护他们。对于她来说，医术和守护，也许根本就是同一条道路。",
     },
     bio = {

@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-prove-1.png",
-      name = "Wolf's Eye",
+      name = "狼眼",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "Increase damage to the target by +<span style='color:#0098DC;'>8%</span>/<span style='color:#0098DC;'>12%</span>/<span style='color:#0098DC;'>16%</span>/<span style='color:#0098DC;'>25%</span> for every <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>20%</span> HP the enemy loses",
+      description = "目标敌人的生命<span style='color:#0098DC;'>每降低20%<span>/</span>20%<span>/</span>20%<span>/</span>20%</span>，对其造成伤害时的攻击力<span style='color:#0098DC;'>+8%<span>/</span>12%<span>/</span>16%<span>/</span>25%</span>",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-prove-2.png",
-      name = "Slaughter Sense",
+      name = "杀戮嗅觉",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>145%</span>/<span style='color:#0098DC;'>160%</span>/<span style='color:#0098DC;'>220%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+      description = "攻击力<span style='color:#0098DC;'>+130%<span>/</span>145%<span>/</span>160%<span>/</span>220%</span>，但普通攻击不再以生命值高于<span style='color:#FF6237;'>80%</span>的敌人作为目标",
       sp = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
       duration = { 20, 20, 20, 25, 25, 25, 30, 31, 32, 35 },
     },
@@ -283,25 +283,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When attacking, 20% chance to increase Attack power to 140%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
+          description = "When attacking, 20% chance to increase Attack to 140%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "When attacking, 20% chance to increase Attack power to 150% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%",
+          description = "When attacking, 20% chance to increase Attack to 150% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When attacking, 20% chance to increase Attack power to 180%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
+          description = "When attacking, 20% chance to increase Attack to 180%. If the enemy is in the tile in front of Provence, the chance increases to 50%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "When attacking, 20% chance to increase Attack power to 190% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%",
+          description = "When attacking, 20% chance to increase Attack to 190% (+10%). If the enemy is in the tile in front of Provence, the chance increases to 50%",
         },
       }
     },
@@ -323,11 +323,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Disaster Messenger·α",
+      name = "undefined",
       badge = "hr",
       facility = "HR Office",
       unlockIcon = "elite0",
-      description = "When stationed at Human Resource, accumulation of networking resources +30%"
+      description = "undefined"
     },
   },
   meta = {

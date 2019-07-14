@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-frostl-1.png",
-      name = "Frosty Spear",
+      name = "寒霜枪刃",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals <span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>135%</span>/<span style='color:#0098DC;'>150%</span> physical damage and inflicts <span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-28%</span>/<span style='color:#0098DC;'>-35%</span>/<span style='color:#0098DC;'>-50%</span> movement speed to the target for {duration} seconds",
+      description = "下次攻击造成攻击力<span style='color:#0098DC;'>105%<span>/</span>120%<span>/</span>135%<span>/</span>150%</span>的物理伤害，令命中目标在<span style='color:#0098DC;'>1.5<span>/</span>2<span>/</span>2.5<span>/</span>3</span>秒内移动速度<span style='color:#0098DC;'>--20%<span>/</span>-28%<span>/</span>-35%<span>/</span>-50%</span>",
       sp = { 5, 5, 5, 4, 4, 4, 4, 3, 3, 3 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-frostl-2.png",
-      name = "Freezing Spear",
+      name = "凝冰枪刃",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack speed +<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>20</span>/<span style='color:#0098DC;'>35</span>/<span style='color:#0098DC;'>50</span>. Every attack inflicts <span style='color:#0098DC;'>-30%</span>/<span style='color:#0098DC;'>-36%</span>/<span style='color:#0098DC;'>-42%</span>/<span style='color:#0098DC;'>-50%</span> movement speed and has <span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>40%</span> chance to freeze the target (unable to move) for {debuff} seconds",
+      description = "攻击速度<span style='color:#0098DC;'>+5<span>/</span>20<span>/</span>35<span>/</span>50</span>；每次攻击使命中目标移动速度<span style='color:#0098DC;'>--30%<span>/</span>-36%<span>/</span>-42%<span>/</span>-50%</span>，并有<span style='color:#0098DC;'>15%<span>/</span>20%<span>/</span>25%<span>/</span>40%</span>的几率使其<span style='color:#0098DC;'>冻结（无法移动）1.5<span>/</span>1.5<span>/</span>1.5<span>/</span>2秒</span>",
       sp = { 60, 59, 58, 57, 56, 55, 54, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -278,7 +278,7 @@ return {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Increase attack range, however attack interval slightly increases",
+          description = "Increase attack range, however attack interval slightly increases (+0.15 seconds)",
         },
       }
     },
@@ -300,18 +300,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Solitude",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
+      description = "undefined"
     },
     {
-      name = "Combat Directive Recordings",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
+      description = "undefined"
     },
   },
   meta = {

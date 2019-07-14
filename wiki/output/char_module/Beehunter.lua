@@ -272,31 +272,31 @@ return {
   },
   talents = {
     {
-      name = "竞技专注",
+      name = "Athletics Focus",
       levels = {
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "攻击相同目标时每次攻击可提高自身攻击力3%，最多可叠加5层。更换目标会失去之前叠加的效果",
+          description = "When attacking the same target, every attack increases Attack by 3%, stacking up to 5 layers. Changing targets will reset the effect",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "攻击相同目标时每次攻击可提高自身攻击力4%<@ba.talpu>（+1%）</>，最多可叠加5层。更换目标会失去之前叠加的效果",
+          description = "When attacking the same target, every attack increases Attack by 4% (+1%), stacking up to 5 layers. Changing targets will reset the effect",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "攻击相同目标时每次攻击可提高自身攻击力5%，最多可叠加5层。更换目标会失去之前叠加的效果",
+          description = "When attacking the same target, every attack increases Attack by 5%, stacking up to 5 layers. Changing targets will reset the effect",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "攻击相同目标时每次攻击可提高自身攻击力6%<@ba.talpu>（+1%）</>，最多可叠加5层。更换目标会失去之前叠加的效果",
+          description = "When attacking the same target, every attack increases Attack by 6% (+1%), stacking up to 5 layers. Changing targets will reset the effect",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "近卫专精·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "进驻训练室协助位时，近卫干员的专精技能训练速度<span style='color:#0098DC;'>+30%</span>"
+      description = "undefined"
     },
     {
-      name = "特训记录",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>芯片</span>时，副产品的产出概率提升<span style='color:#0098DC;'>70%</span>"
+      description = "undefined"
     },
   },
   meta = {

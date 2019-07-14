@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-glassb-1.png",
-      name = "Absolute Focus",
+      name = "专心致志",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Massively reduce attack interval",
+      description = "攻击间隔<span style='color:#0098DC;'>极大幅度缩短</span>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-glassb-2.png",
-      name = "Literary Storm",
+      name = "文学风暴",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>75%</span>, Increase attack range, Attack 2 additional targets",
+      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>25%<span>/</span>30%<span>/</span>75%</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，额外攻击<span style='color:#0098DC;'>两</span>个目标",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 20, 20, 22, 22, 22, 25, 25, 25, 25 },
     },
@@ -283,13 +283,13 @@ return {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Defense power -35%, however Attack speed +18",
+          description = "Defense -35%, however Attack speed +18",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Defense power -35%, however Attack speed +21 (+3)",
+          description = "Defense -35%, however Attack speed +21 (+3)",
         },
       }
     },
@@ -311,18 +311,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Supporter Specialization·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "When stationed at the Training Station, reduce the skill training time of Supporter operatives by -30%"
+      description = "undefined"
     },
     {
-      name = "Staff",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite2",
-      description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Ursus Student Council"
+      description = "undefined"
     },
   },
   meta = {
@@ -332,8 +332,8 @@ return {
   profile = {
     records = {
       resume = "真理，切尔诺伯格事变前于切城某中学就读，在校期间多次向源石技艺相关杂志撰稿。知识领域：名家著作、推理文学、社会学期刊。<br>于多项测试中展现出优异的控制类源石技艺，获准作为实习辅助干员加入战斗，并为罗德岛提供信息与资料整理等相关服务。",
-      archive1 = "真理冷静而理智，只是有些轻度内向，她时常沉浸于自己喜欢的事物：钻研更加高深的源石技艺，研读最新的社会理论，观察各种人与人之间的复杂关系，以及好看的着装搭配。<br>在与乌萨斯学生团成员的们数次接触过程中，真理表现出了难得的沟通成效和肯定态度，并针对部分咨询提供了足够清晰有效的回答。目前可以确定的是，真理对罗德岛持有积极的趋向，可做为与乌萨斯学生们沟通积极因子。",
-      archive2 = "目前可知的是，“乌萨斯学生自治团”最初由真理提议组建。社团的建立帮助了乌萨斯学生们合力度过了最初的孤立与互信阶段。<br>在咨询中针对凛冬的若干提问，被真理敏锐地察觉并指出。真理认为干员凛冬虽然蛮横，但极为重视自治团的同伴，是一位称职的首领，只要在行动中加入自己提供的参考，那就更加完美了。<br>在提及干员凛冬面对博士的若干坦直言论，真理予以了否定的判断。真理认为凛冬不会成为罗德岛的不稳定因素。认为她的志向仅限于罗德岛吗，那样，未免太小瞧她了。",
+      archive1 = "真理冷静而理智，只是有些轻度内向，她时常沉浸于自己喜欢的事物：钻研更加高深的源石技艺，研读最新的社会理论，观察各种人与人之间的复杂关系，以及追求好看的着装搭配。<br>在与乌萨斯学生团成员们的数次接触过程中，真理表现出了难得的沟通成效和肯定态度，并针对部分咨询提供了足够清晰有效的回答。目前可以确定的是，真理对罗德岛持有积极交流的意向，可作为促进与乌萨斯学生们间沟通的积极因子。",
+      archive2 = "目前可知的是，“乌萨斯学生自治团”最初由真理提议组建。社团的建立帮助了乌萨斯学生们合力度过了最初的孤立与互信阶段。<br>在咨询中针对凛冬的若干提问，被真理敏锐地察觉并指出。真理认为干员凛冬虽然蛮横，但极为重视自治团的同伴，是一位称职的首领，只要在行动中加入自己提供的参考，那就更加完美了。<br>在提及干员凛冬时，面对博士的若干坦直言论，真理予以了否定的判断。真理认为凛冬不会成为罗德岛的不稳定因素。认为她的志向仅限于罗德岛吗，那样，未免太小瞧她了。",
       archive3 = "真理出生于乌萨斯帝国切尔诺伯格市，其父母均在本地机关任职。在学生社团浪潮此起彼伏的时间里，真理并未参与其中而选择了安静读书。不过在此期间，对嘈杂音乐和酒精饮料都不感兴趣的她，开始接触一些从莱塔尼亚和维多利亚流入的书籍。正是在这些书籍的帮助下，真理才真正懂得了，如何重新理解自己所知道的一切，以及自己即将知晓的一切。",
       archive4 = "唯独关于切尔诺伯格事变期间的行踪，真理用谦和而简洁的理由拒绝提供进一步透露，但过程中有数次表现出较为明显的情绪变化。基于罗德岛的现行方针与守密原则，对乌萨斯学生自治团的调查目前暂时中止。<br>基于对乌萨斯学生团的背景调查，基本可以判明对方未持有任何值得质疑的背景。因此，建议对乌萨斯学生们以心理疏通为主要沟通手段。依据学生团成员的适应与自主选择，提供未来可选的合作方式。<br>备注：基于干员真理对博士办公室藏书的极度渴求，建议授予其一定的阅读权限。",
       token = "",
@@ -365,7 +365,7 @@ return {
     cn003 = "凛冬、我，还有其他人，其实都不是同一所学校的学生。不过，每座学校里都流传着凛冬的传说，以及“冬将军”这个称号。您难道不觉得，这个称号很酷吗？冬将军，嗯嗯......",
     cn004 = "我们是怎么从切尔诺伯格逃出来的？唔嗯......请别问了，有些答案，您不会喜欢的。",
     cn005 = "哦，我正在读神秘小说......能从那次事件中存活下来，是因为这本书上的东西帮了我很大的忙。",
-    cn006 = "我最喜欢什么书？政治学、经济学、唯物辩证法......另外，烘培杂志之类的也不错。",
+    cn006 = "我最喜欢什么书？政治学、经济学、唯物辩证法......另外，烘焙杂志之类的也不错。",
     cn007 = "家？你是说，我们的故乡吗......已经，回不去了吧？您很清楚，那里已经什么都没有了。就算切尔诺伯格能够重建，我也......",
     cn008 = "罗德岛很安全，博士的办公室里又有很多很多书......如果可以的话，我不想离开这里......",
     cn009 = "将来该怎么办？嗯......不知道，因为没有哪本书会写这种事啊。希望未来能有个人告诉我吧......",

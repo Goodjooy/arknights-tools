@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skcom-def-up-1.png",
-      name = "Defense Strengthening·Type α",
+      name = "防御力强化·α型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Defense power +<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>50%</span>/",
+      description = "防御力<span style='color:#0098DC;'>+10%<span>/</span>30%<span>/</span>50%<span>/</span></span>",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -210,13 +210,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Defense power +5%",
+          description = "Defense +5%",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "Defense power +10%",
+          description = "Defense +10%",
         },
       }
     },
@@ -238,18 +238,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Warehouse Organization·α",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, storage capacity +6 and production +10%"
+      description = "undefined"
     },
     {
-      name = "Lively",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.4"
+      description = "undefined"
     },
   },
   meta = {
@@ -258,7 +258,7 @@ return {
   },
   profile = {
     records = {
-      resume = "行动预备组A1前卫队员。与芬以及克洛丝一起来到罗德岛。虽然有不成熟的一面，但是逐渐着也展现 出了专业和不认输的一面以及极强的天赋，慢慢的成为了被更多人认可的可靠干员。",
+      resume = "行动预备组A1前卫队员。与芬以及克洛丝一起来到罗德岛。虽然有不成熟的一面，但也逐渐展现出了专业和不认输的一面以及极强的天赋，慢慢成为了被更多人认可的可靠干员。",
       archive1 = "没有花哨的技巧和法术力，米格鲁会利用自己的耐力为身后队友树立起坚实的前卫防御。即使笨拙的自己，只要一直坚持这样的方向不停，就一定可以做得越来越好。事实证明，米格鲁的这个想法一点都没错。",
       archive2 = "在哥伦比亚外围警卫预备队的时光，既是米格鲁最辛苦的，也是最宝贵的回忆。为了弥补自身和其他正式成员的差距，芬和克洛丝陪着米格鲁从来没有松懈过。然而最后得知自己感染了矿石病的时候，米格鲁陷入了深深的自责。她觉得是自己拖累了芬和克洛丝，是自己害的大家都失去了机会，一切都是自己的错。",
       archive3 = "沉沦之际，芬和克洛丝都站在了米格鲁面前，一起面对了警备队的驱逐和流放。在克洛丝的推荐下，三人第一次来到了罗德岛。从那一天起，米格鲁在心中决定，要用自己的一切回报一直陪伴着她的芬和克洛丝以及身边的关心她的所有人。",

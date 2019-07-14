@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-2.png",
-      name = "Powerful Strike·Type β",
+      name = "强力击·β型",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals <span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>185%</span>/<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>230%</span> damage",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>170%<span>/</span>185%<span>/</span>200%<span>/</span>230%</span>",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-savage-2.png",
-      name = "Millisecond Blasting",
+      name = "微差爆破",
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Deal <span style='color:#0098DC;'>300%</span>/<span style='color:#0098DC;'>330%</span>/<span style='color:#0098DC;'>360%</span>/<span style='color:#0098DC;'>400%</span> physical damage to up to <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> enemies within 3 tiles in front of the operator",
+      description = "对前方三格范围内至多<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>4<span>/</span>5</span>个敌人造成相当于攻击力<span style='color:#0098DC;'>300%<span>/</span>330%<span>/</span>360%<span>/</span>400%</span>的物理伤害",
       sp = { 20, 20, 20, 20, 20, 20, 19, 19, 18, 17 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -283,13 +283,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +5%",
+          description = "When there are 2 or more high tiles among the 4 adjacent tiles, Attack and Defense +5%",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When there are 2 or more high tiles among the 4 adjacent tiles, Attack power and Defense power +10%",
+          description = "When there are 2 or more high tiles among the 4 adjacent tiles, Attack and Defense +10%",
         },
       }
     },
@@ -311,18 +311,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Skill Theory",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing skill materials, increase the rate of by-products by 70%"
+      description = "undefined"
     },
     {
-      name = "Cooking",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite2",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.35 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.35"
+      description = "undefined"
     },
   },
   meta = {
@@ -356,7 +356,7 @@ return {
     },
     oripathy = {
       infected = "No",
-      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。<br><br>【体细胞与源石融合率】0%<br>没有被源石感染的迹象。<br><br>【血液中源石结晶密度】0.15u/L<br>执行任务时也请多加小心。<br><br>暴行小姐的身体状况很好，甚至可以说是非常健康！如果大家都能像她健康这样就好了......<br>——医疗干员芙蓉<br>",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。<br><br>【体细胞与源石融合率】0%<br>没有被源石感染的迹象。<br><br>【血液中源石结晶密度】0.15u/L<br>执行任务时也请多加小心。<br><br>暴行小姐的身体状况很好，甚至可以说是非常健康！如果大家都能像她这样健康就好了......<br>——医疗干员芙蓉<br>",
     }
   },
   quotes = {

@@ -16,15 +16,13 @@ Promise.all([
   /* 11 */ read('templates/upgrade.lua'),
   /* 12 */ read('templates/material.lua'),
   /* 13 */ read('input/excel/item_table.json'),
-  /* 14 */ read('input/customdata.json'),
-  /* 15 */ read('output/items.json'),
-  /* 16 */ read('input/excel/gamedata_const.json'),
-  /* 17 */ read('input/excel/building_data.json'),
-  /* 18 */ read('templates/infra.lua'),
-  /* 19 */ read('input/tl/talents.json'),
-  /* 20 */ read('input/tl/skills.json'),
-  /* 21 */ read('input/tl/riic.json'),
-  /* 22 */ read('input/tl/talents-gameformat.json'),
+  /* 14 */ read('output/items.json'),
+  /* 15 */ read('input/excel/gamedata_const.json'),
+  /* 16 */ read('input/excel/building_data.json'),
+  /* 17 */ read('templates/infra.lua'),
+  /* 18 */ read('input/tl/talents.json'),
+  /* 19 */ read('input/tl/skills.json'),
+  /* 29 */ read('input/tl/riic.json'),
 ])
 .then(data => {
   let tpl_char_module = data[0].contents
@@ -35,7 +33,7 @@ Promise.all([
   let tpl_trust = data[10].contents
   let tpl_upgrade = data[11].contents
   let tpl_material = data[12].contents
-  let tpl_infra = data[18].contents
+  let tpl_infra = data[17].contents
 
   let characters = JSON.parse(data[4].contents)
 
@@ -43,17 +41,15 @@ Promise.all([
   let handbook = JSON.parse(data[6].contents).handbookDict
   let skills = JSON.parse(data[7].contents)
   let items = JSON.parse(data[13].contents).items
-  let gameconst = JSON.parse(data[16].contents)
-  let infra = JSON.parse(data[17].contents)
+  let gameconst = JSON.parse(data[15].contents)
+  let infra = JSON.parse(data[16].contents)
 
   let tls = JSON.parse(data[8].contents)
-  let custom = JSON.parse(data[14].contents)
-  let citems = JSON.parse(data[15].contents)
+  let citems = JSON.parse(data[14].contents)
 
-  // let tl_talents = JSON.parse(data[19].contents)
-  let tl_skills = JSON.parse(data[20].contents)
-  let tl_riic = JSON.parse(data[21].contents)
-  let tl_talents = JSON.parse(data[22].contents)
+  let tl_talents = JSON.parse(data[18].contents)
+  let tl_skills = JSON.parse(data[19].contents)
+  let tl_riic = JSON.parse(data[20].contents)
 
   let quotesByChar = {}
   Object.keys(quotes).forEach(quoteKey => {
@@ -361,7 +357,7 @@ Promise.all([
     return levels.map(lv => lv.duration).join(', ')
   }
 
-  const skillTemplate = (charSkill) => {
+  const skillTemplate = (charSkill, skillEN) => {
     let baseSkill = skills[charSkill.skillId]
     let skillTL = tl_skills[charSkill.skillId]
     return fillData(tpl_skill, {
@@ -476,13 +472,13 @@ Promise.all([
     })
   }
 
-  const phaseTemplate = (char, charPhase, phaseNum, extra) => {
+  const phaseTemplate = (char, charPhase, phaseNum) => {
     if (!charPhase) return 'nil'
     let upgradeCostString = ''
     if (charPhase.evolveCost) {
       upgradeCostString = '\n      materials = {' + materials(charPhase.evolveCost) + '\n      },'
     }
-    let skinNum = phaseNum != 1 ? phaseNum : (extra.customElite1Skin ? 1 : 0)
+    let skinNum = phaseNum != 1 ? phaseNum : 0
     return fillData(tpl_char_rank, {
       range: charPhase.rangeId,
       maxLevel: charPhase.maxLevel,
@@ -631,7 +627,7 @@ Promise.all([
     let char = characters[charKey]
     if (!handbook[charKey]) return
     let info = extractHandbook(handbook[charKey], charKey)
-    let extra = custom[charKey] || custom['generic']
+    // let extra = custom[charKey] || custom['generic']
     let infraSkills = getInfraSkills(charKey)
     if (!tl_riic[charKey]) console.log('MISSING RIIC', charKey)
     let charData = {
@@ -640,8 +636,6 @@ Promise.all([
       num: char.displayNumber,
       name_en: t(char.appellation, false),
       name_cn: char.name,
-      name_jp: '?',
-      name_kr: '?',
       name_ex: char.appellation,
       file: fileKey(char.appellation),
       team: char.team,
@@ -667,18 +661,18 @@ Promise.all([
       init_provoke: char.phases[0].attributesKeyFrames[0].data.tauntLevel,
       init_stunImmune: char.phases[0].attributesKeyFrames[0].data.stunImmune,
       init_silenceImmune: char.phases[0].attributesKeyFrames[0].data.silenceImmune,
-      base: phaseTemplate(char, char.phases[0], 0, extra),
-      elite1: phaseTemplate(char, char.phases[1], 1, extra),
-      elite2: phaseTemplate(char, char.phases[2], 2, extra),
-      skill1: char.skills[0] ? '\n' + skillTemplate(char.skills[0]) : '',
-      skill2: char.skills[1] ? '\n' + skillTemplate(char.skills[1]) : '',
-      skill3: char.skills[2] ? '\n' + skillTemplate(char.skills[2]) : '',
-      buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills[0], tl_riic[charKey] ? tl_riic[charKey][0] : null ) : '',
-      buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills[1], tl_riic[charKey] ? tl_riic[charKey][1] : null ) : '',
-      buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills[2], tl_riic[charKey] ? tl_riic[charKey][2] : null ) : '',
-      talent1: char.talents[0] ? talentTemplate(char.talents[0], tl_talents[charKey] ? tl_talents[charKey][0] : null ) : '',
-      talent2: char.talents[1] ? talentTemplate(char.talents[1], tl_talents[charKey] ? tl_talents[charKey][1] : null ) : '',
-      talent3: char.talents[2] ? talentTemplate(char.talents[2], tl_talents[charKey] ? tl_talents[charKey][2] : null ) : '',
+      base: phaseTemplate(char, char.phases[0], 0),
+      elite1: phaseTemplate(char, char.phases[1], 1),
+      elite2: phaseTemplate(char, char.phases[2], 2),
+      skill1: char.skills[0] ? '\n' + skillTemplate(char.skills[0], tl_skills[charKey]) : '',
+      skill2: char.skills[1] ? '\n' + skillTemplate(char.skills[1], tl_skills[charKey]) : '',
+      skill3: char.skills[2] ? '\n' + skillTemplate(char.skills[2], tl_skills[charKey]) : '',
+      buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills[0], tl_riic[charKey]) : '',
+      buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills[1], tl_riic[charKey]) : '',
+      buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills[2], tl_riic[charKey]) : '',
+      talent1: char.talents[0] ? talentTemplate(char.talents[0],  tl_talents[charKey]) : '',
+      talent2: char.talents[1] ? talentTemplate(char.talents[1],  tl_talents[charKey]) : '',
+      talent3: char.talents[2] ? talentTemplate(char.talents[2], tl_talents[charKey]) : '',
       potential1:  potentialMessage(char.potentialRanks[0]),
       potential2:  potentialMessage(char.potentialRanks[1]),
       potential3:  potentialMessage(char.potentialRanks[2]),

@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-1.png",
-      name = "Assault Order·Type α",
+      name = "冲锋号令·α型",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>6</span>/ cost",
+      description = "立即获得<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span></span>点部署费用",
       sp = { 30, 29, 28, 27, 26, 25, 25 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -232,18 +232,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Impatient",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, production +20% for the first hour. Thereafter, increase by +1% every hour, capping at +25%"
+      description = "undefined"
     },
     {
-      name = "Order Distribution·β",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
+      description = "undefined"
     },
   },
   meta = {
@@ -252,11 +252,11 @@ return {
   },
   profile = {
     records = {
-      resume = "行动预备组A1队长，之前有在警备队实习的经验。战斗能力出众，进入罗德岛后很顺利的就能适应现在的工作。 和原本的队员米格鲁、克洛丝一起进入了行动预备组，为了成为独当一面的干员努力着。",
+      resume = "行动预备组A1队长，之前有在警备队实习的经验。战斗能力出众，进入罗德岛后很顺利地适应了现在的工作。 和原本的队员米格鲁、克洛丝一起进入了行动预备组，为了成为独当一面的干员努力着。",
       archive1 = "在战斗中，芬会充分发挥库兰塔的脚力优势，占据优势地形抢占先机。为了不影响机动力的同时兼顾一定的牵制力，芬选择了轻便的短枪作为武器，在各种地形都能灵活战斗。 听人说话到一半就会开始行动的一根筋急性子。————克洛丝",
-      archive2 = "哥伦比亚外围城区聚集了来自各个国家的移民，芬、克洛丝、米格鲁三人从不同的出生地来到这里相遇，都抱着同样的目标加入了城区警卫，接受了最初的训练。急性子不擅玩笑的芬，温柔和气的米格鲁，豁然随性的克洛丝，三人性格明明各异，却不可思议的成为了彼此心里的支柱。",
+      archive2 = "哥伦比亚外围城区聚集了来自各个国家的移民，芬、克洛丝、米格鲁三人从不同的出生地来到这里相遇，都抱着同样的目标加入了城区警卫，接受了最初的训练。急性子不擅玩笑的芬，温柔和气的米格鲁，豁然随性的克洛丝，三人性格明明各异，却不可思议地成为了彼此心里的支柱。",
       archive3 = "在正式入选日来临之前，哥伦比亚外围城区爆发了突发地质天灾。为了掩护更多的平民安全离开，三人都没有及时从源石扩散地离开，无法幸免地感染了矿石病。受到排挤和不公对待的芬陷入迷茫和悲伤的时候，克洛丝为三人找到了新的方向，带领大家来到了罗德岛。",
-      archive4 = "来到罗德岛后，芬三人和芙蓉炎熔分配在了一组接受杜宾的训练。因为杜宾超乎寻常的严格课程，克洛丝和炎熔老是耍滑摸鱼并抓住任何一个机会偷懒。芬身为队长也拿她们没什么办法，目前正在努力练习让自己更有威严和凶一些，目标是成为杜宾教官一样严格的人。不过从芬平时笑嘻嘻地吃着最喜欢的水果的样子看来，这个距离应该很遥远吧。",
+      archive4 = "来到罗德岛后，芬三人和芙蓉炎熔分配在了一组接受杜宾的训练。因为杜宾超乎寻常的严格课程，克洛丝和炎熔老是耍滑摸鱼并抓住任何一个机会偷懒，芬身为队长也拿她们没什么办法。目前正在努力练习让自己更有威严和凶一些，目标是成为杜宾教官一样严格的人。不过从芬平时笑嘻嘻地吃着最喜欢的水果的样子看来，这个距离应该很遥远吧。",
       token = "",
     },
     bio = {

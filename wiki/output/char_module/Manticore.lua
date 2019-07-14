@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-mantic-1.png",
-      name = "Scorpion Venom",
+      name = "蝎毒",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "Every attack inflicts <span style='color:#0098DC;'>-23%</span>/<span style='color:#0098DC;'>-29%</span>/<span style='color:#0098DC;'>-35%</span>/<span style='color:#0098DC;'>-50%</span> movement speed to the target for {duration} seconds",
+      description = "每次攻击会在<span style='color:#0098DC;'>3<span>/</span>3.5<span>/</span>4<span>/</span>5</span>秒内令命中目标移动速度<span style='color:#0098DC;'>--23%<span>/</span>-29%<span>/</span>-35%<span>/</span>-50%</span>",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-mantic-2.png",
-      name = "Charging Poison Strike",
+      name = "蓄力毒尾击",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>90%</span>, attacked targets get stunned for {attack@stun} seconds",
+      description = "攻击前摇和攻击间隔<span style='color:#FF6237;'>增大</span>，攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>90%</span>，使命中目标晕眩<span style='color:#0098DC;'>0.5<span>/</span>0.6<span>/</span>0.7<span>/</span>1</span>秒",
       sp = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
       duration = { 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 },
     },
@@ -283,25 +283,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +25%. Regain hidden status after not attacking for 6 seconds",
+          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and grant +25% Attack power to the current attack. Regain hidden status after not attacking for 6 seconds",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +29% (+4%). Regain hidden status after not attacking for 6 seconds",
+          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and grant +29% (+4%) Attack power to the current attack. Regain hidden status after not attacking for 6 seconds",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +50%. Regain hidden status after not attacking for 5 seconds",
+          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and grant +50% Attack power to the current attack. Regain hidden status after not attacking for 5 seconds",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and increase the Attack power of the next attack by +54% (+4%). Regain hidden status after not attacking for 5 seconds",
+          description = "Stays hidden when idle (will not be targeted by ranged attacks). Attacking will remove the hidden status and grant +54% (+4%) Attack power to the current attack. Regain hidden status after not attacking for 5 seconds",
         },
       }
     },
@@ -323,11 +323,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Specialist Specialization·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "When stationed at the Training Station, reduce the skill training time of Specialist operatives by -30%"
+      description = "undefined"
     },
   },
   meta = {
@@ -337,7 +337,7 @@ return {
   profile = {
     records = {
       resume = "狮蝎，履历大部分缺失，已知其入职前曾从事指定对象清除工作，推测身份：杀手。在潜伏、侵扰、突袭敌军阵线等行动中均表现出过硬的战斗技巧。<br>现作为特种干员，为罗德岛提供特别行动服务。",
-      archive1 = "狮蝎温柔、腼腆，甚至有时给人的感觉有些怯懦。她断断续续的，采用试探性口气的说话方式是她语言中的最大特征。很难一次性说完一句完整的话的狮蝎，在与其他干员同时们交流时，举止和语言显得非常生硬，仿佛面对活生生的人，面对石头会来的更轻松一些。<br>除此以外，狮蝎罕见的隐形能力成了她在交流中的重大麻烦。这使得她笨拙的交际能力始终得不到进一步的提高和适应。在有必要的情况下，建议为干员狮蝎提出进一步的医疗方案。",
+      archive1 = "狮蝎温柔、腼腆，甚至有时给人的感觉有些怯懦。她断断续续的，采用试探性口气的说话方式是她语言中的最大特征。很难一次性说完一句完整的话的狮蝎，在与其他干员同时们交流时，举止和语言显得非常生硬，仿佛比起面对活生生的人，面对石头会来的更轻松一些。<br>除此以外，狮蝎罕见的隐形能力成了她在交流中的重大麻烦。这使得她笨拙的交际能力始终得不到进一步的提高和适应。在有必要的情况下，建议为干员狮蝎提出进一步的医疗方案。",
       archive2 = "与狮蝎的交流是建立若干写满留言的纸条上进行的。鉴于狮蝎自身具备的，经矿石病异化的隐形能力（关于该能力的报告尚需近一步整理），现已通过交互实验判明，其能力无法影响无生命物体，因此纸张书写成为与该干员交流较为适宜的方式。<br>在交流完成后，会收到狮蝎留下的，散发着紫罗兰清香的小礼物。",
       archive3 = "干员狮蝎出身于萨尔贡，因其提供的绝大部分履历均未能具备一定的有效性，因此狮蝎的活动活动经历仍处于不明朗的状态。目前已知的是，狮蝎已经接受过一套较为完善的特别行动训练，并已经具备至少一年左右的行动经验。<br>针对其特别行动受训单位的调查并不成功，萨尔贡方面的情报也没能提供任何有价值的线索。目前仅以未经证实，且不够可靠的，来自部分在萨尔贡的线人情报显示：在该地区有一支收容具备特殊能力的源石技艺使用者，采用独特训练方式来刺杀萨尔贡王公贵族，或部分其他国家实力与武装单位的特别行动人员。<br>目前基于干员狮蝎背景的模糊性，针对其在罗德岛的定位，定位为特殊型矿石病患者。任何调用狮蝎用于特别行动与战斗的申请，都需提交凯尔希医生进行审核。",
       archive4 = "",

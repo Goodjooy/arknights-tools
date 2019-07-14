@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skcom-quickattack-1.png",
-      name = "Swift Strike·Type α",
+      name = "迅捷打击·α型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>6%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>25%</span>/, Attack speed +<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>25</span>/",
+      description = "攻击力<span style='color:#0098DC;'>+6%<span>/</span>15%<span>/</span>25%<span>/</span></span>，攻击速度<span style='color:#0098DC;'>+10<span>/</span>15<span>/</span>25<span>/</span></span>",
       sp = { 55, 54, 53, 50, 49, 48, 45 },
       duration = { 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -238,18 +238,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Psychology",
+      name = "undefined",
       badge = "hr",
       facility = "HR Office",
       unlockIcon = "elite0",
-      description = "When stationed at Human Resource, accumulation of networking resources +40%"
+      description = "undefined"
     },
     {
-      name = "Supply Management",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
+      description = "undefined"
     },
   },
   meta = {

@@ -204,13 +204,13 @@ return {
   },
   talents = {
     {
-      name = "轻量化",
+      name = "Lightening",
       levels = {
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "自身部署费用-1",
+          description = "Self deployment cost -1",
         },
       }
     },
@@ -232,18 +232,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "交际",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "进驻贸易站时，订单获取效率<span style='color:#0098DC;'>+30%</span>，每小时心情消耗<span style='color:#0098DC;'>-0.25</span>"
+      description = "undefined"
     },
     {
-      name = "爆破材料学·β",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>精英材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>80%</span>"
+      description = "undefined"
     },
   },
   meta = {

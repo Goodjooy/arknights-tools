@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-yak-1.png",
-      name = "Body Strengthening",
+      name = "体能强化",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Max HP +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>70%</span>, recover <span style='color:#0098DC;'>20</span>/<span style='color:#0098DC;'>25</span>/<span style='color:#0098DC;'>30</span>/<span style='color:#0098DC;'>40</span> HP every second",
+      description = "生命上限<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>70%</span>，每秒恢复<span style='color:#0098DC;'>20<span>/</span>25<span>/</span>30<span>/</span>40</span>点生命",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 25, 25, 25, 27, 27, 27, 27, 28, 29, 30 },
     },
     {
       icon = "skchr-yak-2.png",
-      name = "Cold Resistance",
+      name = "抗寒体质",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Max HP +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>, Defense power +<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>30%</span>, Magic resistance +<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>100%</span>",
+      description = "生命上限<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>50%</span>，防御力<span style='color:#0098DC;'>+10%<span>/</span>10%<span>/</span>15%<span>/</span>30%</span>，法术抗性<span style='color:#0098DC;'>+50%<span>/</span>60%<span>/</span>70%<span>/</span>100%</span>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 40, 36, 32 },
       duration = { 25, 25, 25, 27, 27, 27, 27, 28, 29, 30 },
     },
@@ -306,18 +306,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Karlan Trading·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
+      description = "undefined"
     },
     {
-      name = "Defender Specialization·β",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite1",
-      description = "When stationed at the Training Station, reduce the skill training time of Defender operatives by -50%"
+      description = "undefined"
     },
   },
   meta = {
@@ -330,7 +330,7 @@ return {
       archive1 = "角峰从小就是被当做银灰家侍卫来训练，他的父亲，祖父，都是银灰家荣耀的近卫，他自然也以此作为目标，不过，和他父亲那时候的全军事训练不同，他能有机会学习一些其他的东西，几乎是下意识的，他选择了厨艺。",
       archive2 = "和物产丰富的外国相比，谢拉格的可食用动植物品种一双手就能数过来，即使是银灰这样富裕的家族，平常也只是粗茶淡饭。不过在角峰开始掌勺后，一切都变得不太一样了。他在厨艺上的造诣令人目瞪口呆，用着谢拉格的寥寥食材，却能做出本地人完全没有尝过的丰盛美食。难怪谢拉格的政客们从前去议事厅开会，现在却只想着往银灰家会客厅跑。美食的力量，还真是恐怖。",
       archive3 = "来到罗德岛后，角峰的战斗频率与强度都上升了不少，防具，特别是盾牌时常会需要修补，角峰懂得一些战时的简单修补方法，但彻底的维修，还是需要由专业匠人代劳。经人推荐，角峰找到了火神。惊异于对方的手艺，两人迅速达成了长期合作关系：一方维护装备，一方提供报酬，闲暇时交换菜谱，偶尔再来场对决一饱口福。所谓知音，便是如此吧。",
-      archive4 = "角峰的祖上出身于谢拉格北部，那里环境恶劣，人们终日与自然抗争。为了让他人更好的生存，所有北谢拉格人一旦出战即视自己为死者。正是这份信念，将他们，还有像角峰这样的后代，塑造成了战场上最为勇猛的战士。",
+      archive4 = "角峰的祖上出身于谢拉格北部，那里环境恶劣，人们终日与自然抗争。为了让他人更好地生存，所有北谢拉格人一旦出战即视自己为死者。正是这份信念，将他们，还有像角峰这样的后代，塑造成了战场上最为勇猛的战士。",
       token = "",
     },
     bio = {

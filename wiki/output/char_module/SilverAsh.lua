@@ -152,31 +152,31 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-3.png",
-      name = "Powerful Strike·Type γ",
+      name = "强力击·γ型",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals <span style='color:#0098DC;'>190%</span>/<span style='color:#0098DC;'>205%</span>/<span style='color:#0098DC;'>225%</span>/<span style='color:#0098DC;'>290%</span> damage",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>190%<span>/</span>205%<span>/</span>225%<span>/</span>290%</span>",
       sp = { 4, 4, 4, 3, 3, 3, 3, 3, 3, 2 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-svrash-2.png",
-      name = "Arctic Law of Survival",
+      name = "雪境生存法则",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>65%</span>/<span style='color:#0098DC;'>100%</span>, Recover <span style='color:#0098DC;'>3%</span>/<span style='color:#0098DC;'>4%</span>/<span style='color:#0098DC;'>4%</span>/<span style='color:#0098DC;'>6%</span> of Max HP every second",
+      description = "<span style='color:#F49800;'>可以在下列状态和初始状态间切换：</span>\n攻击范围<span style='color:#FF6237;'>缩小</span>，防御力<span style='color:#0098DC;'>+35%<span>/</span>50%<span>/</span>65%<span>/</span>100%</span>，每秒恢复最大生命的<span style='color:#0098DC;'>3%<span>/</span>4%<span>/</span>4%<span>/</span>6%</span>",
       sp = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-svrash-3.png",
-      name = "True Silver Slash",
+      name = "真银斩",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Defense power <span style='color:#FF6237;'>-70%</span>/<span style='color:#FF6237;'>-70%</span>/<span style='color:#FF6237;'>-70%</span>/<span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>110%</span>/<span style='color:#0098DC;'>125%</span>/<span style='color:#0098DC;'>140%</span>/<span style='color:#0098DC;'>200%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>6</span> targets simultaneously (treated as melee attacks)",
+      description = "防御力<span style='color:#FF6237;'>--70%<span>/</span>-70%<span>/</span>-70%<span>/</span>-70%</span>，攻击力<span style='color:#0098DC;'>+110%<span>/</span>125%<span>/</span>140%<span>/</span>200%</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，同时攻击至多<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>5<span>/</span>6</span>个目标（视为近距离攻击）",
       sp = { 90, 90, 90, 90, 90, 90, 90, 90, 90, 90 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -303,36 +303,36 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Attack power +5%, All operatives' redeployment time -5%",
+          description = "Attack +5%, All operatives' redeployment time -5%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "Attack power +7% (+2%), All operatives' redeployment time -7% (+2%)",
+          description = "Attack +7% (+2%), All operatives' redeployment time -7% (+2%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Attack power +10%, All operatives' redeployment time -10%",
+          description = "Attack +10%, All operatives' redeployment time -10%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Attack power +12% (+2%), All operatives' redeployment time -12% (+2%)",
+          description = "Attack +12% (+2%), All operatives' redeployment time -12% (+2%)",
         },
       }
     },
     {
-      name = "Eagle Eye",
+      name = "Leader",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Enemies within attack range lose stealth status",
+          description = "Attack +5%, All operatives' redeployment time -5%",
         },
       }
     },
@@ -354,11 +354,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Karlan Trading·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
+      description = "undefined"
     },
   },
   meta = {

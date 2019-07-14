@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-bldsk-1.png",
-      name = "Emergency Bandage",
+      name = "紧急包扎",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next heal will heal an additional <span style='color:#0098DC;'>11%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>19%</span>/<span style='color:#0098DC;'>25%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>3</span>/<span style='color:#F49800;'>4</span> charge(s)",
+      description = "下次治疗额外回复目标最大生命值的<span style='color:#0098DC;'>11%<span>/</span>15%<span>/</span>19%<span>/</span>25%</span>\n<span style='color:#F49800;'>只当目标生命值不满一半时才会触发，可充能2<span>/</span>2<span>/</span>3<span>/</span>4次</span>",
       sp = { 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-bldsk-2.png",
-      name = "Unstable Plasma",
+      name = "不稳定血浆",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>90%</span>, Lose <span style='color:#FF6237;'>3%</span>/<span style='color:#FF6237;'>3%</span>/<span style='color:#FF6237;'>3%</span>/<span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>15</span> seconds",
+      description = "自身和攻击范围内随机一名我方单位获得以下状态：\n攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>90%</span>，每秒损失<span style='color:#FF6237;'>3%<span>/</span>3%<span>/</span>3%<span>/</span>3%</span>最大生命值，持续<span style='color:#0098DC;'>15<span>/</span>15<span>/</span>15<span>/</span>15</span>秒",
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -311,11 +311,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Medic Specialization·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "When stationed at the Training Station, reduce the skill training time of Medic operatives by -30%"
+      description = "undefined"
     },
   },
   meta = {
@@ -328,8 +328,8 @@ return {
       archive1 = "外表弱不禁风，难以让人升起尊敬之心的血魔女性，实质上作为元老，在罗德岛中拥有最老的资历。<br>本人并不介意他人不将自己当做前辈对待，但决不允许有人在接受治疗时不听从自己的命令。<br>年龄虽然不是需要避讳的话题，不过从她口中吐出的数字总让人觉得难以置信。",
       archive2 = "即使在经常被妖魔化的萨卡兹中，血魔也是最恶名远扬的一支。<br>它们在黑夜中穿行，以他人的血液为食，杀人如麻，无恶不作......诸如此类。并且对于这些传闻，华法琳小姐通常在被问起时会爽快回应：“大部分我的同族是这样的。”<br>当然，罗德岛的每一个人都知道，华法琳小姐并不是这样的人。<br>虽然确实能够发现她对于血液的特殊喜好，但与此同时，她也表现出了极大的忍耐力，绝不会因此吓到她的病人。<br>如她所说，她是能够分辨食物与病人的。",
       archive3 = "博士对于罗德岛的重要性是不言而喻的，但对于华法琳小姐来说，有着更为特殊的意义。<br>出于似乎连华法琳小姐自己都尚未找到的原因，博士的血液对她有着致命的吸引力，这种吸引力导致数次被其他干员目睹她对博士做出有失淑女身份的行为，以至于凯尔希医生下令华法琳小姐不得主动接近博士。<br>若是能够解开这个谜团，或许能够拨开一些博士身上的迷雾，不过，可惜的是，暂时，还没有任何头绪。",
-      archive4 = "虽然每个人都知道华法琳小姐是罗德岛的元老且医术高超，不过依然很少有人会敬重她，这其中的问题，并不只是出在体型上。<br>或许是身为血魔，又长期不外出行走的原因，华法琳小姐的道德观念相当淡泊。她只要想到了什么点子，就会立刻去实践，而且完全不会顾及天理伦常，不少早期加入罗德岛的干员都有过走在路上突然眼前一黑，再睁开眼就躺在手术台上，耳边还传来古怪笑声的恐怖经历。<br>由于华法琳小姐完全没有反省的意思，据说连凯尔希医生也没有说服她，最后只得明令禁止她的一些出格行为。<br>在那之后，华法琳小姐的行为就收敛了许多，但依然时不时无意之间给干员们留下一些不可磨灭的回忆，以至于时至今日，她的威信也依然无法在干员们之间建立起来。<br>当然，说到底，她大概也根本没在反省就是了。",
-      token = "在最近数十年，大陆上出版的各种权威医学书籍中，作者的那一栏上，经常会出现一个与血有关的笔名。<br>这一位，是医学界的一个传奇，因为其人在医学上的涉猎之广，钻研之深，可称得上前无古人，其每次发表的论文也都能引起在学界引起轰动。<br>然而，至今也没有人知道他究竟是男是女，是个人还是组织，于是只得称之为“血先生”。<br>当然，如果看到华法琳小姐的房间中摆放的那些“血先生”参与过的著作，想必也能猜到，“血先生”正是华法琳小姐。<br>虽然一开始以为她是为了避免血魔的身份招致误解，不过对她来说，似乎只是看到自己瞎编的笔名出现在各种书上十分好玩而已。",
+      archive4 = "虽然每个人都知道华法琳小姐是罗德岛的元老且医术高超，不过依然很少有人会敬重她，这其中的问题，并不只是出在体型上。<br>或许是身为血魔，又长期不外出行走的原因，华法琳小姐的道德观念相当淡泊。她只要想到了什么点子，就会立刻去实践，而且完全不会顾及天理伦常，不少早期加入罗德岛的干员都有过走在路上突然眼前一黑，再睁开眼就躺在手术台上，耳边还传来古怪笑声的恐怖经历。<br>由于华法琳小姐完全没有反省的意思，据说连凯尔希医生也没能说服她，最后只得明令禁止她的一些出格行为。<br>在那之后，华法琳小姐的行为就收敛了许多，但依然时不时无意之间给干员们留下一些不可磨灭的回忆，以至于时至今日，她的威信也依然无法在干员们之间建立起来。<br>当然，说到底，她大概也根本没在反省就是了。",
+      token = "在最近数十年，大陆上出版的各种权威医学书籍中，作者的那一栏上，经常会出现一个与血有关的笔名。<br>这一位，是医学界的一个传奇，因为其人在医学上的涉猎之广，钻研之深，可称得上前无古人，其每次发表的论文也都能引起在学界引起轰动。<br>然而，至今也没有人知道他究竟是男是女，是个人还是组织，于是只得称之为“血先生”。<br>当然，如果看到华法琳小姐的房间中摆放的那些“血先生”参与过的著作，想必也能猜到，“血先生”正是华法琳小姐。<br>虽然一开始以为她是为了避免血魔的身份招致误解，不过对她来说，似乎只是看到自己瞎编的笔名出现在各种书上觉得十分好玩而已。",
     },
     bio = {
       gender = "Female",

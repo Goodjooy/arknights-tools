@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-frncat-1.png",
-      name = "Cat Scratch",
+      name = "挠伤",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>75%</span> damage and inflicts <span style='color:#0098DC;'>-15%</span>/<span style='color:#0098DC;'>-20%</span>/<span style='color:#0098DC;'>-25%</span>/<span style='color:#0098DC;'>-40%</span> attack power to the target for {frncat_s_1[debuff].duration} seconds",
+      description = "下次攻击时攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>75%</span>，<span style='color:#0098DC;'>{frncat_s_1[debuff].duration}</span>秒内使击中目标攻击力<span style='color:#0098DC;'>-{-frncat_s_1[debuff].atk:0%}</span>",
       sp = { 6, 6, 6, 5, 5, 5, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-frncat-2.png",
-      name = "Bristling Fur",
+      name = "炸毛",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack and Defense power +<span style='color:#0098DC;'>27%</span>/<span style='color:#0098DC;'>36%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>75%</span>",
+      description = "攻击力和防御力各<span style='color:#0098DC;'>+27%<span>/</span>36%<span>/</span>45%<span>/</span>75%</span>",
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Order Distribution·β",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
+      description = "undefined"
     },
     {
-      name = "Baking",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.3 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.3"
+      description = "undefined"
     },
   },
   meta = {
@@ -338,9 +338,9 @@ return {
   },
   profile = {
     records = {
-      resume = "慕斯，曾于维多利亚王国伦蒂尼姆市瓦莱丽蛋糕店担任实习甜点师。在职期间感染矿石病，由双亲送入罗德岛进行治疗。<br>经本人意愿，接受若干心理辅导并通过多项测试后，获准正式加入罗德岛。现于罗德岛担任常规后勤人员，并提供战场辅助工作",
+      resume = "慕斯，曾于维多利亚王国伦蒂尼姆市瓦莱丽蛋糕店担任实习甜点师。在职期间感染矿石病，由双亲送入罗德岛进行治疗。<br>经本人意愿，接受若干心理辅导并通过多项测试后，获准正式加入罗德岛。现于罗德岛担任常规后勤人员，并提供战场辅助工作。",
       archive1 = "干员慕斯出生在维多利亚王国伦蒂尼姆市一个富裕且不缺乏子女的家庭中，拥有众多家人与兄弟姐妹的她在家族中并不显眼。慕斯的哥哥姐姐们很早就进入了各大公司、军队或法术研究领域，而无论在源石技艺领域，还是家族传统的金融领域，慕斯在成长期间并未显示出有什么天赋。不过即使如此，她的父母也没有减少对她的关照，而是尽可能的以自己的方式保障慕斯的成长，只不过在慕斯身上，家族也没有投入什么期望。<br>在维多利亚王国的社会氛围中，富家出身的女性将各色聚会和庄园间穿梭。慕斯并不适应这样的生活。",
-      archive2 = "在矿石病在多国造成恐慌情绪之前，伦蒂尼姆已经长期笼罩在不安的氛围中。根据自己的志愿，慕斯在一家名为“瓦莱丽”的蛋糕店打工，专攻蛋糕制作、面点烘培和茶点搭配等。<br>慕斯无法回忆自己感染矿石病的经过。在其双手部出现明确开始异化后，其家人迅速且秘密地将其隔离在单独的庄园中。在这段寂寞而痛苦的日子期间，慕斯与后来她称呼为“猫猫”的生物相遇了。“猫猫”们没有沾染矿石病，成为慕斯唯一的朋友。<br>时间经过半年后，由其家人联络的罗德岛制药相关员工来到庄园，为慕斯进行了全面的检查。在经过慕斯家人的同意并支付相关的费用后，由罗德岛制药秘密接收慕斯，其后转入罗德岛进行进一步治疗。",
+      archive2 = "在矿石病在多国造成恐慌情绪之前，伦蒂尼姆已经长期笼罩在不安的氛围中。根据自己的志愿，慕斯在一家名为“瓦莱丽”的蛋糕店打工，专攻蛋糕制作、面点烘焙和茶点搭配等。<br>慕斯无法回忆自己感染矿石病的经过。在其双手部出现明确开始异化后，其家人迅速且秘密地将其隔离在单独的庄园中。在这段寂寞而痛苦的日子期间，慕斯与后来她称呼为“猫猫”的生物相遇了。“猫猫”们没有沾染矿石病，成为慕斯唯一的朋友。<br>时间经过半年后，由其家人联络的罗德岛制药相关员工来到庄园，为慕斯进行了全面的检查。在经过慕斯家人的同意并支付相关的费用后，由罗德岛制药秘密接收慕斯，其后转入罗德岛进行进一步治疗。",
       archive3 = "针对干员慕斯称呼为“猫猫”的生物物种，现已确定其没有对罗德岛造成......明显的危害。<br>事实证明，所有针对该物种的无端想象都是无意义的，它们确实只是普通的生物。这些生物会在干员慕斯不注意的情况下，在罗德岛内肆意游走，轻而易举地攀上高处，俯瞰所有立于它们脚下的芸芸众生。它们迈着优雅的步伐，在所有的走廊和房间中都留下了明显的，仿佛宣示什么的踪迹。在它们潇洒的身影后，部分可见或不可见的地带里，一些陡然增加的毛和......一些理应在它们的居所解决好的事物被干员们陆续发现。在干员慕斯、杰西卡、普罗旺斯，以及全体行动预备组与行动组成员的努力下，这些问题才得以妥善解决。<br>针对上述极大增加后勤干员工作量的问题。干员慕斯在约谈过程中，表现出了诚恳的歉意，以及......和那些生物们类似的忧伤神情。鉴于其认错态度良好，并保证对“猫猫”们作出约束和训练，已经取消了对其记过的处理。",
       archive4 = "",
       token = "",

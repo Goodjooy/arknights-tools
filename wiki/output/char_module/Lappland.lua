@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-whitew-1.png",
-      name = "Sundial",
+      name = "日晷",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>43%</span>/<span style='color:#0098DC;'>55%</span>/<span style='color:#0098DC;'>70%</span>, <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span> chance to block physical damage. Infinite duration",
+      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>43%<span>/</span>55%<span>/</span>70%</span>，有<span style='color:#0098DC;'>20%<span>/</span>25%<span>/</span>30%<span>/</span>40%</span>的概率抵挡物理伤害\n<span style='color:#F49800;'>持续时间无限</span>",
       sp = { 40, 40, 40, 37, 37, 37, 33, 32, 31, 30 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-whitew-2.png",
-      name = "Wolf Spirit",
+      name = "狼魂",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>90%</span>/<span style='color:#0098DC;'>120%</span>, change damage type to magical damage, attack an additional target, ranged attacks no longer reduce Attack power. Automatic activation",
+      description = "攻击力<span style='color:#0098DC;'>+60%<span>/</span>75%<span>/</span>90%<span>/</span>120%</span>，伤害类型变为法术，额外攻击一个目标，远程攻击不再降低攻击力\n<span style='color:#F49800;'>技能自动开启</span>",
       sp = { 30, 29, 28, 27, 26, 25, 24, 22, 20, 17 },
       duration = { 15, 15, 15, 15, 15, 15, 17, 17, 17, 20 },
     },
@@ -323,11 +323,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Drunkard's Intent·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed together with Texas at the same Trade Station, mood reduction per hour -0.1 and order limit +2"
+      description = "undefined"
     },
   },
   meta = {
@@ -392,7 +392,7 @@ return {
     cn027 = "试着抵抗我吧！",
     cn028 = "再加把劲！",
     cn029 = "这样就结束了？真无聊。",
-    cn030 = "呵呵，喜欢我做的的千层酥吗？",
+    cn030 = "呵呵，喜欢我做的千层酥吗？",
     cn031 = "马马虎虎吧，让那几个人逃走，我也有责任。",
     cn032 = "棒极了，这下，我践踏他们的欲望变得更强了！哈哈哈！",
     cn033 = "咦？刚才一瞬间，好像看到了一个红色的影子。",

@@ -75,37 +75,37 @@ return {
           elite = 0,
           level = 1,
           potential = 0,
-          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +10% for 10 seconds",
+          description = "After deployment, all ally 【Melee】 operatives gain Attack and Defense +10% for 10 seconds",
         },
         {
           elite = 0,
           level = 1,
           potential = 1,
-          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +12% for 12 seconds",
+          description = "After deployment, all ally 【Melee】 operatives gain Attack and Defense +12% for 12 seconds",
         },
         {
           elite = 0,
           level = 1,
           potential = 2,
-          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +14% for 14 seconds",
+          description = "After deployment, all ally 【Melee】 operatives gain Attack and Defense +14% for 14 seconds",
         },
         {
           elite = 0,
           level = 1,
           potential = 3,
-          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +16% for 16 seconds",
+          description = "After deployment, all ally 【Melee】 operatives gain Attack and Defense +16% for 16 seconds",
         },
         {
           elite = 0,
           level = 1,
           potential = 4,
-          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +18% for 18 seconds",
+          description = "After deployment, all ally 【Melee】 operatives gain Attack and Defense +18% for 18 seconds",
         },
         {
           elite = 0,
           level = 1,
           potential = 5,
-          description = "After deployment, all ally 【Melee】 operatives gain Attack power and Defense power +20% for 20 seconds",
+          description = "After deployment, all ally 【Melee】 operatives gain Attack and Defense +20% for 20 seconds",
         },
       }
     },
@@ -127,23 +127,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Backup Generator",
+      name = "undefined",
       badge = "power",
       facility = "Power Plant",
       unlockIcon = "elite0",
-      description = "When stationed at a Power Station, drone recovery per hour +10%"
+      description = "undefined"
     },
     {
-      name = "Combat Directive Recordings",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
+      description = "undefined"
     },
   },
   meta = {
     illustrator = "TOKI",
-    voiceActor = "",
+    voiceActor = "阿部敦",
   },
   profile = {
     records = {

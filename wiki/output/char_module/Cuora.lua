@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-def-up-2.png",
-      name = "Defense Strengthening·Type β",
+      name = "防御力强化·β型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Defense power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>",
+      description = "防御力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>",
       sp = { 45, 45, 45, 40, 40, 40, 38, 37, 36, 35 },
       duration = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
     },
     {
       icon = "skchr-snakek-2.png",
-      name = "Shell-shaped Defense",
+      name = "壳状防御",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>55%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>95%</span>/<span style='color:#0098DC;'>130%</span>, Recover <span style='color:#0098DC;'>1%</span>/<span style='color:#0098DC;'>1%</span>/<span style='color:#0098DC;'>2%</span>/<span style='color:#0098DC;'>3%</span> of Max HP every second",
+      description = "停止攻击敌人；阻挡数<span style='color:#0098DC;'>+1<span>/</span>1<span>/</span>1<span>/</span>1</span>，防御力<span style='color:#0098DC;'>+55%<span>/</span>75%<span>/</span>95%<span>/</span>130%</span>，每秒恢复最大生命的<span style='color:#0098DC;'>1%<span>/</span>1%<span>/</span>2%<span>/</span>3%</span>",
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -278,13 +278,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Defense power +6%",
+          description = "Defense +6%",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Defense power +12%",
+          description = "Defense +12%",
         },
       }
     },
@@ -306,18 +306,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Warehouse Organization·β",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, storage capacity +10 and production +10%"
+      description = "undefined"
     },
     {
-      name = "Order Distribution·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
+      description = "undefined"
     },
   },
   meta = {
@@ -328,8 +328,8 @@ return {
     records = {
       resume = "蛇屠箱，身份不明，履历缺失。在强对抗战斗中展现出了不凡的防守强度。<br>现作为重装干员，为罗德岛的多项行动提供服务。",
       archive1 = "当这位连自己究竟来自何方都忘记了的神秘少女正式成为罗德岛干员的时候，她学会的第一项技能就是正确写出自己的代号，并一笔一划，极为认真地在任职合同上签下自己的名字。<br>干员蛇屠箱拥有天真烂漫的性格，即使成为矿石病患者也丝毫未能减损她的阳光。即使因为贪玩棒球而数次击碎了部分设施的玻璃，也无法令人去苛责她。<br>通过观察可以发现，干员蛇屠箱对棒球拥有非同一般的热情与执着，这枚小小的圆球和黝黑的金属棍棒，似乎已经被她当成了最好的朋友。<br>所以......究竟为什么是棒球呢？",
-      archive2 = "棒球是一项发源于维多利亚王国，发展并壮大于哥伦比亚的一项体育运动。随着来自哥伦比亚的流行文化开始向周边地区辐射，这项适合平民——尤其是平民的孩子们，很快就成为了这项运动的忠实拥簇。<br>根据干员蛇屠箱的说法，棒球无论在有效强化体质方面，还是培养团队精神方面，都能带来非常显著的效果。她极力推荐在罗德岛内也进行这项运动有关的普及和推广，并身体力行地进行了数项基础动作及常用战术的演练。可以看出，她的各种动作十分规范，战术讲解也给人相当职业的印象。通过这些观察可以发现，干员蛇屠箱虽然并不具备任何作战相关的经验，却能够较为顺利地领悟行动计划、目的，以及具体的战术布置，或许这得益于她在棒球场上经受的严格训练，与一丝不苟的职业精神。<br>在蛇屠箱的演示取得干员们积极的回应后，她兴高采烈地从自己的背包中取出了一些棒球，开始塞给在场的每一位干员。<br>等等......这样一个看似普通的背包，究竟为什么能被蛇屠箱用以进行各式各样的防御行为呢？",
-      archive3 = "经过基础建设与武器整备部门相关人员的检测，蛇屠箱的背包被认为是一种良性防御武器，它所能提供有效防御，并不逊色于罗德岛基础行动人员配发的制式盾牌。<br>事实上，这枚背包的正面材质并非布料，而是具有相当硬度，却极为轻巧的金属板材。此外，它的缝合极为强韧，数次的锤击测试均未能破坏这枚背包的完整结构。<br>对于背包的由来，干员蛇屠箱以一如既往的愉快态度表示自己没有相关记忆。在查询相关领域的资料均告失败后，对于该武器（物品？）的调查不得不暂时告于段落。<br>此外，蛇屠箱的球棒被检测出拥有同样的金属成分，但相对背包的惊人设计，球棒显得较为朴实，没有任何独特之处，因此不再加以赘述。<br>那么......毫无战斗背景，又持有这样奇妙工具的蛇屠箱，究竟为何会出现在罗德岛中的呢？",
+      archive2 = "棒球是一项发源于维多利亚王国，发展并壮大于哥伦比亚的一项体育运动。随着来自哥伦比亚的流行文化开始向周边地区辐射，这项适合平民——尤其是平民的孩子们，很快就成为了这项运动的忠实拥趸。<br>根据干员蛇屠箱的说法，棒球无论在有效强化体质方面，还是培养团队精神方面，都能带来非常显著的效果。她极力推荐在罗德岛内也进行这项运动有关的普及和推广，并身体力行地进行了数项基础动作及常用战术的演练。可以看出，她的各种动作十分规范，战术讲解也给人相当职业的印象。通过这些观察可以发现，干员蛇屠箱虽然并不具备任何作战相关的经验，却能够较为顺利地领悟行动计划、目的，以及具体的战术布置，或许这得益于她在棒球场上经受的严格训练，与一丝不苟的职业精神。<br>在蛇屠箱的演示取得干员们积极的回应后，她兴高采烈地从自己的背包中取出了一些棒球，开始塞给在场的每一位干员。<br>等等......这样一个看似普通的背包，究竟为什么能被蛇屠箱用以进行各式各样的防御行为呢？",
+      archive3 = "经过基础建设与武器整备部门相关人员的检测，蛇屠箱的背包被认为是一种良性防御武器，它所能提供的有效防御，并不逊色于罗德岛基础行动人员配发的制式盾牌。<br>事实上，这枚背包的正面材质并非布料，而是具有相当硬度，却极为轻巧的金属板材。此外，它的缝合极为强韧，数次的锤击测试均未能破坏这枚背包的完整结构。<br>对于背包的由来，干员蛇屠箱以一如既往的愉快态度表示自己没有相关记忆。在查询相关领域的资料均告失败后，对于该武器（物品？）的调查不得不暂时告于段落。<br>此外，蛇屠箱的球棒被检测出拥有同样的金属成分，但相对背包的惊人设计，球棒显得较为朴实，没有任何独特之处，因此不再加以赘述。<br>那么......毫无战斗背景，又持有这样奇妙工具的蛇屠箱，究竟为何会出现在罗德岛中的呢？",
       archive4 = "根据当事职员的回忆，他们发现躺在罗德岛舰桥甲板上，一边晒太阳一边睡午觉的蛇屠箱时，罗德岛刚刚于哥伦比亚某小城市进行补给，正处于驶离该地区的通航状态。在叫醒蛇屠箱并进行询问的过程中，蛇屠箱发现自己完全没有来到罗德岛的相关记忆。随后在罗德岛为蛇屠箱安排了一次免费的检查中发现，她是一名轻度感染者。<br>基于现行的对感染者处理方针，蛇屠箱以普通感染者的身份被接纳进入罗德岛，而在此期间，她的奥妙之处才逐渐被人所察觉。<br>无论如何，已作为正式干员的蛇屠箱已经成为罗德岛的一份子。关于她的信息仍有待发掘，这将是未来一项必要的工作。",
       token = "",
     },

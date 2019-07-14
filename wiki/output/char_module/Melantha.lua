@@ -94,11 +94,11 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-1.png",
-      name = "Attack Strengthening·Type α",
+      name = "攻击力强化·α型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>50%</span>/",
+      description = "攻击力<span style='color:#0098DC;'>+10%<span>/</span>30%<span>/</span>50%<span>/</span></span>",
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -210,13 +210,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Attack power +4%",
+          description = "Attack +4%",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "Attack power +8%",
+          description = "Attack +8%",
         },
       }
     },
@@ -238,18 +238,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Supply Management",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
+      description = "undefined"
     },
     {
-      name = "Focus·α",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 40%"
+      description = "undefined"
     },
   },
   meta = {
@@ -260,7 +260,7 @@ return {
     records = {
       resume = "玫兰莎，行动预备组A4组长，维多利亚公民，正式任职前为普通感染者，无职业。于多项测试中获得优异成绩，遂获准加入罗德岛。",
       archive1 = "玫兰莎出生于维多利亚王国首都伦蒂尼姆，其父为从事大宗香料贸易的商人，并经营数家香料加工工厂，其母为其家族品牌直销店负责人，负责经营以伦蒂尼姆为中心的香薰品牌旗舰店。<br>受父母影响，玫兰莎从很小的时候就开始接触香料知识，常协助父母开发新的香薰产品。<br>自干员玫兰莎的经历看来，其成长过程中，无不充满了其父母投下的影子。",
-      archive2 = "学生时代的玫兰莎就读于威塞克斯私立中学，各项学科均取得优异成绩，但因其寡言少语，不善沟通的性格，玫兰莎从未成为众人的焦点和核心。<br>在缺乏朋友的环境下，玫兰莎并没有选择积极改变自身性格，而是在父母的安排下，投入进上层社会的学识培育活动中，包括美术、文学、诗歌等。在维多利亚的传统社会中，对于一名完整的上层社会女性而言，这些艺术修养是她们道德教育的重要一环。<br>除此以外，为了改善羸弱的体质，玫兰莎在父母的安排下开始学习击剑等上层社会流行的运动项目。<br>在感染者危机爆发后，玫兰莎成为感染者的一员，并在父母安排下接受了罗德岛制药提供的医疗方案，随后转入罗德岛接受治疗。",
+      archive2 = "学生时代的玫兰莎就读于威塞克斯私立中学，在各项学科中均取得优异成绩，但因其寡言少语，不善沟通的性格，玫兰莎从未成为众人的焦点和核心。<br>在缺乏朋友的环境下，玫兰莎并没有选择积极改变自身性格，而是在父母的安排下，投入进上层社会的学识培育活动中，包括美术、文学、诗歌等。在维多利亚的传统社会中，对于一名完整的上层社会女性而言，这些艺术修养是她们道德教育的重要一环。<br>除此以外，为了改善羸弱的体质，玫兰莎在父母的安排下开始学习击剑等上层社会流行的运动项目。<br>在感染者危机爆发后，玫兰莎成为感染者的一员，并在父母安排下接受了罗德岛制药提供的医疗方案，随后转入罗德岛接受治疗。",
       archive3 = "干员玫兰莎与行动预备组A4成员均保持着紧密的联络。内敛的她最初曾对自己能否担任行动预备组A4队长而忧心忡忡，但在组内全体伙伴的帮助下，她成功地突破了自己一直以来的内心障碍。<br>性格活泼开朗的卡缇是玫兰莎形影不离的好友，无论在生活还是战斗中，两人均保持着良好的互补关系。<br>对于性格成熟，行事稳妥的干员史都华德，玫兰莎抱有尊敬的心态；由于干员安赛尔负责玫兰莎的病情记录与日常护理工作，玫兰莎对自己总是为安赛尔添麻烦一事感到歉意和感激；而干员安德切尔是玫兰莎相对缺乏了解的人，她始终无法弄清楚这位出身拉特兰的少年平日的所思所想，不过安德切尔也从未在战斗中给玫兰莎带来麻烦。<br>在担任队长期间，玫兰莎细心、温和的态度受到了组员们的一致好评，而严格律己、遵守纪律的优良素质，使她能够完成罗德岛赋予她的每一项任务。",
       archive4 = "目前为止，无论根据现有档案还是其他干员的观察报告，均无法了解玫兰莎所拥有的剑术是何种流派，这是玫兰莎身上为数不多的谜团之一。<br>根据测试记录与日常战斗录像判断，玫兰莎的剑术似乎来源于维多利亚传统的决斗剑法，但在其学习过程中的某一阶段，她一定受到了某种东方流派剑术的强烈影响。<br>玫兰莎所持有的武器亦可作为一种旁证：她使用一把分外纤细，但极为锋利的直刃长刀。现有资料表明，只有炎国或部分东国武术流派中还保存有此类武器的技术套路。<br>玫兰莎的剑术灵活，技巧优秀，在实战技术方面，玫兰莎拥有较强的战术突击能力，即使在缺乏支援的情况下，也可以凭借自身的机动性进行移动和藏匿。<br>另一方面，玫兰莎缺乏对正面接触战的对抗能力，面对高强度作战的稳定性亦存在一定的不足。<br>至现在为止，玫兰莎在黑钢特别派遣干员芙兰卡的教导下，进行着剑术的提高。",
       token = "",

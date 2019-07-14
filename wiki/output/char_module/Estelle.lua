@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2.png",
-      name = "Attack Strengthening·Type β",
+      name = "攻击力强化·β型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>",
+      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-estell-2.png",
-      name = "Self-sacrifice",
+      name = "舍身突击",
       recharge = "",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>85%</span>/<span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>115%</span>/<span style='color:#0098DC;'>150%</span>, Become unable to be healed by other operators",
+      description = "攻击力<span style='color:#0098DC;'>+85%<span>/</span>100%<span>/</span>115%<span>/</span>150%</span>，不再成为其他角色的治疗目标",
       sp = { 25, 25, 25, 24, 24, 24, 23, 22, 21, 20 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Focus·β",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 60%"
+      description = "undefined"
     },
     {
-      name = "Solitude",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
+      description = "undefined"
     },
   },
   meta = {

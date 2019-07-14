@@ -152,31 +152,31 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-3.png",
-      name = "Healing Strengthening·Type γ",
+      name = "治疗强化·γ型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>55%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>90%</span>",
+      description = "攻击力<span style='color:#0098DC;'>+40%<span>/</span>55%<span>/</span>70%<span>/</span>90%</span>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-cgbird-2.png",
-      name = "Arcane Shield",
+      name = "法术护盾",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3.5</span>/<span style='color:#0098DC;'>4</span>/<span style='color:#0098DC;'>5</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>90%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>5</span>/<span style='color:#0098DC;'>10</span>/<span style='color:#0098DC;'>15</span>/<span style='color:#0098DC;'>20</span>. Can hold <span style='color:#F49800;'>1</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>2</span>/<span style='color:#F49800;'>3</span> charge(s)",
+      description = "下次治疗使所有目标获得一个持续<span style='color:#0098DC;'>3<span>/</span>3.5<span>/</span>4<span>/</span>5</span>秒的护盾\n护盾能吸收相当于夜莺攻击力<span style='color:#0098DC;'>40%<span>/</span>50%<span>/</span>60%<span>/</span>90%</span>的<span style='color:#0098DC;'>法术</span>伤害，同时使目标法术抗性<span style='color:#0098DC;'>+5<span>/</span>10<span>/</span>15<span>/</span>20</span>；<span style='color:#F49800;'>可充能1<span>/</span>2<span>/</span>2<span>/</span>3次</span>",
       sp = { 11, 11, 11, 10, 10, 10, 10, 9, 9, 8 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-cgbird-3.png",
-      name = "Holy Territory",
+      name = "圣域",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Increase attack range, Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>. All allies within attack range gain +<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>90%</span>/<span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>150%</span> magic resistance and <span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span> magic evasion",
+      description = "攻击范围<span style='color:#0098DC;'>扩大</span>，攻击力<span style='color:#0098DC;'>+30%<span>/</span>40%<span>/</span>50%<span>/</span>80%</span>，攻击范围内的友方单位法术抗性<span style='color:#0098DC;'>+75%<span>/</span>90%<span>/</span>105%<span>/</span>150%</span>并获得<span style='color:#0098DC;'>10%<span>/</span>15%<span>/</span>20%<span>/</span>25%</span>的法术闪避",
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
     },
@@ -303,48 +303,48 @@ return {
           elite = 0,
           level = 1,
           potential = 0,
-          description = "Allies within attack range gain magic resistance +5",
+          description = "Allies within attack range gain Magic resistance +5",
         },
         {
           elite = 0,
           level = 1,
           potential = 4,
-          description = "Allies within attack range gain magic resistance +7 (+2)",
+          description = "Allies within attack range gain Magic resistance +7 (+2)",
         },
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Allies within attack range gain magic resistance +10",
+          description = "Allies within attack range gain Magic resistance +10",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "Allies within attack range gain magic resistance +12 (+2)",
+          description = "Allies within attack range gain Magic resistance +12 (+2)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Allies within attack range gain magic resistance +15",
+          description = "Allies within attack range gain Magic resistance +15",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Allies within attack range gain magic resistance +17 (+2)",
+          description = "Allies within attack range gain Magic resistance +17 (+2)",
         },
       }
     },
     {
-      name = "Ephemeral Phantom",
+      name = "White Devil's Protection",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Able to use phantoms. Phantoms cannot attack or block enemies. They have 75 magic resistance, 30% physical evasion and draw enemy attacks easily. Additionally, they lose 3% Max HP every second",
+          description = "Allies within attack range gain Magic resistance +5",
         },
       }
     },
@@ -366,11 +366,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Inspiring",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.1 per hour (When stacked, only the highest effect becomes active)"
+      description = "undefined"
     },
   },
   meta = {
@@ -404,7 +404,7 @@ return {
     },
     oripathy = {
       infected = "Yes",
-      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。<br><br>【体细胞与源石融合率】9%<br>干员夜莺有着明显的感染迹象。<br><br>【血液源石结晶密度】0.41u/L<br>远超常规数值，干员夜莺需要医疗部门多加重视。<br><br>比起干员夜莺较一般感染者更加严重的矿石病，她的身体其实还有着许多问题。夜莺表现出明显的记忆障碍，与博士的失忆症不同，干员夜莺的记忆缺失仿佛是药物、甚至是是神经信息素类的化学制剂导致的。加上她内分泌系统与神经系统，甚至是身体各处的......迹象，我们部分医疗干员在交流过后，认定夜莺的身体状况并非仅仅是矿石病的肆虐所导致的。<br>闪灵把夜莺带到这里，对于夜莺来说怎么都是件好事。至少在罗德岛，我们能给这可怜女孩一个不那么严苛的环境，让她能好好处理自己的问题。<br>可悲的是，夜莺是我见过医疗技术最为高超的人之一——她能轻易洞悉他人的创口与病灶，却又无法摸索出自己疾患的源头。医者不能自医，还有比这更荒谬不公的事情吗？<br>——医疗干员Y·P",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。<br><br>【体细胞与源石融合率】9%<br>干员夜莺有着明显的感染迹象。<br><br>【血液源石结晶密度】0.41u/L<br>远超常规数值，干员夜莺需要医疗部门多加重视。<br><br>比起干员夜莺较一般感染者更加严重的矿石病，她的身体其实还有着许多问题。夜莺表现出明显的记忆障碍，与博士的失忆症不同，干员夜莺的记忆缺失仿佛是药物、甚至是神经信息素类的化学制剂导致的。加上她内分泌系统与神经系统，甚至是身体各处的......迹象，我们部分医疗干员在交流过后，认定夜莺的身体状况并非仅仅是矿石病的肆虐所导致的。<br>闪灵把夜莺带到这里，对于夜莺来说怎么都是件好事。至少在罗德岛，我们能给这可怜女孩一个不那么严苛的环境，让她能好好处理自己的问题。<br>可悲的是，夜莺是我见过医疗技术最为高超的人之一——她能轻易洞悉他人的创口与病灶，却又无法摸索出自己疾患的源头。医者不能自医，还有比这更荒谬不公的事情吗？<br>——医疗干员Y·P",
     }
   },
   quotes = {
@@ -421,7 +421,7 @@ return {
     cn011 = "丽兹，这是我真正的名字。除此之外的事情，我都不记得了......",
     cn012 = "为什么，要壮大我的力量呢。",
     cn013 = "晋升吗？我知道了，这一定是值得高兴的事吧。只是......非常抱歉，我完全没法体会，这种喜悦的感情......",
-    cn014 = "谢谢博士亲自通知我晋升的事，只是......对于现在我的来说最重要的，是这只小鸟所诉说的外面的故事......",
+    cn014 = "谢谢博士亲自通知我晋升的事，只是......对于现在的我来说最重要的，是这只小鸟所诉说的外面的故事......",
     cn017 = "这里就是集合地点吗？",
     cn018 = "如果这是您的命令，那么我一定会服从。",
     cn019 = "按照说明手册操作就可以了吧？",

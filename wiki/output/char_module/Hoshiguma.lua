@@ -152,31 +152,31 @@ return {
   skills = {
     {
       icon = "skchr-hsguma-1.png",
-      name = "Battle Intent",
+      name = "战意",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Defense power +<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>65%</span>/<span style='color:#0098DC;'>80%</span>, Attack power +<span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>",
+      description = "防御力<span style='color:#0098DC;'>+35%<span>/</span>50%<span>/</span>65%<span>/</span>80%</span>，攻击力<span style='color:#0098DC;'>+10%<span>/</span>20%<span>/</span>30%<span>/</span>40%</span>",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-hsguma-2.png",
-      name = "Thorns",
+      name = "荆棘",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "Defense power +<span style='color:#0098DC;'>5%</span>/<span style='color:#0098DC;'>13%</span>/<span style='color:#0098DC;'>21%</span>/<span style='color:#0098DC;'>30%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>65%</span>/<span style='color:#0098DC;'>80%</span>/<span style='color:#0098DC;'>100%</span> physical damage to the attacker",
+      description = "防御力<span style='color:#0098DC;'>+5%<span>/</span>13%<span>/</span>21%<span>/</span>30%</span>\n每次受到攻击时对目标造成相当于星熊攻击力<span style='color:#0098DC;'>50%<span>/</span>65%<span>/</span>80%<span>/</span>100%</span>的物理伤害",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-hsguma-3.png",
-      name = "Power Saw",
+      name = "力之锯",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>65%</span>/<span style='color:#0098DC;'>80%</span>/<span style='color:#0098DC;'>95%</span>/<span style='color:#0098DC;'>140%</span>, Defense power +<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>90%</span>. Slice all enemies 1 tile ahead using the shield",
+      description = "攻击力<span style='color:#0098DC;'>+65%<span>/</span>80%<span>/</span>95%<span>/</span>140%</span>，防御力<span style='color:#0098DC;'>+40%<span>/</span>50%<span>/</span>60%<span>/</span>90%</span>，对前方一格的所有敌人使用盾牌进行切割",
       sp = { 60, 59, 58, 57, 56, 55, 54, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -326,19 +326,19 @@ return {
       }
     },
     {
-      name = "Special Tactics",
+      name = "Tactical Armor",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "All ally 【Defender】 operatives gain Defense power +6%",
+          description = "Gain 12% physical and magical block",
         },
         {
           elite = 2,
           level = 1,
           potential = 5,
-          description = "All ally 【Defender】 operatives gain Defense power +8% (+2%)",
+          description = "Gain 15% (+3%) physical and magical block",
         },
       }
     },
@@ -360,11 +360,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Defender Specialization·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "When stationed at the Training Station, reduce the skill training time of Defender operatives by -30%"
+      description = "undefined"
     },
   },
   meta = {

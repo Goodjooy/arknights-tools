@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-red-1.png",
-      name = "Execution Mode",
+      name = "处决模式",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "Attack power +<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>65%</span>/<span style='color:#0098DC;'>80%</span> after deploying, additionally gain <span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span> physical evasion",
+      description = "部署后攻击力<span style='color:#0098DC;'>+35%<span>/</span>50%<span>/</span>65%<span>/</span>80%</span>，并获得<span style='color:#0098DC;'>20%<span>/</span>30%<span>/</span>40%<span>/</span>50%</span>物理闪避",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },
     {
       icon = "skchr-red-2.png",
-      name = "Wolf Pack",
+      name = "狼群",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "Immediately deal <span style='color:#0098DC;'>140%</span>/<span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>250%</span> physical damage to all nearby enemies after deploying and stun them for {stun} seconds",
+      description = "部署后立即对周围所有敌人造成相当于攻击力<span style='color:#0098DC;'>140%<span>/</span>170%<span>/</span>200%<span>/</span>250%</span>的物理伤害，并使命中目标晕眩<span style='color:#0098DC;'>1<span>/</span>1.5<span>/</span>2<span>/</span>3</span>秒",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -283,25 +283,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "Every attack will deal damage equal to at least 20% Attack power",
+          description = "Every attack will deal damage equal to at least 20% Attack",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "Every attack will deal damage equal to at least 23% (+3%) Attack power",
+          description = "Every attack will deal damage equal to at least 23% (+3%) Attack",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Every attack will deal damage equal to at least 30% Attack power",
+          description = "Every attack will deal damage equal to at least 30% Attack",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Every attack will deal damage equal to at least 33% (+3%) Attack power",
+          description = "Every attack will deal damage equal to at least 33% (+3%) Attack",
         },
       }
     },
@@ -323,18 +323,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "S.W.E.E.P",
+      name = "undefined",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
+      description = "undefined"
     },
     {
-      name = "Tracker",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite2",
-      description = "When stationed at Reception, clue collection speed +25%"
+      description = "undefined"
     },
   },
   meta = {

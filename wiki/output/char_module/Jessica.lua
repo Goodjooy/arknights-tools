@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-2.png",
-      name = "Powerful Strike·Type β",
+      name = "强力击·β型",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals <span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>185%</span>/<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>230%</span> damage",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>170%<span>/</span>185%<span>/</span>200%<span>/</span>230%</span>",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-jesica-2.png",
-      name = "Cover Smoke",
+      name = "掩护烟幕",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>, Obtain <span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>75%</span> physical and magic evasion",
+      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>，获得<span style='color:#0098DC;'>75%<span>/</span>75%<span>/</span>75%<span>/</span>75%</span>的物理和法术闪避",
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 21, 21, 21, 22, 23, 24, 25 },
     },
@@ -306,18 +306,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Standardization·β",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, production +25%"
+      description = "undefined"
     },
     {
-      name = "Liaison",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite1",
-      description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Blacksteel"
+      description = "undefined"
     },
   },
   meta = {

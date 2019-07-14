@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-milu-1.png",
-      name = "Environmental Camouflage",
+      name = "环境伪装",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>24%</span>/<span style='color:#0098DC;'>32%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>70%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+      description = "攻击力<span style='color:#0098DC;'>+24%<span>/</span>32%<span>/</span>40%<span>/</span>70%</span>，进入<span style='color:#0098DC;'>隐匿</span>状态<span style='color:#F49800;'>（不会成为敌方远程单位的攻击目标）</span>",
       sp = { 30, 30, 30, 28, 28, 28, 26, 24, 22, 20 },
       duration = { 25, 26, 27, 30, 31, 32, 35, 40, 45, 50 },
     },
     {
       icon = "skchr-milu-2.png",
-      name = "Tactical Radio",
+      name = "战术电台",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately drop <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>3</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>180%</span>/<span style='color:#0098DC;'>210%</span>/<span style='color:#0098DC;'>240%</span>/<span style='color:#0098DC;'>300%</span> physical damage to all nearby enemies",
+      description = "立即对攻击范围内随机投下<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>3</span>枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对周围所有敌人造成相当于攻击力<span style='color:#0098DC;'>180%<span>/</span>210%<span>/</span>240%<span>/</span>300%</span>的物理伤害。",
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -283,25 +283,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When attacking enemies wielding ranged weapons, Attack power increases to 120%",
+          description = "When attacking enemies wielding ranged weapons, Attack increases to 120%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "When attacking enemies wielding ranged weapons, Attack power increases to 125% (+5%)",
+          description = "When attacking enemies wielding ranged weapons, Attack increases to 125% (+5%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When attacking enemies wielding ranged weapons, Attack power increases to 140%",
+          description = "When attacking enemies wielding ranged weapons, Attack increases to 140%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "When attacking enemies wielding ranged weapons, Attack power increases to 145% (+5%)",
+          description = "When attacking enemies wielding ranged weapons, Attack increases to 145% (+5%)",
         },
       }
     },
@@ -323,11 +323,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Clue Collection·α",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "When stationed at Reception, clue collection speed +10%"
+      description = "undefined"
     },
   },
   meta = {

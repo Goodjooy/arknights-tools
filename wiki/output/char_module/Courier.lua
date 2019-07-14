@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-2.png",
-      name = "Assault Order·Type β",
+      name = "冲锋号令·β型",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span> cost",
+      description = "立即获得<span style='color:#0098DC;'>9<span>/</span>9<span>/</span>9<span>/</span>9</span>点部署费用",
       sp = { 39, 38, 37, 36, 35, 34, 33, 32, 31, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-blackd-2.png",
-      name = "Assault Order·Defend",
+      name = "冲锋号令·防御",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span> cost. Gradually obtain <span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span> cost while the skill is active, additionally Defense power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>",
+      description = "立即获得<span style='color:#0098DC;'>{blackd_s_2[once].cost}</span>点部署费用\n技能持续期间内逐渐获得<span style='color:#0098DC;'>{blackd_s_2[period].trig_cnt}</span>点部署费用，防御力<span style='color:#0098DC;'>+{blackd_s_2[period].def:0%}</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When blocking 2 or more enemies, Defense power +8%",
+          description = "When blocking 2 or more enemies, Defense +8%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "When blocking 2 or more enemies, Defense power +11% (+3%)",
+          description = "When blocking 2 or more enemies, Defense +11% (+3%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When blocking 2 or more enemies, Defense power +16%",
+          description = "When blocking 2 or more enemies, Defense +16%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "When blocking 2 or more enemies, Defense power +19% (+3%)",
+          description = "When blocking 2 or more enemies, Defense +19% (+3%)",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Karlan Trading·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
+      description = "undefined"
     },
     {
-      name = "Messenger",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite1",
-      description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Karlan Trading"
+      description = "undefined"
     },
   },
   meta = {

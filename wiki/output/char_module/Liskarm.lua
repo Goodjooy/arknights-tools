@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-liskam-1.png",
-      name = "Charging Defense",
+      name = "充能防御",
       recharge = "",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Blocks the next attack and increases Defense power by +<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>80%</span>/<span style='color:#0098DC;'>100%</span> for <span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span>/<span style='color:#0098DC;'>8</span> seconds. Automatic activation",
+      description = "抵挡下一次伤害，在<span style='color:#0098DC;'>8<span>/</span>8<span>/</span>8<span>/</span>8</span>秒内防御力<span style='color:#0098DC;'>+40%<span>/</span>60%<span>/</span>80%<span>/</span>100%</span>\n<span style='color:#F49800;'>技能自动开启</span>",
       sp = { 24, 24, 24, 22, 22, 22, 20, 20, 20, 18 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-liskam-2.png",
-      name = "Counter Shock",
+      name = "反击电弧",
       recharge = "",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Increase attack interval, Attack power +<span style='color:#0098DC;'>85%</span>/<span style='color:#0098DC;'>105%</span>/<span style='color:#0098DC;'>125%</span>/<span style='color:#0098DC;'>200%</span>, every attack deals magical damage to up to <span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>3</span>/<span style='color:#0098DC;'>4</span> enemies and has <span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>25%</span> chance to stun the targets for <span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>1</span>/<span style='color:#0098DC;'>1</span> second. Liskarm is stunned for <span style='color:#F49800;'>5</span>/<span style='color:#F49800;'>5</span>/<span style='color:#F49800;'>5</span>/<span style='color:#F49800;'>5</span> seconds after the skill ends",
+      description = "攻击间隔<span style='color:#FF6237;'>增大</span>，攻击力<span style='color:#0098DC;'>+85%<span>/</span>105%<span>/</span>125%<span>/</span>200%</span>，每次攻击对最多<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>4</span>个敌人造成<span style='color:#0098DC;'>法术伤害</span>，并有<span style='color:#0098DC;'>10%<span>/</span>15%<span>/</span>20%<span>/</span>25%</span>概率使命中目标晕眩<span style='color:#0098DC;'>1<span>/</span>1<span>/</span>1<span>/</span>1</span>秒\n<span style='color:#F49800;'>持续时间结束后雷蛇晕眩5<span>/</span>5<span>/</span>5<span>/</span>5秒</span>",
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 34 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -288,19 +288,19 @@ return {
       }
     },
     {
-      name = "Lightning Resistance",
+      name = "Tactical Defense",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Magic resistance +10",
+          description = "When attacked, recover 1 SP to self and a random nearby ally",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "Magic resistance +13 (+3)",
+          description = "Magic resistance +10",
         },
       }
     },
@@ -322,11 +322,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Pulsing Arc·α",
+      name = "undefined",
       badge = "power",
       facility = "Power Plant",
       unlockIcon = "elite0",
-      description = "When stationed at a Power Station, drone recovery per hour +15%"
+      description = "undefined"
     },
   },
   meta = {

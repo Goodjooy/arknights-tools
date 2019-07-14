@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-2.png",
-      name = "Assault Order·Type β",
+      name = "冲锋号令·β型",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span>/<span style='color:#0098DC;'>9</span> cost",
+      description = "立即获得<span style='color:#0098DC;'>9<span>/</span>9<span>/</span>9<span>/</span>9</span>点部署费用",
       sp = { 39, 38, 37, 36, 35, 34, 33, 32, 31, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-scave-2.png",
-      name = "Assault Order·Attack",
+      name = "冲锋号令·攻击",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately obtain <span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span>/<span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>70%</span>",
+      description = "立即获得<span style='color:#0098DC;'>11<span>/</span>11<span>/</span>11<span>/</span>11</span>点部署费用\n攻击力<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>70%</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +5%",
+          description = "While there are no allies in the 4 adjacent tiles, Attack and Defense +5%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +7% (+2%)",
+          description = "While there are no allies in the 4 adjacent tiles, Attack and Defense +7% (+2%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +11%",
+          description = "While there are no allies in the 4 adjacent tiles, Attack and Defense +11%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "While there are no allies in the 4 adjacent tiles, Attack power and Defense power +13% (+2%)",
+          description = "While there are no allies in the 4 adjacent tiles, Attack and Defense +13% (+2%)",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "S.W.E.E.P",
+      name = "undefined",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
+      description = "undefined"
     },
     {
-      name = "Scavenger",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "When stationed at a Craft Station, storage capacity +8 and mood reduction per hour -0.25"
+      description = "undefined"
     },
   },
   meta = {
@@ -339,11 +339,11 @@ return {
   profile = {
     records = {
       resume = "遭受感染而被群落驱逐，独自一人求生的地下佣兵。擅长处理各种见不得光的事物，因此被同行称作“清道夫”。后经中间人介绍，放弃不稳定的佣兵事业成为罗德岛的干员。",
-      archive1 = "被族人放逐，被委托人暗算，在经历了各种各样的事件后，她已经养成了独自行动和极端不信任他人的习惯了，加之被源石影响而改变的性格，想要和她好好沟通真的是一件很难的事情，或许，等她适应了罗德岛的生活之后，会变得能够交流一点吧。",
+      archive1 = "被族人放逐，被委托人暗算，在经历了各种各样的事件后，她已经养成了独自行动和极端不信任他人的习惯了，加之被源石影响而改变的性格，想要和她好好沟通真的是一件很难的事情。或许，等她适应了罗德岛的生活之后，会变得能够交流一点吧。",
       archive2 = "清道夫能够自由在恶劣环境中行动，对食物也几乎没有要求，只要不致死，所有环境都可以前去，所有食物都能入口。虽然她仍有食物的偏好，喜爱阴暗的角落，但很显然，她的适应力，要比大多数干员都强上不少。",
       archive3 = "清道夫不怎么会去特意搜集任务外对象的情报，但是普罗旺斯是个例外，虽然向清道夫询问缘由只会像平时一样和她被嘲讽，但确确实实，能够看到清道夫提及普罗旺斯时的情绪异常。普罗旺斯确实很吸引人，许多干员都想摸她那舒适的大尾巴，但清道夫所在意的，似乎是其他方面的东西......",
       archive4 = "清道夫曾经深爱着自己族群中的某位闺秀，对方也确实与她情投意合，但是因为各种原因，直到她被发现感染并放逐，双方都没能互表心意。下一次相见时，两人已是生离死别。这份不被世人认同的，禁断的情感，如今凝缩在了两人唯一的信物上，永久陪伴在清道夫身边。",
-      token = "没人知道为什么作为一个地下佣兵，清道夫为什么会选择明显不适合潜伏偷袭的重武器，但她总能把任务完成的很好，知道这一点就足够了。只是——每每看着她带着武器路过时，总觉得她并非一个暗杀者，而是“杀光所有人就是潜行”主义的战士，这样一想，心里的疑惑就解开了，至于真相？谁在乎呢。",
+      token = "没人知道为什么作为一个地下佣兵，清道夫为什么会选择明显不适合潜伏偷袭的重武器，但她总能把任务完成得很好，知道这一点就足够了。只是——每每看着她带着武器路过时，总觉得她并非一个暗杀者，而是“杀光所有人就是潜行”主义的战士。这样一想，心里的疑惑就解开了，至于真相？谁在乎呢。",
     },
     bio = {
       gender = "Female",

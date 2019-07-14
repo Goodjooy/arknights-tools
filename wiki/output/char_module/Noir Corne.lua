@@ -75,7 +75,7 @@ return {
           elite = 0,
           level = 30,
           potential = 0,
-          description = "Max HP and Defense power +12%",
+          description = "Max HP and Defense +12%",
         },
       }
     },
@@ -97,18 +97,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Warehouse Organization·β",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, storage capacity +10 and production +10%"
+      description = "undefined"
     },
     {
-      name = "Order Management·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +10% and order limit +1"
+      description = "undefined"
     },
   },
   meta = {

@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-2.png",
-      name = "Powerful Strike·Type β",
+      name = "强力击·β型",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "The next attack deals <span style='color:#0098DC;'>170%</span>/<span style='color:#0098DC;'>185%</span>/<span style='color:#0098DC;'>200%</span>/<span style='color:#0098DC;'>230%</span> damage",
+      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>170%<span>/</span>185%<span>/</span>200%<span>/</span>230%</span>",
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-doberm-2.png",
-      name = "Supervision",
+      name = "鞭策",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>40%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>, Increase effect of self talent by {talent_scale}x",
+      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>40%<span>/</span>50%<span>/</span>80%</span>，天赋的效果提升至<span style='color:#0098DC;'>2.1<span>/</span>2.4<span>/</span>2.7<span>/</span>3</span>倍",
       sp = { 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "All 3* operatives gain Attack power +5%",
+          description = "All 3* operatives gain Attack +5%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "All 3* operatives gain Attack power +6% (+1%)",
+          description = "All 3* operatives gain Attack +6% (+1%)",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "All 3* operatives gain Attack power +10%",
+          description = "All 3* operatives gain Attack +10%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "All 3* operatives gain Attack power +11% (+1%)",
+          description = "All 3* operatives gain Attack +11% (+1%)",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Competent",
+      name = "undefined",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "When stationed at the Command Center, mood reduction per hour of other operatives in the Command Center -0.05"
+      description = "undefined"
     },
     {
-      name = "Instructor",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite1",
-      description = "When stationed at the Training Station, operative skill training time -25%"
+      description = "undefined"
     },
   },
   meta = {

@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-yuki-1.png",
-      name = "Whirlwind",
+      name = "敌飙",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Increase attack range by <span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span>/<span style='color:#0098DC;'>2</span> tiles",
+      description = "攻击范围<span style='color:#0098DC;'>+2<span>/</span>2<span>/</span>2<span>/</span>2格</span>",
       sp = { 32, 31, 30, 27, 26, 25, 22, 21, 20, 15 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-yuki-2.png",
-      name = "Condensed Weapon",
+      name = "凝武",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-22%</span>/<span style='color:#0098DC;'>-25%</span>/<span style='color:#0098DC;'>-28%</span>/<span style='color:#0098DC;'>-35%</span> movement speed and dealing <span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>80%</span> magical damage per second for a short duration",
+      description = "攻击变为投掷回旋的大飞镖，短时间内使命中目标的移动速度<span style='color:#0098DC;'>降低-22%<span>/</span>-25%<span>/</span>-28%<span>/</span>-35%</span>，并每秒受到相当于攻击力<span style='color:#0098DC;'>50%<span>/</span>60%<span>/</span>70%<span>/</span>80%</span>的<span style='color:#0098DC;'>法术伤害</span>",
       sp = { 35, 34, 33, 32, 31, 30, 29, 28, 27, 25 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -278,7 +278,7 @@ return {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Slightly increase attack interval, however Attack power +20%",
+          description = "Slightly increase attack interval (+0.2 seconds), however Attack +20%",
         },
       }
     },
@@ -300,18 +300,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Clue Collection·β",
+      name = "undefined",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "When stationed at Reception, clue collection speed +20%"
+      description = "undefined"
     },
     {
-      name = "Combat Directive Recordings",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
+      description = "undefined"
     },
   },
   meta = {
@@ -322,7 +322,7 @@ return {
     records = {
       resume = "曾是龙门总督魏彦吾之妻——文月夫人的贴身护卫，在近卫局与罗德岛建立合作关系后，被派往罗德岛成为博士的护卫。使用大型手里剑作为武器，擅长隐秘行动和情报收集，于阴影之中保护着博士的人身安全。",
       archive1 = "沉默寡言的忍者小姐，惜字如金，能用一个词表达清楚就绝不会说一句话。<br>虽然平日神出鬼没，但在博士需要她的时候总会适时出现，可靠到稍微有些可怕的程度。<br>爱好似乎是在海岬看雪，但究竟是中意海岬，还是喜欢看雪，亦或者是必须要在海岬看雪，尚且不得而知。",
-      archive2 = "白雪小姐使用的武器，是一种大型飞镖。<br>这种武器拥有许多不同的形状大小，不过无论哪种，作为飞行道具来说，由于缺少任何辅助，对使用者都有相当高的要求。<br>毋庸置疑，白雪小姐正是此中好手，普通人甚至连操控都费力的这把大型飞镖，在她手中，能发挥出极高的命中率与杀伤力。",
+      archive2 = "白雪小姐使用的武器，是一种大型飞镖。<br>这种武器拥有许多不同的形状大小，不过无论哪种，作为飞行道具来说，由于没有任何辅助，对使用者有相当高的要求。<br>毋庸置疑，白雪小姐正是此中好手，普通人甚至连操控都费力的这把大型飞镖，在她手中，能发挥出极高的命中率与杀伤力。",
       archive3 = "从东国走出来的忍者们，经常被视为那个国家的标志之一。<br>这些神秘的杀手，据说能飞檐走壁，飞天遁地，于不可能的角落取人首级。而除此之外，他们最为称道的，是忠诚。<br>一旦一个忍者向某人献上忠诚，那他将会为对方肝脑涂地。而这一点，正是凯尔希医生提醒过的问题——白雪效忠的是文月夫人，而不是罗德岛的博士。",
       archive4 = "当然，白雪被派来的目的，从一开始就不是，或者说不只是保护博士，这一点是早已确定的，罗德岛是在了解这一点的前提下接纳白雪小姐加入的，毕竟作为阳谋，罗德岛甚至没有拒绝的权利。<br>但在这一件事上，存在一些疑点。<br>即使表面上是合作关系，龙门与罗德岛的体量仍然存在客观差距，在此前提下，总督夫人却将自己的贴身护卫之一送来作为博士的护卫。这一举动的目的，无论是监视还是示威乃至示好，都显得过于莽撞，以及......没有必要。<br>据传文月夫人虽然从不干涉龙门政事，但那只是因为她深爱魏总督。难以想象她的这项举动没有其他深意。<br>那么，白雪是不是还有其他的任务呢？",
       token = "安心。公主说过，愚忠不可取。你们不错，我喜欢。 ——白雪留",

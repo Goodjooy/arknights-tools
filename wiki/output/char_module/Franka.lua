@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-quickattack-3.png",
-      name = "Swift Strike·Type γ",
+      name = "迅捷打击·γ型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>27%</span>/<span style='color:#0098DC;'>34%</span>/<span style='color:#0098DC;'>45%</span>, Attack speed +<span style='color:#0098DC;'>20</span>/<span style='color:#0098DC;'>25</span>/<span style='color:#0098DC;'>35</span>/<span style='color:#0098DC;'>45</span>",
+      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>27%<span>/</span>34%<span>/</span>45%</span>，攻击速度<span style='color:#0098DC;'>+20<span>/</span>25<span>/</span>35<span>/</span>45</span>",
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
     },
     {
       icon = "skchr-franka-2.png",
-      name = "Extreme Sharpness",
+      name = "极致锋度",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>60%</span>/<span style='color:#0098DC;'>70%</span>/<span style='color:#0098DC;'>100%</span>, Increase activation chance of defense-ignore talent by {talent_scale}x",
+      description = "防御力<span style='color:#FF6237;'>降至0</span>，攻击力<span style='color:#0098DC;'>+50%<span>/</span>60%<span>/</span>70%<span>/</span>100%</span>，天赋无视防御的概率提高至<span style='color:#0098DC;'>2.5<span>/</span>2.5<span>/</span>2.5<span>/</span>2.5倍</span>",
       sp = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
       duration = { 20, 20, 20, 23, 23, 23, 26, 27, 28, 30 },
     },
@@ -283,13 +283,13 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When attacking, 10% chance to ignore the target's defense",
+          description = "When attacking, 10% chance to ignore the target's Defense",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When attacking, 20% chance to ignore the target's defense",
+          description = "When attacking, 20% chance to ignore the target's Defense",
         },
       }
     },
@@ -311,11 +311,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Guard Specialization·α",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "When stationed at the Training Station, reduce the skill training time of Guard operatives by -30%"
+      description = "undefined"
     },
   },
   meta = {
@@ -325,7 +325,7 @@ return {
   profile = {
     records = {
       resume = "芙兰卡，黑钢国际生化防护相应人员安全保障专员，在行动护卫、战术突击、战术协同方面拥有丰富经验与强悍战力。<br>现于罗德岛接受矿石病治疗，并作为黑钢行动干员为罗德岛提供专业安保服务。",
-      archive1 = "黑钢全称“黑钢国际（Blacksteel Worldwide）”，核心业务为提供私人安全顾问与防务承包相关的服务。黑钢总部设立于哥伦比亚，随着哥伦比亚对外事务的影响力与日俱增，黑钢国际也迎来了业务发展的黄金期。<br>为应对矿石病引发的感染者危机，黑钢国际特别设立了矿石病疫情处理专项工作人员——通称“生化防护相应人员（B.P.R.S）”。干员芙兰卡于该机构中担任行动干员，在生化部门行动时提供安全保障，防范意外。<br>与大多数作风严谨甚至达到苛刻程度的黑钢国际专员不同，芙兰卡性格略显轻浮，作风较为激进，以戏耍他人为乐——无论面对的是敌人还是自己的同伴。<br>无论面对何种情况，芙兰卡都能保持着不慌不忙的态度，并有意诱使他人相信自己精心设计好的语言。<br>不过，作为专业行动干员的芙兰卡在提交个人资料与过往履历时，依然提供了较为可信的版本，并提供了正规的行动协助合同与自愿接受治疗的数项合约。基于这点判断，对干员芙兰卡可以给与相当的信任。 ",
+      archive1 = "黑钢全称“黑钢国际（Blacksteel Worldwide）”，核心业务为提供私人安全顾问与防务承包相关的服务。黑钢总部设立于哥伦比亚。随着哥伦比亚对外事务的影响力与日俱增，黑钢国际也迎来了业务发展的黄金期。<br>为应对矿石病引发的感染者危机，黑钢国际特别设立了矿石病疫情处理专项工作人员——通称“生化防护相应人员（B.P.R.S）”。干员芙兰卡于该机构中担任行动干员，在生化部门行动时提供安全保障，防范意外。<br>与大多数作风严谨甚至达到苛刻程度的黑钢国际专员不同，芙兰卡性格略显轻浮，作风较为激进，以戏耍他人为乐——无论面对的是敌人还是自己的同伴。<br>无论面对何种情况，芙兰卡都能保持着不慌不忙的态度，并有意诱使他人相信自己精心设计好的语言。<br>不过，作为专业行动干员的芙兰卡在提交个人资料与过往履历时，依然提供了较为可信的版本，并提供了正规的行动协助合同与自愿接受治疗的数项合约。基于这点判断，对干员芙兰卡可以给与相当的信任。 ",
       archive2 = "芙兰卡的战斗风格经常被认为是诡异且不可捉摸的，这与她的个人性格非常契合。比起怎样对敌人造成重创，她把重心更多地放在如何让自己看起来“无害”。<br>芙兰卡的惯用武器是一柄迅捷剑以及一把短刺剑。以源石单晶打造的迅捷剑是芙兰卡最为常用的武器，配合芙兰卡自身的源石技艺，可在极短时间内产生剧烈放热效果（且剑身依旧保持固有形状），对抗装备金属装甲的目标往往可以起到奇效。敌人容易轻视她轻便的装备和纤细的武器，从而错判她的真实战斗力。<br>不过另一方面，芙兰卡惯常的贴身战斗亦会使自己身陷险境，虽然她的实力足以自己在陷入危机前结果敌人的性命。为了安全起见，B·P·R·S项目负责人依然安排干员雷蛇作为芙兰卡的搭档，性格稳妥而踏实的雷蛇与聪慧但激进的芙兰卡在战斗中确实可以形成良好的互补关系。",
       archive3 = "通过黑钢提供的有限资料显示，干员芙兰卡于一次为B·P·R·S生化部门提供的护卫中感染矿石病（项目代号与行动过程均为保密资料）。黑钢通过其所掌握的情报联络到鲜为人知的罗德岛制药，安排芙兰卡进入罗德岛接受治疗。借此机会，黑钢国际亦达成了与罗德岛的数项合约。<br>芙兰卡的到来填补了罗德岛在资深行动干员方面的一些空缺。而芙兰卡本人对罗德岛的崭新环境也颇为感兴趣。芙兰卡的专业素养使她以极快的速度融入了罗德岛，并成为作战行动中不可缺少的部分，而罗德岛的氛围也受到了芙兰卡风格的一定影响。<br>仅举一例：在芙兰卡担任行动预备干员的剑术指导期间，她以极具哥伦比亚风格的“训练”方式，捉弄了每一位新进人员，但同时，芙兰卡亦将自己绝大部分的对于执行战术的理解与经验都慷慨地传授给了新进人员们。<br>对于罗德岛的人们来说，芙兰卡留给他们的最大印象，除了她所展现的专业战术素养与独特的战斗风格外，与搭档干员雷蛇的日常冲突也为大家提供了许多茶余饭后的话题。",
       archive4 = "身为黑钢职员的芙兰卡与罗德岛所建立的关联，取决于黑钢国际与罗德岛之间合约的稳定性。虽然现在的芙兰卡看上去更像是一名罗德岛干员了，而且她本人也对此颇为享受。<br>感染矿石病似乎并未影响芙兰卡本人的任何状态，她依旧保持着自己独有的步调，忙碌于繁忙的工作与作战，并不断在工作之间寻求着乐趣和刺激。",

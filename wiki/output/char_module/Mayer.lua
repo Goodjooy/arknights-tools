@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-otter-1.png",
-      name = "Confusing Device",
+      name = "迷惑装置",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "All mechanical otters gain <span style='color:#0098DC;'>10%</span>/<span style='color:#0098DC;'>18%</span>/<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>35%</span> physical and magic evasion. Allies adjacent to them also gain the same effect",
+      description = "所有机械水獭获得<span style='color:#0098DC;'>10%<span>/</span>18%<span>/</span>25%<span>/</span>35%</span>的<span style='color:#0098DC;'>物理</span>和<span style='color:#0098DC;'>法术闪避</span>\n机械水獭周围四格的友军也获得同样的效果",
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-otter-2.png",
-      name = "Explosive Retrieval",
+      name = "爆破回收",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Immediately detonate all deployed mechanical otters, dealing <span style='color:#0098DC;'>300%</span>/<span style='color:#0098DC;'>380%</span>/<span style='color:#0098DC;'>450%</span>/<span style='color:#0098DC;'>600%</span> magical damage to nearby enemies and stunning them for {stun} seconds. All detonated mechanical otters will be retrieved",
+      description = "立即引爆所有配置的机械水獭，爆炸时对周围敌人造成相当于梅尔攻击力<span style='color:#0098DC;'>300%<span>/</span>380%<span>/</span>450%<span>/</span>600%</span>的法术伤害，并使所有命中目标晕眩<span style='color:#0098DC;'>1<span>/</span>1<span>/</span>1<span>/</span>2</span>秒\n<span style='color:#F49800;'>被引爆的机械水獭会被回收</span>",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -317,18 +317,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Mibo·Processing Model",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 65%"
+      description = "undefined"
     },
     {
-      name = "Mibo·Production Model",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite2",
-      description = "When stationed at a Craft Station, production +30%"
+      description = "undefined"
     },
   },
   meta = {

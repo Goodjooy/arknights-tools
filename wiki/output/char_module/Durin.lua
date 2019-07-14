@@ -97,11 +97,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Lazy",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "When stationed at a Dorm, self mood recovery per hour -0.1 and increase mood recovery of all operators within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active)"
+      description = "undefined"
     },
   },
   meta = {
@@ -112,7 +112,7 @@ return {
     records = {
       resume = "杜林，罗德岛A4行动组所属干员。<br>有着较强的法术天赋，但因自身性格和体质原因无法完全施展。<br>极度嗜睡，会随时在任何地方进入睡眠状态，日均睡眠时间远高于干员平均值，但工作却鲜少有缺漏。",
       archive1 = "工作模式：充分借助自己的身高优势，使用法术对敌人发起偷袭。<br>普通模式：找个稍微舒适点的地方，睡觉。",
-      archive2 = "因为出身与众不同，杜林的饮食结构和大家稍有区别，但这并不意味着她吃的就比别人少，杜林虽然矮小，但吃东西的速度比普通人要快上许多，有时，其他干员还没吃上几口，杜林用餐结束找地方睡觉了。",
+      archive2 = "因为出身与众不同，杜林的饮食结构和大家稍有区别，但这并不意味着她吃的就比别人少。杜林虽然矮小，但吃东西的速度比普通人要快上许多，有时，其他干员还没吃上几口，杜林用餐结束找地方睡觉了。",
       archive3 = "",
       archive4 = "",
       token = "",

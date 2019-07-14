@@ -152,31 +152,31 @@ return {
   skills = {
     {
       icon = "skcom-magic-rage-3.png",
-      name = "Tactical Chanting·Type γ",
+      name = "战术咏唱·γ型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack speed +<span style='color:#0098DC;'>30</span>/<span style='color:#0098DC;'>45</span>/<span style='color:#0098DC;'>60</span>/<span style='color:#0098DC;'>90</span>",
+      description = "攻击速度<span style='color:#0098DC;'>+30<span>/</span>45<span>/</span>60<span>/</span>90</span>",
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-amiya-2.png",
-      name = "Mental Burst",
+      name = "精神爆发",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "Every attack deals <span style='color:#0098DC;'>6</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>7</span>/<span style='color:#0098DC;'>8</span> hits at <span style='color:#0098DC;'>33%</span>/<span style='color:#0098DC;'>39%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span> damage each to random enemies within attack range. Automatic activation, Amiya is stunned for <span style='color:#F49800;'>10</span>/<span style='color:#F49800;'>10</span>/<span style='color:#F49800;'>10</span>/<span style='color:#F49800;'>10</span> seconds after the skill ends",
+      description = "每次攻击变为攻击力<span style='color:#0098DC;'>33%<span>/</span>39%<span>/</span>45%<span>/</span>60%</span>的<span style='color:#0098DC;'>6<span>/</span>7<span>/</span>7<span>/</span>8</span>连发，随机攻击范围内的目标\n<span style='color:#F49800;'>技能自动开启，持续时间结束后阿米娅晕眩10<span>/</span>10<span>/</span>10<span>/</span>10秒</span>",
       sp = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-amiya-3.png",
-      name = "Chimaera",
+      name = "奇美拉",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>100%</span>/<span style='color:#0098DC;'>130%</span>/<span style='color:#0098DC;'>160%</span>/<span style='color:#0098DC;'>230%</span>, Max HP +<span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>75%</span>/<span style='color:#0098DC;'>100%</span>, Increase attack range, attacks ignore defense and magic resistance. Amiya is forcibly retreated after the skill ends",
+      description = "攻击力<span style='color:#0098DC;'>+100%<span>/</span>130%<span>/</span>160%<span>/</span>230%</span>，生命上限<span style='color:#0098DC;'>+25%<span>/</span>50%<span>/</span>75%<span>/</span>100%</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，伤害<span style='color:#0098DC;'>无视防御力和法术抗性</span>\n<span style='color:#F49800;'>技能结束后阿米娅强制退出战场</span>",
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -327,18 +327,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Cooperation Agreement",
+      name = "undefined",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "When stationed at the Command Center, order acquisition efficiency of all Trade Stations +7%"
+      description = "undefined"
     },
     {
-      name = "Violin Solo",
+      name = "undefined",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite2",
-      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
+      description = "undefined"
     },
   },
   meta = {

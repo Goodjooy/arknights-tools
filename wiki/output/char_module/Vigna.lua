@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2.png",
-      name = "Attack Strengthening·Type β",
+      name = "攻击力强化·β型",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Attack power +<span style='color:#0098DC;'>20%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span>/<span style='color:#0098DC;'>80%</span>",
+      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>",
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-vigna-2.png",
-      name = "Hammer-on",
+      name = "槌音",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>90%</span>/<span style='color:#0098DC;'>120%</span>/<span style='color:#0098DC;'>150%</span>/<span style='color:#0098DC;'>200%</span>",
+      description = "攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+90%<span>/</span>120%<span>/</span>150%<span>/</span>200%</span>",
       sp = { 35, 35, 35, 32, 32, 32, 28, 27, 26, 25 },
       duration = { 20, 20, 20, 22, 22, 22, 25, 26, 27, 30 },
     },
@@ -278,25 +278,25 @@ return {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "When attacking, 10% chance to increase Attack power by +50%. Chance is increased to 30% while skill is active",
+          description = "When attacking, 10% chance to increase Attack by +50%. Chance is increased to 30% while skill is active",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "When attacking, 10% chance to increase Attack power by +60% (+10%). Chance is increased to 30% while skill is active",
+          description = "When attacking, 10% chance to increase Attack by +60% (+10%). Chance is increased to 30% while skill is active",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When attacking, 10% chance to increase Attack power by +100%. Chance is increased to 30% while skill is active",
+          description = "When attacking, 10% chance to increase Attack by +100%. Chance is increased to 30% while skill is active",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "When attacking, 10% chance to increase Attack power by +110% (+10%). Chance is increased to 30% while skill is active",
+          description = "When attacking, 10% chance to increase Attack by +110% (+10%). Chance is increased to 30% while skill is active",
         },
       }
     },
@@ -318,18 +318,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Combat Directive Recordings",
+      name = "undefined",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
+      description = "undefined"
     },
     {
-      name = "Vanguard Specialization·β",
+      name = "undefined",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite1",
-      description = "When stationed at the Training Station, reduce the skill training time of Vanguard operatives by -50%"
+      description = "undefined"
     },
   },
   meta = {

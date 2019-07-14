@@ -152,21 +152,21 @@ return {
   skills = {
     {
       icon = "skchr-deepcl-1.png",
-      name = "Tentacles of Light & Shadow",
+      name = "光影之触",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "All tentacles gain +<span style='color:#0098DC;'>15%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>45%</span>/<span style='color:#0098DC;'>60%</span> Attack and Defense power, Recover <span style='color:#0098DC;'>30</span>/<span style='color:#0098DC;'>40</span>/<span style='color:#0098DC;'>50</span>/<span style='color:#0098DC;'>70</span> HP every second",
+      description = "所有触手攻击力和防御力<span style='color:#0098DC;'>+15%<span>/</span>30%<span>/</span>45%<span>/</span>60%</span>，每秒恢复<span style='color:#0098DC;'>30<span>/</span>40<span>/</span>50<span>/</span>70</span>点生命",
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-deepcl-2.png",
-      name = "Vision Trap",
+      name = "视觉陷阱",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "Increase attack range, all allies within attack range gain <span style='color:#0098DC;'>25%</span>/<span style='color:#0098DC;'>30%</span>/<span style='color:#0098DC;'>35%</span>/<span style='color:#0098DC;'>50%</span> physical evasion",
+      description = "攻击范围<span style='color:#0098DC;'>扩大</span>，攻击范围内的友方单位获得<span style='color:#0098DC;'>25%<span>/</span>30%<span>/</span>35%<span>/</span>50%</span>的物理闪避",
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 25, 28, 31, 34, 37, 40, 43, 47, 51, 55 },
     },
@@ -312,18 +312,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "Order Distribution·α",
+      name = "undefined",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
+      description = "undefined"
     },
     {
-      name = "Focus·β",
+      name = "undefined",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 60%"
+      description = "undefined"
     },
   },
   meta = {
