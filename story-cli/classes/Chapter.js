@@ -16,6 +16,8 @@ class Chapter {
     this.background = null
     this.characters = [ null, null ]
     this.focusedCharacter = 1
+    this.subscribePredicate = null
+    this.currentPredicate = null
     this.pages = []
     this.newPage()
   }
@@ -58,7 +60,19 @@ class Chapter {
 
         case StoryPart.TYPE_QUOTE:
           console.log('\nQUOTE', part.line)
-          yield self.addToPage(part)
+          if (part.predicateReference) {
+            console.log('\n!!! SUBSCRIBE PREDICATE', part.predicateReference);
+            self.subscribePredicate = part.predicateReference
+          }
+          // console.log('part.predicateReference', part.predicateReference)
+          // console.log('self.subscribePredicate', self.subscribePredicate)
+          // console.log('self.currentPredicate', self.currentPredicate)
+          // console.log('part.line', part.line)
+          // console.log('part.characters', part.characters)
+          // console.log('part.focusedCharacter', part.focusedCharacter)
+          if (part.predicateReference || !self.subscribePredicate || self.subscribePredicate == self.currentPredicate) {
+            yield self.addToPage(part)
+          }
           break;
 
         case StoryPart.TYPE_IMAGE:
@@ -81,6 +95,17 @@ class Chapter {
         case StoryPart.TYPE_CHOICE:
           console.log('\nCHOICE', part.line.substring(0,30))
           yield self.addToPage(part)
+          break;
+        
+        case StoryPart.TYPE_PREDICATE:
+          console.log('\nPREDICATE', part.line.substring(0,30))
+          self.currentPredicate = part.predicateReference
+          break;
+
+        case StoryPart.TYPE_PREDICATE_END:
+          console.log('\nPREDICATE_END', part.line.substring(0,30))
+          self.currentPredicate = null
+          self.subscribePredicate = null
           break;
         
         case StoryPart.TYPE_SOUND:
@@ -114,6 +139,7 @@ class Chapter {
           break;
 
         default:
+          break;
       }
     })()
   }

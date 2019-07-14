@@ -23,6 +23,8 @@ class StoryPart {
   static get TYPE_CHOICE() { return 'choice' }
   static get TYPE_SOUND() { return 'sound' }
   static get TYPE_COVER() { return 'cover' }
+  static get TYPE_PREDICATE() { return 'predicate' }
+  static get TYPE_PREDICATE_END() { return 'predicateend' }
 
   static get REGEX_HEADER() { return /\[HEADER\((.*?)\)\] (.*)/g }
   static get REGEX_BACKGROUND() { return /\[Background\(image="([a-zA-Z0-9_]+)"/g }
@@ -34,9 +36,12 @@ class StoryPart {
   static get REGEX_QUOTE() { return /\[name="(.*?)"\](\s)+(.+)/g }
   static get REGEX_ANONQUOTE() { return /^(?![\/\s\[]).+$/g }
   static get REGEX_IMAGE() { return /\[Image\(image="(.*?)"(.*)\)\]/g }
-  static get REGEX_CHOICE() { return /\[Decision\(options="(.*?)"/g }
+  static get REGEX_CHOICE1() { return /\[Decision\(options="(.*?)"/g }
+  static get REGEX_CHOICE2() { return /\[Decision\(options="(.*?)",\s?values="(.*?)"/g }
   static get REGEX_SOUND() { return /\[PlaySound\(key="(.*?)"/g }
   static get REGEX_COVER() { return /\[Cover\(image="(.*?)", title="(.*?)", translator="(.*?)", qc="(.*?)"\)\]/g }
+  static get REGEX_PREDICATE() { return /\[Predicate\(references="(.*?)"\)\]/g }
+  static get REGEX_PREDICATE_END() { return /\[Predicate\]/g }
 
   constructor(line, translations) {
     this.line = line
@@ -63,11 +68,14 @@ class StoryPart {
     if (StoryPart.REGEX_CUTIN_EMPTY.test(this.line)) return this.cutinEmpty()
     if (StoryPart.REGEX_QUOTE.test(this.line)) return this.quote()
     if (StoryPart.REGEX_IMAGE.test(this.line)) return this.image()
-    if (StoryPart.REGEX_CHOICE.test(this.line)) return this.choice()
+    if (StoryPart.REGEX_CHOICE2.test(this.line)) return this.choice(true)
+    if (StoryPart.REGEX_CHOICE1.test(this.line)) return this.choice(false)
     if (StoryPart.REGEX_SOUND.test(this.line)) return this.sound()
     if (StoryPart.REGEX_FULLCHARACTER.test(this.line)) return this.fullchar()
     if (StoryPart.REGEX_ANONQUOTE.test(this.line)) return this.anonquote()
     if (StoryPart.REGEX_COVER.test(this.line)) return this.cover()
+    if (StoryPart.REGEX_PREDICATE.test(this.line)) return this.predicate()
+    if (StoryPart.REGEX_PREDICATE_END.test(this.line)) return this.predicateEnd()
     if (this.line.trim() && this.line.trim()[0] != '[' && this.line.trim()[0] != '/') return this.wildquote()
     return Promise.resolve()
   }
@@ -349,6 +357,9 @@ class StoryPart {
           let titleCanvas = new Canvas.createCanvas(pageOpts.width, pageOpts.part.titleSize)
           let titleContext = titleCanvas.getContext('2d');
           titleContext.fillStyle = '#ffffff'
+          console.log('titleCanvas', titleCanvas);
+          console.log('title', title);
+          
           CanvasTextWrapper(titleCanvas, title, {
             font:  pageOpts.part.titleSize + 'px ' + (config.font || 'Chinese'),
             textAlign: 'center',
@@ -445,13 +456,38 @@ class StoryPart {
     })() 
   }
 
-  choice() {
+  choice(branching) {
     // Extract data from the line
-    let data = StoryPart.REGEX_CHOICE.exec(this.line)
-    this.line = '[name="博士"] ' + data[1]
+    let data
+    if (branching) {
+      data = StoryPart.REGEX_CHOICE2.exec(this.line)
+      let choices = data[1].split(';')
+      let references = data[2].split(';')
+      if (choices.length > 1) {
+        this.line = '[name="博士"] ' + choices[0]
+        this.predicateReference = references[0]
+      } else {
+        this.line = '[name="博士"] ' + choices[0]
+      }
+    } else {
+      data = StoryPart.REGEX_CHOICE1.exec(this.line)
+      this.line = '[name="博士"] ' + data[1]
+    }
     this.characters[1] = 'player'
     this.focusedCharacter = 2
     return this.quote()
+  }
+
+  predicate() {
+    this.type = StoryPart.TYPE_PREDICATE
+    let data = StoryPart.REGEX_PREDICATE.exec(this.line)
+    this.predicateReference = data[1]
+    return Promise.resolve()
+  }
+
+  predicateEnd() {
+    this.type = StoryPart.TYPE_PREDICATE_END
+    return Promise.resolve()
   }
 
   sound() {

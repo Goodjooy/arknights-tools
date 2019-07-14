@@ -140,7 +140,7 @@
     {
       "ch": "魏彦吾",
       "zh": "错了，龙门近卫局本也与你们一起。",
-      "en": "You are wrong, Lungmen officers are there with you as well.",
+      "en": "You’re wrong, Lungmen Guard Bureau officers are there with you as well.",
       "jp": "",
       "kr": ""
     },
@@ -154,7 +154,7 @@
     {
       "ch": "魏彦吾",
       "zh": "哦？",
-      "en": "Oh ? ",
+      "en": "Oh?",
       "jp": "",
       "kr": ""
     },
@@ -196,7 +196,7 @@
     {
       "ch": "PLAYER",
       "zh": "——让他们的领袖觉得龙门内部空虚。",
-      "en": "——Let their leader feel that Lungmen inward is empty.",
+      "en": "——Let their leader think that Lungmen’s inward is empty.",
       "jp": "",
       "kr": ""
     },
@@ -353,7 +353,7 @@
     {
       "ch": "魏彦吾",
       "zh": "听我一言，Dr.{@nickname}——",
-      "en": "Listen to me, Dr.{@nickname}—— ",
+      "en": "Listen to me, Dr.{@nickname}——",
       "jp": "",
       "kr": ""
     },
@@ -493,7 +493,7 @@
     {
       "ch": "陈",
       "zh": "星熊她受了点伤，但没什么大碍。",
-      "en": "She was hurt, but nothing serious.",
+      "en": "She was hurt, but it’s not serious.",
       "jp": "",
       "kr": ""
     },
@@ -528,14 +528,14 @@
     {
       "ch": "陈",
       "zh": "我简单处理一下就行。",
-      "en": "I’ll take care of it.",
+      "en": "I’ll take care of it myself.",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "阿米娅",
       "zh": "嗯......我就不勉强陈长官了，如果你这么坚持的话。",
-      "en": "Erm… I won’t force you Officer Ch'en, if you are adamant about it.",
+      "en": "Erm… I won’t force you Officer Ch'en, since you are adamant about it.",
       "jp": "",
       "kr": ""
     },
@@ -565,7 +565,7 @@
     {
       "ch": "诗怀雅",
       "zh": "魏大人，你那里还顺利吗？",
-      "en": "“Chief Wei, are things going smoothly on your end?",
+      "en": "Chief Wei, are things going smoothly on your end?",
       "jp": "",
       "kr": ""
     },
@@ -607,7 +607,7 @@
     {
       "ch": "魏彦吾",
       "zh": "两次晨昏交替，已经算是宽限了。相较之下，我给各位的时间只有一天。",
-      "en": "Two mornings and nights is already generous of them. In comparison, I given everyone else a single day. ",
+      "en": "Two mornings and nights is already generous of them. In comparison, I given everyone else a single day.",
       "jp": "",
       "kr": ""
     },
@@ -628,14 +628,14 @@
     {
       "ch": "诗怀雅",
       "zh": "魏大人，如果有他们的帮助，我们不是可以在几小时里解决掉整合运动，彻底地减少损失吗？",
-      "en": "Chief Wei, with their help, wouldn't we be able to resolve the Reunion Movement in a few hours, radically reducing the damage?",
+      "en": "Chief Wei, if we accept their help, wouldn't we be able to resolve the Reunion Movement in a few hours, radically reducing the damage?",
       "jp": "",
       "kr": ""
     },
     {
       "ch": "魏彦吾",
       "zh": "现在还没到让其他人加入棋局的时候。龙门的问题，龙门自己理应能一劳永逸地解决。",
-      "en": "It is not yet time for anyone else to join in the game. It’s Lungmen’s problem, Lungmen should be able to solve its problems once and for all.",
+      "en": "It is not yet time for anyone else to join in the game. It’s Lungmen’s problem, Lungmen should be able to solve its own problems once and for all.",
       "jp": "",
       "kr": ""
     },

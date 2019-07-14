@@ -22,7 +22,7 @@ class Translation {
     let self = this
     return Promise.coroutine(function*(){
       let localeDir = path.join(__dirname, '..', 'locale', 'all')
-      let files = yield new Promise(done => { glob(localeDir + '/**/*.json', (err, files) => { done(files) }) })
+      let files = yield new Promise(done => { glob(localeDir + '/*.json', (err, files) => { done(files) }) })
       let fileContents = yield Promise.all(files.map(file => { return Utils.readFile(file) }))
       fileContents.forEach(fileContent => { self.useMessages(fileContent) })
     })()
@@ -70,10 +70,7 @@ class Translation {
   get(text) {
     let self = this
     return Promise.coroutine(function*(){
-      if (self.targetLanguage == 'zh') {
-        // text = text.replace(/，/g, '， ').replace(/。/g, '。 ')
-        return text
-      }
+      if (self.targetLanguage == 'zh') return text
       text = text.trim()
       let cleanText = text.replace(/(<([^>]+)>)/ig, '')
       if (!cleanText) return ''
@@ -106,6 +103,10 @@ class Translation {
           return result
         })
     })()
+    .then(result => {
+      result = result.replace(/\{@nickname\}/g, '__')
+      return result
+    })
   }
 
   google(text) {
