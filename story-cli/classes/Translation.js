@@ -18,6 +18,10 @@ class Translation {
     this.constants = {}
   }
 
+  saveGoogleCache() {
+    
+  }
+
   loadLocale() {
     let self = this
     return Promise.coroutine(function*(){
@@ -116,6 +120,10 @@ class Translation {
       source: 'zh-CN',
       target: this.targetLanguage,
       format: 'text'
+    })
+    .catch(err => {
+      console.error('Cannot Translate', text, err.message)
+      return [ text ]
     })
     .then(result => {
       if (result.data && result.data.data && result.data.data.translations) {
