@@ -3,7 +3,7 @@ const fs = require('fs')
 const glob = require('glob')
 const Promise = require('bluebird')
 
-let files = glob.sync('output/*.txt')
+let files = glob.sync('output/*.json')
 let allNames = []
 let uniqueNames = []
 
