@@ -45,9 +45,9 @@ const Image = Canvas.Image
 
     // Load the alpha image into an HTML5 canvas
     let alphaEl = await loadImage(alphafile)
-    let alphaCanvas = new Canvas.createCanvas(alphaEl.width, alphaEl.height)
+    let alphaCanvas = new Canvas.createCanvas(mainEl.width, mainEl.height)
     let alphaCtx = alphaCanvas.getContext('2d')
-    alphaCtx.drawImage(alphaEl, 0, 0, alphaEl.width, alphaEl.height, 0, 0, alphaCanvas.width, alphaCanvas.height)
+    alphaCtx.drawImage(alphaEl, 0, 0, alphaEl.width, alphaEl.height, 0, 0, mainCanvas.width, mainCanvas.height)
     let alphaImgData = alphaCtx.getImageData(0, 0, alphaCanvas.width, alphaCanvas.height)
     
     // Apply alpha channels
