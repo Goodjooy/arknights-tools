@@ -4,10 +4,14 @@
   "description": "Generates locale files for manual translators",
   "scripts": {
     "start": "node index.js",
-    "names": "node names.js"
+    "names": "node names.js",
+    "csv-extract": "node csv-extract.js",
+    "csv-replace": "node csv-replace.js"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
-    "glob": "^7.1.2"
+    "csv": "^5.1.3",
+    "glob": "^7.1.2",
+    "googleapis": "^43.0.0"
   }
 }
