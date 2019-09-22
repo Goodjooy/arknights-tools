@@ -6,7 +6,7 @@
     "start": "http-server -p 61002"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "bluebird": "^3.5.1",
     "canvas-text-wrapper": "^0.10.2",
     "http-server": "^0.11.1"
