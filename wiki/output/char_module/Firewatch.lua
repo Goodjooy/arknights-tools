@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-milu-1.png",
-      name = "环境伪装",
+      name = "Environmental Camouflage",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+24%<span>/</span>32%<span>/</span>40%<span>/</span>70%</span>，进入<span style='color:#0098DC;'>隐匿</span>状态<span style='color:#F49800;'>（不会成为敌方远程单位的攻击目标）</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>24%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+        "Attack power +<span style='color:#0098DC;'>26%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+        "Attack power +<span style='color:#0098DC;'>28%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+        "Attack power +<span style='color:#0098DC;'>32%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+        "Attack power +<span style='color:#0098DC;'>34%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+        "Attack power +<span style='color:#0098DC;'>36%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+        "Attack power +<span style='color:#0098DC;'>40%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+        "Attack power +<span style='color:#0098DC;'>50%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+        "Attack power +<span style='color:#0098DC;'>60%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+        "Attack power +<span style='color:#0098DC;'>70%</span> and gain hidden status (will not be targeted by ranged enemies) ",
+      },
       sp = { 30, 30, 30, 28, 28, 28, 26, 24, 22, 20 },
       duration = { 25, 26, 27, 30, 31, 32, 35, 40, 45, 50 },
     },
     {
       icon = "skchr-milu-2.png",
-      name = "战术电台",
+      name = "Tactical Radio",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即对攻击范围内随机投下<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>3</span>枚炸弹进行轰炸（优先选择有敌人的位置），每颗炸弹对周围所有敌人造成相当于攻击力<span style='color:#0098DC;'>180%<span>/</span>210%<span>/</span>240%<span>/</span>300%</span>的物理伤害。",
+      description = {
+        "Immediately drop <span style='color:#0098DC;'>2</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>180%</span> physical damage to all nearby enemies",
+        "Immediately drop <span style='color:#0098DC;'>2</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>190%</span> physical damage to all nearby enemies",
+        "Immediately drop <span style='color:#0098DC;'>2</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>200%</span> physical damage to all nearby enemies",
+        "Immediately drop <span style='color:#0098DC;'>2</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>210%</span> physical damage to all nearby enemies",
+        "Immediately drop <span style='color:#0098DC;'>2</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>220%</span> physical damage to all nearby enemies",
+        "Immediately drop <span style='color:#0098DC;'>2</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>230%</span> physical damage to all nearby enemies",
+        "Immediately drop <span style='color:#0098DC;'>2</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>240%</span> physical damage to all nearby enemies",
+        "Immediately drop <span style='color:#0098DC;'>3</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>260%</span> physical damage to all nearby enemies",
+        "Immediately drop <span style='color:#0098DC;'>3</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>280%</span> physical damage to all nearby enemies",
+        "Immediately drop <span style='color:#0098DC;'>3</span> bombs randomly within attack range (will prioritize positions with enemies). Each bomb deals <span style='color:#0098DC;'>300%</span> physical damage to all nearby enemies",
+      },
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Clue Collection·α",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +10%"
     },
   },
   meta = {

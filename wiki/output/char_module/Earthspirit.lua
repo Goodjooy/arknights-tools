@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2.png",
-      name = "攻击力强化·β型",
+      name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Attack power +<span style='color:#0098DC;'>25%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>70%</span>",
+        "Attack power +<span style='color:#0098DC;'>80%</span>",
+      },
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-skgoat-2.png",
-      name = "流沙化",
+      name = "Quicksand",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "<span style='color:#FF6237;'>停止攻击</span>；攻击范围内的敌方单位每<span style='color:#0098DC;'>1.8<span>/</span>1.7<span>/</span>1.6<span>/</span>1.4</span>秒受到一次停顿效果",
+      description = {
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.8</span> seconds",
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.8</span> seconds",
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.8</span> seconds",
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.7</span> seconds",
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.7</span> seconds",
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.7</span> seconds",
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.6</span> seconds",
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.55</span> seconds",
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.5</span> seconds",
+        "Stops attacking enemies. All enemies within attack range get stopped once every <span style='color:#0098DC;'>1.4</span> seconds",
+      },
       sp = { 60, 58, 56, 54, 52, 50, 48, 46, 44, 40 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -306,18 +328,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Disaster Messenger·α",
       badge = "hr",
       facility = "HR Office",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at Human Resource, accumulation of networking resources +30%"
     },
     {
-      name = "undefined",
+      name = "Geologist",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of originium products by +35%"
     },
   },
   meta = {
@@ -327,7 +349,7 @@ return {
   profile = {
     records = {
       resume = "地灵，地质学家。在环境评估，战场分析，地形利用等多方面工作中为罗德岛填补了该方面的空缺。<br>目前任职于罗德岛辅助干员小组，并为罗德岛提供地质勘探、天灾预警等天灾信使的相关服务。",
-      archive1 = "干员地灵是一个十分专注于工作的人，一旦她的研究启动就没有办法轻易放弃。她会不顾一切，以最高效的方式来完成工作。<br>无论从哪方面看，地灵都是一个非常职业，敬业的一名干员，这种职业体现在多方面。<br>她会将工时计算的非常清楚，加班、调班、补班的时间安排的井井有条，并且保证私人生活不受影响。",
+      archive1 = "干员地灵对工作的专注人尽皆知，毕竟只要她埋下头开始研究岩石，她的世界里就会只剩下岩石。有传闻说即使是把她的午餐换成是红土她都不会发现，直到她意识到已经是下班时间。尽管她的每一分投入都总能有所回报，研究成果颇丰，但她还是会准时下班。<br>没错，因为准时下班意味着良好的作息习惯和美妙的人生历程，即使身为感染者与研究者，地灵依然如此坚持。她的敬业与专业基本都来自于她对人生的规划，无论是谁要打破这种规划，她都不会同意。<br>当然，也许会有必须让她加班的情况，那样自然就要向地灵支付高额的加班费用，还要忍受她长时间的白眼。<br>但当干员地灵工作时，看着她全神贯注的侧脸和一丝不苟的姿态，你会意识到，她确实是你见过最专业的干员之一。",
       archive2 = "身为地质学研究者，地灵自学生时代就对岩石研究产生了深厚的热爱。根据她的解释，籍由对不同年代，不同成分的土壤成分的研究，有助于人类更加深入地了解这片大地的历史与经历（在提及“大地”这一词汇时，地灵至少使用了四种不同语言加以描述），而研究岩石是踏入这门学科的最初，也是最为重要的一步。<br>地灵的专长领域是田野调查，她熟知不同的土壤与岩石的成分、分布与形成历史，也了解土地对人的危害是什么。不过她从未想到，有朝一日竟然能将这种技能运用在战斗中。",
       archive3 = "地灵成为感染者的契机是在一次针对源石采样的田野调查中。不过对于自己成为感染者一事，她显得缺乏兴趣，因为这并未使她更加贴近源石或别的什么石头，反而成了妨碍她工作的关键。地灵向提供给她治疗方案的罗德岛投入了百分百的信任，因为她根本没有功夫去管顾自己的病症。<br>基于缺乏更多研究经费的原因，地灵在田野调查工作中会顺带帮助临近的村镇或城市提供有关天灾调查与预警的工作，这使得她成为了一名天灾信使（地灵着重地强调，天灾信使理应只是她的副业，但人们显然是因为这层身份才更多地求助于她，这使得她非常困扰）。<br>在天灾信使中，地灵与普罗旺斯有一定交情（在罗德岛，作为干员的普罗旺斯依然发挥着天灾信使这一重要的职能），而对于同族后辈，同时也是火山学家的艾雅法拉，地灵在工作中也对其多有照顾。",
       archive4 = "据干员地灵反馈，她所持有的法杖上的源石经常在她的耳边形成絮语。这种絮语原本只是根本听不懂的噪音，但进入罗德岛后，这种絮语开始有了一定的分辨度。<br>地灵表示这种感觉让她非常反感。但由于她的法杖是特别定制的产品，在满足莱塔尼亚法术流派释放法术的技能同时，加入了以音波形式进行地质勘探等功能，她无法舍弃这根法杖而换成其他产品，因此地灵只能选择接受，并努力使这种絮语成为其生活与工作的一部分。<br>鉴于这种噪音只有地灵一人能够听见，目前尚未收到其他干员有关这种噪音的反馈，建议以经矿石病强化后的工作压力造成的疲劳性耳鸣作为处理方案参考。",

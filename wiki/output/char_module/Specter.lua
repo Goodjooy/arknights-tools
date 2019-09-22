@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-3.png",
-      name = "攻击力强化·γ型",
+      name = "Attack Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>100%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>55%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>75%</span>",
+        "Attack power +<span style='color:#0098DC;'>90%</span>",
+        "Attack power +<span style='color:#0098DC;'>100%</span>",
+      },
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-ghost-2.png",
-      name = "肉斩骨断",
+      name = "Fractured Body",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "技能持续期间内干员的生命值始终不会低于<span style='color:#0098DC;'>1</span>，攻击力<span style='color:#0098DC;'>+40%<span>/</span>70%<span>/</span>100%<span>/</span>160%</span>\n<span style='color:#F49800;'>技能结束后干员晕眩10<span>/</span>10<span>/</span>10<span>/</span>10秒</span>",
+      description = {
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>40%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>50%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>60%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>70%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>80%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>90%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>100%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>120%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>140%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+        "Prevents the operator's HP from falling below 1 while the skill is active, Attack power +<span style='color:#0098DC;'>160%</span>. Operator is stunned for <span style='color:#F49800;'>10</span> seconds after the skill ends",
+      },
       sp = { 45, 45, 45, 45, 45, 45, 43, 42, 41, 40 },
       duration = { 10, 10, 10, 11, 11, 11, 12, 13, 14, 15 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Solitude",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
   },
   meta = {

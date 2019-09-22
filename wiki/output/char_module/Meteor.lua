@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-shotst-1.png",
-      name = "碎甲击",
+      name = "Armor-crushing Shot",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下一次攻击造成相当于攻击力<span style='color:#0098DC;'>120%<span>/</span>135%<span>/</span>150%<span>/</span>180%</span>的物理伤害，5<span>/</span>5<span>/</span>5<span>/</span>5秒内使命中目标的防御力<span style='color:#0098DC;'>--20%<span>/</span>-25%<span>/</span>-30%<span>/</span>-35%</span>",
+      description = {
+        "The next attack deals <span style='color:#0098DC;'>120%</span> physical damage and inflicts <span style='color:#0098DC;'>-20%</span> defense to the target for 5 seconds",
+        "The next attack deals <span style='color:#0098DC;'>125%</span> physical damage and inflicts <span style='color:#0098DC;'>-20%</span> defense to the target for 5 seconds",
+        "The next attack deals <span style='color:#0098DC;'>130%</span> physical damage and inflicts <span style='color:#0098DC;'>-20%</span> defense to the target for 5 seconds",
+        "The next attack deals <span style='color:#0098DC;'>135%</span> physical damage and inflicts <span style='color:#0098DC;'>-25%</span> defense to the target for 5 seconds",
+        "The next attack deals <span style='color:#0098DC;'>140%</span> physical damage and inflicts <span style='color:#0098DC;'>-25%</span> defense to the target for 5 seconds",
+        "The next attack deals <span style='color:#0098DC;'>145%</span> physical damage and inflicts <span style='color:#0098DC;'>-25%</span> defense to the target for 5 seconds",
+        "The next attack deals <span style='color:#0098DC;'>150%</span> physical damage and inflicts <span style='color:#0098DC;'>-30%</span> defense to the target for 5 seconds",
+        "The next attack deals <span style='color:#0098DC;'>160%</span> physical damage and inflicts <span style='color:#0098DC;'>-31%</span> defense to the target for 5 seconds",
+        "The next attack deals <span style='color:#0098DC;'>170%</span> physical damage and inflicts <span style='color:#0098DC;'>-32%</span> defense to the target for 5 seconds",
+        "The next attack deals <span style='color:#0098DC;'>180%</span> physical damage and inflicts <span style='color:#0098DC;'>-35%</span> defense to the target for 5 seconds",
+      },
       sp = { 5, 5, 5, 5, 5, 5, 4, 4, 4, 4 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-shotst-2.png",
-      name = "碎甲击·扩散",
+      name = "Armor-crushing Shot·Spread",
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即对攻击范围内至多<span style='color:#0098DC;'>5</span>个敌人造成相当于攻击力<span style='color:#0098DC;'>140%<span>/</span>155%<span>/</span>170%<span>/</span>200%</span>的物理伤害，<span style='color:#0098DC;'>5<span>/</span>5<span>/</span>5<span>/</span>5</span>秒内使命中目标的防御力<span style='color:#0098DC;'>--25%<span>/</span>-30%<span>/</span>-35%<span>/</span>-40%</span>",
+      description = {
+        "Immediately deal <span style='color:#0098DC;'>140%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-25%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>145%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-25%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>150%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-25%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>155%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-30%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>160%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-30%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>165%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-30%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>170%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-35%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>180%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-35%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>190%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-35%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>200%</span> physical damage to up to 5 enemies within attack range and inflict <span style='color:#0098DC;'>-40%</span> defense to the targets for <span style='color:#0098DC;'>5</span> seconds",
+      },
       sp = { 20, 20, 20, 19, 19, 19, 18, 17, 16, 15 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Standardization·α",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +15%"
     },
     {
-      name = "undefined",
+      name = "Empathetic",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {
@@ -359,7 +381,7 @@ return {
       endurance = "Below Standard",
       tactic = "Below Standard",
       skill = "Standard",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

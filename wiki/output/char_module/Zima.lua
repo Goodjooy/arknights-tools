@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-3.png",
-      name = "冲锋号令·γ型",
+      name = "Assault Order·Type γ",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>12<span>/</span>12<span>/</span>12<span>/</span>12</span>点部署费用",
+      description = {
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+      },
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-headbr-2.png",
-      name = "乌萨斯战吼",
+      name = "Roar of Ursus",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "技能持续时间内逐渐获得<span style='color:#0098DC;'>9<span>/</span>10<span>/</span>11<span>/</span>12</span>点部署费用\n所有先锋干员攻击力和防御力<span style='color:#0098DC;'>+25%<span>/</span>35%<span>/</span>45%<span>/</span>60%</span>，并在击杀敌人时额外获得<span style='color:#0098DC;'>1</span>点部署费用",
+      description = {
+        "Gradually obtain <span style='color:#0098DC;'>9</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>25%</span>, additionally obtain 1 cost when killing an enemy",
+        "Gradually obtain <span style='color:#0098DC;'>9</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>30%</span>, additionally obtain 1 cost when killing an enemy",
+        "Gradually obtain <span style='color:#0098DC;'>9</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>35%</span>, additionally obtain 1 cost when killing an enemy",
+        "Gradually obtain <span style='color:#0098DC;'>10</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>35%</span>, additionally obtain 1 cost when killing an enemy",
+        "Gradually obtain <span style='color:#0098DC;'>10</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>40%</span>, additionally obtain 1 cost when killing an enemy",
+        "Gradually obtain <span style='color:#0098DC;'>10</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>45%</span>, additionally obtain 1 cost when killing an enemy",
+        "Gradually obtain <span style='color:#0098DC;'>11</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>45%</span>, additionally obtain 1 cost when killing an enemy",
+        "Gradually obtain <span style='color:#0098DC;'>11</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>50%</span>, additionally obtain 1 cost when killing an enemy",
+        "Gradually obtain <span style='color:#0098DC;'>11</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>55%</span>, additionally obtain 1 cost when killing an enemy",
+        "Gradually obtain <span style='color:#0098DC;'>12</span> cost while the skill is active. Increase Attack power and Defense power of all Vanguards by +<span style='color:#0098DC;'>60%</span>, additionally obtain 1 cost when killing an enemy",
+      },
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },
@@ -311,11 +333,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Leader",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {

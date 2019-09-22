@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-3.png",
-      name = "治疗强化·γ型",
+      name = "Healing Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+40%<span>/</span>55%<span>/</span>70%<span>/</span>90%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>55%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>65%</span>",
+        "Attack power +<span style='color:#0098DC;'>70%</span>",
+        "Attack power +<span style='color:#0098DC;'>75%</span>",
+        "Attack power +<span style='color:#0098DC;'>80%</span>",
+        "Attack power +<span style='color:#0098DC;'>90%</span>",
+      },
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-silent-2.png",
-      name = "医疗无人机",
+      name = "Healing Drone",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "获得一个医疗无人机\n<span style='color:#F49800;'>最多可库存1个无人机；无人机投入战场后治疗周围友军，10秒后自动销毁</span>",
+      description = {
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+        "Obtain a healing drone. Able to store up to 1 drone. Drones will heal nearby allies after being deployed and self-destruct after 10 seconds",
+      },
       sp = { 30, 29, 28, 26, 25, 24, 22, 21, 20, 18 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Rhine Technology·α",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +15%"
     },
   },
   meta = {
@@ -337,7 +359,7 @@ return {
   profile = {
     records = {
       resume = "赫默，莱茵生命有限公司源石有关项目研究员，曾主管数项未知应用研究，同期亦主持数个矿石病临床试验项目。<br>现于罗德岛为多项行动提供战场医疗救护服务。",
-      archive1 = "作为科研工作者，赫默做事安静而集中，具备极强观察力，而且行事高效。善于计算的她从不会在实验数据上出错，她严谨的科研作风，使得她带领的整个科研小组都充满了专注、忙碌，甚至有些紧张的氛围。<br>然而赫默并不像擅长自己的工作一样擅长交际和处理人际关系。在平时让自己保持独自一人，默默地观察着四周的人，维持自己的一个小世界，这才更能让赫默觉得放松。<br>不过，赫默的性格并不完全内向。她很擅长一对一的谈话，尤其是与下属交流工作时，她会表现得极富耐心，而且善于聆听，任何研究上的困难都可以毫不顾忌地对赫默诉说。可以说，维持赫默日常行动的能量，来自于集中的精神与不受打扰的自由空间。",
+      archive1 = "赫默作为一名优秀的科研工作者，她与其他同行一样一丝不苟，而且拥有敏锐的洞察力以及极强的执行力。一旦投身实验之中，她就会像一台精密的机器开始运转一般，不会出现一丝一毫的错误。她这股严谨的科研作风为她带来了诸多值得赞叹的成果，她手下的科研小组也耳濡目染，整个组的氛围都显得有些忙碌和紧凑。<br>在交际与人际关系上，赫默不擅长应对人多的场合，例如参加聚会和派对的时候，她会表现得沉默寡言。不过，赫默的性格决不应该被称作内向。她维持日常行动的能量，来自于集中精神时带来的宁静。她只是更习惯于在保持独自一人的状态同时，安静地观察着四周。<br>事实上，与其他研究人员交流时，她会表现得极富耐心，而且善于聆听。她愿意就有关科研的任何问题展开所有维度的讨论，她会倾听任何研究上的困难并给出一些令人满意的意见乃至答案。只不过，由于她总是在实验室中忙碌，以至于除了她的下属和极少数关系较为密切的对象，鲜少有人知道她的这一面罢了。",
       archive2 = "关于赫默的具备价值的情报，完全来自于她对于医学领域与生命科学领域的若干贡献。因此，提及赫默的每一份情报，都必然会探讨到她的母公司——莱茵生命实验室。<br>赫默加入莱茵生命实验室的具体时间与经过属于未公开资料。目前的有效资料均来自于赫默对过往经历的有限自述，以及一些其他方面的情报。<br>根据赫默的回忆，她与莱茵生命以及源石的缘分，始于自己学生时代跟随导师前往莱茵生命公司参观的经历——<br>彼时，莱茵生命公司为展示其最新研究成果，于哥伦比亚各地区进行巡回性质的科学展览。全新的医疗设备、对生命最新的解析成果，优化源石传输效率的全新一代医疗法杖——在令人眼花缭乱的产品清单中，和拥有无限拓展可能的莱茵生命源石科技展深深地吸引了赫默的目光。<br>在顺利完成自己的学业后，赫默如愿以偿地进入莱茵生命公司就职。在源石技艺领域拥有不凡天赋的她，很快就得到机会，参与进了若干重要的源石技艺与临床医疗相关的实验项目中。<br>不过，即使自己事业最为顺利，率获公司上层表彰的这一时期，赫默也从未忘记过自己最初的愿望——进入“源石科技的生命科学应用”这一项目领域中。<br><br>“只是没有想到过，机会来的会那么快。”<br>回忆至此处时，赫默露出了略带挖苦的微笑。",
       archive3 = "由赫默提供设计理念，最终经罗德岛基础建设部门投入生产的医疗用无人机，完全体现了赫默作为医生的哲学。<br>这是一台设计上朴实无华（同时价格也非常亲民）的医用无人机，没有附带任何武装，其唯一指定的功能就是为战场上的干员们提供最为及时的治疗。<br>经罗德岛医疗部制药小组多次试验的医疗制剂，可以通过多种途径装配至无人机的药剂箱上。无人机采用雾化、喷射、给药与医疗法杖模拟等四种不同的模式，可根据不同地形和环境，以及不同治疗对象和不同需求对象而灵活改变模式。<br>只是，这种医疗无人机尚处实验阶段，其基于轻便使用的用途，决定了它必然是一种即抛式的，较为脆弱的低价值目标。而且在信号干扰较强，地形十分复杂的地区，它的工作效率也会受到一定的影响。<br>不过即便如此，它的投入使用依然为罗德岛干员们带来了相当良好的治疗体验。而这，也只是赫默医生带给罗德岛的最初的一份礼物。",
       archive4 = "",

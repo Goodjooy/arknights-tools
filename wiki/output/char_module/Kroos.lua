@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skchr-kroos-1.png",
-      name = "二连射·自动",
+      name = "Consecutive Shot·Auto",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击时连续射击<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span></span>次，每次射击造成相当于攻击力<span style='color:#0098DC;'>100%<span>/</span>120%<span>/</span>140%<span>/</span></span>的物理伤害",
+      description = {
+        "The next attack hits <span style='color:#0098DC;'>2</span> times, with each hit dealing <span style='color:#0098DC;'>100%</span> physical damage",
+        "The next attack hits <span style='color:#0098DC;'>2</span> times, with each hit dealing <span style='color:#0098DC;'>105%</span> physical damage",
+        "The next attack hits <span style='color:#0098DC;'>2</span> times, with each hit dealing <span style='color:#0098DC;'>110%</span> physical damage",
+        "The next attack hits <span style='color:#0098DC;'>2</span> times, with each hit dealing <span style='color:#0098DC;'>120%</span> physical damage",
+        "The next attack hits <span style='color:#0098DC;'>2</span> times, with each hit dealing <span style='color:#0098DC;'>125%</span> physical damage",
+        "The next attack hits <span style='color:#0098DC;'>2</span> times, with each hit dealing <span style='color:#0098DC;'>130%</span> physical damage",
+        "The next attack hits <span style='color:#0098DC;'>2</span> times, with each hit dealing <span style='color:#0098DC;'>140%</span> physical damage",
+      },
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -250,18 +258,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Slow Starter",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +15% for the first hour. Thereafter, increase by +2% every hour, capping at +25%"
     },
     {
-      name = "undefined",
+      name = "Solitude",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
   },
   meta = {
@@ -290,8 +298,8 @@ return {
       mobility = "Standard",
       endurance = "Below Standard",
       tactic = "Standard",
-      skill = "Excellent",
-      originium = "Below Standard",
+      skill = "Great",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

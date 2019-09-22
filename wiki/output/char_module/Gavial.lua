@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-ccheal-1.png",
-      name = "活力再生",
+      name = "Revitalization",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次治疗时为目标增加一个增益，每秒持续恢复相当于嘉维尔攻击力<span style='color:#0098DC;'>20%<span>/</span>23%<span>/</span>26%<span>/</span>35%</span>（血量低于一半时为<span style='color:#0098DC;'>20%<span>/</span>23%<span>/</span>26%<span>/</span>35%</span>）的生命，持续<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>4<span>/</span>5</span>秒\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>2次</span>",
+      description = {
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>20%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>20%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span> seconds. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>21%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>21%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span> seconds. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>22%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>22%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span> seconds. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>23%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>23%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span> seconds. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>24%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>24%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span> seconds. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>25%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>25%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span> seconds. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>26%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>26%</span> when HP is below 1/2) for <span style='color:#0098DC;'>4</span> seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>29%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>29%</span> when HP is below 1/2) for <span style='color:#0098DC;'>5</span> seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>32%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>32%</span> when HP is below 1/2) for <span style='color:#0098DC;'>5</span> seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "On the next heal, additionally heal the target for <span style='color:#0098DC;'>35%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>35%</span> when HP is below 1/2) for <span style='color:#0098DC;'>5</span> seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+      },
       sp = { 10, 10, 10, 9, 9, 9, 9, 9, 9, 8 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-ccheal-2.png",
-      name = "活力再生·广域",
+      name = "Revitalization·Area",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即为攻击范围内所有友方单位增加一个增益，每秒持续恢复相当于嘉维尔攻击力<span style='color:#0098DC;'>15%<span>/</span>18%<span>/</span>21%<span>/</span>30%</span>（血量低于一半时为<span style='color:#0098DC;'>15%<span>/</span>18%<span>/</span>21%<span>/</span>30%</span>）的生命，持续<span style='color:#0098DC;'>7<span>/</span>7<span>/</span>7<span>/</span>10</span>秒",
+      description = {
+        "Heal all allies within range for <span style='color:#0098DC;'>15%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>15%</span> when HP is below 1/2) for <span style='color:#0098DC;'>7</span> seconds.",
+        "Heal all allies within range for <span style='color:#0098DC;'>16%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>16%</span> when HP is below 1/2) for <span style='color:#0098DC;'>7</span> seconds.",
+        "Heal all allies within range for <span style='color:#0098DC;'>17%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>17%</span> when HP is below 1/2) for <span style='color:#0098DC;'>7</span> seconds.",
+        "Heal all allies within range for <span style='color:#0098DC;'>18%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>18%</span> when HP is below 1/2) for <span style='color:#0098DC;'>7</span> seconds.",
+        "Heal all allies within range for <span style='color:#0098DC;'>19%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>19%</span> when HP is below 1/2) for <span style='color:#0098DC;'>7</span> seconds.",
+        "Heal all allies within range for <span style='color:#0098DC;'>20%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>20%</span> when HP is below 1/2) for <span style='color:#0098DC;'>7</span> seconds.",
+        "Heal all allies within range for <span style='color:#0098DC;'>21%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>21%</span> when HP is below 1/2) for <span style='color:#0098DC;'>7</span> seconds.",
+        "Heal all allies within range for <span style='color:#0098DC;'>24%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>24%</span> when HP is below 1/2) for <span style='color:#0098DC;'>8</span> seconds.",
+        "Heal all allies within range for <span style='color:#0098DC;'>27%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>27%</span> when HP is below 1/2) for <span style='color:#0098DC;'>9</span> seconds.",
+        "Heal all allies within range for <span style='color:#0098DC;'>30%</span> of Gavial's Attack power per second (<span style='color:#0098DC;'>30%</span> when HP is below 1/2) for <span style='color:#0098DC;'>10</span> seconds.",
+      },
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Pharmacology",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
     {
-      name = "undefined",
+      name = "Medic Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Medic operatives by +30%"
     },
   },
   meta = {

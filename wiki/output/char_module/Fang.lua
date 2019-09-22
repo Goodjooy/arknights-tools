@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-1.png",
-      name = "冲锋号令·α型",
+      name = "Assault Order·Type α",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span></span>点部署费用",
+      description = {
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost",
+      },
       sp = { 30, 29, 28, 27, 26, 25, 25 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -232,18 +240,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Impatient",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +20% for the first hour. Thereafter, increase by +1% every hour, capping at +25%"
     },
     {
-      name = "undefined",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
   },
   meta = {
@@ -273,7 +281,7 @@ return {
       endurance = "Standard",
       tactic = "Standard",
       skill = "Standard",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

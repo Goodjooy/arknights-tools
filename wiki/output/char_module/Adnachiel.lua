@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-1.png",
-      name = "攻击力强化·α型",
+      name = "Attack Strengthening·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+10%<span>/</span>30%<span>/</span>50%<span>/</span></span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>10%</span>",
+        "Attack power +<span style='color:#0098DC;'>15%</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+      },
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -238,18 +246,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Order Distribution·α",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },
     {
-      name = "undefined",
+      name = "Skilled Craftsman",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%"
     },
   },
   meta = {
@@ -259,7 +267,7 @@ return {
   profile = {
     records = {
       resume = "安德切尔，拉特兰公民，适用拉特兰一至十三项公民权益。正式任职前为自由职业者。于多项测试中获得优异成绩，遂获准加入罗德岛，现于罗德岛行动预备组A4小组任职。<br>在快速反应、精准射击、支援作战等项目中展现出值得期待的潜力。",
-      archive1 = "安德切尔智商高且善于观察，通常是最快掌握训练内容的人。在交际场合中，他总是平静地保持长时间的沉默，不会显示出任何的局促不安，也不会让他人感到不自然。安德切尔偏好以观察、分析的说话方式，只要谈话牵涉到他所熟悉的事物，他会以不间断的分析，准确地指出某项事物的特点和运作规律。",
+      archive1 = "熟悉安德切尔的干员同僚们都习惯用一个词汇形容这位天使：聪慧。即使是相当复杂的学识和技术，安德切尔都能在很短的时间内将之洞悉、掌握。<br>虽然安德切尔曾谦虚地表示，一旦涉及更加高深的理论，他就会束手无策，但大家也都仅仅把这当作是安德切尔的谦逊。毕竟，安德切尔在社交场合下表现出的那种沉默和自然，都让人心生好感，更会认定这是个智慧而有涵养的年轻人。一旦与他交流，干员们就更能感受到他惊人的观察力和令人赞叹的敏感。他的言语一刻也没有偏离过事物的本质，而他理论范畴内的所有事物似乎都无法脱离他的掌控，凭借分析，他甚至能推导出目标短暂的未来。尽管他拒绝被称作是“先知”或者“知道很多的小白脸”，但和他有关的传言实在是数不胜数。",
       archive2 = "暂无出动任务的休息时间中，安德切尔常前往罗德岛整备与维修工作间。作为实习助手，安德切尔手腕灵活，心思缜密，且时常流露出对罗德岛设备无法掩饰的，十足的好奇心。",
       archive3 = "安德切尔尚未通过拉特兰铳型武装运用许可协议，他备受信赖的武器是他亲自改装的十字弩弓（拉特兰的设计有别于雷神工业量产化的金属弩弓）。鉴于力量方面的不足，他的弩弓仍保有踏具这一传统弩具部件。",
       archive4 = "",

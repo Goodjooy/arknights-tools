@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-bldsk-1.png",
-      name = "紧急包扎",
+      name = "Emergency Bandage",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次治疗额外回复目标最大生命值的<span style='color:#0098DC;'>11%<span>/</span>15%<span>/</span>19%<span>/</span>25%</span>\n<span style='color:#F49800;'>只当目标生命值不满一半时才会触发，可充能2<span>/</span>2<span>/</span>3<span>/</span>4次</span>",
+      description = {
+        "The next heal will heal an additional <span style='color:#0098DC;'>11%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will heal an additional <span style='color:#0098DC;'>12%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will heal an additional <span style='color:#0098DC;'>13%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will heal an additional <span style='color:#0098DC;'>15%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will heal an additional <span style='color:#0098DC;'>16%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will heal an additional <span style='color:#0098DC;'>17%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will heal an additional <span style='color:#0098DC;'>19%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next heal will heal an additional <span style='color:#0098DC;'>21%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next heal will heal an additional <span style='color:#0098DC;'>23%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next heal will heal an additional <span style='color:#0098DC;'>25%</span> of the target's Max HP. This effect will only activate when the target has less than 1/2 HP remaining. Can hold <span style='color:#F49800;'>4</span> charge(s)",
+      },
       sp = { 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-bldsk-2.png",
-      name = "不稳定血浆",
+      name = "Unstable Plasma",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "自身和攻击范围内随机一名我方单位获得以下状态：\n攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>90%</span>，每秒损失<span style='color:#FF6237;'>3%<span>/</span>3%<span>/</span>3%<span>/</span>3%</span>最大生命值，持续<span style='color:#0098DC;'>15<span>/</span>15<span>/</span>15<span>/</span>15</span>秒",
+      description = {
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>30%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>35%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>40%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>45%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>50%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>55%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>60%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>70%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>80%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+        "Grants the following effects to self and a random ally within attack range: Attack power +<span style='color:#0098DC;'>90%</span>, Lose <span style='color:#FF6237;'>3%</span> Max HP every second, lasts for <span style='color:#0098DC;'>15</span> seconds",
+      },
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -311,11 +333,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Medic Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Medic operatives by +30%"
     },
   },
   meta = {

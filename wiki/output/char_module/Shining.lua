@@ -147,31 +147,64 @@ return {
   skills = {
     {
       icon = "skchr-shining-1.png",
-      name = "信条",
+      name = "Creed",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+45%<span>/</span>58%<span>/</span>67%<span>/</span>80%</span>，攻击速度<span style='color:#0098DC;'>+10<span>/</span>10<span>/</span>20<span>/</span>20</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>45%</span>, Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack power +<span style='color:#0098DC;'>48%</span>, Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>, Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack power +<span style='color:#0098DC;'>58%</span>, Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack power +<span style='color:#0098DC;'>61%</span>, Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack power +<span style='color:#0098DC;'>64%</span>, Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack power +<span style='color:#0098DC;'>67%</span>, Attack speed +<span style='color:#0098DC;'>20</span>",
+        "Attack power +<span style='color:#0098DC;'>70%</span>, Attack speed +<span style='color:#0098DC;'>20</span>",
+        "Attack power +<span style='color:#0098DC;'>75%</span>, Attack speed +<span style='color:#0098DC;'>20</span>",
+        "Attack power +<span style='color:#0098DC;'>80%</span>, Attack speed +<span style='color:#0098DC;'>20</span>",
+      },
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
     {
       icon = "skchr-shining-2.png",
-      name = "自动掩护",
+      name = "Automatic Cover",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次治疗使目标获得一个持续<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>3<span>/</span>3</span>秒的护盾\n护盾可以吸收相当于闪灵攻击力<span style='color:#0098DC;'>20%<span>/</span>28%<span>/</span>35%<span>/</span>50%</span>的伤害，同时使目标防御力<span style='color:#0098DC;'>+20%<span>/</span>25%<span>/</span>35%<span>/</span>50%</span>；<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>3次</span>",
+      description = {
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>2</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>20%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>20%</span>. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>2</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>23%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>20%</span>. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>2</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>25%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>20%</span>. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>2</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>28%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>25%</span>. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>2</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>30%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>25%</span>. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>2</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>33%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>25%</span>. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>3</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>35%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>35%</span>. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>3</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>40%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>35%</span>. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>3</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>45%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>35%</span>. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will grant a shield to the target that lasts for <span style='color:#0098DC;'>3</span> seconds. The shield can absorb damage equal to <span style='color:#0098DC;'>50%</span> of Shining's Attack power. Additionally, it increases the target's defense by <span style='color:#0098DC;'>50%</span>. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+      },
       sp = { 8, 8, 8, 7, 7, 7, 7, 6, 6, 5 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-shining-3.png",
-      name = "教条力场",
+      name = "Dogmatic Field",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>50%</span>\n攻击范围内的所有友方单位防御力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>100%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>20%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>55%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>70%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>80%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>. Increase the defense of all allies within attack range by <span style='color:#0098DC;'>100%</span>",
+      },
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
     },
@@ -333,19 +366,19 @@ return {
       }
     },
     {
-      name = "Black Devil's Protection",
+      name = "Codex",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Allies within attack range gain Defense +20",
+          description = "Attack speed +10",
         },
         {
           elite = 2,
           level = 1,
           potential = 2,
-          description = "Allies within attack range gain Defense +25 (+5)",
+          description = "Attack speed +13 (+3)",
         },
       }
     },
@@ -367,11 +400,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Empathetic",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {

@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-red-1.png",
-      name = "处决模式",
+      name = "Execution Mode",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后攻击力<span style='color:#0098DC;'>+35%<span>/</span>50%<span>/</span>65%<span>/</span>80%</span>，并获得<span style='color:#0098DC;'>20%<span>/</span>30%<span>/</span>40%<span>/</span>50%</span>物理闪避",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>35%</span> after deploying, additionally gain <span style='color:#0098DC;'>20%</span> physical evasion",
+        "Attack power +<span style='color:#0098DC;'>40%</span> after deploying, additionally gain <span style='color:#0098DC;'>20%</span> physical evasion",
+        "Attack power +<span style='color:#0098DC;'>45%</span> after deploying, additionally gain <span style='color:#0098DC;'>20%</span> physical evasion",
+        "Attack power +<span style='color:#0098DC;'>50%</span> after deploying, additionally gain <span style='color:#0098DC;'>30%</span> physical evasion",
+        "Attack power +<span style='color:#0098DC;'>55%</span> after deploying, additionally gain <span style='color:#0098DC;'>30%</span> physical evasion",
+        "Attack power +<span style='color:#0098DC;'>60%</span> after deploying, additionally gain <span style='color:#0098DC;'>30%</span> physical evasion",
+        "Attack power +<span style='color:#0098DC;'>65%</span> after deploying, additionally gain <span style='color:#0098DC;'>40%</span> physical evasion",
+        "Attack power +<span style='color:#0098DC;'>70%</span> after deploying, additionally gain <span style='color:#0098DC;'>40%</span> physical evasion",
+        "Attack power +<span style='color:#0098DC;'>75%</span> after deploying, additionally gain <span style='color:#0098DC;'>40%</span> physical evasion",
+        "Attack power +<span style='color:#0098DC;'>80%</span> after deploying, additionally gain <span style='color:#0098DC;'>50%</span> physical evasion",
+      },
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },
     {
       icon = "skchr-red-2.png",
-      name = "狼群",
+      name = "Wolf Pack",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后立即对周围所有敌人造成相当于攻击力<span style='color:#0098DC;'>140%<span>/</span>170%<span>/</span>200%<span>/</span>250%</span>的物理伤害，并使命中目标晕眩<span style='color:#0098DC;'>1<span>/</span>1.5<span>/</span>2<span>/</span>3</span>秒",
+      description = {
+        "Immediately deal <span style='color:#0098DC;'>140%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>1</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>150%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>1</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>160%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>1</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>170%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>180%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>190%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>200%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>2</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>210%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>2.3</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>230%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>2.6</span> seconds",
+        "Immediately deal <span style='color:#0098DC;'>250%</span> physical damage to all nearby enemies after deploying and stun them for <span style='color:#0098DC;'>3</span> seconds",
+      },
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -323,18 +345,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "S.W.E.E.P",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Command Center, mood reduction per hour of all operatives in the Command Center -0.05"
     },
     {
-      name = "undefined",
+      name = "Tracker",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite2",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +25%"
     },
   },
   meta = {

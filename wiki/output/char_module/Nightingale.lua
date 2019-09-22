@@ -152,31 +152,64 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-3.png",
-      name = "治疗强化·γ型",
+      name = "Healing Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+40%<span>/</span>55%<span>/</span>70%<span>/</span>90%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>55%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>65%</span>",
+        "Attack power +<span style='color:#0098DC;'>70%</span>",
+        "Attack power +<span style='color:#0098DC;'>75%</span>",
+        "Attack power +<span style='color:#0098DC;'>80%</span>",
+        "Attack power +<span style='color:#0098DC;'>90%</span>",
+      },
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-cgbird-2.png",
-      name = "法术护盾",
+      name = "Arcane Shield",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次治疗使所有目标获得一个持续<span style='color:#0098DC;'>3<span>/</span>3.5<span>/</span>4<span>/</span>5</span>秒的护盾\n护盾能吸收相当于夜莺攻击力<span style='color:#0098DC;'>40%<span>/</span>50%<span>/</span>60%<span>/</span>90%</span>的<span style='color:#0098DC;'>法术</span>伤害，同时使目标法术抗性<span style='color:#0098DC;'>+5<span>/</span>10<span>/</span>15<span>/</span>20</span>；<span style='color:#F49800;'>可充能1<span>/</span>2<span>/</span>2<span>/</span>3次</span>",
+      description = {
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>3</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>40%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>5</span>. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>3</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>43%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>5</span>. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>3</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>46%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>5</span>. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>3.5</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>50%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>10</span>. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>3.5</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>53%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>10</span>. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>3.5</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>56%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>10</span>. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>4</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>60%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>15</span>. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>4</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>70%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>15</span>. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>4</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>80%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>15</span>. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next heal will grant shields to all targets that last for <span style='color:#0098DC;'>5</span> seconds. The shields can absorb magical damage equal to <span style='color:#0098DC;'>90%</span> of Nightingale's Attack power. Additionally, they increase the targets' magic resistance by <span style='color:#0098DC;'>20</span>. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+      },
       sp = { 11, 11, 11, 10, 10, 10, 10, 9, 9, 8 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-cgbird-3.png",
-      name = "圣域",
+      name = "Holy Territory",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围<span style='color:#0098DC;'>扩大</span>，攻击力<span style='color:#0098DC;'>+30%<span>/</span>40%<span>/</span>50%<span>/</span>80%</span>，攻击范围内的友方单位法术抗性<span style='color:#0098DC;'>+75%<span>/</span>90%<span>/</span>105%<span>/</span>150%</span>并获得<span style='color:#0098DC;'>10%<span>/</span>15%<span>/</span>20%<span>/</span>25%</span>的法术闪避",
+      description = {
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>30%</span>. All allies within attack range gain +<span style='color:#0098DC;'>75%</span> magic resistance and <span style='color:#0098DC;'>10%</span> magic evasion",
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>30%</span>. All allies within attack range gain +<span style='color:#0098DC;'>80%</span> magic resistance and <span style='color:#0098DC;'>10%</span> magic evasion",
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>30%</span>. All allies within attack range gain +<span style='color:#0098DC;'>85%</span> magic resistance and <span style='color:#0098DC;'>10%</span> magic evasion",
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>40%</span>. All allies within attack range gain +<span style='color:#0098DC;'>90%</span> magic resistance and <span style='color:#0098DC;'>15%</span> magic evasion",
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>40%</span>. All allies within attack range gain +<span style='color:#0098DC;'>95%</span> magic resistance and <span style='color:#0098DC;'>15%</span> magic evasion",
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>40%</span>. All allies within attack range gain +<span style='color:#0098DC;'>100%</span> magic resistance and <span style='color:#0098DC;'>15%</span> magic evasion",
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>50%</span>. All allies within attack range gain +<span style='color:#0098DC;'>105%</span> magic resistance and <span style='color:#0098DC;'>20%</span> magic evasion",
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>60%</span>. All allies within attack range gain +<span style='color:#0098DC;'>120%</span> magic resistance and <span style='color:#0098DC;'>20%</span> magic evasion",
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>70%</span>. All allies within attack range gain +<span style='color:#0098DC;'>135%</span> magic resistance and <span style='color:#0098DC;'>20%</span> magic evasion",
+        "Increase attack range, Attack power +<span style='color:#0098DC;'>80%</span>. All allies within attack range gain +<span style='color:#0098DC;'>150%</span> magic resistance and <span style='color:#0098DC;'>25%</span> magic evasion",
+      },
       sp = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
       duration = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
     },
@@ -338,13 +371,13 @@ return {
       }
     },
     {
-      name = "White Devil's Protection",
+      name = "Ephemeral Phantom",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Allies within attack range gain Magic resistance +5",
+          description = "Able to use phantoms. Phantoms cannot attack or block enemies. They have 75 Magic resistance, 30% physical evasion and draw enemy attacks easily. Additionally, they lose 3% Max HP every second",
         },
       }
     },
@@ -366,11 +399,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Inspiring",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.1 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {

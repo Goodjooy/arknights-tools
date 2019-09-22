@@ -98,7 +98,15 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+10%<span>/</span>30%<span>/</span>50%<span>/</span></span>",
+      description = {
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>",
+      },
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -204,31 +212,31 @@ return {
   },
   talents = {
     {
-      name = "生命攻击提升",
+      name = "Max HP & Attack Increase",
       levels = {
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "生命上限+3%，攻击力+3%",
+          description = "Max HP +3%, Attack +3%",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "生命上限+5%<@ba.talpu>（+2%）</>，攻击力+5%<@ba.talpu>（+2%）</>",
+          description = "Max HP +5% (+2%), Attack +5% (+2%)",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "生命上限+6%，攻击力+6%",
+          description = "Max HP +6%, Attack +6%",
         },
         {
           elite = 1,
           level = 55,
           potential = 4,
-          description = "生命上限+8%<@ba.talpu>（+2%）</>，攻击力+8%<@ba.talpu>（+2%）</>",
+          description = "Max HP +8% (+2%), Attack +8% (+2%)",
         },
       }
     },
@@ -250,18 +258,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "麻烦制造者",
+      name = "Troublesome Creator",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "进驻制造站时，生产力<span style='color:#0098DC;'>+25%</span>，仓库容量上限<span style='color:#FF6237;'>-12</span>，心情每小时消耗<span style='color:#FF6237;'>+0.25</span>"
+      description = "When stationed at a Craft Station, production +25%, storage capacity -12 and mood reduction per hour +0.25"
     },
     {
-      name = "和谐",
+      name = "Harmonius",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "进驻宿舍时，使该宿舍内除自身以外心情未满的某个干员每小时恢复<span style='color:#0098DC;'>+0.4</span>（同种效果取最高）；同时自身心情每小时恢复<span style='color:#0098DC;'>+0.2</span>"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.4 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.2"
     },
   },
   meta = {
@@ -272,18 +280,18 @@ return {
     records = {
       resume = "作为患者被罗德岛接收，因能力出众，在征求本人意见后，接受并通过测试，成为罗德岛的一员，被分配到预备行动组A6。<br>拥有出色的破坏力，是小队的攻坚手。",
       archive1 = "预备行动组A6的一员。虽然心智水平不足以承担复杂工作，但通过矿石病感染获得的怪力使得她破格成为了干员。<br>是A6的麻烦制造者，经常无意之间闯祸。但因为态度诚恳，也是最容易被原谅的一个。",
-      archive2 = "和大部分干员有所不同，泡普卡是被凯尔希医生捡回来的。<br>凯尔希医生对于为何将她带回来一事并没有作过多说明，只是表示从今往后她将作为罗德岛的一员生活。<br>不过，据当时同行的安塞尔医生表示，那是她第一次看到凯尔希医生生气的样子。",
+      archive2 = "和大部分干员有所不同，泡普卡是被凯尔希医生捡回来的。<br>凯尔希医生对于为何将她带回来一事并没有作过多说明，只是表示从今往后她将作为罗德岛的一员生活。<br>不过，据当时同行的安赛尔医生表示，那是他第一次看到凯尔希医生生气的样子。",
       archive3 = "当然，即使泡普卡没有通过干员测试，无家可归的她也能够获得后勤的工作。<br>另外，感染矿石病后在力量方面得到强化的病例本身就不多，像泡普卡这样得到极大强化的更是少见，从这个意义上，她的存在也很有价值。",
       archive4 = "泡普卡逐渐成为了罗德岛的吉祥物之一。毕竟，没有人会讨厌这样一个朝气蓬勃的小可爱——虽然这个小可爱偶尔还是会不小心搞点“小”破坏出来。<br>而且，在被编入A6后，她还多了许多家人，这一家子的鸡飞狗跳，如今也是罗德岛基地的风景之一。",
       token = "",
     },
     bio = {
       gender = "Female",
-      experience = "4 years",
+      experience = "No combat experience",
       origin = "Rim Billiton",
       birthday = "July 2",
       race = "Cartes",
-      height = "1.44m",
+      height = "144cm",
     },
     physical = {
       strength = "Great",

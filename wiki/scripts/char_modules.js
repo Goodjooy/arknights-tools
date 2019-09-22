@@ -223,6 +223,7 @@ Promise.all([
   }
 
   const skillDescFropmTL = (skillId, levels, baseMessage, rich = true) => {
+    baseMessage = baseMessage[0]
     let richRegex = new RegExp('<([A-Za-z@\.]*)>((?![</>]).)*{(.*?)}.*?<\/>', 'gim')
     let cnFormat = levels[levels.length-1].description
     let attrColors = {}
@@ -357,25 +358,83 @@ Promise.all([
     return levels.map(lv => lv.duration).join(', ')
   }
 
-  const skillTemplate = (charSkill, skillEN) => {
+  const skillTemplate = (charSkills, skillEN, skillIndex) => {
+    if (!charSkills[skillIndex]) return
+    let charSkill = charSkills[skillIndex]
     let baseSkill = skills[charSkill.skillId]
-    let skillTL = tl_skills[charSkill.skillId]
+    let skillTL = skillEN ? skillEN[charSkill.skillId] : null
     return fillData(tpl_skill, {
       icon: skillIcon(baseSkill.iconId || charSkill.skillId) + '.png',
       name: skillTL ? skillTL.name : baseSkill.levels[0].name,
       recharge: spType(baseSkill.levels[0].spData.spType),
       trigger: skillTrigger(baseSkill.levels[0].skillType),
       passive: baseSkill.levels[0].skillType == 0 ? 'true' : 'false',
-      description: skillTL ? skillDescFropmTL(charSkill.skillId, baseSkill.levels, skillTL.desc) : skillDesc(charSkill.skillId, baseSkill.levels),
+      description: skillTL ? skillDescFropmTL(charSkill.skillId, baseSkill.levels, skillTL.description) : skillDesc(charSkill.skillId, baseSkill.levels),
       spcost: skillSP(baseSkill.levels),
       duration: skillDuration(baseSkill.levels),
     })
   }
 
-  const talentTemplate = (charTalent, talentEN) => {
-    if (!charTalent) return
+  const skillLevel = (blackboard, cn, en) => {
+    let levelDesc = ''
+    let attrColors = {}
+    let richRegex = new RegExp('<([A-Za-z@\.]*)>((?![</>]).)*{(.*?)}.*?<\/>', 'gim')
+    while (match = richRegex.exec(cn)) {
+      let attrName = match[3].split(/\}?\:/gmi)[0].replace(/-+/gmi, '').toLowerCase()
+      attrColors[attrName] = match[1]
+    }
+    if (en) {
+      levelDesc = en
+      blackboard.forEach(item => {
+        let attrRegex = new RegExp('\{\{?\-?' + item.key + '\}?:?(.*?)\}(?!:)', 'gim')
+        let match = attrRegex.exec(levelDesc)
+        let value = null
+        if (match && match[1].indexOf('%') > -1) {
+          value = Math.round(item.value * 100) + '%'
+        } else {
+          value = item.value
+        }
+        if (attrColors[item.key]) value = '<' + attrColors[item.key] + '>' + value + '</>'
+        levelDesc = levelDesc.replace(attrRegex, value)
+      })
+    } else {
+      levelDesc = cn
+    }
+    levelDesc = richText(levelDesc)
+    return levelDesc
+  }
+
+  const skillDescListed = (levels, skillTL) => {
+    let descBody = ''
+    levels.forEach((level, levelNum) => {
+      descBody += '\n        "' + skillLevel(level.blackboard, level.description, skillTL ? skillTL.description[levelNum] : null) + '",'
+    })
+    return descBody
+  }
+
+  const skillTemplate2 = (charSkills, skillEN, skillIndex) => {
+    if (!charSkills[skillIndex]) return
+    let charSkill = charSkills[skillIndex]
+    let baseSkill = skills[charSkill.skillId]
+    let skillTL = skillEN ? skillEN[charSkill.skillId] : null
+    return fillData(tpl_skill, {
+      icon: skillIcon(baseSkill.iconId || charSkill.skillId) + '.png',
+      name: skillTL ? skillTL.name : baseSkill.levels[0].name,
+      recharge: spType(baseSkill.levels[0].spData.spType),
+      trigger: skillTrigger(baseSkill.levels[0].skillType),
+      passive: baseSkill.levels[0].skillType == 0 ? 'true' : 'false',
+      description: skillDescListed(baseSkill.levels, skillTL),
+      spcost: skillSP(baseSkill.levels),
+      duration: skillDuration(baseSkill.levels),
+    })
+  }
+
+  const talentTemplate = (charTalent, talentEN, talentIndex) => {
+    if (!charTalent[talentIndex]) return
     let talentBody = ''
-    charTalent.candidates.forEach((candidate, candidateIndex) => {
+    let candidateIndex = charTalent.reduce((c,v,i)=>i<talentIndex?c+v.candidates.length:c, 0)
+    let talentName = talentEN ? talentEN[ candidateIndex ].name : charTalent[ talentIndex ].candidates[0].name
+    charTalent[talentIndex].candidates.forEach(candidate => {
       talentBody += fillData(tpl_mastery, {
         elite: candidate.unlockCondition.phase,
         level: candidate.unlockCondition.level,
@@ -384,9 +443,10 @@ Promise.all([
         description: talentEN ? talentEN[ candidateIndex ].desc : candidate.description,
       })
       talentBody += '\n'
+      candidateIndex++
     })
     let full = `    {
-      name = "` + (talentEN ? talentEN[0].name : charTalent.candidates[0].name) + `",
+      name = "` + talentName + `",
       levels = {
 ` + talentBody + `      }
     },\n`
@@ -602,20 +662,21 @@ Promise.all([
     }[name] || name
   }
 
-  const riicTemplate = (infraSkill, riicEN) => {
-    if (!infraSkill) return
+  const riicTemplate = (infraSkill, riicEN, riicIndex) => {
+    if (!infraSkill[riicIndex]) return
     return fillData(tpl_infra, {
-      name: riicEN ? riicEN.name : infraSkill.name,
-      badge: facilityBadge(infraSkill.facility),
-      facility: facilityName(infraSkill.facility),
-      unlock: 'elite' + infraSkill.unlock,
-      description: riicEN ? riicEN.desc : infraSkill.description,
+      name: riicEN && riicEN[riicIndex] ? riicEN[riicIndex].name : infraSkill[riicIndex].name,
+      badge: facilityBadge(infraSkill[riicIndex].facility),
+      facility: facilityName(infraSkill[riicIndex].facility),
+      unlock: 'elite' + infraSkill[riicIndex].unlock,
+      description: riicEN && riicEN[riicIndex] ? riicEN[riicIndex].desc : infraSkill.description,
     })
   }
 
   const SHORTLIST = false
 
   if (SHORTLIST) characters = {
+    char_010_chen: characters.char_010_chen,
     char_101_sora: characters.char_101_sora,
     char_102_texas: characters.char_102_texas,
     char_103_angel: characters.char_103_angel,
@@ -623,7 +684,7 @@ Promise.all([
   }
 
   return Promise.each(Object.keys(characters), charKey => {
-    if (SHORTLIST) console.log('---------------------')
+    if (SHORTLIST) console.log('---------------------', charKey, '---------------------')
     let char = characters[charKey]
     if (!handbook[charKey]) return
     let info = extractHandbook(handbook[charKey], charKey)
@@ -664,15 +725,15 @@ Promise.all([
       base: phaseTemplate(char, char.phases[0], 0),
       elite1: phaseTemplate(char, char.phases[1], 1),
       elite2: phaseTemplate(char, char.phases[2], 2),
-      skill1: char.skills[0] ? '\n' + skillTemplate(char.skills[0], tl_skills[charKey]) : '',
-      skill2: char.skills[1] ? '\n' + skillTemplate(char.skills[1], tl_skills[charKey]) : '',
-      skill3: char.skills[2] ? '\n' + skillTemplate(char.skills[2], tl_skills[charKey]) : '',
-      buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills[0], tl_riic[charKey]) : '',
-      buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills[1], tl_riic[charKey]) : '',
-      buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills[2], tl_riic[charKey]) : '',
-      talent1: char.talents[0] ? talentTemplate(char.talents[0],  tl_talents[charKey]) : '',
-      talent2: char.talents[1] ? talentTemplate(char.talents[1],  tl_talents[charKey]) : '',
-      talent3: char.talents[2] ? talentTemplate(char.talents[2], tl_talents[charKey]) : '',
+      skill1: char.skills[0] ? '\n' + skillTemplate2(char.skills, tl_skills[charKey], 0) : '',
+      skill2: char.skills[1] ? '\n' + skillTemplate2(char.skills, tl_skills[charKey], 1) : '',
+      skill3: char.skills[2] ? '\n' + skillTemplate2(char.skills, tl_skills[charKey], 2) : '',
+      buff1: infraSkills[0] ? '\n' + riicTemplate(infraSkills, tl_riic[charKey], 0) : '',
+      buff2: infraSkills[1] ? '\n' + riicTemplate(infraSkills, tl_riic[charKey], 1) : '',
+      buff3: infraSkills[2] ? '\n' + riicTemplate(infraSkills, tl_riic[charKey], 2) : '',
+      talent1: char.talents[0] ? talentTemplate(char.talents,  tl_talents[charKey], 0) : '',
+      talent2: char.talents[1] ? talentTemplate(char.talents,  tl_talents[charKey], 1) : '',
+      talent3: char.talents[2] ? talentTemplate(char.talents, tl_talents[charKey], 2) : '',
       potential1:  potentialMessage(char.potentialRanks[0]),
       potential2:  potentialMessage(char.potentialRanks[1]),
       potential3:  potentialMessage(char.potentialRanks[2]),

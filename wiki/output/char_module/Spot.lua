@@ -98,7 +98,15 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+15%<span>/</span>30%<span>/</span>45%<span>/</span></span>，停止攻击并专心对周围的友方角色进行治疗",
+      description = {
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，停止攻击并专心对周围的友方角色进行治疗",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，停止攻击并专心对周围的友方角色进行治疗",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，停止攻击并专心对周围的友方角色进行治疗",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，停止攻击并专心对周围的友方角色进行治疗",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，停止攻击并专心对周围的友方角色进行治疗",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，停止攻击并专心对周围的友方角色进行治疗",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，停止攻击并专心对周围的友方角色进行治疗",
+      },
       sp = { 40, 40, 40, 40, 40, 40, 40 },
       duration = { 15, 16, 17, 20, 21, 22, 25 },
     },
@@ -204,31 +212,31 @@ return {
   },
   talents = {
     {
-      name = "烟雾加装",
+      name = "Smoke Device",
       levels = {
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "治疗友方单位后为其提供持续3秒的10%物理闪避",
+          description = "After healing an ally, grant 10% physical evasion to them for 3 seconds",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "治疗友方单位后为其提供持续3秒的15%<@ba.talpu>（+5%）</>物理闪避",
+          description = "After healing an ally, grant 15% (+5%) physical evasion to them for 3 seconds",
         },
         {
           elite = 1,
           level = 55,
           potential = 0,
-          description = "治疗友方单位后为其提供持续3秒的20%物理闪避",
+          description = "After healing an ally, grant 20% physical evasion to them for 3 seconds",
         },
         {
           elite = 1,
           level = 55,
           potential = 4,
-          description = "治疗友方单位后为其提供持续3秒的25%<@ba.talpu>（+5%）</>物理闪避",
+          description = "After healing an ally, grant 25% (+5%) physical evasion to them for 3 seconds",
         },
       }
     },
@@ -250,18 +258,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "能工巧匠",
+      name = "Skilled Craftsman",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>50%</span>"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%"
     },
     {
-      name = "金属工艺·α",
+      name = "Metal Crafts·α",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "进驻制造站时，<span style='color:#00B0FF;'>贵金属</span>类配方的生产力<span style='color:#0098DC;'>+30%</span>"
+      description = "When stationed at a Craft Station, increase production of precious metals by +30%"
     },
   },
   meta = {
@@ -283,7 +291,7 @@ return {
       origin = "Sargon",
       birthday = "April 30",
       race = "瑞柏巴",
-      height = "1.69m",
+      height = "169cm",
     },
     physical = {
       strength = "Standard",

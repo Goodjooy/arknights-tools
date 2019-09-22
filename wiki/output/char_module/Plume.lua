@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skcom-quickattack-1.png",
-      name = "迅捷打击·α型",
+      name = "Swift Strike·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+6%<span>/</span>15%<span>/</span>25%<span>/</span></span>，攻击速度<span style='color:#0098DC;'>+10<span>/</span>15<span>/</span>25<span>/</span></span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>6%</span>, Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack power +<span style='color:#0098DC;'>9%</span>, Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack power +<span style='color:#0098DC;'>12%</span>, Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack power +<span style='color:#0098DC;'>15%</span>, Attack speed +<span style='color:#0098DC;'>15</span>",
+        "Attack power +<span style='color:#0098DC;'>19%</span>, Attack speed +<span style='color:#0098DC;'>15</span>",
+        "Attack power +<span style='color:#0098DC;'>22%</span>, Attack speed +<span style='color:#0098DC;'>15</span>",
+        "Attack power +<span style='color:#0098DC;'>25%</span>, Attack speed +<span style='color:#0098DC;'>25</span>",
+      },
       sp = { 55, 54, 53, 50, 49, 48, 45 },
       duration = { 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -238,18 +246,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Vanguard Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Vanguard operatives by +30%"
     },
     {
-      name = "undefined",
+      name = "Order Management·α",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +10% and order limit +1"
     },
   },
   meta = {

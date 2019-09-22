@@ -152,31 +152,64 @@ return {
   skills = {
     {
       icon = "skchr-amgoat-1.png",
-      name = "二重咏唱",
+      name = "Double Chant",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+{amgoat_s_1[a].attack_speed}</span>\n第二次及以后使用时追加攻击力<span style='color:#0098DC;'>+{amgoat_s_1[b].atk:0%}</span>的效果",
+      description = {
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+        "Attack speed +{{amgoat_s_1[a].attack_speed}:.0f}. On the 2nd cast and onwards, additionally increase Attack power by +{{amgoat_s_1[b].atk}:.0%}",
+      },
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-amgoat-2.png",
-      name = "点燃",
+      name = "Ignite",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击造成相当于攻击力<span style='color:#0098DC;'>240%<span>/</span>275%<span>/</span>310%<span>/</span>370%</span>的法术伤害，命中目标周围的敌人受到一半的爆炸伤害且在<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span>6</span>秒内法术抗性<span style='color:#0098DC;'>--10%<span>/</span>-15%<span>/</span>-20%<span>/</span>-25%</span>\n<span style='color:#F49800;'>可充能1<span>/</span>2<span>/</span>2<span>/</span>3次</span>",
+      description = {
+        "The next attack deals <span style='color:#0098DC;'>240%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-10%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>250%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-10%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>260%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-10%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>275%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-15%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>285%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-15%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>295%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-15%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>310%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-20%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>330%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-20%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>350%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-20%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>370%</span> magical damage, with enemies nearby the target receiving half the damage. Additionally, inflict <span style='color:#0098DC;'>-25%</span> magic resistance to all targets for <span style='color:#0098DC;'>6</span> seconds. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+      },
       sp = { 7, 7, 7, 7, 7, 7, 6, 6, 6, 5 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-amgoat-3.png",
-      name = "火山",
+      name = "Volcano",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+55%<span>/</span>70%<span>/</span>85%<span>/</span>130%</span>，攻击范围<span style='color:#0098DC;'>增大</span>，攻击间隔<span style='color:#0098DC;'>大幅度缩短</span>，攻击变为随机对攻击范围内至多<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>5<span>/</span>6</span>个敌人发射熔岩",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>55%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>3</span> enemies within attack range",
+        "Attack power +<span style='color:#0098DC;'>60%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>3</span> enemies within attack range",
+        "Attack power +<span style='color:#0098DC;'>65%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>3</span> enemies within attack range",
+        "Attack power +<span style='color:#0098DC;'>70%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>4</span> enemies within attack range",
+        "Attack power +<span style='color:#0098DC;'>75%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>4</span> enemies within attack range",
+        "Attack power +<span style='color:#0098DC;'>80%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>4</span> enemies within attack range",
+        "Attack power +<span style='color:#0098DC;'>85%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>5</span> enemies within attack range",
+        "Attack power +<span style='color:#0098DC;'>100%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>5</span> enemies within attack range",
+        "Attack power +<span style='color:#0098DC;'>115%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>5</span> enemies within attack range",
+        "Attack power +<span style='color:#0098DC;'>130%</span>, Increase attack range, Greatly reduce attack interval. Attacks by firing lava randomly at up to <span style='color:#0098DC;'>6</span> enemies within attack range",
+      },
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -326,19 +359,19 @@ return {
       }
     },
     {
-      name = "Inflammation",
+      name = "Chaotic Flame",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When deployed, all ally 【Caster】 operatives gain Attack +7%",
+          description = "After deployment, immediately gain a random amount of SP (7-16 SP)",
         },
         {
           elite = 2,
           level = 1,
           potential = 2,
-          description = "When deployed, all ally 【Caster】 operatives gain Attack +9% (+2%)",
+          description = "After deployment, immediately gain a random (higher) amount of SP (10-20 SP)",
         },
       }
     },
@@ -360,18 +393,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Volcanologist",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of originium products by +35%"
     },
     {
-      name = "undefined",
+      name = "Disaster Messenger·β",
       badge = "hr",
       facility = "HR Office",
       unlockIcon = "elite2",
-      description = "undefined"
+      description = "When stationed at Human Resource, accumulation of networking resources +45%"
     },
   },
   meta = {

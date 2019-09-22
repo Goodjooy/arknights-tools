@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-3.png",
-      name = "攻击力强化·γ型",
+      name = "Attack Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>100%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>55%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>75%</span>",
+        "Attack power +<span style='color:#0098DC;'>90%</span>",
+        "Attack power +<span style='color:#0098DC;'>100%</span>",
+      },
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-skfire-2.png",
-      name = "天坠之火",
+      name = "Flame of Heaven",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#FF6237;'>增大</span>，攻击变为从天空召唤陨石；陨石需要时间降落，落地后对大范围敌人造成相当于攻击力<span style='color:#0098DC;'>170%<span>/</span>190%<span>/</span>210%<span>/</span>240%</span>的法术伤害，并使所有命中目标晕眩<span style='color:#0098DC;'>0.1<span>/</span>0.15<span>/</span>0.2<span>/</span>1</span>秒",
+      description = {
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>170%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>0.1</span> seconds",
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>175%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>0.1</span> seconds",
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>180%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>0.1</span> seconds",
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>190%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>0.15</span> seconds",
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>195%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>0.15</span> seconds",
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>200%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>0.15</span> seconds",
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>210%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>0.2</span> seconds",
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>220%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>0.4</span> seconds",
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>230%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>0.6</span> seconds",
+        "Increase attack interval, attack changes to summoning comets from the sky. Comets require time to reach the ground. They deal <span style='color:#0098DC;'>240%</span> magical damage to enemies in a large area and stun them for <span style='color:#0098DC;'>1</span> seconds",
+      },
       sp = { 35, 34, 33, 32, 31, 30, 29, 28, 27, 25 },
       duration = { 25, 25, 25, 28, 28, 28, 31, 33, 35, 40 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Caster Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Caster operatives by +30%"
     },
   },
   meta = {

@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-moeshd-1.png",
-      name = "自动防御",
+      name = "Automatic Defense",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "防御力<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>70%</span>，天赋效果<span style='color:#0098DC;'>提升至110%<span>/</span>140%<span>/</span>170%<span>/</span>200%</span>\n<span style='color:#F49800;'>技能自动开启</span>",
+      description = {
+        "Defense power +<span style='color:#0098DC;'>20%</span>, Talent effect increased to <span style='color:#0098DC;'>110%</span>. Automatic activation",
+        "Defense power +<span style='color:#0098DC;'>20%</span>, Talent effect increased to <span style='color:#0098DC;'>120%</span>. Automatic activation",
+        "Defense power +<span style='color:#0098DC;'>20%</span>, Talent effect increased to <span style='color:#0098DC;'>130%</span>. Automatic activation",
+        "Defense power +<span style='color:#0098DC;'>30%</span>, Talent effect increased to <span style='color:#0098DC;'>140%</span>. Automatic activation",
+        "Defense power +<span style='color:#0098DC;'>30%</span>, Talent effect increased to <span style='color:#0098DC;'>150%</span>. Automatic activation",
+        "Defense power +<span style='color:#0098DC;'>30%</span>, Talent effect increased to <span style='color:#0098DC;'>160%</span>. Automatic activation",
+        "Defense power +<span style='color:#0098DC;'>40%</span>, Talent effect increased to <span style='color:#0098DC;'>170%</span>. Automatic activation",
+        "Defense power +<span style='color:#0098DC;'>50%</span>, Talent effect increased to <span style='color:#0098DC;'>180%</span>. Automatic activation",
+        "Defense power +<span style='color:#0098DC;'>60%</span>, Talent effect increased to <span style='color:#0098DC;'>190%</span>. Automatic activation",
+        "Defense power +<span style='color:#0098DC;'>70%</span>, Talent effect increased to <span style='color:#0098DC;'>200%</span>. Automatic activation",
+      },
       sp = { 30, 29, 28, 27, 26, 25, 24, 23, 22, 20 },
       duration = { 20, 20, 20, 23, 23, 23, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-moeshd-2.png",
-      name = "磁爆锤",
+      name = "Magnetic Hammer",
       recharge = "",
       trigger = "Manual Trigger",
       passive = false,
-      description = "将周围敌人<span style='color:#0098DC;'>大力地</span>弹开并击晕<span style='color:#0098DC;'>2.5<span>/</span>3<span>/</span>3.5<span>/</span>4</span>秒，造成相当于攻击力<span style='color:#0098DC;'>240%<span>/</span>300%<span>/</span>360%<span>/</span>480%</span>的物理伤害",
+      description = {
+        "Push away nearby enemies with medium force and stun them for <span style='color:#0098DC;'>2.5</span> seconds, dealing <span style='color:#0098DC;'>240%</span> physical damage",
+        "Push away nearby enemies with medium force and stun them for <span style='color:#0098DC;'>2.5</span> seconds, dealing <span style='color:#0098DC;'>260%</span> physical damage",
+        "Push away nearby enemies with medium force and stun them for <span style='color:#0098DC;'>2.5</span> seconds, dealing <span style='color:#0098DC;'>280%</span> physical damage",
+        "Push away nearby enemies with medium force and stun them for <span style='color:#0098DC;'>3</span> seconds, dealing <span style='color:#0098DC;'>300%</span> physical damage",
+        "Push away nearby enemies with medium force and stun them for <span style='color:#0098DC;'>3</span> seconds, dealing <span style='color:#0098DC;'>320%</span> physical damage",
+        "Push away nearby enemies with medium force and stun them for <span style='color:#0098DC;'>3</span> seconds, dealing <span style='color:#0098DC;'>340%</span> physical damage",
+        "Push away nearby enemies with large force and stun them for <span style='color:#0098DC;'>3.5</span> seconds, dealing <span style='color:#0098DC;'>360%</span> physical damage",
+        "Push away nearby enemies with large force and stun them for <span style='color:#0098DC;'>3.5</span> seconds, dealing <span style='color:#0098DC;'>400%</span> physical damage",
+        "Push away nearby enemies with large force and stun them for <span style='color:#0098DC;'>3.5</span> seconds, dealing <span style='color:#0098DC;'>440%</span> physical damage",
+        "Push away nearby enemies with huge force and stun them for <span style='color:#0098DC;'>4</span> seconds, dealing <span style='color:#0098DC;'>480%</span> physical damage",
+      },
       sp = { 22, 22, 22, 21, 21, 21, 20, 19, 18, 17 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Penguin Logistics·α",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },
   },
   meta = {

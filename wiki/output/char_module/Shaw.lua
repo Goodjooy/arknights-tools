@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-sqrrel-1.png",
-      name = "水蒸气泵",
+      name = "Steam Pump",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击会把目标往攻击方向<span style='color:#0098DC;'>较大力地</span>推开，并造成相当于攻击力<span style='color:#0098DC;'>105%<span>/</span>124%<span>/</span>135%<span>/</span>150%</span>的物理伤害",
+      description = {
+        "The next attack will push the target away with small force, dealing <span style='color:#0098DC;'>105%</span> physical damage",
+        "The next attack will push the target away with small force, dealing <span style='color:#0098DC;'>110%</span> physical damage",
+        "The next attack will push the target away with small force, dealing <span style='color:#0098DC;'>115%</span> physical damage",
+        "The next attack will push the target away with medium force, dealing <span style='color:#0098DC;'>124%</span> physical damage",
+        "The next attack will push the target away with medium force, dealing <span style='color:#0098DC;'>127%</span> physical damage",
+        "The next attack will push the target away with medium force, dealing <span style='color:#0098DC;'>130%</span> physical damage",
+        "The next attack will push the target away with medium force, dealing <span style='color:#0098DC;'>135%</span> physical damage",
+        "The next attack will push the target away with medium force, dealing <span style='color:#0098DC;'>140%</span> physical damage",
+        "The next attack will push the target away with medium force, dealing <span style='color:#0098DC;'>145%</span> physical damage",
+        "The next attack will push the target away with large force, dealing <span style='color:#0098DC;'>150%</span> physical damage",
+      },
       sp = { 6, 6, 6, 6, 6, 6, 6, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-sqrrel-2.png",
-      name = "高压水炮",
+      name = "High-pressure Water Cannon",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即将前方两格内所有敌人往攻击方向<span style='color:#0098DC;'>较大力地</span>推开，并造成相当于攻击力<span style='color:#0098DC;'>180%<span>/</span>210%<span>/</span>240%<span>/</span>300%</span>的物理伤害",
+      description = {
+        "Immediately push away all enemies 2 tiles ahead with small force, dealing <span style='color:#0098DC;'>180%</span> physical damage",
+        "Immediately push away all enemies 2 tiles ahead with small force, dealing <span style='color:#0098DC;'>190%</span> physical damage",
+        "Immediately push away all enemies 2 tiles ahead with small force, dealing <span style='color:#0098DC;'>200%</span> physical damage",
+        "Immediately push away all enemies 2 tiles ahead with medium force, dealing <span style='color:#0098DC;'>210%</span> physical damage",
+        "Immediately push away all enemies 2 tiles ahead with medium force, dealing <span style='color:#0098DC;'>220%</span> physical damage",
+        "Immediately push away all enemies 2 tiles ahead with medium force, dealing <span style='color:#0098DC;'>230%</span> physical damage",
+        "Immediately push away all enemies 2 tiles ahead with large force, dealing <span style='color:#0098DC;'>240%</span> physical damage",
+        "Immediately push away all enemies 2 tiles ahead with large force, dealing <span style='color:#0098DC;'>260%</span> physical damage",
+        "Immediately push away all enemies 2 tiles ahead with large force, dealing <span style='color:#0098DC;'>280%</span> physical damage",
+        "Immediately push away all enemies 2 tiles ahead with large force, dealing <span style='color:#0098DC;'>300%</span> physical damage",
+      },
       sp = { 20, 20, 20, 20, 20, 20, 20, 19, 18, 17 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -306,18 +328,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Engineering",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing infrastructure materials, increase the rate of by-products by 70%"
     },
     {
-      name = "undefined",
+      name = "Equipment Maintenance",
       badge = "power",
       facility = "Power Plant",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Power Station, drone recovery per hour +15%"
     },
   },
   meta = {

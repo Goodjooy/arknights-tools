@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-quickattack-3.png",
-      name = "迅捷打击·γ型",
+      name = "Swift Strike·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>27%<span>/</span>34%<span>/</span>45%</span>，攻击速度<span style='color:#0098DC;'>+20<span>/</span>25<span>/</span>35<span>/</span>45</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>20%</span>, Attack speed +<span style='color:#0098DC;'>20</span>",
+        "Attack power +<span style='color:#0098DC;'>22%</span>, Attack speed +<span style='color:#0098DC;'>20</span>",
+        "Attack power +<span style='color:#0098DC;'>24%</span>, Attack speed +<span style='color:#0098DC;'>20</span>",
+        "Attack power +<span style='color:#0098DC;'>27%</span>, Attack speed +<span style='color:#0098DC;'>25</span>",
+        "Attack power +<span style='color:#0098DC;'>29%</span>, Attack speed +<span style='color:#0098DC;'>25</span>",
+        "Attack power +<span style='color:#0098DC;'>31%</span>, Attack speed +<span style='color:#0098DC;'>25</span>",
+        "Attack power +<span style='color:#0098DC;'>34%</span>, Attack speed +<span style='color:#0098DC;'>35</span>",
+        "Attack power +<span style='color:#0098DC;'>37%</span>, Attack speed +<span style='color:#0098DC;'>35</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>, Attack speed +<span style='color:#0098DC;'>35</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>, Attack speed +<span style='color:#0098DC;'>45</span>",
+      },
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
     },
     {
       icon = "skchr-franka-2.png",
-      name = "极致锋度",
+      name = "Extreme Sharpness",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#FF6237;'>降至0</span>，攻击力<span style='color:#0098DC;'>+50%<span>/</span>60%<span>/</span>70%<span>/</span>100%</span>，天赋无视防御的概率提高至<span style='color:#0098DC;'>2.5<span>/</span>2.5<span>/</span>2.5<span>/</span>2.5倍</span>",
+      description = {
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>50%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>53%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>56%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>60%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>63%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>66%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>70%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>80%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>90%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Reduce Defense power to 0, Attack power +<span style='color:#0098DC;'>100%</span>, Increase activation chance of defense-ignore talent by <span style='color:#0098DC;'>2.5</span>x",
+      },
       sp = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
       duration = { 20, 20, 20, 23, 23, 23, 26, 27, 28, 30 },
     },
@@ -311,11 +333,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Guard Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Guard operatives by +30%"
     },
   },
   meta = {

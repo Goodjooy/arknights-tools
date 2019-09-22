@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-def-up-2.png",
-      name = "防御力强化·β型",
+      name = "Defense Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>",
+      description = {
+        "Defense power +<span style='color:#0098DC;'>20%</span>",
+        "Defense power +<span style='color:#0098DC;'>25%</span>",
+        "Defense power +<span style='color:#0098DC;'>30%</span>",
+        "Defense power +<span style='color:#0098DC;'>35%</span>",
+        "Defense power +<span style='color:#0098DC;'>40%</span>",
+        "Defense power +<span style='color:#0098DC;'>45%</span>",
+        "Defense power +<span style='color:#0098DC;'>50%</span>",
+        "Defense power +<span style='color:#0098DC;'>60%</span>",
+        "Defense power +<span style='color:#0098DC;'>70%</span>",
+        "Defense power +<span style='color:#0098DC;'>80%</span>",
+      },
       sp = { 45, 45, 45, 40, 40, 40, 38, 37, 36, 35 },
       duration = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
     },
     {
       icon = "skchr-snakek-2.png",
-      name = "壳状防御",
+      name = "Shell-shaped Defense",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "停止攻击敌人；阻挡数<span style='color:#0098DC;'>+1<span>/</span>1<span>/</span>1<span>/</span>1</span>，防御力<span style='color:#0098DC;'>+55%<span>/</span>75%<span>/</span>95%<span>/</span>130%</span>，每秒恢复最大生命的<span style='color:#0098DC;'>1%<span>/</span>1%<span>/</span>2%<span>/</span>3%</span>",
+      description = {
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>55%</span>, Recover <span style='color:#0098DC;'>1%</span> of Max HP every second",
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>60%</span>, Recover <span style='color:#0098DC;'>1%</span> of Max HP every second",
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>65%</span>, Recover <span style='color:#0098DC;'>1%</span> of Max HP every second",
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>75%</span>, Recover <span style='color:#0098DC;'>1%</span> of Max HP every second",
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>80%</span>, Recover <span style='color:#0098DC;'>1%</span> of Max HP every second",
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>85%</span>, Recover <span style='color:#0098DC;'>1%</span> of Max HP every second",
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>95%</span>, Recover <span style='color:#0098DC;'>2%</span> of Max HP every second",
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>105%</span>, Recover <span style='color:#0098DC;'>2%</span> of Max HP every second",
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>115%</span>, Recover <span style='color:#0098DC;'>2%</span> of Max HP every second",
+        "Stops attacking enemies. Block count +<span style='color:#0098DC;'>1</span>, Defense power +<span style='color:#0098DC;'>130%</span>, Recover <span style='color:#0098DC;'>3%</span> of Max HP every second",
+      },
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -306,18 +328,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Warehouse Organization·β",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, storage capacity +10 and production +10%"
     },
     {
-      name = "undefined",
+      name = "Order Distribution·α",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },
   },
   meta = {
@@ -347,7 +369,7 @@ return {
       endurance = "Great",
       tactic = "Below Standard",
       skill = "Below Standard",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

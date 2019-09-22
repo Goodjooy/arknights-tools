@@ -127,18 +127,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Backup Generator",
       badge = "power",
       facility = "Power Plant",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
     {
-      name = "undefined",
+      name = "Medical Service",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.65 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {

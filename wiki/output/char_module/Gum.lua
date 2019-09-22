@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-sunbr-1.png",
-      name = "备用军粮",
+      name = "Reserve Rations",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击会恢复附近一名友方角色相当于古米攻击力<span style='color:#0098DC;'>95%<span>/</span>115%<span>/</span>130%<span>/</span>160%</span>的生命值\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>3次</span>",
+      description = {
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>95%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>100%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>105%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>115%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>120%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>125%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>130%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>140%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>150%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack will heal a nearby ally for <span style='color:#0098DC;'>160%</span> of ГУМ's Attack power. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+      },
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-sunbr-2.png",
-      name = "食粮烹制",
+      name = "Food Preparation",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "开始烹饪，<span style='color:#FF6237;'>10<span>/</span>10<span>/</span>10<span>/</span>10</span>秒内停止攻击敌人，防御力<span style='color:#0098DC;'>+50%<span>/</span>60%<span>/</span>70%<span>/</span>80%</span>\n烹饪完成后专注于治疗附近的友方角色，攻击力<span style='color:#0098DC;'>+30%<span>/</span>40%<span>/</span>50%<span>/</span>80%</span>",
+      description = {
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>50%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>50%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>33%</span>",
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>50%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>36%</span>",
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>60%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>60%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>43%</span>",
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>60%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>46%</span>",
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>70%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>70%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>70%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>70%</span>",
+        "Begins cooking and stops attacking enemies for <span style='color:#FF6237;'>10</span> seconds, Defense power +<span style='color:#0098DC;'>80%</span>. After finishing cooking, focuses on healing nearby allies, Attack power +<span style='color:#0098DC;'>80%</span>",
+      },
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Communication",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30% and mood reduction per hour -0.25"
     },
     {
-      name = "undefined",
+      name = "Cooking",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.35 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.35"
     },
   },
   meta = {

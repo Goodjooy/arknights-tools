@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-mantic-1.png",
-      name = "蝎毒",
+      name = "Scorpion Venom",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "每次攻击会在<span style='color:#0098DC;'>3<span>/</span>3.5<span>/</span>4<span>/</span>5</span>秒内令命中目标移动速度<span style='color:#0098DC;'>--23%<span>/</span>-29%<span>/</span>-35%<span>/</span>-50%</span>",
+      description = {
+        "Every attack inflicts <span style='color:#0098DC;'>-23%</span> movement speed to the target for <span style='color:#0098DC;'>3</span> seconds",
+        "Every attack inflicts <span style='color:#0098DC;'>-25%</span> movement speed to the target for <span style='color:#0098DC;'>3</span> seconds",
+        "Every attack inflicts <span style='color:#0098DC;'>-27%</span> movement speed to the target for <span style='color:#0098DC;'>3</span> seconds",
+        "Every attack inflicts <span style='color:#0098DC;'>-29%</span> movement speed to the target for <span style='color:#0098DC;'>3.5</span> seconds",
+        "Every attack inflicts <span style='color:#0098DC;'>-31%</span> movement speed to the target for <span style='color:#0098DC;'>3.5</span> seconds",
+        "Every attack inflicts <span style='color:#0098DC;'>-33%</span> movement speed to the target for <span style='color:#0098DC;'>3.5</span> seconds",
+        "Every attack inflicts <span style='color:#0098DC;'>-35%</span> movement speed to the target for <span style='color:#0098DC;'>4</span> seconds",
+        "Every attack inflicts <span style='color:#0098DC;'>-40%</span> movement speed to the target for <span style='color:#0098DC;'>4</span> seconds",
+        "Every attack inflicts <span style='color:#0098DC;'>-45%</span> movement speed to the target for <span style='color:#0098DC;'>4</span> seconds",
+        "Every attack inflicts <span style='color:#0098DC;'>-50%</span> movement speed to the target for <span style='color:#0098DC;'>5</span> seconds",
+      },
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-mantic-2.png",
-      name = "蓄力毒尾击",
+      name = "Charging Poison Strike",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击前摇和攻击间隔<span style='color:#FF6237;'>增大</span>，攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>90%</span>，使命中目标晕眩<span style='color:#0098DC;'>0.5<span>/</span>0.6<span>/</span>0.7<span>/</span>1</span>秒",
+      description = {
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>30%</span>, attacked targets get stunned for <span style='color:#0098DC;'>0.5</span> seconds",
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>35%</span>, attacked targets get stunned for <span style='color:#0098DC;'>0.5</span> seconds",
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>40%</span>, attacked targets get stunned for <span style='color:#0098DC;'>0.5</span> seconds",
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>45%</span>, attacked targets get stunned for <span style='color:#0098DC;'>0.6</span> seconds",
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>50%</span>, attacked targets get stunned for <span style='color:#0098DC;'>0.6</span> seconds",
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>55%</span>, attacked targets get stunned for <span style='color:#0098DC;'>0.6</span> seconds",
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>60%</span>, attacked targets get stunned for <span style='color:#0098DC;'>0.7</span> seconds",
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>70%</span>, attacked targets get stunned for <span style='color:#0098DC;'>0.8</span> seconds",
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>80%</span>, attacked targets get stunned for <span style='color:#0098DC;'>0.9</span> seconds",
+        "Slows attack animation, Increase attack interval, Attack power +<span style='color:#0098DC;'>90%</span>, attacked targets get stunned for <span style='color:#0098DC;'>1</span> seconds",
+      },
       sp = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
       duration = { 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Specialist Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Specialist operatives by +30%"
     },
   },
   meta = {

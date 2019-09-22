@@ -1,0 +1,427 @@
+return {
+  id = "326",
+  num = "R128",
+  name = {
+    en = "Glaucus",
+    cn = "格劳克斯",
+    ex = "Glaucus",
+  },
+  fileKey = "Glaucus",
+  team = -1,
+  position = "Ranged",
+  roles = { "Slow", "Crowd Control" },
+  faction = "Rhodes Island",
+  stars = 5,
+  class = "Supporter",
+  initialStats = {
+    hp = 592,
+    atk = 213,
+    def = 45,
+    resist = 10,
+    cost = 13,
+    block = 1,
+    speed = 1,
+    atkspd = 100,
+    baseAtkTime = 1.9,
+    respawn = 70,
+    hpRegen = 0,
+    spRegen = 1,
+    deploys = 1,
+    stacks = 0,
+    provoke = 0,
+    stunImmunity = false,
+    silenceImmunity = false,
+  },
+  ranks = {
+    base = {
+      range = "y-2",
+      maxLevel = 50,
+      images = {
+          portrait = "Glaucus-0-portrait.png",
+          full = "Glaucus-0.png"
+      },
+      maxStats = {
+        hp = 800,
+        atk = 314,
+        def = 65,
+        resist = 10,
+        cost = 13,
+        block = 1,
+        speed = 1,
+        atkspd = 100,
+        baseAtkTime = 1.9,
+        respawn = 70,
+        hpRegen = 0,
+        spRegen = 1,
+        deploys = 1,
+        stacks = 0,
+        provoke = 0,
+        stunImmunity = false,
+        silenceImmunity = false,
+      },
+    },
+    elite1 = {
+      range = "y-2",
+      maxLevel = 70,
+      images = {
+          portrait = "Glaucus-0-portrait.png",
+          full = "Glaucus-0.png"
+      },
+      maxStats = {
+        hp = 1013,
+        atk = 419,
+        def = 84,
+        resist = 15,
+        cost = 15,
+        block = 1,
+        speed = 1,
+        atkspd = 100,
+        baseAtkTime = 1.9,
+        respawn = 70,
+        hpRegen = 0,
+        spRegen = 1,
+        deploys = 1,
+        stacks = 0,
+        provoke = 0,
+        stunImmunity = false,
+        silenceImmunity = false,
+      },
+      materials = {
+        {
+          icon = "SupportChip.png",
+          name = "Support Chip",
+          count = 4,
+        },
+        {
+          icon = "FlocculatedKetone.png",
+          name = "Flocculated Ketone",
+          count = 4,
+        },
+        {
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 2,
+        },
+      },
+    },
+    elite2 = {
+      range = "y-2",
+      maxLevel = 80,
+      images = {
+          portrait = "Glaucus-2-portrait.png",
+          full = "Glaucus-2.png"
+      },
+      maxStats = {
+        hp = 1267,
+        atk = 505,
+        def = 100,
+        resist = 20,
+        cost = 15,
+        block = 1,
+        speed = 1,
+        atkspd = 100,
+        baseAtkTime = 1.9,
+        respawn = 70,
+        hpRegen = 0,
+        spRegen = 1,
+        deploys = 1,
+        stacks = 0,
+        provoke = 0,
+        stunImmunity = false,
+        silenceImmunity = false,
+      },
+      materials = {
+        {
+          icon = "SupportTwinChip.png",
+          name = "Support Twin Chip",
+          count = 3,
+        },
+        {
+          icon = "KetoneArrangement.png",
+          name = "Ketone Arrangement",
+          count = 7,
+        },
+        {
+          icon = "CurrentGadget.png",
+          name = "Current Gadget",
+          count = 10,
+        },
+      },
+    },
+  },
+  skills = {
+    {
+      icon = "skchr-glacus-1.png",
+      name = "双线装填",
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
+      description = {
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，额外攻击<span style='color:#0098DC;'>一</span>个目标",
+      },
+      sp = { 35, 35, 35, 35, 35, 35, 35, 35, 35, 35 },
+      duration = { 16, 17, 18, 19, 20, 21, 22, 23, 24, 25 },
+    },
+    {
+      icon = "skchr-glacus-2.png",
+      name = "反制电磁脉冲",
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
+      description = {
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+        "向周围发射一道冲击波，击中的所有敌人受到攻击力<span style='color:#0098DC;'>{atk_scale[normal]:0%}</span>的法术伤害并【冻结】（无法移动）<span style='color:#0098DC;'>{frozen}</span>秒；如果目标是【无人机】，受到的伤害加倍并将效果改为【晕眩】",
+      },
+      sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
+      duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+    },
+  },
+  skillup = {
+    {
+      skillLevel = 2,
+      reqElite = 0,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
+          count = 4,
+        },
+      }
+    },
+    {
+      skillLevel = 3,
+      reqElite = 0,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
+          count = 4,
+        },
+        {
+          icon = "Ketone.png",
+          name = "Ketone",
+          count = 5,
+        },
+      }
+    },
+    {
+      skillLevel = 4,
+      reqElite = 0,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
+        },
+        {
+          icon = "Gadget.png",
+          name = "Gadget",
+          count = 2,
+        },
+      }
+    },
+    {
+      skillLevel = 5,
+      reqElite = 1,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
+        },
+        {
+          icon = "RockBlock.png",
+          name = "Rock Block",
+          count = 8,
+        },
+      }
+    },
+    {
+      skillLevel = 6,
+      reqElite = 1,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 6,
+        },
+        {
+          icon = "ManganeseOre.png",
+          name = "Manganese Ore",
+          count = 4,
+        },
+      }
+    },
+    {
+      skillLevel = 7,
+      reqElite = 1,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
+          count = 6,
+        },
+        {
+          icon = "PolishStone.png",
+          name = "Polish Stone",
+          count = 2,
+        },
+        {
+          icon = "RockSet.png",
+          name = "Rock Set",
+          count = 4,
+        },
+      }
+    },
+  },
+  talents = {
+    {
+      name = "反制装置",
+      levels = {
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "优先攻击【无人机】单位，且攻击【无人机】时攻击力+25%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 4,
+          description = "优先攻击【无人机】单位，且攻击【无人机】时攻击力+30%<@ba.talpu>（+5%）</>",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "优先攻击【无人机】单位，且攻击【无人机】时攻击力+50%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 4,
+          description = "优先攻击【无人机】单位，且攻击【无人机】时攻击力+55%<@ba.talpu>（+5%）</>",
+        },
+      }
+    },
+  },
+  potential = {
+    "Deploy Cost - 1",
+    "Respawn Time - 4",
+    "Attack + 23",
+    "Talent Boost",
+    "Deploy Cost - 1",
+  },
+  trust = {
+    {
+      trust = 50,
+      maxHp = 300,
+      atk = 35,
+      def = 0,
+    },
+  },
+  infrastructure_skills = {
+    {
+      name = "电磁充能·α",
+      badge = "power",
+      facility = "Power Plant",
+      unlockIcon = "elite0",
+      description = "undefined"
+    },
+  },
+  meta = {
+    illustrator = "下野宏铭",
+    voiceActor = "野中蓝",
+  },
+  profile = {
+    records = {
+      resume = "格劳克斯出生于阿戈尔地区，却早早离开家园四处流浪。机缘巧合下加入罗德岛，现为雷神工业先端武器测评师。<br>除了对尖端武器进行研究调整之外，格劳克斯也会在需求对空特化的任务中亲自出击。",
+      archive1 = "格劳克斯小姐的战斗方法非常奇特，这大概也是因为那把......武器的缘故。她似乎什么也没做，那些缠人的无人机就噼里啪啦地掉在地上，实在让人不明所以。虽然对付那些机器时的格劳克斯小姐真的非常可靠，但我个人还是希望她能够稍微注意一下周围，毕竟每次作战完毕都要自掏腰包帮队员们检修设备的话，她会陷入长期负薪的困境的......<br>——某行动干员",
+      archive2 = "干员格劳克斯在罗德岛内部的评价十分令人在意。不知道是天性如此还是习惯了随波逐流，初来乍到的格劳克斯小姐寡言少语，虽然很快就和其他干员打成一片，但大部分场合都只是默默聆听，必要的时候圆滑地应付过去，极少表露真实想法。也因为时常在会议上走神而屡次遭到批评。依照目前观察的结果来看，只有在与火神小姐、梅尔小姐与可露希尔小姐讨论有关科技与机器的话题时，格劳克斯小姐才会积极表达自己的见解。也是因为可露希尔小姐的引荐，干员格劳克斯才成为了雷神工业武器测评师的一员，在电力应用及电磁学方面展现出了惊人的天赋。",
+      archive3 = "根据体检报告，干员格劳克斯的下肢肌肉力量仅有成年人平均值的二分之一，并仍旧在不断萎缩， 而那副外骨骼装备自然也是为了弥补她的机动性问题。<br>根据干员格劳克斯本人所述，其肌肉萎缩软化的根源在于其家族遗传疾病。尽管在生态环境稍显特殊的阿戈尔地区，这样的遗传病仍旧只有极少数病例。且暂无根治途径。<br>不过其本人对于现状并没有不满，相反的，她所表达出的对科技产品的热爱最早就源于这些帮助她克服了先天障碍的外骨骼装备。<br>值得一提的是，干员格劳克斯对于任何外界刺激毒素都有着先天的抗体，除去传统意义上的毒药外，神经麻痹，致幻剂等手段也基本无效。干员格劳克斯也积极配合医疗干员们的研究——准确说来，是她与医疗干员们交谈着一些她本人都未必听得懂的实验名词，然后轻描淡写的点头答应了，有时候真担心她有没有好好听注意事项......",
+      archive4 = "",
+      token = "格劳克斯小姐的武器“雷神倾诉者试做型”其实原本并没有那么夸张的功能，甚至算是个缺陷产品。最初设计的时候，只是抱着“大范围干扰敌方通讯”的初衷，后来却发现该武器高频率的电磁频谱能量根本无法控制，最先损坏的反倒是自己口袋里的通讯设备，因此被一度弃置......是格劳克斯小姐在某次外骨骼装备的检修时一眼相中了它，花了很低的价格就带回了罗德岛，没想到经过格劳克斯小姐的调整后，竟然能对敌方机械单位产生如此强的杀伤力......不过因此而损坏的己方装备也不在少数就是了，莫非这才是赫默小姐和梅尔小姐提议让格劳克斯小姐单独行动的原因？<br><br>干员是否能肩负起单兵任务仅以客观条件判断，绝不会掺杂个人因素。<br>——凯尔希",
+    },
+    bio = {
+      gender = "Female",
+      experience = "4 years",
+      origin = "阿戈尔地区",
+      birthday = "July 27",
+      race = "Undisclosed",
+      height = "159cm",
+    },
+    physical = {
+      strength = "Below Standard",
+      mobility = "Below Standard",
+      endurance = "Great",
+      tactic = "Great",
+      skill = "Standard",
+      originium = "Below Standard",
+    },
+    oripathy = {
+      infected = "No",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。<br><br>【体细胞与源石融合率】0%<br>干员格劳克斯没有被源石感染的迹象。<br><br>【血液源石结晶密度】0.11u/L<br>干员格劳克斯甚少接触源石。",
+    }
+  },
+  quotes = {
+    cn001 = "我会在一边安安静静地调整倾诉者的......保证不会打扰你。",
+    cn002 = "为什么大家总是对蓝毒小姐敬而远之呢？是我不太一样？......好吧。",
+    cn003 = "博士有什么想说的话吗？没什么？总之......我就在这里。",
+    cn004 = "宿舍很热的话会让人没有食欲......啊。这是家族遗传，真的不是在抱怨。",
+    cn005 = "我之所以来到这里......奔跑都做不到的话，会有谁愿意主动离开故土呢？",
+    cn006 = "虽然火神小姐和我一样不喜欢“旧的东西”，但我觉得，我们的想法从根本上还是有差别的。",
+    cn007 = "博士，那个，蓝毒小姐说我总是像藏着什么想法似的，我会给人这种感觉吗？偶尔？不会吧......",
+    cn008 = "并不是我不太愿意说话，只是以前的日子里，我其实很少有什么开口的权利——所以只是习惯而已！希望{@nickname}不要误会了！",
+    cn009 = "对我而言，有两段记忆如奇迹般耀眼。其中之一，是当我第一次借助这孩子奔跑起来的时候，景色万般旖旎，视野是那么的开阔......另一次，唔，就是身在罗德岛的此时此刻吧。",
+    cn010 = "嗯？唔，博士什么时候睡着的......",
+    cn011 = "干员格劳克斯，今日报到。请问我可以回房间了吗？",
+    cn012 = "嗯？啊，好的，原来如此，我明白了。",
+    cn013 = "其实这把武器的名字是我自己取的，也许这才是我心里的想法......欸？刚才宣布的晋升干员原来是我吗？",
+    cn014 = "信任吗.....那个，我不知道该怎么表达，但我会继续努力的。",
+    cn017 = "队员们有做好接地措施吗？",
+    cn018 = "欸？我是队长？难道刚才不小心就答应下来了......",
+    cn019 = "这次能捡到什么有趣的东西呢？",
+    cn020 = "电磁脉冲立场准备就绪。",
+    cn021 = "嗯？喊我吗？",
+    cn022 = "电量充足，随时准备。",
+    cn023 = "地面的触感......",
+    cn024 = "别担心，顺利登陆。",
+    cn025 = "满功率输出！",
+    cn026 = "顾不上误伤了......！",
+    cn027 = "微波频率增幅！",
+    cn028 = "坠落吧！",
+    cn029 = "敌方反应沉默，请各自检查一下损害情况......",
+    cn030 = "全单位沉默，脉冲立场解除，辛苦大家了。",
+    cn031 = "唔，刚才是不是有敌人逃走了？不追吗？",
+    cn032 = "脉冲立场已经解除，快联络救援！",
+    cn033 = "没问题，但先等我找到那颗螺丝钉......",
+    cn034 = "啊，走神了。",
+    cn036 = "博士，能和我出去散散步吗？",
+    cn037 = "明日方舟。",
+    cn042 = "早上好，博士。",
+  },
+}
+

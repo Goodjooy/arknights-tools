@@ -97,18 +97,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Clue Collection·β",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +20%"
     },
     {
-      name = "undefined",
+      name = "Special Training Records",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing chips, increase the rate of by-products by 70%"
     },
   },
   meta = {

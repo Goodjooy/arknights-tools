@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-magic-rage-2.png",
-      name = "战术咏唱·β型",
+      name = "Tactical Chanting·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+15<span>/</span>30<span>/</span>45<span>/</span>75</span>",
+      description = {
+        "Attack speed +<span style='color:#0098DC;'>15</span>",
+        "Attack speed +<span style='color:#0098DC;'>20</span>",
+        "Attack speed +<span style='color:#0098DC;'>25</span>",
+        "Attack speed +<span style='color:#0098DC;'>30</span>",
+        "Attack speed +<span style='color:#0098DC;'>35</span>",
+        "Attack speed +<span style='color:#0098DC;'>40</span>",
+        "Attack speed +<span style='color:#0098DC;'>45</span>",
+        "Attack speed +<span style='color:#0098DC;'>55</span>",
+        "Attack speed +<span style='color:#0098DC;'>65</span>",
+        "Attack speed +<span style='color:#0098DC;'>75</span>",
+      },
       sp = { 45, 45, 45, 40, 40, 40, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-fmout-2.png",
-      name = "命运",
+      name = "Fate",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>70%<span>/</span>100%</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，同时攻击攻击范围内所有敌人\n<span style='color:#F49800;'>技能时间结束后远山停止攻击15<span>/</span>14<span>/</span>13<span>/</span>10秒</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>30%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>15</span> seconds after skill ends.",
+        "Attack power +<span style='color:#0098DC;'>35%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>15</span> seconds after skill ends.",
+        "Attack power +<span style='color:#0098DC;'>40%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>15</span> seconds after skill ends.",
+        "Attack power +<span style='color:#0098DC;'>45%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>14</span> seconds after skill ends.",
+        "Attack power +<span style='color:#0098DC;'>50%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>14</span> seconds after skill ends.",
+        "Attack power +<span style='color:#0098DC;'>55%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>14</span> seconds after skill ends.",
+        "Attack power +<span style='color:#0098DC;'>70%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>13</span> seconds after skill ends.",
+        "Attack power +<span style='color:#0098DC;'>80%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>12</span> seconds after skill ends.",
+        "Attack power +<span style='color:#0098DC;'>90%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>11</span> seconds after skill ends.",
+        "Attack power +<span style='color:#0098DC;'>100%</span>, Increase attack range and attack all enemies within range simultaneously. Stops attacking for <span style='color:#F49800;'>10</span> seconds after skill ends.",
+      },
       sp = { 100, 100, 100, 95, 95, 95, 90, 90, 90, 85 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Supply Management",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
     },
     {
-      name = "undefined",
+      name = "Divination",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +25%"
     },
   },
   meta = {

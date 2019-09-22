@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2.png",
-      name = "攻击力强化·β型",
+      name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Attack power +<span style='color:#0098DC;'>25%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>70%</span>",
+        "Attack power +<span style='color:#0098DC;'>80%</span>",
+      },
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-estell-2.png",
-      name = "舍身突击",
+      name = "Self-sacrifice",
       recharge = "",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+85%<span>/</span>100%<span>/</span>115%<span>/</span>150%</span>，不再成为其他角色的治疗目标",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>85%</span>, Become unable to be healed by other operators",
+        "Attack power +<span style='color:#0098DC;'>90%</span>, Become unable to be healed by other operators",
+        "Attack power +<span style='color:#0098DC;'>95%</span>, Become unable to be healed by other operators",
+        "Attack power +<span style='color:#0098DC;'>100%</span>, Become unable to be healed by other operators",
+        "Attack power +<span style='color:#0098DC;'>105%</span>, Become unable to be healed by other operators",
+        "Attack power +<span style='color:#0098DC;'>110%</span>, Become unable to be healed by other operators",
+        "Attack power +<span style='color:#0098DC;'>115%</span>, Become unable to be healed by other operators",
+        "Attack power +<span style='color:#0098DC;'>125%</span>, Become unable to be healed by other operators",
+        "Attack power +<span style='color:#0098DC;'>135%</span>, Become unable to be healed by other operators",
+        "Attack power +<span style='color:#0098DC;'>150%</span>, Become unable to be healed by other operators",
+      },
       sp = { 25, 25, 25, 24, 24, 24, 23, 22, 21, 20 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Focus·β",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 60%"
     },
     {
-      name = "undefined",
+      name = "Solitude",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
   },
   meta = {

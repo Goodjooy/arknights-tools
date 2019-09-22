@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-heal-self-2.png",
-      name = "生命回复·β型",
+      name = "Health Recovery·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即恢复最大生命的<span style='color:#0098DC;'>20%<span>/</span>30%<span>/</span>40%<span>/</span>50%</span>",
+      description = {
+        "Immediately recover <span style='color:#0098DC;'>20%</span> of Max HP",
+        "Immediately recover <span style='color:#0098DC;'>23%</span> of Max HP",
+        "Immediately recover <span style='color:#0098DC;'>26%</span> of Max HP",
+        "Immediately recover <span style='color:#0098DC;'>30%</span> of Max HP",
+        "Immediately recover <span style='color:#0098DC;'>33%</span> of Max HP",
+        "Immediately recover <span style='color:#0098DC;'>36%</span> of Max HP",
+        "Immediately recover <span style='color:#0098DC;'>40%</span> of Max HP",
+        "Immediately recover <span style='color:#0098DC;'>43%</span> of Max HP",
+        "Immediately recover <span style='color:#0098DC;'>46%</span> of Max HP",
+        "Immediately recover <span style='color:#0098DC;'>50%</span> of Max HP",
+      },
       sp = { 30, 29, 28, 27, 26, 25, 24, 23, 22, 20 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-gyuki-2.png",
-      name = "恶鬼之力",
+      name = "Demon Strength",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#FF6237;'>降至0</span>，攻击力<span style='color:#0098DC;'>+75%<span>/</span>90%<span>/</span>105%<span>/</span>150%</span>",
+      description = {
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>75%</span>",
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>80%</span>",
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>85%</span>",
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>90%</span>",
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>95%</span>",
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>100%</span>",
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>105%</span>",
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>120%</span>",
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>135%</span>",
+        "Reduce self Defense power to 0, Attack power +<span style='color:#0098DC;'>150%</span>",
+      },
       sp = { 35, 35, 35, 32, 32, 32, 29, 28, 27, 25 },
       duration = { 10, 10, 10, 11, 11, 11, 12, 13, 14, 15 },
     },
@@ -306,18 +328,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Skill Theory",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing skill materials, increase the rate of by-products by 70%"
     },
     {
-      name = "undefined",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
   },
   meta = {

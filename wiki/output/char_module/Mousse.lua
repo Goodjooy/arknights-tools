@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-frncat-1.png",
-      name = "挠伤",
+      name = "Cat Scratch",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击时攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>75%</span>，<span style='color:#0098DC;'>{frncat_s_1[debuff].duration}</span>秒内使击中目标攻击力<span style='color:#0098DC;'>-{-frncat_s_1[debuff].atk:0%}</span>",
+      description = {
+        "The next attack deals +<span style='color:#0098DC;'>30%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+        "The next attack deals +<span style='color:#0098DC;'>35%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+        "The next attack deals +<span style='color:#0098DC;'>40%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+        "The next attack deals +<span style='color:#0098DC;'>45%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+        "The next attack deals +<span style='color:#0098DC;'>50%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+        "The next attack deals +<span style='color:#0098DC;'>55%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+        "The next attack deals +<span style='color:#0098DC;'>60%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+        "The next attack deals +<span style='color:#0098DC;'>65%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+        "The next attack deals +<span style='color:#0098DC;'>70%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+        "The next attack deals +<span style='color:#0098DC;'>75%</span> damage and inflicts {{frncat_s_1[debuff].atk}:.0%} attack power to the target for {frncat_s_1[debuff].duration} seconds",
+      },
       sp = { 6, 6, 6, 5, 5, 5, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-frncat-2.png",
-      name = "炸毛",
+      name = "Bristling Fur",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力和防御力各<span style='color:#0098DC;'>+27%<span>/</span>36%<span>/</span>45%<span>/</span>75%</span>",
+      description = {
+        "Attack and Defense power +<span style='color:#0098DC;'>27%</span>",
+        "Attack and Defense power +<span style='color:#0098DC;'>30%</span>",
+        "Attack and Defense power +<span style='color:#0098DC;'>33%</span>",
+        "Attack and Defense power +<span style='color:#0098DC;'>36%</span>",
+        "Attack and Defense power +<span style='color:#0098DC;'>39%</span>",
+        "Attack and Defense power +<span style='color:#0098DC;'>42%</span>",
+        "Attack and Defense power +<span style='color:#0098DC;'>45%</span>",
+        "Attack and Defense power +<span style='color:#0098DC;'>55%</span>",
+        "Attack and Defense power +<span style='color:#0098DC;'>65%</span>",
+        "Attack and Defense power +<span style='color:#0098DC;'>75%</span>",
+      },
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
     {
-      name = "undefined",
+      name = "Baking",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.3 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.3"
     },
   },
   meta = {

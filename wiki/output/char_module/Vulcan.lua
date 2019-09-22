@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-hpsts-1.png",
-      name = "坚守模式",
+      name = "Guard Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "阻挡数<span style='color:#0098DC;'>+1</span>，防御力<span style='color:#0098DC;'>+60%<span>/</span>75%<span>/</span>90%<span>/</span>120%</span>，每秒额外恢复最大生命的<span style='color:#0098DC;'>2%<span>/</span>3%<span>/</span>4%<span>/</span>5%</span>",
+      description = {
+        "Block count +1, Defense power +<span style='color:#0098DC;'>60%</span>, additionally recover <span style='color:#0098DC;'>2%</span> of Max HP every second",
+        "Block count +1, Defense power +<span style='color:#0098DC;'>65%</span>, additionally recover <span style='color:#0098DC;'>2%</span> of Max HP every second",
+        "Block count +1, Defense power +<span style='color:#0098DC;'>70%</span>, additionally recover <span style='color:#0098DC;'>2%</span> of Max HP every second",
+        "Block count +1, Defense power +<span style='color:#0098DC;'>75%</span>, additionally recover <span style='color:#0098DC;'>3%</span> of Max HP every second",
+        "Block count +1, Defense power +<span style='color:#0098DC;'>80%</span>, additionally recover <span style='color:#0098DC;'>3%</span> of Max HP every second",
+        "Block count +1, Defense power +<span style='color:#0098DC;'>85%</span>, additionally recover <span style='color:#0098DC;'>3%</span> of Max HP every second",
+        "Block count +1, Defense power +<span style='color:#0098DC;'>90%</span>, additionally recover <span style='color:#0098DC;'>4%</span> of Max HP every second",
+        "Block count +1, Defense power +<span style='color:#0098DC;'>100%</span>, additionally recover <span style='color:#0098DC;'>4%</span> of Max HP every second",
+        "Block count +1, Defense power +<span style='color:#0098DC;'>110%</span>, additionally recover <span style='color:#0098DC;'>4%</span> of Max HP every second",
+        "Block count +1, Defense power +<span style='color:#0098DC;'>120%</span>, additionally recover <span style='color:#0098DC;'>5%</span> of Max HP every second",
+      },
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-hpsts-2.png",
-      name = "武力模式",
+      name = "Offense Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "阻挡数<span style='color:#FF6237;'>-1</span>，攻击间隔略微<span style='color:#FF6237;'>增大</span>，攻击力<span style='color:#0098DC;'>+65%<span>/</span>85%<span>/</span>105%<span>/</span>150%</span>，每次攻击恢复自身最大生命值的<span style='color:#0098DC;'>5%<span>/</span>6%<span>/</span>7%<span>/</span>10%</span>，同时攻击阻挡的所有敌人",
+      description = {
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>65%</span>, every attack recovers <span style='color:#0098DC;'>5%</span> of Max HP, attacks all blocked enemies simultaneously",
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>70%</span>, every attack recovers <span style='color:#0098DC;'>5%</span> of Max HP, attacks all blocked enemies simultaneously",
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>75%</span>, every attack recovers <span style='color:#0098DC;'>5%</span> of Max HP, attacks all blocked enemies simultaneously",
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>85%</span>, every attack recovers <span style='color:#0098DC;'>6%</span> of Max HP, attacks all blocked enemies simultaneously",
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>90%</span>, every attack recovers <span style='color:#0098DC;'>6%</span> of Max HP, attacks all blocked enemies simultaneously",
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>95%</span>, every attack recovers <span style='color:#0098DC;'>6%</span> of Max HP, attacks all blocked enemies simultaneously",
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>105%</span>, every attack recovers <span style='color:#0098DC;'>7%</span> of Max HP, attacks all blocked enemies simultaneously",
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>120%</span>, every attack recovers <span style='color:#0098DC;'>8%</span> of Max HP, attacks all blocked enemies simultaneously",
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>135%</span>, every attack recovers <span style='color:#0098DC;'>9%</span> of Max HP, attacks all blocked enemies simultaneously",
+        "Block count -1, Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>150%</span>, every attack recovers <span style='color:#0098DC;'>10%</span> of Max HP, attacks all blocked enemies simultaneously",
+      },
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Craftsmanship·α",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production-5%, storage capacity +16 and mood reduction per hour -0.15"
     },
   },
   meta = {
@@ -357,7 +379,7 @@ return {
       endurance = "Great",
       tactic = "Standard",
       skill = "Standard",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

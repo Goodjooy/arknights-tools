@@ -156,7 +156,18 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>100%</span>",
+      description = {
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+        "防御力<span style='color:#0098DC;'>+{def:0%}</span>",
+      },
       sp = { 45, 45, 45, 40, 40, 40, 35, 34, 33, 30 },
       duration = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
     },
@@ -166,7 +177,18 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>80%</span>，阻挡数<span style='color:#0098DC;'>+1<span>/</span>1<span>/</span>1<span>/</span>1</span>，同时攻击阻挡的所有敌人",
+      description = {
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+        "攻击距离<span style='color:#FF6237;'>缩短</span>，攻击力和防御力<span style='color:#0098DC;'>+{atk:0%}</span>，阻挡数<span style='color:#0098DC;'>+{block_cnt}</span>，同时攻击阻挡的所有敌人",
+      },
       sp = { 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Vanguard Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Vanguard operatives by +30%"
     },
   },
   meta = {

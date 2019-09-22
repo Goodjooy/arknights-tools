@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-meteo-1.png",
-      name = "霰射弹头",
+      name = "Spread Shot",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的爆炸范围<span style='color:#0098DC;'>扩大</span>，造成相当于攻击力<span style='color:#0098DC;'>135%<span>/</span>150%<span>/</span>170%<span>/</span>215%</span>的物理伤害",
+      description = {
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>135%</span> physical damage",
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>140%</span> physical damage",
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>145%</span> physical damage",
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>150%</span> physical damage",
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>155%</span> physical damage",
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>160%</span> physical damage",
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>170%</span> physical damage",
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>185%</span> physical damage",
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>200%</span> physical damage",
+        "Increase the explosion radius of the next attack, dealing <span style='color:#0098DC;'>215%</span> physical damage",
+      },
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-meteo-2.png",
-      name = "高爆弹头",
+      name = "High-explosive Round",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即发射一枚火焰弹，对目标范围内所有敌人造成相当于攻击力<span style='color:#0098DC;'>180%<span>/</span>210%<span>/</span>240%<span>/</span>300%</span>的物理伤害，所有命中目标在<span style='color:#0098DC;'>10<span>/</span>10<span>/</span>10<span>/</span>10</span>秒内防御力<span style='color:#0098DC;'>--130<span>/</span>-170<span>/</span>-210<span>/</span>-330</span>",
+      description = {
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>180%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-130</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>190%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-130</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>200%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-130</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>210%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-170</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>220%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-170</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>230%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-170</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>240%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-210</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>260%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-250</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>280%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-290</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+        "Immediately fire a flame bomb, dealing <span style='color:#0098DC;'>300%</span> physical damage to all enemies within the attack area and inflicting <span style='color:#0098DC;'>-330</span> Defense power for <span style='color:#0098DC;'>10</span> seconds",
+      },
       sp = { 25, 25, 25, 24, 24, 24, 23, 22, 21, 20 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -311,11 +333,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Explosive Science·α",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
   },
   meta = {

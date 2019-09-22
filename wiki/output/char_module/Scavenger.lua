@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-2.png",
-      name = "冲锋号令·β型",
+      name = "Assault Order·Type β",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>9<span>/</span>9<span>/</span>9<span>/</span>9</span>点部署费用",
+      description = {
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+      },
       sp = { 39, 38, 37, 36, 35, 34, 33, 32, 31, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-scave-2.png",
-      name = "冲锋号令·攻击",
+      name = "Assault Order·Attack",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>11<span>/</span>11<span>/</span>11<span>/</span>11</span>点部署费用\n攻击力<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>70%</span>",
+      description = {
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>23%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>26%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>33%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>36%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>11</span> cost. Attack power +<span style='color:#0098DC;'>70%</span>",
+      },
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "S.W.E.E.P",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Command Center, mood reduction per hour of all operatives in the Command Center -0.05"
     },
     {
-      name = "undefined",
+      name = "Scavenger",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Craft Station, storage capacity +8 and mood reduction per hour -0.25"
     },
   },
   meta = {
@@ -359,7 +381,7 @@ return {
       endurance = "Below Standard",
       tactic = "Below Standard",
       skill = "Great",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

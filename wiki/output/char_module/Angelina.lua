@@ -147,31 +147,64 @@ return {
   skills = {
     {
       icon = "skchr-aglina-1.png",
-      name = "秘杖·速充模式",
+      name = "Secret Staff·Speed Charge Mode",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+40%<span>/</span>60%<span>/</span>80%<span>/</span>110%</span>\n<span style='color:#F49800;'>技能自动开启</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>40%</span>. Automatic activation",
+        "Attack power +<span style='color:#0098DC;'>45%</span>. Automatic activation",
+        "Attack power +<span style='color:#0098DC;'>50%</span>. Automatic activation",
+        "Attack power +<span style='color:#0098DC;'>60%</span>. Automatic activation",
+        "Attack power +<span style='color:#0098DC;'>65%</span>. Automatic activation",
+        "Attack power +<span style='color:#0098DC;'>70%</span>. Automatic activation",
+        "Attack power +<span style='color:#0098DC;'>80%</span>. Automatic activation",
+        "Attack power +<span style='color:#0098DC;'>90%</span>. Automatic activation",
+        "Attack power +<span style='color:#0098DC;'>100%</span>. Automatic activation",
+        "Attack power +<span style='color:#0098DC;'>110%</span>. Automatic activation",
+      },
       sp = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
       duration = { 20, 21, 22, 25, 26, 27, 30, 31, 33, 35 },
     },
     {
       icon = "skchr-aglina-2.png",
-      name = "秘杖·微粒模式",
+      name = "Secret Staff·Particle Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#0098DC;'>极大幅度缩短</span>，但每次攻击只能造成相当于攻击力<span style='color:#FF6237;'>30%<span>/</span>35%<span>/</span>40%<span>/</span>45%的法术伤害</span>\n<span style='color:#F49800;'>技能未开启时无法普通攻击</span>",
+      description = {
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>30%</span> magical damage. Unable to attack when skill is not active",
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>30%</span> magical damage. Unable to attack when skill is not active",
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>30%</span> magical damage. Unable to attack when skill is not active",
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>35%</span> magical damage. Unable to attack when skill is not active",
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>35%</span> magical damage. Unable to attack when skill is not active",
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>35%</span> magical damage. Unable to attack when skill is not active",
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>40%</span> magical damage. Unable to attack when skill is not active",
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>40%</span> magical damage. Unable to attack when skill is not active",
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>40%</span> magical damage. Unable to attack when skill is not active",
+        "Massively reduce attack interval, however every attack will only deal <span style='color:#FF6237;'>45%</span> magical damage. Unable to attack when skill is not active",
+      },
       sp = { 20, 20, 20, 20, 20, 20, 20, 19, 18, 15 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-aglina-3.png",
-      name = "秘杖·反重力模式",
+      name = "Secret Staff·Anti-Gravity Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "全场所有敌人重量<span style='color:#0098DC;'>下降一个等级</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，攻击力<span style='color:#0098DC;'>+75%<span>/</span>90%<span>/</span>105%<span>/</span>150%</span>，可以攻击<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>5<span>/</span>5</span>个敌人\n<span style='color:#F49800;'>技能未开启时无法普通攻击</span>",
+      description = {
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>75%</span>, Can attack <span style='color:#0098DC;'>4</span> enemies. Unable to attack when skill is not active",
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>80%</span>, Can attack <span style='color:#0098DC;'>4</span> enemies. Unable to attack when skill is not active",
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>85%</span>, Can attack <span style='color:#0098DC;'>4</span> enemies. Unable to attack when skill is not active",
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>90%</span>, Can attack <span style='color:#0098DC;'>4</span> enemies. Unable to attack when skill is not active",
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>95%</span>, Can attack <span style='color:#0098DC;'>4</span> enemies. Unable to attack when skill is not active",
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>100%</span>, Can attack <span style='color:#0098DC;'>4</span> enemies. Unable to attack when skill is not active",
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>105%</span>, Can attack <span style='color:#0098DC;'>5</span> enemies. Unable to attack when skill is not active",
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>120%</span>, Can attack <span style='color:#0098DC;'>5</span> enemies. Unable to attack when skill is not active",
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>135%</span>, Can attack <span style='color:#0098DC;'>5</span> enemies. Unable to attack when skill is not active",
+        "Reduce the weight of all enemies by 1 level. Increase attack range, Attack power +<span style='color:#0098DC;'>150%</span>, Can attack <span style='color:#0098DC;'>5</span> enemies. Unable to attack when skill is not active",
+      },
       sp = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
       duration = { 10, 11, 12, 14, 15, 16, 18, 20, 22, 25 },
     },
@@ -321,19 +354,19 @@ return {
       }
     },
     {
-      name = "Acceleration Field",
+      name = "Part-time Job",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "All allies' Attack speed +3",
+          description = "While skill is not active, all allies recover 20 HP every second",
         },
         {
           elite = 2,
           level = 1,
           potential = 2,
-          description = "All allies' Attack speed +4 (+1)",
+          description = "While skill is not active, all allies recover 25 (+5) HP every second",
         },
       }
     },
@@ -355,11 +388,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Clue Collection·α",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +10%"
     },
   },
   meta = {

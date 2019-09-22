@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2.png",
-      name = "攻击力强化·β型",
+      name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Attack power +<span style='color:#0098DC;'>25%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>70%</span>",
+        "Attack power +<span style='color:#0098DC;'>80%</span>",
+      },
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-vigna-2.png",
-      name = "槌音",
+      name = "Hammer-on",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+90%<span>/</span>120%<span>/</span>150%<span>/</span>200%</span>",
+      description = {
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>90%</span>",
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>100%</span>",
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>110%</span>",
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>120%</span>",
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>130%</span>",
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>140%</span>",
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>150%</span>",
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>165%</span>",
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>180%</span>",
+        "Slightly increase attack interval, Attack power +<span style='color:#0098DC;'>200%</span>",
+      },
       sp = { 35, 35, 35, 32, 32, 32, 28, 27, 26, 25 },
       duration = { 20, 20, 20, 22, 22, 22, 25, 26, 27, 30 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Combat Directive Recordings",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
     {
-      name = "undefined",
+      name = "Vanguard Specialization·β",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Vanguard operatives by +50%"
     },
   },
   meta = {

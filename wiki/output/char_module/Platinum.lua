@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-3.png",
-      name = "攻击力强化·γ型",
+      name = "Attack Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>45%<span>/</span>60%<span>/</span>100%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>55%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>75%</span>",
+        "Attack power +<span style='color:#0098DC;'>90%</span>",
+        "Attack power +<span style='color:#0098DC;'>100%</span>",
+      },
       sp = { 40, 40, 40, 37, 37, 37, 35, 34, 33, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-platnm-2.png",
-      name = "天马视域",
+      name = "Pegasus Sight",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击速度略微<span style='color:#FF6237;'>降低</span>，但攻击力<span style='color:#0098DC;'>+50%<span>/</span>60%<span>/</span>70%<span>/</span>100%</span>，攻击范围<span style='color:#0098DC;'>扩大</span>\n<span style='color:#F49800;'>持续时间无限</span>",
+      description = {
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>50%</span>, Increase attack range. Infinite duration",
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>53%</span>, Increase attack range. Infinite duration",
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>56%</span>, Increase attack range. Infinite duration",
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>60%</span>, Increase attack range. Infinite duration",
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>63%</span>, Increase attack range. Infinite duration",
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>66%</span>, Increase attack range. Infinite duration",
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>70%</span>, Increase attack range. Infinite duration",
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>80%</span>, Increase attack range. Infinite duration",
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>90%</span>, Increase attack range. Infinite duration",
+        "Slightly decreases attack speed, Attack power +<span style='color:#0098DC;'>100%</span>, Increase attack range. Infinite duration",
+      },
       sp = { 70, 69, 68, 67, 66, 65, 63, 59, 55, 50 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Sniper Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Sniper operatives by +30%"
     },
   },
   meta = {

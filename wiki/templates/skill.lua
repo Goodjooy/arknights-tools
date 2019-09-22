@@ -4,7 +4,8 @@
       recharge = "{{recharge}}",
       trigger = "{{trigger}}",
       passive = {{passive}},
-      description = "{{description}}",
+      description = {{{description}}
+      },
       sp = { {{spcost}} },
       duration = { {{duration}} },
     },

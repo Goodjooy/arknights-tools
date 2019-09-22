@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-1.png",
-      name = "强力击·α型",
+      name = "Powerful Strike·Type α",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>150%<span>/</span>170%<span>/</span>190%<span>/</span></span>",
+      description = {
+        "The next attack deals <span style='color:#0098DC;'>150%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>155%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>160%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>170%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>175%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>180%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>190%</span> damage",
+      },
       sp = { 5, 5, 5, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -238,18 +246,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Negotiation",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order limit +3 and mood reduction per hour -0.25"
     },
     {
-      name = "undefined",
+      name = "Standardization·β",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +25%"
     },
   },
   meta = {

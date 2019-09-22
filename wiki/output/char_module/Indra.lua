@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-tiger-1.png",
-      name = "碎甲拳",
+      name = "Armor-crushing Fist",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力<span style='color:#0098DC;'>+50%<span>/</span>80%<span>/</span>110%<span>/</span>140%</span>，无视目标防御<span style='color:#0098DC;'>35%<span>/</span>40%<span>/</span>45%<span>/</span>60%</span>",
+      description = {
+        "The next attack deals +<span style='color:#0098DC;'>50%</span> damage and ignores <span style='color:#0098DC;'>35%</span> of enemy defense",
+        "The next attack deals +<span style='color:#0098DC;'>60%</span> damage and ignores <span style='color:#0098DC;'>35%</span> of enemy defense",
+        "The next attack deals +<span style='color:#0098DC;'>70%</span> damage and ignores <span style='color:#0098DC;'>35%</span> of enemy defense",
+        "The next attack deals +<span style='color:#0098DC;'>80%</span> damage and ignores <span style='color:#0098DC;'>40%</span> of enemy defense",
+        "The next attack deals +<span style='color:#0098DC;'>90%</span> damage and ignores <span style='color:#0098DC;'>40%</span> of enemy defense",
+        "The next attack deals +<span style='color:#0098DC;'>100%</span> damage and ignores <span style='color:#0098DC;'>40%</span> of enemy defense",
+        "The next attack deals +<span style='color:#0098DC;'>110%</span> damage and ignores <span style='color:#0098DC;'>45%</span> of enemy defense",
+        "The next attack deals +<span style='color:#0098DC;'>120%</span> damage and ignores <span style='color:#0098DC;'>50%</span> of enemy defense",
+        "The next attack deals +<span style='color:#0098DC;'>130%</span> damage and ignores <span style='color:#0098DC;'>55%</span> of enemy defense",
+        "The next attack deals +<span style='color:#0098DC;'>140%</span> damage and ignores <span style='color:#0098DC;'>60%</span> of enemy defense",
+      },
       sp = { 4, 4, 4, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-tiger-2.png",
-      name = "裂魂",
+      name = "Soul Rend",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+45%<span>/</span>60%<span>/</span>75%<span>/</span>120%</span>，伤害类型变为<span style='color:#0098DC;'>法术</span>，每次攻击恢复相当于造成伤害<span style='color:#0098DC;'>10%<span>/</span>15%<span>/</span>20%<span>/</span>25%</span>的生命",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>45%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>10%</span> of the damage dealt",
+        "Attack power +<span style='color:#0098DC;'>50%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>10%</span> of the damage dealt",
+        "Attack power +<span style='color:#0098DC;'>55%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>10%</span> of the damage dealt",
+        "Attack power +<span style='color:#0098DC;'>60%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>15%</span> of the damage dealt",
+        "Attack power +<span style='color:#0098DC;'>65%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>15%</span> of the damage dealt",
+        "Attack power +<span style='color:#0098DC;'>70%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>15%</span> of the damage dealt",
+        "Attack power +<span style='color:#0098DC;'>75%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>20%</span> of the damage dealt",
+        "Attack power +<span style='color:#0098DC;'>90%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>20%</span> of the damage dealt",
+        "Attack power +<span style='color:#0098DC;'>105%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>20%</span> of the damage dealt",
+        "Attack power +<span style='color:#0098DC;'>120%</span>, change damage type to magical damage, every attack recovers <span style='color:#0098DC;'>25%</span> of the damage dealt",
+      },
       sp = { 50, 50, 50, 50, 50, 50, 50, 50, 50, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Clue Collection·α",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +10%"
     },
   },
   meta = {

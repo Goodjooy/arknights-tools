@@ -156,7 +156,18 @@ return {
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "获得<span style='color:#0098DC;'>20%<span>/</span>30%<span>/</span>40%<span>/</span>60%</span>的物理闪避",
+      description = {
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+        "获得<span style='color:#0098DC;'>{prob:0%}</span>的物理闪避",
+      },
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -166,7 +177,18 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#0098DC;'>大幅度减小</span>",
+      description = {
+        "攻击间隔<span style='color:#0098DC;'>减小</span>",
+        "攻击间隔<span style='color:#0098DC;'>减小</span>",
+        "攻击间隔<span style='color:#0098DC;'>减小</span>",
+        "攻击间隔<span style='color:#0098DC;'>较大幅度减小</span>",
+        "攻击间隔<span style='color:#0098DC;'>较大幅度减小</span>",
+        "攻击间隔<span style='color:#0098DC;'>较大幅度减小</span>",
+        "攻击间隔<span style='color:#0098DC;'>较大幅度减小</span>",
+        "攻击间隔<span style='color:#0098DC;'>大幅度减小</span>",
+        "攻击间隔<span style='color:#0098DC;'>大幅度减小</span>",
+        "攻击间隔<span style='color:#0098DC;'>大幅度减小</span>",
+      },
       sp = { 40, 39, 38, 35, 34, 33, 30, 27, 24, 20 },
       duration = { 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Guard Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Guard operatives by +30%"
     },
     {
-      name = "undefined",
+      name = "Special Training Records",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing chips, increase the rate of by-products by 70%"
     },
   },
   meta = {
@@ -347,7 +369,7 @@ return {
     },
     bio = {
       gender = "Female",
-      experience = "2 years",
+      experience = "二 years",
       origin = "Ursus",
       birthday = "October 2",
       race = "Ursus",
@@ -359,7 +381,7 @@ return {
       endurance = "Standard",
       tactic = "Below Standard",
       skill = "Standard",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

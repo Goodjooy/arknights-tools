@@ -98,7 +98,15 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "普通攻击的爆炸范围提升至<span style='color:#0098DC;'>150%<span>/</span>175%<span>/</span>200%<span>/</span></span>",
+      description = {
+        "普通攻击的爆炸范围提升至<span style='color:#0098DC;'>{attack@range_scale:0%}</span>",
+        "普通攻击的爆炸范围提升至<span style='color:#0098DC;'>{attack@range_scale:0%}</span>",
+        "普通攻击的爆炸范围提升至<span style='color:#0098DC;'>{attack@range_scale:0%}</span>",
+        "普通攻击的爆炸范围提升至<span style='color:#0098DC;'>{attack@range_scale:0%}</span>",
+        "普通攻击的爆炸范围提升至<span style='color:#0098DC;'>{attack@range_scale:0%}</span>",
+        "普通攻击的爆炸范围提升至<span style='color:#0098DC;'>{attack@range_scale:0%}</span>",
+        "普通攻击的爆炸范围提升至<span style='color:#0098DC;'>{attack@range_scale:0%}</span>",
+      },
       sp = { 55, 53, 51, 50, 48, 46, 45 },
       duration = { 20, 22, 24, 25, 27, 29, 30 },
     },
@@ -232,23 +240,23 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Communication",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30% and mood reduction per hour -0.25"
     },
     {
-      name = "undefined",
+      name = "Explosive Science·β",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 80%"
     },
   },
   meta = {
     illustrator = "m9nokuro",
-    voiceActor = "",
+    voiceActor = "皆川纯子",
   },
   profile = {
     records = {
@@ -303,9 +311,7 @@ return {
     cn024 = "开工了！",
     cn025 = "就用这一发子弹，看准了！",
     cn026 = "你们全都给我飞上天！",
-    cn027 = "-",
-    cn028 = "-",
-    cn029 = "刚才那个击破敌人的战术，布置的可真是漂亮啊！",
+    cn029 = "刚才那个击破敌人的战术，布置得可真是漂亮啊！",
     cn030 = "我就是喜欢能带我们打胜仗的指挥官，就像博士这样的！",
     cn031 = "放心~我早就在敌人的撤退路线上设陷阱了~欸？一个也没被踩中？！",
     cn032 = "唉......！别磨蹭啦，逃吧！",

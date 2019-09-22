@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-1.png",
-      name = "攻击力强化·α型",
+      name = "Attack Strengthening·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+10%<span>/</span>30%<span>/</span>50%<span>/</span></span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>10%</span>",
+        "Attack power +<span style='color:#0098DC;'>15%</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+      },
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -238,18 +246,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Supply Management",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +25% and order limit +1"
     },
     {
-      name = "undefined",
+      name = "Focus·α",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 40%"
     },
   },
   meta = {
@@ -279,7 +287,7 @@ return {
       endurance = "Below Standard",
       tactic = "Standard",
       skill = "Standard",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

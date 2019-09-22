@@ -156,7 +156,18 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>1<span>/</span>1<span>/</span>1<span>/</span>2</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>40%<span>/</span>55%<span>/</span>70%<span>/</span>100%</span>的生命值",
+      description = {
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+        "每次攻击对敌人造成伤害的同时会对范围内至多<span style='color:#0098DC;'>{attack@max_target}</span>名友方单位恢复相当于伤害量<span style='color:#0098DC;'>{attack@heal_scale:0%}</span>的生命值",
+      },
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
     },
@@ -166,7 +177,18 @@ return {
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即对攻击范围内最多<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>5</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>--60%<span>/</span>-60%<span>/</span>-60%<span>/</span>-60%</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>5<span>/</span>6<span>/</span>7<span>/</span>10</span>秒",
+      description = {
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+        "立即对攻击范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人施加梦魇效果：\n敌人的移动速度<span style='color:#0098DC;'>-{-move_speed:0%}</span>，并根据其移动距离受到无视防御和法术抗性的伤害，持续<span style='color:#0098DC;'>{duration}</span>秒",
+      },
       sp = { 30, 29, 28, 27, 26, 25, 24, 23, 22, 20 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -323,18 +345,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Caster Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Caster operatives by +30%"
     },
     {
-      name = "undefined",
+      name = "Psychology",
       badge = "hr",
       facility = "HR Office",
       unlockIcon = "elite2",
-      description = "undefined"
+      description = "When stationed at Human Resource, accumulation of networking resources +40%"
     },
   },
   meta = {

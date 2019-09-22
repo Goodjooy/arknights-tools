@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-2.png",
-      name = "治疗强化·β型",
+      name = "Healing Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+15%<span>/</span>30%<span>/</span>50%<span>/</span>70%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>15%</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Attack power +<span style='color:#0098DC;'>25%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>55%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>70%</span>",
+      },
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-flower-2.png",
-      name = "精调",
+      name = "Fine-tuning",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#FF6237;'>--50<span>/</span>-50<span>/</span>-50<span>/</span>-50</span>，攻击力<span style='color:#0098DC;'>+150%<span>/</span>180%<span>/</span>210%<span>/</span>250%</span>",
+      description = {
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>150%</span>",
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>160%</span>",
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>170%</span>",
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>180%</span>",
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>190%</span>",
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>200%</span>",
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>210%</span>",
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>220%</span>",
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>230%</span>",
+        "Attack speed <span style='color:#FF6237;'>-50</span>, Attack power +<span style='color:#0098DC;'>250%</span>",
+      },
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Pharmacology",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
     {
-      name = "undefined",
+      name = "Standardization·β",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +25%"
     },
   },
   meta = {

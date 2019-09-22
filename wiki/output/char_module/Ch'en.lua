@@ -156,7 +156,18 @@ return {
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>200%<span>/</span>230%<span>/</span>260%<span>/</span>320%</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>1<span>/</span>1.25<span>/</span>1.5<span>/</span>1.5</span>秒",
+      description = {
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "下次攻击使用刀鞘砸向敌人，造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，令命中目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+      },
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -166,7 +177,18 @@ return {
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "对前方范围内最多<span style='color:#0098DC;'>4<span>/</span>5<span>/</span>6<span>/</span>7</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>330%<span>/</span>370%<span>/</span>410%<span>/</span>500%</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>330%<span>/</span>370%<span>/</span>410%<span>/</span>500%</span>的<span style='color:#F49800;'>法术</span>伤害",
+      description = {
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+        "对前方范围内最多<span style='color:#0098DC;'>{max_target}</span>名敌人造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>物理</span>和相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的<span style='color:#F49800;'>法术</span>伤害",
+      },
       sp = { 27, 27, 27, 26, 26, 26, 25, 23, 21, 20 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -176,7 +198,18 @@ return {
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>10<span>/</span>10<span>/</span>10<span>/</span>10</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>200%<span>/</span>230%<span>/</span>260%<span>/</span>320%</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>2<span>/</span>2.5<span>/</span>3<span>/</span>4</span>秒",
+      description = {
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+        "向周围寻找最近的敌方目标，对其发动<span style='color:#0098DC;'>{times}</span>次连续斩击，每次造成相当于攻击力<span style='color:#0098DC;'>{atk_scale:0%}</span>的物理伤害，并在最后一击时使目标晕眩<span style='color:#0098DC;'>{stun}</span>秒",
+      },
       sp = { 40, 40, 40, 38, 38, 38, 36, 34, 32, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -297,36 +330,36 @@ return {
   },
   talents = {
     {
-      name = "呵斥",
+      name = "Berate",
       levels = {
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "在场时每5秒回复全场友方角色1点攻击/受击技力",
+          description = "When deployed, recover 1 [On attack/When attacked] SP to all allies every 5 seconds",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "在场时每4秒回复全场友方角色1点攻击/受击技力",
+          description = "When deployed, recover 1 [On attack/When attacked] SP to all allies every 4 seconds",
         },
       }
     },
     {
-      name = "持刀格斗术",
+      name = "Swordplay",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "攻击力+5%，防御力+5%，物理闪避+10%",
+          description = "Attack +5%, Defense +5%, Physical evasion +10%",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "攻击力+6%<@ba.talpu>（+1%）</>，防御力+6%<@ba.talpu>（+1%）</>，物理闪避+13%<@ba.talpu>（+3%）</>",
+          description = "Attack +6% (+1%), Defense +6% (+1%), Physical evasion +13% (+3%)",
         },
       }
     },
@@ -348,18 +381,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "德才兼备",
+      name = "Ability & Integrity",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "进驻控制中枢时，控制中枢内每个<span style='color:#00B0FF;'>龙门近卫局</span>干员，可使控制中枢内所有干员的心情每小时消耗<span style='color:#0098DC;'>-0.05</span>"
+      description = "When stationed at the Command Center, for every operative from Lungmen Guard Bureau in the Command Center, mood reduction per hour of all operatives in the Command Center -0.05"
     },
     {
-      name = "警司",
+      name = "Superintendent",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite2",
-      description = "进驻会客室时，线索搜集速度提升<span style='color:#0098DC;'>25%</span>"
+      description = "When stationed at Reception, clue collection speed +25%"
     },
   },
   meta = {
@@ -368,12 +401,12 @@ return {
   },
   profile = {
     records = {
-      resume = "陈，龙门近卫局特别督察组组长，毕业于维多利亚皇家近卫学校，成绩优异，表现突出。在龙门近卫局供职期间，力主取缔龙门境内非法活动，对抗暴力犯罪、有组织犯罪，追缉武装逃犯、国际重犯等行动，并取得多项重大成果。<br>现作为特别人员协助罗德岛行动，并为现场提供战术指挥支援。",
+      resume = "陈，龙门高级警司，龙门近卫局特别督察组组长，毕业于维多利亚皇家近卫学校，成绩优异，表现突出。在龙门近卫局供职期间，力主取缔龙门境内非法活动，对抗暴力犯罪和有组织犯罪，追缉武装逃犯与国际重犯等行动，并取得多项重大成果。<br>现作为特别人员协助罗德岛行动，并为现场提供战术指挥支援。",
       archive1 = "",
       archive2 = "陈以全常规科目A和全教官推荐的优秀成绩自维多利亚皇家近卫学校毕业。回到龙门之后，她几乎立刻就加入了龙门近卫局。<br>没人知道她考入皇家近卫学校之前的经历，正如没人怀疑她的能力、她的恪尽职守、以及她的嫉恶如仇。针对陈的行事风格，配合过近卫局工作的警员曾是一片怨声载道——太严厉了，也太苛刻了。几乎所有人都认为，陈一定会在权力斗争中销声匿迹，她的锐气很快就会被无尽的事端打磨干净。<br>出乎所有人意料，犯罪率和伤亡率在两年内连续下降，年轻世代警员的岗位提拔越来越快、越来越实质性。陈步步高升，并加入了近卫局最重要的队伍之一，特别督察组。<br>特别督察组成员的任期一般不超过两年——出于对警员生命的保护，或是为了减少他们累积压力造成失误的可能性。也许这个岗位本身就不适合久待：在任务中壮烈牺牲几乎是所有老督察组成员一贯的结局。<br>陈没有任何退缩。她不曾退缩，不会退缩，也不懂退缩。<br>她成了龙门警史中升职最快的警官，同时也是最年轻的近卫局特别督察组组长。原本嘲笑或是背地里阴损她的人，无不为她的气魄和坚毅折服，毕竟对未来有规划是一回事，每一天都在执行规划是另一回事。<br>她为何那么卖力？为何投入自己的生命至如斯地步？没人懂，也没人能懂。<br>陈的废纸篓里，常有撕得粉碎或揉成一团的残页，写满了莫名的怒意。",
       archive3 = "当然，陈并不是一个完全的工作狂人或警务机器。<br>认识她警员与干员们表示，她更像是个完美的人。合理地分配所有时间，饮食与个人爱好也从不落下，用有意义的事情填满一天中的每一分每一秒。<br>这反而更让人为她担忧。假期的突然取消和假期内的完全失踪都是正常的，加班到深夜、堆积如山的卷宗第二天消弭无踪、欣赏完新电影后立刻出现在紧急会议上，也是正常的。<br>陈对待自己的方式就是如此高效，仿佛一台没法停下来的机器，这让人总会想要询问她一个问题。<br>“你不要紧吧？”<br>“没事。”<br>尚未有人得到过其他的答案，所有受访者的回答都是一致的。<br>陈日复一日地重复着自己的生活，不断地解决龙门内的问题；同时，她的身手愈加利落，思维也越来越明晰。她在不断成为一个更好的人，且未见极限。<br>可她究竟在追求什么？<br>就连她的那些好友也不敢说自己理解陈。她有太多只留给自己的事情。",
       archive4 = "",
-      token = "",
+      token = "她一定会回来。",
     },
     bio = {
       gender = "Female",
@@ -381,7 +414,7 @@ return {
       origin = "Lungmen",
       birthday = "July 7",
       race = "Dragon",
-      height = "1.68m",
+      height = "168cm",
     },
     physical = {
       strength = "Great",

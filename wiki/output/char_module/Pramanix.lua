@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-slbell-1.png",
-      name = "传音回响",
+      name = "Echo Reverb",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "同时攻击<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>2</span>个目标，攻击范围内所有敌人攻击速度<span style='color:#0098DC;'>--30<span>/</span>-40<span>/</span>-50<span>/</span>-60</span>",
+      description = {
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-30</span> attack speed",
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-30</span> attack speed",
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-30</span> attack speed",
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-40</span> attack speed",
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-40</span> attack speed",
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-40</span> attack speed",
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-50</span> attack speed",
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-53</span> attack speed",
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-56</span> attack speed",
+        "Attacks <span style='color:#0098DC;'>2</span> targets simultaneously. All enemies within attack range have <span style='color:#0098DC;'>-60</span> attack speed",
+      },
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 10, 11, 12, 13, 14, 15, 16, 17, 18, 20 },
     },
     {
       icon = "skchr-slbell-2.png",
-      name = "自然震慑",
+      name = "Natural Shock",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围内所有敌人防御力<span style='color:#0098DC;'>--35%<span>/</span>-40%<span>/</span>-45%<span>/</span>-60%</span>，法术抗性<span style='color:#0098DC;'>--20%<span>/</span>-23%<span>/</span>-26%<span>/</span>-30%</span>",
+      description = {
+        "All enemies within attack range have <span style='color:#0098DC;'>-35%</span> defense and <span style='color:#0098DC;'>-20%</span> magic resistance",
+        "All enemies within attack range have <span style='color:#0098DC;'>-35%</span> defense and <span style='color:#0098DC;'>-20%</span> magic resistance",
+        "All enemies within attack range have <span style='color:#0098DC;'>-35%</span> defense and <span style='color:#0098DC;'>-20%</span> magic resistance",
+        "All enemies within attack range have <span style='color:#0098DC;'>-40%</span> defense and <span style='color:#0098DC;'>-23%</span> magic resistance",
+        "All enemies within attack range have <span style='color:#0098DC;'>-40%</span> defense and <span style='color:#0098DC;'>-23%</span> magic resistance",
+        "All enemies within attack range have <span style='color:#0098DC;'>-40%</span> defense and <span style='color:#0098DC;'>-23%</span> magic resistance",
+        "All enemies within attack range have <span style='color:#0098DC;'>-45%</span> defense and <span style='color:#0098DC;'>-26%</span> magic resistance",
+        "All enemies within attack range have <span style='color:#0098DC;'>-50%</span> defense and <span style='color:#0098DC;'>-26%</span> magic resistance",
+        "All enemies within attack range have <span style='color:#0098DC;'>-55%</span> defense and <span style='color:#0098DC;'>-26%</span> magic resistance",
+        "All enemies within attack range have <span style='color:#0098DC;'>-60%</span> defense and <span style='color:#0098DC;'>-30%</span> magic resistance",
+      },
       sp = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
       duration = { 10, 11, 12, 14, 15, 16, 18, 20, 22, 25 },
     },
@@ -306,13 +328,13 @@ return {
       }
     },
     {
-      name = "Weakening",
+      name = "Echo",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When enemies within attack range have less than 40% HP, their damage taken is increased to 115%",
+          description = "Attacks 2 targets simultaneously",
         },
       }
     },
@@ -334,18 +356,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Saintess of Karlan",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.5 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.25"
     },
     {
-      name = "undefined",
+      name = "Supporter Specialization·β",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite2",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Supporter operatives by +50%"
     },
   },
   meta = {

@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skcom-magic-rage-1.png",
-      name = "战术咏唱·α型",
+      name = "Tactical Chanting·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+10<span>/</span>30<span>/</span>50<span>/</span></span>",
+      description = {
+        "Attack speed +<span style='color:#0098DC;'>10</span>",
+        "Attack speed +<span style='color:#0098DC;'>15</span>",
+        "Attack speed +<span style='color:#0098DC;'>20</span>",
+        "Attack speed +<span style='color:#0098DC;'>30</span>",
+        "Attack speed +<span style='color:#0098DC;'>35</span>",
+        "Attack speed +<span style='color:#0098DC;'>40</span>",
+        "Attack speed +<span style='color:#0098DC;'>50</span>",
+      },
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -250,18 +258,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Thermal Energy·α",
       badge = "power",
       facility = "Power Plant",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
     {
-      name = "undefined",
+      name = "Originium Crafts·β",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of originium products by +35%"
     },
   },
   meta = {

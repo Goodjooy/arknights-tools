@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skchr-wyvern-1.png",
-      name = "冲锋号令·援军",
+      name = "Assault Order·Reinforcements",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "获得<span style='color:#0098DC;'>6<span>/</span>6<span>/</span>6<span>/</span></span>点部署费用，攻击力<span style='color:#0098DC;'>+5%<span>/</span>20%<span>/</span>35%<span>/</span></span>",
+      description = {
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost, Attack power +<span style='color:#0098DC;'>5%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost, Attack power +<span style='color:#0098DC;'>10%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost, Attack power +<span style='color:#0098DC;'>15%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost, Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost, Attack power +<span style='color:#0098DC;'>25%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost, Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Immediately obtain <span style='color:#0098DC;'>6</span> cost, Attack power +<span style='color:#0098DC;'>35%</span>",
+      },
       sp = { 25, 25, 25, 23, 22, 21, 20 },
       duration = { 10, 10, 10, 10, 10, 10, 10 },
     },
@@ -238,18 +246,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Standardization·β",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +25%"
     },
     {
-      name = "undefined",
+      name = "Order Distribution·α",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },
   },
   meta = {

@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-2.png",
-      name = "强力击·β型",
+      name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>170%<span>/</span>185%<span>/</span>200%<span>/</span>230%</span>",
+      description = {
+        "The next attack deals <span style='color:#0098DC;'>170%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>175%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>180%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>185%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>190%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>195%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>200%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>210%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>220%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>230%</span> damage",
+      },
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-doberm-2.png",
-      name = "鞭策",
+      name = "Supervision",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>40%<span>/</span>50%<span>/</span>80%</span>，天赋的效果提升至<span style='color:#0098DC;'>2.1<span>/</span>2.4<span>/</span>2.7<span>/</span>3</span>倍",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>30%</span>, Increase effect of self talent by <span style='color:#0098DC;'>2.1</span>x",
+        "Attack power +<span style='color:#0098DC;'>30%</span>, Increase effect of self talent by <span style='color:#0098DC;'>2.2</span>x",
+        "Attack power +<span style='color:#0098DC;'>30%</span>, Increase effect of self talent by <span style='color:#0098DC;'>2.3</span>x",
+        "Attack power +<span style='color:#0098DC;'>40%</span>, Increase effect of self talent by <span style='color:#0098DC;'>2.4</span>x",
+        "Attack power +<span style='color:#0098DC;'>40%</span>, Increase effect of self talent by <span style='color:#0098DC;'>2.5</span>x",
+        "Attack power +<span style='color:#0098DC;'>40%</span>, Increase effect of self talent by <span style='color:#0098DC;'>2.6</span>x",
+        "Attack power +<span style='color:#0098DC;'>50%</span>, Increase effect of self talent by <span style='color:#0098DC;'>2.7</span>x",
+        "Attack power +<span style='color:#0098DC;'>60%</span>, Increase effect of self talent by <span style='color:#0098DC;'>2.8</span>x",
+        "Attack power +<span style='color:#0098DC;'>70%</span>, Increase effect of self talent by <span style='color:#0098DC;'>2.9</span>x",
+        "Attack power +<span style='color:#0098DC;'>80%</span>, Increase effect of self talent by <span style='color:#0098DC;'>3</span>x",
+      },
       sp = { 80, 79, 78, 77, 76, 75, 74, 73, 72, 70 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Competent",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Command Center, mood reduction per hour of all operatives in the Command Center -0.05"
     },
     {
-      name = "undefined",
+      name = "Instructor",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Training Station, operative skill training speed +25%"
     },
   },
   meta = {
@@ -359,7 +381,7 @@ return {
       endurance = "Standard",
       tactic = "Great",
       skill = "Great",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

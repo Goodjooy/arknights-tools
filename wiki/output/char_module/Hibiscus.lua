@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-1.png",
-      name = "治疗强化·α型",
+      name = "Healing Strengthening·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+10%<span>/</span>30%<span>/</span>50%<span>/</span></span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>10%</span>",
+        "Attack power +<span style='color:#0098DC;'>15%</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+      },
       sp = { 40, 40, 40, 35, 35, 35, 30 },
       duration = { 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -238,18 +246,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Empathetic",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
     },
     {
-      name = "undefined",
+      name = "Nutriology",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 70%"
     },
   },
   meta = {

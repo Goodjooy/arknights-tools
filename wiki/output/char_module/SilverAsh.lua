@@ -152,31 +152,64 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-3.png",
-      name = "强力击·γ型",
+      name = "Powerful Strike·Type γ",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>190%<span>/</span>205%<span>/</span>225%<span>/</span>290%</span>",
+      description = {
+        "The next attack deals <span style='color:#0098DC;'>190%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>195%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>200%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>205%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>210%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>215%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>225%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>245%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>265%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>290%</span> damage",
+      },
       sp = { 4, 4, 4, 3, 3, 3, 3, 3, 3, 2 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-svrash-2.png",
-      name = "雪境生存法则",
+      name = "Arctic Law of Survival",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "<span style='color:#F49800;'>可以在下列状态和初始状态间切换：</span>\n攻击范围<span style='color:#FF6237;'>缩小</span>，防御力<span style='color:#0098DC;'>+35%<span>/</span>50%<span>/</span>65%<span>/</span>100%</span>，每秒恢复最大生命的<span style='color:#0098DC;'>3%<span>/</span>4%<span>/</span>4%<span>/</span>6%</span>",
+      description = {
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>35%</span>, Recover <span style='color:#0098DC;'>3%</span> of Max HP every second",
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>40%</span>, Recover <span style='color:#0098DC;'>3%</span> of Max HP every second",
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>45%</span>, Recover <span style='color:#0098DC;'>3%</span> of Max HP every second",
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>50%</span>, Recover <span style='color:#0098DC;'>4%</span> of Max HP every second",
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>55%</span>, Recover <span style='color:#0098DC;'>4%</span> of Max HP every second",
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>60%</span>, Recover <span style='color:#0098DC;'>4%</span> of Max HP every second",
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>65%</span>, Recover <span style='color:#0098DC;'>4%</span> of Max HP every second",
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>75%</span>, Recover <span style='color:#0098DC;'>5%</span> of Max HP every second",
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>85%</span>, Recover <span style='color:#0098DC;'>5%</span> of Max HP every second",
+        "Can switch between the default state and the following state: Reduce attack range, Defense power +<span style='color:#0098DC;'>100%</span>, Recover <span style='color:#0098DC;'>6%</span> of Max HP every second",
+      },
       sp = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-svrash-3.png",
-      name = "真银斩",
+      name = "True Silver Slash",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#FF6237;'>--70%<span>/</span>-70%<span>/</span>-70%<span>/</span>-70%</span>，攻击力<span style='color:#0098DC;'>+110%<span>/</span>125%<span>/</span>140%<span>/</span>200%</span>，攻击范围<span style='color:#0098DC;'>扩大</span>，同时攻击至多<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>5<span>/</span>6</span>个目标（视为近距离攻击）",
+      description = {
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>110%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>3</span> targets simultaneously (treated as melee attacks)",
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>115%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>3</span> targets simultaneously (treated as melee attacks)",
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>120%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>3</span> targets simultaneously (treated as melee attacks)",
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>125%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>4</span> targets simultaneously (treated as melee attacks)",
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>130%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>4</span> targets simultaneously (treated as melee attacks)",
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>135%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>4</span> targets simultaneously (treated as melee attacks)",
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>140%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>5</span> targets simultaneously (treated as melee attacks)",
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>160%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>5</span> targets simultaneously (treated as melee attacks)",
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>180%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>5</span> targets simultaneously (treated as melee attacks)",
+        "Defense power <span style='color:#FF6237;'>-70%</span>, Attack power +<span style='color:#0098DC;'>200%</span>, Increase attack range and attack up to <span style='color:#0098DC;'>6</span> targets simultaneously (treated as melee attacks)",
+      },
       sp = { 90, 90, 90, 90, 90, 90, 90, 90, 90, 90 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -326,13 +359,13 @@ return {
       }
     },
     {
-      name = "Leader",
+      name = "Eagle Eye",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Attack +5%, All operatives' redeployment time -5%",
+          description = "Enemies within attack range lose stealth status",
         },
       }
     },
@@ -354,11 +387,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Karlan Trading·α",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
     },
   },
   meta = {

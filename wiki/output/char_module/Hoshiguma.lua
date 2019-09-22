@@ -152,31 +152,64 @@ return {
   skills = {
     {
       icon = "skchr-hsguma-1.png",
-      name = "战意",
+      name = "Battle Intent",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#0098DC;'>+35%<span>/</span>50%<span>/</span>65%<span>/</span>80%</span>，攻击力<span style='color:#0098DC;'>+10%<span>/</span>20%<span>/</span>30%<span>/</span>40%</span>",
+      description = {
+        "Defense power +<span style='color:#0098DC;'>35%</span>, Attack power +<span style='color:#0098DC;'>10%</span>",
+        "Defense power +<span style='color:#0098DC;'>40%</span>, Attack power +<span style='color:#0098DC;'>10%</span>",
+        "Defense power +<span style='color:#0098DC;'>45%</span>, Attack power +<span style='color:#0098DC;'>10%</span>",
+        "Defense power +<span style='color:#0098DC;'>50%</span>, Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Defense power +<span style='color:#0098DC;'>55%</span>, Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Defense power +<span style='color:#0098DC;'>60%</span>, Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Defense power +<span style='color:#0098DC;'>65%</span>, Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Defense power +<span style='color:#0098DC;'>70%</span>, Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Defense power +<span style='color:#0098DC;'>75%</span>, Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Defense power +<span style='color:#0098DC;'>80%</span>, Attack power +<span style='color:#0098DC;'>40%</span>",
+      },
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
     {
       icon = "skchr-hsguma-2.png",
-      name = "荆棘",
+      name = "Thorns",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "防御力<span style='color:#0098DC;'>+5%<span>/</span>13%<span>/</span>21%<span>/</span>30%</span>\n每次受到攻击时对目标造成相当于星熊攻击力<span style='color:#0098DC;'>50%<span>/</span>65%<span>/</span>80%<span>/</span>100%</span>的物理伤害",
+      description = {
+        "Defense power +<span style='color:#0098DC;'>5%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>50%</span> physical damage to the attacker",
+        "Defense power +<span style='color:#0098DC;'>7%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>55%</span> physical damage to the attacker",
+        "Defense power +<span style='color:#0098DC;'>9%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>60%</span> physical damage to the attacker",
+        "Defense power +<span style='color:#0098DC;'>13%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>65%</span> physical damage to the attacker",
+        "Defense power +<span style='color:#0098DC;'>15%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>70%</span> physical damage to the attacker",
+        "Defense power +<span style='color:#0098DC;'>17%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>75%</span> physical damage to the attacker",
+        "Defense power +<span style='color:#0098DC;'>21%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>80%</span> physical damage to the attacker",
+        "Defense power +<span style='color:#0098DC;'>24%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>85%</span> physical damage to the attacker",
+        "Defense power +<span style='color:#0098DC;'>27%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>90%</span> physical damage to the attacker",
+        "Defense power +<span style='color:#0098DC;'>30%</span>. Every time Hoshiguma is attacked, deal <span style='color:#0098DC;'>100%</span> physical damage to the attacker",
+      },
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-hsguma-3.png",
-      name = "力之锯",
+      name = "Power Saw",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+65%<span>/</span>80%<span>/</span>95%<span>/</span>140%</span>，防御力<span style='color:#0098DC;'>+40%<span>/</span>50%<span>/</span>60%<span>/</span>90%</span>，对前方一格的所有敌人使用盾牌进行切割",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>65%</span>, Defense power +<span style='color:#0098DC;'>40%</span>. Slice all enemies 1 tile ahead using the shield",
+        "Attack power +<span style='color:#0098DC;'>70%</span>, Defense power +<span style='color:#0098DC;'>40%</span>. Slice all enemies 1 tile ahead using the shield",
+        "Attack power +<span style='color:#0098DC;'>75%</span>, Defense power +<span style='color:#0098DC;'>40%</span>. Slice all enemies 1 tile ahead using the shield",
+        "Attack power +<span style='color:#0098DC;'>80%</span>, Defense power +<span style='color:#0098DC;'>50%</span>. Slice all enemies 1 tile ahead using the shield",
+        "Attack power +<span style='color:#0098DC;'>85%</span>, Defense power +<span style='color:#0098DC;'>50%</span>. Slice all enemies 1 tile ahead using the shield",
+        "Attack power +<span style='color:#0098DC;'>90%</span>, Defense power +<span style='color:#0098DC;'>50%</span>. Slice all enemies 1 tile ahead using the shield",
+        "Attack power +<span style='color:#0098DC;'>95%</span>, Defense power +<span style='color:#0098DC;'>60%</span>. Slice all enemies 1 tile ahead using the shield",
+        "Attack power +<span style='color:#0098DC;'>110%</span>, Defense power +<span style='color:#0098DC;'>70%</span>. Slice all enemies 1 tile ahead using the shield",
+        "Attack power +<span style='color:#0098DC;'>125%</span>, Defense power +<span style='color:#0098DC;'>80%</span>. Slice all enemies 1 tile ahead using the shield",
+        "Attack power +<span style='color:#0098DC;'>140%</span>, Defense power +<span style='color:#0098DC;'>90%</span>. Slice all enemies 1 tile ahead using the shield",
+      },
       sp = { 60, 59, 58, 57, 56, 55, 54, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -326,19 +359,19 @@ return {
       }
     },
     {
-      name = "Tactical Armor",
+      name = "Special Tactics",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Gain 12% physical and magical block",
+          description = "When deployed, all ally 【Defender】 operatives gain Defense +6%",
         },
         {
           elite = 2,
           level = 1,
           potential = 5,
-          description = "Gain 15% (+3%) physical and magical block",
+          description = "When deployed, all ally 【Defender】 operatives gain Defense +8% (+2%)",
         },
       }
     },
@@ -360,11 +393,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Defender Specialization·α",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Defender operatives by +30%"
     },
   },
   meta = {

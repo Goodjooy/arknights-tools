@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-panda-1.png",
-      name = "铁意六合",
+      name = "Metallic Union",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击会把目标往攻击方向<span style='color:#0098DC;'>较大力地</span>推动，<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>4<span>/</span>5秒</span>内命中目标的移动速度<span style='color:#0098DC;'>--15%<span>/</span>-18%<span>/</span>-21%<span>/</span>-30%</span>",
+      description = {
+        "The next attack will push the target away with small force, inflicting <span style='color:#0098DC;'>-15%</span> movement speed for <span style='color:#0098DC;'>3</span> seconds",
+        "The next attack will push the target away with small force, inflicting <span style='color:#0098DC;'>-16%</span> movement speed for <span style='color:#0098DC;'>3</span> seconds",
+        "The next attack will push the target away with small force, inflicting <span style='color:#0098DC;'>-17%</span> movement speed for <span style='color:#0098DC;'>3</span> seconds",
+        "The next attack will push the target away with medium force, inflicting <span style='color:#0098DC;'>-18%</span> movement speed for <span style='color:#0098DC;'>4</span> seconds",
+        "The next attack will push the target away with medium force, inflicting <span style='color:#0098DC;'>-19%</span> movement speed for <span style='color:#0098DC;'>4</span> seconds",
+        "The next attack will push the target away with medium force, inflicting <span style='color:#0098DC;'>-20%</span> movement speed for <span style='color:#0098DC;'>4</span> seconds",
+        "The next attack will push the target away with medium force, inflicting <span style='color:#0098DC;'>-21%</span> movement speed for <span style='color:#0098DC;'>4</span> seconds",
+        "The next attack will push the target away with medium force, inflicting <span style='color:#0098DC;'>-24%</span> movement speed for <span style='color:#0098DC;'>5</span> seconds",
+        "The next attack will push the target away with medium force, inflicting <span style='color:#0098DC;'>-27%</span> movement speed for <span style='color:#0098DC;'>5</span> seconds",
+        "The next attack will push the target away with large force, inflicting <span style='color:#0098DC;'>-30%</span> movement speed for <span style='color:#0098DC;'>5</span> seconds",
+      },
       sp = { 6, 6, 6, 6, 6, 6, 6, 5, 5, 5 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-panda-2.png",
-      name = "崩拳式",
+      name = "Collapsing Strike",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即往前方突进，寻找前方直线内的最近目标，<span style='color:#0098DC;'>大力地</span>击退该目标周围的所有敌军，造成相当于攻击力<span style='color:#0098DC;'>160%<span>/</span>175%<span>/</span>190%<span>/</span>250%</span>的物理伤害，在<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>4<span>/</span>5秒</span>内所有命中目标的移动速度<span style='color:#0098DC;'>--15%<span>/</span>-18%<span>/</span>-21%<span>/</span>-30%</span>",
+      description = {
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with medium force and dealing <span style='color:#0098DC;'>160%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-15%</span> movement speed to all targets for <span style='color:#0098DC;'>3</span> seconds",
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with medium force and dealing <span style='color:#0098DC;'>165%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-16%</span> movement speed to all targets for <span style='color:#0098DC;'>3</span> seconds",
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with medium force and dealing <span style='color:#0098DC;'>170%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-17%</span> movement speed to all targets for <span style='color:#0098DC;'>3</span> seconds",
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with medium force and dealing <span style='color:#0098DC;'>175%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-18%</span> movement speed to all targets for <span style='color:#0098DC;'>4</span> seconds",
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with medium force and dealing <span style='color:#0098DC;'>180%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-19%</span> movement speed to all targets for <span style='color:#0098DC;'>4</span> seconds",
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with medium force and dealing <span style='color:#0098DC;'>185%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-20%</span> movement speed to all targets for <span style='color:#0098DC;'>4</span> seconds",
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with large force and dealing <span style='color:#0098DC;'>190%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-21%</span> movement speed to all targets for <span style='color:#0098DC;'>4</span> seconds",
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with large force and dealing <span style='color:#0098DC;'>210%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-24%</span> movement speed to all targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with large force and dealing <span style='color:#0098DC;'>230%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-27%</span> movement speed to all targets for <span style='color:#0098DC;'>5</span> seconds",
+        "Immediately rush forward and target the closest enemy in a straight line ahead, pushing back all enemies around the target with huge force and dealing <span style='color:#0098DC;'>250%</span> physical damage. Additionally, inflict <span style='color:#0098DC;'>-30%</span> movement speed to all targets for <span style='color:#0098DC;'>5</span> seconds",
+      },
       sp = { 20, 20, 20, 19, 19, 19, 18, 17, 16, 15 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Combat Directive Recordings",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
   },
   meta = {
@@ -357,7 +379,7 @@ return {
       endurance = "Standard",
       tactic = "Below Standard",
       skill = "Great",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

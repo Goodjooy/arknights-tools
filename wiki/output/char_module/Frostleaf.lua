@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-frostl-1.png",
-      name = "寒霜枪刃",
+      name = "Frosty Spear",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击造成攻击力<span style='color:#0098DC;'>105%<span>/</span>120%<span>/</span>135%<span>/</span>150%</span>的物理伤害，令命中目标在<span style='color:#0098DC;'>1.5<span>/</span>2<span>/</span>2.5<span>/</span>3</span>秒内移动速度<span style='color:#0098DC;'>--20%<span>/</span>-28%<span>/</span>-35%<span>/</span>-50%</span>",
+      description = {
+        "The next attack deals <span style='color:#0098DC;'>105%</span> physical damage and inflicts <span style='color:#0098DC;'>-20%</span> movement speed to the target for <span style='color:#0098DC;'>1.5</span> seconds",
+        "The next attack deals <span style='color:#0098DC;'>110%</span> physical damage and inflicts <span style='color:#0098DC;'>-23%</span> movement speed to the target for <span style='color:#0098DC;'>1.5</span> seconds",
+        "The next attack deals <span style='color:#0098DC;'>115%</span> physical damage and inflicts <span style='color:#0098DC;'>-25%</span> movement speed to the target for <span style='color:#0098DC;'>1.5</span> seconds",
+        "The next attack deals <span style='color:#0098DC;'>120%</span> physical damage and inflicts <span style='color:#0098DC;'>-28%</span> movement speed to the target for <span style='color:#0098DC;'>2</span> seconds",
+        "The next attack deals <span style='color:#0098DC;'>125%</span> physical damage and inflicts <span style='color:#0098DC;'>-30%</span> movement speed to the target for <span style='color:#0098DC;'>2</span> seconds",
+        "The next attack deals <span style='color:#0098DC;'>130%</span> physical damage and inflicts <span style='color:#0098DC;'>-33%</span> movement speed to the target for <span style='color:#0098DC;'>2</span> seconds",
+        "The next attack deals <span style='color:#0098DC;'>135%</span> physical damage and inflicts <span style='color:#0098DC;'>-35%</span> movement speed to the target for <span style='color:#0098DC;'>2.5</span> seconds",
+        "The next attack deals <span style='color:#0098DC;'>140%</span> physical damage and inflicts <span style='color:#0098DC;'>-40%</span> movement speed to the target for <span style='color:#0098DC;'>2.5</span> seconds",
+        "The next attack deals <span style='color:#0098DC;'>145%</span> physical damage and inflicts <span style='color:#0098DC;'>-45%</span> movement speed to the target for <span style='color:#0098DC;'>2.5</span> seconds",
+        "The next attack deals <span style='color:#0098DC;'>150%</span> physical damage and inflicts <span style='color:#0098DC;'>-50%</span> movement speed to the target for <span style='color:#0098DC;'>3</span> seconds",
+      },
       sp = { 5, 5, 5, 4, 4, 4, 4, 3, 3, 3 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-frostl-2.png",
-      name = "凝冰枪刃",
+      name = "Freezing Spear",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+5<span>/</span>20<span>/</span>35<span>/</span>50</span>；每次攻击使命中目标移动速度<span style='color:#0098DC;'>--30%<span>/</span>-36%<span>/</span>-42%<span>/</span>-50%</span>，并有<span style='color:#0098DC;'>15%<span>/</span>20%<span>/</span>25%<span>/</span>40%</span>的几率使其<span style='color:#0098DC;'>冻结（无法移动）1.5<span>/</span>1.5<span>/</span>1.5<span>/</span>2秒</span>",
+      description = {
+        "Attack speed +<span style='color:#0098DC;'>5</span>. Every attack inflicts <span style='color:#0098DC;'>-30%</span> movement speed and has <span style='color:#0098DC;'>15%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Attack speed +<span style='color:#0098DC;'>10</span>. Every attack inflicts <span style='color:#0098DC;'>-32%</span> movement speed and has <span style='color:#0098DC;'>15%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Attack speed +<span style='color:#0098DC;'>15</span>. Every attack inflicts <span style='color:#0098DC;'>-34%</span> movement speed and has <span style='color:#0098DC;'>15%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Attack speed +<span style='color:#0098DC;'>20</span>. Every attack inflicts <span style='color:#0098DC;'>-36%</span> movement speed and has <span style='color:#0098DC;'>20%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Attack speed +<span style='color:#0098DC;'>25</span>. Every attack inflicts <span style='color:#0098DC;'>-38%</span> movement speed and has <span style='color:#0098DC;'>20%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Attack speed +<span style='color:#0098DC;'>30</span>. Every attack inflicts <span style='color:#0098DC;'>-40%</span> movement speed and has <span style='color:#0098DC;'>20%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Attack speed +<span style='color:#0098DC;'>35</span>. Every attack inflicts <span style='color:#0098DC;'>-42%</span> movement speed and has <span style='color:#0098DC;'>25%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Attack speed +<span style='color:#0098DC;'>40</span>. Every attack inflicts <span style='color:#0098DC;'>-44%</span> movement speed and has <span style='color:#0098DC;'>30%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>2</span> seconds",
+        "Attack speed +<span style='color:#0098DC;'>45</span>. Every attack inflicts <span style='color:#0098DC;'>-46%</span> movement speed and has <span style='color:#0098DC;'>35%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>2</span> seconds",
+        "Attack speed +<span style='color:#0098DC;'>50</span>. Every attack inflicts <span style='color:#0098DC;'>-50%</span> movement speed and has <span style='color:#0098DC;'>40%</span> chance to freeze the target (unable to move) for <span style='color:#0098DC;'>2</span> seconds",
+      },
       sp = { 60, 59, 58, 57, 56, 55, 54, 53, 52, 50 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -300,18 +322,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Solitude",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, self mood recovery per hour +0.7"
     },
     {
-      name = "undefined",
+      name = "Combat Directive Recordings",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
   },
   meta = {

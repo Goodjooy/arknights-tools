@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-2.png",
-      name = "强力击·β型",
+      name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>170%<span>/</span>185%<span>/</span>200%<span>/</span>230%</span>",
+      description = {
+        "The next attack deals <span style='color:#0098DC;'>170%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>175%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>180%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>185%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>190%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>195%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>200%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>210%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>220%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>230%</span> damage",
+      },
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-savage-2.png",
-      name = "微差爆破",
+      name = "Millisecond Blasting",
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "对前方三格范围内至多<span style='color:#0098DC;'>3<span>/</span>4<span>/</span>4<span>/</span>5</span>个敌人造成相当于攻击力<span style='color:#0098DC;'>300%<span>/</span>330%<span>/</span>360%<span>/</span>400%</span>的物理伤害",
+      description = {
+        "Deal <span style='color:#0098DC;'>300%</span> physical damage to up to <span style='color:#0098DC;'>3</span> enemies within 3 tiles in front of the operator",
+        "Deal <span style='color:#0098DC;'>310%</span> physical damage to up to <span style='color:#0098DC;'>3</span> enemies within 3 tiles in front of the operator",
+        "Deal <span style='color:#0098DC;'>320%</span> physical damage to up to <span style='color:#0098DC;'>3</span> enemies within 3 tiles in front of the operator",
+        "Deal <span style='color:#0098DC;'>330%</span> physical damage to up to <span style='color:#0098DC;'>4</span> enemies within 3 tiles in front of the operator",
+        "Deal <span style='color:#0098DC;'>340%</span> physical damage to up to <span style='color:#0098DC;'>4</span> enemies within 3 tiles in front of the operator",
+        "Deal <span style='color:#0098DC;'>350%</span> physical damage to up to <span style='color:#0098DC;'>4</span> enemies within 3 tiles in front of the operator",
+        "Deal <span style='color:#0098DC;'>360%</span> physical damage to up to <span style='color:#0098DC;'>4</span> enemies within 3 tiles in front of the operator",
+        "Deal <span style='color:#0098DC;'>370%</span> physical damage to up to <span style='color:#0098DC;'>5</span> enemies within 3 tiles in front of the operator",
+        "Deal <span style='color:#0098DC;'>380%</span> physical damage to up to <span style='color:#0098DC;'>5</span> enemies within 3 tiles in front of the operator",
+        "Deal <span style='color:#0098DC;'>400%</span> physical damage to up to <span style='color:#0098DC;'>5</span> enemies within 3 tiles in front of the operator",
+      },
       sp = { 20, 20, 20, 20, 20, 20, 19, 19, 18, 17 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -311,18 +333,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Skill Theory",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing skill materials, increase the rate of by-products by 70%"
     },
     {
-      name = "undefined",
+      name = "Cooking",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite2",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.35 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.35"
     },
   },
   meta = {

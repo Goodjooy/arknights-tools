@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-yuki-1.png",
-      name = "敌飙",
+      name = "Whirlwind",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围<span style='color:#0098DC;'>+2<span>/</span>2<span>/</span>2<span>/</span>2格</span>",
+      description = {
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+        "Increase attack range by <span style='color:#0098DC;'>2</span> tiles",
+      },
       sp = { 32, 31, 30, 27, 26, 25, 22, 21, 20, 15 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-yuki-2.png",
-      name = "凝武",
+      name = "Condensed Weapon",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击变为投掷回旋的大飞镖，短时间内使命中目标的移动速度<span style='color:#0098DC;'>降低-22%<span>/</span>-25%<span>/</span>-28%<span>/</span>-35%</span>，并每秒受到相当于攻击力<span style='color:#0098DC;'>50%<span>/</span>60%<span>/</span>70%<span>/</span>80%</span>的<span style='color:#0098DC;'>法术伤害</span>",
+      description = {
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-22%</span> movement speed and dealing <span style='color:#0098DC;'>50%</span> magical damage per second for a short duration",
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-23%</span> movement speed and dealing <span style='color:#0098DC;'>50%</span> magical damage per second for a short duration",
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-24%</span> movement speed and dealing <span style='color:#0098DC;'>50%</span> magical damage per second for a short duration",
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-25%</span> movement speed and dealing <span style='color:#0098DC;'>60%</span> magical damage per second for a short duration",
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-26%</span> movement speed and dealing <span style='color:#0098DC;'>60%</span> magical damage per second for a short duration",
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-27%</span> movement speed and dealing <span style='color:#0098DC;'>60%</span> magical damage per second for a short duration",
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-28%</span> movement speed and dealing <span style='color:#0098DC;'>70%</span> magical damage per second for a short duration",
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-30%</span> movement speed and dealing <span style='color:#0098DC;'>70%</span> magical damage per second for a short duration",
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-32%</span> movement speed and dealing <span style='color:#0098DC;'>70%</span> magical damage per second for a short duration",
+        "Attacks with spinning darts, inflicting <span style='color:#0098DC;'>-35%</span> movement speed and dealing <span style='color:#0098DC;'>80%</span> magical damage per second for a short duration",
+      },
       sp = { 35, 34, 33, 32, 31, 30, 29, 28, 27, 25 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -300,18 +322,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Clue Collection·β",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +20%"
     },
     {
-      name = "undefined",
+      name = "Combat Directive Recordings",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
   },
   meta = {

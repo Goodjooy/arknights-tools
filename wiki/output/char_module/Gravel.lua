@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-gravel-1.png",
-      name = "影袭",
+      name = "Shadow Raid",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后防御力<span style='color:#0098DC;'>+200%<span>/</span>270%<span>/</span>340%<span>/</span>400%</span>，在<span style='color:#0098DC;'>6<span>/</span>7<span>/</span>8<span>/</span>12</span>秒内持续衰减",
+      description = {
+        "Defense power +<span style='color:#0098DC;'>200%</span> after deploying, effect weakens over <span style='color:#0098DC;'>6</span> seconds",
+        "Defense power +<span style='color:#0098DC;'>220%</span> after deploying, effect weakens over <span style='color:#0098DC;'>6</span> seconds",
+        "Defense power +<span style='color:#0098DC;'>240%</span> after deploying, effect weakens over <span style='color:#0098DC;'>6</span> seconds",
+        "Defense power +<span style='color:#0098DC;'>270%</span> after deploying, effect weakens over <span style='color:#0098DC;'>7</span> seconds",
+        "Defense power +<span style='color:#0098DC;'>290%</span> after deploying, effect weakens over <span style='color:#0098DC;'>7</span> seconds",
+        "Defense power +<span style='color:#0098DC;'>310%</span> after deploying, effect weakens over <span style='color:#0098DC;'>7</span> seconds",
+        "Defense power +<span style='color:#0098DC;'>340%</span> after deploying, effect weakens over <span style='color:#0098DC;'>8</span> seconds",
+        "Defense power +<span style='color:#0098DC;'>360%</span> after deploying, effect weakens over <span style='color:#0098DC;'>9</span> seconds",
+        "Defense power +<span style='color:#0098DC;'>380%</span> after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Defense power +<span style='color:#0098DC;'>400%</span> after deploying, effect weakens over <span style='color:#0098DC;'>12</span> seconds",
+      },
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-gravel-2.png",
-      name = "鼠群",
+      name = "Rat Pack",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "部署后获得可吸收相当于自己最大生命<span style='color:#0098DC;'>100%<span>/</span>140%<span>/</span>180%<span>/</span>250%</span>的护盾，该护盾会在<span style='color:#0098DC;'>10<span>/</span>10<span>/</span>10<span>/</span>10</span>秒内持续衰减",
+      description = {
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>100%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>110%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>120%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>140%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>150%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>160%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>180%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>200%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>220%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+        "Obtain a shield that absorbs damage equal to <span style='color:#0098DC;'>250%</span> of Max HP after deploying, effect weakens over <span style='color:#0098DC;'>10</span> seconds",
+      },
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
@@ -312,18 +334,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Focus·α",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 40%"
     },
     {
-      name = "undefined",
+      name = "Metal Crafts·β",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of precious metals by +35%"
     },
   },
   meta = {

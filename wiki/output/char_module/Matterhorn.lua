@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-yak-1.png",
-      name = "体能强化",
+      name = "Body Strengthening",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "生命上限<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>70%</span>，每秒恢复<span style='color:#0098DC;'>20<span>/</span>25<span>/</span>30<span>/</span>40</span>点生命",
+      description = {
+        "Max HP +<span style='color:#0098DC;'>20%</span>, recover <span style='color:#0098DC;'>20</span> HP every second",
+        "Max HP +<span style='color:#0098DC;'>23%</span>, recover <span style='color:#0098DC;'>20</span> HP every second",
+        "Max HP +<span style='color:#0098DC;'>26%</span>, recover <span style='color:#0098DC;'>20</span> HP every second",
+        "Max HP +<span style='color:#0098DC;'>30%</span>, recover <span style='color:#0098DC;'>25</span> HP every second",
+        "Max HP +<span style='color:#0098DC;'>33%</span>, recover <span style='color:#0098DC;'>25</span> HP every second",
+        "Max HP +<span style='color:#0098DC;'>36%</span>, recover <span style='color:#0098DC;'>25</span> HP every second",
+        "Max HP +<span style='color:#0098DC;'>40%</span>, recover <span style='color:#0098DC;'>30</span> HP every second",
+        "Max HP +<span style='color:#0098DC;'>50%</span>, recover <span style='color:#0098DC;'>33</span> HP every second",
+        "Max HP +<span style='color:#0098DC;'>60%</span>, recover <span style='color:#0098DC;'>36</span> HP every second",
+        "Max HP +<span style='color:#0098DC;'>70%</span>, recover <span style='color:#0098DC;'>40</span> HP every second",
+      },
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 25, 25, 25, 27, 27, 27, 27, 28, 29, 30 },
     },
     {
       icon = "skchr-yak-2.png",
-      name = "抗寒体质",
+      name = "Cold Resistance",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "生命上限<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>50%</span>，防御力<span style='color:#0098DC;'>+10%<span>/</span>10%<span>/</span>15%<span>/</span>30%</span>，法术抗性<span style='color:#0098DC;'>+50%<span>/</span>60%<span>/</span>70%<span>/</span>100%</span>",
+      description = {
+        "Max HP +<span style='color:#0098DC;'>20%</span>, Defense power +<span style='color:#0098DC;'>10%</span>, Magic resistance +<span style='color:#0098DC;'>50%</span>",
+        "Max HP +<span style='color:#0098DC;'>23%</span>, Defense power +<span style='color:#0098DC;'>10%</span>, Magic resistance +<span style='color:#0098DC;'>53%</span>",
+        "Max HP +<span style='color:#0098DC;'>26%</span>, Defense power +<span style='color:#0098DC;'>10%</span>, Magic resistance +<span style='color:#0098DC;'>56%</span>",
+        "Max HP +<span style='color:#0098DC;'>30%</span>, Defense power +<span style='color:#0098DC;'>10%</span>, Magic resistance +<span style='color:#0098DC;'>60%</span>",
+        "Max HP +<span style='color:#0098DC;'>33%</span>, Defense power +<span style='color:#0098DC;'>10%</span>, Magic resistance +<span style='color:#0098DC;'>63%</span>",
+        "Max HP +<span style='color:#0098DC;'>36%</span>, Defense power +<span style='color:#0098DC;'>10%</span>, Magic resistance +<span style='color:#0098DC;'>66%</span>",
+        "Max HP +<span style='color:#0098DC;'>40%</span>, Defense power +<span style='color:#0098DC;'>15%</span>, Magic resistance +<span style='color:#0098DC;'>70%</span>",
+        "Max HP +<span style='color:#0098DC;'>43%</span>, Defense power +<span style='color:#0098DC;'>20%</span>, Magic resistance +<span style='color:#0098DC;'>80%</span>",
+        "Max HP +<span style='color:#0098DC;'>46%</span>, Defense power +<span style='color:#0098DC;'>25%</span>, Magic resistance +<span style='color:#0098DC;'>90%</span>",
+        "Max HP +<span style='color:#0098DC;'>50%</span>, Defense power +<span style='color:#0098DC;'>30%</span>, Magic resistance +<span style='color:#0098DC;'>100%</span>",
+      },
       sp = { 50, 49, 48, 47, 46, 45, 44, 40, 36, 32 },
       duration = { 25, 25, 25, 27, 27, 27, 27, 28, 29, 30 },
     },
@@ -306,18 +328,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Karlan Trading·α",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
     },
     {
-      name = "undefined",
+      name = "Defender Specialization·β",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Training Station, increase the skill training speed of Defender operatives by +50%"
     },
   },
   meta = {

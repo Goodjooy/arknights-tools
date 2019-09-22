@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-sora-1.png",
-      name = "睡眠之歌",
+      name = "Song of Slumber",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围<span style='color:#0098DC;'>扩大</span>，攻击范围内所有敌人全部进入<span style='color:#0098DC;'>睡眠</span><span style='color:#F49800;'>（眩晕+无敌）</span>，同时特性效果<span style='color:#0098DC;'>提高至45%<span>/</span>55%<span>/</span>70%<span>/</span>100%</span>",
+      description = {
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>45%</span>",
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>45%</span>",
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>50%</span>",
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>55%</span>",
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>60%</span>",
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>65%</span>",
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>70%</span>",
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>80%</span>",
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>90%</span>",
+        "Increase attack range, all enemies within attack range enter sleep status (stun+invulnerable). Additionally, trait effect increases to <span style='color:#0098DC;'>100%</span>",
+      },
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
     },
     {
       icon = "skchr-sora-2.png",
-      name = "战斗之歌",
+      name = "Song of Battle",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围内所有其他友方单位的<span style='color:#0098DC;'>攻击力</span>额外加上空自身攻击力的<span style='color:#0098DC;'>70%<span>/</span>80%<span>/</span>90%<span>/</span>100%</span>",
+      description = {
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>70%</span> of Sora's Attack power",
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>70%</span> of Sora's Attack power",
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>70%</span> of Sora's Attack power",
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>80%</span> of Sora's Attack power",
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>80%</span> of Sora's Attack power",
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>80%</span> of Sora's Attack power",
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>90%</span> of Sora's Attack power",
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>90%</span> of Sora's Attack power",
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>90%</span> of Sora's Attack power",
+        "All allies within attack range gain Attack power equal to <span style='color:#0098DC;'>100%</span> of Sora's Attack power",
+      },
       sp = { 45, 45, 45, 45, 45, 45, 45, 45, 45, 45 },
       duration = { 10, 11, 12, 15, 16, 17, 20, 23, 26, 30 },
     },
@@ -311,18 +333,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Idol",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
     },
     {
-      name = "undefined",
+      name = "Penguin Logistics·β",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite2",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
   },
   meta = {

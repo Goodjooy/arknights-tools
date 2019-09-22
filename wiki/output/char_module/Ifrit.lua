@@ -152,31 +152,64 @@ return {
   skills = {
     {
       icon = "skchr-ifrit-1.png",
-      name = "狂热",
+      name = "Fanaticism",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+10%<span>/</span>10%<span>/</span>20%<span>/</span>20%</span>，攻击速度<span style='color:#0098DC;'>+45<span>/</span>58<span>/</span>67<span>/</span>80</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>10%</span>, Attack speed +<span style='color:#0098DC;'>45</span>",
+        "Attack power +<span style='color:#0098DC;'>10%</span>, Attack speed +<span style='color:#0098DC;'>48</span>",
+        "Attack power +<span style='color:#0098DC;'>10%</span>, Attack speed +<span style='color:#0098DC;'>50</span>",
+        "Attack power +<span style='color:#0098DC;'>10%</span>, Attack speed +<span style='color:#0098DC;'>58</span>",
+        "Attack power +<span style='color:#0098DC;'>10%</span>, Attack speed +<span style='color:#0098DC;'>61</span>",
+        "Attack power +<span style='color:#0098DC;'>10%</span>, Attack speed +<span style='color:#0098DC;'>64</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>, Attack speed +<span style='color:#0098DC;'>67</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>, Attack speed +<span style='color:#0098DC;'>70</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>, Attack speed +<span style='color:#0098DC;'>75</span>",
+        "Attack power +<span style='color:#0098DC;'>20%</span>, Attack speed +<span style='color:#0098DC;'>80</span>",
+      },
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
     {
       icon = "skchr-ifrit-2.png",
-      name = "炎爆",
+      name = "Sunburst",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击造成相当于攻击力<span style='color:#0098DC;'>130%<span>/</span>160%<span>/</span>190%<span>/</span>250%</span>的法术伤害，命中目标在<span style='color:#0098DC;'>3</span>秒内防御力<span style='color:#0098DC;'>--100<span>/</span>-100<span>/</span>-200<span>/</span>-300</span>并持续受到灼烧伤害\n<span style='color:#F49800;'>可充能2<span>/</span>2<span>/</span>3<span>/</span>3次</span>",
+      description = {
+        "The next attack power deals <span style='color:#0098DC;'>130%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-100</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack power deals <span style='color:#0098DC;'>140%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-100</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack power deals <span style='color:#0098DC;'>150%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-100</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack power deals <span style='color:#0098DC;'>160%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-100</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack power deals <span style='color:#0098DC;'>170%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-100</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack power deals <span style='color:#0098DC;'>180%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-100</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack power deals <span style='color:#0098DC;'>190%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-200</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next attack power deals <span style='color:#0098DC;'>215%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-200</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next attack power deals <span style='color:#0098DC;'>225%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-200</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next attack power deals <span style='color:#0098DC;'>250%</span> magical damage. Additionally, inflict <span style='color:#0098DC;'>-300</span> defense and burn the target for 3 seconds. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+      },
       sp = { 9, 9, 9, 8, 8, 8, 8, 7, 7, 7 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-ifrit-3.png",
-      name = "灼地",
+      name = "Burning Ground",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "对攻击范围内的敌人造成每秒相当于攻击力<span style='color:#0098DC;'>75%<span>/</span>90%<span>/</span>110%<span>/</span>140%</span>的法术伤害，命中目标的法术抗性<span style='color:#0098DC;'>--7<span>/</span>-7<span>/</span>-10<span>/</span>-20</span>\n<span style='color:#F49800;'>自己每秒损失最大生命值的2%<span>/</span>2%<span>/</span>2%<span>/</span>2%</span>",
+      description = {
+        "Deal <span style='color:#0098DC;'>75%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-7</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+        "Deal <span style='color:#0098DC;'>80%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-7</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+        "Deal <span style='color:#0098DC;'>85%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-7</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+        "Deal <span style='color:#0098DC;'>90%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-7</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+        "Deal <span style='color:#0098DC;'>95%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-7</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+        "Deal <span style='color:#0098DC;'>100%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-7</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+        "Deal <span style='color:#0098DC;'>110%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-10</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+        "Deal <span style='color:#0098DC;'>120%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-13</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+        "Deal <span style='color:#0098DC;'>130%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-16</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+        "Deal <span style='color:#0098DC;'>140%</span> magical damage to enemies in attack range every second and inflict <span style='color:#0098DC;'>-20</span> magic resistance. However, Ifrit loses <span style='color:#F49800;'>2%</span> of her Max HP every second",
+      },
       sp = { 40, 39, 38, 36, 35, 34, 31, 30, 29, 28 },
       duration = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
     },
@@ -338,19 +371,19 @@ return {
       }
     },
     {
-      name = "Mental Dissolution",
+      name = "Rhine Circuitry",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "All enemies within attack range get Magic resistance -15%",
+          description = "Recover an additional 2 SP every 6 seconds",
         },
         {
           elite = 2,
           level = 1,
           potential = 5,
-          description = "All enemies within attack range get Magic resistance -19% (+4%)",
+          description = "Recover an additional 2 SP every 5.5 (-0.5) seconds",
         },
       }
     },
@@ -372,11 +405,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Thermal Energy·α",
       badge = "power",
       facility = "Power Plant",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
   },
   meta = {
@@ -386,8 +419,8 @@ return {
   profile = {
     records = {
       resume = "伊芙利特，前莱茵生命医疗对象，重度感染者。拥有极高的源石适应性，伴随有多发性点火现象。进入莱茵生命前的履历缺失。<br>现于罗德岛接受治疗，由医疗干员赫默担任监护与担保人。",
-      archive1 = "干员伊芙利特是一位相对难以记述的干员。关于她的资料有很大部分都是缺失状态。<br>目前已知的是：在转入罗德岛接受治疗之前，伊芙利特已于莱茵生命接受过一段长时间的治疗。从伊芙利特的目前所表现出的病症看来，至少，这并不是成功的治疗。<br>作为罗德岛医疗组较为重视的患者之一，伊芙利特的主治医师由赫默亲自担任，这与目前可公开查阅的，两人在莱茵生命时期的资料相一致。即使进入罗德岛，两人依然维持着在莱茵生命时期就已形成的紧密联系。<br>性格方面，伊芙利特的心智相对显得......低幼。她相当叛逆，冲动，大多数时候都表现得过于自信，甚至自我膨胀。她是一个想到做什么，就会立刻做出相应行动的人，而且未在乎过自己的行为会引发怎样的风险。<br>但另一方面，支撑她、使她能这样毫无顾忌的，是她杰出的源石技艺天赋。甚至为了配合这份天赋，莱茵生命为她特别定制了一套完整的火焰释放类法杖设备。这份“厚礼”驱使着伊芙利特开始更加高调地展示自己的能力。<br>总而言之，从日常观察来看，伊芙利特是一名极易陷入情绪化，对善恶暂时缺乏一定的分辨能力，心理年龄也较为幼小的少女。而在例如战场这样的极端环境下，她性格中的本能一面会不停驱使她不顾一切地击退、甚至歼灭一切侵犯她的领域的敌人。因此，即使她没有意识到这一点，她依然保护了许多人。",
-      archive2 = "以现有的可公开查阅的资料可以得知，伊芙利特属于萨卡兹。但伊芙利特多边形结构的角与尾巴与普通的萨卡兹之间的差别相对较大。即使目前对于萨卡兹的研究尚未能完整总结其族群的种族特征，至少与罗德岛内诸多萨卡兹的特征相对照，伊芙利特的萨卡兹成分也显得尤为独特。<br>萨卡兹族群在源石技艺上均保有一定程度的天赋，而伊芙利特的天赋则远超大部分族人，这在萨卡兹内部实际上并不常见。<br>基于这些观察结果进行推测，伊芙利特的种族特征，极有可能已被感染的矿石病引发了基于表征层面的改变，而内循环系统内的源石也在干扰医学检测数据的准确性。这些改变基本是不可逆的，而且意外的为医疗部的调查带来了一定困难：他们无法确定伊芙利特的萨卡兹类型。<br>此外，伊芙利特的病程记录显示，伊芙利特患有长期慢性肌肉疼痛，严重时甚至会偶发幻觉。她粗暴的态度也许源于疼痛发作时引发的焦躁感。<br>综上所述，干员伊芙利特即使在罗德岛中，亦属于需要关注的对象。与伊芙利特进行接触的任何人员，均需在交流之前对该名干员的所有基础信息进行充分而切实的了解。<br>【权限记录】<br>之所以这样记录，是因为伊芙利特的生理结构......已经变得非常奇怪了。<br>她是萨卡兹，但现在是否仍是萨卡兹，我不能确定......我也没法很好的总结出这份突兀的感觉究竟是什么......",
+      archive1 = "干员伊芙利特是一位相对难以记述的干员。关于她的资料有很大部分都是缺失状态。<br>目前已知的是：在转入罗德岛接受治疗之前，伊芙利特已于莱茵生命接受过一段长时间的治疗。从伊芙利特的目前所表现出的病症看来，至少，这并不是成功的治疗。<br>作为罗德岛医疗组较为重视的患者之一，伊芙利特的主治医师由赫默亲自担任，这与目前可公开查阅的，两人在莱茵生命时期的资料相一致。即使进入罗德岛，两人依然维持着在莱茵生命时期就已形成的紧密联系。<br>性格方面，伊芙利特的心智相对显得......低幼。她的行为表现与6-10岁左右的孩童无异，莽撞、叛逆、单纯，以及那种不谙世事的孩子所特有的，盲目自大的态度。她是一个少不更事、随心所欲的行动派，而且理所当然似的，从未考虑过后果。<br>但另一方面，支撑她、使她能这样毫无顾忌的，是她杰出的源石技艺天赋。甚至为了配合这份天赋，莱茵生命为她特别定制了一套完整的火焰释放类法杖设备。这份“厚礼”驱使着伊芙利特开始更加高调地展示自己的能力。<br>总而言之，从日常观察来看，伊芙利特是一名极易陷入情绪化，对善恶暂时缺乏一定的分辨能力，心理年龄也较为幼小的少女。而在例如战场这样的极端环境下，她性格中的本能一面会不停驱使她不顾一切地击退、甚至歼灭一切侵犯她的领域的敌人。因此，即使她没有意识到这一点，她依然保护了许多人。",
+      archive2 = "以现有的可公开查阅的资料可以得知，伊芙利特属于萨卡兹。但伊芙利特多边形结构的角与尾巴与普通的萨卡兹之间的差别相对较大。即使目前对于萨卡兹的研究尚未能完整总结其族群的种族特征，至少与罗德岛内诸多萨卡兹的特征相对照，伊芙利特的萨卡兹成分也显得尤为独特。<br>萨卡兹族群在源石技艺上均保有一定程度的天赋，而伊芙利特的天赋则远超大部分族人，这在萨卡兹内部实际上并不常见。<br>基于这些观察结果进行推测，伊芙利特的种族特征，极有可能已被感染的矿石病引发了基于表征层面的改变，而内循环系统内的源石也在干扰医学检测数据的准确性。这些改变基本是不可逆的，而且意外的为医疗部的调查带来了一定困难：他们无法确定伊芙利特的萨卡兹类型。<br>此外，伊芙利特的病程记录显示，伊芙利特患有某种长期的神经阻滞性疼痛，严重时甚至会出现幻觉。在记录中，幻觉被描述为巨大的痛苦实体，或是有且不仅限于焦黑的尸体或缠火的动物，亲密的人际关系实体陷入火海并遭受折磨，等等。任何现有的机械与医疗手段都无法确认其病因，这种如影随形的持久折磨，或许正是她暴躁性格的由来。<br>综上所述，干员伊芙利特即使在罗德岛中，亦属于需要关注的对象。与伊芙利特进行接触的任何人员，均需在交流之前对该名干员的所有基础信息进行充分而切实的了解。<br>【权限记录】<br>之所以这样记录，是因为伊芙利特的生理结构......已经变得非常奇怪了。<br>她是萨卡兹，但现在是否仍是萨卡兹，我不能确定......我也没法很好的总结出这份突兀的感觉究竟是什么......",
       archive3 = "伊芙利特的火焰放射器<br>制造商：未公开<br>生产地：未公开<br>产品编号：W-0502<br>标识码：莱茵生命-生命科学部-RHSKWD117D3983CIR<br>产品说明：<br>本品以经压缩液化过程的源石做为燃料。致病性：强。<br>使用方式：经源石技艺配合，以多发性点火现象引燃。<br>喷射距离：15米。<br>此设备内含大能量物质，为易燃品，易爆品，任何未经认证许可者均不得以此设备进行实验。违者将以交由安全防卫科进行例行处置。<br>【权限记录】<br>伊芙利特所使用的火焰放射器......绝对是莱茵生命的杰作。真是该死的玩意儿......<br>你绝对猜不到，这东西里面压缩的液化源石气体，只要些许立方就能让一栋大楼的人全都感染矿石病！<br>......总之，基础建设部那边已经给这东西“排毒”过了。至于怎么做的，你也没必要知道。<br>真是个可怜的孩子......给她这种杀人玩具的，究竟是什么人？<br>真想狠狠地揍那个人一顿......！",
       archive4 = "一段争吵：<br>“我已经学会控制自己的力量了，我能向她证明的！我现在就去！<br>塞雷娅她看到现在的我，一定会非常惊讶的！”<br>“你不能——要知道——”<br>“我不是有在好好地帮助博士了吗！<br>我能做很多事了，对吧！<br>我、我知道，我的力量其实可以做到——<br>博士这样和我说——”<br>“......<br>伊芙利特。<br>回房间去，现在......<br>......好吗？拜托了。”<br>“我——<br>......”<br>——6月21日，于罗德岛医疗部，赫默医生的办公室。<br>【权限记录】<br>博士......您现在看到的这段留言，我已经设置了阅读权限，为了......只让您一个人看到。<br>伊芙利特......她......<br>那孩子，其实很喜欢待在您身边。虽然，她只是一直在胡闹，但......<br>抱歉，博士。我知道，伊芙利特有时候，还是会做出出格的事。<br>但那个孩子，在您身边，在您的指导下，已经学会了很多东西。<br>她正在尝试让自己变得更好。因为她察觉到了您的期待......您在期待着她改变，对吗？<br>您对待她的方式，让她第一次觉得自己和别人是一样的。<br>她不再是一个被强行与其他人分隔开的孩子了。<br>她......她学会笑了。不是那种为了恐吓他人的，可怕的笑脸。<br>那是我第一次，见到她对着我和......之外的人，露出了笑脸。<br>她渐渐习惯了这样的生活......很少能看到，她会这样的依赖一个人，即使她自己还没有意识到这一点。<br>......<br>博士，谢谢您。也......拜托您。<br>帮帮那个孩子。<br>让她......未来的人生中，获得一些快乐吧。<br>哪怕只有一点......",
       token = "“那个，之前......之前在你办公室点火，不小心烧掉了你的书本，真是对不起啦。<br>还有，还有那个，把你制服搞出好几个洞，也......也、也很对，对不起......<br>道、道歉是要这么做吧？我做的还算正确吧？<br>呃呃，唔......行了，我、我回房间了！反正，在我控制好自己之前，我就不来找你了！”<br>——于博士办公室。<br>办公桌上留下了伊芙利特歪歪扭扭的书写草纸，一根折断的钢笔，一本烧焦的书，以及伊芙利特用于赔礼，留在办公桌上的糖果。",

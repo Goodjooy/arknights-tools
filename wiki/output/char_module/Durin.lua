@@ -97,11 +97,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Lazy",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, self mood recovery per hour -0.1 and increase mood recovery of all operators within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {

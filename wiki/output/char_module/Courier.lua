@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-2.png",
-      name = "冲锋号令·β型",
+      name = "Assault Order·Type β",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>9<span>/</span>9<span>/</span>9<span>/</span>9</span>点部署费用",
+      description = {
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>9</span> cost",
+      },
       sp = { 39, 38, 37, 36, 35, 34, 33, 32, 31, 30 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-blackd-2.png",
-      name = "冲锋号令·防御",
+      name = "Assault Order·Defend",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>{blackd_s_2[once].cost}</span>点部署费用\n技能持续期间内逐渐获得<span style='color:#0098DC;'>{blackd_s_2[period].trig_cnt}</span>点部署费用，防御力<span style='color:#0098DC;'>+{blackd_s_2[period].def:0%}</span>",
+      description = {
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+        "Immediately obtain {{blackd_s_2[once].cost}:.0f} cost. Gradually obtain {{blackd_s_2[period].trig_cnt}:.0f} cost while the skill is active, additionally Defense power +{{blackd_s_2[period].def}:.0%}",
+      },
       sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Karlan Trading·α",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +1"
     },
     {
-      name = "undefined",
+      name = "Messenger",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Karlan Trading"
     },
   },
   meta = {

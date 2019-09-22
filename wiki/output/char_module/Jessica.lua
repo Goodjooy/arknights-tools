@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-powerstrike-2.png",
-      name = "强力击·β型",
+      name = "Powerful Strike·Type β",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击的攻击力提高至<span style='color:#0098DC;'>170%<span>/</span>185%<span>/</span>200%<span>/</span>230%</span>",
+      description = {
+        "The next attack deals <span style='color:#0098DC;'>170%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>175%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>180%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>185%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>190%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>195%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>200%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>210%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>220%</span> damage",
+        "The next attack deals <span style='color:#0098DC;'>230%</span> damage",
+      },
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-jesica-2.png",
-      name = "掩护烟幕",
+      name = "Cover Smoke",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>，获得<span style='color:#0098DC;'>75%<span>/</span>75%<span>/</span>75%<span>/</span>75%</span>的物理和法术闪避",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>20%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+        "Attack power +<span style='color:#0098DC;'>25%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+        "Attack power +<span style='color:#0098DC;'>30%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+        "Attack power +<span style='color:#0098DC;'>35%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+        "Attack power +<span style='color:#0098DC;'>40%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+        "Attack power +<span style='color:#0098DC;'>45%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+        "Attack power +<span style='color:#0098DC;'>50%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+        "Attack power +<span style='color:#0098DC;'>60%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+        "Attack power +<span style='color:#0098DC;'>70%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+        "Attack power +<span style='color:#0098DC;'>80%</span>, Obtain <span style='color:#0098DC;'>75%</span> physical and magic evasion",
+      },
       sp = { 50, 49, 48, 47, 46, 45, 44, 43, 42, 40 },
       duration = { 20, 20, 20, 21, 21, 21, 22, 23, 24, 25 },
     },
@@ -306,18 +328,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Standardization·β",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +25%"
     },
     {
-      name = "undefined",
+      name = "Liaison",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +10% and it becomes easier to obtain clues from Blacksteel"
     },
   },
   meta = {

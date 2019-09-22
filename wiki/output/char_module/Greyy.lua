@@ -156,7 +156,18 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+15<span>/</span>30<span>/</span>45<span>/</span>75</span>",
+      description = {
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>",
+      },
       sp = { 45, 45, 45, 40, 40, 40, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -166,7 +177,18 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击速度<span style='color:#0098DC;'>+35<span>/</span>50<span>/</span>65<span>/</span>80</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>1.5<span>/</span>1.6<span>/</span>1.7<span>/</span>2倍</span>",
+      description = {
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+        "攻击速度<span style='color:#0098DC;'>+{attack_speed}</span>，天赋<span style='color:#0098DC;'>停顿</span>的持续时间提升至<span style='color:#0098DC;'>{talent_scale:0.0}倍</span>",
+      },
       sp = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -272,19 +294,19 @@ return {
   },
   talents = {
     {
-      name = "静电场",
+      name = "Static Field",
       levels = {
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "攻击时对攻击目标造成0.4秒的停顿",
+          description = "Attacks inflict 0.4 seconds of stop effect to enemies",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "攻击时对攻击目标造成0.6秒的停顿",
+          description = "Attacks inflict 0.6 seconds of stop effect to enemies",
         },
       }
     },
@@ -306,18 +328,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "静电场",
+      name = "Static Field",
       badge = "power",
       facility = "Power Plant",
       unlockIcon = "elite0",
-      description = "进驻发电站时，无人机每小时恢复速度<span style='color:#0098DC;'>+20%</span>"
+      description = "When stationed at a Power Station, drone recovery per hour +20%"
     },
     {
-      name = "能工巧匠",
+      name = "Skilled Craftsman",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "进驻加工站加工<span style='color:#00B0FF;'>任意类材料</span>时，副产品的产出概率提升<span style='color:#0098DC;'>50%</span>"
+      description = "When stationed at the Synthesis Station and producing any kind of material, increase the rate of by-products by 50%"
     },
   },
   meta = {
@@ -339,7 +361,7 @@ return {
       origin = "Bolívar",
       birthday = "June 6",
       race = "Perro",
-      height = "1.63m",
+      height = "163cm",
     },
     physical = {
       strength = "Below Standard",
@@ -365,7 +387,7 @@ return {
     cn008 = "呼——咦？博士......？啊对不起博士我没有在偷睡！我、我只是......咦，这里是医务室？",
     cn009 = "博士，又要出门了吗？......嗯，我知道了。我会好好待在这里的......那个，博士，要早点回来哦......",
     cn010 = "咿......！唔啊啊，静电好麻烦......",
-    cn011 = "您、你好，我是格雷伊，电能相关的工作，还算擅长......那个，谢、谢谢您愿意收留我......！",
+    cn011 = "您、您好，我是格雷伊，电能相关的工作，还算擅长......那个，谢、谢谢您愿意收留我......！",
     cn012 = "这、这里的画面，暂停一下，可以吗？我、我记一下笔记......",
     cn013 = "晋升吗？知道了，我这就去通知大家——欸？是、是安排我晋升......？咦？",
     cn014 = "欸嘿嘿，博士，就让我为您照亮前进的道路吧！唔，好、好像说了些大话......？就算是大话，也是很认真的在说哦......！",

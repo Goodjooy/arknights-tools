@@ -98,7 +98,15 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+5%<span>/</span>20%<span>/</span>35%<span>/</span></span>，普通攻击的伤害类型变为<span style='color:#0098DC;'>法术</span>",
+      description = {
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，普通攻击的伤害类型变为<span style='color:#0098DC;'>法术</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，普通攻击的伤害类型变为<span style='color:#0098DC;'>法术</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，普通攻击的伤害类型变为<span style='color:#0098DC;'>法术</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，普通攻击的伤害类型变为<span style='color:#0098DC;'>法术</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，普通攻击的伤害类型变为<span style='color:#0098DC;'>法术</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，普通攻击的伤害类型变为<span style='color:#0098DC;'>法术</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，普通攻击的伤害类型变为<span style='color:#0098DC;'>法术</span>",
+      },
       sp = { 80, 79, 78, 75, 74, 73, 70 },
       duration = { 30, 31, 32, 35, 36, 37, 40 },
     },
@@ -250,18 +258,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Communication",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30% and mood reduction per hour -0.25"
     },
     {
-      name = "undefined",
+      name = "Originium Crafts·α",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of originium products by +30%"
     },
   },
   meta = {

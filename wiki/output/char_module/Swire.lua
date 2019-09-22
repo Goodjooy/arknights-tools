@@ -156,7 +156,18 @@ return {
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "天赋生效范围<span style='color:#0098DC;'>大幅度扩大</span>，效果提升至<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>2</span>倍",
+      description = {
+        "天赋生效范围<span style='color:#0098DC;'>扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "天赋生效范围<span style='color:#0098DC;'>扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "天赋生效范围<span style='color:#0098DC;'>扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "天赋生效范围<span style='color:#0098DC;'>扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "天赋生效范围<span style='color:#0098DC;'>扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "天赋生效范围<span style='color:#0098DC;'>扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "天赋生效范围<span style='color:#0098DC;'>大幅度扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "天赋生效范围<span style='color:#0098DC;'>大幅度扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "天赋生效范围<span style='color:#0098DC;'>大幅度扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "天赋生效范围<span style='color:#0098DC;'>大幅度扩大</span>，效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+      },
       sp = { 60, 59, 58, 55, 54, 53, 50, 47, 44, 40 },
       duration = { 15, 17, 19, 21, 23, 25, 27, 29, 31, 35 },
     },
@@ -166,7 +177,18 @@ return {
       recharge = "Charge On Attack",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+30%<span>/</span>40%<span>/</span>50%<span>/</span>80%</span>，天赋效果提升至<span style='color:#0098DC;'>2.1<span>/</span>2.4<span>/</span>2.7<span>/</span>3</span>倍",
+      description = {
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋效果提升至<span style='color:#0098DC;'>{talent_scale}</span>倍",
+      },
       sp = { 60, 59, 58, 55, 54, 53, 50, 49, 48, 45 },
       duration = { 15, 15, 15, 18, 18, 18, 21, 23, 26, 30 },
     },
@@ -277,43 +299,43 @@ return {
   },
   talents = {
     {
-      name = "近距离作战指导",
+      name = "Close-range Combat Guidance",
       levels = {
         {
           elite = 0,
           level = 1,
           potential = 0,
-          description = "在场时周围8格内的近战友方单位攻击力+3%",
+          description = "When deployed, melee operatives in the surrounding 8 tiles gain +3% Attack",
         },
         {
           elite = 0,
           level = 1,
           potential = 4,
-          description = "在场时周围8格内的近战友方单位攻击力+5%<@ba.talpu>（+2%）</>",
+          description = "When deployed, melee operatives in the surrounding 8 tiles gain +5% (+2%) Attack",
         },
         {
           elite = 1,
           level = 1,
           potential = 0,
-          description = "在场时周围8格内的近战友方单位攻击力+6%",
+          description = "When deployed, melee operatives in the surrounding 8 tiles gain +6% Attack",
         },
         {
           elite = 1,
           level = 1,
           potential = 4,
-          description = "在场时周围8格内的近战友方单位攻击力+8%<@ba.talpu>（+2%）</>",
+          description = "When deployed, melee operatives in the surrounding 8 tiles gain +8% (+2%) Attack",
         },
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "在场时周围8格内的近战友方单位攻击力+10%",
+          description = "When deployed, melee operatives in the surrounding 8 tiles gain +10% Attack",
         },
         {
           elite = 2,
           level = 1,
           potential = 4,
-          description = "在场时周围8格内的近战友方单位攻击力+12%<@ba.talpu>（+2%）</>",
+          description = "When deployed, melee operatives in the surrounding 8 tiles gain +12% (+2%) Attack",
         },
       }
     },
@@ -335,18 +357,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "大小姐",
+      name = "Little Missy",
       badge = "riicqh",
       facility = "Control Center",
       unlockIcon = "elite0",
-      description = "进驻控制中枢时，所有贸易站订单效率<span style='color:#0098DC;'>+7%</span>（同种效果取最高）"
+      description = "When stationed at the Command Center, order acquisition efficiency of all Trade Stations +7% (Only highest effect becomes active)"
     },
     {
-      name = "教官",
+      name = "Instructor",
       badge = "trading",
       facility = "Training",
       unlockIcon = "elite2",
-      description = "进驻训练室协助位时，干员的专精技能训练速度<span style='color:#0098DC;'>+25%</span>"
+      description = "When stationed at the Training Station, operative skill training speed +25%"
     },
   },
   meta = {

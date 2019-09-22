@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-slchan-1.png",
-      name = "锁链勾爪",
+      name = "Chain Hook",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击会将目标<span style='color:#0098DC;'>较大力地</span>拖拽至面前，并对其造成相当于攻击力<span style='color:#0098DC;'>115%<span>/</span>125%<span>/</span>135%<span>/</span>180%</span>的<span style='color:#0098DC;'>法术伤害</span>",
+      description = {
+        "The next attack will pull the enemy towards self with small force, dealing <span style='color:#0098DC;'>115%</span> magical damage",
+        "The next attack will pull the enemy towards self with small force, dealing <span style='color:#0098DC;'>118%</span> magical damage",
+        "The next attack will pull the enemy towards self with small force, dealing <span style='color:#0098DC;'>120%</span> magical damage",
+        "The next attack will pull the enemy towards self with medium force, dealing <span style='color:#0098DC;'>125%</span> magical damage",
+        "The next attack will pull the enemy towards self with medium force, dealing <span style='color:#0098DC;'>128%</span> magical damage",
+        "The next attack will pull the enemy towards self with medium force, dealing <span style='color:#0098DC;'>130%</span> magical damage",
+        "The next attack will pull the enemy towards self with medium force, dealing <span style='color:#0098DC;'>135%</span> magical damage",
+        "The next attack will pull the enemy towards self with medium force, dealing <span style='color:#0098DC;'>150%</span> magical damage",
+        "The next attack will pull the enemy towards self with medium force, dealing <span style='color:#0098DC;'>165%</span> magical damage",
+        "The next attack will pull the enemy towards self with large force, dealing <span style='color:#0098DC;'>180%</span> magical damage",
+      },
       sp = { 7, 7, 7, 6, 6, 6, 5, 5, 5, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-slchan-2.png",
-      name = "束缚链",
+      name = "Binding Chain",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "立即将前方大范围内至多<span style='color:#0098DC;'>2<span>/</span>2<span>/</span>2<span>/</span>3</span>个目标<span style='color:#0098DC;'>较大力地</span>拖拽至面前，对其造成相当于自己攻击力<span style='color:#0098DC;'>130%<span>/</span>150%<span>/</span>170%<span>/</span>200%</span>的<span style='color:#0098DC;'>无视防御与法术抗性</span>的伤害，并使其晕眩<span style='color:#0098DC;'>1.5<span>/</span>1.5<span>/</span>1.5<span>/</span>3</span>秒",
+      description = {
+        "Immediately pull up to <span style='color:#0098DC;'>2</span> enemies from a large area ahead towards self with small force, dealing <span style='color:#0098DC;'>130%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately pull up to <span style='color:#0098DC;'>2</span> enemies from a large area ahead towards self with small force, dealing <span style='color:#0098DC;'>135%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately pull up to <span style='color:#0098DC;'>2</span> enemies from a large area ahead towards self with small force, dealing <span style='color:#0098DC;'>140%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately pull up to <span style='color:#0098DC;'>2</span> enemies from a large area ahead towards self with medium force, dealing <span style='color:#0098DC;'>150%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately pull up to <span style='color:#0098DC;'>2</span> enemies from a large area ahead towards self with medium force, dealing <span style='color:#0098DC;'>155%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately pull up to <span style='color:#0098DC;'>2</span> enemies from a large area ahead towards self with medium force, dealing <span style='color:#0098DC;'>160%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately pull up to <span style='color:#0098DC;'>2</span> enemies from a large area ahead towards self with medium force, dealing <span style='color:#0098DC;'>170%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>1.5</span> seconds",
+        "Immediately pull up to <span style='color:#0098DC;'>3</span> enemies from a large area ahead towards self with medium force, dealing <span style='color:#0098DC;'>180%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>2</span> seconds",
+        "Immediately pull up to <span style='color:#0098DC;'>3</span> enemies from a large area ahead towards self with medium force, dealing <span style='color:#0098DC;'>190%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>2.5</span> seconds",
+        "Immediately pull up to <span style='color:#0098DC;'>3</span> enemies from a large area ahead towards self with large force, dealing <span style='color:#0098DC;'>200%</span> damage that ignores defense and magic resistance and stuns them for <span style='color:#0098DC;'>3</span> seconds",
+      },
       sp = { 25, 24, 23, 22, 21, 20, 19, 18, 17, 15 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
@@ -323,18 +345,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Explorer's Enthusiasm",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.25 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.5"
     },
     {
-      name = "undefined",
+      name = "Karlan Trading·β",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite2",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +15% and order limit +2"
     },
   },
   meta = {
@@ -368,7 +390,7 @@ return {
     },
     oripathy = {
       infected = "Yes",
-      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。<br><br>体内源石融合度：7%<br>由于为源石直接穿刺感染，崖心在被穿刺处有明显源石结晶。<br><br>【血液源石结晶密度】0.28u/L<br>病程正在向中期过渡，但尚未对感染对象产生明显的影响。",
+      diagnosis = "造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。<br><br>【体内源石融合度】7%<br>由于为源石直接穿刺感染，崖心在被穿刺处有明显源石结晶。<br><br>【血液源石结晶密度】0.28u/L<br>病程正在向中期过渡，但尚未对感染对象产生明显的影响。",
     }
   },
   quotes = {

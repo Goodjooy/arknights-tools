@@ -152,31 +152,64 @@ return {
   skills = {
     {
       icon = "skchr-angel-1.png",
-      name = "冲锋模式",
+      name = "Assault Mode",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击变为<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>3</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>105%<span>/</span>113%<span>/</span>121%<span>/</span>145%</span>的伤害",
+      description = {
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>105%</span> damage",
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>107%</span> damage",
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>109%</span> damage",
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>113%</span> damage",
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>115%</span> damage",
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>117%</span> damage",
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>121%</span> damage",
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>129%</span> damage",
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>137%</span> damage",
+        "The next attack hits <span style='color:#0098DC;'>3</span> times, with each hit dealing <span style='color:#0098DC;'>145%</span> damage",
+      },
       sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-angel-2.png",
-      name = "扫射模式",
+      name = "Strafing Mode",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击变为<span style='color:#0098DC;'>4<span>/</span>4<span>/</span>4<span>/</span>4</span>连射，每次射击造成相当于攻击力<span style='color:#0098DC;'>100%<span>/</span>105%<span>/</span>110%<span>/</span>125%</span>的伤害",
+      description = {
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>100%</span> damage",
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>100%</span> damage",
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>100%</span> damage",
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>105%</span> damage",
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>105%</span> damage",
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>105%</span> damage",
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>110%</span> damage",
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>115%</span> damage",
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>120%</span> damage",
+        "Attacks deal <span style='color:#0098DC;'>4</span> hits, with each hit dealing <span style='color:#0098DC;'>125%</span> damage",
+      },
       sp = { 45, 44, 43, 42, 41, 40, 39, 38, 37, 35 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
     {
       icon = "skchr-angel-3.png",
-      name = "过载模式",
+      name = "Overload Mode",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "攻击变为<span style='color:#0098DC;'>5<span>/</span>5<span>/</span>5<span>/</span>5</span>连射，攻击间隔<span style='color:#0098DC;'>一定程度缩短</span>，攻击力<span style='color:#0098DC;'>提升至100%<span>/</span>100%<span>/</span>100%<span>/</span>110%</span>\n<span style='color:#F49800;'>技能会自动开启</span>",
+      description = {
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits. Automatic activation",
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits. Automatic activation",
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits. Automatic activation",
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits, Slightly reduce attack interval. Automatic activation",
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits, Slightly reduce attack interval. Automatic activation",
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits, Slightly reduce attack interval. Automatic activation",
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits, Reduce attack interval. Automatic activation",
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits, with each dealing <span style='color:#0098DC;'>103%</span> damage. Reduce attack interval. Automatic activation",
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits, with each dealing <span style='color:#0098DC;'>107%</span> damage. Reduce attack interval. Automatic activation",
+        "Attacks deal <span style='color:#0098DC;'>5</span> hits, with each dealing <span style='color:#0098DC;'>110%</span> damage. Reduce attack interval by a certain extent. Automatic activation",
+      },
       sp = { 50, 48, 46, 44, 42, 40, 38, 36, 34, 30 },
       duration = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
     },
@@ -326,19 +359,19 @@ return {
       }
     },
     {
-      name = "Rapid Magazine",
+      name = "Angel's Blessings",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Attack speed +6",
+          description = "Attack +6%, Max HP +10%. When deployed, grant the same effect to a random ally",
         },
         {
           elite = 2,
           level = 1,
           potential = 5,
-          description = "Attack speed +9 (+3)",
+          description = "Attack +8% (+2%), Max HP +13% (+3%). When deployed, grant the same effect to a random ally",
         },
       }
     },
@@ -360,11 +393,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Penguin Logistics·α",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +20%"
     },
   },
   meta = {

@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-bluep-1.png",
-      name = "二重射击·自动",
+      name = "Double Shot·Auto",
       recharge = "Charge On Attack",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击额外攻击一个目标，造成相当于攻击力<span style='color:#0098DC;'>125%<span>/</span>140%<span>/</span>155%<span>/</span>200%</span>的物理伤害",
+      description = {
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>125%</span> physical damage",
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>130%</span> physical damage",
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>135%</span> physical damage",
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>140%</span> physical damage",
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>145%</span> physical damage",
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>150%</span> physical damage",
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>155%</span> physical damage",
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>170%</span> physical damage",
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>185%</span> physical damage",
+        "The next attack will attack an additional target, dealing <span style='color:#0098DC;'>200%</span> physical damage",
+      },
       sp = { 4, 4, 4, 3, 3, 3, 3, 3, 3, 2 },
       duration = { -1, -1, -1, -1, -1, -1, -1, -1, -1, -1 },
     },
     {
       icon = "skchr-bluep-2.png",
-      name = "毒液散射",
+      name = "Poison Spread",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+10%<span>/</span>20%<span>/</span>30%<span>/</span>50%</span>，每次攻击对主目标额外射击<span style='color:#0098DC;'>一</span>次，并额外攻击<span style='color:#0098DC;'>两</span>个敌人",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>10%</span>, every attack hits an additional 2 enemies",
+        "Attack power +<span style='color:#0098DC;'>10%</span>, every attack hits an additional 2 enemies",
+        "Attack power +<span style='color:#0098DC;'>10%</span>, every attack hits an additional 2 enemies",
+        "Attack power +<span style='color:#0098DC;'>20%</span>, every attack hits an additional 2 enemies",
+        "Attack power +<span style='color:#0098DC;'>20%</span>, every attack hits an additional 2 enemies",
+        "Attack power +<span style='color:#0098DC;'>20%</span>, every attack hits an additional 2 enemies",
+        "Attack power +<span style='color:#0098DC;'>30%</span>, every attack hits an additional 2 enemies",
+        "Attack power +<span style='color:#0098DC;'>30%</span>, every attack hits the main target a second time as well as an additional 2 enemies",
+        "Attack power +<span style='color:#0098DC;'>40%</span>, every attack hits the main target a second time as well as an additional 2 enemies",
+        "Attack power +<span style='color:#0098DC;'>50%</span>, every attack hits the main target a second time as well as an additional 2 enemies",
+      },
       sp = { 50, 50, 50, 50, 50, 50, 50, 47, 44, 40 },
       duration = { 20, 21, 22, 23, 24, 25, 26, 27, 28, 30 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Toxicology·α",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
   },
   meta = {
@@ -337,7 +359,7 @@ return {
   profile = {
     records = {
       resume = "蓝毒，身份不明，履历缺失。在以有毒制剂作为清除手段的特别行动中展现出过人威力。<br>现作为狙击干员于罗德岛干员组任职，并定期为医疗组提供毒理学相关研究的协助。",
-      archive1 = "干员蓝毒认为自己在战场上的工作是足够骇人但不可缺少的，她全力以赴地去执行罗德岛向她指派的每一个任务，并总能带回令人满意的战果。<br>在行动过程中，她会以充满个人风格的幽默来消除战斗带来的压力，并缓解同行干员对她的提防（例如在战斗前为大家配发解毒的药剂）。<br>蓝毒所使用的小型手弩被证明是一种拥有极为优秀的射程且威力不俗的狙击武器，而她自行调配的含有毒制剂的弩箭更使她的每一次攻击都会具备致命的杀伤力。蓝毒从不会让敌人以凄惨的状态死去，因为这实在不怎么优雅。",
+      archive1 = "虽然和自身性格无关，但蓝毒所拥有的能力，的确就如传言中那样令人胆寒，这一点无疑成为了她与其他干员之间交流的阻力。只是，当她在前线完成自己的工作后，默默承担起中毒干员的医疗任务时，想必，大家都能够感受到她那奇异能力下，真挚而平和的心灵。<br>蓝毒所使用的小型手弩被证明是一种拥有极为优秀的射程且威力不俗的狙击武器，而她自行调配的含有毒制剂的弩箭更使她的每一次攻击都会具备致命的杀伤力。蓝毒从不会让敌人以凄惨的状态死去，因为这实在不怎么优雅。",
       archive2 = "根据干员蓝毒的自述，年幼的她已经明白了自己身为“毒物”的事实。任何生命或非生命上都有弱点，利用某些毒物，将这个小小的弱点放大成为无法挽回的致命伤害，是蓝毒对自己毒物能力的理解。<br>目前蓝毒的毒物生成能力由凯尔希医生亲自进行研究并进行日常采样工作。令蓝毒稍感轻松的是，罗德岛是一个人尽其才的组织，且不受强烈的道德观念所束缚，因而她的毒物能力可以在这里发挥出最大的用途。<br>针对自己作为毒物的这一事实，蓝毒表现出较为抗拒的态度，但如果保证毒物能力能被其他干员所接受，并不再影响他人对蓝毒的态度的话，蓝毒是否能接受自己的毒物能力？对此，蓝毒并没有给出明确的回答，以惯常的礼貌而略显含糊的态度将话题轻轻带走。<br>对于毒物的身份，干员蓝毒是否仍怀有厌恶的心情？亦或是她已经接受并逐渐认同了这种能力，但却在与他人交往的过程中不得不处于分裂的心态？这一切仍需博士通过自己与蓝毒的接触来做出判断。",
       archive3 = "目前可以判明的是，干员蓝毒因其独特战斗方式，“毒物”的名声已不胫而走，并对其日常生活产生了一定的影响。<br>针对干员蓝毒的所谓“毒物”能力，医疗组对此多次测试后的详细报告目前尚未公开。但可以确定的是，日常中与干员蓝毒的接触并不会受到其“毒物”能力的影响。事实上，干员蓝毒所谓的“毒物”能力，更多体现在她对含毒制剂熟练的制作手法，以及对毒理学的丰富知识这两点上。<br>对于干员蓝毒来说，战斗之外的闲暇日常，她选择留在罗德岛中进行一些不费功夫的作业，例如烘焙糕点。据干员古米（目前乌萨斯学生古米被分配至后勤部厨房进行帮厨工作）介绍，蓝毒的甜点手艺“完全能让一个不吃甜食的人缴械投降！”的程度。根据若干未留姓名的试吃反馈，蓝毒的甜点手艺确实足够担当这样的名号，只是如果她能在成品配色的选择上不那么有个性就更好了。<br>除甜品制作外，蓝毒的时尚嗅觉敏锐，对时下的流行服饰也非常感兴趣，并多次向罗德岛后勤部与贸易站等部门提出自己的服饰搭配建议。",
       archive4 = "尽管缺乏决定性的证据，但根据若干份秘密渠道获得的情报显示，一些对抗大型生物的战斗中曾有人指认过蓝毒的身影。这些情报大多未经证实，且没有图像资料作为参考。<br>鉴于干员蓝毒从未显示出与该类型的作战有任何联系，亦从未提及过此类经历。<br>【权限记录】<br>根据某在场人员的回忆，在干员蓝毒初次见到干员幽灵鲨的时候，曾与后者打过一次招呼。但鉴于干员蓝毒对待任何干员均表现出十足礼貌，此类情报被认为不足以作为参考。为防止针对个体干员的对待偏差，今后应对此类情报加以谨慎审核。",

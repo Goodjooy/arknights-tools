@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-heal-up-3.png",
-      name = "治疗强化·γ型",
+      name = "Healing Strengthening·Type γ",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+40%<span>/</span>55%<span>/</span>70%<span>/</span>90%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>55%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>65%</span>",
+        "Attack power +<span style='color:#0098DC;'>70%</span>",
+        "Attack power +<span style='color:#0098DC;'>75%</span>",
+        "Attack power +<span style='color:#0098DC;'>80%</span>",
+        "Attack power +<span style='color:#0098DC;'>90%</span>",
+      },
       sp = { 40, 40, 40, 35, 35, 35, 32, 32, 32, 30 },
       duration = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
     },
     {
       icon = "skchr-plosis-2.png",
-      name = "脑啡肽",
+      name = "Enkephalin",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围扩大，攻击间隔<span style='color:#0098DC;'>超大幅度缩短</span>",
+      description = {
+        "Increase attack range, Reduce attack interval",
+        "Increase attack range, Reduce attack interval",
+        "Increase attack range, Reduce attack interval",
+        "Increase attack range, Highly reduce attack interval",
+        "Increase attack range, Highly reduce attack interval",
+        "Increase attack range, Highly reduce attack interval",
+        "Increase attack range, Greatly reduce attack interval",
+        "Increase attack range, Greatly reduce attack interval",
+        "Increase attack range, Greatly reduce attack interval",
+        "Increase attack range, Massively reduce attack interval",
+      },
       sp = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
       duration = { 30, 31, 32, 33, 34, 35, 36, 37, 38, 40 },
     },
@@ -311,11 +333,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Rhine Technology·α",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +15%"
     },
   },
   meta = {

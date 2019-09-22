@@ -147,31 +147,64 @@ return {
   skills = {
     {
       icon = "skchr-demkni-1.png",
-      name = "急救",
+      name = "First Aid",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下一次攻击会为周围血量不足一半的一名友方单位恢复相当于攻击力<span style='color:#0098DC;'>110%<span>/</span>130%<span>/</span>150%<span>/</span>180%的生命</span>\n<span style='color:#F49800;'>可充能1<span>/</span>1<span>/</span>2<span>/</span>3次</span>",
+      description = {
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>110%</span> Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>115%</span> Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>120%</span> Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>130%</span> Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>135%</span> Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>140%</span> Attack power. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>150%</span> Attack power. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>160%</span> Attack power. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>170%</span> Attack power. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack will heal a nearby ally with less than 1/2 HP for <span style='color:#0098DC;'>180%</span> Attack power. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+      },
       sp = { 6, 6, 6, 5, 5, 5, 5, 4, 4, 4 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-demkni-2.png",
-      name = "药物配置",
+      name = "Medicine Preparation",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "治疗附近一定范围内的所有友军相当于塞雷娅攻击力<span style='color:#0098DC;'>80%<span>/</span>95%<span>/</span>110%<span>/</span>140%</span>的生命",
+      description = {
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>80%</span> of Saria's Attack power",
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>85%</span> of Saria's Attack power",
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>90%</span> of Saria's Attack power",
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>95%</span> of Saria's Attack power",
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>100%</span> of Saria's Attack power",
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>105%</span> of Saria's Attack power",
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>110%</span> of Saria's Attack power",
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>120%</span> of Saria's Attack power",
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>130%</span> of Saria's Attack power",
+        "Heal all allies within a certain range for <span style='color:#0098DC;'>140%</span> of Saria's Attack power",
+      },
       sp = { 10, 10, 10, 9, 9, 9, 8, 8, 8, 7 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-demkni-3.png",
-      name = "钙质化",
+      name = "Calcification",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "附近所有友军每秒回复相当于塞雷娅攻击力<span style='color:#0098DC;'>10%<span>/</span>15%<span>/</span>20%<span>/</span>35%</span>的生命\n附近所有敌军受到的法术伤害<span style='color:#0098DC;'>+20%<span>/</span>30%<span>/</span>40%<span>/</span>55%</span>，移动速度<span style='color:#0098DC;'>--60%<span>/</span>-60%<span>/</span>-60%<span>/</span>-60%</span>",
+      description = {
+        "All nearby allies are healed for <span style='color:#0098DC;'>10%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>20%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+        "All nearby allies are healed for <span style='color:#0098DC;'>10%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>20%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+        "All nearby allies are healed for <span style='color:#0098DC;'>10%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>20%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+        "All nearby allies are healed for <span style='color:#0098DC;'>15%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>30%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+        "All nearby allies are healed for <span style='color:#0098DC;'>15%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>30%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+        "All nearby allies are healed for <span style='color:#0098DC;'>15%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>30%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+        "All nearby allies are healed for <span style='color:#0098DC;'>20%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>40%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+        "All nearby allies are healed for <span style='color:#0098DC;'>25%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>45%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+        "All nearby allies are healed for <span style='color:#0098DC;'>30%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>50%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+        "All nearby allies are healed for <span style='color:#0098DC;'>35%</span> of Saria's Attack power every second. Additionally, all nearby enemies receive +<span style='color:#0098DC;'>55%</span> magic damage and <span style='color:#0098DC;'>-60%</span> movement speed",
+      },
       sp = { 80, 80, 80, 80, 80, 80, 80, 80, 80, 80 },
       duration = { 10, 12, 14, 16, 18, 20, 22, 24, 27, 30 },
     },
@@ -321,13 +354,13 @@ return {
       }
     },
     {
-      name = "Rhine Chargeable Armor",
+      name = "Spiritual Recovery",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "Every 20 seconds after deployment, Attack +2%, Defense +2%, stacks up to 5 layers",
+          description = "When healing an ally, grant 1 SP to the target",
         },
       }
     },
@@ -349,11 +382,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Clue Collection·α",
       badge = "reception",
       facility = "Reception",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at Reception, clue collection speed +10%"
     },
   },
   meta = {

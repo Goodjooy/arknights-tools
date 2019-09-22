@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skcom-atk-up-2.png",
-      name = "攻击力强化·β型",
+      name = "Attack Strengthening·Type β",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+20%<span>/</span>35%<span>/</span>50%<span>/</span>80%</span>",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Attack power +<span style='color:#0098DC;'>25%</span>",
+        "Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack power +<span style='color:#0098DC;'>35%</span>",
+        "Attack power +<span style='color:#0098DC;'>40%</span>",
+        "Attack power +<span style='color:#0098DC;'>45%</span>",
+        "Attack power +<span style='color:#0098DC;'>50%</span>",
+        "Attack power +<span style='color:#0098DC;'>60%</span>",
+        "Attack power +<span style='color:#0098DC;'>70%</span>",
+        "Attack power +<span style='color:#0098DC;'>80%</span>",
+      },
       sp = { 40, 40, 40, 37, 37, 37, 37, 37, 37, 35 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
     {
       icon = "skchr-nights-2.png",
-      name = "赤色之瞳",
+      name = "Crimson Eyes",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "最大生命值<span style='color:#FF6237;'>--75%<span>/</span>-75%<span>/</span>-75%<span>/</span>-75%</span>；攻击力<span style='color:#0098DC;'>+15%<span>/</span>30%<span>/</span>45%<span>/</span>60%</span>，攻击速度<span style='color:#0098DC;'>+35<span>/</span>40<span>/</span>45<span>/</span>60</span>",
+      description = {
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>15%</span>, Attack speed +<span style='color:#0098DC;'>35</span>",
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>20%</span>, Attack speed +<span style='color:#0098DC;'>35</span>",
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>25%</span>, Attack speed +<span style='color:#0098DC;'>35</span>",
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>30%</span>, Attack speed +<span style='color:#0098DC;'>40</span>",
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>35%</span>, Attack speed +<span style='color:#0098DC;'>40</span>",
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>40%</span>, Attack speed +<span style='color:#0098DC;'>40</span>",
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>45%</span>, Attack speed +<span style='color:#0098DC;'>45</span>",
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>50%</span>, Attack speed +<span style='color:#0098DC;'>50</span>",
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>55%</span>, Attack speed +<span style='color:#0098DC;'>55</span>",
+        "Max HP <span style='color:#FF6237;'>-75%</span>, Attack power +<span style='color:#0098DC;'>60%</span>, Attack speed +<span style='color:#0098DC;'>60</span>",
+      },
       sp = { 35, 35, 35, 35, 35, 35, 30, 30, 30, 25 },
       duration = { 25, 25, 25, 25, 25, 25, 25, 25, 25, 25 },
     },
@@ -318,18 +340,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Metal Crafts·α",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of precious metals by +30%"
     },
     {
-      name = "undefined",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
   },
   meta = {

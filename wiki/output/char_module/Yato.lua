@@ -97,18 +97,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Order Distribution·β",
       badge = "trading",
       facility = "Trading",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Trade Station, order acquisition efficiency +30%"
     },
     {
-      name = "undefined",
+      name = "Standardization·α",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, production +15%"
     },
   },
   meta = {
@@ -138,7 +138,7 @@ return {
       endurance = "Standard",
       tactic = "Standard",
       skill = "Standard",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

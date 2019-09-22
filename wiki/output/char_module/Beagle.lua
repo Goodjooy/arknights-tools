@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skcom-def-up-1.png",
-      name = "防御力强化·α型",
+      name = "Defense Strengthening·Type α",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "防御力<span style='color:#0098DC;'>+10%<span>/</span>30%<span>/</span>50%<span>/</span></span>",
+      description = {
+        "Defense power +<span style='color:#0098DC;'>10%</span>",
+        "Defense power +<span style='color:#0098DC;'>15%</span>",
+        "Defense power +<span style='color:#0098DC;'>20%</span>",
+        "Defense power +<span style='color:#0098DC;'>30%</span>",
+        "Defense power +<span style='color:#0098DC;'>35%</span>",
+        "Defense power +<span style='color:#0098DC;'>40%</span>",
+        "Defense power +<span style='color:#0098DC;'>50%</span>",
+      },
       sp = { 50, 50, 50, 45, 45, 45, 40 },
       duration = { 30, 30, 30, 30, 30, 30, 30 },
     },
@@ -238,18 +246,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Warehouse Organization·α",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, storage capacity +6 and production +10%"
     },
     {
-      name = "undefined",
+      name = "Lively",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.2 per hour (When stacked, only the highest effect becomes active); At the same time, self mood recovery per hour +0.4"
     },
   },
   meta = {
@@ -274,12 +282,12 @@ return {
       height = "154cm",
     },
     physical = {
-      strength = "Excellent",
+      strength = "Great",
       mobility = "Below Standard",
-      endurance = "Excellent",
+      endurance = "Great",
       tactic = "Below Standard",
       skill = "Standard",
-      originium = "Below Standard",
+      originium = "Standard",
     },
     oripathy = {
       infected = "Yes",

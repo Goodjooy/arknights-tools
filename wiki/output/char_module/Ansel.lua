@@ -94,11 +94,19 @@ return {
   skills = {
     {
       icon = "skcom-range-extend.png",
-      name = "治疗范围强化",
+      name = "Healing Range Strengthening",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击范围<span style='color:#0098DC;'>+1<span>/</span>2<span>/</span>2<span>/</span>格</span>，攻击力<span style='color:#0098DC;'>+5%<span>/</span>20%<span>/</span>40%<span>/</span></span>",
+      description = {
+        "Attack range +<span style='color:#0098DC;'>1</span> tiles, Attack power +<span style='color:#0098DC;'>5%</span>",
+        "Attack range +<span style='color:#0098DC;'>1</span> tiles, Attack power +<span style='color:#0098DC;'>10%</span>",
+        "Attack range +<span style='color:#0098DC;'>1</span> tiles, Attack power +<span style='color:#0098DC;'>15%</span>",
+        "Attack range +<span style='color:#0098DC;'>2</span> tiles, Attack power +<span style='color:#0098DC;'>20%</span>",
+        "Attack range +<span style='color:#0098DC;'>2</span> tiles, Attack power +<span style='color:#0098DC;'>25%</span>",
+        "Attack range +<span style='color:#0098DC;'>2</span> tiles, Attack power +<span style='color:#0098DC;'>30%</span>",
+        "Attack range +<span style='color:#0098DC;'>2</span> tiles, Attack power +<span style='color:#0098DC;'>40%</span>",
+      },
       sp = { 45, 44, 43, 40, 39, 38, 35 },
       duration = { 19, 20, 21, 22, 23, 24, 25 },
     },
@@ -250,18 +258,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Empathetic",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of one random operator below maximum mood except self within that dorm by +0.55 per hour (When stacked, only the highest effect becomes active)"
     },
     {
-      name = "undefined",
+      name = "Pharmacology",
       badge = "synth",
       facility = "Workshop",
       unlockIcon = "elite1",
-      description = "undefined"
+      description = "When stationed at the Synthesis Station and producing elite materials, increase the rate of by-products by 75%"
     },
   },
   meta = {
@@ -271,7 +279,7 @@ return {
   profile = {
     records = {
       resume = "安赛尔，行动预备组A4组员，雷姆必拓公民，正式任职前为罗德岛制药实习员工。于多项测试中获得优异成绩，遂获准调入罗德岛医疗组。",
-      archive1 = "安赛尔的心理状态十分稳定，即使处于复杂紧张的战况中，安赛尔依然能提供及时的医疗支援。身为医疗人员，安赛尔非常清楚自己对患者的责任和义务，在尽可能满足患者需求的同时，面对那些不太遵守医疗守则的人员，他会以轻柔的责备态度去提醒对方的行为。",
+      archive1 = "安赛尔的性格十分沉稳，无论多么复杂的战况，他都会以提供及时的医疗支援为最优先。这份沉稳的性格甚至到了会让敌人误以为“这家伙是不是不属于这块战场？”这种地步，毕竟极少有人能在背后发生瓦斯爆炸，头顶的危楼有塌方危险的情况下还能井井有条地救助伤员。当然，这也是因为安赛尔非常恪守自己作为医者的准则，在尽可能满足患者需求的同时，面对那些不太遵守医疗守则的人员，他也会以轻柔的责备态度去提醒对方的行为。",
       archive2 = "安赛尔出身于雷姆必拓一座以矿业闻名的城市，他拥有三位哥哥和一位妹妹，母亲因病过世后，劳累的父亲将其过继给没有子嗣的兄长作为继子。在寄养环境下成长，且缺乏安稳家庭环境的他很早地形成了柔和的处事态度。当安赛尔意识到身边大多数工人因超负荷的劳动导致身体状况不佳后，他选择了成为一名医疗实习生，希望以医治肉体的方式减轻人们的痛苦。",
       archive3 = "安赛尔在公立医疗专门学校就读期间，就曾多次向雷姆必拓一些大型医疗企业和研究所投送简历，但他缺乏资金进行深造学习，单薄的简历被几乎所有的医疗公司退回。在没有退回简历的两家公司中，安赛尔决定前往草创不久的罗德岛制药公司进行实习。在半年的实习期内，由于安赛尔展现出了勤恳、富有耐心，和对医疗行为优质的专注力，使他受到了公司高层凯尔希医生的认可。",
       archive4 = "",

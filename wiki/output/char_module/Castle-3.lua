@@ -127,18 +127,18 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Backup Generator",
       badge = "power",
       facility = "Power Plant",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Power Station, drone recovery per hour +10%"
     },
     {
-      name = "undefined",
+      name = "Combat Directive Recordings",
       badge = "craft",
       facility = "Production",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Craft Station, increase production of EXP cards by +30%"
     },
   },
   meta = {

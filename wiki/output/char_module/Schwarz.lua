@@ -1,0 +1,476 @@
+return {
+  id = "340",
+  num = "SS02",
+  name = {
+    en = "Schwarz",
+    cn = "黑",
+    ex = "Schwarz",
+  },
+  fileKey = "Schwarz",
+  team = -1,
+  position = "Ranged",
+  roles = { "DPS" },
+  faction = "",
+  stars = 6,
+  class = "Sniper",
+  initialStats = {
+    hp = 781,
+    atk = 357,
+    def = 86,
+    resist = 0,
+    cost = 16,
+    block = 1,
+    speed = 1,
+    atkspd = 100,
+    baseAtkTime = 1.6,
+    respawn = 70,
+    hpRegen = 0,
+    spRegen = 1,
+    deploys = 1,
+    stacks = 0,
+    provoke = 0,
+    stunImmunity = false,
+    silenceImmunity = false,
+  },
+  ranks = {
+    base = {
+      range = "2-3",
+      maxLevel = 50,
+      images = {
+          portrait = "Schwarz-0-portrait.png",
+          full = "Schwarz-0.png"
+      },
+      maxStats = {
+        hp = 1086,
+        atk = 490,
+        def = 123,
+        resist = 0,
+        cost = 16,
+        block = 1,
+        speed = 1,
+        atkspd = 100,
+        baseAtkTime = 1.6,
+        respawn = 70,
+        hpRegen = 0,
+        spRegen = 1,
+        deploys = 1,
+        stacks = 0,
+        provoke = 0,
+        stunImmunity = false,
+        silenceImmunity = false,
+      },
+    },
+    elite1 = {
+      range = "3-6",
+      maxLevel = 80,
+      images = {
+          portrait = "Schwarz-0-portrait.png",
+          full = "Schwarz-0.png"
+      },
+      maxStats = {
+        hp = 1393,
+        atk = 646,
+        def = 164,
+        resist = 0,
+        cost = 18,
+        block = 1,
+        speed = 1,
+        atkspd = 100,
+        baseAtkTime = 1.6,
+        respawn = 70,
+        hpRegen = 0,
+        spRegen = 1,
+        deploys = 1,
+        stacks = 0,
+        provoke = 0,
+        stunImmunity = false,
+        silenceImmunity = false,
+      },
+      materials = {
+        {
+          icon = "SniperChip.png",
+          name = "Sniper Chip",
+          count = 5,
+        },
+        {
+          icon = "Polyester.png",
+          name = "Polyester",
+          count = 8,
+        },
+        {
+          icon = "Sugar.png",
+          name = "Sugar",
+          count = 6,
+        },
+      },
+    },
+    elite2 = {
+      range = "3-6",
+      maxLevel = 90,
+      images = {
+          portrait = "Schwarz-2-portrait.png",
+          full = "Schwarz-2.png"
+      },
+      maxStats = {
+        hp = 1833,
+        atk = 840,
+        def = 225,
+        resist = 0,
+        cost = 20,
+        block = 1,
+        speed = 1,
+        atkspd = 100,
+        baseAtkTime = 1.6,
+        respawn = 70,
+        hpRegen = 0,
+        spRegen = 1,
+        deploys = 1,
+        stacks = 0,
+        provoke = 0,
+        stunImmunity = false,
+        silenceImmunity = false,
+      },
+      materials = {
+        {
+          icon = "SniperTwinChip.png",
+          name = "Sniper Twin Chip",
+          count = 4,
+        },
+        {
+          icon = "D32Steel.png",
+          name = "D32 Steel",
+          count = 4,
+        },
+        {
+          icon = "MassXenoIron.png",
+          name = "Mass Xeno Iron",
+          count = 5,
+        },
+      },
+    },
+  },
+  skills = {
+    {
+      icon = "skchr-shwaz-1.png",
+      name = "强弩",
+      recharge = "Charge On Attack",
+      trigger = "Auto Trigger",
+      passive = false,
+      description = {
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "下一次攻击的攻击力提高至<span style='color:#0098DC;'>{atk_scale:0%}</span>，且天赋发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+      },
+      sp = { 5, 5, 5, 4, 4, 4, 4, 4, 4, 3 },
+      duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+    },
+    {
+      icon = "skchr-shwaz-2.png",
+      name = "暮眼锐瞳",
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
+      description = {
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+      },
+      sp = { 40, 39, 38, 37, 36, 35, 34, 33, 32, 30 },
+      duration = { 30, 31, 32, 33, 34, 35, 36, 37, 38, 40 },
+    },
+    {
+      icon = "skchr-shwaz-3.png",
+      name = "战术的终结",
+      recharge = "Auto Charge",
+      trigger = "Manual Trigger",
+      passive = false,
+      description = {
+        "攻击范围改为前方<span style='color:#F49800;'>3格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击范围改为前方<span style='color:#F49800;'>3格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击范围改为前方<span style='color:#F49800;'>3格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击范围改为前方<span style='color:#F49800;'>3格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击范围改为前方<span style='color:#F49800;'>3格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击范围改为前方<span style='color:#F49800;'>3格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击范围改为前方<span style='color:#F49800;'>3格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击范围改为前方<span style='color:#F49800;'>4格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击范围改为前方<span style='color:#F49800;'>4格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+        "攻击范围改为前方<span style='color:#F49800;'>4格</span>，攻击间隔<span style='color:#FF6237;'>略微增大</span>，攻击力<span style='color:#0098DC;'>+{atk:0%}</span>，天赋的发动概率提高至<span style='color:#0098DC;'>{talent@prob:0%}</span>",
+      },
+      sp = { 35, 34, 33, 32, 31, 30, 29, 28, 27, 25 },
+      duration = { 15, 16, 17, 18, 19, 20, 21, 22, 23, 25 },
+    },
+  },
+  skillup = {
+    {
+      skillLevel = 2,
+      reqElite = 0,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
+          count = 5,
+        },
+      }
+    },
+    {
+      skillLevel = 3,
+      reqElite = 0,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "BasicSkillBooks.png",
+          name = "Basic Skill Books",
+          count = 5,
+        },
+        {
+          icon = "SugarSubstitute.png",
+          name = "Sugar Substitute",
+          count = 5,
+        },
+        {
+          icon = "Ketone.png",
+          name = "Ketone",
+          count = 4,
+        },
+      }
+    },
+    {
+      skillLevel = 4,
+      reqElite = 0,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 8,
+        },
+        {
+          icon = "Polyester.png",
+          name = "Polyester",
+          count = 5,
+        },
+      }
+    },
+    {
+      skillLevel = 5,
+      reqElite = 1,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 8,
+        },
+        {
+          icon = "XenoIron.png",
+          name = "Xeno Iron",
+          count = 4,
+        },
+        {
+          icon = "Sugar.png",
+          name = "Sugar",
+          count = 3,
+        },
+      }
+    },
+    {
+      skillLevel = 6,
+      reqElite = 1,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "SecondarySkillBooks.png",
+          name = "Secondary Skill Books",
+          count = 8,
+        },
+        {
+          icon = "TwistAlcohol.png",
+          name = "Twist Alcohol",
+          count = 7,
+        },
+      }
+    },
+    {
+      skillLevel = 7,
+      reqElite = 1,
+      reqLevel = 1,
+      materials = {
+        {
+          icon = "TertiarySkillBooks.png",
+          name = "Tertiary Skill Books",
+          count = 8,
+        },
+        {
+          icon = "ManganeseOre.png",
+          name = "Manganese Ore",
+          count = 3,
+        },
+        {
+          icon = "Rma70-12.png",
+          name = "RMA70-12",
+          count = 4,
+        },
+      }
+    },
+  },
+  talents = {
+    {
+      name = "尖锐箭头",
+      levels = {
+        {
+          elite = 0,
+          level = 1,
+          potential = 0,
+          description = "攻击时，20%几率当次攻击的攻击力提升至130%",
+        },
+        {
+          elite = 1,
+          level = 1,
+          potential = 0,
+          description = "攻击时，20%几率当次攻击的攻击力提升至130%，并使命中目标的防御力下降10%，持续5秒",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "攻击时，20%几率当次攻击的攻击力提升至160%，并使命中目标的防御力下降20%，持续5秒",
+        },
+      }
+    },
+    {
+      name = "交叉火力",
+      levels = {
+        {
+          elite = 2,
+          level = 1,
+          potential = 0,
+          description = "场上存在黑和另外至少一名【狙击】干员时，所有【狙击】干员的攻击力+8%",
+        },
+        {
+          elite = 2,
+          level = 1,
+          potential = 5,
+          description = "场上存在黑和另外至少一名【狙击】干员时，所有【狙击】干员的攻击力+10%<@ba.talpu>（+2%）</>",
+        },
+      }
+    },
+  },
+  potential = {
+    "Deploy Cost - 1",
+    "Respawn Time - 4",
+    "Attack + 30",
+    "Deploy Cost - 1",
+    "Second Talent Boost",
+  },
+  trust = {
+    {
+      trust = 50,
+      maxHp = 0,
+      atk = 100,
+      def = 0,
+    },
+  },
+  infrastructure_skills = {
+    {
+      name = "沏茶",
+      badge = "dorm",
+      facility = "Dormitory",
+      unlockIcon = "elite0",
+      description = "undefined"
+    },
+    {
+      name = "黑矢",
+      badge = "trading",
+      facility = "Training",
+      unlockIcon = "elite2",
+      description = "undefined"
+    },
+  },
+  meta = {
+    illustrator = "Liduke",
+    voiceActor = "伊藤静",
+  },
+  profile = {
+    records = {
+      resume = "前汐斯塔市市长SP兼城市治安局局长，随干员锡兰共同加入罗德岛。<br>在隐秘行动、侦查与反侦察、野外求生、弩使用等技能上拥有卓越的造诣。在担任博士护卫的同时，负责一部分罗德岛基层干员的训练工作。",
+      archive1 = "不苟言笑的保镖。<br>在需要的时候，会作为博士的护卫。除此之外，通常会在锡兰小姐周围见到她。<br>不喜欢与他人交流。即使有人想与她交流，通常也只会得到比较冷淡的回应。<br>不过，偶尔也会见到她与一些佣兵和赏金猎人出身的干员一同出入酒吧的身影。",
+      archive2 = "黑小姐有两面。<br>战斗中的她，经常展现出极端冷冽的一面。对她来说，虽然手中的弩是主要进攻手段，但事实上，笔、书、绳子等等，似乎没有什么东西在她手中不能成为武器。而且，她完全没有其他人多多少少会有的，对自身生命和身体的珍视。在各种演习中，她发起进攻的手段往往防不胜防，却也常是以自己付出一些甚至无法挽回的代价为前提才能实现的。<br>或许黑小姐在面对怪物时不如其他干员有经验，但在对人，或者类人的分野中，她绝对是罗德岛中数一数二的存在。用某位干员的话来说，“她就像是一台十分精密的，为了杀人而存在的，没有感情的机器一样”。<br>但在锡兰小姐身边的她，虽然冰冷，却不坚硬。她与锡兰小姐的关系，比起单纯的主仆，更接近普遍意义上的姐妹。在锡兰小姐面前，她就像一个宠爱妹妹过度的姐姐，什么无理的要求都会满足她，什么异想天开的想法都会包容她，连依旧冰冷的语调中都带上了几分宠溺。<br>唯有在这种时刻，在旁观者眼中，她才似乎从一台机器变回了一个人。事实上，也是因为这一点，大部分在她加入罗德岛时甚至对她有些惧怕的干员，才逐渐对她改观。",
+      archive3 = "在汐斯塔市事件中，有一个比较容易被忽视的细节：我们已经知道，黑小姐对锡兰小姐本质上是溺爱的，但是，在事件中，她却选择站在了另一边，即使情有可原，但归根结底，这依然是一种背叛，事实上也因此引发了一些连锁反应。<br>将事件复盘后，我们能够发现一点，如果这件事的背后真的是赫尔曼市长，黑小姐恐怕会毫不犹豫地站在市长那一边，因为，她虽然溺爱锡兰小姐，却更是市长的理解者，她说的那句“会见血的任务，别让小姐去，让只能在阴影里生存的人去就够了”，应当是她想法的最好写照。<br>即使经过事件的洗礼，锡兰小姐在加入罗德岛后，表现出的依然是理想主义者的倾向，这很正常。她见识到了一部分世界的残酷，但事件相对完美的解决使得这种冲击变得淡泊，况且，不是每个人都有必要去认识所谓残酷的现实。<br>不过，讨论这一点的重要性也恰恰在这里：那么，罗德岛应该这么做吗？<br>如同锡兰小姐一样的人，在罗德岛内事实上不占少数。而罗德岛不是一家纯粹的研究机构，我们的性质决定了我们注定要面对一些不那么美好的事情。那么我们应当，或者说，有义务，亦或者说，有必要为他们揭露他们所不曾见到的，残酷的生活吗？还是应当如同黑小姐所说的那样，“让只能在阴影里生存的人去就够了”？<br>这是一个值得探讨的问题。<br>——档案记录员R.F.",
+      archive4 = "“......其实，习惯之后，杀人没有什么感觉。尤其是，当我杀的人全都是我的仇人的时候。<br>至于我具体是怎么做到一个人毁灭那个家族，你不会想听的，博士，实际上我除了在每个地方潜伏的时候看到的花草树木，也没有什么可以讲的东西。等待，然后出手，就这么简单。<br>我出生在一个雷姆必拓商人家庭，双亲都是经商的。6岁的时候，他们在某一笔生意中被蒙骗，收取了一批伪装成普通宝石的源石，我的矿石病就是偷偷拿出来玩的时候感染的。<br>我的父母发现后立刻前往责问，却在返途中遭到围杀，我也被当作奴隶贩卖。最终，我被一个佣兵团选中，成为了他们的新成员。<br>这支佣兵团除了进行战争行为，更多的是负责接手大人物们的委托，做一些上不得台面的脏活。而我经过他们的锻炼，成为了一个孩童杀手。在经过几次任务后，我的组织接到了让某座城市出一些“意外”的任务。<br>我的命运在那里得到了改变。<br>我的任务是暗杀老爷，但在接近的过程中，我被老爷折服，你一定无法想象，那个时候的老爷，还是个……算了，不说这些，总之，我帮助老爷将我所属的佣兵团全灭，然后，我就成了小姐的保姆兼保镖。那一年，小姐3岁，我12岁。<br>其实小姐不知道的是，在我作为她保镖的那些年里，我也同时在帮老爷做事......别误会，我是自愿的，小姐是我最关心的人，但老爷也是我最敬重的人，这一点从那时起，就没有改变。<br>......那天，老爷把我叫回汐斯塔，告诉我，我的仇人找到了。在我出发前，老爷问我，他说‘你确定你要去吗，黑，你可以在这里生活得很好。’我最终还是去了，但不全是为了复仇，也是为了做个了断。而且，我知道，有人在等着我。”<br>——由博士亲口转述，因原话充斥不雅词汇和酒后痴言，进行了大量的文面修饰，在征得本人同意后，作为个人档案记录。",
+      token = "有一种看法是，黑小姐这样的人，如若身处光明之中，她身上的黑暗也会逐渐褪去。<br>必须要指出，这是一种乐观乃至不负责任的想法。<br>比较残忍的现实是，我们能够发现，与其说黑小姐在锡兰小姐身边时才是真正的自己，不如说，她只有在锡兰小姐身边时，才会收敛自己的本性。<br>她在战斗中表现出的冰冷与漠视生命，才更接近她本性的一部分。那是刻在她灵魂中的东西，是她即使在光明中生活了许久，也依然无法洗去的烙印。<br>所以我们必须要了解到，她对锡兰小姐的愿望，即使难以实现，也绝对不是应当被耻笑的愿望。因为唯有体验过黑暗的人，才知道，那种深不见底的寒冷，是多么的深入骨髓。<br>唯一值得庆幸的是，她自己清楚这一点。<br>唯有这样，或许如她所说，有一天，博士将能够驯服她身上的邪恶，但愿这一天真的会到来。",
+    },
+    bio = {
+      gender = "Female",
+      experience = "二十 years",
+      origin = "Rim Billiton",
+      birthday = "ERROR",
+      race = "Feline",
+      height = "169cm",
+    },
+    physical = {
+      strength = "Standard",
+      mobility = "Great",
+      endurance = "Standard",
+      tactic = "Great",
+      skill = "Great",
+      originium = "Standard",
+    },
+    oripathy = {
+      infected = "Yes",
+      diagnosis = "",
+    }
+  },
+  quotes = {
+    cn001 = "日程安排我都记录好了，需要的话，随时可以向我确认。",
+    cn002 = "会见血的任务，别让小姐去，让只能在阴影里生存的人去就够了。",
+    cn003 = "我不会告诉你有关小姐的任何私人情报。当然，你的私人情报我也不会告诉任何人。",
+    cn004 = "博士，我是保镖，我的任务是保护你，而不是做你的聊天对象。如果你想找人说话，我建议你去找其他人，不要和小姐一样，总是找我。",
+    cn005 = "我擅长的东西？杀人，保护人，还有......泡红茶。别露出那种表情，毕竟小姐的手艺......咳，总之，我很擅长。",
+    cn006 = "博士，根据迄今为止各种任务的危险程度，我认为，除了我的保护之外，你还需要学习一点防身术。否则，就连我也没有自信，能在所有情况下使你安然无恙。",
+    cn007 = "......一旦手上沾染鲜血，就再也不能回头了，博士，我不希望你也跨出这一步，会脏手的事，就交给我来吧。",
+    cn008 = "想听我复仇的经历？你会睡不好觉的，博士。不过......真奇怪，我居然会有想说给你听的冲动......那么，去酒吧吧。这会是个不短的故事。",
+    cn009 = "罪孽深重的人不会有好下场，我心知肚明。只是在遇见小姐和博士你之后......如果能早一点遇见你们，我就不会仅仅是个凶手了。即使是现在也不晚？博士，你这句话，也是真心的吗？",
+    cn010 = "......就这么睡着了吗，和小姐一样，真是一点警戒心都没有。",
+    cn011 = "我是锡兰小姐的私人保镖，黑，跟随小姐加入罗德岛。可能的话，希望尽量让我和小姐一起行动。",
+    cn012 = "罗德岛充斥着战场上的怪物，这样的战斗，我只能尽量模仿。",
+    cn013 = "现在，我明白了，为什么罗德岛会需要我......你们的理想，比我做过的事要疯狂百倍。",
+    cn014 = "要唤醒我过去的回忆吗，没有问题。如果是你的话，也许能驯化我们战斗中的那些邪恶。请一定，要驯化我。",
+    cn017 = "任务？知道了。",
+    cn018 = "听我指挥。",
+    cn019 = "走吧。",
+    cn020 = "让他们有来无回。",
+    cn021 = "哪里需要我？",
+    cn022 = "在。",
+    cn023 = "这个位置......不错。",
+    cn024 = "他们跑不了。",
+    cn025 = "我看见你了。",
+    cn026 = "真显眼。",
+    cn027 = "才这点人。",
+    cn028 = "小姐有仁慈之心，我没有。",
+    cn029 = "博士，这种危险的任务，你指挥的地方离战场越远越好。",
+    cn030 = "按照你的指示，没有漏网之鱼。",
+    cn031 = "确认周围已经安全了，下一步怎么做？",
+    cn032 = "博士，走，我会优先确保你的安全。",
+    cn033 = "巡逻吗？我知道了。",
+    cn034 = "小心走火，博士。",
+    cn036 = "博士，有什么情况吗。",
+    cn037 = "明日方舟。",
+    cn042 = "即使在基地里，也不要太过松懈，博士。",
+  },
+}
+

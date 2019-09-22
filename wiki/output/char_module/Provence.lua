@@ -152,21 +152,43 @@ return {
   skills = {
     {
       icon = "skchr-prove-1.png",
-      name = "狼眼",
+      name = "Wolf's Eye",
       recharge = "",
       trigger = "Passive",
       passive = true,
-      description = "目标敌人的生命<span style='color:#0098DC;'>每降低20%<span>/</span>20%<span>/</span>20%<span>/</span>20%</span>，对其造成伤害时的攻击力<span style='color:#0098DC;'>+8%<span>/</span>12%<span>/</span>16%<span>/</span>25%</span>",
+      description = {
+        "Increase damage to the target by +<span style='color:#0098DC;'>8%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+        "Increase damage to the target by +<span style='color:#0098DC;'>9%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+        "Increase damage to the target by +<span style='color:#0098DC;'>10%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+        "Increase damage to the target by +<span style='color:#0098DC;'>12%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+        "Increase damage to the target by +<span style='color:#0098DC;'>13%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+        "Increase damage to the target by +<span style='color:#0098DC;'>14%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+        "Increase damage to the target by +<span style='color:#0098DC;'>16%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+        "Increase damage to the target by +<span style='color:#0098DC;'>19%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+        "Increase damage to the target by +<span style='color:#0098DC;'>22%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+        "Increase damage to the target by +<span style='color:#0098DC;'>25%</span> for every <span style='color:#0098DC;'>20%</span> HP the enemy loses",
+      },
       sp = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-prove-2.png",
-      name = "杀戮嗅觉",
+      name = "Slaughter Sense",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击力<span style='color:#0098DC;'>+130%<span>/</span>145%<span>/</span>160%<span>/</span>220%</span>，但普通攻击不再以生命值高于<span style='color:#FF6237;'>80%</span>的敌人作为目标",
+      description = {
+        "Attack power +<span style='color:#0098DC;'>130%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+        "Attack power +<span style='color:#0098DC;'>135%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+        "Attack power +<span style='color:#0098DC;'>140%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+        "Attack power +<span style='color:#0098DC;'>145%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+        "Attack power +<span style='color:#0098DC;'>150%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+        "Attack power +<span style='color:#0098DC;'>155%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+        "Attack power +<span style='color:#0098DC;'>160%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+        "Attack power +<span style='color:#0098DC;'>180%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+        "Attack power +<span style='color:#0098DC;'>200%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+        "Attack power +<span style='color:#0098DC;'>220%</span>, however normal attacks no longer target enemies with higher than 80% HP",
+      },
       sp = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
       duration = { 20, 20, 20, 25, 25, 25, 30, 31, 32, 35 },
     },
@@ -323,11 +345,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Disaster Messenger·α",
       badge = "hr",
       facility = "HR Office",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at Human Resource, accumulation of networking resources +30%"
     },
   },
   meta = {
@@ -337,7 +359,7 @@ return {
   profile = {
     records = {
       resume = "普罗旺斯，天灾信使。于战术协同，精准射击等行动中展现出较为优秀的作战能力。<br>现作为狙击干员于罗德岛干员组任职，并提供天灾区调查与天灾预警等相关服务。",
-      archive1 = "在信使行业中，以荒野为中心进行活动，随时观察自然现象变化，对可能形成的天灾进行预先判断，对已经发生的天灾进行记录和预警工作的从业者被称为天灾信使。<br>与许多同样出没于荒野和天灾，却逐渐变得漠视感情，轻视生命的同业人相比，普罗旺斯更加富有同情心，对天灾信使的工作也更为用心。她对天灾为人们带来的破坏与灾难有着清醒的认知，对人们的生命的珍视是驱使她一次次投身于这份工作的根本动力。<br>在工作中，普罗旺斯总是努力确保她身边的同伴能够获得充分的照顾。普罗旺斯使同伴们感受到安全的诀窍是：无论面对何种困难，她总能显得非常放松。她拥有丰富的，在荒无人烟，缺乏补给的荒野中工作的经验，更拥有敏锐的求生直觉，她总能及时发觉工作中出现的问题，并向大家给出自己的建议。",
+      archive1 = "在信使行业中，以荒野为中心进行活动，随时观察自然现象变化，对可能形成的天灾进行预先判断，对已经发生的天灾进行记录和预警工作的从业者被称为天灾信使。<br>这份过于接近毁灭的工作，会使一切敬畏与警惕逐渐变成麻木和恐惧。无数次与天灾擦肩而过并不是一件轻松的事情，有许多天灾信使因为精神层面的原因而选择了放弃。但普罗旺斯义不容辞地背负着这些沉重的责任，她对天灾为人们带来的破坏与灾难有着清醒的认知，对生命的珍视是驱使她一次次投身于这份工作的根本动力。<br>对于天灾，普罗旺斯有着各种各样的想法，身为天灾信使的她目睹过无数次常人所不知的众生百态。然而普罗旺斯并没有被这些风暴般的负面情绪所裹挟，靠着内心的坚定，她总能在各种情况下稳定住自己的情绪，保持乐观，轻松向上。这也是她得以成为一名优秀的天灾信使的重要原因——她带来的并非灾难将至的绝望，而是灯塔般的希望，她恪守着这份信念，并坚持奔跑在乌云之下的荒野。<br>除了内心的坚毅，普罗旺斯丰富的工作经验和适应能力也是其仰仗的有力武器。普罗旺斯善于在荒无人烟、缺乏补给的野外行动，并靠着得天独厚的求生直觉保护自己与同伴。这份直觉也让她能准确捕捉到任务与行动中的种种问题，对团队合作的重视也让她成为最可靠的干员之一。",
       archive2 = "普罗旺斯希望以自己的行动来改善人们面对天灾所处的不利环境。她反对浪费和随意丢弃行为，积极倡导大家节约资源，以切实的行动来改善自己所处生活环境。<br>在生活中，普罗旺斯显得分外勤快而忙碌，总是奔波在荒野与罗德岛之间的她，即使闲暇时间中也会为罗德岛提供义务性的清洁扫除，资源回收和分类等工作。部分人员对她的劝告熟视无睹的时候，普罗旺斯会以和气，认真，耐心的态度，为他们讲解这样做的理由和带来的好处。很少有人会在她诚恳的态度下，仍旧坚持自己错误的行为。",
       archive3 = "虽然极为难得，但当所有工作都已经妥善完成，生活环境也打理归整后，普罗旺斯终于能迎来属于自己的假日时光了。在人们眼中总是忙忙碌碌的她，也开始显露出享受生活的一面——放假的第一件事，当然是精心梳理自己的尾巴。<br>除了打理尾巴之外，在销售站挑选近期的货品，为自己和朋友选择小礼物，挑选一些好看的衣服加入自己的衣柜，陪罗德岛内的孩子们玩耍，挑战一下从未尝试过的烹饪食谱（不必说，自然是荒野中采摘与捕获的食材），邀请朋友共同举办派对——普罗旺斯热爱着这样的生活，并希望自己的生活总能保持着这样的步调。",
       archive4 = "“罗德岛附近出现了风暴的征兆——不用担心，组织避难就交给我吧！我可是这方面的专家！”<br>留下这样话语之后，就立刻投入到下一场荒野行动的普罗旺斯——<br>事实上，她仍在不断地接近着危险。<br>事实上，她已经成为一名感染者了。<br>即使她时常因工作而忘记身为感染者的身份，即使她知道自己的情况后，依然选择积极面对生活。<br>但是，与博士的相遇，似乎使她开始有些在意起自己的情况了。<br>为了不让博士担心，为了能让博士所在的罗德岛变得更加安全，普罗旺斯，今日依旧踏入荒野之中。",

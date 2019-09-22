@@ -147,31 +147,64 @@ return {
   skills = {
     {
       icon = "skcom-charge-cost-3.png",
-      name = "冲锋号令·γ型",
+      name = "Assault Order·Type γ",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "立即获得<span style='color:#0098DC;'>12<span>/</span>12<span>/</span>12<span>/</span>12</span>点部署费用",
+      description = {
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+        "Immediately obtain <span style='color:#0098DC;'>12</span> cost",
+      },
       sp = { 44, 43, 42, 41, 40, 39, 38, 37, 36, 35 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-siege-2.png",
-      name = "跃空锤",
+      name = "Leaping Hammer",
       recharge = "Auto Charge",
       trigger = "Auto Trigger",
       passive = false,
-      description = "下次攻击对四周所有敌人造成相当于攻击力<span style='color:#0098DC;'>220%<span>/</span>250%<span>/</span>280%<span>/</span>340%</span>的物理伤害，并获得<span style='color:#0098DC;'>3<span>/</span>3<span>/</span>3<span>/</span>3</span>点部署费用\n<span style='color:#F49800;'>可充能1<span>/</span>2<span>/</span>3<span>/</span>3次</span>",
+      description = {
+        "The next attack deals <span style='color:#0098DC;'>220%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>230%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>240%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>1</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>250%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>260%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>270%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>2</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>280%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>300%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>320%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+        "The next attack deals <span style='color:#0098DC;'>340%</span> physical damage to all adjacent enemies. Additionally, obtain <span style='color:#0098DC;'>3</span> cost. Can hold <span style='color:#F49800;'>3</span> charge(s)",
+      },
       sp = { 12, 12, 12, 11, 11, 11, 11, 10, 10, 10 },
       duration = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
     },
     {
       icon = "skchr-siege-3.png",
-      name = "碎颅击",
+      name = "Skull Crusher",
       recharge = "Auto Charge",
       trigger = "Manual Trigger",
       passive = false,
-      description = "攻击间隔<span style='color:#FF6237;'>增大</span>，攻击时攻击力提高至<span style='color:#0098DC;'>260%<span>/</span>290%<span>/</span>320%<span>/</span>380%</span>，并且有<span style='color:#0098DC;'>40%<span>/</span>40%<span>/</span>40%<span>/</span>40%</span>的概率击晕目标<span style='color:#0098DC;'>0.5<span>/</span>0.8<span>/</span>1.1<span>/</span>1.5</span>秒",
+      description = {
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>260%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>0.5</span> seconds",
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>270%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>0.5</span> seconds",
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>280%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>0.5</span> seconds",
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>290%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>0.8</span> seconds",
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>300%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>0.8</span> seconds",
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>310%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>0.8</span> seconds",
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>320%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>1.1</span> seconds",
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>340%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>1.2</span> seconds",
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>360%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>1.3</span> seconds",
+        "Increase attack interval, every attack deals <span style='color:#0098DC;'>380%</span> damage and has <span style='color:#0098DC;'>40%</span> chance to stun the target for <span style='color:#0098DC;'>1.5</span> seconds",
+      },
       sp = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
       duration = { 15, 16, 17, 18, 19, 20, 21, 22, 23, 25 },
     },
@@ -321,13 +354,13 @@ return {
       }
     },
     {
-      name = "King of Beasts",
+      name = "Obliterate",
       levels = {
         {
           elite = 2,
           level = 1,
           potential = 0,
-          description = "When deployed, all 【Vanguard】 operatives gain Attack and Defense +4%",
+          description = "Obtain 1 SP when an enemy dies within the adjacent 4 tiles",
         },
       }
     },
@@ -349,11 +382,11 @@ return {
   },
   infrastructure_skills = {
     {
-      name = "undefined",
+      name = "Leader",
       badge = "dorm",
       facility = "Dormitory",
       unlockIcon = "elite0",
-      description = "undefined"
+      description = "When stationed at a Dorm, increase mood recovery of all operators within that dorm by +0.15 per hour (When stacked, only the highest effect becomes active)"
     },
   },
   meta = {
