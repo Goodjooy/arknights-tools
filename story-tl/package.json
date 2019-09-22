@@ -1,12 +1,10 @@
 {
   "name": "arknights-story-tl",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Generates locale files for manual translators",
   "scripts": {
-    "start": "node index.js",
-    "names": "node names.js",
-    "csv-extract": "node csv-extract.js",
-    "csv-replace": "node csv-replace.js"
+    "extract": "node scripts/extract.js",
+    "replace": "node scripts/replace.js"
   },
   "dependencies": {
     "bluebird": "^3.5.1",

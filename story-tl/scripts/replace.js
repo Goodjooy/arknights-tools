@@ -1,3 +1,5 @@
+// txt -> tld
+
 (async function() {
   const fs = require('fs')
   const path = require('path')
@@ -24,4 +26,4 @@
   // let cellRange = sheetName + '!A2:J'
   //  let sheetData = await loadSheetData('10g0Lxx38typ2hOQA4G8M1gk4epkIcmOVnftIYicyp9A', cellRange)
 
-})();
+})()
