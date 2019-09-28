@@ -300,7 +300,8 @@ Promise.all([
     console.log('**' + (displayMonth || 'Undisclosed') + '**')
     birthMonths[birthMonth] = birthMonths[birthMonth].sort((a,b) => (a.day > b.day) ? 1 : ((b.day > a.day) ? -1 : 0))
     birthMonths[birthMonth].forEach(birthChar => {
-      console.log('  • ' + birthChar.name + ' ' + (ordinal(parseInt(birthChar.day, 10))) || '')
+      let dateDispay = displayMonth ? ordinal(parseInt(birthChar.day, 10)) : ''
+      console.log('  • ' + birthChar.name + ' ' + dateDispay)
     })
     console.log('')
   })
