@@ -99,7 +99,7 @@ Promise.all([
             if (!info) return
             if (info[2]) {
               info[2] = info[2].trim()
-              details[handbookField(info[1])] = t(info[2])
+              if (!details[handbookField(info[1])]) details[handbookField(info[1])] = t(info[2])
             }
           }
         })
