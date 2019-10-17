@@ -481,7 +481,7 @@ class StoryPart {
   predicate() {
     this.type = StoryPart.TYPE_PREDICATE
     let data = StoryPart.REGEX_PREDICATE.exec(this.line)
-    this.predicateReference = data[1]
+    this.predicateReference = data[1].split(';')[0]
     return Promise.resolve()
   }
 

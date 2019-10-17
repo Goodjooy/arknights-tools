@@ -104,6 +104,9 @@ class Page {
           ctx.fillRect(drawX, drawY, drawWidth, drawHeight)
         })
       })
+      .catch(err => {
+        console.log('----------------------\n CANNOT LOAD IMAGE', imageName)
+      })
   }
 
   canFit(part) {

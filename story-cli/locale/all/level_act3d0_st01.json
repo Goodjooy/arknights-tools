@@ -1,0 +1,1385 @@
+{
+  "messages": [
+    {
+      "zh": "第一关（前）",
+      "en": "Stage 1 (Before)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "火山监测站那边的样本数据已经调出来了，请您查看一下。",
+      "en": "The sample data from the volcano monitoring station has been transferred. Please take a look.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女性的声音",
+      "zh": "直接告诉我结果吧。",
+      "en": "Just tell me the results.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "那边的人说样本的温度还没超过今年的最高温度。",
+      "en": "The people over there said the sample temperature has not yet exceeded the highest temperature this year.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "而且比过去三年的峰值还低不少。蒸汽状况也正常。",
+      "en": "And it is well below the peak after comparing the past three years of data. Steam condition is also normal.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "所以......",
+      "en": "So...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女性的声音",
+      "zh": "所以?",
+      "en": "So?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "所以监测站那边判断火山并不会有什么异常，再次驳回了您的公告请求，市长也......",
+      "en": "So the monitoring station decided that there was nothing unusual about the volcano, and once again rejected your request for an announcement, and the mayor also...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女性的声音",
+      "zh": "开什么玩笑！！",
+      "en": "Are you kidding me!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女性的声音",
+      "zh": "虽然方法简陋了一些，但我手头的样本明显有问题。",
+      "en": "While my methods were a little crude, the sample I had shown clear problems.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女性的声音",
+      "zh": "去年那个时候，火山的状况就已经很危险了！",
+      "en": "Last year on that particular time, the volcano condition was obviously dangerous!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女性的声音",
+      "zh": "但是他们一点警告都没有准备，甚至是新闻都没有！一点都没有！！",
+      "en": "But they prepared no warnings at all, not even a single news report! None of it!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "锡兰小姐，请、请您冷静点。",
+      "en": "Miss Ceylon, p-please calm down.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "如果监测站说没有异常，那我们采取任何行动都不会有人相信。",
+      "en": "If the monitoring station said that there is nothing unusual, then no one will believe anything we do.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "锡兰",
+      "zh": "......抱歉。",
+      "en": ".... I'm sorry.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "锡兰",
+      "zh": "观测站的样本数据可靠吗？",
+      "en": "Do you think the sample data from the monitoring station is reliable?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "说实话汐斯塔市政厅对这方面一直不是很重视，也许检测仪器真的出了点问题。",
+      "en": "To tell you the truth, Siesta city hall has not paid much attention on this aspect. Maybe there is something wrong with the detector.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "锡兰",
+      "zh": "那火山可能会发生异常的事实也会因此被掩盖。",
+      "en": "Then the fact that something unusual could happen at the volcano would be covered up.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "所以，下一步您打算怎么做？",
+      "en": "So, what are you going to do next?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "锡兰",
+      "zh": "现在的现象并不能用我所学到的专业知识解释，如果通过机构里的人无法得到正确的报告，就要依靠外人了。",
+      "en": "The current phenomena cannot be fully explained by the professional knowledge I have learned. If an accurate report cannot be obtained through the people in such an organization, we must depend on outsiders.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "锡兰",
+      "zh": "如今情况还算稳定，我们还有时间。能花点时间从这些游客里找到专业人员吗？",
+      "en": "The current situation is pretty stable, we still have time. Can you take the time to find professionals from these tourists?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "锡兰",
+      "zh": "虽然不能奢望能找到合适的人，更不能指望他们能给出结论，但是这是我们最后的机会了......",
+      "en": "We can't expect much to find the right people, and we also can't expect them to come to a decisive conclusion, but this is our last chance...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "锡兰",
+      "zh": "已经有不少赶在这个时候来到汐斯塔的游客了。",
+      "en": "Quite a lot of tourists have arrived in Siesta at this time.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "锡兰",
+      "zh": "毕竟，马上就是黑曜石节举办的时间了，再不采取行动的话就来不及了。",
+      "en": "After all, it's time for the obsidian festival and if we don't take any action now it will be too late for us to act.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "10:10 A.M.  天气/晴",
+      "en": "10:10 A.M. Weather/Sunny",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "zh": "汐斯塔",
+      "en": "Siesta",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "亲爱的旅客，您好，欢迎在一年一度的黑曜石节期间来到汐斯塔市。",
+      "en": "Dear tourists, welcome to Siesta during the annual obsidian festival.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "既然选择了来我们汐斯塔度假消暑，那么这座城市就一定不会让您失望！",
+      "en": "Since you chose to go on a summer vacation in Siesta, this city will not let you down!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "在这里，炎热会变成高涨的热情，您将会忘记一切不快和疲劳，彻底沉醉于汐斯塔市这个迷人的城市！",
+      "en": "Here, the heat will become high enthusiasm, you will forget all unhappy matters and tiredness, and become completely intoxicated in the fascinating Siesta city!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "而今年的汐斯塔有的可不仅仅是碧海蓝天、阳光沙滩，还有盛大召开的黑曜石节！",
+      "en": "This year's Siesta will not only have blue sea, blue sky, sunshine and sand beaches, but we are also holding a grand obsidian festival!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "持续半个月的黑曜石节中，除了美食和娱乐，全天开放的一切娱乐活动，还有我们最为盛大的全城音乐节！",
+      "en": "The obsidian festival lasts for half a month. Besides food and entertainment, there are all kinds of entertainment activities open all day, and don't forget our biggest city music festival!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "我们请到了各地的音乐大咖作为我们的特别嘉宾，带来这最热烈的音乐盛典！",
+      "en": "We have invited music celebrities from all over the world as our special guests to bring the warmest music ceremony!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "在节日持续日期中，我们特意为大家准备了各项免费设施和活动，大家可以按照喜好进行游玩！",
+      "en": "During the festival duration, we have prepared various free facilities and activities for everyone to enjoy!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "在市民广场上，“摇滚派对”和无限供应的汐斯塔自产啤酒是绝对的主角！",
+      "en": "In the civic square, the \"rock party\" and the endless supply of Siesta's finest produced beer are the absolute stars!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "放开一切，跟随着鼓点尽情舞动。",
+      "en": "Let go and dance to the beat of the tune.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "想要享受悠扬？前往第二大道的赫尔曼大酒店门前广场，那里是爵士的天堂。",
+      "en": "Want to enjoy melodious music? Then head to the plaza in front of the Herman hotel on second avenue, that's where Jazz heaven is.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "无限制无规则，只要你愿意，你就能融入！",
+      "en": "There are no limits and no rules, as long as you want to, you can join in!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "座落在城东火山脚下的加里森游乐场，在继续24小时免费开放的同时，搭建了城中最大的音乐舞台。",
+      "en": "Located at the foot of the volcano in the east of the city, Garrison amusement park continues to open 24 hours for free while setting up the largest music stage in the city.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "除开每天的固定表演，我们还迎来了众多神秘嘉宾，是喜欢说唱文化的您绝对不容错过的存在。",
+      "en": "In addition to regular performances everyday, we also welcome a number of mysterious guests, if you like rap culture you absolutely cannot miss such an occasion.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "除此之外，也还有众多演出伴随着我们的各项活动分布在全城，等待着您的到来。",
+      "en": "Not only that, there are also numerous performances along with our various activities in the city, everything is waiting for your arrival.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "请各位前往在各个路口岗哨处的STAFF人员处领取黑曜石节特制城市地图。",
+      "en": "Please head to the stationed STAFF at each intersection to get a special city map for the obsidian festival.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "我们为您标注了节日期间，市内所有演出的地点与时间，方便您提前规划路线与行程。",
+      "en": "We have marked the location and time of all performances in the city during the festival, so that you can plan your route and itinerary in advance.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "狂欢之际，大家也要注意天气。",
+      "en": "During the event, everyone should also pay attention to the weather.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "今天的气温高达36度，是入夏以来最热的一天。出行期间，请注意防晒，避免中暑。",
+      "en": "It's 36 degrees today, the hottest day since summer began. Please pay attention and apply sun protection during your travels to avoid heat stroke.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "祝大家玩得愉快！",
+      "en": "I wish everyone have a good time!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "不愧是专门的旅游度假都市汐斯塔，气氛真是高涨呢。",
+      "en": "As expected of a special tourism resort city, the atmosphere in Siesta is really high.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "没想到会这么热闹。",
+      "en": "I didn't expect it to be so lively.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "竟然会举办这么大型的活动。",
+      "en": "They are even holding a big event.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我也没有想到！",
+      "en": "Neither did I!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "在来之前我们都没猜到这里这么特别，本来还以为是个普通的海边小城。",
+      "en": "We didn't know it was so special before we came here. We thought it was just a normal seaside town.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "多亏了给我们推荐这里的凯尔希医生了。",
+      "en": "Thanks to Dr. Kal'tsit who recommended this place to us.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "......这地方我没有什么兴趣，你们去就可以了。",
+      "en": "... I'm not interested in this place, you guys can go there.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "煌",
+      "zh": "等等我！我也想去。",
+      "en": "Wait for me! I want to go as well.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "凯尔希",
+      "zh": "站住。你的伤还没好，不准走。",
+      "en": "Stop. You're not going to leave until your wounds are healed.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "我也不讨厌这样的地方。;真是积极的推荐手法。",
+      "en": "I don't hate places like this. ; What a positive recommendation.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "博士能喜欢这里那就最好了。",
+      "en": "It's a nice place if even Doctor likes it here.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "这段时间遇到了太多事情，博士也辛苦了。",
+      "en": "There are so many things happening these days, Doctor had to handle so much trouble.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "这次，有不少罗德岛的干员们也都一起过来了，趁这个机会好好放松一下吧。",
+      "en": "This time, a number of Rhodes Island operators came along, so take the opportunity to relax.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "啊，博士，你看那边，有人在露天弹钢琴。",
+      "en": "Oh, Doctor, look over there. Someone is playing the piano in public.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "那边有人在弹吉他，还有小提琴，哇，跳舞的也有......",
+      "en": "There is a person playing the guitar, and even a violin, wow, there's dancing too...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "让我想起以前天天练习演奏的日子。",
+      "en": "Reminds me of the days when I used to practice everyday.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "整条街上的气氛都跟刚才的海滩完全不同。",
+      "en": "The whole street has a completely different atmosphere from the beach.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "第一见到这么多喜欢演奏的人，果然让人很想融入他们呢。",
+      "en": "This is the first time I saw so many people liking and playing music, truly it does make a person want to fit in with them.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "阿米娅把小提琴带来了吗？",
+      "en": "Did you bring your violin?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "啊没有没有，我并不是这个意思。我并不是说自己要去加入他们！",
+      "en": "Oh, no, no, that's not what I meant. I'm not saying I'm going to join them!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "可能要完全恢复到之前的水平，我还要重新练一练才行。",
+      "en": "Maybe I have to practice again before I get back to my previous level.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "可是阿米娅现在也不输他们啊。",
+      "en": "But Amiya can beat them now anyways.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "哪，哪里有啊！",
+      "en": "W-well I can't!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "不过，博士能这么说，我好高兴。",
+      "en": "I'm glad Doctor said that, though.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "咦，空？",
+      "en": "Eh, Sora?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "啊，博士，阿米娅，早上好，没想到你们也到第二大道来了！",
+      "en": "Ah, Doctor, Amiya, good morning, I didn't know you both were on second avenue.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "早上好，没想到空也喜欢爵士乐的街道。",
+      "en": "Good morning, I didn't expect Sora to also like street Jazz music.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "还以为你会更喜欢都市派的音乐呢。",
+      "en": "I thought you only prefer urban music.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "对于音乐，不管什么种类我可都是行家!",
+      "en": "Regarding music, I am a connoisseur in any kind!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "......其实本来我也想去其他地方看看，不过昨晚被旅馆附近的LIVE吵到关了窗户戴上耳塞都没能睡着呢。",
+      "en": "... Actually, I would like to visit other places, but last night I was so annoyed by the LIVE near the hotel that I closed the window and put on earplugs. I couldn't sleep well that night.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "虽然白天的时候能听到音乐很好，到了晚上也还吵个不停就有点难受了。",
+      "en": "Although it's good to hear music during the day, it's a little hard to endure it at night.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "结果因为昨天闹得太欢，今天只能先在这里休息休息了。",
+      "en": "As a result of yesterday being too lively, I can only get some rest here today.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "毕竟是音乐节期间，这也是热闹的证明呢。",
+      "en": "After all, it's music festival time, and it's a testament to its liveliness.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "啊哈哈，也没办法呢，我们当中有好多人都没见过海。",
+      "en": "Well haha, it can't be helped. Many of us have never seen the sea before.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "比如今天一大早，伊芙利特又大喊着“大海我来啦！”就冲出去了，也不知道她现在跑哪儿去了。",
+      "en": "For example earlier this morning, Ifrit shouted \"Sea here I come!\" and then ran out, I don't even know where she is now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "哈哈，确实。",
+      "en": "Haha, indeed.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "虽然，这片海据说严格意义上只是一座巨大的湖泊......",
+      "en": "Although this sea is said to be technically a huge lake...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "有水有沙滩就是海啦~",
+      "en": "But as long as there is water and sand, it's the sea~",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "等我先在这里用早晨的时间缓一缓，中午到晚上就算火山爆发都不能阻止我去玩个够！",
+      "en": "While I'm relaxing here in the morning, wait until its noon to night, even a volcanic eruption cannot stop me from having a good time!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "哈哈不愧是空，那么我们先走啦。",
+      "en": "Haha as expected of Sora, then we shall take our leave first.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "好的~阿米娅和博士也玩得开心哦。",
+      "en": "Alright~ Amiya and Doctor have a good time as well.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "现在是11点，大家是否度过了一个完美的早晨呢？",
+      "en": "It's eleven o 'clock. Has everyone had a perfect morning?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "享受着汐斯塔的惬意早餐，下午的时光近在眼前。",
+      "en": "Enjoy the comfortable Siesta breakfast, the afternoon is just around the corner.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "今天，让我们请来汐斯塔市的市长助理，兼汐斯塔市天灾信使克洛宁先生来跟我们讲解一下汐斯塔市和汐斯塔火山吧。",
+      "en": "Today, let's have Mr.Kroenig, the mayoral assistant and natural disaster messenger of Siesta, talk about Siesta and Siesta's volcano.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "欢迎大家来到汐斯塔市。",
+      "en": "Welcome everyone to Siesta city.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "在这里有着青山绿水，阳光清风，以及我们热情的汐斯塔市民们。",
+      "en": "Siesta has beautiful mountains and water, sunshine and wind, as well as our enthusiastic Siestan (Siesta people) warm welcome.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "也正得益于这种不可多得的完美自然环境，汐斯塔才会致力于成为最好的旅游胜地，带给大家最好的夏日假期体验。",
+      "en": "Thanks to this rare and perfect natural environment, Siesta is committed to becoming the best tourist resort and bringing everyone the best summer vacation experience.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "要说到这里，更不得不提我们的汐斯塔火山了。很多不熟悉火山的游客可能对此有所疑问，您能给大家讲解一下吗？",
+      "en": "With that said, we must mention Siesta's volcano. Many tourists who are not familiar with the volcano may have some questions about this. Could you please explain it to everyone?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "好的。请大家可以不用担心。和大家的印象中的火山不同，没有那么多的神秘和危险，汐斯塔火山是我们的朋友。",
+      "en": "Alright. Please don't worry everyone. Different from other volcanoes in everyone's impression, it is not so mysterious and dangerous. The volcano in Siesta is our friend.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "这点我可以用天灾信使的身份担保，请大家放心。",
+      "en": "I can guarantee this with my credibility as a natural disaster messenger, everyone please rest assured.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "想必各位都知道，汐斯塔市能够发展起来，是离不开汐斯塔的火山的。",
+      "en": "I think everyone knows that Siesta city's development is inseparable from the volcano.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "别忘了多年前那场与汐斯塔擦肩而过的天灾，正是因为火山的保护，汐斯塔才没有被波及到。",
+      "en": "I remember that many years ago Siesta brush past a natural disaster, thanks to the volcano's protection, Siesta was not affected by the natural disaster.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "那么说起来，汐斯塔还有样非常特别的东西——黑曜石。",
+      "en": "We should also mention that Siesta has something very special——obsidian.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "黑曜石被认为有抑制矿石病的功效，所以，近年广受流行。",
+      "en": "Obsidian is believed to have the effect of inhibiting Oripathy, so it has become popular in recent years.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "是的，汐斯塔市的矿石病感染者数量如此之低就是最好的例子。",
+      "en": "Yes, the best example we have is Siesta's lowest Oripathy infected.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "虽然您可能会听到外界的传闻，所谓的科学理论，但是不管怎么样，汐斯塔市的现状就是最好的证据。",
+      "en": "Although everyone may have heard of outside rumors, or the so-called scientific theory, regardless, the situation in Siesta is the best evidence.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "但可惜的是，黑曜石的开采因为一些原因，会带来对火山自然环境的破坏，目前市政厅已经下发开采禁令。",
+      "en": "Unfortunately, the mining of obsidian, for a number of reasons, can cause damage to the volcano's natural environment. The city council has already issued a mining ban.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "不过目前我们仍然允许黑曜石交易，因此如果对黑曜石制品感兴趣，可以多多关注交易市场的行情。",
+      "en": "However we still allow obsidian trading, for those interested in obsidian products, you can keep an eye on our market.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "在整个黑曜石节期间，我们会在各个地方安设纪念品和导购指南的小商店，大家可以随意挑选。",
+      "en": "Throughout the obsidian festival, small shops with souvenirs and guidebooks will be set up in various places for everyone to choose from.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "克洛宁",
+      "zh": "火山带给汐斯塔市如此的馈赠，我们也会把这些馈赠分享给大家，希望大家在之后的节日中保持愉快的心情。",
+      "en": "The volcano brings such gifts to Siesta city, we will also share these gifts to everyone, and hope that everyone can keep a happy mood throughout the festival.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "广播",
+      "zh": "那么我们稍后再见，感谢克洛宁先生。",
+      "en": "Thank you Mr.Kroenig, we'll be on air later everyone.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "黑曜石能抑制矿石病，这种说法根本就没有听过啊。",
+      "en": "I never heard of the idea that obsidian inhibits Oripathy.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "而且这个天灾信使，提到科学时的语气真让人不舒服......",
+      "en": "And this natural disaster messenger, when he spoke about science in such a disrespectful tone...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "矿石病如果这么简单就能被预防就好了。",
+      "en": "If only Oripathy could be prevented as simple as that.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "旅游城市总会有增加收入的独特方式。",
+      "en": "Tourist cities will always have unique ways to increase revenue.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "在这样偏远的地方，还是会有这么多对于源石和天灾没有太多认知的人们。",
+      "en": "In such a remote place, there are still so many people who do not know much about originium and natural disasters.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "也不知道到底是幸福还是可怜。",
+      "en": "I don't know whether to feel bliss or pity.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "天火",
+      "zh": "无知那自然是可怜的事情！",
+      "en": "Ignorance, of course, is a pitiful thing!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "天火，普罗旺斯！早上好！",
+      "en": "Skyfire, Provence! Good morning!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "普罗旺斯",
+      "zh": "阿米娅，博士，早。",
+      "en": "Amiya, Doctor, morning.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "普罗旺斯",
+      "zh": "真巧，看这个方向，博士你们准备去海滩吗？",
+      "en": "What a coincidence. Judging by your direction, Doctor, are you going to the beach?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我们也只是到处看看。普罗旺斯和天火呢？",
+      "en": "We're just looking around. What about you both?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "天火",
+      "zh": "我们准备去汐斯塔火山脚下去看看嗯。",
+      "en": "We're going to take a look at the foot of Siesta's volcano.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "火山脚？我看看地图。",
+      "en": "Foot of Siesta's volcano? Let me take a look at the map.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "上面似乎没有标注，那里是有什么特别的活动？",
+      "en": "It doesn't seem to be labeled. Are there any special activities there?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "普罗旺斯",
+      "zh": "没有没有，天火她就是一时兴起想去实地考察一下而已。",
+      "en": "No, no, Skyfire was just in the mood and wanted to go on a field trip.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "普罗旺斯",
+      "zh": "而我作为天灾信使，每到一个地方，去这样的地方看看也已经是习惯啦。",
+      "en": "As for me, I'm a natural disaster messenger, whenever I go to new places, I become accustomed to visiting such places.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "天火",
+      "zh": "作为一个研究者，我还是挺好奇的，能亲眼观察火山生态的机会可不多。",
+      "en": "As a researcher, I'm curious. I don't get many opportunities to see the ecology of volcanoes.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "即使是度假，天火也依然是这么热衷于研究啊。",
+      "en": "Even on a vacation, Skyfire is still so keen on research.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "天火",
+      "zh": "嗯哼，那当然，对我来说，这就是度假。",
+      "en": "Uh-huh, of course, to me it's a holiday.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "普罗旺斯",
+      "zh": "那么我们先走了，拜拜。",
+      "en": "Then we shall take our leave, goodbye.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "那我们也走吧博士。",
+      "en": "Let's go as well Doctor.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "前面就是汐斯塔市最大的沙滩了。",
+      "en": "In front of us is the biggest beach in Siesta city.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "我们快过去吧！",
+      "en": "Let's go now!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "一杯芒果马丁尼冰沙。",
+      "en": "A mango martini sorbet.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "好嘞。来，这是芒果马丁尼沙冰~",
+      "en": "OK. Here, your mango martini sorbet~",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客",
+      "zh": "两个草莓龙舌兰双球冰淇淋。",
+      "en": "Two strawberry tequila double scoop ice creams.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "给！特制草莓龙舌兰双球冰淇淋！再附赠你一份华夫饼！",
+      "en": "Here! Special made strawberry tequila double scoop ice creams! And an extra waffle as a bonus!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "古米~",
+      "en": "Gumi~",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "咦，阿米娅！还有博士，你们好呀~",
+      "en": "Ah, Amiya! And Doctor, how are you guys doing~",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "古米，你怎么在这里摆摊啊？",
+      "en": "Gumi, why are you having a stall here?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "因为沙滩这边有一整个美食区域，主办方也给游客提供了可以一展身手的机会。",
+      "en": "Since there is a whole food area on the beach, the organizers also give tourists a chance to show off their skills.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "有这样的机会，不给大家展示展示乌萨斯的特制冷饮怎么行！",
+      "en": "How can I waste this opportunity not to show the people Ursus' special cold drinks and desserts!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "不过，这里的游客实在太多了，古米都要忙不过来了。",
+      "en": "But there are so many tourists here that even Gumi is overwhelmed.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "小姑娘，来三杯特调酒酿珍珠奶茶加布丁。",
+      "en": "Little lady, three special brewed pearl milk tea with pudding.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "来了！",
+      "en": "Coming!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "对了，博士，古米可不可以借走阿米娅？",
+      "en": "By the way, Doctor, can Gumi borrow Amiya for a while?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "欸？",
+      "en": "Huh?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "有阿米娅帮忙一起摆摊的话，古米就腾得出手啦。",
+      "en": "With Amiya helping me at the stall, Gumi would be less overwhelmed.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "等到我们忙完了，晚上就带阿米娅去看沙滩的演出怎么样！",
+      "en": "Once we're done, I'll be taking Amiya to the beach show tonight!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "去吧，阿米娅。",
+      "en": "Go ahead, Amiya.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "可不许累着阿米娅。",
+      "en": "But don't tire her too much.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "我来帮忙不行吗？",
+      "en": "Can't I also help you?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "嗯......那好吧。",
+      "en": "Erm... Okay.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "那博士你记得有事要联络我哦？",
+      "en": "Doctor, remember to contact me if you need me.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "哼，要古米我说呢，跟在博士你身边，才是会累着阿米娅呢。",
+      "en": "Hmph, if Gumi must say, it's by following Doctor that Amiya gets tired.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "因为阿米娅跟在博士身边，就不会去想自己的事，这样可不行。",
+      "en": "Because if Amiya is by Doctor's side, she will not think of her own well-being. That won't do at all.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "没、没有啦......",
+      "en": "It, it's nothing...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "才不要咧。",
+      "en": "I disagree.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "博士包得这么严实，站在那里都要把客人吓走啦，哪有阿米娅可爱。",
+      "en": "Doctor would have frightened the guests away with their apperance so wrapped up like that. Unlike cute Amiya here.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "没有啦......不过，博士，那我就留在这里帮古米吧。",
+      "en": "It's not like that... But, Doctor, then I'll stay here and help Gumi.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "那阿米娅，古米先来教你怎么用这个机器。",
+      "en": "So Amiya, Gumi will show you how to use this machine first.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "阿米娅",
+      "zh": "嗯。",
+      "en": "Okay.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "哦不对，首先是要换衣服。来来来我陪你去换一身轻便的！",
+      "en": "Oh, right. First, change of clothes. Come on, let's get you something light to wear!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "古米",
+      "zh": "博士也玩得开心哦，拜拜~",
+      "en": "Doctor, go have some fun. Bye~",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "阿米娅应该多和同龄人一起玩。",
+      "en": "Amiya should play more often with her peers.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "（一个人去沙滩边的露天酒店逛逛吧）",
+      "en": "(I should go to an outdoor beach bar myself)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "或许我也应该穿得夏天一点？",
+      "en": "Maybe I should wear summer clothes, too?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客A",
+      "zh": "喂，你听说了吗？第一大道昨天晚上又打起来了。",
+      "en": "Hey, did you hear? A fight broke out on first avenue again last night.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客B",
+      "zh": "我住第五大道我怎么可能知道，不过我猜是粉丝打架。",
+      "en": "I live on fifth avenue. How am I supposed to know? But I guess it's a fan fight.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客A",
+      "zh": "没错，啧啧，真是不来不知道，乐迷们打起架跟对方是自己杀父仇人一样狠。",
+      "en": "You're right, tut tut, I really don't know, the fans fight as hard as if the other side is their own enemy who had killed their father.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客B",
+      "zh": "还是和平点好，还是和平点好。",
+      "en": "Peace is much better.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客A",
+      "zh": "......所以你就不能赶紧把你这一身脱了吗？！",
+      "en": "... So why can't you just get rid of this attire? !",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客A",
+      "zh": "难得来度假一次，你怎么还不赶紧把这身换掉！",
+      "en": "It's a hard to come by vacation. Why don't you change it now?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客A",
+      "zh": "我说，今晚你还去不去？一起啊！",
+      "en": "I said, are you still going out tonight? Let's go together!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客C",
+      "zh": "......别跟我说你们几个今晚还要去蹦迪。",
+      "en": "... Don't tell me you guys are going disco dancing tonight.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客A",
+      "zh": "当然要去啊，我们来这里就是为了蹦迪！",
+      "en": "Of course, we're here for the disco!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客C",
+      "zh": "饶了我吧，你们就自己去吧。陪你们去了三个晚上，我已经快撑不住了......",
+      "en": "Give me a break, you can go by yourselves. I've been with you guys for three nights, I can hardly stand it anymore...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客A",
+      "zh": "哎呀，才几点！再多蹦几次你就习惯了！",
+      "en": "Aiyah, it's just a few times! A few more disco and you'll get used to it!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "侍应生",
+      "zh": "你好，二位的威士忌。",
+      "en": "Hello, whiskey for both of you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "......"
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "......"
+    },
+    {
+      "ch": "？？？",
+      "zh": "呵呵，看你的打扮，即使是游客也特别了一点呢......",
+      "en": "Hmm, looking at your apperance, even as a tourist yours are a bit special...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "......我比较害怕日晒。",
+      "en": "... I'm more afraid of the sun.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "既然这样还特地来海边吗，真是怪人啊。",
+      "en": "Why did you even come to the beach then? What a weird person.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "......"
+    },
+    {
+      "ch": "？？？",
+      "zh": "......呵，我也没什么资格说就是了。",
+      "en": "... Hmph, I'm not qualified to say that anyways.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "抱歉，你这杯威士忌就让我来请客好了。",
+      "en": "I apologize, just let me pay for your whiskey.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "（什么这原来不是免费的吗？！）",
+      "en": "(What? It isn't free?!)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "怎么样，喜欢这个新兴的城市吗？",
+      "en": "How about it, do you like this rising city?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "我最喜欢的就是她这样，稚气未脱但是蓬勃成长的样子。",
+      "en": "What I like most is her childlike but vigorous growth.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "你是本地人吗？",
+      "en": "Are you a local?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "我并不是在这里土生土长，但是这里现在就是我的家。",
+      "en": "I wasn't born and raised here, but this is my home now.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "为了守护这里，我可以付出很多东西。",
+      "en": "In order to protect this place, I can sacrifice many things.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "不管是哪里的人，对于家人的感情都是一样的不是吗？",
+      "en": "No matter where people are, they feel the same about their families, don't they?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "头儿，克洛宁先生找你。",
+      "en": "Chief, Mr.Kroenig is here for you.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "......知道了。",
+      "en": "...I know.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "我还有工作，先走了，陌生人。",
+      "en": "I still have some work. I shall take my leave, stranger.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "？？？",
+      "zh": "希望你可以也喜欢上这个城市。",
+      "en": "I hope you can also like this city.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "真是个奇怪的人。;真是个温柔的人。;真是个漂亮的人。",
+      "en": "What a strange woman. ; She's seems to be a gentle person, and a beautiful one at that as well.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "PLAYER",
+      "zh": "有通讯？",
+      "en": "My comms?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "普罗旺斯",
+      "zh": "喂，博士，听得到吗？",
+      "en": "Hey Doctor, can you hear this?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "普罗旺斯",
+      "zh": "周围有其他人在吗，我有很重要的事情要向你汇报！",
+      "en": "Is there anyone else around? I have something important to report to you!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "普罗旺斯",
+      "zh": "这件事，可能事关这座城市的存亡......",
+      "en": "This matter is related to the survival of this city...",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

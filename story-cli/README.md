@@ -40,6 +40,9 @@ npm install
 ```
 npm run start src="level_main_1_BEG"
 ```
+```
+npm run start src="level_main_1_BEG" title="untitled" tl="LanceGT0"  qc="Cosmic" cover="ac3_kv"
+```
 * See output in `/output/<lang>/<title>/<pageNum>.png`
 
 ### Generate per level

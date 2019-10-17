@@ -1,0 +1,557 @@
+{
+  "messages": [
+    {
+      "zh": "第一关（前）",
+      "en": "Stage 1 (Before)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客",
+      "zh": "刚才是不是地震了？",
+      "en": "Was that an earthquake just now?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "对啊！！",
+      "en": "You're right!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "毕竟我们离舞台这么近哎！看到了吗！？你看到D.D.D.的表情了吗！？她是怎么做到的！？",
+      "en": "After all, we're so close to the stage! See! ? Did you see D.D.D expression!? How did she do that!?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客",
+      "zh": "她已经下台了啦，你不要老是这么......等等，这不是又在震了？",
+      "en": "She's off the stage now, don't always do this... Wait, this place is shaking again?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "哎呀，说不定是低音炮的缘故......慢着。",
+      "en": "Aiyah, Maybe it's the subwoofer... Wait.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客",
+      "zh": "哎...哎？你也察觉到了？",
+      "en": "Eh...Eh? Did you noticed that too?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "......快走！",
+      "en": "....Run now!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客",
+      "zh": "什、什么？",
+      "en": "W-What?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "别问那么多了，快跟我走！",
+      "en": "Stop asking so many questions and come with me now!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "观众",
+      "zh": "不要挤啊！离我远点！",
+      "en": "Don't push! Stay away from me!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "观众",
+      "zh": "你踩着我的脚了！！滚开啊！！",
+      "en": "You step on my foot! Get away from me!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "观众",
+      "zh": "有人晕倒了！小心！",
+      "en": "Somebody fainted! Be careful!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客",
+      "zh": "怎、怎么突然都躁动起来，难道真的是......",
+      "en": "What, what is with all this sudden commotion, is it really...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "......我的天。",
+      "en": "...My god.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "......是大帝。",
+      "en": "...It's the Emperor.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "嗯哼，天气不错。",
+      "en": "Uh-huh, what a nice day.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "",
+      "zh": "（欢呼声）",
+      "en": "(Sounds of cheering)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "男游客",
+      "zh": "大帝！是真人！！啊啊——！",
+      "en": "Emperor! In person!! Ahhhh——!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客",
+      "zh": "......"
+    },
+    {
+      "ch": "男游客",
+      "zh": "别蠢了！这都什么时候了，你竟然还在意地震！？",
+      "en": "Don't be so foolish! In a time like this, you still care about the shaking!?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客",
+      "zh": "不，只是，看见大帝，等等，我有点，喘不过气......",
+      "en": "No, it's just, seeing the Emperor, wait, I need, to catch my breath...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "大帝先生，这边请。",
+      "en": "Mr.Emperor, this way please.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "各位观众！请退后！退至线后！",
+      "en": "Audience! Please stand back! Back behind the line!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "喂，那个萨弗拉年轻人。",
+      "en": "Hey, that young Savra.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "没关系，让他们靠近点。",
+      "en": "It's okay. Let them come closer.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "可是大帝先生，您一会还有演出，如果出了什么意外......",
+      "en": "But Mr.Emperor, you will be performing later. Should anything happen to you...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "意外？",
+      "en": "Should anything happen to me?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "枪击，刺杀，绑架，自杀威胁，意外是指这些东西？",
+      "en": "You mean shootings, stabbings, kidnappings, suicide threats, accidents?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "这些东西能阻止什么？阻止我吗？",
+      "en": "What can those things stop? Are you implying those things would stop me?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "不，它们会变成我舞台的一部分，就像语言的意义被节奏消解，你明白吗？",
+      "en": "No, they will become a part of my stage, like the meaning of a language lost in rhythm, you know?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "不、不明白......",
+      "en": "No, I don't understand...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "简单来说就是节目效果。放轻松，塞壬唱片绝对不会追究你们失责。",
+      "en": "Simply put, it's for the show effect. Relax, Sirens records won't hold you accountable.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "",
+      "zh": "（欢呼声）",
+      "en": "(Sounds of cheering)",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "观众",
+      "zh": "大帝！！大帝！！大帝！！",
+      "en": "Emperor!!Emperor!!Emperor!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "表情古怪的游客",
+      "zh": "......"
+    },
+    {
+      "ch": "大帝",
+      "zh": "喔，总算来了，快，不要紧张，放轻松，大胆点，相信你自己。",
+      "en": "Oh, it's finally here. Come on. Don't be so nervous. Relax, get some courage, and believe in yourself.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "表情古怪的游客",
+      "zh": "什么西哥伦比亚的说唱之神，你，你就是个痞子，一个走狗屎运的幸运儿......",
+      "en": "What West Columbia rap god, you, you're a rascal, a lucky dog...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "大声点，伙计，大声说话！喂，萨弗拉人，不要赶他走，把麦克风给他。不要慌，这里听我的。",
+      "en": "Speak up, man, speak up! Hey, Savra, don't send him away. Give him the mic(microphone). Don't panic man. Trust me here.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "表情古怪的游客",
+      "zh": "你毁了我们的生活，你却坐拥那么多产业，你......你该去死！！",
+      "en": "You've ruined our lives, and yet you're sitting on so many assets, you... you deserve to die!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "女游客",
+      "zh": "咿呀——他拔出了一把弩！快躲开！",
+      "en": "*Babble*——He pulled out a crossbow! Hide!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "表情古怪的游客",
+      "zh": "不怪我，对，都是你的错，你所谓的说唱帝国建立在多少歌手的牺牲之下——",
+      "en": "Don't blame me, right, it's all your fault, your so-called rap empire is built on the sacrifice of many singers——",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "表情古怪的游客",
+      "zh": "什么大帝啊，吃屎去吧，你这只下作的企鹅！",
+      "en": "What Emperor, eat shit, you lousy penguin!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "啊哈，让我想想，到底是谁在耍一些不入流的小手段？媒体，舆论，人身攻击，还有枪杀，哼？",
+      "en": "Ah-ha, let me remember, who on earth is actually pulling the dirty tricks? Using the media, the press, the personal attacks, the shootings, huh?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "你以为在下水道和垃圾堆里打一圈滚我就认不出你了吗？对那些年轻人开枪让你满足吗，“歌手”？",
+      "en": "You think I can't recognize you after you've been rolling around in sewers and garbage dumps? Are you content to shoot those young people, \"singer\"?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "表情古怪的游客",
+      "zh": "你——！",
+      "en": "You——!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "如果不是我恰好有那么点看不顺眼，你们又会继续“排除”掉多少不合口味的新星。",
+      "en": "If I didn't happen to feel your actions were distasteful, your ilk would continue to \"eliminate\" many non-mainstream new stars.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "然后把捞来的钞票堆在自己的澡盆里，唾弃着整个哥伦比亚？",
+      "en": "And then pile your ill-gotten money in your own bathtub and spurn Colombia as yours?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "表情古怪的游客",
+      "zh": "闭嘴！给我去死！",
+      "en": "Shut up! Go to hell!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "快保护大帝先生！",
+      "en": "Protect Mr.Emperor!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "大帝先生中弹了，快......欸？",
+      "en": "Emperor was shot, quick...huh?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "开枪的是大帝先生？那家伙的弩被打飞了？",
+      "en": "Mr.Emperor was the one who shot first? That person's crossbow flew off?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "哒哒哒哒哒，哒！砰！",
+      "en": "Da, da, da, da! Bang!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "真奇怪。同你废话了这么多，枪口冒烟的人怎么是我？猜猜看？",
+      "en": "How strage. After listening to all of your nonsense, how come the gun smoke came from mine? Do you want to guess?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "是因为你太没种，还是我光芒万丈，你睁不开眼？",
+      "en": "Is it because you're too weak, or because I'm so bright, you can't open your eyes properly?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "表情古怪的游客",
+      "zh": "咕——呃——你随身带着枪械......",
+      "en": "Gurgh——Ergh——You carry a gun with you...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "如果一个人每天多死个几次，就会养成随身携带武器的好习惯。",
+      "en": "If a man died more than once a day, he will develop a good habit of carrying weapons with him.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "表情古怪的游客",
+      "zh": "咳咳——你以为，只有我一个人吗？想想你过去招惹的敌人，你走不出这座汐斯塔市的！",
+      "en": "*Cough*——You think I'm the only one? Think of your past enemies you've provoked, you will not walk out of Siesta city!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "我的过去比这边虚假的海洋还要宽广，你说的敌人又在哪个犄角旮旯？",
+      "en": "My past is wider than this false sea, and where are the enemies you mentioned hiding in the nooks and crannies?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "大帝先生！观众里面混着很多他们的同伙，我们处理不过来......",
+      "en": "Mr.Emperor! There's a lot of them in the audience, we can't handle them all...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "行了，不要这么慌张。你们就维护好现场的秩序，剩下的交给专业人士。",
+      "en": "That's fine, don't panic. You can just maintain order on the site and leave the rest to the professionals.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "比如我的，企鹅物流。",
+      "en": "Take my example. Penguin Logistics.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "可颂",
+      "zh": "......我怎么记得我们是来度假的？姑且问一下，有加班费吗？",
+      "en": "...I thought we were on a vacation? Anyways, may I ask if there's overtime pay?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "德克萨斯",
+      "zh": "在旅店呆了这么久，的确可以适当运动一下。",
+      "en": "We've been staying at the hotel for so long, I think it's time for some exercise.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "因为德克萨......因为“空”你一直待在宾馆里看书嘛......",
+      "en": "That's because Texas... you've been reading in the hotel because of \"Sora\"...",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "德克萨斯",
+      "zh": "......好像是还有这个约定。战斗的时候反应得过来吗，德克萨斯？",
+      "en": "...Seems like there's such an arrangement. Can you handle the fight, Texas?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "没问题！",
+      "en": "Not a problem!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "能天使",
+      "zh": "老板，这里完工了，要帮我订明天最前排的套票哟！",
+      "en": "Boss, after we're finished here. Book me a front row ticket for tomorrow.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "保镖",
+      "zh": "大帝先生，这、这些人是怎么回事？",
+      "en": "Mr.Emperor, these, what's with these people?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "德克萨斯",
+      "zh": "就当我们是老板......是大帝先生的私人保镖吧。",
+      "en": "Think of us as bosses... The Emperor's personal bodyguard",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "可颂",
+      "zh": "虽然我们是个物流公司。",
+      "en": "Although we are a logistics company.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "能天使",
+      "zh": "本来我们的业务扩展就很丰富嘛。之前不是还买了一家爵士乐酒吧？",
+      "en": "We already have a lot of business expansion. Didn't we also bought a jazz bar lately?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "还有那些总是被当成沙包的叙拉古黑帮，不过最近安分得有些诡异。",
+      "en": "And those Syracuse gangsters who are always treated as sandbags, but they've been a little weirdly quiet lately.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "你以为我们每个月要在龙门打多少次架？",
+      "en": "How many times do you think we fight in Lungmen every month?",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "论斗殴和火并，我们才是行家里手，最顶级的，无人能及。",
+      "en": "When it comes to fights and gunfights, we are the expert, the king, the best of them all.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "激动的观众",
+      "zh": "老子等这一刻好久了！西边的企鹅！你既然敢光明正大地出现，就等死吧！！",
+      "en": "I've been waiting for this moment for a long time! Western penguin! Since you dare to appear so openly, go to hell and die!!",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "......你们是成立了一个贼喊捉贼协会吗？好吧，反正也和我想的差不太多。",
+      "en": "...Did you guys form a society of thieves to catch a thief? Well, it's not too far from what I thought.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "大帝",
+      "zh": "德克萨斯，动手。",
+      "en": "Texas, get to work.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "德克萨斯",
+      "zh": "明白——啊。",
+      "en": "Understood——Ah.",
+      "jp": "",
+      "kr": ""
+    },
+    {
+      "ch": "空",
+      "zh": "——明白了！我上了！",
+      "en": "——Understood! Here I come!",
+      "jp": "",
+      "kr": ""
+    }
+  ]
+}

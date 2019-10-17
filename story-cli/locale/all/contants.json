@@ -1,5 +1,11 @@
 {
   "constants": {
+    "untitled": {
+      "zh": "UntitledZH",
+      "en": "UntitledEN",
+      "jp": "UntitledJP",
+      "kr": "UntitledKR"
+    },
     "GT-1": {
       "zh": "GT-1: 日正当中",
       "en": "GT-1: High Noon",
@@ -141,6 +147,36 @@
     "5-10": {
       "zh": "长夜终尽",
       "en": "5-10 End of a Long Night",
+      "jp": "",
+      "kr": ""
+    },
+    "EX-01": {
+      "zh": "",
+      "en": "EX-01",
+      "jp": "",
+      "kr": ""
+    },
+    "EX-03": {
+      "zh": "",
+      "en": "EX-03",
+      "jp": "",
+      "kr": ""
+    },
+    "EX-06": {
+      "zh": "",
+      "en": "EX-06",
+      "jp": "",
+      "kr": ""
+    },
+    "ST-01": {
+      "zh": "",
+      "en": "ST-01",
+      "jp": "",
+      "kr": ""
+    },
+    "ST-02": {
+      "zh": "",
+      "en": "ST-02",
       "jp": "",
       "kr": ""
     }
