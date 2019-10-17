@@ -1,3 +1,2 @@
-assets/csv/*
-assets/tld/*
 assets/txt/*
+config/default.json
