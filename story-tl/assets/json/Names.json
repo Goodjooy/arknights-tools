@@ -1,0 +1,540 @@
+{
+  "messages": [
+    {
+      "zh": "赏金猎人",
+      "en": "Bounty Hunter"
+    },
+    {
+      "zh": "粗暴的赏金猎人",
+      "en": "Rough Bounty Hunter"
+    },
+    {
+      "zh": "可萝尔",
+      "en": "Carol"
+    },
+    {
+      "zh": "村民",
+      "en": "Villager"
+    },
+    {
+      "zh": "格拉尼",
+      "en": "Grani"
+    },
+    {
+      "zh": "“上尉”",
+      "en": "\"First Lieutenant\""
+    },
+    {
+      "zh": "大鲍勃",
+      "en": "Big-Bob"
+    },
+    {
+      "zh": "斯卡蒂",
+      "en": "Skadi"
+    },
+    {
+      "zh": "整合运动A",
+      "en": "Reunion Member A"
+    },
+    {
+      "zh": "整合运动B",
+      "en": "Reunion Member B"
+    },
+    {
+      "zh": "整合运动",
+      "en": "Reunion Movement"
+    },
+    {
+      "zh": "幽灵鲨",
+      "en": "Specter"
+    },
+    {
+      "zh": "临光",
+      "en": "Nearl"
+    },
+    {
+      "zh": "凯尔希",
+      "en": "Kal'tsit"
+    },
+    {
+      "zh": "天火",
+      "en": "Skyfire"
+    },
+    {
+      "zh": "普罗旺斯",
+      "en": "Provence"
+    },
+    {
+      "zh": "锡兰",
+      "en": "Ceylon"
+    },
+    {
+      "zh": "D.D.D.",
+      "en": "D.D.D."
+    },
+    {
+      "zh": "观众",
+      "en": "Audience"
+    },
+    {
+      "zh": "保镖",
+      "en": "Escort"
+    },
+    {
+      "zh": "克洛宁",
+      "en": "Cronin"
+    },
+    {
+      "zh": "黑",
+      "en": "Schwarz"
+    },
+    {
+      "zh": "保镖A",
+      "en": "Escort A"
+    },
+    {
+      "zh": "保镖B",
+      "en": "Escort B"
+    },
+    {
+      "zh": "保镖C",
+      "en": "Escort C"
+    },
+    {
+      "zh": "伊芙利特",
+      "en": "Ifrit"
+    },
+    {
+      "zh": "赫拉格",
+      "en": "Hellagur"
+    },
+    {
+      "zh": "广播",
+      "en": "Broadcast"
+    },
+    {
+      "zh": "克洛宁的手下",
+      "en": "Cronin's syndicate"
+    },
+    {
+      "zh": "克洛宁的保镖",
+      "en": "Cronin's escort"
+    },
+    {
+      "zh": "女孩的声音",
+      "en": "Lass' voice"
+    },
+    {
+      "zh": "红豆",
+      "en": "Vigna"
+    },
+    {
+      "zh": "工作人员",
+      "en": "Live staff"
+    },
+    {
+      "zh": "Alty",
+      "en": "Alty"
+    },
+    {
+      "zh": "赫尔曼",
+      "en": "Hermann"
+    },
+    {
+      "zh": "艾雅法拉",
+      "en": "Eyjafjalla"
+    },
+    {
+      "zh": "巨大源石虫",
+      "en": "\"Pompei\""
+    },
+    {
+      "zh": "经纪人",
+      "en": "Manager"
+    },
+    {
+      "zh": "女游客",
+      "en": "Female Tourist"
+    },
+    {
+      "zh": "男游客",
+      "en": "Male Tourist"
+    },
+    {
+      "zh": "大帝",
+      "en": "Emperor"
+    },
+    {
+      "zh": "表情古怪的游客",
+      "en": "Weird Facial Tourist"
+    },
+    {
+      "zh": "可颂",
+      "en": "Croissant"
+    },
+    {
+      "zh": "德克萨斯",
+      "en": "Texas"
+    },
+    {
+      "zh": "空",
+      "en": "Sora"
+    },
+    {
+      "zh": "能天使",
+      "en": "Exusiai"
+    },
+    {
+      "zh": "激动的观众",
+      "en": "Raging Audience"
+    },
+    {
+      "zh": "Mon3tr",
+      "en": "Mon3tr"
+    },
+    {
+      "zh": "女性的声音",
+      "en": "Female voice"
+    },
+    {
+      "zh": "阿米娅",
+      "en": "Amiya"
+    },
+    {
+      "zh": "煌",
+      "en": "Homura"
+    },
+    {
+      "zh": "古米",
+      "en": "Gum"
+    },
+    {
+      "zh": "男游客A",
+      "en": "Male Tourist A"
+    },
+    {
+      "zh": "男游客B",
+      "en": "Male Tourist B"
+    },
+    {
+      "zh": "女游客A",
+      "en": "Female Tourist A"
+    },
+    {
+      "zh": "女游客C",
+      "en": "Female Tourist C"
+    },
+    {
+      "zh": "侍应生",
+      "en": "Waiter"
+    },
+    {
+      "zh": "男市民",
+      "en": "Male Citizen"
+    },
+    {
+      "zh": "近卫干员",
+      "en": "Guard Operator"
+    },
+    {
+      "zh": "爱国者",
+      "en": "Patriot"
+    },
+    {
+      "zh": "整合运动成员",
+      "en": "Reunion Movement Member"
+    },
+    {
+      "zh": "整合运动成员A",
+      "en": "Reunion Movement A"
+    },
+    {
+      "zh": "整合运动成员B",
+      "en": "Reunion Movement B"
+    },
+    {
+      "zh": "Scout",
+      "en": "Scout"
+    },
+    {
+      "zh": "整合运动术师",
+      "en": "Reunion Movement Caster"
+    },
+    {
+      "zh": "W",
+      "en": "W"
+    },
+    {
+      "zh": "整合运动刀兵",
+      "en": "Reunion Movement Swordman"
+    },
+    {
+      "zh": "炎客",
+      "en": "Flamebringer"
+    },
+    {
+      "zh": "杜宾",
+      "en": "Dobermann"
+    },
+    {
+      "zh": "雷蛇",
+      "en": "Liskarm"
+    },
+    {
+      "zh": "杰西卡",
+      "en": "Jessica"
+    },
+    {
+      "zh": "芙兰卡",
+      "en": "Franka"
+    },
+    {
+      "zh": "红云",
+      "en": "Vermeil"
+    },
+    {
+      "zh": "送葬人",
+      "en": "Executor"
+    },
+    {
+      "zh": "老猎人",
+      "en": "Old Hunter"
+    },
+    {
+      "zh": "医疗干员",
+      "en": "Medic Operator"
+    },
+    {
+      "zh": "霜叶",
+      "en": "Frostleaf"
+    },
+    {
+      "zh": "红",
+      "en": "Projekt Red"
+    },
+    {
+      "zh": "装置",
+      "en": "Gadget"
+    },
+    {
+      "zh": "麦哲伦",
+      "en": "Magallan"
+    },
+    {
+      "zh": "西蒙娜",
+      "en": "Simona"
+    },
+    {
+      "zh": "可露希尔",
+      "en": "Closure"
+    },
+    {
+      "zh": "暴雨",
+      "en": "Downpour"
+    },
+    {
+      "zh": "女性",
+      "en": "Female"
+    },
+    {
+      "zh": "男性",
+      "en": "Male"
+    },
+    {
+      "zh": "孩童",
+      "en": "Kid"
+    },
+    {
+      "zh": "乌萨斯军警",
+      "en": "Ursus Military Police"
+    },
+    {
+      "zh": "电视主持人",
+      "en": "Television Host"
+    },
+    {
+      "zh": "乌萨斯军警队长",
+      "en": "Ursus Military Police Leader"
+    },
+    {
+      "zh": "Ace",
+      "en": "Ace"
+    },
+    {
+      "zh": "弑君者",
+      "en": "Crownslayer"
+    },
+    {
+      "zh": "梅菲斯特",
+      "en": "Mephisto"
+    },
+    {
+      "zh": "浮士德",
+      "en": "Faust"
+    },
+    {
+      "zh": "平民",
+      "en": "Commoner"
+    },
+    {
+      "zh": "塔露拉",
+      "en": "Talulah"
+    },
+    {
+      "zh": "PRTS",
+      "en": "PRTS"
+    },
+    {
+      "zh": "陈",
+      "en": "Ch’en"
+    },
+    {
+      "zh": "近卫局队员",
+      "en": "Guard Bureau member"
+    },
+    {
+      "zh": "普通市民",
+      "en": "Citizen"
+    },
+    {
+      "zh": "感染者",
+      "en": "Infected"
+    },
+    {
+      "zh": "魏彦吾",
+      "en": "Wei Yenwu"
+    },
+    {
+      "zh": "小孩们",
+      "en": "Children"
+    },
+    {
+      "zh": "米莎",
+      "en": "Misha"
+    },
+    {
+      "zh": "暴民",
+      "en": "Mobster"
+    },
+    {
+      "zh": "小孩",
+      "en": "Child"
+    },
+    {
+      "zh": "碎骨",
+      "en": "Bone Breaker"
+    },
+    {
+      "zh": "干员们",
+      "en": "Operators"
+    },
+    {
+      "zh": "整合运动嫌疑人",
+      "en": "Reunion Movement Suspect"
+    },
+    {
+      "zh": "星熊",
+      "en": "Hoshiguma"
+    },
+    {
+      "zh": "能天使",
+      "en": "Exusiai"
+    },
+    {
+      "zh": "男人的声音",
+      "en": "Male Voice"
+    },
+    {
+      "zh": "少女的声音",
+      "en": "Female Voice"
+    },
+    {
+      "zh": "老人的声音",
+      "en": "Old Male Voice"
+    },
+    {
+      "zh": "青年的声音",
+      "en": "Young Male Voice"
+    },
+    {
+      "zh": "男孩的声音",
+      "en": "Childlike Male Voice"
+    },
+    {
+      "zh": "陨星",
+      "en": "Meteorite"
+    },
+    {
+      "zh": "芙兰卡&能天使",
+      "en": "Franka & Exusiai"
+    },
+    {
+      "zh": "小女孩",
+      "en": "Little Girl"
+    },
+    {
+      "zh": "另一个少女的声音",
+      "en": "Another girl’s voice"
+    },
+    {
+      "zh": "重伤的罗德岛干员",
+      "en": "Injured Rhodes Island Operator"
+    },
+    {
+      "zh": "整合运动术士",
+      "en": "Reunion Movement Caster"
+    },
+    {
+      "zh": "霜星",
+      "en": "Froststar"
+    },
+    {
+      "zh": "诗怀雅",
+      "en": "Swire"
+    },
+    {
+      "zh": "罗德岛干员",
+      "en": "Rhodes Island Operator"
+    },
+    {
+      "zh": "近卫局成员",
+      "en": "Guard Bureau Member"
+    },
+    {
+      "zh": "线人",
+      "en": "Informant"
+    },
+    {
+      "zh": "通讯",
+      "en": "Comms"
+    },
+    {
+      "zh": "梅菲斯特的护卫",
+      "en": "Mephisto’s Guard"
+    },
+    {
+      "zh": "正口运动成贝",
+      "en": "Reunion Movement Member"
+    },
+    {
+      "zh": "皜剜祈撠？？斤斤？伐",
+      "en": "pinyin based (HaoWanQiJi??JinJin?Fa)"
+    },
+    {
+      "zh": "每非其寺巢巢郡",
+      "en": "Mephqisi hivhost"
+    },
+    {
+      "zh": "梅非斯寺的群群",
+      "en": "Mephiso’s lackeys"
+    },
+    {
+      "zh": "梅菲斯特的牧群",
+      "en": "Mephisto's herd"
+    },
+    {
+      "zh": "幻影弩手",
+      "en": "Shadow Sniper"
+    }
+  ]
+}

@@ -1,0 +1,1460 @@
+{
+  "messages": [
+    {
+      "zh": "唔......",
+      "en": "Urgh..."
+    },
+    {
+      "zh": "啊？怎，怎么回事......",
+      "en": "Huh? W-what..."
+    },
+    {
+      "zh": "我怎么会躺在这种地方......发生了什么......",
+      "en": "Why am I lying in a place like this...What happened..."
+    },
+    {
+      "zh": "对了！我们潜入切尔诺伯格，要救出Dr.{@nickname}——",
+      "en": "Right! We were inflitrating Chernobog to rescue Dr.{@nickname}——"
+    },
+    {
+      "zh": "！",
+      "en": "!"
+    },
+    {
+      "zh": "头儿！不对，不对，头儿他......",
+      "en": "Boss! No, no the boss... he..."
+    },
+    {
+      "zh": "......头儿他......",
+      "en": "...Boss..."
+    },
+    {
+      "zh": "嗯？这张纸是怎么回事？",
+      "en": "Huh? What's with this piece of paper?"
+    },
+    {
+      "zh": "等等，这是......这是罗德岛的工程用纸！",
+      "en": "Wait, this... this is Rhodes Island's engineering paper!"
+    },
+    {
+      "zh": "是谁留在这的，究竟发生了什么事？",
+      "en": "Who left it here? What actually happened while I was out?"
+    },
+    {
+      "zh": "呃，这密密麻麻的字，写的还有些乱......",
+      "en": "Urgh, these words are densely written, and the writing is a little messy..."
+    },
+    {
+      "zh": "不知名的干员，隐藏好自己。我没有机会看你的胸牌，不记得你的名字。",
+      "en": "Unknown named operator, hide yourself well. I didn't had the chance to look at your tag and remember your name"
+    },
+    {
+      "zh": "时间并不宽裕，我的字有些潦草，请谅解，麻烦你读下去。",
+      "en": "There's not enough time, while my writing may be messy, please understand and continue to read on."
+    },
+    {
+      "zh": "不用慌张，你暂时是安全的。",
+      "en": "Don't panic, you are safe for the time being."
+    },
+    {
+      "zh": "请务必不要走出这块废墟。天色完全暗下来之前，敌人发现你的概率很高。",
+      "en": "Please do not walk out of this ruin. The enemy has a good chance of finding you before the sun sets."
+    },
+    {
+      "zh": "可以说，你正身处敌人的重重包围之中。",
+      "en": "You are, so to speak, surrounded by the enemy."
+    },
+    {
+      "zh": "不是头儿的笔迹......是罗德岛同事写下的纸条吗？",
+      "en": "This is not Boss handwriting... Is this note written by a fellow Rhodes Island?"
+    },
+    {
+      "zh": "写的真长啊，为什么不直接把我叫醒，跟我说就好——",
+      "en": "What a long note, why couldn't you just had woken me up and told me about——"
+    },
+    {
+      "zh": "你来了。",
+      "en": "You've came."
+    },
+    {
+      "zh": "（嗯？说话声？是整合运动吗，混账！）",
+      "en": "(Huh? A voice? Is it the Reunion Movement? Dammit!)"
+    },
+    {
+      "zh": "（......不，等等，这个声音有些耳熟？好像是那个诊所的——）",
+      "en": "(...No, wait, this voice sounds familiar? I think its from that clinic——)"
+    },
+    {
+      "zh": "所以，你们真的瘫痪了整座切尔诺伯格。我不知道该不该祝贺你。",
+      "en": "So, you really did paralyzed Chernobog entirely. I don't know if I should congratulate you on a job well done."
+    },
+    {
+      "zh": "——",
+      "en": "——"
+    },
+    {
+      "zh": "我们居然都染上了矿石病。",
+      "en": "It's a surprise we both have Oripathy."
+    },
+    {
+      "zh": "真的是您。",
+      "en": "It's really you."
+    },
+    {
+      "zh": "我以为，只是传言。",
+      "en": "I thought it was just a rumor."
+    },
+    {
+      "zh": "许多年没见了，博卓卡斯替。",
+      "en": "Long time no see, Болеслав (Boleslav)."
+    },
+    {
+      "zh": "我是不是该称呼现在的你，“爱国者”？",
+      "en": "Or rather I should call your current codename, \"Patriot\"?"
+    },
+    {
+      "zh": "......将军。",
+      "en": "...General."
+    },
+    {
+      "zh": "您居然，记得我。",
+      "en": "You actually remember me."
+    },
+    {
+      "zh": "如果不是你带着盾卫顶着暴风雪冲进堡垒，我，巴克莱，还有谢苗，全部要死在卡西米尔的银枪皮加索斯手里。",
+      "en": "I, Barclay, and Samian would had all died at the hands of Kazimierz's Sliver Spear Pegasus if you had not charged into the fort with your shield weathering the storm."
+    },
+    {
+      "zh": "是我的战士们，勇敢。他们，不在乎牺牲。",
+      "en": "My brave, soldiers did all the work. They, aren't afraid of sacrifice."
+    },
+    {
+      "zh": "怎么？你说话的方式，和几十年前大不相同了。",
+      "en": "Your voice? The way you talk now is very different from what it was decades ago."
+    },
+    {
+      "zh": "我见过你在士兵面前慷慨陈词，能让秃头屠夫巴克莱都为你拍手叫好，可不是件简单事。",
+      "en": "I've seen your fervant speech in front of the soldiers, it's not easy to get Barclay the bald butcher to applaud you."
+    },
+    {
+      "zh": "感染，改变了声带。现在，我很难，连续说话。很可笑。",
+      "en": "Oripathy, changed my vocal chords. Now, I have a hard time, talking. Funny, isn't it?"
+    },
+    {
+      "zh": "——",
+      "en": "——"
+    },
+    {
+      "zh": "还有你现在的身份。",
+      "en": "And who you are now."
+    },
+    {
+      "zh": "是吗。",
+      "en": "Is that so?"
+    },
+    {
+      "zh": "北原的游击队......领队居然是你。我原以为十几个温迪戈里，最不可能的就是你。",
+      "en": "Nothern guerrilla... team leader is actually you. Out of the dozen Wendigoes, I never thought it could had been you."
+    },
+    {
+      "zh": "蓝胡子阿廖沙，那个骑兵师的，他曾经和我打赌说你会作为一个天生的乌萨斯军人做到元帅。",
+      "en": "Blue beard Alyosha, of that calvary division, once made a bet with me that you are a natural born Ursus soldier who will rise up to Marshal."
+    },
+    {
+      "zh": "我只是个大尉，将军。时代不同了。",
+      "en": "I'm just a captain, general. Times have changed."
+    },
+    {
+      "zh": "......笑话。你的忠诚，军功，还有在作战会议上的规划......你是乌萨斯最出色的战地指挥官之一。",
+      "en": "...That's not funny. Your loyalty, your military service, and your battle planning in the meetings... You're one of the best field commanders in Ursus."
+    },
+    {
+      "zh": "您过誉了。而且，我是个萨卡兹，终归。",
+      "en": "You give me too much praise. Besides, I'm a Sarkaz, after all."
+    },
+    {
+      "zh": "如果你都当不上校官，几乎所有的乌萨斯高级将领都该被送进皇家法庭。",
+      "en": "If even you couldn't be Field-grade Officer, then almost all of Ursus top ranking military officers should be sent to the Royal court."
+    },
+    {
+      "zh": "虽然，他们几乎都已经死了。",
+      "en": "Although, almost all of them are dead."
+    },
+    {
+      "zh": "那我，比他们活得长。您的同僚，几乎都死了。",
+      "en": "Then I, have outlived them. Most of your comrades, are also gone."
+    },
+    {
+      "zh": "而且，陛下他说过，军人服务国家，不是服务军衔。",
+      "en": "And, his Majesty once said, a soldier serves his country, not his rank."
+    },
+    {
+      "zh": "他却也说过，凝聚乌萨斯人的不是血液，是信仰。现在呢？只能愿陛下他安息。",
+      "en": "But he also said that what binds the Ursus people together is faith, not by blood. The present? May his Majesty rest in peace."
+    },
+    {
+      "zh": "可见当今皇帝，依旧把你们当做怪物，而不是乌萨斯的战士。他们一直在压制你和你的族群。",
+      "en": "So the Emperor of today still treats your people as monsters, not brave Ursus soldiers. They have been suppressing you and your people."
+    },
+    {
+      "zh": "那位，宽容的陛下，已经过世，这些，我能理解。",
+      "en": "That, tolerant kind Emperor, is gone, I, understand it now."
+    },
+    {
+      "zh": "乌萨斯，无数战争野兽，够淹没大地，我不算什么。",
+      "en": "Ursus, countless beasts of war, will covered this land whole, and I'm not that important."
+    },
+    {
+      "zh": "所以军队不是你出走的原因。",
+      "en": "So the army is not why you left."
+    },
+    {
+      "zh": "是的，我不关心。我只想和战士们，并肩。",
+      "en": "Yeah, it doesn't concern me anymore. I just wish to fight alongside with brave, soldiers."
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "将军，坐。酒，剩了一些，我从北方带的。",
+      "en": "General, sit. Liquor, still have some left, I bought it from the North."
+    },
+    {
+      "zh": "......我没剩下多少时间。下次再喝酒叙旧吧。",
+      "en": "... I can't stay for long. Let's have a drink next time."
+    },
+    {
+      "zh": "是吗......没事。",
+      "en": "I see... That's alright."
+    },
+    {
+      "zh": "没关系。",
+      "en": "It's fine."
+    },
+    {
+      "zh": "去第四街，找幸存者。严禁恐吓他们。尽力减少伤亡。注意收集物资，我们的储量，依然窘迫。",
+      "en": "Go to Fourth street, look for survivors. Intimidation is strictly forbidden. Minimize casualties. Collect the supplies carefully, our reserves, are still in distress."
+    },
+    {
+      "zh": "明白！",
+      "en": "Understood!"
+    },
+    {
+      "zh": "我以为您死了。",
+      "en": "I thought you were dead."
+    },
+    {
+      "zh": "隐姓埋名也是种死亡。现在的我与过去没有勾连。",
+      "en": "Anonymity is also a kind of death. I am no longer connected to my past anymore."
+    },
+    {
+      "zh": "这里，隐居地？不很理想。",
+      "en": "Here? Your place of retirement? It's not an ideal place."
+    },
+    {
+      "zh": "切尔诺伯格已经不再适合居住，无论它有没有遭受过天灾的袭击。",
+      "en": "Chernobog is no longer habitable, regardless if it has been hit by natural disaster or not."
+    },
+    {
+      "zh": "听说您要离开。",
+      "en": "I heard you were leaving."
+    },
+    {
+      "zh": "诊所遭受了一次毁灭性的洗劫，虽然我们提前进行了转移，但还是有所损失的。",
+      "en": "My clinic suffered a devastating looting, and although we moved earlier, there was still some damages."
+    },
+    {
+      "zh": "我是听到了你的传闻，才决定留下看看。",
+      "en": "I heard a rumor about you and decided to stay and have a look."
+    },
+    {
+      "zh": "我，不值得。这样很危险。",
+      "en": "I'm, not worth it. It's dangerous."
+    },
+    {
+      "zh": "只是想看看我仅剩的几位同袍之一过的怎么样。",
+      "en": "I'm only curious to see how my remaining comrades are doing. "
+    },
+    {
+      "zh": "这不算，没有勾连。",
+      "en": "It's not related to me, I didn't do it."
+    },
+    {
+      "zh": "呵......",
+      "en": "Huh..."
+    },
+    {
+      "zh": "......我会查清，是谁做的。诊所的事，不平常。",
+      "en": "... I'll find out, who did it. What happened, at the clinic was unusual."
+    },
+    {
+      "zh": "不必。不如说，既然有你在，这件事是整合运动主导的可能性越发减小了。",
+      "en": "No need. Rather, with you in the picture, it is less likely the Reunion Movement doing."
+    },
+    {
+      "zh": "我不清楚。整合运动，有些散乱。我们间有隔阂。",
+      "en": "I'm not so sure. The Reunion Movement, is a little disorganized. There are gaps between us."
+    },
+    {
+      "zh": "不过将军。你可以，和整合运动一同。",
+      "en": "But general. You can, join the Reunion Movement."
+    },
+    {
+      "zh": "乌萨斯，要被解放。感染者和普通人，会平等相处。",
+      "en": "Ursus, will be liberated. The infected and common folk, will get along equally."
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "看这里。看，我左手边，那栋被源石刺穿的建筑。",
+      "en": "Look over there. See where my left hand side is? Do you see that building pierced by Originium?"
+    },
+    {
+      "zh": "看得见。",
+      "en": "I do."
+    },
+    {
+      "zh": "这里曾经是座商场，周围三个街区的市民都依赖着它的商品生活。",
+      "en": "It used to be a mall, and the citizens who lived three blocks around it relied on its wares."
+    },
+    {
+      "zh": "天灾，摧毁了切尔诺伯格。毁掉要塞，也毁掉城市。我不同意做法，但这很必要。无奈。",
+      "en": "Natural disaster, destroyed Chernobog. It destroyed fortresses, and the city as well. I don't agree with the method, but it was necessary. I'm helpless to say."
+    },
+    {
+      "zh": "曾几何时，彩灯的一端系在它钟塔的顶部，另一端悬挂在十字路口的围栏上，每一颗闪烁着的灯泡都沾满了温暖的光芒。",
+      "en": "There was a time when colored lamps was tied to the top of its bell tower on one end and the other hung from the fence at the crossroads, each flickering bulb was warm with light."
+    },
+    {
+      "zh": "感染者，并没有，享受的权利。",
+      "en": "The Infected, don't have, the same rights."
+    },
+    {
+      "zh": "你们想让灯泡发光，而我只想再建一座商场。这是我们间的区别。",
+      "en": "You want light bulbs that shines light, and I just want to build another mall. That's the difference between us."
+    },
+    {
+      "zh": "——以前，您绝不会，像这样妥协。",
+      "en": "——Past you would never compromise like this."
+    },
+    {
+      "zh": "也许吧。罗德岛未必是个前途光明的地方，但这片土地，我一样没什么感情。",
+      "en": "Maybe. Rhodes Island may not be a promosing place, but I also have no feelings for this land. "
+    },
+    {
+      "zh": "您只是，不想与祖国作战，将军。",
+      "en": "You just, don't want to fight against your country, general."
+    },
+    {
+      "zh": "看看这座城市，看看感染者，看看被丢进源石矿场，等死的人。",
+      "en": "Look at this city, look at the infected, and look at the people who have been thrown into the Originium mines, waiting to die."
+    },
+    {
+      "zh": "而您，您从不是，害怕厮杀的人。",
+      "en": "And you, you've never been one to fear a fight."
+    },
+    {
+      "zh": "对。一旦乌萨斯对我们动武，我们就会还击。",
+      "en": "That's right. If Ursus attacked us, we fight back."
+    },
+    {
+      "zh": "但整合运动的行为与我的还击并不相同。看看脚下这座城市吧——整合运动在发动战争。",
+      "en": "But the way the Reunion Movement fought back is not the same as me. Look at this city you're standing on——The Reunion Movement is waging war."
+    },
+    {
+      "zh": "一场战争会导致多少人丧生？一场内战会导致多少乌萨斯人丧生？",
+      "en": "How many people would die in a war? How many Ursus would be killed in a civil war?"
+    },
+    {
+      "zh": "乌萨斯人啃食乌萨斯人，乌萨斯人屠杀乌萨斯人，乌萨斯人毁灭乌萨斯人。",
+      "en": "Ursus eating one another, Ursus slaughtering one another, Usus destroying one another."
+    },
+    {
+      "zh": "将军。",
+      "en": "General."
+    },
+    {
+      "zh": "——",
+      "en": "——"
+    },
+    {
+      "zh": "如果乌萨斯，还把感染者，当作乌萨斯人？",
+      "en": "What if Ursus, treated the infected, as Ursus?"
+    },
+    {
+      "zh": "那就，不会有战争。",
+      "en": "Then, there would be no war."
+    },
+    {
+      "zh": "打扰两位。",
+      "en": "Excuse me."
+    },
+    {
+      "zh": "什么事？",
+      "en": "What's the matter?"
+    },
+    {
+      "zh": "报告。领袖刚刚发出了公告，宣告我们已经彻底攻陷了切尔诺伯格，并向所有已知通讯频道进行了发报。",
+      "en": "Reporting! Leader has just issued an announcement that we have completely captured Chernobog and sent a message to all known communication channels. "
+    },
+    {
+      "zh": "现在，领袖需要确认各大队的状况。",
+      "en": "The leader wishes to confirm each brigade status now."
+    },
+    {
+      "zh": "好。现在就去。",
+      "en": "Good. Now go."
+    },
+    {
+      "zh": "抱歉，将军，请稍等。",
+      "en": "Sorry, general. Just a moment."
+    },
+    {
+      "zh": "——",
+      "en": "——"
+    },
+    {
+      "zh": "整合运动真的知道它们在做什么吗？",
+      "en": "Does the Reunion Movement really know what they are doing?"
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "老头，你想我怎么回答你？",
+      "en": "What do you want me to say, old man?"
+    },
+    {
+      "zh": "哦，可能你其实没在问我吧。但我倒是要说，反正我们会跟着指挥官走。",
+      "en": "Oh, maybe you're not asking me an actual question. But I'll answer, we'll follow the commander all the way."
+    },
+    {
+      "zh": "不管指挥官做什么，我们都相信他。",
+      "en": "Whatever the commander does, we trust him."
+    },
+    {
+      "zh": "如果做得对，他会扛住；如果做错了，他肯定会改。",
+      "en": "If done right, he will shoulder it;if done wrong, he will correct his mistakes."
+    },
+    {
+      "zh": "我们相信塔露拉，也相信指挥官。我们在为感染者而战，明白吗。",
+      "en": "We trust Talulah, and we trust the commander. We're fighting for the infected, do you understand now?"
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "将军。",
+      "en": "General."
+    },
+    {
+      "zh": "整合运动取得了胜利，我却没能从你的话里听出喜悦之情。",
+      "en": "The Reunion Movement has won a victory, but I can't hear the joy in your voice."
+    },
+    {
+      "zh": "我应该吗？喜悦......",
+      "en": "Should I? Joy..."
+    },
+    {
+      "zh": "如果，乌萨斯愿意，任何城市，都会被铲平。",
+      "en": "Any city, if Ursus chooses, will be bulldozed."
+    },
+    {
+      "zh": "稳固成果，才是最困难的。这场战斗，我很疑惑，乌萨斯的反应。",
+      "en": "The hardest thing is to secure results. This war, I wonder, how Ursus will react."
+    },
+    {
+      "zh": "战争已经开始，想反悔也没可能回头。",
+      "en": "The war has begun. There is no turning back."
+    },
+    {
+      "zh": "也许，我很蠢。",
+      "en": "Maybe I'm foolish."
+    },
+    {
+      "zh": "但现在，什么都不做，感染者的镣铐，会更沉重。",
+      "en": "But if I do nothing now, the shackles of the infected will only become heavier."
+    },
+    {
+      "zh": "一旦失去，斗争的意识，就走向毁灭。",
+      "en": "If one loses the will to fight, then ruin awaits them."
+    },
+    {
+      "zh": "所以你其实很清楚现状，也知道自己在做什么。",
+      "en": "So you know exactly where you are heading and what you're doing."
+    },
+    {
+      "zh": "是。我们，为生存而战。",
+      "en": "Indeed. We, fight for survival."
+    },
+    {
+      "zh": "那么我也没剩下什么问题好问了。",
+      "en": "Then I don't have any more questions."
+    },
+    {
+      "zh": "报告！",
+      "en": "Reporting!"
+    },
+    {
+      "zh": "下城区第三区，灾况报告？",
+      "en": "Downstreet District 3,  is there a disaster report?"
+    },
+    {
+      "zh": "是！",
+      "en": "Yes!"
+    },
+    {
+      "zh": "不用细致报告。救下所有平民，危险区域，保护自己，不要逞强。",
+      "en": "No need for detailed reports. Save all the civilians. It's a danger zone. Protect yourself. Pull out if you can't handle it."
+    },
+    {
+      "zh": "带上术师。用无人机去找。不要担心损耗。",
+      "en": "Bring along the casters. Use the drones to search. Don't worry about the cost."
+    },
+    {
+      "zh": "明白！",
+      "en": "Understood!"
+    },
+    {
+      "zh": "对了......",
+      "en": "Right..."
+    },
+    {
+      "zh": "您是准备，去哪里？",
+      "en": "Where are you planning, to go?"
+    },
+    {
+      "zh": "罗德岛。",
+      "en": "Rhodes Island."
+    },
+    {
+      "zh": "......？！",
+      "en": "...?!"
+    },
+    {
+      "zh": "啊，我知道，罗德岛。",
+      "en": "Ah, I know, about Rhodes Island."
+    },
+    {
+      "zh": "只是，整合运动刚刚，袭击了罗德岛。",
+      "en": "It's just that the Reunion Movement attacked Rhodes Island."
+    },
+    {
+      "zh": "可恶......",
+      "en": "Damn..."
+    },
+    {
+      "zh": "阿米娅和杜宾教官她们，也不知道怎么样了......",
+      "en": "Amiya and Instructor Doberman, I wonder how they are now..."
+    },
+    {
+      "zh": "该怎么办，我现在该怎么办......？",
+      "en": "What should I do, what should I do now... ?"
+    },
+    {
+      "zh": "——挑这种时候进入切尔诺伯格，罗德岛会被所有人当成敌人。",
+      "en": "——Entering Chernobog at such a time, Rhodes Island will be regarded by all as the enemy."
+    },
+    {
+      "zh": "他们为什么要这么做？",
+      "en": "Why would they do that?"
+    },
+    {
+      "zh": "不论。只是我，没能阻止冲突。",
+      "en": "It doesn't matter anymore. I, failed to stop the conflict."
+    },
+    {
+      "zh": "刚刚有位战士，孤身对抗，萨卡兹佣兵。",
+      "en": "There was a soldier just now, who fought against the Sarkaz mercenaries all by himself."
+    },
+    {
+      "zh": "意外，这位罗德岛人，也是个萨卡兹。",
+      "en": "Surprisingly, that Rhodes Island soldier was also a Sarkaz."
+    },
+    {
+      "zh": "同类相残......和整合运动的所作所为没什么区别。",
+      "en": "To kill one own same kind... No difference from what the Reunion Movement are doing."
+    },
+    {
+      "zh": "民众，被乌萨斯欺骗，不将我们，看作同胞。",
+      "en": "The people, were deceived by Ursus, they did not regard us as fellow citizens."
+    },
+    {
+      "zh": "什么？萨卡兹......罗德岛的萨卡兹？",
+      "en": "What? Sarkaz... a Rhodes Island's Sarkaz?"
+    },
+    {
+      "zh": "但佣兵们，为战斗而战斗。罗德岛的战士，有战斗的理由。",
+      "en": "But the mercenaries, fight for the sake of fighting. That Rhodes Island soldier, had a reason to fight."
+    },
+    {
+      "zh": "他战败了。但他依然，射杀无数精锐。佣兵的新领头人，气急败坏。",
+      "en": "He was defeated. But still, he shot down many elite merceneries. The new mercenary leader is furious."
+    },
+    {
+      "zh": "而且，他把敌人，诱离身后废墟。",
+      "en": "Moreover, he lured the enemy away from the ruins behind him."
+    },
+    {
+      "zh": "？！",
+      "en": "?!"
+    },
+    {
+      "zh": "他想藏住什么，他做到了。",
+      "en": "He sought to hide something, and he did."
+    },
+    {
+      "zh": "灰烬里，剩下这件遗物。请转交他们。",
+      "en": "In the ashes, only this momento remained. Please give it to them."
+    },
+    {
+      "zh": "真正的战士......没有姓名。",
+      "en": "True soldiers... have no names."
+    },
+    {
+      "zh": "我会的。",
+      "en": "I will."
+    },
+    {
+      "zh": "萨卡兹......难道Scout先生为了保护我......？",
+      "en": "Sarkaz...Could it be that Mr.Scout... to protect me?"
+    },
+    {
+      "zh": "真正的战士......",
+      "en": "True soldiers..."
+    },
+    {
+      "zh": "对了。你以前也说过。",
+      "en": "Indeed. You said it before."
+    },
+    {
+      "zh": "您说。",
+      "en": "You said."
+    },
+    {
+      "zh": "二十多年前，你说过你想与我比试一次。",
+      "en": "More than twenty years ago, you said you wanted to have a shot at me."
+    },
+    {
+      "zh": "现在？不。",
+      "en": "Now? I don't think so."
+    },
+    {
+      "zh": "我的铠甲，您砍不穿。不公平。",
+      "en": "You cannot cut, through my armor. It's not a fair fight."
+    },
+    {
+      "zh": "这副铠甲已经相当破旧了。它的性能远不及军队不断维护它的时候。",
+      "en": "Your suit of armor is quite worn out. Its performance is far less than when the military constantly maintained it."
+    },
+    {
+      "zh": "铠甲，乌萨斯的。我，帝国的背叛者。它只会越来越破。",
+      "en": "Armor, belongs to Ursus. I, am a traitor of the Empire. My armor will only worsen over time."
+    },
+    {
+      "zh": "正因如此，你才会有那个代号。你在它错误的时候站起来反对它。",
+      "en": "That's the reason you got that code name. You stood up against it when it's wrong."
+    },
+    {
+      "zh": "我不敢这么说，将军。我不以此自称。",
+      "en": "I can't say that, general. I don't call myself that."
+    },
+    {
+      "zh": "“爱国者”，乌萨斯的战争是否理所应当？",
+      "en": "\"Patriot\", was Ursus's war ever justified?"
+    },
+    {
+      "zh": "自然。我们的战争，是正义的。否则，无数牺牲，失去意义。",
+      "en": "Of course. Our war, is just. Otherwise, all those countless sacrifices, would be meaningless."
+    },
+    {
+      "zh": "将军。真正的答案，我们都知道。",
+      "en": "General. We all know, the real answer."
+    },
+    {
+      "zh": "——",
+      "en": "——"
+    },
+    {
+      "zh": "但，他们不能白死。他们的死，必须有意义。",
+      "en": "But, they cannot die in vain. Their death, must have meaning."
+    },
+    {
+      "zh": "可你已经站了出来，你在反对乌萨斯。",
+      "en": "But you stood up against Ursus."
+    },
+    {
+      "zh": "我反对的，是帝国。不是土地，不是人民，不是乌萨斯本身。",
+      "en": "I'm against, the Empire. Not its lands, its people nor Ursus itself."
+    },
+    {
+      "zh": "如果是医学大臣，造成现状，他就是敌人。",
+      "en": "If the medical minister, created the current situation, then he is the enemy."
+    },
+    {
+      "zh": "如果是议会谋划，我们就推翻议会。",
+      "en": "If the parliament, has planned this, we shall overthrow them."
+    },
+    {
+      "zh": "如果是军队，制造对立，就毁掉军队。",
+      "en": "If the army, created opposition, then we shall destroy them."
+    },
+    {
+      "zh": "塔露拉有远大目标。我的目标，更阶段性，但更明确。",
+      "en": "Talulah has big ambitions. My goal, is in phases, but clear."
+    },
+    {
+      "zh": "过去的乌萨斯，战争是正义的；现在的感染者，战争是正义的。",
+      "en": "The Ursus of the past, war is just; Now the infected, war is just."
+    },
+    {
+      "zh": "我为正义而战。正义，永远属于乌萨斯。",
+      "en": "I fight for justice. Justice, belongs to Ursus forever."
+    },
+    {
+      "zh": "报告！抓获了一批在起义过程中有漠视纪律行为的整合运动成员，这是名单！",
+      "en": "Reporting! We captured a group of Reunion Movement members who disregarded discipline during the uprising, here is the list!"
+    },
+    {
+      "zh": "主要发起人里，基本没有第二、第三和第六大队的成员！",
+      "en": "Among the list, there are no members from the second, third and sixth team!"
+    },
+    {
+      "zh": "这只是小部分。",
+      "en": "This is only a small portion."
+    },
+    {
+      "zh": "这个，关于具体的实施人，其实我们......很难调查。",
+      "en": "Well, for the specific discipline breakers, we actually... have a hard time investigating who actually did it."
+    },
+    {
+      "zh": "很多同胞对切尔诺伯格人咬牙切齿，他们不可能通报......",
+      "en": "Many of their compatriots gnashed their teeth at Chernobog people, they will not possibly report..."
+    },
+    {
+      "zh": "违纪，对平民下手？",
+      "en": "Breaking discipline, by attacking innocent civilians?"
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "可这些切尔诺伯格人那么冷酷，这是他们罪有应得！",
+      "en": "But those Chernobog people were so cruel, they deserved it!"
+    },
+    {
+      "zh": "如果不是他们，很多感染者也不会落到今天，指挥官！求你......",
+      "en": "If it weren't for them, many of the infected wouldn't had suffered as much as they did these past few years! Commander! I beg you..."
+    },
+    {
+      "zh": "对平民下手？",
+      "en": "So you attacked the innocent civilians?"
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "传令。",
+      "en": "Heed my command."
+    },
+    {
+      "zh": "吊死，主要人员。让我的士兵，动手。",
+      "en": "Hang, the guilty parties. Let my soldiers, do it."
+    },
+    {
+      "zh": "警告，梅菲斯特，弑君者。",
+      "en": "Warn, Mephisto, Crownslayer."
+    },
+    {
+      "zh": "......是。",
+      "en": "... Understood."
+    },
+    {
+      "zh": "......剩下的，记过。",
+      "en": "... The rest, given demerit."
+    },
+    {
+      "zh": "记，记过吗？",
+      "en": "D-demerit?"
+    },
+    {
+      "zh": "再犯，处死。把这些也，通知领袖。",
+      "en": "If you break discipline again, then the punishment is death. Inform your leaders of this as well."
+    },
+    {
+      "zh": "啊，明白！",
+      "en": "Oh, understood!"
+    },
+    {
+      "zh": "仇恨，太深重了。",
+      "en": "Hatred, seeds too deep in the hearts of men."
+    },
+    {
+      "zh": "再不战斗，仇恨会遮住，乌萨斯所有眼睛。",
+      "en": "If we don't fight once more, hatred will blind, all of Ursus eyes."
+    },
+    {
+      "zh": "整合运动比我想的要散漫......你对军纪的要求比乌萨斯大多数队伍都高。",
+      "en": "The Reunion Movement is more disorganized than I thought... You have a high discipline requirements than most of Ursus army."
+    },
+    {
+      "zh": "绝大多数，都不是士兵，缺乏训练。必须整顿。有纪律，才配攻坚。",
+      "en": "Most of them, are not soldiers, lacking in training. They must be rectified of it. Discipline, is the key to success."
+    },
+    {
+      "zh": "对立继续加剧，任何一方都不会再有申诉的机会了。也许你是对的。乌萨斯需要一次警醒。",
+      "en": "Antagonistic elements continues to grow and there is no longer any chance for either side to appeal. Maybe you're right. Ursus does need a wake-up call."
+    },
+    {
+      "zh": "将军也可以，帮助我们。",
+      "en": "General can, help us."
+    },
+    {
+      "zh": "不了，“爱国者”。我不会再踏入另一场战争。",
+      "en": "I cannot, \"Patriot\". I shall no longer step into another war."
+    },
+    {
+      "zh": "......是了。这确实，是战争。",
+      "en": "... You're right. This indeed; is war."
+    },
+    {
+      "zh": "您，不想再打仗。我知道那件事。",
+      "en": "You, don't wish to fight anymore. I know about that."
+    },
+    {
+      "zh": "我和乌萨斯之间已经没什么了。一切都随着时间流失殆尽。",
+      "en": "There's nothing between Ursus and me anymore. Everything I felt in the past is lost to time."
+    },
+    {
+      "zh": "我已经没以前那么在乎这个国家。原谅我，现在站在你面前的，只是个没志气的懦夫。",
+      "en": "I don't care about this country as much as I used to. Forgive me, what stands before you now is a coward with no ambition."
+    },
+    {
+      "zh": "不！不。您不是。",
+      "en": "No! Not at all. You are not."
+    },
+    {
+      "zh": "如果我儿还活着，我不会，走到今天。我能理解您。",
+      "en": "If my son were still alive, I wouldn't be here, today. I understand you."
+    },
+    {
+      "zh": "什么？你的......",
+      "en": "What? Your..."
+    },
+    {
+      "zh": "......他是个优秀的人。抱歉。",
+      "en": "... He was an excellent man. My apologies."
+    },
+    {
+      "zh": "您为什么道歉，将军？您没犯错，该死的是我。",
+      "en": "Why are you apologizing for, general? You're not at wrong here. I'm the one who is to blame."
+    },
+    {
+      "zh": "啊，是了。您手中这把刀，对，您收养了，敌指挥官的女儿。",
+      "en": "Oh, yes. That sword in your hand, yes, you adopted, the enemy commander daughter."
+    },
+    {
+      "zh": "我女儿，年纪大点。下次见面，我会带她在身边。",
+      "en": "My daughter, is much older. Next time we meet, I'll bring her with me."
+    },
+    {
+      "zh": "呵，希望她们能好好相处。",
+      "en": "*Chuckles* I hope they can get along well."
+    },
+    {
+      "zh": "那里有伤员！快去对一下血型！别搞错感染者和普通人的了！快点！",
+      "en": "There are wounded people! Check their blood type! Make sure there is no mistake between the infected and the common citizens! Hurry up!"
+    },
+    {
+      "zh": "普通人的血可以输给感染者！",
+      "en": "Common citizens can donate blood to the infected!"
+    },
+    {
+      "zh": "这位是谁的家属？",
+      "en": "Whose family is this?"
+    },
+    {
+      "zh": "不管了，先送到安全区去！布里叶特......动作快！",
+      "en": "Forget it, take them to the safe zone! Brieette... Double time!"
+    },
+    {
+      "zh": "塔露拉攻击罗德岛，这个误会，我很难解开。",
+      "en": "Talulah attacked Rhodes Island, I fear this misunderstanding, will have a hard time of being resolved."
+    },
+    {
+      "zh": "如果，事情无法挽回，我也不想与您对立。",
+      "en": "If, things go too far, I don't want to fight against you."
+    },
+    {
+      "zh": "这可能不再是你我能决定的事情。",
+      "en": "It may no longer be up to you or me if that happens."
+    },
+    {
+      "zh": "......将军。",
+      "en": "... General."
+    },
+    {
+      "zh": "不能再次，与您并肩作战，我很遗憾。",
+      "en": "It is regretful, I could not, fight side by side with you again."
+    },
+    {
+      "zh": "......听好，“爱国者”......",
+      "en": "... Listen carefully, \"Patriot\"..."
+    },
+    {
+      "zh": "乌萨斯不会因我的一己之力就变得强盛或衰弱。",
+      "en": "Ursus will not grow strong or weak because of me alone."
+    },
+    {
+      "zh": "数以千计的将领尝试过，各个都想着成为帝国命运的主宰者，他们无一不凄惨地失败了。",
+      "en": "Thousands of generals have tried, each trying to be the master of the Empire's fate, and all of them have failed miserably."
+    },
+    {
+      "zh": "历代陛下一样逃脱不了命运的坑害。",
+      "en": "Even past, present and future Emperors have not escaped such a fate."
+    },
+    {
+      "zh": "帝国在风雨飘摇和重塑荣光间摇摆不定，哼，巫师都能描摹国家的未来，弄臣可以预测战役的走势，说客也懂天灾的变化......",
+      "en": "The Empire situation is unstable, seeking for their past glory, Humph, now wizards are painting the future of nations. Jesters predicting future campaigns. Even lobbyists understand how natural disasters \"change\"..."
+    },
+    {
+      "zh": "我没有参与过任何一次政治聚会。无论是议员们的，还是军人们的，我都没有参加过。",
+      "en": "I never went to any political parties. I never joined any of them, regardless of them being member of congress or the military."
+    },
+    {
+      "zh": "他们的自信让我感到可耻。所有觉得自己能胜的都输了。所有觉得自己能活的，都死了。",
+      "en": "Their confidence shames me. All who thought they could win, lost. All who thought they could live, are dead."
+    },
+    {
+      "zh": "妈妈，晚上吃什么呀？",
+      "en": "Mom, what's for dinner?"
+    },
+    {
+      "zh": "又是土豆吗？我，我不想再吃水煮的土豆啦！",
+      "en": "Potatoes again? I... I don't want to eat any more boiled potatoes!"
+    },
+    {
+      "zh": "嗯？妈妈还要去打仗？妈妈，能不能别去？",
+      "en": "Huh? Mother's going to war? Mom, can you please not go?"
+    },
+    {
+      "zh": "老伯伯，妈妈又要跟你走吗？我不想，我不想让妈妈走！",
+      "en": "Old uncle, is mother going with you again? I don't want, I don't want mom to go!"
+    },
+    {
+      "zh": "老伯伯，你让妈妈留下吧，爸爸被你带走以后，到现在还没有回来呢......",
+      "en": "Old uncle, please let mom stay, father was taken away by you, and so far he has not come back..."
+    },
+    {
+      "zh": "我不想再一个人呆在家里了，老伯伯......",
+      "en": "I don't want to be alone at home anymore, uncle... please."
+    },
+    {
+      "zh": "无论输赢，我们一直在发动战争。",
+      "en": "Winning or losing, we kept waging war."
+    },
+    {
+      "zh": "伴随着我们的只有毁灭，只是毁灭。",
+      "en": "We only brought destruction, only destruction to where we went."
+    },
+    {
+      "zh": "我们都只是战争的棋子，有谁在乎棋子有没有名字？",
+      "en": "We're all just pawns in a war. Who cares if a pawn has a name?"
+    },
+    {
+      "zh": "您，没有错。我，没有错。战争，不认对错。",
+      "en": "You, are not wrong. I, am not wrong either. War, does not have right or wrong."
+    },
+    {
+      "zh": "您坚持，我也坚持。",
+      "en": "You're stubborn. I'm stubborn as well."
+    },
+    {
+      "zh": "为什么？整合运动的“爱国者”，我问你——",
+      "en": "Why then? Reunion Movement \"Patriot\", I ask of you——"
+    },
+    {
+      "zh": "哪怕战争真有什么意义——",
+      "en": "Even if your war is really meaningful——"
+    },
+    {
+      "zh": "乌萨斯无数年的征战之后，那能够塞满十几座城市的尸体，他们的命有没有意义？有谁能记住他们的名字？",
+      "en": "After so many years of Ursus's conquests that could fill a dozen cities with corpses, don't their lives had meaning? Who can even remember their names anymore?"
+    },
+    {
+      "zh": "名字，被人知道？不需要。战士不考虑这些。",
+      "en": "Name, being remember? There's no need. Soldiers don't think about that."
+    },
+    {
+      "zh": "你把他们叫做战士——",
+      "en": "You call them soldiers——"
+    },
+    {
+      "zh": "有些时候，这些没有名字的人，连参加战争的理由都说不出。",
+      "en": "Sometimes, those nameless men could not give me a reason for joining a war."
+    },
+    {
+      "zh": "现在，他们再也没机会说了。",
+      "en": "Now, they'll never get a chance to say ever again."
+    },
+    {
+      "zh": "我厌倦了这一切。现在的我只想保护身边人，这点小事，至少触手可及。",
+      "en": "I'm tired of it all. Now I just wish to protect the people around me, at least this little thing is within my reach."
+    },
+    {
+      "zh": "对乌萨斯如此，对感染者也如此。",
+      "en": "It's the same for Ursus, and for the infected."
+    },
+    {
+      "zh": "这就是我的答复。",
+      "en": "This is my answer."
+    },
+    {
+      "zh": "这不怪您，将军。没有人必须，再去赴死。",
+      "en": "It's not your fault, general. No one has, to be sent to their deaths."
+    },
+    {
+      "zh": "矿石病，终归会让我死去。我是个士兵，我想死的，有价值。",
+      "en": "Oripathy, will eventually kill me. I'm a soldier, I want my death, to have some value."
+    },
+    {
+      "zh": "你有继续奋战下去的理由，很好，我真心为你感到高兴。",
+      "en": "You have a reason to keep fighting. Good. I'm really happy for you."
+    },
+    {
+      "zh": "......这样。将军，请听听，我的观点。",
+      "en": "... How about this. General, listen to me."
+    },
+    {
+      "zh": "说吧。",
+      "en": "Go ahead."
+    },
+    {
+      "zh": "您不怕死。如果怕死，您现在，已经身在罗德岛。",
+      "en": "You are not afraid to die. If you were afraid of death, you would, already be in Rhodes Island."
+    },
+    {
+      "zh": "您留下来，想听我的态度，您不怕天灾。",
+      "en": "You stayed, to listen to my thoughts, you do not fear natural disaster."
+    },
+    {
+      "zh": "您想知道，整合运动的目的。",
+      "en": "You, want to know the purpose of the Reunion Movement."
+    },
+    {
+      "zh": "确实。我想知道，你们想让乌萨斯的感染者走到哪一步。",
+      "en": "Indeed. I want to know how far you want the infected of Ursus to go."
+    },
+    {
+      "zh": "那么，我，说说。",
+      "en": "Then, I, shall tell you."
+    },
+    {
+      "zh": "您，厌倦战争，我，帮你打。",
+      "en": "You, tired of war. I, shall help you fight."
+    },
+    {
+      "zh": "感染者的权力，我，为您和您的孩子，为所有感染者，打回来。",
+      "en": "I shall fight for the infected rights. For your children, and for all the infected."
+    },
+    {
+      "zh": "您厌恶战争。请，继续厌恶下去。如果能，结束所有战争，也好。",
+      "en": "You tired of war. Please, continue to be tired of it. If I can, end all wars. Then everything is well."
+    },
+    {
+      "zh": "我，时日无多，我用来，斗争到最后。",
+      "en": "I, my days are numbered, I shall, fight to the end."
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "你才算是个真正的乌萨斯人。",
+      "en": "You're a real Ursus."
+    },
+    {
+      "zh": "真是场可悲的战争。",
+      "en": "What a sad war."
+    },
+    {
+      "zh": "也许在我有生之年，我不会再踏上乌萨斯的土地一步。",
+      "en": "Maybe I won't set foot on Ursus ever again for the rest of my life."
+    },
+    {
+      "zh": "听好，博卓卡斯替。",
+      "en": "Listen carefully, Болеслав (Boleslav). "
+    },
+    {
+      "zh": "【我不会与你为敌。绝不。】",
+      "en": "[I will never be your enemy. Never.]"
+    },
+    {
+      "zh": "————",
+      "en": "————"
+    },
+    {
+      "zh": "我不曾是，您麾下的士兵。这是我的，遗憾之一。",
+      "en": "I was not, a soldier under your command. That is, one of my regrets."
+    },
+    {
+      "zh": "【将军，我也绝不成为，你的敌人。】",
+      "en": "[General, I will never, be your enemy.]"
+    },
+    {
+      "zh": "——",
+      "en": "——"
+    },
+    {
+      "zh": "时候不早了，将军。让我的士兵，送您出城。没人能阻拦。",
+      "en": "It's getting late, general. Allow my soldiers escort you out of the city. No one shall stop you."
+    },
+    {
+      "zh": "如果你的领袖向我发难，我不会让你难做。",
+      "en": "If your leader stops me, I won't make it hard for you."
+    },
+    {
+      "zh": "不会的，将军。",
+      "en": "She won't, general."
+    },
+    {
+      "zh": "她不在乎。",
+      "en": "She doesn't care."
+    },
+    {
+      "zh": "这样最好。那么，就此别过。",
+      "en": "That's for the best. Then, let's leave it at that."
+    },
+    {
+      "zh": "——",
+      "en": "——"
+    },
+    {
+      "zh": "将军！",
+      "en": "General!"
+    },
+    {
+      "zh": "怎么？",
+      "en": "Yes?"
+    },
+    {
+      "zh": "......",
+      "en": "......"
+    },
+    {
+      "zh": "祝您......祝您......",
+      "en": "I wish you... I wish you..."
+    },
+    {
+      "zh": "祝您找到自己，真正的归宿。",
+      "en": "May you find your true calling."
+    },
+    {
+      "zh": "......",
+      "en": "......"
+    },
+    {
+      "zh": "Scout先生......我有什么值得你这么做的地方？",
+      "en": "Mr. Scout... What am I worth for you to do this?"
+    },
+    {
+      "zh": "像我这种废物，究竟哪里值得你这么做......！",
+      "en": "What in the world is worth it for a bum like me... !"
+    },
+    {
+      "zh": "我究竟在做什么？整合运动刚才那些情报，我又该和谁说？",
+      "en": "What the hell am I doing? Who should I talk to now with the Reunion Movement intelligence I got just now?"
+    },
+    {
+      "zh": "他们真的像我们想的那样吗？要是能解决他们说的那个误会，我们就不用......",
+      "en": "Are they really what we thought they were? If we could solve the misunderstanding he said, we wouldn't have to..."
+    },
+    {
+      "zh": "对了......对了，字条上会不会写了什么命令？",
+      "en": "Right... right, the note must have written a command!"
+    },
+    {
+      "zh": "如果有，Scout先生，我一定代你去做......一定！",
+      "en": "If it is Mr. Scout, then I shall do it for you... I must!"
+    },
+    {
+      "zh": "我可不会丢头儿的脸......！",
+      "en": "I won't lose Boss face... !"
+    },
+    {
+      "zh": "我有一个不情之请，就当作是安置你的辛苦费吧。我治疗了你的伤势，至少你暂时没有生命危险了。",
+      "en": "If I may be so bold to ask a favor, consider it as a settlement for your hard work. I've treated your injuries. At least your life is not in danger anymore."
+    },
+    {
+      "zh": "接下来，请听我说些无聊的事情。",
+      "en": "Next, please listen to me talking about some boring things."
+    },
+    {
+      "zh": "这次，我们的目标是救出博士。阿米娅表现得十分坚决。没人能说服她改变决定，或者说，所有人都把自己看得太轻了。",
+      "en": "This time, our goal is to rescue Doctor. Amiya was adamant. No one could persuade her to change her mind, rather, everyone looked down on themselves."
+    },
+    {
+      "zh": "Ace也和阿米娅一样，他坚信只要救出博士，罗德岛就能打破许多现有的僵局。",
+      "en": "Ace, like Amiya, he believe with conviction that if we rescued Doctor, then Rhodes Island can break many of its current predicament. "
+    },
+    {
+      "zh": "如果博士还像过去那样做事——我相信罗德岛一定会更加兴盛。",
+      "en": "If Doctor does what he used to do - I'm sure Rhodes Island will become even better."
+    },
+    {
+      "zh": "可我是个软弱的人，我不知道......",
+      "en": "But I'm a weak person, I dont know..."
+    },
+    {
+      "zh": "不知道自己有没有骨气承受这种兴盛。",
+      "en": "I don't know if I have the backbone to bear this prosperity."
+    },
+    {
+      "zh": "什么......？这是什么意思？",
+      "en": "What...? What are you saying?"
+    },
+    {
+      "zh": "三年前到现在，我们损失了许多兄弟姐妹。",
+      "en": "We have lost many brothers and sisters since three years ago."
+    },
+    {
+      "zh": "我一直认为，只要我们中还有人活着，就一定会在某处团聚，这也是我继续服务罗德岛的原因之一。",
+      "en": "I've always believed that as long as any of us are alive, we're going to be together somewhere, someday. That's one of the reasons why I continue to serve Rhodes Island."
+    },
+    {
+      "zh": "但我们失去的东西够多了，多到连Misery这样悲观的人都觉得必须让博士回归。",
+      "en": "But we've lost enough that a pessimist like Misery feels the need to bring him back."
+    },
+    {
+      "zh": "他一厢情愿地认为这之后我们将无往不利，死亡与告别会成为过去式。",
+      "en": "He had hoped that after this we would be all right, and that death and farewell would be a thing of the past."
+    },
+    {
+      "zh": "我不这么觉得。",
+      "en": "I don't think so."
+    },
+    {
+      "zh": "哦，我没在怀疑博士的能力。博士是倾斜了力量天平的人，没有博士，卡兹戴尔会是一潭死水。",
+      "en": "Oh, I'm not doubting Doctor's ability. Doctor was the one who tipped the balance of power. Without Doctor, Kazdale would be a backwater."
+    },
+    {
+      "zh": "何况，正是博士教给我战斗的理由。",
+      "en": "Besides, it was Doctor who taught me why to fight."
+    },
+    {
+      "zh": "只不过......当我们请求博士指挥我们的时候......在博士的眼神里，我只能看到胜利的承诺。",
+      "en": "Just... When we asked Doctor to command us... In Doctor's eyes, I could only see the promise of victory."
+    },
+    {
+      "zh": "除了胜利，我看不到别的东西。什么也没有。",
+      "en": "I see nothing but victory. Nothing else."
+    },
+    {
+      "zh": "那里什么也没有。",
+      "en": "There was nothing else there."
+    },
+    {
+      "zh": "我一直在想，凯尔希女士一直不肯向我们透露的真相，是不是也和博士有关？",
+      "en": "I've been wondering if the truth that Ms. Kalt'sit hasn't told us has something to do with Doctor?"
+    },
+    {
+      "zh": "三年前最后的那段时间，为什么照片上的X会越来越多，为什么牺牲越来越频繁，为什么会有我们根本看不到目的的战斗？",
+      "en": "Why were there more and more X's in the picture at the end of the last three years, why were there more and more sacrifices, why were there battles for which we could not see a purpose?"
+    },
+    {
+      "zh": "我不敢想象，也不能去想象。",
+      "en": "I dont dare to imagine it, I can't imagine it."
+    },
+    {
+      "zh": "如果战火和厮杀催化了博士，让博士从一个教导者和研究者，变成了一台战争机器......",
+      "en": "If war and fighting changed Doctor, made him from a teacher and a researcher, into a war machine..."
+    },
+    {
+      "zh": "那只会是我们这些请求Dr.{@nickname}去参与战争的人犯下了大错。",
+      "en": "That would be our biggest mistake who requested Dr.{@nickname} in participating war."
+    },
+    {
+      "zh": "博士不应该再去指挥战斗。对博士本人而言如此，对罗德岛而言，也是如此。",
+      "en": "Doctor should no longer be in command of battles. For Doctor own sake, and for Rhodes Island as well."
+    },
+    {
+      "zh": "......很抱歉，很天真吧。",
+      "en": ".... I'm sorry. I bet you think its naive."
+    },
+    {
+      "zh": "我的想法，就连我自己都觉得幼稚......所以我也不曾向谁吐露过这些。",
+      "en": "My thoughts sounded childish even to me... so I never told anyone."
+    },
+    {
+      "zh": "哼，不论是谁听见都会笑出声。我挺不喜欢别人嘲笑我的，原本，我也想带着这些念头入土。",
+      "en": "Well, whoever reads this will laugh out loud. I never liked being laughed at, and I wanted to take these thoughts to my grave with me."
+    },
+    {
+      "zh": "但到了现在这个时候，我竟然还是希望有谁，哪怕是，能帮我惦记下这件事......",
+      "en": "But at this point, I still hope that someone, anyone, will help me remember all of this..."
+    },
+    {
+      "zh": "我想让博士，重新开始生活。",
+      "en": "I wish for Doctor to start over with a new life."
+    },
+    {
+      "zh": "如果能和罗德岛再无瓜葛，或者说，博士能真的置身事外，哪怕是忘记了过去的一切......",
+      "en": "If he has to cut ties with Rhodes Island, or if Doctor could really stay out of trouble, even if he had forgotten everything..."
+    },
+    {
+      "zh": "只要博士不再走上战争这条路，怎么样都好。",
+      "en": "As long as Doctor doesn't walk the war path again, so be it."
+    },
+    {
+      "zh": "唉，我只剩下这样虚无缥缈的愿望。",
+      "en": "*Sigh* Oh, I only have such a vain hope."
+    },
+    {
+      "zh": "......",
+      "en": "...."
+    },
+    {
+      "zh": "抱歉，说了这么多。如果不喜欢，就全当是胡言乱语吧。",
+      "en": "I'm sorry, I said much. If you don't like it, think of it as bullshit."
+    },
+    {
+      "zh": "对了，倒是有三件事，我绝对没胡说。",
+      "en": "Right, by the way, there are three things I'm not lying about."
+    },
+    {
+      "zh": "第一，请告诉Dr.{@nickname}，嗯，我想就这么说吧。",
+      "en": "First, please tell Dr.{@nickname}, well, I've always wanted to say it."
+    },
+    {
+      "zh": "“博士和我们并肩作战的那些日子，我一刻也没忘记过。”",
+      "en": "\"I never forgot a moment of Doctor fighting side by side with us.\""
+    },
+    {
+      "zh": "第二，是我的小队。",
+      "en": "Second, its about my small team."
+    },
+    {
+      "zh": "——",
+      "en": "——"
+    },
+    {
+      "zh": "斯琳珂，普特尔，长蝎，雷发，姆拉姆，酒莓软芯，索拉娜，米米，小玛丽，图钉，淤兰，长音。",
+      "en": "Slinker, Puttel, Scorpion, Thunder, Reimu, Cranberry, Sorana, Mimi, little Mary, Thumbtack, Jutland, 长音"
+    },
+    {
+      "zh": "我的队员们，一共十二位。",
+      "en": "My squad members, were twelve."
+    },
+    {
+      "zh": "他们打穿了敌人的防线，打退了敌人的救援；没他们在，我就没机会击杀敌人雇佣兵部队的领头人。",
+      "en": "They broke through the enemy's lines and beaten back their reinforcements; Without them, I wouldn't have had a chance to kill the leader of an enemy mercenary army."
+    },
+    {
+      "zh": "只是，我这十二位可敬的干员，都在战斗中阵亡了。",
+      "en": "But all my twelve worthy operators have been killed in action."
+    },
+    {
+      "zh": "请你，见证他们的战斗。",
+      "en": "Please, witness their battle."
+    },
+    {
+      "zh": "如果有人问起来，帮我回答那些人吧——",
+      "en": "If anyone asks, please answer them for me——"
+    },
+    {
+      "zh": "虽然没人能记住我这支小队中各位队员的名字，但他们死得尊严。他们没因为怕死而退缩过，绝对没有。",
+      "en": "Although no one can remember the names of my squad members, but they died with dignity. They did not shrink their duty in the face of death, they absolutely faced it head on."
+    },
+    {
+      "zh": "当然，我知道有许多罗德岛人为罗德岛的事业贡献了生命。没有人的死是特别的。",
+      "en": "Of course, I know many Rhodes Island operators who gave their live to Rhodes Island cause. Not one death is special."
+    },
+    {
+      "zh": "只是，我们不是在为了任何一个生命个体战斗。这样说，是在贬低他们的死！",
+      "en": "It's just that we're not fighting for any single life. To say so is to belittle their death!"
+    },
+    {
+      "zh": "提醒下问起这件事的人：他们都是为了自己相信的理念而牺牲的。",
+      "en": "Remind anyone who asks: they all died for what they believed in."
+    },
+    {
+      "zh": "第三——",
+      "en": "Third——"
+    },
+    {
+      "zh": "你得为自己活下去，不知姓名的罗德岛兄弟。我说了那么多，可不是在劝你送死。",
+      "en": "You have to live for yourself, unknown named Rhodes Island brother. I'm not asking you to go die."
+    },
+    {
+      "zh": "生命很可贵，如果能活着实现理想，何必去死呢？",
+      "en": "Life is precious, if you can live to achieve your ideals, why die?"
+    },
+    {
+      "zh": "就这么多了，兄弟。",
+      "en": "I've written enough, brother."
+    },
+    {
+      "zh": "要珍惜你的生命。",
+      "en": "Cherish your life."
+    },
+    {
+      "zh": "为什么.....",
+      "en": "Why..."
+    },
+    {
+      "zh": "博士......罗德岛......",
+      "en": "Doctor... Rhodes Island..."
+    },
+    {
+      "zh": "战士！",
+      "en": "Soldier!"
+    },
+    {
+      "zh": "！",
+      "en": "!"
+    },
+    {
+      "zh": "我的声音，你听得见。",
+      "en": "If you can hear my voice."
+    },
+    {
+      "zh": "你有离开的机会，只等入夜。",
+      "en": "You have a chance to leave, just wait till nightfall."
+    },
+    {
+      "zh": "向南走，避开灯光。机会只有一次，就在今晚。",
+      "en": "Go south and avoid the lights. You have one chance tonight."
+    },
+    {
+      "zh": "——或者——",
+      "en": "——Or———"
+    },
+    {
+      "zh": "在切尔诺伯格，有许多人，需要照料。你可以，亲眼看看。",
+      "en": "In Chernobog, there are a lot of people who need care. You can, see for yourself."
+    },
+    {
+      "zh": "选择。这是你的自由。",
+      "en": "Choose what to do. It's your freedom."
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "头儿，Scout先生，还有弟兄们......",
+      "en": "Boss, Mr. Scount, my brothers..."
+    },
+    {
+      "zh": "我会的。",
+      "en": "I will."
+    }
+  ]
+}
