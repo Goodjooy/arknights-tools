@@ -2,723 +2,903 @@
   "messages": [
     {
       "zh": "♪你是否听闻一声惊雷？",
-      "en": "♪Have you heard of a thunder?"
+      "en": "♪Have you heard of a thunder?",
+      "jp": ""
     },
     {
       "zh": "♪雨成帘，不见山",
-      "en": "♪Rain pouring down, obscuring the mountains"
+      "en": "♪Rain pouring down, obscuring the mountains",
+      "jp": ""
     },
     {
       "zh": "♪我早已忘记是何人何物",
-      "en": "♪I have long forgotten who and what"
+      "en": "♪I have long forgotten who and what",
+      "jp": ""
     },
     {
       "zh": "♪将我引领入此道",
-      "en": "♪Lead me into this path"
+      "en": "♪Lead me into this path",
+      "jp": ""
     },
     {
       "zh": "♪远方的红色的云啊",
-      "en": "♪Red clouds in the distance"
+      "en": "♪Red clouds in the distance",
+      "jp": ""
     },
     {
       "zh": "♪带我回到故乡",
-      "en": "♪Take me home oh sweet home"
+      "en": "♪Take me home oh sweet home",
+      "jp": ""
     },
     {
       "zh": "唔......？",
-      "en": "What...?"
+      "en": "What...?",
+      "jp": ""
     },
     {
       "zh": "......",
-      "en": "..."
+      "en": "...",
+      "jp": ""
     },
     {
       "zh": "我已经听见了歌声，躲藏是不必要的，我没有恶意。",
-      "en": "I heard the song. It is unnecessary for you to hide. I mean no harm."
+      "en": "I heard the song. It is unnecessary for you to hide. I mean no harm.",
+      "jp": ""
     },
     {
       "zh": "......每个刽子手都这么说的。但最后，总是见血。",
-      "en": "... That's what every killer says. But in the end, there's always bloodshed."
+      "en": "... That's what every killer says. But in the end, there's always bloodshed.",
+      "jp": ""
     },
     {
       "zh": "刽子手？我不明白你的用词。我是拉特兰公证所——",
-      "en": "Killer? I don't understand your words. I'm from Laterano and a notary——"
+      "en": "Killer? I don't understand your words. I'm from Laterano and a notary——",
+      "jp": ""
     },
     {
       "zh": "闭嘴！你骗不了我！",
-      "en": "Shut up! You can't fool me!"
+      "en": "Shut up! You can't fool me!",
+      "jp": ""
     },
     {
       "zh": "得手了！",
-      "en": "Got you!"
+      "en": "Got you!",
+      "jp": ""
     },
     {
       "zh": "并没有。",
-      "en": "Nope."
+      "en": "Nope.",
+      "jp": ""
     },
     {
       "zh": "咦？！",
-      "en": "What?!"
+      "en": "What?!",
+      "jp": ""
     },
     {
       "zh": "失礼了。",
-      "en": "Excuse my lack of manners."
+      "en": "Excuse my lack of manners.",
+      "jp": ""
     },
     {
       "zh": "目标翻窗逃走，反应相当迅速。",
-      "en": "The target escaped through the window, they reacted quickly."
+      "en": "The target escaped through the window, they reacted quickly.",
+      "jp": ""
     },
     {
       "zh": "环境确认。腌制的羽兽肉，鞣制用的架子，处理过的牙兽皮，手工小刀和木质工具。",
-      "en": "Confirmation of the environment. There are preserved feathers, tanning shelves, processed tusks, handmade knives and wooden tools."
+      "en": "Confirmation of the environment. There are preserved feathers, tanning shelves, processed tusks, handmade knives and wooden tools.",
+      "jp": ""
     },
     {
       "zh": "放下弓。我清楚你的位置，你埋伏在窗后。",
-      "en": "Put down the bow. I know where you are. You're lurking behind the window."
+      "en": "Put down the bow. I know where you are. You're lurking behind the window.",
+      "jp": ""
     },
     {
       "zh": "重申一遍，我对你没有恶意。",
-      "en": "Again, I bear you no ill will."
+      "en": "Again, I bear you no ill will.",
+      "jp": ""
     },
     {
       "zh": "——不行！",
-      "en": "——I refuse!"
+      "en": "——I refuse!",
+      "jp": ""
     },
     {
       "zh": "你的警戒心很强。",
-      "en": "You have a strong vigilance."
+      "en": "You have a strong vigilance.",
+      "jp": ""
     },
     {
       "zh": "尝尝这一箭！",
-      "en": "Have a taste of this arrow!"
+      "en": "Have a taste of this arrow!",
+      "jp": ""
     },
     {
       "zh": "抓，用手抓住了箭身？",
-      "en": "You g-grabbed my arrow with your hand?"
+      "en": "You g-grabbed my arrow with your hand?",
+      "jp": ""
     },
     {
       "zh": "怎么会......你究竟是什么人！",
-      "en": "How did... Who the hell are you?!"
+      "en": "How did... Who the hell are you?!",
+      "jp": ""
     },
     {
       "zh": "诚如报告所说，遗嘱继承人暴躁排外，难以交流。",
-      "en": "Just as the report said, the heir to the will is irascible and a difficult person, and also hard to talk with."
+      "en": "Just as the report said, the heir to the will is irascible and a difficult person, and also hard to talk with.",
+      "jp": ""
     },
     {
       "zh": "以上就是本人遗嘱的全部内容。",
-      "en": "As mentioned in the will."
+      "en": "As mentioned in the will.",
+      "jp": ""
     },
     {
       "zh": "除此之外，我有一条出于私心的请求。",
-      "en": "In addition to this, I have a selfish request."
+      "en": "In addition to this, I have a selfish request.",
+      "jp": ""
     },
     {
       "zh": "在叙拉古的森林之中，我遇到了一位独臂的沃尔珀少女。",
-      "en": "In the forests of Syracuse I met a one-armed Vulpus maiden."
+      "en": "In the forests of Syracuse I met a one-armed Vulpus maiden.",
+      "jp": ""
     },
     {
       "zh": "她沉溺在对过去的复仇之中，拘泥于那片染血的土地。",
-      "en": "She was obsessed with revenge for the past, clinging to that bloodsoaked land."
+      "en": "She was obsessed with revenge for the past, clinging to that bloodsoaked land.",
+      "jp": ""
     },
     {
       "zh": "出于怜悯，我帮助了她，也许这伤害到了她的自尊，但她倔强的求生方式的确感动了我。",
-      "en": "Out of pity, I helped her. Maybe it hurt her self-esteem, but her stubborn way of survival really touched me."
+      "en": "Out of pity, I helped her. Maybe it hurt her self-esteem, but her stubborn way of survival really touched me.",
+      "jp": ""
     },
     {
       "zh": "后来我意识到，我一时兴起的援助，不过是坚定了她复仇的执念，这让我寝食难安。",
-      "en": "Then I realized that my impulse to help had only solidified her obsession with revenge, I couldn't sleep when I realized what I've done."
+      "en": "Then I realized that my impulse to help had only solidified her obsession with revenge, I couldn't sleep when I realized what I've done.",
+      "jp": ""
     },
     {
       "zh": "所以我想把我的一切赠送给她，尽管我几乎一无所有，只剩那么点可悲的遗物。",
-      "en": "So I wanted to give her everything I had, even though I had almost nothing but a few sad momentos."
+      "en": "So I wanted to give her everything I had, even though I had almost nothing but a few sad momentos.",
+      "jp": ""
     },
     {
       "zh": "——恕我打断一下，您的亲属列表里没有沃尔珀人。这会为我们的工作带来很多麻烦。",
-      "en": "——With all due respect, there are no Vulpus listed on your list of relatives. This will bring a lot of trouble to our work."
+      "en": "——With all due respect, there are no Vulpus listed on your list of relatives. This will bring a lot of trouble to our work.",
+      "jp": ""
     },
     {
       "zh": "所以，这只是一位膝下无子的拉特兰公民，在将死之际向公证所提出的小小请求。",
-      "en": "That's why this is a small request from a childless citizen of Laterano to a notary on my deathbed."
+      "en": "That's why this is a small request from a childless citizen of Laterano to a notary on my deathbed.",
+      "jp": ""
     },
     {
       "zh": "......",
-      "en": "..."
+      "en": "...",
+      "jp": ""
     },
     {
       "zh": "（他的身上，有血的气味，而且，有股讨厌的感觉......）",
-      "en": "(He has the smell of blood on him and, what's more, he gives me a nasty feeling... )"
+      "en": "(He has the smell of blood on him and, what's more, he gives me a nasty feeling... )",
+      "jp": ""
     },
     {
       "zh": "（又是来破坏我们家园的人吗，讨厌，好讨厌！）",
-      "en": "(Is it the people who are trying to destroy my home again?)"
+      "en": "(Is it the people who are trying to destroy my home again?)",
+      "jp": ""
     },
     {
       "zh": "上钩了！",
-      "en": "He took the bait!"
+      "en": "He took the bait!",
+      "jp": ""
     },
     {
       "zh": "原来如此，又是个陷阱。似乎各个方位都有触发机关。",
-      "en": "I see. Another trap. There seems to be a trigger in every direction."
+      "en": "I see. Another trap. There seems to be a trigger in every direction.",
+      "jp": ""
     },
     {
       "zh": "听着！你已经走进了猎人的陷阱，不想死的话，就把你的武器放下，一步也不要动！",
-      "en": "Listen! You're in a hunter's trap. If you don't want to die, drop your weapon. Don't move a step!"
+      "en": "Listen! You're in a hunter's trap. If you don't want to die, drop your weapon. Don't move a step!",
+      "jp": ""
     },
     {
       "zh": "如果能方便交流，可以。",
-      "en": "If it helps with talking to you, sure."
+      "en": "If it helps with talking to you, sure.",
+      "jp": ""
     },
     {
       "zh": "你是什么人？\\",
-      "en": "Who are you? \\"
+      "en": "Who are you? \\",
+      "jp": ""
     },
     {
       "zh": "拉特兰公证所的执行者，本次的遗嘱执行人。可以称呼我“送葬人”。",
-      "en": "The executor of Laterano notary, and the executor of this will. You can call me \"Executor\"."
+      "en": "The executor of Laterano notary, and the executor of this will. You can call me \"Executor\".",
+      "jp": ""
     },
     {
       "zh": "拉特兰......？",
-      "en": "Laterano...?"
+      "en": "Laterano...?",
+      "jp": ""
     },
     {
       "zh": "“红云”，你是被委托的对象。",
-      "en": "\"Vermeil\", you are the one entrusted with this will."
+      "en": "\"Vermeil\", you are the one entrusted with this will.",
+      "jp": ""
     },
     {
       "zh": "你为什么会知道我的名字？",
-      "en": "How did you know my name?"
+      "en": "How did you know my name?",
+      "jp": ""
     },
     {
       "zh": "你的名字由遗嘱人迪伦马特先生告知。",
-      "en": "Your name was given to me by Mr.Dürrenmatt, the testator."
+      "en": "Your name was given to me by Mr.Dürrenmatt, the testator.",
+      "jp": ""
     },
     {
       "zh": "我不认识这个人。",
-      "en": "I don't know this person."
+      "en": "I don't know this person.",
+      "jp": ""
     },
     {
       "zh": "出于某些原因，他曾使用多个化名。",
-      "en": "Due to reasons, he used multiple aliases."
+      "en": "Due to reasons, he used multiple aliases.",
+      "jp": ""
     },
     {
       "zh": "你要带我去哪里？",
-      "en": "Where are you taking me?"
+      "en": "Where are you taking me?",
+      "jp": ""
     },
     {
       "zh": "出于保密要求，我不能说。",
-      "en": "For reasons of confidentiality, I can't say."
+      "en": "For reasons of confidentiality, I can't say.",
+      "jp": ""
     },
     {
       "zh": "......嘁，满嘴谎话！你就死在这里吧！",
-      "en": "... *Clicks her tongue*, you're full of lies! You'll die here!"
+      "en": "... *Clicks her tongue*, you're full of lies! You'll die here!",
+      "jp": ""
     },
     {
       "zh": "我是不会离开这儿的，我的爸爸妈妈，叔叔阿姨，还有朋友，我的族人，都，都......",
-      "en": "I'm never leaving here, my mom and dad, my aunts and uncles, my friends, my people are, are..."
+      "en": "I'm never leaving here, my mom and dad, my aunts and uncles, my friends, my people are, are...",
+      "jp": ""
     },
     {
       "zh": "我的任务只是带你离开。",
-      "en": "My job is just to get you out of here."
+      "en": "My job is just to get you out of here.",
+      "jp": ""
     },
     {
       "zh": "不要再说胡话了！你知道自己的处境吗！",
-      "en": "Stop talking nonsense! Do you know your situation?"
+      "en": "Stop talking nonsense! Do you know your situation?",
+      "jp": ""
     },
     {
       "zh": "我处在无法进行交涉的情况下。",
-      "en": "I'm in a situation where I am unable to talk with you."
+      "en": "I'm in a situation where I am unable to talk with you.",
+      "jp": ""
     },
     {
       "zh": "哼，走进这片森林的，都只会是我们的猎物。",
-      "en": "Humph, trespassers who walk into this forest, will only be our prey."
+      "en": "Humph, trespassers who walk into this forest, will only be our prey.",
+      "jp": ""
     },
     {
       "zh": "你的脚下的骨头，原本都是些野兽和坏人！",
-      "en": "The bones under your feet were originally beasts and bad people!"
+      "en": "The bones under your feet were originally beasts and bad people!",
+      "jp": ""
     },
     {
       "zh": "理解。据点周围布满陷阱。",
-      "en": "Understood. Your home is surrounded by traps."
+      "en": "Understood. Your home is surrounded by traps.",
+      "jp": ""
     },
     {
       "zh": "落穴，绊索，土制地雷，自动飞镖。",
-      "en": "Pit, tripwire, landmines, automatic darts."
+      "en": "Pit, tripwire, landmines, automatic darts.",
+      "jp": ""
     },
     {
       "zh": "请放心，我已经全部解除了。陷阱很初级，有伤到委托对象你的可能性。",
-      "en": "Please rest assured that I have disarmed them all. The trap were very basic, there is no possibility of injuring you."
+      "en": "Please rest assured that I have disarmed them all. The trap were very basic, there is no possibility of injuring you.",
+      "jp": ""
     },
     {
       "zh": "......",
-      "en": "..."
+      "en": "...",
+      "jp": ""
     },
     {
       "zh": "请跟我走。",
-      "en": "Please come with me."
+      "en": "Please come with me.",
+      "jp": ""
     },
     {
       "zh": "——！走开！",
-      "en": "——！Go away!"
+      "en": "——！Go away!",
+      "jp": ""
     },
     {
       "zh": "再往前一步，我就射穿你！",
-      "en": "One more step, and I'll shoot you through!"
+      "en": "One more step, and I'll shoot you through!",
+      "jp": ""
     },
     {
       "zh": "又逃了。",
-      "en": "She fled again."
+      "en": "She fled again.",
+      "jp": ""
     },
     {
       "zh": "喂，你为什么要救我？",
-      "en": "Hey, why did you save me?"
+      "en": "Hey, why did you save me?",
+      "jp": ""
     },
     {
       "zh": "毕竟我也是个猎人。",
-      "en": "I'm a hunter too, after all."
+      "en": "I'm a hunter too, after all.",
+      "jp": ""
     },
     {
       "zh": "看到一位可敬的同行失去了一只臂膀，血肉模糊地躺在一只牙兽的身边，我怎么能视而不见呢？",
-      "en": "How could I turn a blind eye to the sight of a worthy fellow hunter lying mangled next to a toothed beast, with an arm missing?"
+      "en": "How could I turn a blind eye to the sight of a worthy fellow hunter lying mangled next to a toothed beast, with an arm missing?",
+      "jp": ""
     },
     {
       "zh": "哼......你根本不是猎人，你骗不了我。你身上没有泥土的味道。",
-      "en": "Hmph... You're no hunter. You can't fool me. You don't smell of dirt."
+      "en": "Hmph... You're no hunter. You can't fool me. You don't smell of dirt.",
+      "jp": ""
     },
     {
       "zh": "哈哈，瞒不过你，但亲眼目睹那副景象的时候，我被年幼却征服了荒野的你感动了，这是实话。",
-      "en": "Haha, I can't hide it from you, but when I witnessed that sight, I was moved by you who conquered the wilderness with you being so young, that's the truth."
+      "en": "Haha, I can't hide it from you, but when I witnessed that sight, I was moved by you who conquered the wilderness with you being so young, that's the truth.",
+      "jp": ""
     },
     {
       "zh": "那是什么意思？",
-      "en": "What did you say?"
+      "en": "What did you say?",
+      "jp": ""
     },
     {
       "zh": "只是我的自言自语。",
-      "en": "It's just me talking to myself."
+      "en": "It's just me talking to myself.",
+      "jp": ""
     },
     {
       "zh": "你脑袋上的那个圆，还有背后的装饰，是怎么回事？",
-      "en": "What is with the circle on your head and the decoration on your back?"
+      "en": "What is with the circle on your head and the decoration on your back?",
+      "jp": ""
     },
     {
       "zh": "小家伙，你没见过拉特兰人吗？",
-      "en": "Kid, you never seen a Lateranian (Laterano) before?"
+      "en": "Kid, you never seen a Lateranian (Laterano) before?",
+      "jp": ""
     },
     {
       "zh": "嗯。",
-      "en": "Yeah."
+      "en": "Yeah.",
+      "jp": ""
     },
     {
       "zh": "这是......我抛却的故土给我留下的印记。",
-      "en": "This is... The mark of my homeland I left behind."
+      "en": "This is... The mark of my homeland I left behind.",
+      "jp": ""
     },
     {
       "zh": "人是没法抛弃家的泥土的。",
-      "en": "I don't believe a person could abandon their homeland."
+      "en": "I don't believe a person could abandon their homeland.",
+      "jp": ""
     },
     {
       "zh": "也许吧，总之，发生了很多事，来，试着站起身来吧。",
-      "en": "Maybe you're right. Anyways, a lot of things happened in the past. Come on, try to get up."
+      "en": "Maybe you're right. Anyways, a lot of things happened in the past. Come on, try to get up.",
+      "jp": ""
     },
     {
       "zh": "让我来帮你装上这个。",
-      "en": "Let me help you install this."
+      "en": "Let me help you install this.",
+      "jp": ""
     },
     {
       "zh": "这是......？胳膊？铁做的胳膊？好奇怪的东西。",
-      "en": "This is... ? An arm? Iron arm? What a strange thing."
+      "en": "This is... ? An arm? Iron arm? What a strange thing.",
+      "jp": ""
     },
     {
       "zh": "代表我对一位荒野之子的敬意。",
-      "en": "In honor of a child of the wilderness."
+      "en": "In honor of a child of the wilderness.",
+      "jp": ""
     },
     {
       "zh": "你是个修东西的？",
-      "en": "You're a repairman?"
+      "en": "You're a repairman?",
+      "jp": ""
     },
     {
       "zh": "很久以前的职责让我学会了很多东西。",
-      "en": "I learned a lot from my work a long time ago."
+      "en": "I learned a lot from my work a long time ago.",
+      "jp": ""
     },
     {
       "zh": "......",
-      "en": "..."
+      "en": "...",
+      "jp": ""
     },
     {
       "zh": "......你救过我，你不是个坏人。为了报仇，我很需要一只胳膊，谢谢。",
-      "en": "... You saved me. You're not a bad guy at all. I need an arm for revenge, so thank you."
+      "en": "... You saved me. You're not a bad guy at all. I need an arm for revenge, so thank you.",
+      "jp": ""
     },
     {
       "zh": "复仇吗......我不会指点你的命运。",
-      "en": "Revenge huh... I will not tell you what to do."
+      "en": "Revenge huh... I will not tell you what to do.",
+      "jp": ""
     },
     {
       "zh": "但当你用这只手臂拉动弓弦的时候，你可以想想，除了报仇以外，我们是为什么活着。",
-      "en": "But when you pull your bowstring with this arm, you can think about why we live, other than revenge."
+      "en": "But when you pull your bowstring with this arm, you can think about why we live, other than revenge.",
+      "jp": ""
     },
     {
       "zh": "想得少了，就会沦落到我今天这样。",
-      "en": "If you thought about it less, you'll end up where I am today."
+      "en": "If you thought about it less, you'll end up where I am today.",
+      "jp": ""
     },
     {
       "zh": "我——",
-      "en": "I——"
+      "en": "I——",
+      "jp": ""
     },
     {
       "zh": "不要说什么“为了复仇而活”，这太老套了，很没意思的。",
-      "en": "Don't say \"I live for revenge\". It's such a cliche. It's not worth it."
+      "en": "Don't say \"I live for revenge\". It's such a cliche. It's not worth it.",
+      "jp": ""
     },
     {
       "zh": "......没错，很没意思的。",
-      "en": "... Yeah, it's not worth it."
+      "en": "... Yeah, it's not worth it.",
+      "jp": ""
     },
     {
       "zh": "（拉特兰......他说他是拉特兰人......）",
-      "en": "(Latera... he said he's Lateranian (Laterano)...)"
+      "en": "(Latera... he said he's Lateranian (Laterano)...)",
+      "jp": ""
     },
     {
       "zh": "（难道他真的是......)",
-      "en": "(Is he really...)"
+      "en": "(Is he really...)",
+      "jp": ""
     },
     {
       "zh": "唔！又来，好痛！",
-      "en": "Urgh! Again, it hurts!"
+      "en": "Urgh! Again, it hurts!",
+      "jp": ""
     },
     {
       "zh": "看来迪伦马特先生的判断是正确的。",
-      "en": "It seems that Mr.Dürrenmatt is right."
+      "en": "It seems that Mr.Dürrenmatt is right.",
+      "jp": ""
     },
     {
       "zh": "什么？",
-      "en": "What?"
+      "en": "What?",
+      "jp": ""
     },
     {
       "zh": "可恶，你是什么时候追到这里的？",
-      "en": "Damn it. When did you get here?"
+      "en": "Damn it. When did you get here?",
+      "jp": ""
     },
     {
       "zh": "唔！放开我！！",
-      "en": "Argh! Let me go!!"
+      "en": "Argh! Let me go!!",
+      "jp": ""
     },
     {
       "zh": "停手吧，既然你是遗嘱继承人，我就不能伤害你。",
-      "en": "Please stop resisting. Since you're the heir to the will, I can't hurt you."
+      "en": "Please stop resisting. Since you're the heir to the will, I can't hurt you.",
+      "jp": ""
     },
     {
       "zh": "这是他的信。",
-      "en": "This is his letter."
+      "en": "This is his letter.",
+      "jp": ""
     },
     {
       "zh": "——！！",
-      "en": "——！！"
+      "en": "——！！",
+      "jp": ""
     },
     {
       "zh": "为什么还要抵抗？",
-      "en": "Why are you still resisting?"
+      "en": "Why are you still resisting?",
+      "jp": ""
     },
     {
       "zh": "......信上有他的气味，血的气味，你对他做了什么！？",
-      "en": "... The letter smells of him, smells of blood, what did you do to him! ?"
+      "en": "... The letter smells of him, smells of blood, what did you do to him! ?",
+      "jp": ""
     },
     {
       "zh": "从拉特兰抵达这里的旅程非常漫长，气味分子不可能有所保留。",
-      "en": "The journey from Laterano is quite far, it's impossible for you to still smell the scent molecules."
+      "en": "The journey from Laterano is quite far, it's impossible for you to still smell the scent molecules.",
+      "jp": ""
     },
     {
       "zh": "回答我！否则你会死在这里！",
-      "en": "Answer me! Or you'll die here!"
+      "en": "Answer me! Or you'll die here!",
+      "jp": ""
     },
     {
       "zh": "呃！",
-      "en": "Urgh!"
+      "en": "Urgh!",
+      "jp": ""
     },
     {
       "zh": "首先，我认为展示力量差距有助于对话成立。",
-      "en": "First of all, I think it's time to show the power gap between us for us to talk."
+      "en": "First of all, I think it's time to show the power gap between us for us to talk.",
+      "jp": ""
     },
     {
       "zh": "其次，出于对遗嘱继承人的尊重，我可以回答你。",
-      "en": "Secondly, out of respect for being the heir to the will, I shall answer your question."
+      "en": "Secondly, out of respect for being the heir to the will, I shall answer your question.",
+      "jp": ""
     },
     {
       "zh": "迪伦马特先生死在手术台上，并不安详。他身患一种无法治愈的疾病。",
-      "en": "Mr.Dürrenmatt did not past away peacefully on the operating table, he was suffering from an incurable disease."
+      "en": "Mr.Dürrenmatt did not past away peacefully on the operating table, he was suffering from an incurable disease.",
+      "jp": ""
     },
     {
       "zh": "你——！松手！",
-      "en": "You——! Let go!"
+      "en": "You——! Let go!",
+      "jp": ""
     },
     {
       "zh": "这是他的选择。",
-      "en": "It was his choice."
+      "en": "It was his choice.",
+      "jp": ""
     },
     {
       "zh": "喂！你，你在干嘛！",
-      "en": "Hey! What are y-you doing?"
+      "en": "Hey! What are y-you doing?",
+      "jp": ""
     },
     {
       "zh": "源石已经破体而出，感染程度在加剧。",
-      "en": "Oripathy has spread through your body, the degree of infection is increasing."
+      "en": "Oripathy has spread through your body, the degree of infection is increasing.",
+      "jp": ""
     },
     {
       "zh": "这不关你事！",
-      "en": "It's none of your business!"
+      "en": "It's none of your business!",
+      "jp": ""
     },
     {
       "zh": "如果执行对象坚持拒绝，原则上，我可以放弃。",
-      "en": "If the recipient target insists on rejecting, in principle, I can give up."
+      "en": "If the recipient target insists on rejecting, in principle, I can give up.",
+      "jp": ""
     },
     {
       "zh": "但委托人和上司给予了我一个附属条约，我必须执行。",
-      "en": "But my client and boss have given me a subsidiary condition that I must execute my job."
+      "en": "But my client and boss have given me a subsidiary condition that I must execute my job.",
+      "jp": ""
     },
     {
       "zh": "——你到底要怎么样？",
-      "en": "——What do you want?"
+      "en": "——What do you want?",
+      "jp": ""
     },
     {
       "zh": "“让红云活下去”。",
-      "en": "\"Let Vermeil live on.\""
+      "en": "\"Let Vermeil live on.\"",
+      "jp": ""
     },
     {
       "zh": "但因为要求笼统，所以实行起来很复杂，希望你能配合。",
-      "en": "But because the requirement is so general, carrying it out is actually very complex, I hope you can cooperate with me."
+      "en": "But because the requirement is so general, carrying it out is actually very complex, I hope you can cooperate with me.",
+      "jp": ""
     },
     {
       "zh": "......这也是那个人的委托？",
-      "en": "...Is this part of your client's request?"
+      "en": "...Is this part of your client's request?",
+      "jp": ""
     },
     {
       "zh": "是的。他变卖了所有的财产，支付了包括公证所的额外手续费，以及你将来的治疗开销。",
-      "en": "Indeed. He sold all his possessions away, paid the notary office extra fees, and your future medical bills."
+      "en": "Indeed. He sold all his possessions away, paid the notary office extra fees, and your future medical bills.",
+      "jp": ""
     },
     {
       "zh": "可是，为什么？他只是路过这片森林......",
-      "en": "But why would he do that? He was just passing through this forest..."
+      "en": "But why would he do that? He was just passing through this forest...",
+      "jp": ""
     },
     {
       "zh": "他想让你活下去。",
-      "en": "He wants you to live."
+      "en": "He wants you to live.",
+      "jp": ""
     },
     {
       "zh": "所以我问为什么！",
-      "en": "That's why I'm asking!"
+      "en": "That's why I'm asking!",
+      "jp": ""
     },
     {
       "zh": "因为他觉得你值得活下去。",
-      "en": "Because he thinks you have a life worth living."
+      "en": "Because he thinks you have a life worth living.",
+      "jp": ""
     },
     {
       "zh": "既然遗嘱已经传达到位，我的工作就告一段落了。",
-      "en": "Now that the will is known, my work is done."
+      "en": "Now that the will is known, my work is done.",
+      "jp": ""
     },
     {
       "zh": "什......！你什么时候塞给我的——！",
-      "en": "What...! When did you give me this——!"
+      "en": "What...! When did you give me this——!",
+      "jp": ""
     },
     {
       "zh": "在下一步行动前，我必须听到你的答复。",
-      "en": "Before we move onto the next step, I need to hear from you first before I do my job any further."
+      "en": "Before we move onto the next step, I need to hear from you first before I do my job any further.",
+      "jp": ""
     },
     {
       "zh": "“你想活下去吗？”",
-      "en": "\"Do you want to live?\""
+      "en": "\"Do you want to live?\"",
+      "jp": ""
     },
     {
       "zh": "......",
-      "en": "..."
+      "en": "...",
+      "jp": ""
     },
     {
       "zh": "你只要回答，想，或是不想。",
-      "en": "You only need to answer me a yes or no."
+      "en": "You only need to answer me a yes or no.",
+      "jp": ""
     },
     {
       "zh": "我们的时间不多。",
-      "en": "We don't have much time."
+      "en": "We don't have much time.",
+      "jp": ""
     },
     {
       "zh": "我——",
-      "en": "I——"
+      "en": "I——",
+      "jp": ""
     },
     {
       "zh": "对了，先生，我该怎么称呼你？",
-      "en": "By the way, Mister, what should I call you?"
+      "en": "By the way, Mister, what should I call you?",
+      "jp": ""
     },
     {
       "zh": "——送葬人。如果你执意要称呼我的话。",
-      "en": "——Executor. If you must."
+      "en": "——Executor. If you must.",
+      "jp": ""
     },
     {
       "zh": "非常感谢你愿意接受我的委托。",
-      "en": "Thank you very much for accepting my request."
+      "en": "Thank you very much for accepting my request.",
+      "jp": ""
     },
     {
       "zh": "——是中庭公证所做出了决定，我只是履行职责。",
-      "en": "——It was the atrium notary who made the decision. I was just doing my job."
+      "en": "——It was the atrium notary who made the decision. I was just doing my job.",
+      "jp": ""
     },
     {
       "zh": "哈哈，也是。在你寻找红云的过程中，我还有一个小小的请求。",
-      "en": "Haha, that's true. In your search for Vermeil, I have a small request."
+      "en": "Haha, that's true. In your search for Vermeil, I have a small request.",
+      "jp": ""
     },
     {
       "zh": "——视情况，我可能会拒绝你的口头诉求。希望你以纸面申请的形式递交公证所。",
-      "en": "——depending on the circumstances, I may decline your verbal request. We hope that you can submit your application to the notary office on paper."
+      "en": "——depending on the circumstances, I may decline your verbal request. We hope that you can submit your application to the notary office on paper.",
+      "jp": ""
     },
     {
       "zh": "先生可真是不留情面，没关系，只是一个小小的要求。",
-      "en": "That's not very kind of you, Mister. It's all right though. It's only a small request."
+      "en": "That's not very kind of you, Mister. It's all right though. It's only a small request.",
+      "jp": ""
     },
     {
       "zh": "不要告诉她关于我的过去，随便编个借口吧，比如，我死在了手术台上？",
-      "en": "Don't tell her about my past, just make up some excuse, like, I died on the operating table?"
+      "en": "Don't tell her about my past, just make up some excuse, like, I died on the operating table?",
+      "jp": ""
     },
     {
       "zh": "——我不明白这其中的必要性，这也不符合你的身份。你逃避公证所多年，而且你枪杀了......",
-      "en": "——I don't understand the necessity of it, and it's not in keeping with your status. You dodged notaries for years, and you shot and killed..."
+      "en": "——I don't understand the necessity of it, and it's not in keeping with your status. You dodged notaries for years, and you shot and killed...",
+      "jp": ""
     },
     {
       "zh": "打住。如果我说，这能为你的工作省去很多麻烦呢？",
-      "en": "Hold on. What if I said, this could save you a lot of trouble in your job?"
+      "en": "Hold on. What if I said, this could save you a lot of trouble in your job?",
+      "jp": ""
     },
     {
       "zh": "——如果我判断的确如此的话，我会考虑尝试。",
-      "en": "——If I judge that to be the case, I will consider trying it."
+      "en": "——If I judge that to be the case, I will consider trying it.",
+      "jp": ""
     },
     {
       "zh": "......所以，那个叫罗德岛的地方，真的能治疗这种奇怪的病？",
-      "en": "... So, that place, Rhodes Island, can really treat this strange disease?"
+      "en": "... So, that place, Rhodes Island, can really treat this strange disease?",
+      "jp": ""
     },
     {
       "zh": "没有人能够抵抗矿石病。但也许可以缓解痛苦。",
-      "en": "No one can resist Oripathy. But it might ease the pain."
+      "en": "No one can resist Oripathy. But it might ease the pain.",
+      "jp": ""
     },
     {
       "zh": "考虑到你先前对那些乌萨斯人所做的一切，我不建议你单独行动。",
-      "en": "Considering what you did to those Ursus, I don't recommend you go alone."
+      "en": "Considering what you did to those Ursus, I don't recommend you go alone.",
+      "jp": ""
     },
     {
       "zh": "而我正好要去罗德岛履行另一份协议。",
-      "en": "And I happened to be on my way to Rhodes Island to fulfill another agreement."
+      "en": "And I happened to be on my way to Rhodes Island to fulfill another agreement.",
+      "jp": ""
     },
     {
       "zh": "你是在邀请我和你同行？",
-      "en": "Are you inviting me to go with you?"
+      "en": "Are you inviting me to go with you?",
+      "jp": ""
     },
     {
       "zh": "我认为这十分合理。",
-      "en": "I think that's quite reasonable."
+      "en": "I think that's quite reasonable.",
+      "jp": ""
     },
     {
       "zh": "哼，我拒绝。",
-      "en": "Well, I refuse."
+      "en": "Well, I refuse.",
+      "jp": ""
     },
     {
       "zh": "我还有很多事情要做，在离开这片土地之前，我要与族人们道别。",
-      "en": "I still have a lot of things to do. Before I leave this land, I want to say goodbye to my people."
+      "en": "I still have a lot of things to do. Before I leave this land, I want to say goodbye to my people.",
+      "jp": ""
     },
     {
       "zh": "这里很危险，仇恨并不会因为一方的妥协而终结。",
-      "en": "It's dangerous here. Hatred doesn't end even when the other side gives in."
+      "en": "It's dangerous here. Hatred doesn't end even when the other side gives in.",
+      "jp": ""
     },
     {
       "zh": "哼......你知道的很清楚。",
-      "en": "Humph... You do know about it."
+      "en": "Humph... You do know about it.",
+      "jp": ""
     },
     {
       "zh": "无论你怎么说，别妨碍我。等到一切结束，我会去那个......罗德岛的，这样就行了吧？",
-      "en": "Whatever you say, don't get in my way. When it's done, I'll be going there... Rhodes Island, is that all?"
+      "en": "Whatever you say, don't get in my way. When it's done, I'll be going there... Rhodes Island, is that all?",
+      "jp": ""
     },
     {
       "zh": "我在考虑。",
-      "en": "I'm thinking."
+      "en": "I'm thinking.",
+      "jp": ""
     },
     {
       "zh": "什么？",
-      "en": "What?"
+      "en": "What?",
+      "jp": ""
     },
     {
       "zh": "考虑如果那些亡命之徒再次找到你，我的子弹储备是否充足。",
-      "en": "Considering whether I have enough bullets if those desperadoes find you again."
+      "en": "Considering whether I have enough bullets if those desperadoes find you again.",
+      "jp": ""
     },
     {
       "zh": "子弹......？不，你的意思是要陪着我回到荒漠！？",
-      "en": "Bullets... ? No, you mean to accompany me back to the desert! ?"
+      "en": "Bullets... ? No, you mean to accompany me back to the desert! ?",
+      "jp": ""
     },
     {
       "zh": "根据你的回答，你已被公证所视作接受遗嘱。",
-      "en": "According to your answer, you have been recognized as accepting the will."
+      "en": "According to your answer, you have been recognized as accepting the will.",
+      "jp": ""
     },
     {
       "zh": "但遗嘱内容尚未履行完成，我不能放任你就这么暴露在危险中。这是我的义务。",
-      "en": "But the contents of the will have not been fulfilled yet, so I cannot leave you in harms way. It's my duty to protect you."
+      "en": "But the contents of the will have not been fulfilled yet, so I cannot leave you in harms way. It's my duty to protect you.",
+      "jp": ""
     },
     {
       "zh": "我不需要你的帮助！我一直都是一个人——",
-      "en": "I don't need your help! I've always been alone——"
+      "en": "I don't need your help! I've always been alone——",
+      "jp": ""
     },
     {
       "zh": "以及，我认为你有故意妥协，然后趁机逃走的可能。",
-      "en": "And I think there's a chance you're compromising and then planning to run away."
+      "en": "And I think there's a chance you're compromising and then planning to run away.",
+      "jp": ""
     },
     {
       "zh": "啧。",
-      "en": "Damn."
+      "en": "Damn.",
+      "jp": ""
     },
     {
       "zh": "那么事不宜迟，我们出发吧。",
-      "en": "Then without further ado, let's go."
+      "en": "Then without further ado, let's go.",
+      "jp": ""
     },
     {
       "zh": "喂！我没有答应你！我不需要你这种外人来......等等，你要去哪儿？你怎么知道那个方向的！？",
-      "en": "Hey! I didn't promise you! I don't need an outsider like you... Wait, where are you going? How do you know that direction! ?"
+      "en": "Hey! I didn't promise you! I don't need an outsider like you... Wait, where are you going? How do you know that direction! ?",
+      "jp": ""
     },
     {
       "zh": "调查的结果。",
-      "en": "Investigation results."
+      "en": "Investigation results.",
+      "jp": ""
     },
     {
       "zh": "你脚下有——",
-      "en": "Under your feet there's a——"
+      "en": "Under your feet there's a——",
+      "jp": ""
     },
     {
       "zh": "我已经解除了陷阱，请跟上。",
-      "en": "I've cleared the trap. Follow me."
+      "en": "I've cleared the trap. Follow me.",
+      "jp": ""
     },
     {
       "zh": "啊啊——你这个怪人，我迟早要让你好看——！",
-      "en": "Arghhhh——you weirdo, I'll get you sooner or later——!"
+      "en": "Arghhhh——you weirdo, I'll get you sooner or later——!",
+      "jp": ""
     },
     {
       "zh": "请一定要照顾好她，送葬人先生。当然，也许对你而言也是一件好事。",
-      "en": "Please take care of her, Mr. Executor. Of course, maybe it will be a good thing for you, too."
+      "en": "Please take care of her, Mr. Executor. Of course, maybe it will be a good thing for you, too.",
+      "jp": ""
     },
     {
       "zh": "别摆出一副不理解的表情，你会明白的。",
-      "en": "Don't look like you don't understand. You'll understand someday."
+      "en": "Don't look like you don't understand. You'll understand someday.",
+      "jp": ""
     },
     {
       "zh": "希望你们能让她脱离泥泞。别让她像我一样。",
-      "en": "I hope you can get her out of that place. Don't let her end up like me."
+      "en": "I hope you can get her out of that place. Don't let her end up like me.",
+      "jp": ""
     },
     {
       "zh": "正义？也许我的所作所为是有正当性的吧，先生，如果公证所能够谅解我的话。",
-      "en": "Justice? Perhaps I have done right, Sir, if the notary will excuse me."
+      "en": "Justice? Perhaps I have done right, Sir, if the notary will excuse me.",
+      "jp": ""
     },
     {
       "zh": "但那依旧不是什么值得称赞的事情，相反，正因如此，才让人生显得荒谬之极。",
-      "en": "But that's still not a laudable thing. On the contrary, it's what makes life seem ridiculous."
+      "en": "But that's still not a laudable thing. On the contrary, it's what makes life seem ridiculous.",
+      "jp": ""
     },
     {
       "zh": "但她是我的遗产。",
-      "en": "But she's my legacy."
+      "en": "But she's my legacy.",
+      "jp": ""
     },
     {
       "zh": "是我的希望。",
-      "en": "She is my hope."
+      "en": "She is my hope.",
+      "jp": ""
     },
     {
       "zh": "愿主保佑。",
-      "en": "God bless."
+      "en": "God bless.",
+      "jp": ""
     }
   ]
 }
