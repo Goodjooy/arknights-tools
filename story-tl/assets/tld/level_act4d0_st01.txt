@@ -1,0 +1,805 @@
+[HEADER(key="title_test", is_skippable=true, fit_mode="BLACK_MASK")] 第一关（前）
+
+// Comments
+
+[Dialog]
+[Delay(time=1)]
+[PlayMusic(intro="$mist_intro", key="$mist_loop", volume=0.8,crossfade=1)]
+[Character]
+[Blocker(a=1, r=0,g=0, b=0, fadetime=2, block=true)]
+[Background(image="bg_cher_0",screenadapt="coverall")]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="bg_cher_9", screenadapt="coverall")]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=1, block=true)]
+
+[Delay(time=1)]
+[Dialog]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Background(image="bg_cher_6", screenadapt="coverall")]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="char_013_riop",fadetime=2,block=true)]
+[Delay(time=2)]
+[name="Guard Operator"]   Urgh...
+[name="Guard Operator"]   Huh? W-what...
+[name="Guard Operator"]   Why am I lying in a place like this...What happened...
+[name="Guard Operator"]   Right! We were inflitrating Chernobog to rescue Dr.{@nickname}——
+[name="Guard Operator"]   !
+[CameraShake(duration=0.4, xstrength=8, ystrength=8, vibrato=30, randomness=30, fadeout=true, block=true)]
+[name="Guard Operator"]   Boss! No, no the boss... he...
+[name="Guard Operator"]   ...Boss...
+[Dialog]
+[Delay(time=0.5)]
+[name="Guard Operator"]   Huh? What's with this piece of paper?
+[name="Guard Operator"]   Wait, this... this is Rhodes Island's engineering paper!
+[name="Guard Operator"]   Who left it here? What actually happened while I was out?
+[name="Guard Operator"]   Urgh, these words are densely written, and the writing is a little messy...
+
+[Character]
+Unknown named operator, hide yourself well. I didn't had the chance to look at your tag and remember your name
+There's not enough time, while my writing may be messy, please understand and continue to read on.
+Don't panic, you are safe for the time being.
+Please do not walk out of this ruin. The enemy has a good chance of finding you before the sun sets.
+You are, so to speak, surrounded by the enemy.
+
+
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   This is not Boss handwriting... Is this note written by a fellow Rhodes Island?
+[name="Guard Operator"]   What a long note, why couldn't you just had woken me up and told me about——
+[Dialog]
+[Character]
+[name="？？？"]   You've came.
+[Dialog]
+[Character]
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   (Huh? A voice? Is it the Reunion Movement? Dammit!)
+[name="Guard Operator"]   (...No, wait, this voice sounds familiar? I think its from that clinic——)
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="char_188_helage_1",fadetime=1,block=true)]
+[Delay(time=1)]
+[name="Hellagur"]   So, you really did paralyzed Chernobog entirely. I don't know if I should congratulate you on a job well done.
+[Character(name="avg_npc_025_1#2")]
+[name="？？？"]   ——
+[Character(name="char_188_helage_1")]
+[name="Hellagur"]   It's a surprise we both have Oripathy.
+[Character(name="avg_npc_025_1#2")]
+[name="？？？"]   It's really you.
+[name="？？？"]   I thought it was just a rumor.
+[Character(name="char_188_helage_1")]
+[name="Hellagur"]   Long time no see, Болеслав (Boleslav).
+[name="Hellagur"]   Or rather I should call your current codename, "Patriot"?
+[Dialog]
+[Character]
+[Character(name="avg_npc_025_1",fadetime=2,block=true)]
+[Delay(time=2)]
+[name="Patriot"]   ...General.
+[name="Patriot"]   You actually remember me.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   I, Barclay, and Semyon would had all died at the hands of Kazimierz's Sliver Spear Pegasus if you had not charged into the fort with your shield weathering the storm.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   My brave, soldiers did all the work. They, aren't afraid of sacrifice.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Your voice? The way you talk now is very different from what it was decades ago.
+[name="Hellagur"]   I've seen your fervant speech in front of the soldiers, it's not easy to get Barclay the bald butcher to applaud you.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Oripathy, changed my vocal chords. Now, I have a hard time, talking. Funny, isn't it?
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   ——
+[name="Hellagur"]   And who you are now.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Is that so?
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Nothern guerrilla... team leader is actually you. Out of the dozen Wendigoes, I never thought it could had been you.
+[name="Hellagur"]   Blue beard Alyosha, of that calvary division, once made a bet with me that you are a natural born Ursus soldier who will rise up to Marshal.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   I'm just a captain, general. Times have changed.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   ...That's not funny. Your loyalty, your military service, and your battle planning in the meetings... You're one of the best field commanders in Ursus.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   You give me too much praise. Besides, I'm a Sarkaz, after all.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   If even you couldn't be Field-grade Officer, then almost all of Ursus top ranking military officers should be sent to the Royal court.
+[name="Hellagur"]   Although, almost all of them are dead.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Then I, have outlived them. Most of your comrades, are also gone.
+[name="Patriot"]   And, his Majesty once said, a soldier serves his country, not his rank.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   But he also said that what binds the Ursus people together is faith, not by blood. The present? May his Majesty rest in peace.
+[name="Hellagur"]   So the Emperor of today still treats your people as monsters, not brave Ursus soldiers. They have been suppressing you and your people.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   That, tolerant kind Emperor, is gone, I, understand it now.
+[name="Patriot"]   Ursus, countless beasts of war, will covered this land whole, and I'm not that important.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   I see the army is not why you left.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Yeah, it doesn't concern me anymore. I just wish to fight alongside with brave, soldiers.
+[Character(name="avg_npc_025_1")]
+[name="Patriot"]   ...
+[name="Patriot"]   General, sit. Liquor, still have some left, I bought it from the North.
+[Character(name="char_188_helage_1")]
+[name="Hellagur"]   ... I can't stay for long. Let's have a drink next time.
+[Character(name="avg_npc_025_1")]
+[name="Patriot"]   I see... That's alright.
+[name="Patriot"]   It's fine.
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=0.5)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="avg_npc_025_1")]
+[name="Patriot"]   Go to Fourth street, look for survivors. Intimidation is strictly forbidden. Minimize casualties. Collect the supplies carefully, our reserves, are still in distress.
+[Character(name="char_1002_nsabr_1")]
+[name="Reunion Movement成员"]   Understood!
+[PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=1)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   I thought you were dead.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Anonymity is also a kind of death. I am no longer connected to my past anymore.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Here? Your place of retirement? It's not an ideal place.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Chernobog is no longer habitable, regardless if it has been hit by natural disaster or not.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   I heard you were leaving.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   My clinic suffered a devastating looting, and although we moved earlier, there was still some damages.
+[name="Hellagur"]   I heard a rumor about you and decided to stay and have a look.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   I'm, not worth it. It's dangerous.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   I'm only curious to see how my remaining comrades are doing. 
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   It's not related to me, I didn't do it.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Huh...
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   ... I'll find out, who did it. What happened, at the clinic was unusual.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   No need. Rather, with you in the picture, it is less likely the Reunion Movement doing.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   I'm not so sure. The Reunion Movement, is a little disorganized. There are gaps between us.
+[name="Patriot"]   But general. You can, join the Reunion Movement.
+[name="Patriot"]   Ursus, will be liberated. The infected and common folk, will get along equally.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   ...
+[name="Hellagur"]   Look over there. See where my left hand side is? Do you see that building pierced by Originium?
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   I do.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   It used to be a mall, and the citizens who lived three blocks around it relied on its wares.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Natural disaster, destroyed Chernobog. It destroyed fortresses, and the city as well. I don't agree with the method, but it was necessary. I'm helpless to say.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   There was a time when colored lamps was tied to the top of its bell tower on one end and the other hung from the fence at the crossroads, each flickering bulb was warm with light.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   The Infected, don't have, the same rights.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   You want light bulbs that shines light, and I just want to build another mall. That's the difference between us.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   ——Past you would never compromise like this.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Maybe. Rhodes Island may not be a promosing place, but I also have no feelings for this land. 
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   You just, don't want to fight against your country, general.
+[name="Patriot"]   Look at this city, look at the infected, and look at the people who have been thrown into the Originium mines, waiting to die.
+[name="Patriot"]   And you, you've never been one to fear a fight.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   That's right. If Ursus attacked us, we fight back.
+[name="Hellagur"]   But the way the Reunion Movement fought back is not the same as me. Look at this city you're standing on——The Reunion Movement is waging war.
+[name="Hellagur"]   How many people would die in a war? How many Ursus would be killed in a civil war?
+[name="Hellagur"]   Ursus eating one another, Ursus slaughtering one another, Usus destroying one another.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   General.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   ——
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   What if Ursus, treated the infected, as a part of Ursus?
+[name="Patriot"]   Then, there would be no war.
+
+[Character(name="char_1002_nsabr_1")]
+[name="Reunion Movement成员"]   Excuse me.
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   What's the matter?
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
+[name="Reunion Movement成员"]   Reporting! Leader has just issued an announcement that we have completely captured Chernobog and sent a message to all known communication channels. 
+[name="Reunion Movement成员"]   The leader wishes to confirm each brigade status now.
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Very well. Now go.
+[Character(name="avg_npc_025_1")]
+[name="Patriot"]   Sorry, general. Just a moment.
+[Dialog]
+[PlaySound(key="$d_gen_walk_n")]
+[character(fadetime=1,block=true)]
+[delay(time=2)]
+[Character(name="char_188_helage_1",name2="char_1002_nsabr_1",focus=1)]
+[name="Hellagur"]   ——
+[name="Hellagur"]   Does the Reunion Movement really know what they are doing?
+[Character(name="char_188_helage_1",name2="char_1002_nsabr_1",focus=2)]
+[name="Reunion Movement成员"]   ...
+[name="Reunion Movement成员"]   What do you want me to say, old man?
+[name="Reunion Movement成员"]   Oh, maybe you're not asking me an actual question. But I'll answer, we'll follow the commander all the way.
+[name="Reunion Movement成员"]   Whatever the commander does, we trust him.
+[name="Reunion Movement成员"]   如果做的对，他会扛住；如果做错了，他肯定会改。
+[name="Reunion Movement成员"]   We trust Talulah, and we trust the commander. We're fighting for the infected, do you understand now?
+
+[Character(name="char_188_helage_1")]
+[name="Hellagur"]   ...
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Delay(time=0.4)]
+[Character]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="avg_npc_025_1",fadetime=1,block=true)]
+[delay(time=0.7)]
+[name="Patriot"]   General.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Reunion Movement取得了胜利，我却没能从你的语气里听出喜悦之情。
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Should I? Joy...
+[name="Patriot"]   Any city, if Ursus chooses, will be bulldozed.
+[name="Patriot"]   The hardest thing is to secure results. This war, I wonder, how Ursus will react.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   The war has begun. There is no turning back.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Maybe I'm foolish.
+[name="Patriot"]   But if I do nothing now, the shackles of the infected will only become heavier.
+[name="Patriot"]   If one loses the will to fight, then ruin awaits them.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   So you know exactly where you are heading and what you're doing.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Indeed. We, fight for survival.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Then I don't have any more questions.
+[Character(name="char_1002_nsabr_1")]
+[name="Reunion Movement成员"]   Reporting!
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Downstreet District 3,  is there a disaster report?
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
+[name="Reunion Movement成员"]   Yes!
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   No need for detailed reports. Save all the civilians. It's a danger zone. Protect yourself. Pull out if you can't handle it.
+[name="Patriot"]   Bring along the casters. Use the drones to search. Don't worry about the cost.
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Reunion Movement成员"]   Understood!
+[Character(name="avg_npc_025_1")]
+[name="Patriot"]   Right...
+[name="Patriot"]   Where are you planning, to go?
+[Character(name="char_188_helage_1")]
+[name="Hellagur"]   Rhodes Island.
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   ...?!
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Ah, I know, about Rhodes Island.
+[name="Patriot"]   It's just that the Reunion Movement attacked Rhodes Island.
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   Damn...
+[name="Guard Operator"]   Amiya and Instructor Doberman, I wonder how they are now...
+[name="Guard Operator"]   What should I do, what should I do now... ?
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   ——Entering Chernobog at such a time, Rhodes Island will be regarded by all as the enemy.
+[name="Hellagur"]   Why would they do that?
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   It doesn't matter anymore. I, failed to stop the conflict.
+[name="Patriot"]   There was a soldier just now, who fought against the Sarkaz mercenaries all by himself.
+[name="Patriot"]   Surprisingly, that Rhodes Island soldier was also a Sarkaz.
+
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   To kill one own same kind... No difference from what the Reunion Movement are doing.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   The people, were deceived by Ursus, they did not regard us as fellow citizens.
+
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   What? Sarkaz... a Rhodes Island's Sarkaz?
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   But the mercenaries, fight for the sake of fighting. That Rhodes Island soldier, had a reason to fight.
+[name="Patriot"]   He was defeated. But still, he shot down many elite merceneries. The new mercenary leader is furious.
+[name="Patriot"]   Moreover, he lured the enemy away from the ruins behind him.
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   ?!
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   He sought to hide something, and he did.
+[name="Patriot"]   In the ashes, only this momento remained. Please give it to them.
+[name="Patriot"]   True soldiers... have no names.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   I will.
+
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   Sarkaz...Could it be that Mr.Scout... to protect me?
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   True soldiers...
+[name="Hellagur"]   Indeed. You said something before.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Did I?
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   More than twenty years ago, you said you wanted to have a shot at me.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Now? I don't think so.
+[name="Patriot"]   You cannot cut, through my armor. It's not a fair fight.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Your suit of armor is quite worn out. Its performance is far less than when the military constantly maintained it.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Armor, belongs to Ursus. I, am a traitor of the Empire. My armor will only worsen over time.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   That's the reason why you got that code name. You stood up against it when it's wrong.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   I don't dare to say that, general. I don't call myself that.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   "Patriot", was Ursus's war ever justified?
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Of course. Our war, is just. Otherwise, all those countless sacrifices, would be meaningless.
+[name="Patriot"]   General. We all know, the real answer.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   ——
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   But, they cannot die in vain. Their death, must have meaning.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   But you stood up against Ursus.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   I'm against, the Empire. Not its lands, its people nor Ursus itself.
+[name="Patriot"]   If the medical minister, created the current situation, then he is the enemy.
+[name="Patriot"]   If the parliament, has planned this, we shall overthrow them.
+[name="Patriot"]   If the army, created opposition, then we shall destroy them.
+[name="Patriot"]   Talulah has big ambitions. My goal, is in phases, but clear.
+[name="Patriot"]   The Ursus of the past, war is just; Now the infected, war is just.
+[name="Patriot"]   I fight for justice. Justice, belongs to Ursus forever.
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=1, block=true)]
+[PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
+[Character(name="char_1002_nsabr_1")]
+[name="Reunion Movement成员"]   Reporting! We captured a group of Reunion Movement members who disregarded discipline during the uprising, here is the list!
+[name="Reunion Movement成员"]   Among the list, there are no members from the second, third and sixth team!
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   This is only a small portion.
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
+[name="Reunion Movement成员"]   Well, for the specific discipline breakers, we actually... have a hard time investigating who actually did it.
+[name="Reunion Movement成员"]   Many of their compatriots gnashed their teeth at Chernobog people, they will not possibly report...
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Breaking discipline, by attacking innocent civilians?
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
+[name="Reunion Movement成员"]   ...
+[name="Reunion Movement成员"]   But those Chernobog people were so cruel, they deserved it!
+[name="Reunion Movement成员"]   If it weren't for them, many of the infected wouldn't had suffered as much as they did these past few years! Commander! I beg you...
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]  So you attacked the innocent civilians?
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
+[name="Reunion Movement成员"]   ...
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]  Heed my command.
+[name="Patriot"]  Hang, the guilty parties. Let my soldiers, do it.
+[name="Patriot"]  Warn, Mephisto, Crownslayer.
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
+[name="Reunion Movement成员"]   ... Understood.
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]  ... The rest, given demerit.
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
+[name="Reunion Movement成员"]   D-demerit?
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]  If you break discipline again, then the punishment is death. Inform your leaders of this as well.
+[Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
+[name="Reunion Movement成员"]   Oh, understood!
+[PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=1, block=true)]
+
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Hatred, seeds too deep in the hearts of men.
+[name="Patriot"]   If we don't fight once more, hatred will blind, all of Ursus eyes.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   The Reunion Movement is more disorganized than I thought... You have a high discipline requirements than most of Ursus army.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Most of them, are not soldiers, lacking in training. They must be rectified of it. Discipline, is the key to success.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Antagonistic elements continues to grow and there is no longer any chance for either side to appeal. Maybe you're right. Ursus does need a wake-up call.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   General can, help us.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   I cannot, "Patriot". I shall no longer step into another war.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   ... You're right. This indeed; is war.
+[name="Patriot"]   You, don't wish to fight anymore. I know about that.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   There's nothing between Ursus and me anymore. Everything I felt in the past is lost to time.
+[name="Hellagur"]   I don't care about this country as much as I used to. Forgive me, what stands before you now is a coward with no ambition.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   No! Not at all. You are not.
+[name="Patriot"]   If my son were still alive, I wouldn't be here, today. I understand you.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   What? Your...
+[name="Hellagur"]   ... He was an excellent man. My apologies.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Why are you apologizing for, general? You're not at wrong here. I'm the one who is to blame.
+[name="Patriot"]   Oh, yes. That sword in your hand, yes, you adopted, the enemy commander daughter.
+[name="Patriot"]   My daughter, is much older. Next time we meet, I'll bring her with me.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   *Chuckles* I hope they can get along well.
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=1, block=true)]
+[PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
+[name="Reunion Movement成员A"]   There are wounded people! Check their blood type! Make sure there is no mistake between the infected and the common citizens! Hurry up!
+[name="Reunion Movement成员B"]   Common citizens can donate blood to the infected!
+[name="Reunion Movement成员A"]   Whose family is this?
+[name="Reunion Movement成员A"]   Forget it, take them to the safe zone! Brieette... Double time!
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Talulah attacked Rhodes Island, I fear this misunderstanding, will have a hard time of being resolved.
+[name="Patriot"]   If, things go too far, I don't want to fight against you.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   It may no longer be up to you or me if that happens.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   ... General.
+[name="Patriot"]   It is regretful, I could not, fight side by side with you again.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   ... Listen carefully, "Patriot"...
+[Character(name="char_188_helage_1")]
+[name="Hellagur"]   Ursus will not grow strong or weak because of me alone.
+[name="Hellagur"]   数以千计的将领尝试过，个个都想着成为帝国命运的主宰者，他们无一不凄惨地失败了。
+[name="Hellagur"]   Even past, present and future Emperors have not escaped such a fate.
+[name="Hellagur"]   The Empire situation is unstable, seeking for their past glory, Humph, now wizards are painting the future of nations. Jesters predicting future campaigns. Even lobbyists understand how natural disasters "change"...
+[name="Hellagur"]   I never went to any political parties. I never joined any of them, regardless of them being member of congress or the military.
+[name="Hellagur"]   Their confidence shames me. All who thought they could win, lost. All who thought they could live, are dead.
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.7, block=true)]
+[background]
+[Delay(time=0.5)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[name="？？？"]   Mom, what's for dinner?
+[name="？？？"]   Potatoes again? I... I don't want to eat any more boiled potatoes!
+[name="？？？"]   Huh? Mother's going to war? Mom, can you please not go?
+[name="？？？"]   Old uncle, is mother going with you again? I don't want, I don't want mom to go!
+[name="？？？"]   Old uncle, please let mom stay, father was taken away by you, and so far he has not come back...
+[name="？？？"]   I don't want to be alone at home anymore, uncle... please.
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character]
+[Background(image="bg_cher_6", screenadapt="coverall")]
+[Delay(time=0.3)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Character(name="char_188_helage_1")]
+[name="Hellagur"]   Winning or losing, we kept waging war.
+[name="Hellagur"]   We only brought destruction, only destruction to where we went.
+[name="Hellagur"]   We're all just pawns in a war. Who cares if a pawn has a name?
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   You, are not wrong. I, am not wrong either. War, does not have right or wrong.
+[name="Patriot"]   You're stubborn. I'm stubborn as well.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Why are you doing this? I ask of you, Reunion Movement "Patriot"——
+[name="Hellagur"]   Even if your war is meaningful——
+[name="Hellagur"]   After so many years of Ursus's bloody conquests, leaving corpses that could fill a dozen cities, don't their lives had meaning? Who can even remember their names anymore?
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Ａ name, being remembered? There's no need of such a thing. Soldiers don't think about that.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   You call them soldiers——
+[name="Hellagur"]   Sometimes, those nameless men could not give me a reason for joining a war.
+[name="Hellagur"]   Now, they'll never get a chance to say ever again.
+[name="Hellagur"]   I'm tired of it all. Now I just wish to protect the people around me, at least this little thing is within my reach.
+[name="Hellagur"]   I feel the same way for Ursus and the infected.
+[name="Hellagur"]   This is my answer.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   It's not your fault, general. No one has, to be sent to their deaths.
+[name="Patriot"]   矿石病，终归会让我死去。我是个士兵，我想死得，有价值。
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   You have a reason to keep fighting. Good. I'm really happy for you.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   ... How about this. General, listen to me.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Go ahead.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   You are not afraid to die. If you were afraid of death, you would, already be in Rhodes Island.
+[name="Patriot"]   You stayed, to listen to my thoughts, you do not fear natural disaster.
+[name="Patriot"]   You, want to know the purpose of the Reunion Movement.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   Indeed. I want to know how far you want the infected of Ursus to go.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   Then, I, shall tell you.
+[name="Patriot"]   You, tired of war. I, shall help you fight.
+[name="Patriot"]   I shall fight for the infected rights. For your children, and for all the infected.
+[name="Patriot"]   You tired of war. Please, continue to be tired of it. If I can, end all wars. Then everything is worth it.
+[name="Patriot"]   I, my days are numbered, I shall, fight to the end.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   ...
+[name="Hellagur"]   You're a real Ursus.
+[name="Hellagur"]   What a sad war.
+[Character(name="char_188_helage_1")]
+[delay(time=0.5)]
+[name="Hellagur"]   Maybe I won't set foot on Ursus ever again for the rest of my life.
+[name="Hellagur"]   Listen carefully, Болеслав (Boleslav). 
+[name="Hellagur"]   [I will never be your enemy. Never.]
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   ————
+[name="Patriot"]   I was not, a soldier under your command. That is, one of my regrets.
+[name="Patriot"]   [General, I too will never, be your enemy.]
+[name="Patriot"]   ——
+[name="Patriot"]   It's getting late, general. Allow my soldiers to escort you out of the city. No one shall stop you.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   If your leader stops me, I won't make it hard for you.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
+[name="Patriot"]   She won't, general.
+[name="Patriot"]   She doesn't care.
+[Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
+[name="Hellagur"]   That's for the best. Then, let's leave it at that.
+[character]
+[Dialog]
+[PlaySound(key="$d_gen_walk_n")]
+
+[delay(time=1)]
+
+[Character(name="avg_npc_025_1")]
+[name="Patriot"]   ——
+[name="Patriot"]   General!
+[Character(name="char_188_helage_1")]
+[name="Hellagur"]   Yes?
+[Character(name="avg_npc_025_1")]
+[name="Patriot"]   ....
+[name="Patriot"]   I wish you... I wish you...
+[name="Patriot"]   May you find your true calling.
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[Character]
+[Blocker(a=0, fadetime=2, block=true)]
+[Character(name="char_013_riop",fadetime=1,block=true)]
+[Delay(time=1)]
+[name="Guard Operator"]   ...
+[name="Guard Operator"]   Mr. Scout... What am I worth for you to do this?
+[name="Guard Operator"]   What in the world is worth it for a bum like me... !
+[name="Guard Operator"]   What the hell am I doing? Who should I talk to now with the Reunion Movement intelligence I got just now?
+[name="Guard Operator"]   Are they really what we thought they were? If we could solve the misunderstanding he said, we wouldn't have to...
+[name="Guard Operator"]   Right... right, the note must have written some instructions!
+[name="Guard Operator"]   If it is Mr. Scout, then I shall do whatever you say... I must!
+[name="Guard Operator"]   I won't lose Boss face... !
+
+
+[Dialog]
+[Character]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=1, fadetime=0)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="avg_npc_026")]
+[name="Scout"]   If I may be so bold to ask a favor, consider it as a settlement for my hard work. I've treated your injuries. At least your life is not in danger anymore.
+[name="Scout"]   Next, please listen to me talking about some mundane things.
+[name="Scout"]   This time, our goal is to rescue Doctor. Amiya was adamant. No one could persuade her to change her mind, rather, everyone looked down on themselves.
+[name="Scout"]   Ace, like Amiya, he believe with conviction that if we rescued Doctor, then Rhodes Island can break many of its current predicament. 
+[name="Scout"]   If Doctor does what he used to do——I'm sure Rhodes Island will become even better.
+[name="Scout"]   But I'm a weak person, I dont know...
+[name="Scout"]   I don't know if I have the backbone to bear this prosperity.
+[Dialog]
+[Character]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   What...? What are you saying?
+[Dialog]
+[Character]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=1, fadetime=0)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="avg_npc_026")]
+[name="Scout"]   We have lost many brothers and sisters since three years ago.
+[name="Scout"]   I've always believed that as long as any of us are alive, we're going to be together somewhere, someday. That's one of the reasons why I continue to serve Rhodes Island.
+[name="Scout"]   But we've lost enough that a pessimist like Misery feels the need to bring Doctor back.
+[name="Scout"]   He had hoped that after this we would be all right, and that death and farewell would be a thing of the past.
+[name="Scout"]   I don't think so.
+[name="Scout"]   Oh, I'm not doubting Doctor's ability. Doctor was the one who tipped the balance of power. Without Doctor, Kazdalle affair would halt to a stand still.
+[name="Scout"]   Besides, it was Doctor who taught me what to fight for.
+[name="Scout"]   It's just that... when we asked Doctor to command us... In Doctor's eyes, I could only see the promise of victory.
+[name="Scout"]   I see nothing but victory. Nothing else.
+[name="Scout"]   There was nothing else there.
+[name="Scout"]   I've been wondering if the truth that Ms. Kalt'sit hasn't told us has something to do with Doctor?
+[name="Scout"]   Why were there more and more X's in the picture at the end of the last three years, why were there more and more sacrifices, why were there battles for which we could not see a purpose?
+[name="Scout"]   I dont dare to imagine it, I can't imagine it.
+[name="Scout"]   If war and fighting changed Doctor, made him from a teacher and a researcher, into a war machine...
+[name="Scout"]   That would be our biggest mistake, we who requested Dr.{@nickname} in participating war.
+[name="Scout"]   Doctor should no longer be in command of battles. For Doctor own sake, and for Rhodes Island as well.
+[name="Scout"]   .... I'm sorry. I bet you think its naive.
+[name="Scout"]   My thoughts sounded childish even to me... so I never told anyone.
+[name="Scout"]   Well, whoever reads this will laugh out loud. I never liked being laughed at, and I wanted to take these thoughts with me to my grave.
+[name="Scout"]   But at this point, I still hope that someone, anyone, will help me remember all of this...
+[name="Scout"]   I wish for Doctor to start over with a new life.
+[name="Scout"]   If he has to cut ties with Rhodes Island, or if Doctor could really stay out of trouble, even if he had forgotten everything...
+[name="Scout"]   As long as Doctor doesn't walk the war path again, so be it.
+[name="Scout"]   *Sigh* Oh, I only have such a vain wish.
+[Dialog]
+[Character]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   ......
+
+[Dialog]
+[Character]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=1, block=true)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=1, fadetime=0)]
+[Blocker(a=0, fadetime=1, block=true)]
+[Character(name="avg_npc_026")]
+[name="Scout"]   I'm sorry, I said much. If you don't like it, think of it as bullshit.
+[name="Scout"]   Right, by the way, there are three things I'm not bullshiting about.
+[name="Scout"]   First, please tell Dr.{@nickname}, well, I've always wanted to tell him.
+[name="Scout"]   "I never forgot a single moment of Doctor fighting side by side with us."
+[name="Scout"]   Second, its about my small team.
+[name="Scout"]   ——
+[name="Scout"]   Slinker, Puttel, Scorpion, Thunder, Reimu, Cranberry, Sorana, Mimi, little Mary, Thumbtack, Jutland, 长音
+[name="Scout"]   My squad members, were twelve.
+[name="Scout"]   They broke through the enemy's lines and beaten back their reinforcements; Without them, I wouldn't have had a chance to kill the leader of an enemy mercenary army.
+[name="Scout"]   But all my twelve respected operators have been killed in action.
+[name="Scout"]   Please, witness their battle.
+[name="Scout"]   If anyone asks, please answer them for me——
+[name="Scout"]   Although no one can remember the names of my squad members, but they died with dignity. They did not shrink their duty in the face of death, they absolutely faced it head on.
+[name="Scout"]   Of course, I know many Rhodes Island operators who gave their live to Rhodes Island cause. Not one death is special.
+[name="Scout"]   It's just that we're not only fighting for any single life. To say so is to belittle their death!
+[name="Scout"]   Remind anyone who asks: they all died for what they believed in.
+[name="Scout"]   Third——
+[name="Scout"]   You have to live for yourself, unknown named Rhodes Island brother. I'm not asking you to go die.
+[name="Scout"]   Life is precious, if you can live to achieve your ideals, why die?
+[name="Scout"]   I've written enough, brother.
+[name="Scout"]   Cherish your life.
+[Dialog]
+[Character]
+[Blocker(a=1, initr=2, r=0, g=0, b=0, fadetime=0.5, block=true)]
+[Character(fadetime=0)]
+[cameraEffect(effect="Grayscale", keep=true, amount=0, fadetime=0)]
+[Blocker(a=0, fadetime=0.5, block=true)]
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   Why...
+[name="Guard Operator"]   Doctor... Rhodes Island...
+[Delay(time=0.5)]
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="avg_npc_025_1")]
+[name="Patriot"]   Soldier!
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="char_013_riop")]
+[name="Guard Operator"]   !
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=0.6, block=true)]
+[Character]
+[Delay(time=0.4)]
+[Blocker(a=0, fadetime=0.6, block=true)]
+[Character(name="avg_npc_025_1")]
+[name="Patriot"]   If you can hear my voice.
+[name="Patriot"]   You have a chance to leave, just wait till nightfall.
+[name="Patriot"]   Go south and avoid the lights. You have one chance tonight.
+[name="Patriot"]   ——Or———
+[name="Patriot"]   In Chernobog, there are a lot of people who need care. You can, see for yourself.
+[name="Patriot"]   Choose what to do. It's your freedom.
+
+[Dialog]
+[Character]
+[Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
+[background]
+[Blocker(a=0, fadetime=1, block=true)]
+
+[name="Guard Operator"]   ......
+[name="Guard Operator"]   Boss, Mr. Scout, my brothers...
+[name="Guard Operator"]   I will.
+
+[Delay(time=0.5)]
+[Dialog]
+[Blocker(fadetime=2,block=true)]
+[Image]
