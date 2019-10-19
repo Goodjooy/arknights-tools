@@ -75,7 +75,7 @@
         // Choice
         let choices = data[1].split(';')
         choices.forEach(choiceText => {
-          csvRecords.push([ 'PLAYER', choiceText ])
+          csvRecords.push([ '', 'PLAYER', choiceText ])
         })
         REGEX_CHOICE.lastIndex = 0
         

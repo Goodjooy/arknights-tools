@@ -14,7 +14,7 @@ char_1002_nsabr_2,整合运动成员,藏到哪去了？把他们找出来！
 char_130_doberm_ex,杜宾,又来了吗！
 char_014_riope,Ace,Dr.{@nickname}，请下命令吧。
 char_014_riope,Ace,就像以前那样。
-PLAYER,......？
+,PLAYER,......？
 char_002_amiya_1#4,阿米娅,啊，Ace......
 char_002_amiya_1#4,阿米娅,其实有些，小小的变故。
 char_002_amiya_1#4,阿米娅,博士......意外失去了记忆。
@@ -33,9 +33,9 @@ char_014_riope,Ace,Dr.{@nickname}，请下命令吧。
 char_1002_nsabr_2,整合运动成员,放，把那些畜生放出来，让他们尝尝被撕咬的滋味！
 char_130_doberm_ex,杜宾,博士！Ace！敌人近在眼前了！
 char_014_riope,Ace,——
-PLAYER,立刻出动！
-PLAYER,......好的。
-PLAYER,趁现在，破坏敌人的计划吧。
+,PLAYER,立刻出动！
+,PLAYER,......好的。
+,PLAYER,趁现在，破坏敌人的计划吧。
 char_014_riope,Ace,明白。
 char_014_riope,Ace,E3小队！支援杜宾！
 char_014_riope,整合运动成员,埋伏？！！
