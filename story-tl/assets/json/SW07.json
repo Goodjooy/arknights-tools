@@ -1,0 +1,500 @@
+{
+  "messages": [
+    {
+      "zh": "罗德岛",
+      "en": "Rhodes Island"
+    },
+    {
+      "zh": "话说，凯尔希，我等会能去看看博士吗？",
+      "en": "Say, Kalt'sit, can I see Doctor later?"
+    },
+    {
+      "zh": "你是好久没有对{@nickname}恶作剧，又手痒了？",
+      "en": "You haven't played a joke on {@nickname} for some time, are your hands itching again?"
+    },
+    {
+      "zh": "欸，不要那么警觉嘛！我可是好心在关心人家呢！",
+      "en": "Hey, no need to be so alert! I'm being kind in caring for Doctor!"
+    },
+    {
+      "zh": "上一次你说关心别人的后果，是创造了一间连续三个月都在午夜零点自动播放“可露希尔的午夜录像超商”的舱室。",
+      "en": "The last time you said you cared for others, you created a cabin that automatically played \"Closure's business\" advertisement at midnight that lasted for three months."
+    },
+    {
+      "zh": "可是......",
+      "en": "But..."
+    },
+    {
+      "zh": "还没法调低音量。",
+      "en": "I couldn't even turn the volume down."
+    },
+    {
+      "zh": "好啦好啦，我承认！我确实是想逗逗博士啦。",
+      "en": "Okay, okay, I admit it! I was trying to tease Doctor."
+    },
+    {
+      "zh": "然而，Dr.{@nickname}现在是失忆状态，是否记得你还是个未知数。",
+      "en": "However, Dr.{@nickname} is now in an amnesic state, whether you will be remembered is uncertain."
+    },
+    {
+      "zh": "啊？是睡太久了睡傻了吗？好惨哦，之后去给博士送点零食慰问一下好了。",
+      "en": "Ah? Did Doctor sleep too long and become stupid? Oh, that's terrible. Then I'll give Doctor a snack."
+    },
+    {
+      "zh": "随你。只是，别再给Dr.{@nickname}留下些坏印象。",
+      "en": "Do whatever you want. Just don't leave a bad impression to Dr.{@nickname}."
+    },
+    {
+      "zh": "华法琳已经够糟了，再增加{@nickname}对血魔的误会，卡兹戴尔的事情会被迫继续延后。无限期。",
+      "en": "Warfarin had been bad enough, her actions added {@nickname} misunderstanding over blood demon. Kazdell affair would be forced to be delayed. For an indefinite period."
+    },
+    {
+      "zh": "这可是你在他人心目中重新建立自己形象的机会，好好把握。",
+      "en": "This is your chance to re-establish your image in his mind. Take advantage of it."
+    },
+    {
+      "zh": "我以前的形象有那么差吗？",
+      "en": "Did I look that bad before?"
+    },
+    {
+      "zh": "在中央空调三十六度事件之后，是的。",
+      "en": "After the 36 degree central air-conditioning incident, yes."
+    },
+    {
+      "zh": "不，那是机房断电。",
+      "en": "Not my fault, it was a power outage at the engine room."
+    },
+    {
+      "zh": "我在操作台上找到了你的指纹。",
+      "en": "I found your fingerprints on the console."
+    },
+    {
+      "zh": "是机房断电！",
+      "en": "It was the engine room power going off!"
+    },
+    {
+      "zh": "你黑掉监控删除了录像，但操作台有生物备份系统，我有十三张分布在不同时段的组织切片。",
+      "en": "You hacked the surveillance and deleted the video, but the console had a biometric backup system. I had 13 slices of tissue samples spread out over different periods of time."
+    },
+    {
+      "zh": "对不起是我的错那个什么混账使节太嚣张了我想治治他十分对不起。",
+      "en": "I'm sorry. It's my fault. That diplomatic envoy was being so arrogant and smug about it, so I gave him some payback."
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "不过，欢迎会呢？Dr.{@nickname}的欢迎会，我们不弄一个吗？",
+      "en": "Moving on, how about a welcoming party? Can't we have a welcome party for Dr.{@nickname}?"
+    },
+    {
+      "zh": "免了。现在是非常状态。",
+      "en": "Denied. Right now the circumtances are unusual."
+    },
+    {
+      "zh": "欸，不要这么冷淡嘛，凯尔希。既然博士失忆了，我们不是更应该让博士多感受些同伴的温暖吗？",
+      "en": "Why, don't be so cold, Kalt'sit. Now that Doctor has lost his memory, shouldn't we let Doctor feel his companions warmth?"
+    },
+    {
+      "zh": "你以前是这么看待Dr.{@nickname}的？",
+      "en": "Is this how you used to treat Dr.{@nickname}?"
+    },
+    {
+      "zh": "可能......我和博士也没那么亲近？不过就像你说的，这不是建立自己的美好形象的最佳时机吗。",
+      "en": "Maybe... I'm not close with Doctor. But like you said, this is the best time to build a good image of myself, no?"
+    },
+    {
+      "zh": "可露希尔，我现在不想聊这个话题。",
+      "en": "Closure, I don't want to talk about this kind of topic right now."
+    },
+    {
+      "zh": "哼，你不去我就自己去，我可不管你。",
+      "en": "Hmph, I'll go myself if you don't. I don't care what you do."
+    },
+    {
+      "zh": "话说，按照既定安排，我们是要去龙门没错吧。",
+      "en": "Speaking of, according to the plan, we're going to Lungmen, right?"
+    },
+    {
+      "zh": "嗯。",
+      "en": "Yes."
+    },
+    {
+      "zh": "能自由行动吗？",
+      "en": "Independant operation?"
+    },
+    {
+      "zh": "龙门已经变得相当危险了。",
+      "en": "Lungmen has become quite dangerous."
+    },
+    {
+      "zh": "欸，龙门有这么危险吗？不是说那边治安还挺好吗？",
+      "en": "Huh, is Lungmen so dangerous now? Didn't you say before the security was pretty good over there?"
+    },
+    {
+      "zh": "离切尔诺伯格最近的城市就是龙门，剩下的不用我多说。",
+      "en": "The nearest city to Chernobog is Lungmen, I don't need to tell you the rest."
+    },
+    {
+      "zh": "那为什么要去？",
+      "en": "Then why are we going Lungmen?"
+    },
+    {
+      "zh": "因为离切尔诺伯格最近的城市就是龙门。",
+      "en": "Because the nearest city to Chernobog is Lungmen."
+    },
+    {
+      "zh": "你是不是还隐瞒了什么理由啊......",
+      "en": "Are you hiding something else..."
+    },
+    {
+      "zh": "不，上次开会的时候，我全都报告了。只是那个时候，你正戴着眼罩躺在会议椅上睡觉。",
+      "en": "No, I reported everything at the last meeting. During that time, you were wearing a sleeping eye cover in your conference chair."
+    },
+    {
+      "zh": "系统实在是维护太累了......不好意思。",
+      "en": "I was too tired maintaining the system... I'm sorry."
+    },
+    {
+      "zh": "我没有责怪你的意思。没有你的努力，罗德岛连启动都做不到。",
+      "en": "I don't mean to blame you. Rhodes Island couldn't even get started without your efforts."
+    },
+    {
+      "zh": "但我还是要打消你那些奇奇怪怪的想法......你叫我来究竟是为了什么？",
+      "en": "But I'd like to dispel your weird ideas... What on earth did you call me here for?"
+    },
+    {
+      "zh": "哎呀，就是叫叫你。",
+      "en": "Oh, I just felt like it."
+    },
+    {
+      "zh": "我回实验室了。",
+      "en": "I'm going back to the lab."
+    },
+    {
+      "zh": "......第三宿舍区断电啦！和我一起去一下嘛。",
+      "en": "... There's no electricity in dormitory 3! Please come with me."
+    },
+    {
+      "zh": "叫工程干员去不就行了。又是供能线路出了问题？",
+      "en": "Just call the engineering staff. Is there a problem with the power line again?"
+    },
+    {
+      "zh": "我们亲自去看看也没什么问题呀。",
+      "en": "I don't think there's an issue if we go and see for ourselves."
+    },
+    {
+      "zh": "平常我让你检查的时候你可都是交给其他干员去做的。",
+      "en": "Usually when I ask you to check, you give your work to another staff."
+    },
+    {
+      "zh": "身为罗德岛总工程师的责任感在这一刻又一次觉醒了！我们去吧！",
+      "en": "My sense of responsibility as chief engineer of Rhodes Island has awakened once again at this moment! Let's go!"
+    },
+    {
+      "zh": "快走吧，路我比你熟......",
+      "en": "Come on, I know the way better than you..."
+    },
+    {
+      "zh": "唉？",
+      "en": "Huh?"
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "唉？！",
+      "en": "Huh?!"
+    },
+    {
+      "zh": "这位是暴雨。",
+      "en": "This is Hvrain."
+    },
+    {
+      "zh": "呃，暴雨？",
+      "en": "Oh, Hvrain?"
+    },
+    {
+      "zh": "您好，可露希尔小姐。",
+      "en": "Nice to meet you, Miss Closure."
+    },
+    {
+      "zh": "好乖的孩子！凯尔希，你看看你看看，这些孩子，各个都比你讨人喜欢！",
+      "en": "What a polite kid! Kalt'sit, look, these kids are much more likable than you!"
+    },
+    {
+      "zh": "哼。",
+      "en": "Hmph!"
+    },
+    {
+      "zh": "暴雨。还记得回去的路吗？",
+      "en": "Hvrain, do you remember the way back?"
+    },
+    {
+      "zh": "我记得。",
+      "en": "I do."
+    },
+    {
+      "zh": "那你就自己先回去吧。我和可露希尔还有些事要处理。",
+      "en": "Then you can go back first. Closure and I have some work to do."
+    },
+    {
+      "zh": "但护卫的事情，我走了，凯尔希医生不要紧吗？",
+      "en": "But what about guarding you, if I'm gone. Will Dr. Kalt'sit be alright?"
+    },
+    {
+      "zh": "也许你会错意了，暴雨。刚才让你跟着我，是想让你熟悉一下舰内的环境。以后你可能要常来这里。",
+      "en": "Maybe you understood me wrong, Hvrain. I asked you to follow me just now to familiarize yourself with the ship's surroundings. You're going to be coming here often in the future."
+    },
+    {
+      "zh": "是。",
+      "en": "Understood."
+    },
+    {
+      "zh": "那么我就告辞了。再见，可露希尔小姐。",
+      "en": "Then I'll be off. Goodbye, Miss Closure."
+    },
+    {
+      "zh": "啊，再见。",
+      "en": "Oh, goodbye."
+    },
+    {
+      "zh": "......",
+      "en": "..."
+    },
+    {
+      "zh": "听见没凯尔希，她叫我小姐欸！啊，多好的孩子......",
+      "en": "You hear that Kalt'sit? She called me Miss! Oh, what a nice child..."
+    },
+    {
+      "zh": "哎，她好像很想帮上你的忙，你就这么让她回去了吗？",
+      "en": "*Sigh* She seems to want to help you. Are you going to just let her leave?"
+    },
+    {
+      "zh": "每个干员都需要找到自己的职责，我也一样。让她在她无法施展的地方浪费时间，只是我的失职。",
+      "en": "Every operator needs to find his or her own responsibilities, and so do I. It was my fault to let her waste her time where she could not use her talents."
+    },
+    {
+      "zh": "别老说些没人情味的话。",
+      "en": "Don't keep saying such unfriendly words."
+    },
+    {
+      "zh": "暴雨曾经是萨尔贡的军事人员。",
+      "en": "Hvrain was once Sargon's military personnel."
+    },
+    {
+      "zh": "在架设人际关系之前，首先该让她明确自己的位置，融入罗德岛，既需要肯定和包容，也需要她先建立起足够的自我认知。",
+      "en": "Before establishing interpersonal relationship, it is necessary for her to understand her own position and integrate into Rhodes Island, which requires not only affirmation and tolerance, but also buildng her character to have sufficient self-recognition."
+    },
+    {
+      "zh": "行了行了，你讲这些我头疼......",
+      "en": "Alright, alright, I have a headache when you explain like this..."
+    },
+    {
+      "zh": "反正又是你捡回来的咯？",
+      "en": "Anyway, you collected someone again?"
+    },
+    {
+      "zh": "凯尔希，有时候我在想，你该不会有捡人的天赋吧。",
+      "en": "Kalt'sit, now that I think about it, don't you have a talent of collecting people?"
+    },
+    {
+      "zh": "这已经是第几个了？",
+      "en": "What number is she?"
+    },
+    {
+      "zh": "这是“感染者人才收容与发掘程序”的环节之一。",
+      "en": "\"Collecting talents and developing the infected abilities\" is one of the important links for our plan."
+    },
+    {
+      "zh": "等等......上个月你连续七十二个小时呆在手术台旁边，是不是她？",
+      "en": "Wait a minute... I remembered you spent 72 hours at the operating table last month. Is that her?"
+    },
+    {
+      "zh": "确实是。至少她恢复得很快。",
+      "en": "Yes. At least she recovered quickly."
+    },
+    {
+      "zh": "嚯......",
+      "en": "Huh..."
+    },
+    {
+      "zh": "你这点还是不好。我不问，你就永远不会说了，是不是？",
+      "en": "That's not good for your health. I won't ask about it, you won't answer me anyway, right?"
+    },
+    {
+      "zh": "有什么说的必要？",
+      "en": "What is there to say?"
+    },
+    {
+      "zh": "好黑！",
+      "en": "It's pitch dark!"
+    },
+    {
+      "zh": "要不要启用备用电源？",
+      "en": "Do you want me to turn on the backup power?"
+    },
+    {
+      "zh": "你看不见？",
+      "en": "You can't see?"
+    },
+    {
+      "zh": "可不要小看血魔，当然能看见？",
+      "en": "Don't underestimate a blood demon. Of course I can see?"
+    },
+    {
+      "zh": "我也能。",
+      "en": "I can see as well."
+    },
+    {
+      "zh": "那，走吧。",
+      "en": "Then, let's go."
+    },
+    {
+      "zh": "说是这么说，哎呀，这，这什么东西！",
+      "en": "Even saying so, Aiyah, what is t-this thing!"
+    },
+    {
+      "zh": "哦......怎么是扭蛋机？怎么放在这种地方！",
+      "en": "Oh... A capsule toy machine? Who would put such a thing here!"
+    },
+    {
+      "zh": "嗯？毛茸茸特别收集款？有二十四种不同的毛茸茸和......天哪，隐藏款，天哪！",
+      "en": "Huh? Fluffy special collection? There are twenty four different kinds of furry and... Oh, my god! Hidden version! Oh, my god!"
+    },
+    {
+      "zh": "可·露·希·尔！",
+      "en": "C.l.o.s.u.r.e!"
+    },
+    {
+      "zh": "在黑暗的管道里搞工程，感觉是好久以前的事了，好怀念啊。",
+      "en": "It feels like a long time ago to work in a dark pipe. I feel nostalgic."
+    },
+    {
+      "zh": "那个时候，罗德岛还没这么大呢。",
+      "en": "Rhodes Island wasn't that big at the time."
+    },
+    {
+      "zh": "扳手递我一下！",
+      "en": "Pass me the spanner!"
+    },
+    {
+      "zh": "啊，Mon3tr，谢谢你！",
+      "en": "Ah, Mon3tr, thank you!"
+    },
+    {
+      "zh": "唔......",
+      "en": "Hmm..."
+    },
+    {
+      "zh": "怎么了？",
+      "en": "What's the matter?"
+    },
+    {
+      "zh": "我好像够不到。要么凯尔希，你来抬一下？我来修一下线路。",
+      "en": "I can't seem to reach it. Kalt'sit, can you lift it? I'll fix the wiring."
+    },
+    {
+      "zh": "好。",
+      "en": "Okay."
+    },
+    {
+      "zh": "嘿咻......这个区域已经彻底断电了，可以开始排查了。",
+      "en": "Phew... This area has been completely cut off. We can start the inspection."
+    },
+    {
+      "zh": "凯尔希，我说，你觉得去切城营救博士是个错误的选择吗？",
+      "en": "Kalt'sit, I'm thinking, do you think it was a bad choice to go into Cherno and rescue Doctor?"
+    },
+    {
+      "zh": "选择在那种时候进入切城是不明智的。",
+      "en": "It is unwise to choose to enter Cherno at that time."
+    },
+    {
+      "zh": "那......",
+      "en": "Then..."
+    },
+    {
+      "zh": "阿米娅非常坚定地做出了选择，任何人都不能说服她。何况，你很清楚精英干员们的倾向。",
+      "en": "Amiya made her choice firmly, no one could dissuade her. Besides, you know what the elite operators were feeling."
+    },
+    {
+      "zh": "明明只是因为你投了弃权票。",
+      "en": "But you obviously abstained."
+    },
+    {
+      "zh": "难道说，这是你对阿米娅的一次考验？",
+      "en": "Could it be that this is one of your test for Amiya?"
+    },
+    {
+      "zh": "考验？不，这不是考验。或者说，即使这是次考验，考官也不是我，而是她面对的困境。",
+      "en": "Test? No, this is not a test. Or, even if this is a test, the examiner is not me, but her dilemma."
+    },
+    {
+      "zh": "既然这是她发自内心的选择，那么，我只会支持她......却也不能倾尽所能，让她觉得万事都会顺利。",
+      "en": "Since this is her choice from the bottom of her heart, I will only support her... But I can't do everything I can to make her feel that everything will go well."
+    },
+    {
+      "zh": "这毕竟是她自己的选择。",
+      "en": "It's her choice, after all."
+    },
+    {
+      "zh": "说得好听，这么搞，善后的不还是你？你不累啊......",
+      "en": "Nice words coming from you, you're still handling the aftermath. Aren't you tired..."
+    },
+    {
+      "zh": "没有人从一开始就能把事情做好，可露希尔。我也不能。",
+      "en": "No one ever gets it right in the first place, Closure. Neither can I."
+    },
+    {
+      "zh": "至少我们走过了午夜，剩下需要做的，不过是活到太阳升起。",
+      "en": "At least we're past midnight. All we have to do is live until the sun rises up."
+    },
+    {
+      "zh": "以及，你头上第二根电线要掉下来了。",
+      "en": "Also, the second power line is going to fall on your head."
+    },
+    {
+      "zh": "哎哎哎！拿稳了！要是三枢供电线掉下来，你我一块完蛋！",
+      "en": "Hey, hey! Steady! If the triple pivot power line falls, you and I are dead together!"
+    },
+    {
+      "zh": "唔，等下，我排下线。",
+      "en": "Well, wait a minute. I'll sort the line."
+    },
+    {
+      "zh": "你就这么把两整组线塞在排座后面？",
+      "en": "You just stick two whole sets of lines behind the row?"
+    },
+    {
+      "zh": "安静！要用心，用心去感受电流的自然与平和。",
+      "en": "Be quiet! Focus, focus, use the heart and feel the natural and peace of the current."
+    },
+    {
+      "zh": "建议你自己咀嚼一下自己刚才说了什么。",
+      "en": "I suggest you chew on what you just said."
+    },
+    {
+      "zh": "可是啊，凯尔希......欸，好了，你试试开关。",
+      "en": "But Kalt'sit... Nevermind, it's done, try switching on."
+    },
+    {
+      "zh": "我说，凯尔希，不管你刚才在打什么哑谜，你要走夜路，怎么都得要点光吧？",
+      "en": "I'm telling you, Kalt'sit, whatever charades you've been playing, you still need a light if you're walking at night, you know?"
+    },
+    {
+      "zh": "我们不就正在这修灯泡吗？",
+      "en": "Aren't we fixing the lightbulbs now?"
+    },
+    {
+      "zh": "啊，灯亮了。",
+      "en": "Oh, the light is on."
+    }
+  ]
+}
