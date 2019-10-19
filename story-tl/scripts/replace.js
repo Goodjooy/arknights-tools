@@ -17,7 +17,7 @@
   })
 
   names.messages.forEach(nameObject => {
-    levelData = levelData.replace(new RegExp(nameObject.zh, 'g'), nameObject.en)
+    levelData = levelData.replace(new RegExp("\"" + nameObject.zh + "\"", 'g'), "\"" + nameObject.en + "\"")
   })
 
   fs.writeFileSync('./assets/tld/' + levelName + '.txt', levelData)
