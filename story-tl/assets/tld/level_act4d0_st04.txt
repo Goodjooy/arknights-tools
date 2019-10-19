@@ -5,12 +5,12 @@
 [Dialog]
 [Delay(time=1)]
 
-♪你是否听闻一声惊雷？
-♪雨成帘，不见山
-♪我早已忘记是何人何物
-♪将我引领入此道
-♪远方的红色的云啊
-♪带我回到故乡
+♪Have you heard of a thunder?
+♪Rain pouring down, obscuring the mountains
+♪I have long forgotten who and what
+♪Lead me into this path
+♪Red clouds in the distance
+♪Take me home oh sweet home
 
 [Dialog]
 [Delay(time=1)]
@@ -21,16 +21,16 @@
 [Dialog]
 [Character(name="char_190_clour",fadetime=2,block=true)]
 [Delay(time=2)]
-[name="红云"]     唔......？
-[name="红云"]     ......
+[name="Vermeil"]     What...?
+[name="Vermeil"]     ...
 [Character(name="char_279_excu_4#6")]
-[name="？？？"]     我已经听见了歌声，躲藏是不必要的，我没有恶意。
+[name="？？？"]     I heard the song. It is unnecessary for you to hide. I mean no harm.
 [Character(name="char_190_clour")]
-[name="红云"]     ......每个刽子手都是这么说的。但最后，总是见血。
+[name="Vermeil"]     ...每个刽子手都是这么说的。但最后，总是见血。
 [Character(name="char_279_excu_4#6")]
-[name="？？？"]     刽子手？我不明白你的用词。我是拉特兰公证所——
+[name="？？？"]     Killer? I don't understand your words. I'm from Laterano and a notary——
 [Character(name="char_190_clour")]
-[name="红云"]     闭嘴！你骗不了我！
+[name="Vermeil"]     Shut up! You can't fool me!
 [Dialog]
 [CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
 [PlaySound(key="$e_atk_arrow_h")]
@@ -38,15 +38,15 @@
 [Blocker(a=0, r=0.95, g=0.95, b=0.95, fadetime=0.25, block=true)]
 [PlaySound(key="$e_atk_arrow_h")]
 [Delay(time=1.5)]
-[name="红云"]     得手了！
+[name="Vermeil"]     Got you!
 [Dialog]
 [Character]
 [Character(name="char_279_excu_4#6")]
-[name="？？？"]     并没有。
+[name="？？？"]     Nope.
 [Character(name="char_190_clour")]
-[name="红云"]     咦？！
+[name="Vermeil"]     What?!
 [Character(name="char_279_excu_4#6")]
-[name="？？？"]     失礼了。
+[name="？？？"]     Excuse my lack of manners.
 [Dialog]
 [Character]
 [Blocker(a=1, r=1, g=1, b=1, afrom=0, rfrom=0, gfrom=0, bfrom=0, fadetime=0.1, block=true)]
@@ -55,12 +55,12 @@
 [CameraShake(duration=1, xstrength=10, ystrength=12, vibrato=30, randomness=90, fadeout=true, block=true)]
 [Character(name="char_279_excu_4",fadetime=1,block=true)]
 [Delay(time=3)]
-[name="？？？"]     目标翻窗逃走，反应相当迅速。
-[name="？？？"]     环境确认。腌制的羽兽肉，鞣制用的架子，处理过的牙兽皮，手工小刀和木质工具。
-[name="？？？"]     放下弓。我清楚你的位置，你埋伏在窗后。
-[name="？？？"]     重申一遍，我对你没有恶意。
+[name="？？？"]     The target escaped through the window, they reacted quickly.
+[name="？？？"]     Confirmation of the environment. There are preserved feathers, tanning shelves, processed tusks, handmade knives and wooden tools.
+[name="？？？"]     Put down the bow. I know where you are. You're lurking behind the window.
+[name="？？？"]     Again, I bear you no ill will.
 [Character(name="char_190_clour")]
-[name="红云"]     ——不行！
+[name="Vermeil"]     ——I refuse!
 [Dialog]
 [CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
 [PlaySound(key="$e_atk_arrow_h")]
@@ -69,21 +69,21 @@
 [PlaySound(key="$e_atk_arrow_h")]
 [Delay(time=1)]
 [Character(name="char_279_excu_4")]
-[name="？？？"]     你的警戒心很强。
+[name="？？？"]     You have a strong vigilance.
 [Character(name="char_190_clour")]
-[name="红云"]     尝尝这一箭！
+[name="Vermeil"]     Have a taste of this arrow!
 [Dialog]
 [Character(name="char_279_excu_4")]
 [CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
 [PlaySound(key="$e_atk_arrow_h")]
 [Delay(time=2)]
 [Character(name="char_190_clour")]
-[name="红云"]     抓，用手抓住了箭身？
-[name="红云"]     怎么会......你究竟是什么人！
+[name="Vermeil"]     You g-grabbed my arrow with your hand?
+[name="Vermeil"]     How did... Who the hell are you?!
 [Dialog]
 [PlaySound(key="$d_gen_walk_n")]
 [Character(name="char_279_excu_4")]
-[name="？？？"]     诚如报告所说，遗嘱继承人暴躁排外，难以交流。
+[name="？？？"]     Just as the report said, the heir to the will is irascible and a difficult person, and also hard to talk with.
 
 [Dialog]
 [Character]
@@ -93,15 +93,15 @@
 [Background]
 [Blocker(a=0, fadetime=2, block=true)]
 [Character(name="char_279_excu_4")]
-以上就是本人遗嘱的全部内容。
-除此之外，我有一条出于私心的请求。
-在叙拉古的森林之中，我遇到了一位独臂的沃尔珀少女。
-她沉溺在对过去的复仇之中，拘泥于那片染血的土地。
-出于怜悯，我帮助了她，也许这伤害到了她的自尊，但她倔强的求生方式的确感动了我。
-后来我意识到，我一时兴起的援助，不过是坚定了她复仇的执念，这让我寝食难安。
-所以我想把我的一切赠送给她，尽管我几乎一无所有，只剩那么点可悲的遗物。
-——恕我打断一下，您的亲属列表里没有沃尔珀人。这会为我们的工作带来很多麻烦。
-所以，这只是一位膝下无子的拉特兰公民，在将死之际向公证所提出的小小请求。
+As mentioned in the will.
+In addition to this, I have a selfish request.
+In the forests of Syracuse I met a one-armed Vulpus maiden.
+She was obsessed with revenge for the past, clinging to that bloodsoaked land.
+Out of pity, I helped her. Maybe it hurt her self-esteem, but her stubborn way of survival really touched me.
+Then I realized that my impulse to help had only solidified her obsession with revenge, I couldn't sleep when I realized what I've done.
+So I wanted to give her everything I had, even though I had almost nothing but a few sad momentos.
+——With all due respect, there are no Vulpus listed on your list of relatives. This will bring a lot of trouble to our work.
+That's why this is a small request from a childless citizen of Laterano to a notary on my deathbed.
 [Dialog]
 [Character]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
@@ -110,72 +110,72 @@
 [Background(image="bg_forest",screenadapt="coverall")]
 [Blocker(a=0, fadetime=2, block=true)]
 [Character(name="char_190_clour")]
-[name="红云"]     ......
-[name="红云"]     （他的身上，有血的气味，而且，有股讨厌的感觉......）
-[name="红云"]     （又是来破坏我们家园的人吗，讨厌，好讨厌！）
+[name="Vermeil"]     ...
+[name="Vermeil"]     (He has the smell of blood on him and, what's more, he gives me a nasty feeling... )
+[name="Vermeil"]     (Is it the people who are trying to destroy my home again?)
 [Dialog]
 [Character]
 [PlaySound(key="$d_gen_walk_n")]
 [Delay(time=1)]
 [Character(name="char_190_clour")]
-[name="红云"]     上钩了！
+[name="Vermeil"]     He took the bait!
 [Character(name="char_279_excu_4")]
-[name="？？？"]     原来如此，又是个陷阱。似乎各个方位都有触发机关。
+[name="？？？"]     I see. Another trap. There seems to be a trigger in every direction.
 [CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
 [Dialog]
 [Character(name="char_190_clour")]
-[name="红云"]     听着！你已经走进了猎人的陷阱，不想死的话，就把你的武器放下，一步也不要动！
+[name="Vermeil"]     Listen! You're in a hunter's trap. If you don't want to die, drop your weapon. Don't move a step!
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="？？？"]     如果能方便交流，可以。
+[name="？？？"]     If it helps with talking to you, sure.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     你是什么人？
+[name="Vermeil"]     你是什么人？
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="？？？"]     拉特兰公证所的执行者，本次的遗嘱执行人。可以称呼我“送葬人”。
+[name="？？？"]     The executor of Laterano notary, and the executor of this will. You can call me "Executor".
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     拉特兰......？
+[name="Vermeil"]     Laterano...?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]     “红云”，你是被委托的对象。
+[name="Executor"]     "Vermeil", you are the one entrusted with this will.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     你为什么会知道我的名字？
+[name="Vermeil"]     How did you know my name?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]     你的名字由遗嘱人迪伦马特先生告知。
+[name="Executor"]     Your name was given to me by Mr.Dürrenmatt, the testator.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     我不认识这个人。
+[name="Vermeil"]     I don't know this person.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]     出于某些原因，他曾使用多个化名。
+[name="Executor"]     Due to reasons, he used multiple aliases.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     你要带我去哪里？
+[name="Vermeil"]     Where are you taking me?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]     出于保密要求，我不能说。
+[name="Executor"]     For reasons of confidentiality, I can't say.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     ......嘁，满嘴谎话！你就死在这里吧！
-[name="红云"]     我是不会离开这儿的，我的爸爸妈妈，叔叔阿姨，还有朋友，我的族人，都，都......
+[name="Vermeil"]     ... *Clicks her tongue*, you're full of lies! You'll die here!
+[name="Vermeil"]     I'm never leaving here, my mom and dad, my aunts and uncles, my friends, my people are, are...
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]     我的任务只是带你离开。
+[name="Executor"]     My job is just to get you out of here.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     不要再说胡话了！你知道自己的处境吗！
+[name="Vermeil"]     Stop talking nonsense! Do you know your situation?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]     我处在无法进行交涉的情况下。
+[name="Executor"]     I'm in a situation where I am unable to talk with you.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     哼，走进这片森林的，都只会是我们的猎物。
-[name="红云"]     你的脚下的骨头，原本都是些野兽和坏人！
+[name="Vermeil"]     Humph, trespassers who walk into this forest, will only be our prey.
+[name="Vermeil"]     The bones under your feet were originally beasts and bad people!
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]     理解。据点周围布满陷阱。
-[name="送葬人"]     落穴，绊索，土制地雷，自动飞镖。
-[name="送葬人"]     请放心，我已经全部解除了。陷阱很初级，有伤到委托对象你的可能性。
+[name="Executor"]     Understood. Your home is surrounded by traps.
+[name="Executor"]     Pit, tripwire, landmines, automatic darts.
+[name="Executor"]     Please rest assured that I have disarmed them all. The trap were very basic, there is no possibility of injuring you.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     ......
+[name="Vermeil"]     ...
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]     请跟我走。
+[name="Executor"]     Please come with me.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]     ——！走开！
-[name="红云"]     再往前一步，我就射穿你！
+[name="Vermeil"]     ——！Go away!
+[name="Vermeil"]     One more step, and I'll shoot you through!
 [Character]
 [playsound(key="$leaveshake", volume=0.7)]
 [delay(time=1)]
 [Character(name="char_279_excu_4")]
 
-[name="送葬人"]     又逃了。
+[name="Executor"]     She fled again.
 
 [Dialog]
 [Character]
@@ -187,51 +187,51 @@
 [Blocker(a=0, fadetime=2, block=true)]
 [Character(name="char_190_clour",fadetime=1,block=true)]
 [Delay(time=1)]
-[name="红云"]     喂，你为什么要救我？
+[name="Vermeil"]     Hey, why did you save me?
 [Character]
-[name="老猎人"]     毕竟我也是个猎人。
-[name="老猎人"]     看到一位可敬的同行失去了一只臂膀，血肉模糊地躺在一只牙兽的身边，我怎么能视而不见呢？
+[name="Old Hunter"]     I'm a hunter too, after all.
+[name="Old Hunter"]     How could I turn a blind eye to the sight of a worthy fellow hunter lying mangled next to a toothed beast, with an arm missing?
 [Character(name="char_190_clour")]
-[name="红云"]     哼......你根本不是猎人，你骗不了我。你身上没有泥土的味道。
+[name="Vermeil"]     Hmph... You're no hunter. You can't fool me. You don't smell of dirt.
 [Character]
-[name="老猎人"]     哈哈，瞒不过你，但亲眼目睹那副景象的时候，我被年幼却征服了荒野的你感动了，这是实话。
+[name="Old Hunter"]     Haha, I can't hide it from you, but when I witnessed that sight, I was moved by you who conquered the wilderness with you being so young, that's the truth.
 [Character(name="char_190_clour")]
-[name="红云"]     那是什么意思？
+[name="Vermeil"]     What did you say?
 [Character]
-[name="老猎人"]     只是我的自言自语。
+[name="Old Hunter"]     It's just me talking to myself.
 [Character(name="char_190_clour")]
-[name="红云"]     你脑袋上的那个圆，还有背后的装饰，是怎么回事？
+[name="Vermeil"]     What is with the circle on your head and the decoration on your back?
 [Character]
-[name="老猎人"]     小家伙，你没见过拉特兰人吗？
+[name="Old Hunter"]     Kid, you never seen a Lateranian (Laterano) before?
 [Character(name="char_190_clour")]
-[name="红云"]     嗯。
+[name="Vermeil"]     Yeah.
 [Character]
-[name="老猎人"]     这是......我抛却的故土给我留下的印记。
+[name="Old Hunter"]     This is... The mark of my homeland I left behind.
 [Character(name="char_190_clour")]
-[name="红云"]     人是没法抛弃家的泥土的。
+[name="Vermeil"]     I don't believe a person could abandon their homeland.
 [Character]
-[name="老猎人"]     也许吧，总之，发生了很多事，来，试着站起身来吧。
-[name="老猎人"]     让我来帮你装上这个。
+[name="Old Hunter"]     Maybe you're right. Anyways, a lot of things happened in the past. Come on, try to get up.
+[name="Old Hunter"]     Let me help you install this.
 [Character(name="char_190_clour")]
-[name="红云"]     这是......？胳膊？铁做的胳膊？好奇怪的东西。
+[name="Vermeil"]     This is... ? An arm? Iron arm? What a strange thing.
 [Character]
-[name="老猎人"]     代表我对一位荒野之子的敬意。
+[name="Old Hunter"]     In honor of a child of the wilderness.
 [Character(name="char_190_clour")]
-[name="红云"]     你是个修东西的？
+[name="Vermeil"]     You're a repairman?
 [Character]
-[name="老猎人"]     很久以前的职责让我学会了很多东西。
+[name="Old Hunter"]     I learned a lot from my work a long time ago.
 [Character(name="char_190_clour")]
-[name="红云"]     ......
-[name="红云"]     ......你救过我，你不是个坏人。为了报仇，我很需要一只胳膊，谢谢。
+[name="Vermeil"]     ...
+[name="Vermeil"]     ... You saved me. You're not a bad guy at all. I need an arm for revenge, so thank you.
 [Character]
-[name="老猎人"]     复仇吗......我不会指点你的命运。
-[name="老猎人"]     但当你用这只手臂拉动弓弦的时候，你可以想想，除了报仇以外，我们是为什么活着。
-[name="老猎人"]     想得少了，就会沦落到我今天这样。
+[name="Old Hunter"]     Revenge huh... I will not tell you what to do.
+[name="Old Hunter"]     But when you pull your bowstring with this arm, you can think about why we live, other than revenge.
+[name="Old Hunter"]     If you thought about it less, you'll end up where I am today.
 [Character(name="char_190_clour")]
-[name="红云"]     我——
+[name="Vermeil"]     I——
 [Character]
-[name="老猎人"]     不要说什么“为了复仇而活”，这太老套了，很没意思的。
-[name="老猎人"]     ......没错，很没意思的。
+[name="Old Hunter"]     Don't say "I live for revenge". It's such a cliche. It's not worth it.
+[name="Old Hunter"]     ... Yeah, it's not worth it.
 
 [Dialog]
 [Character]
@@ -242,22 +242,22 @@
 [Background(image="bg_forest",screenadapt="coverall")]
 [Blocker(a=0, fadetime=2, block=true)]
 [Character(name="char_190_clour")]
-[name="红云"]  （拉特兰......他说他是拉特兰人......）
-[name="红云"]  （难道他真的是......)
+[name="Vermeil"]  (Latera... he said he's Lateranian (Laterano)...)
+[name="Vermeil"]  (Is he really...)
 [CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
-[name="红云"]  唔！又来，好痛！
+[name="Vermeil"]  Urgh! Again, it hurts!
 [Character(name="char_190_clour",name2="char_279_excu_4#3",focus=2)]
-[name="送葬人"]  看来迪伦马特先生的判断是正确的。
+[name="Executor"]  It seems that Mr.Dürrenmatt is right.
 [Character(name="char_190_clour",name2="char_279_excu_4#3",focus=1)]
-[name="红云"]     什么？
-[name="红云"]     可恶，你是什么时候追到这里的？
+[name="Vermeil"]     What?
+[name="Vermeil"]     Damn it. When did you get here?
 [CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
-[name="红云"]  唔！放开我！！
+[name="Vermeil"]  Argh! Let me go!!
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  停手吧，既然你是遗嘱继承人，我就不能伤害你。
-[name="送葬人"]  这是他的信。
+[name="Executor"]  Please stop resisting. Since you're the heir to the will, I can't hurt you.
+[name="Executor"]  This is his letter.
 [Character(name="char_190_clour")]
-[name="红云"]  ——！！
+[name="Vermeil"]  ——！！
 [Dialog]
 [CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
 [PlaySound(key="$e_atk_arrow_h")]
@@ -266,65 +266,65 @@
 [PlaySound(key="$e_atk_arrow_h")]
 [delay(time=1)]
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  为什么还要抵抗？
+[name="Executor"]  Why are you still resisting?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  ......信上有他的气味，血的气味，你对他做了什么！？
+[name="Vermeil"]  ... The letter smells of him, smells of blood, what did you do to him! ?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  从拉特兰抵达这里的旅程非常漫长，气味分子不可能有所保留。
+[name="Executor"]  The journey from Laterano is quite far, it's impossible for you to still smell the scent molecules.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  回答我！否则你会死在这里！
+[name="Vermeil"]  Answer me! Or you'll die here!
 [Dialog]
 [Character(name="char_190_clour")]
 [CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
-[name="红云"]  呃！
+[name="Vermeil"]  Urgh!
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  首先，我认为展示力量差距有助于对话成立。
-[name="送葬人"]  其次，出于对遗嘱继承人的尊重，我可以回答你。
-[name="送葬人"]  迪伦马特先生死在手术台上，并不安详。他身患一种无法治愈的疾病。
+[name="Executor"]  First of all, I think it's time to show the power gap between us for us to talk.
+[name="Executor"]  Secondly, out of respect for being the heir to the will, I shall answer your question.
+[name="Executor"]  Mr.Dürrenmatt did not past away peacefully on the operating table, he was suffering from an incurable disease.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  你——！松手！
+[name="Vermeil"]  You——! Let go!
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  这是他的选择。
+[name="Executor"]  It was his choice.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  喂！你，你在干嘛！
+[name="Vermeil"]  Hey! What are y-you doing?
 [CameraShake(duration=1, xstrength=8, ystrength=6, vibrato=30, randomness=90, fadeout=true, block=false)]
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  源石已经破体而出，感染程度在加剧。
+[name="Executor"]  Oripathy has spread through your body, the degree of infection is increasing.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  这不关你事！
+[name="Vermeil"]  It's none of your business!
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  如果执行对象坚持拒绝，原则上，我可以放弃。
-[name="送葬人"]  但委托人和上司给予了我一个附属条约，我必须执行。
+[name="Executor"]  If the recipient target insists on rejecting, in principle, I can give up.
+[name="Executor"]  But my client and boss have given me a subsidiary condition that I must execute my job.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  ——你到底要怎么样？
+[name="Vermeil"]  ——What do you want?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  “让红云活下去”。
-[name="送葬人"]  但因为要求笼统，所以实行起来很复杂，希望你能配合。
+[name="Executor"]  "Let Vermeil live on."
+[name="Executor"]  But because the requirement is so general, carrying it out is actually very complex, I hope you can cooperate with me.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  ......这也是那个人的委托？
+[name="Vermeil"]  ...Is this part of your client's request?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  是的。他变卖了所有的财产，支付了包括公证所的额外手续费，以及你将来的治疗开销。
+[name="Executor"]  Indeed. He sold all his possessions away, paid the notary office extra fees, and your future medical bills.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  可是，为什么？他只是路过这片森林......
+[name="Vermeil"]  But why would he do that? He was just passing through this forest...
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  他想让你活下去。
+[name="Executor"]  He wants you to live.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  所以我问为什么！
+[name="Vermeil"]  That's why I'm asking!
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  因为他觉得你值得活下去。
-[name="送葬人"]  既然遗嘱已经传达到位，我的工作就告一段落了。
+[name="Executor"]  Because he thinks you have a life worth living.
+[name="Executor"]  Now that the will is known, my work is done.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  什......！你什么时候塞给我的——！
+[name="Vermeil"]  What...! When did you give me this——!
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  在下一步行动前，我必须听到你的答复。
-[name="送葬人"]  “你想活下去吗？”
+[name="Executor"]  Before we move onto the next step, I need to hear from you first before I do my job any further.
+[name="Executor"]  "Do you want to live?"
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  ......
+[name="Vermeil"]  ......
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  你只要回答，想，或是不想。
-[name="送葬人"]  我们的时间不多。
+[name="Executor"]  You only need to answer me a yes or no.
+[name="Executor"]  We don't have much time.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  我——
+[name="Vermeil"]  I——
 
 [Dialog]
 [Character]
@@ -333,17 +333,17 @@
 [Character]
 [Background]
 [Blocker(a=0, fadetime=2, block=true)]
-对了，先生，我该怎么称呼你？
-——送葬人。如果你执意要称呼我的话。
-非常感谢你愿意接受我的委托。
-——是中庭公证所做出了决定，我只是履行职责。
-哈哈，也是。在你寻找红云的过程中，我还有一个小小的请求。
-——视情况，我可能会拒绝你的口头诉求。希望你以纸面申请的形式递交公证所。
-先生可真是不留情面，没关系，只是一个小小的要求。
-不要告诉她关于我的过去，随便编个借口吧，比如，我死在了手术台上？
-——我不明白这其中的必要性，这也不符合你的身份。你逃避公证所多年，而且你枪杀了......
-打住。如果我说，这能为你的工作省去很多麻烦呢？
-——如果我判断的确如此的话，我会考虑尝试。
+By the way, Mister, what should I call you?
+——Executor. If you must.
+Thank you very much for accepting my request.
+——It was the atrium notary who made the decision. I was just doing my job.
+Haha, that's true. In your search for Vermeil, I have a small request.
+——depending on the circumstances, I may decline your verbal request. We hope that you can submit your application to the notary office on paper.
+That's not very kind of you, Mister. It's all right though. It's only a small request.
+Don't tell her about my past, just make up some excuse, like, I died on the operating table?
+——I don't understand the necessity of it, and it's not in keeping with your status. You dodged notaries for years, and you shot and killed...
+Hold on. What if I said, this could save you a lot of trouble in your job?
+——If I judge that to be the case, I will consider trying it.
 
 [Dialog]
 [Character]
@@ -353,52 +353,52 @@
 [Background(image="bg_towerinside",screenadapt="coverall")]
 [Blocker(a=0, fadetime=2, block=true)]
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  ......所以，那个叫罗德岛的地方，真的能治疗这种奇怪的病？
+[name="Vermeil"]  ... So, that place, Rhodes Island, can really treat this strange disease?
 [Character(name="char_190_clour",name2="char_279_excu_4#5",focus=2)]
-[name="送葬人"]  没有人能够抵抗矿石病。但也许可以缓解痛苦。
-[name="送葬人"]  考虑到你先前对那些乌萨斯人所做的一切，我不建议你单独行动。
-[name="送葬人"]  而我正好要去罗德岛履行另一份协议。
+[name="Executor"]  No one can resist Oripathy. But it might ease the pain.
+[name="Executor"]  Considering what you did to those Ursus, I don't recommend you go alone.
+[name="Executor"]  And I happened to be on my way to Rhodes Island to fulfill another agreement.
 [Character(name="char_190_clour",name2="char_279_excu_4#5",focus=1)]
-[name="红云"]  你是在邀请我和你同行？
+[name="Vermeil"]  Are you inviting me to go with you?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  我认为这十分合理。
+[name="Executor"]  I think that's quite reasonable.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  哼，我拒绝。
-[name="红云"]  我还有很多事情要做，在离开这片土地之前，我要与族人们道别。
+[name="Vermeil"]  Well, I refuse.
+[name="Vermeil"]  I still have a lot of things to do. Before I leave this land, I want to say goodbye to my people.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  这里很危险，仇恨并不会因为一方的妥协而终结。
+[name="Executor"]  It's dangerous here. Hatred doesn't end even when the other side gives in.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  哼......你知道得很清楚。
-[name="红云"]  无论你怎么说，别妨碍我。等到一切结束，我会去那个......罗德岛的，这样就行了吧？
+[name="Vermeil"]  哼......你知道得很清楚。
+[name="Vermeil"]  Whatever you say, don't get in my way. When it's done, I'll be going there... Rhodes Island, is that all?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  我在考虑。
+[name="Executor"]  I'm thinking.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  什么？
+[name="Vermeil"]  What?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  考虑如果那些亡命之徒再次找到你，我的子弹储备是否充足。
+[name="Executor"]  Considering whether I have enough bullets if those desperadoes find you again.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  子弹......？不，你的意思是要陪着我回到荒漠！？
+[name="Vermeil"]  Bullets... ? No, you mean to accompany me back to the desert! ?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  根据你的回答，你已被公证所视作接受遗嘱。
-[name="送葬人"]  但遗嘱内容尚未履行完成，我不能放任你就这么暴露在危险中。这是我的义务。
+[name="Executor"]  According to your answer, you have been recognized as accepting the will.
+[name="Executor"]  But the contents of the will have not been fulfilled yet, so I cannot leave you in harms way. It's my duty to protect you.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  我不需要你的帮助！我一直都是一个人——
+[name="Vermeil"]  I don't need your help! I've always been alone——
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  以及，我认为你有故意妥协，然后趁机逃走的可能。
+[name="Executor"]  And I think there's a chance you're compromising and then planning to run away.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  啧。
+[name="Vermeil"]  Damn.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  那么事不宜迟，我们出发吧。
+[name="Executor"]  Then without further ado, let's go.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  喂！我没有答应你！我不需要你这种外人来......等等，你要去哪儿？你怎么知道那个方向的！？
+[name="Vermeil"]  Hey! I didn't promise you! I don't need an outsider like you... Wait, where are you going? How do you know that direction! ?
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  调查的结果。
+[name="Executor"]  Investigation results.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  你脚下有——
+[name="Vermeil"]  Under your feet there's a——
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=2)]
-[name="送葬人"]  我已经解除了陷阱，请跟上。
+[name="Executor"]  I've cleared the trap. Follow me.
 [Character(name="char_190_clour",name2="char_279_excu_4",focus=1)]
-[name="红云"]  啊啊——你这个怪人，我迟早要让你好看——！
+[name="Vermeil"]  Arghhhh——you weirdo, I'll get you sooner or later——!
 
 [Dialog]
 [Character]
@@ -407,14 +407,14 @@
 [Character]
 [Background]
 [Blocker(a=0, fadetime=2, block=true)]
-请一定要照顾好她，送葬人先生。当然，也许对你而言也是一件好事。
-别摆出一副不理解的表情，你会明白的。
-希望你们能让她脱离泥泞。别让她像我一样。
-正义？也许我的所作所为是有正当性的吧，先生，如果公证所能够谅解我的话。
-但那依旧不是什么值得称赞的事情，相反，正因如此，才让人生显得荒谬之极。
-但她是我的遗产。
-是我的希望。
-愿主保佑。
+Please take care of her, Mr. Executor. Of course, maybe it will be a good thing for you, too.
+Don't look like you don't understand. You'll understand someday.
+I hope you can get her out of that place. Don't let her end up like me.
+Justice? Perhaps I have done right, Sir, if the notary will excuse me.
+But that's still not a laudable thing. On the contrary, it's what makes life seem ridiculous.
+But she's my legacy.
+She is my hope.
+God bless.
 
 [Delay(time=0.5)]
 [Dialog]

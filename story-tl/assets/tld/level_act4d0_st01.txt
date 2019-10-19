@@ -139,7 +139,7 @@ You are, so to speak, surrounded by the enemy.
 [Character(name="avg_npc_025_1")]
 [name="Patriot"]   Go to Fourth street, look for survivors. Intimidation is strictly forbidden. Minimize casualties. Collect the supplies carefully, our reserves, are still in distress.
 [Character(name="char_1002_nsabr_1")]
-[name="Reunion Movement成员"]   Understood!
+[name="Reunion Movement Member"]   Understood!
 [PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
 [Dialog]
 [Character]
@@ -212,12 +212,12 @@ You are, so to speak, surrounded by the enemy.
 [name="Patriot"]   Then, there would be no war.
 
 [Character(name="char_1002_nsabr_1")]
-[name="Reunion Movement成员"]   Excuse me.
+[name="Reunion Movement Member"]   Excuse me.
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]   What's the matter?
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
-[name="Reunion Movement成员"]   Reporting! Leader has just issued an announcement that we have completely captured Chernobog and sent a message to all known communication channels. 
-[name="Reunion Movement成员"]   The leader wishes to confirm each brigade status now.
+[name="Reunion Movement Member"]   Reporting! Leader has just issued an announcement that we have completely captured Chernobog and sent a message to all known communication channels. 
+[name="Reunion Movement Member"]   The leader wishes to confirm each brigade status now.
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]   Very well. Now go.
 [Character(name="avg_npc_025_1")]
@@ -230,12 +230,12 @@ You are, so to speak, surrounded by the enemy.
 [name="Hellagur"]   ——
 [name="Hellagur"]   Does the Reunion Movement really know what they are doing?
 [Character(name="char_188_helage_1",name2="char_1002_nsabr_1",focus=2)]
-[name="Reunion Movement成员"]   ...
-[name="Reunion Movement成员"]   What do you want me to say, old man?
-[name="Reunion Movement成员"]   Oh, maybe you're not asking me an actual question. But I'll answer, we'll follow the commander all the way.
-[name="Reunion Movement成员"]   Whatever the commander does, we trust him.
-[name="Reunion Movement成员"]   如果做的对，他会扛住；如果做错了，他肯定会改。
-[name="Reunion Movement成员"]   We trust Talulah, and we trust the commander. We're fighting for the infected, do you understand now?
+[name="Reunion Movement Member"]   ...
+[name="Reunion Movement Member"]   What do you want me to say, old man?
+[name="Reunion Movement Member"]   Oh, maybe you're not asking me an actual question. But I'll answer, we'll follow the commander all the way.
+[name="Reunion Movement Member"]   Whatever the commander does, we trust him.
+[name="Reunion Movement Member"]   如果做的对，他会扛住；如果做错了，他肯定会改。
+[name="Reunion Movement Member"]   We trust Talulah, and we trust the commander. We're fighting for the infected, do you understand now?
 
 [Character(name="char_188_helage_1")]
 [name="Hellagur"]   ...
@@ -250,7 +250,7 @@ You are, so to speak, surrounded by the enemy.
 [delay(time=0.7)]
 [name="Patriot"]   General.
 [Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
-[name="Hellagur"]   Reunion Movement取得了胜利，我却没能从你的语气里听出喜悦之情。
+[name="Hellagur"]   整合运动取得了胜利，我却没能从你的语气里听出喜悦之情。
 [Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]   Should I? Joy...
 [name="Patriot"]   Any city, if Ursus chooses, will be bulldozed.
@@ -268,16 +268,16 @@ You are, so to speak, surrounded by the enemy.
 [Character(name="char_188_helage_1",name2="avg_npc_025_1",focus=1)]
 [name="Hellagur"]   Then I don't have any more questions.
 [Character(name="char_1002_nsabr_1")]
-[name="Reunion Movement成员"]   Reporting!
+[name="Reunion Movement Member"]   Reporting!
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]   Downstreet District 3,  is there a disaster report?
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
-[name="Reunion Movement成员"]   Yes!
+[name="Reunion Movement Member"]   Yes!
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]   No need for detailed reports. Save all the civilians. It's a danger zone. Protect yourself. Pull out if you can't handle it.
 [name="Patriot"]   Bring along the casters. Use the drones to search. Don't worry about the cost.
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
-[name="Reunion Movement成员"]   Understood!
+[name="Reunion Movement Member"]   Understood!
 [Character(name="avg_npc_025_1")]
 [name="Patriot"]   Right...
 [name="Patriot"]   Where are you planning, to go?
@@ -437,37 +437,37 @@ You are, so to speak, surrounded by the enemy.
 [Blocker(a=0, fadetime=1, block=true)]
 [PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
 [Character(name="char_1002_nsabr_1")]
-[name="Reunion Movement成员"]   Reporting! We captured a group of Reunion Movement members who disregarded discipline during the uprising, here is the list!
-[name="Reunion Movement成员"]   Among the list, there are no members from the second, third and sixth team!
+[name="Reunion Movement Member"]   Reporting! We captured a group of Reunion Movement members who disregarded discipline during the uprising, here is the list!
+[name="Reunion Movement Member"]   Among the list, there are no members from the second, third and sixth team!
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]   This is only a small portion.
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
-[name="Reunion Movement成员"]   Well, for the specific discipline breakers, we actually... have a hard time investigating who actually did it.
-[name="Reunion Movement成员"]   Many of their compatriots gnashed their teeth at Chernobog people, they will not possibly report...
+[name="Reunion Movement Member"]   Well, for the specific discipline breakers, we actually... have a hard time investigating who actually did it.
+[name="Reunion Movement Member"]   Many of their compatriots gnashed their teeth at Chernobog people, they will not possibly report...
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]   Breaking discipline, by attacking innocent civilians?
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
-[name="Reunion Movement成员"]   ...
-[name="Reunion Movement成员"]   But those Chernobog people were so cruel, they deserved it!
-[name="Reunion Movement成员"]   If it weren't for them, many of the infected wouldn't had suffered as much as they did these past few years! Commander! I beg you...
+[name="Reunion Movement Member"]   ...
+[name="Reunion Movement Member"]   But those Chernobog people were so cruel, they deserved it!
+[name="Reunion Movement Member"]   If it weren't for them, many of the infected wouldn't had suffered as much as they did these past few years! Commander! I beg you...
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]  So you attacked the innocent civilians?
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
-[name="Reunion Movement成员"]   ...
+[name="Reunion Movement Member"]   ...
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]  Heed my command.
 [name="Patriot"]  Hang, the guilty parties. Let my soldiers, do it.
 [name="Patriot"]  Warn, Mephisto, Crownslayer.
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
-[name="Reunion Movement成员"]   ... Understood.
+[name="Reunion Movement Member"]   ... Understood.
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]  ... The rest, given demerit.
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
-[name="Reunion Movement成员"]   D-demerit?
+[name="Reunion Movement Member"]   D-demerit?
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=2)]
 [name="Patriot"]  If you break discipline again, then the punishment is death. Inform your leaders of this as well.
 [Character(name="char_1002_nsabr_1",name2="avg_npc_025_1",focus=1)]
-[name="Reunion Movement成员"]   Oh, understood!
+[name="Reunion Movement Member"]   Oh, understood!
 [PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
 [Dialog]
 [Character]
@@ -514,10 +514,10 @@ You are, so to speak, surrounded by the enemy.
 [Delay(time=0.4)]
 [Blocker(a=0, fadetime=1, block=true)]
 [PlaySound(key="$d_gen_soldiersrun",volume=0.5)]
-[name="Reunion Movement成员A"]   There are wounded people! Check their blood type! Make sure there is no mistake between the infected and the common citizens! Hurry up!
-[name="Reunion Movement成员B"]   Common citizens can donate blood to the infected!
-[name="Reunion Movement成员A"]   Whose family is this?
-[name="Reunion Movement成员A"]   Forget it, take them to the safe zone! Brieette... Double time!
+[name="Reunion Movement A"]   There are wounded people! Check their blood type! Make sure there is no mistake between the infected and the common citizens! Hurry up!
+[name="Reunion Movement B"]   Common citizens can donate blood to the infected!
+[name="Reunion Movement A"]   Whose family is this?
+[name="Reunion Movement A"]   Forget it, take them to the safe zone! Brieette... Double time!
 
 [Dialog]
 [Character]

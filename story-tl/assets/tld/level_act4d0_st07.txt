@@ -11,104 +11,104 @@
 [Delay(time=0.4)]
 [Blocker(a=0, r=0,g=0, b=0, fadetime=1, block=true)]
 11:30 A.M.  天气/多云
-野外，罗德岛总工程师办公室
+野外，Rhodes Island总工程师办公室
 [Dialog]
 [Character(name="char_003_kalts_1")]
-[name="凯尔希"] 这次又要做什么？
+[name="Kal'tsit"] 这次又要做什么？
 [Character]
 [Dialog]
 [Character(name="char_007_closre_1#5",fadetime=1,block=true)]
 [Delay(time=1)]
-[name="可露希尔"] 凯尔希，我等会能去看看博士吗？
+[name="Closure"] 凯尔希，我等会能去看看博士吗？
 [Character(name="char_003_kalts_1")]
-[name="凯尔希"] 你是好久没有对{@nickname}恶作剧，又手痒了？
+[name="Kal'tsit"] You haven't played a joke on {@nickname} for some time, are your hands itching again?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 欸，不要那么警觉嘛！我可是好心在关心人家呢！
+[name="Closure"] Hey, no need to be so alert! I'm being kind in caring for Doctor!
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 上一次你说关心别人的后果，是创造了一间连续三个月都在午夜零点自动播放“可露希尔的午夜录像超商”的舱室。
+[name="Kal'tsit"] The last time you said you cared for others, you created a cabin that automatically played "Closure's business" advertisement at midnight that lasted for three months.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 可是......
+[name="Closure"] But...
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 还没法调低音量。
+[name="Kal'tsit"] I couldn't even turn the volume down.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 好啦好啦，我承认！我确实是想逗逗博士啦。
+[name="Closure"] Okay, okay, I admit it! I was trying to tease Doctor.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 然而，Dr.{@nickname}现在是失忆状态，是否记得你还是个未知数。
+[name="Kal'tsit"] However, Dr.{@nickname} is now in an amnesic state, whether you will be remembered is uncertain.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 啊？是睡太久了睡傻了吗？好惨哦，之后去给博士送点零食慰问一下好了。
+[name="Closure"] Ah? Did Doctor sleep too long and become stupid? Oh, that's terrible. Then I'll give Doctor a snack.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 随你。只是，别再给Dr.{@nickname}留下些坏印象。
-[name="凯尔希"] 华法琳已经够糟了，再增加{@nickname}对血魔的误会，卡兹戴尔的事情会被迫继续延后。无限期。
-[name="凯尔希"] 这可是你在他人心目中重新建立自己形象的机会，好好把握。
+[name="Kal'tsit"] Do whatever you want. Just don't leave a bad impression to Dr.{@nickname}.
+[name="Kal'tsit"] Warfarin had been bad enough, her actions added {@nickname} misunderstanding over blood demon. Kazdell affair would be forced to be delayed. For an indefinite period.
+[name="Kal'tsit"] This is your chance to re-establish your image in his mind. Take advantage of it.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=2)]
-[name="可露希尔"] 我以前的形象有那么差吗？
+[name="Closure"] Did I look that bad before?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=1)]
-[name="凯尔希"] 在中央空调三十六度事件之后，是的。
+[name="Kal'tsit"] After the 36 degree central air-conditioning incident, yes.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 不，那是机房断电。
+[name="Closure"] Not my fault, it was a power outage at the engine room.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 我在操作台上找到了你的指纹。
+[name="Kal'tsit"] I found your fingerprints on the console.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 是机房断电！
+[name="Closure"] It was the engine room power going off!
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 你黑掉监控删除了录像，但操作台有生物备份系统，我有十三张分布在不同时段的组织切片。
+[name="Kal'tsit"] You hacked the surveillance and deleted the video, but the console had a biometric backup system. I had 13 slices of tissue samples spread out over different periods of time.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=2)]
-[name="可露希尔"] 对不起是我的错那个什么混账使节太嚣张了我想治治他十分对不起。
+[name="Closure"] I'm sorry. It's my fault. That diplomatic envoy was being so arrogant and smug about it, so I gave him some payback.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=1)]
-[name="凯尔希"] ......
+[name="Kal'tsit"] ...
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 不过，欢迎会呢？Dr.{@nickname}的欢迎会，我们不弄一个吗？
+[name="Closure"] Moving on, how about a welcoming party? Can't we have a welcome party for Dr.{@nickname}?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 免了。现在是非常状态。
+[name="Kal'tsit"] Denied. Right now the circumtances are unusual.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 欸，不要这么冷淡嘛，凯尔希。既然博士失忆了，我们不是更应该让博士多感受些同伴的温暖吗？
+[name="Closure"] Why, don't be so cold, Kalt'sit. Now that Doctor has lost his memory, shouldn't we let Doctor feel his companions warmth?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 你以前是这么看待Dr.{@nickname}的？
+[name="Kal'tsit"] Is this how you used to treat Dr.{@nickname}?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 可能......我和博士也没那么亲近？不过就像你说的，这不是建立自己的美好形象的最佳时机吗。
+[name="Closure"] Maybe... I'm not close with Doctor. But like you said, this is the best time to build a good image of myself, no?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 可露希尔，我现在不想聊这个话题。
+[name="Kal'tsit"] Closure, I don't want to talk about this kind of topic right now.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 哼，你不去我就自己去，我可不管你。
-[name="可露希尔"] 话说，按照既定安排，我们是要去龙门没错吧。
+[name="Closure"] Hmph, I'll go myself if you don't. I don't care what you do.
+[name="Closure"] Speaking of, according to the plan, we're going to Lungmen, right?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 嗯。
+[name="Kal'tsit"] Yes.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 能自由行动吗？
+[name="Closure"] Independant operation?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 龙门已经变得相当危险了。
+[name="Kal'tsit"] Lungmen has become quite dangerous.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 欸，龙门有这么危险吗？不是说那边治安还挺好吗？
+[name="Closure"] Huh, is Lungmen so dangerous now? Didn't you say before the security was pretty good over there?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 离切尔诺伯格最近的城市就是龙门，剩下的不用我多说。
+[name="Kal'tsit"] The nearest city to Chernobog is Lungmen, I don't need to tell you the rest.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 那为什么要去？
+[name="Closure"] Then why are we going Lungmen?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 因为离切尔诺伯格最近的城市就是龙门。
+[name="Kal'tsit"] Because the nearest city to Chernobog is Lungmen.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 你是不是还隐瞒了什么理由啊......
+[name="Closure"] Are you hiding something else...
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 不，上次开会的时候，我全都报告了。只是那个时候，你正戴着眼罩躺在会议椅上睡觉。
+[name="Kal'tsit"] No, I reported everything at the last meeting. During that time, you were wearing a sleeping eye cover in your conference chair.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 系统实在是维护太累了......不好意思。
+[name="Closure"] I was too tired maintaining the system... I'm sorry.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 我没有责怪你的意思。没有你的努力，罗德岛连启动都做不到。
-[name="凯尔希"] 但我还是要打消你那些奇奇怪怪的想法......你叫我来究竟是为了什么？
+[name="Kal'tsit"] I don't mean to blame you. Rhodes Island couldn't even get started without your efforts.
+[name="Kal'tsit"] But I'd like to dispel your weird ideas... What on earth did you call me here for?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 哎呀，就是叫叫你。
+[name="Closure"] Oh, I just felt like it.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 我回实验室了。
+[name="Kal'tsit"] I'm going back to the lab.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=2)]
-[name="可露希尔"] 别走呀！哎其实......三区有两条走廊断电了。
-[name="可露希尔"] 一起去看看线路嘛，行不行嘛！
+[name="Closure"] 别走呀！哎其实...三区有两条走廊断电了。
+[name="Closure"] 一起去看看线路嘛，行不行嘛！
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=1)]
-[name="凯尔希"] 叫工程干员去不就行了。又是供能线路出了问题？
+[name="Kal'tsit"] Just call the engineering staff. Is there a problem with the power line again?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 我们亲自去看看也没什么问题呀。
+[name="Closure"] I don't think there's an issue if we go and see for ourselves.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 平常我让你检查的时候，你可都是交给其他干员去做的。
+[name="Kal'tsit"] 平常我让你检查的时候，你可都是交给其他干员去做的。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#5",focus=2)]
-[name="可露希尔"] 身为罗德岛总工程师的责任感在这一刻又一次觉醒了！我们去吧！
+[name="Closure"] My sense of responsibility as chief engineer of Rhodes Island has awakened once again at this moment! Let's go!
 [Dialog]
 [Character]
 [PlaySound(key="$d_gen_walk_n")]
@@ -116,58 +116,58 @@
 [Background(image="bg_corridor",screenadapt="coverall")]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 快走吧，路我比你熟......
+[name="Closure"] Come on, I know the way better than you...
 [Character(name="char_007_closre_1")]
-[name="可露希尔"] 唉？
+[name="Closure"] Huh?
 [Dialog]
 [Character]
 [Character(name="char_304_hvrain",fadetime=1,block=true)]
 [Delay(time=1)]
-[name="暴雨"] ......
+[name="Downpour"] ...
 [Character(name="char_007_closre_1")]
-[name="可露希尔"] ......
-[name="可露希尔"] 唉？！
+[name="Closure"] ...
+[name="Closure"] Huh?!
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 这位是暴雨。
+[name="Kal'tsit"] This is Hvrain.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 呃，暴雨？
+[name="Closure"] Oh, Hvrain?
 [Character(name="char_304_hvrain",name2="char_007_closre_1#4",focus=1)]
-[name="暴雨"] 您好，可露希尔小姐。
+[name="Downpour"] Nice to meet you, Miss Closure.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#5",focus=2)]
-[name="可露希尔"] 好乖的孩子！凯尔希，你看看你看看，这些孩子，个个都比你讨人喜欢！
+[name="Closure"] 好乖的孩子！凯尔希，你看看你看看，这些孩子，个个都比你讨人喜欢！
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#5",focus=1)]
-[name="凯尔希"] 哼。
+[name="Kal'tsit"] Hmph!
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=2)]
-[name="凯尔希"] 暴雨，给我看一下记录仪。
+[name="Kal'tsit"] 暴雨，给我看一下记录仪。
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=1)]
-[name="暴雨"] 是......左臂的，这个吗？
+[name="Downpour"] 是......左臂的，这个吗？
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=2)]
-[name="凯尔希"] 嗯。小心点，别碰掉针头。
+[name="Kal'tsit"] 嗯。小心点，别碰掉针头。
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=1)]
-[name="暴雨"] 好......
+[name="Downpour"] 好......
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=2)]
-[name="凯尔希"] ......数字正常。嗯，血红蛋白也回升了。你恢复的不错。
+[name="Kal'tsit"] ......数字正常。嗯，血红蛋白也回升了。你恢复的不错。
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=1)]
-[name="暴雨"] 谢谢凯尔希医生。
+[name="Downpour"] 谢谢凯尔希医生。
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=2)]
-[name="凯尔希"] 不要谢我，这只是我的职责，是我该做的事。别为了别人的职责去感谢他。
-[name="凯尔希"] 暴雨。还记得回去的路吗？
+[name="Kal'tsit"] 不要谢我，这只是我的职责，是我该做的事。别为了别人的职责去感谢他。
+[name="Kal'tsit"] Hvrain, do you remember the way back?
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=1)]
-[name="暴雨"] 我记得。
+[name="Downpour"] I do.
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=2)]
-[name="凯尔希"] 那你就自己先回去吧。我和可露希尔还有些事要处理。
+[name="Kal'tsit"] Then you can go back first. Closure and I have some work to do.
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=1)]
-[name="暴雨"] 但护卫的事情，我走了，凯尔希医生不要紧吗？
+[name="Downpour"] But what about guarding you, if I'm gone. Will Dr. Kalt'sit be alright?
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=2)]
-[name="凯尔希"] 也许你会错意了，暴雨。
-[name="凯尔希"] 刚才让你跟着我，是想让你熟悉一下舰内的环境。以后你可能要常来这里。
-[name="凯尔希"] 我不需要护卫。
+[name="Kal'tsit"] 也许你会错意了，暴雨。
+[name="Kal'tsit"] 刚才让你跟着我，是想让你熟悉一下舰内的环境。以后你可能要常来这里。
+[name="Kal'tsit"] 我不需要护卫。
 [Character(name="char_304_hvrain",name2="char_003_kalts_1",focus=1)]
-[name="暴雨"] 是。
+[name="Downpour"] Understood.
 [Character(name="char_304_hvrain")]
-[name="暴雨"] 那么我就告辞了。再见，可露希尔小姐。
+[name="Downpour"] Then I'll be off. Goodbye, Miss Closure.
 [Character(name="char_007_closre_1#4")]
-[name="可露希尔"] 啊，再见。
+[name="Closure"] Oh, goodbye.
 
 [Dialog]
 [Character]
@@ -176,20 +176,20 @@
 [Background(image="bg_bridge",screenadapt="coverall")]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=1, block=true)]
 [Character(name="char_007_closre_1")]
-[name="可露希尔"] ......
+[name="Closure"] ......
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 听见没凯尔希，她叫我小姐欸！啊，多好的孩子......
-[name="可露希尔"] 哎，她好像很想帮上你的忙，你就这么让她回去了吗？
+[name="Closure"] You hear that Kalt'sit? She called me Miss! Oh, what a nice child...
+[name="Closure"] *Sigh* She seems to want to help you. Are you going to just let her leave?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 每个干员都需要找到自己的职责，我也一样。让她在她无法施展的地方浪费时间，只是我的失职。
+[name="Kal'tsit"] Every operator needs to find his or her own responsibilities, and so do I. It was my fault to let her waste her time where she could not use her talents.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 别老说些没人情味的话。
+[name="Closure"] Don't keep saying such unfriendly words.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 暴雨曾经是萨尔贡的军事人员。
-[name="凯尔希"] 在架设人际关系之前，首先该让她明确自己的位置，融入罗德岛，既需要肯定和包容，也需要她先建立起足够的自我认知。
+[name="Kal'tsit"] Hvrain was once Sargon's military personnel.
+[name="Kal'tsit"] Before establishing interpersonal relationship, it is necessary for her to understand her own position and integrate into Rhodes Island, which requires not only affirmation and tolerance, but also buildng her character to have sufficient self-recognition.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 行了行了，你讲这些我头疼......
-[name="可露希尔"] 反正又是你捡回来的咯？
+[name="Closure"] Alright, alright, I have a headache when you explain like this...
+[name="Closure"] Anyway, you collected someone again?
 
 [Dialog]
 [Character]
@@ -198,30 +198,30 @@
 [Background(image="bg_ri_1",screenadapt="coverall")]
 [Blocker(a=0.3, r=0, g=0, b=0, fadetime=2, block=true)]
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 凯尔希，有时候我在想，你该不会有捡人的天赋吧。
-[name="可露希尔"] 这已经是第几个了？
+[name="Closure"] Kalt'sit, now that I think about it, don't you have a talent of collecting people?
+[name="Closure"] What number is she?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 这是“感染者人才收容与发掘程序”的环节之一。
+[name="Kal'tsit"] "Collecting talents and developing the infected abilities" is one of the important links for our plan.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 等等......上个月你连续七十二个小时呆在手术台旁边，那次的手术对象，是不是她？
+[name="Closure"] 等等......上个月你连续七十二个小时呆在手术台旁边，那次的手术对象，是不是她？
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 确实是。
+[name="Kal'tsit"] 确实是。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 手术小组至少轮了八、九班......你却又三天没睡？
+[name="Closure"] 手术小组至少轮了八、九班......你却又三天没睡？
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 至少她恢复得很快。
+[name="Kal'tsit"] 至少她恢复得很快。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 告诉我，凯尔希，你是不是又给自己上试剂了？
+[name="Closure"] 告诉我，凯尔希，你是不是又给自己上试剂了？
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 我拒绝回答这个问题。
+[name="Kal'tsit"] 我拒绝回答这个问题。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 我不问，你就永远不会说了，是不是？
+[name="Closure"] 我不问，你就永远不会说了，是不是？
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 有什么说的必要？
+[name="Kal'tsit"] What is there to say?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 你对自己太粗暴了。
+[name="Closure"] 你对自己太粗暴了。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 我承受得住。
+[name="Kal'tsit"] 我承受得住。
 
 [Dialog]
 [Character]
@@ -230,61 +230,61 @@
 [Background(image="bg_corridor",screenadapt="coverall")]
 [Blocker(a=0.8, r=0, g=0, b=0, fadetime=2, block=true)]
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=2)]
-[name="可露希尔"] 好黑！
-[name="可露希尔"] 要不要启用备用电源？
+[name="Closure"] It's pitch dark!
+[name="Closure"] Do you want me to turn on the backup power?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=1)]
-[name="凯尔希"] 你看不见？
+[name="Kal'tsit"] You can't see?
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 可不要小看血魔，我当然能看见啦。
+[name="Closure"] 可不要小看血魔，我当然能看见啦。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 我也能。
+[name="Kal'tsit"] I can see as well.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 那，走吧。
-[name="可露希尔"] 说是这么说，我是不是踩到了什么？
+[name="Closure"] Then, let's go.
+[name="Closure"] 说是这么说，我是不是踩到了什么？
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=2)]
-[name="可露希尔"] 哎呀，这，这什么东西！
+[name="Closure"] 哎呀，这，这什么东西！
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#6",focus=1)]
-[name="凯尔希"] 用不着大惊小怪......
+[name="Kal'tsit"] 用不着大惊小怪......
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#5",focus=2)]
-[name="可露希尔"] 哦......怎么是扭蛋机？怎么放在这种地方！
-[name="可露希尔"] 嗯？毛茸茸特别收集款？有二十四种不同的毛茸茸和......天呐，隐藏款，天呐！
+[name="Closure"] Oh... A capsule toy machine? Who would put such a thing here!
+[name="Closure"] 嗯？毛茸茸特别收集款？有二十四种不同的毛茸茸和......天呐，隐藏款，天呐！
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#5",focus=1)]
-[name="凯尔希"] 可·露·希·尔！
+[name="Kal'tsit"] C.l.o.s.u.r.e!
 [Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
 [Dialog]
 [Character]
 [PlaySound(key="$d_gen_walk_n")]
 [Delay(time=2)]
-[name="可露希尔"] 在黑暗的管道里搞工程，感觉是好久以前的事了，好怀念啊。
-[name="可露希尔"] 那个时候，罗德岛还没这么大呢。
-[name="可露希尔"] 扳手递我一下！
-[name="可露希尔"] 啊，Mon3tr，谢谢你！
-[name="可露希尔"] 唔......
-[name="凯尔希"] 怎么了？
-[name="可露希尔"] 我好像够不到。要么凯尔希，你来抬一下？我修一下线路。
-[name="凯尔希"] 好。
-[name="可露希尔"] 嘿咻......这个区域已经彻底断电了，可以开始排查了。
-[name="可露希尔"] 凯尔希，我说，你觉得去切城营救博士是个错误的选择吗？
-[name="凯尔希"] 选择在那种时候进入切城是不明智的。
-[name="可露希尔"] 那......
-[name="凯尔希"] 阿米娅非常坚定地做出了选择，没人能说服她。何况，你很清楚精英干员们的倾向。
-[name="可露希尔"] 明明只是因为你投了弃权票。
-[name="可露希尔"] 难道说，这是你对阿米娅的一次考验？
-[name="凯尔希"] 考验？不，这不是考验。或者说，即使这是次考验，考官也不是我，而是她面对的困境。
-[name="凯尔希"] 既然这是她发自内心的选择，那么，我只会支持她......却也不能倾尽所能，让她觉得万事都会顺利。
-[name="凯尔希"] 这毕竟是她自己的选择。
-[name="可露希尔"] 说得好听，这么搞，善后的不还是你？你不累啊......
-[name="凯尔希"] 没有人从一开始就能把事情做好，可露希尔。我也不能。
-[name="凯尔希"] 至少我们走过了午夜，剩下需要做的，不过是活到太阳升起。
-[name="凯尔希"] 以及，你头上第二根电线要掉下来了。
-[name="可露希尔"] 哎哎哎！拿稳了！要是三枢供电线掉下来，你我一块完蛋！
-[name="可露希尔"] 唔，等下，我排下线。
-[name="凯尔希"] 你就这么把两整组线塞在排座后面？
-[name="可露希尔"] 安静！要用心，用心去感受电流的自然与平和。
-[name="凯尔希"] 建议你自己咀嚼一下自己刚才说了什么。
-[name="可露希尔"] 可是啊，凯尔希......欸，好了，你试试开关。
-[name="可露希尔"] 我说，凯尔希，不管你刚才在打什么哑谜，你要走夜路，怎么都得要点光吧？
-[name="凯尔希"] 我们不就正在这修灯泡吗？
+[name="Closure"] It feels like a long time ago to work in a dark pipe. I feel nostalgic.
+[name="Closure"] Rhodes Island wasn't that big at the time.
+[name="Closure"] Pass me the spanner!
+[name="Closure"] Ah, Mon3tr, thank you!
+[name="Closure"] Hmm...
+[name="Kal'tsit"] What's the matter?
+[name="Closure"] 我好像够不到。要么凯尔希，你来抬一下？我修一下线路。
+[name="Kal'tsit"] Okay.
+[name="Closure"] Phew... This area has been completely cut off. We can start the inspection.
+[name="Closure"] Kalt'sit, I'm thinking, do you think it was a bad choice to go into Cherno and rescue Doctor?
+[name="Kal'tsit"] It is unwise to choose to enter Cherno at that time.
+[name="Closure"] Then...
+[name="Kal'tsit"] 阿米娅非常坚定地做出了选择，没人能说服她。何况，你很清楚精英干员们的倾向。
+[name="Closure"] But you obviously abstained.
+[name="Closure"] Could it be that this is one of your test for Amiya?
+[name="Kal'tsit"] Test? No, this is not a test. Or, even if this is a test, the examiner is not me, but her dilemma.
+[name="Kal'tsit"] Since this is her choice from the bottom of her heart, I will only support her... But I can't do everything I can to make her feel that everything will go well.
+[name="Kal'tsit"] It's her choice, after all.
+[name="Closure"] Nice words coming from you, you're still handling the aftermath. Aren't you tired...
+[name="Kal'tsit"] No one ever gets it right in the first place, Closure. Neither can I.
+[name="Kal'tsit"] At least we're past midnight. All we have to do is live until the sun rises up.
+[name="Kal'tsit"] Also, the second power line is going to fall on your head.
+[name="Closure"] Hey, hey! Steady! If the triple pivot power line falls, you and I are dead together!
+[name="Closure"] Well, wait a minute. I'll sort the line.
+[name="Kal'tsit"] You just stick two whole sets of lines behind the row?
+[name="Closure"] Be quiet! Focus, focus, use the heart and feel the natural and peace of the current.
+[name="Kal'tsit"] I suggest you chew on what you just said.
+[name="Closure"] But Kalt'sit... Nevermind, it's done, try switching on.
+[name="Closure"] I'm telling you, Kalt'sit, whatever charades you've been playing, you still need a light if you're walking at night, you know?
+[name="Kal'tsit"] Aren't we fixing the lightbulbs now?
 [Dialog]
 [Blocker(a=1, r=0, g=0, b=0, fadetime=2, block=true)]
 [Character(name="char_003_kalts_1",name2="char_007_closre_1")]
@@ -293,47 +293,47 @@
 [Blocker(a=1, r=0, g=0, b=0, fadetime=0.5, block=true)]
 [Blocker(a=0, r=0, g=0, b=0, fadetime=2, block=true)]
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 啊，灯亮了。
+[name="Closure"] Oh, the light is on.
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 可露希尔。
-[name="凯尔希"] 为什么你要在今天问这些？
+[name="Kal'tsit"] 可露希尔。
+[name="Kal'tsit"] 为什么你要在今天问这些？
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 因为我不问，你就不会说啊。
-[name="可露希尔"] 老是在肚子里憋着，想法会变质的。
+[name="Closure"] 因为我不问，你就不会说啊。
+[name="Closure"] 老是在肚子里憋着，想法会变质的。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 所以我的答案对你来说可有可无？
+[name="Kal'tsit"] 所以我的答案对你来说可有可无？
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 我觉得，你说的这些，对你自己可是非~~常重要！
-[name="可露希尔"] 所以嘛，比起你说了什么，更要紧的是......我一定要亲耳听到你说了才行。
+[name="Closure"] 我觉得，你说的这些，对你自己可是非~~常重要！
+[name="Closure"] 所以嘛，比起你说了什么，更要紧的是......我一定要亲耳听到你说了才行。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 浪费时间。
-[name="凯尔希"] 下次说明白点，我会直接给你报告书。
+[name="Kal'tsit"] 浪费时间。
+[name="Kal'tsit"] 下次说明白点，我会直接给你报告书。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 可那样你就不会来了呀。
+[name="Closure"] 可那样你就不会来了呀。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 谁说我不会来？
-[name="凯尔希"] 只要你真的还有灯泡可修。
+[name="Kal'tsit"] 谁说我不会来？
+[name="Kal'tsit"] 只要你真的还有灯泡可修。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 那就说好咯？
+[name="Closure"] 那就说好咯？
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] 每次都是这样，莫名其妙就和你定了些奇怪的协议。
+[name="Kal'tsit"] 每次都是这样，莫名其妙就和你定了些奇怪的协议。
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 这大概就是工程师的作用吧！
-[name="可露希尔"] 凯尔希，你看，这颗灯泡！
+[name="Closure"] 这大概就是工程师的作用吧！
+[name="Closure"] 凯尔希，你看，这颗灯泡！
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=1)]
-[name="凯尔希"] 你要说，真亮？
+[name="Kal'tsit"] 你要说，真亮？
 [Character(name="char_003_kalts_1",name2="char_007_closre_1#4",focus=2)]
-[name="可露希尔"] 嗯，真亮！
+[name="Closure"] 嗯，真亮！
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=1)]
-[name="凯尔希"] ......
-[name="凯尔希"] 你如果能一直保持这种态度，那我也安心了。
-[name="凯尔希"] 那样的话，即使我......
+[name="Kal'tsit"] ......
+[name="Kal'tsit"] 你如果能一直保持这种态度，那我也安心了。
+[name="Kal'tsit"] 那样的话，即使我......
 [Character(name="char_003_kalts_1",name2="char_007_closre_1",focus=2)]
-[name="可露希尔"] 哎！快住口。别说啦！
-[name="可露希尔"] 别说别的......趁现在，就赶紧享受下这盏小灯吧。
+[name="Closure"] 哎！快住口。别说啦！
+[name="Closure"] 别说别的......趁现在，就赶紧享受下这盏小灯吧。
 [Character(name="char_003_kalts_1")]
-[name="凯尔希"] ......
-[name="凯尔希"] 真是柔和的光芒。
+[name="Kal'tsit"] ......
+[name="Kal'tsit"] 真是柔和的光芒。
 [Delay(time=0.5)]
 [Dialog]
 [Blocker(fadetime=2,block=true)]
