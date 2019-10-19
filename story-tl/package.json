@@ -5,7 +5,8 @@
   "scripts": {
     "extract": "node scripts/extract.js",
     "replace": "node scripts/replace.js",
-    "fetch": "node scripts/fetch.js"
+    "fetch": "node scripts/fetch.js",
+    "update": "node scripts/update.js"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
