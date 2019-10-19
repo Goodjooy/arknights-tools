@@ -21,7 +21,7 @@
   let translations = JSON.parse(fs.readFileSync('./assets/json/' + tlJson + '.json'))
   let existingTls = {}
   translations.messages.forEach(tlObject => {
-    existingTls[tlObject.zh] = tlObject.en
+    existingTls[tlObject.zh] = tlObject
   })
   let usedTls = []
 
@@ -41,7 +41,7 @@
 
   // Initialize CSV data records
   let csvRecords = [
-    [ 'Character', 'Name', 'Latest', 'English' ]
+    [ 'Character', 'Name', 'Latest', 'English', 'Japanese' ]
   ]
 
   // Persistent story states (e.g. characters onscreen, and the one currently talking)
@@ -90,7 +90,8 @@
       let message = data[3]
       // if (speaker && names.indexOf(speaker) === -1) names.push(speaker)
       speaker = nameTl[speaker] || speaker
-      csvRecords.push([ getSpeaker(), speaker, message, existingTls[message] ])
+      let lineTL = existingTls[message] || { en:'', jp: '' }
+      csvRecords.push([ getSpeaker(), speaker, message, lineTL.en, lineTL.jp ])
       usedTls.push(message)
       REGEX_QUOTE.lastIndex = 0
       isSpace = false
@@ -99,7 +100,8 @@
       // Choice
       let choices = data[1].split(';')
       choices.forEach(choiceText => {
-        csvRecords.push([ '', 'PLAYER', choiceText, existingTls[choiceText] ])
+        let lineTL = existingTls[choiceText] || { en:'', jp: '' }
+        csvRecords.push([ '', 'PLAYER', choiceText, lineTL.en, lineTL.jp ])
         usedTls.push(choiceText)
       })
       REGEX_CHOICE.lastIndex = 0
@@ -108,21 +110,23 @@
     } else if (data = REGEX_ANONQUOTE.exec(line)) {
       // Unnamed dialog
       let message = data[0]
-      csvRecords.push([ '', '', message, existingTls[message] ])
+      let lineTL = existingTls[message] || { en:'', jp: '' }
+      csvRecords.push([ '', '', message, lineTL.en, lineTL.jp ])
       usedTls.push(message)
       REGEX_ANONQUOTE.lastIndex = 0
       isSpace = false
 
     } else if (line.trim() && line.trim()[0] != '[' && line.trim()[0] != '/') {
       // Wild dialogs
-      csvRecords.push([ '', '', line.trim(), existingTls[line.trim()] ])
+      let lineTL = existingTls[line.trim()] || { en:'', jp: '' }
+      csvRecords.push([ '', '', line.trim(), lineTL.en, lineTL.jp ])
       usedTls.push(line.trim())
       isSpace = false
       
     } else if (!line.trim()) {
       // Separators
       if (!isSpace) {
-        csvRecords.push([ '-----', '-----', '-----', '-----' ])
+        csvRecords.push([ '-----', '-----', '-----', '-----', '-----' ])
         isSpace = true
       }
     }
@@ -131,7 +135,7 @@
   // Add old translations to the nd
   translations.messages.forEach(tlObject => {
     if (usedTls.indexOf(tlObject.zh) === -1)
-      csvRecords.push([ '', '', tlObject.zh, tlObject.en ])
+      csvRecords.push([ '', '', tlObject.zh, tlObject.en, tlObject.jp ])
   })
   
   // Save CSV
