@@ -26,7 +26,7 @@
   let sheetName = process.argv[2]
   if (!sheetName) return Promise.reject(new Error('Sheet name required'))
 
-  let sheetRange = 'C2:D'
+  let sheetRange = 'C2:E'
   if (sheetName.toLowerCase() == 'names') {
     sheetName = 'Names'
     sheetRange = 'A2:B'
@@ -39,6 +39,7 @@
     translations.messages.push({
       zh: row[0],
       en: row[1],
+      jp: row[2] || '',
     })
   })
 
