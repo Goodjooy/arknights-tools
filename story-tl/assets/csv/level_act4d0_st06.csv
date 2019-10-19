@@ -1,262 +1,365 @@
-Character,Name,Chinese,English
-,,08:30 A.M 天气/暴雪
-,,北地，因非冰原，莱茵生命420号临时科考观测站
-,装置,系统已解锁。
-,装置,确定年份：未知
-,装置,时间设置出现问题，现在转到手工控制。
-,装置,要进行下一步操作，请进行身份认证。
-char_248_mgllan,麦哲伦,唔，我想想......嗯，莱茵生命科学考察员，麦哲伦。
-,装置,认证中——
-,装置,认证完毕，声音样本已确认。
-,装置,哔哔——
-,装置,指纹已确认。
-,装置,（活泼的女声）嗨，你好呀麦麦，欢迎回来！
-char_248_mgllan,麦哲伦,......
-char_248_mgllan,麦哲伦,好怪哦！
-char_248_mgllan,麦哲伦,唉，早知道就不答应梅尔姐测试这个签到系统了，好奇怪的功能啊......
-char_248_mgllan,麦哲伦,呼，总而言之，开始干活吧！
-char_248_mgllan,麦哲伦,今年最后一个勘察点，确认没有新的发现。
-char_248_mgllan,麦哲伦,至此，本年度预定的勘查目标已经完成，确认其他各项任务完成后，将踏上返程。
-char_248_mgllan,麦哲伦,呼，搞定。
-char_248_mgllan,麦哲伦,写报告可真是我最不擅长的东西了，还是来听听录音吧。
-,装置,（活泼的女声）你好，麦麦。今天，是你本次外出勘察的第1，8，7天了哦。
-char_248_mgllan,麦哲伦,哇，这一次也已经出来这么久啦，我都没有感觉了。
-,装置,（活泼的女声）你已经出去很久了，也该回来了吧？大家都想你了。
-char_248_mgllan,麦哲伦,欸？！之前有这一段吗......难道是梅尔姐偷偷录的然后设置了触发条件？
-char_248_mgllan,麦哲伦,呜哇，不管怎么样，居然还有这样的小惊喜，好开心啊！
-char_248_mgllan,麦哲伦,不过，说是说可以回去了，但是......
-char_248_mgllan,麦哲伦,这场暴风雪，恐怕还要持续至少一周呢，唉，幸好物资储备还算充裕。
-char_248_mgllan,麦哲伦,算啦，还是来确认一遍任务表吧，我记得应该还有几个没有填的。
-char_248_mgllan,麦哲伦,让我看看，嗯，周边的样本采集，完成。遗迹线索的寻找，没有~也算完成。
-char_248_mgllan,麦哲伦,和去年比没有什么新发现呢，要是再来一个和大前年一样的发现就好了。
-char_248_mgllan,麦哲伦,虽然说这才是常态啦，要是科长在肯定要批评我贪心了。
-char_248_mgllan,麦哲伦,应该没有了吧......嗯？还有一项空着，新材料的低温性质测试......啊。
-char_248_mgllan,麦哲伦,我完全忘记了这件事！！！不如说这个新材料被我放哪儿去了来着！！！
-char_248_mgllan,麦哲伦,糟了糟了，这个要是丢了，我可要被杀掉了！
-char_248_mgllan,麦哲伦,呼，好险好险，居然被塞在外层口袋里......
-char_248_mgllan,麦哲伦,外层口袋是零下43度，持续时间6小时，依然保持弹性。
-char_248_mgllan,麦哲伦,接下来测试一下硬度。
-char_248_mgllan,麦哲伦,嘿！
-char_248_mgllan,麦哲伦,嗯，也没有问题。好，接下来放进实验瓮就行。
-char_248_mgllan,麦哲伦,唔，幸亏还是有放在外套里......
-char_248_mgllan,麦哲伦,好吧，反正现在是暴风雪，干脆把它放到门外去摆一天看看低温疲劳性好了。
-char_248_mgllan,麦哲伦,现在外面的气温应该很合适吧。
-char_248_mgllan,麦哲伦,听着，麦哲伦，你要深呼吸，在打开门的瞬间，把东西丢出去，然后立刻关门。
-char_248_mgllan,麦哲伦,要快，准，狠！不然暴风雪灌进来可就糟了。
-char_248_mgllan,麦哲伦,1，2，3！
-char_341_amona_2#2,？？？,......
-char_248_mgllan,麦哲伦,......
-char_341_amona_2#2,？？？,请问......
-char_248_mgllan,麦哲伦,啊啊啊啊啊啊啊啊啊啊！！！
-char_248_mgllan,麦哲伦,麦哲伦，你刚才好像看到了一个幽灵。
-char_248_mgllan,麦哲伦,麦哲伦，虽然她很漂亮，但一定是个幽灵。
-char_248_mgllan,麦哲伦,但是，这里可是北地，怎么可能会有别人？
-char_248_mgllan,麦哲伦,难、难道说真的是雪中的幽灵？
-char_248_mgllan,麦哲伦,不行不行，要再开门看看，要用科学的眼光去看待！！
-char_248_mgllan,麦哲伦,没有幽灵这种东西！我的体温也没有下降到出现幻觉！
-char_248_mgllan,麦哲伦,万一是新的族群，那就是大发现！加油啊，麦哲伦！
-char_341_amona_2#2,？？？,......
-char_248_mgllan,麦哲伦,......
-char_341_amona_2#2,？？？,请问，我能进来吗？
-char_248_mgllan,麦哲伦,呃，呃......你......我......
-char_341_amona_2#2,？？？,不用害怕。我是活人，不信的话，摸摸我的脸吧？
-char_248_mgllan,麦哲伦,呃？呃？
-char_248_mgllan,麦哲伦,好，好......
-char_248_mgllan,麦哲伦,呜啊，好暖和！怎么会，这不是在北地吗，怎么会......
-char_248_mgllan,麦哲伦,......您是萨米人吗？
-char_248_mgllan,麦哲伦,咦......欸。
-char_341_amona_2#2,？？？,虽然不知道是哪里让你感到失望，不过我确实是萨米人。你好，小姑娘。
-char_248_mgllan,麦哲伦,你，你好。虽然不知道你是怎么到这里来的，不过先进来吧，外面可不是普通人能活下来的温度！
-char_248_mgllan,麦哲伦,即使是萨米人，对这样的暴风雪也没辙吧？
-char_248_mgllan,？？？,谢谢你。
-char_248_mgllan,麦哲伦,给，热茶。
-char_341_amona_2#2,？？？,谢谢。
-char_248_mgllan,麦哲伦,姐姐你叫什么？
-char_341_amona_2#2,？？？,就叫我——
-char_341_amona_2#2,？？？,西蒙娜吧，西蒙娜。你的名字呢，小姑娘？
-char_248_mgllan,麦哲伦,代号麦哲伦！莱茵生命科考专员，420号观测站的负责人......
-char_248_mgllan,麦哲伦,说是这么说，其实现在只有我一个人在用啦。
-char_341_amona_2#2,西蒙娜,是这样啊。
-char_248_mgllan,麦哲伦,西蒙娜，你为什么会来这里？还被困在暴风雪里......
-char_341_amona_2#2,西蒙娜,我是受人所托来找人的。
-char_248_mgllan,麦哲伦,找人？这里可是北地哦，别说人了，我一个月连生物都见不到几只呢。
-char_341_amona_2#2,西蒙娜,委托我的人说，她应该就在这一带活动。
-char_248_mgllan,麦哲伦,你找她要做什么呢？
-char_341_amona_2#2,西蒙娜,这场暴风雪将会持续很久很久，她可能会耽搁一些时间。我是来这里接她的。
-char_248_mgllan,麦哲伦,咦，是这样吗？！你是来接我的吗？
-char_341_amona_2#2,西蒙娜,我也不太清楚呢。
-char_248_mgllan,麦哲伦,这，这样，不是接我的吗，欸。可是，现在的天气真的很恶劣，西蒙娜你不要紧吗？
-char_341_amona_2#2,西蒙娜,萨米人......不，我了解雪。
-char_341_amona_2#2,西蒙娜,但天气继续恶劣下去的话，许多事情都会向没法预测的方向变化。
-char_248_mgllan,麦哲伦,唔，虽然我也看得出这场暴风雪可能要持续一段时间，但没想到这么严峻。
-char_248_mgllan,麦哲伦,还想等风势变弱一些再走呢......这样的话，反而要加快行程了。
-char_248_mgllan,麦哲伦,按照日程表和观测结果的话，明早可能是最佳时机了！
-char_248_mgllan,麦哲伦,嗯，物资储备也足足够了，我做的不错！
-char_341_amona_2#2,西蒙娜,这么多物资，是给你一个人使用的吗？
-char_248_mgllan,麦哲伦,不是不是，这是为了让生活在这个观测站的人能坚持到明年科考季的时候！
-char_341_amona_2#2,西蒙娜,......哦？
-char_248_mgllan,麦哲伦,如果西蒙娜姐要在这里住很久的话，也可以使用这些物资！
-char_248_mgllan,麦哲伦,嗯，但是，实验仪器，不可以乱碰哦！
-char_341_amona_2#2,西蒙娜,嗯，好。
-char_248_mgllan,麦哲伦,好吧，既然这么决定了，那就开始整理行李吧！
-char_248_mgllan,麦哲伦,西蒙娜，不好意思，我要先准备一些东西。
-char_341_amona_2#2,西蒙娜,嗯，没关系，你去吧，不用管我。
-char_341_amona_2#2,麦哲伦,行李箱，行李箱，行李箱去哪儿了来着？哦，想起来了，上个月被我拿来垫脚，放在厨房里了！
-char_248_mgllan,麦哲伦,测绘仪和无人机的状况......嗯，没有问题！
-char_248_mgllan,麦哲伦,不过得充一下电才行。
-char_341_amona_2#2,西蒙娜,有没有我可以帮上忙的地方？
-char_248_mgllan,麦哲伦,啊，不用，这些我一个人就能完成的。
-char_248_mgllan,麦哲伦,一直以来我都是一个人完成这些工作的，已经很熟练啦。
-char_341_amona_2#2,西蒙娜,所以你是在这里工作？
-char_248_mgllan,麦哲伦,嗯是的，我在这里从事研究和考察工作。
-char_341_amona_2#2,西蒙娜,考察什么？
-char_248_mgllan,麦哲伦,整片北地冰原！
-char_341_amona_2#2,西蒙娜,这里，只有你一个人？
-char_248_mgllan,麦哲伦,嗯，这就是我的工作啊？
-char_341_amona_2#2,西蒙娜,不会很孤独吗？
-char_248_mgllan,麦哲伦,会！但是孤独和快乐没什么矛盾。
-char_248_mgllan,麦哲伦,我知道我的同事们都在等我回去，也知道这片冰原还有无数秘密等着我去揭开，所以没那么可怕啦。
-char_248_mgllan,麦哲伦,有时候我会很孤独，不过很多时候，我也很快乐！
-char_341_amona_2#2,西蒙娜,一个人......这真的相当可怕。这样的生活，我不知道该说什么。
-char_248_mgllan,麦哲伦,不是每个人都能像我一样乐在其中啦。
-char_248_mgllan,麦哲伦,想要成为探险家，没有点本事可不行呢！
-char_248_mgllan,麦哲伦,啊，咳咳，是科考专员！
-char_341_amona_2#2,西蒙娜,你还......真是相当乐观呢。
-char_248_mgllan,麦哲伦,嘿嘿，借用一位前辈说的话，“探险家最好的朋友，就是孤独”！
-char_248_mgllan,麦哲伦,哦，不过科长说我好像养成了下意识自言自语的习惯。有吗？应该没有吧？
-char_341_amona_2#2,西蒙娜,挺好的呀，麦哲伦小姐。你是很好的人。
-char_248_mgllan,麦哲伦,唔，嗯，哈哈，是这样吗？
-char_341_amona_2#2,西蒙娜,嗯。
-char_248_mgllan,麦哲伦,嗯，观测站的能源储备应该也没有问题，只要设定好时间进入休眠状态就好，接下来......
-char_248_mgllan,麦哲伦,嗯，再说一下，除了科研设备，其它的西蒙娜都可以随便用！
-char_341_amona_2#2,西蒙娜,这样啊，谢谢你。
-char_341_amona_2#2,西蒙娜,可我是感染者，这样混用物资和设施，真的没问题？
-char_341_amona_2#2,西蒙娜,你看到了不是吗，麦哲伦？
-char_248_mgllan,麦哲伦,欸，我看到了呀，西蒙娜你也没刻意去掩盖。
-char_341_amona_2#2,西蒙娜,你不害怕吗？
-char_248_mgllan,麦哲伦,第一眼有些吓人......是真的！毕竟这样分布的结晶真的很稀少......
-char_248_mgllan,麦哲伦,但是，姐姐实在是太漂亮了，那些结晶看起来都有些神秘！
-char_341_amona_2#2,西蒙娜,不用避讳我的眼睛。
-char_248_mgllan,麦哲伦,啊，是眼睛......吗？西蒙娜姐也要好好注意诊疗，那可是很危险的部分啊......
-char_341_amona_2#2,西蒙娜,这并不是我想问的。我是想问，你不害怕感染吗？
-char_248_mgllan,麦哲伦,啊，这个不用担心哦，莱茵生命的研究已经证明过很多次了，矿石病在人之间的传染条件是有规律可循的，并没有人们想的那么可怕。
-char_248_mgllan,麦哲伦,虽然很多人根本就不会去听......唉。
-char_248_mgllan,麦哲伦,我有很多朋友和同事，都是感染者哦！没问题的。
-char_341_amona_2#2,西蒙娜,......是吗。
-char_248_mgllan,麦哲伦,啊，对了，莱茵生命的医学研究，虽然大家都很为我们的事业感到自豪！
-char_248_mgllan,麦哲伦,但是在感染者这个领域，是比不上一家叫做“罗德岛”的医药公司的......
-char_248_mgllan,麦哲伦,虽然同事也很生气，但不得不承认，他们在矿石病这个方面，确实很厉害呢
-char_248_mgllan,麦哲伦,结果后来，莱茵生命干脆就和罗德岛进行了合作，就连我也要去罗德岛了呢！
-char_248_mgllan,麦哲伦,好期待啊，不知道会是怎么样的地方，我居然可以继续参与科考工作！还以为就要一直住研究室了呢......
-char_341_amona_2#2,西蒙娜,你是不是很喜欢聊天？
-char_248_mgllan,麦哲伦,那当然了！其实能和别人说说话，非常开心！唔，要是我说的太多，西蒙娜可以随时提醒，我会安静下来的......
-char_341_amona_2#2,西蒙娜,不会。我喜欢你讲些我不知道的事情。
-char_248_mgllan,麦哲伦,唔，啊，有些不好意思......
-char_248_mgllan,麦哲伦,西蒙娜你要是想的话，也可以去罗德岛诊治！对了，我带你一起去吧。
-char_341_amona_2#2,西蒙娜,你不怕我别有用心吗？
-char_248_mgllan,麦哲伦,别有用心？
-char_341_amona_2#2,西蒙娜,就是，坏人。
-char_248_mgllan,麦哲伦,那西蒙娜，你是不是坏人呢？
-char_341_amona_2#2,西蒙娜,......是啊，我是不是坏人呢。
-char_248_mgllan,麦哲伦,......
-char_341_amona_2#2,西蒙娜,麦哲伦，你有感觉到这里的温度降低了吗？
-char_248_mgllan,麦哲伦,温度？咦，这么一说，确实比刚才要冷了一些......等等，难道说......
-,,警报，检测到温控设施出现异常，即将切断外层供暖功能。
-,,警报......
-char_248_mgllan,麦哲伦,糟了，西蒙娜，让一下！我要看监控系统！
-char_248_mgllan,麦哲伦,不好，材料老化导致外部供暖管道泄露了......
-char_248_mgllan,麦哲伦,不好意思，我要出门一趟。
-char_341_amona_2#2,西蒙娜,接下来会发生什么？
-char_248_mgllan,麦哲伦,如果允许系统切断外层供暖，观测站会在科考季之前就停止运作。至少，没法再提供生活功能了。
-char_341_amona_2#2,西蒙娜,还能支持几天？
-char_248_mgllan,麦哲伦,两个月左右吧......哪怕西蒙娜很熟悉雪，也没法在这种地方生活的。
-char_341_amona_2#2,西蒙娜,不会的，我很快就会离开北地。
-char_248_mgllan,麦哲伦,这样啊。
-char_341_amona_2#2,西蒙娜,......你还在收拾什么？
-char_248_mgllan,麦哲伦,准，准备出门呀？
-char_341_amona_2#2,西蒙娜,你刚才不是说能支撑到两个月之后？
-char_248_mgllan,麦哲伦,对啊，那是绝对不行的！必须要支撑到下个科考季才行！
-char_341_amona_2#2,西蒙娜,外面的风雪已经不是常人能承受的地步了。这样艰难的环境，可能会危及你的生命，别出去。
-char_248_mgllan,麦哲伦,不行，观测站不仅仅是为了我运作的，它本来具备营地的作用，也应该一直维持下去。
-char_341_amona_2#2,西蒙娜,这种天气不会有别人来的。
-char_248_mgllan,麦哲伦,西蒙娜不就是在这种天气里走到这里的吗？
-char_341_amona_2#2,西蒙娜,我不一样，我不是探险家，麦哲伦。
-char_248_mgllan,麦哲伦,嘿哟......加热设备好重......
-char_248_mgllan,麦哲伦,那这座观测站就更重要了。
-char_248_mgllan,麦哲伦,对于探险家来说，观测站这类营地就是他们生命的节点。一旦观测站停运，那么失去资源、走到了这里的探险家，可能就会失去生命。
-char_341_amona_2#2,西蒙娜,那么，从它建立开始直到今天，除了我，还有别的访客吗？
-char_248_mgllan,麦哲伦,没有。
-char_341_amona_2#2,西蒙娜,这样的话，你的坚持真的有意义吗？
-char_248_mgllan,麦哲伦,有的。
-char_341_amona_2#2,西蒙娜,为什么这么肯定？
-char_248_mgllan,麦哲伦,因为总有人会走过这里，可能是明天，可能是下个科考季，也可能就是两个月以后。
-char_341_amona_2#2,西蒙娜,这只是毫无根据的想法，麦哲伦，外面很危险。
-char_341_amona_2#2,西蒙娜,没有人会来这里的，至少在旱季前，探险家们是不会来的。
-char_248_mgllan,麦哲伦,西蒙娜姐......你不是探险家，对吧？
-char_341_amona_2#2,西蒙娜,没错。
-char_248_mgllan,麦哲伦,那么，不同的探险家，有不同的选择。
-char_248_mgllan,麦哲伦,有的人会选择在最平静的时候走到这里，为了能踏遍真个北地，现在还没有人做到，但很多人一直在努力。
-char_248_mgllan,麦哲伦,有的人会选择在最危险的时候走到这里，为的是能看到这片大地的所有变化，为的是能把这里的种种记录和景象，带回文明世界。
-char_248_mgllan,麦哲伦,玻利维亚的黑流树海，卡西米尔的环山高地平原，伊比利亚的水下火山......这些地方，过去都没有人去过。
-char_248_mgllan,麦哲伦,但是，现在，已经有人去过了，在那里，已经插上了探险家们的旗帜。
-char_248_mgllan,麦哲伦,这片大地上还有许多我们未曾踏足的地方，但那也只是说，我们还没来及踏足。
-char_248_mgllan,麦哲伦,今天，这片冰原已经有我踏足了，那么，未来，总会有更多的人来到这里。
-char_248_mgllan,麦哲伦,我们也不会知道，他们是在什么条件下走来的。
-char_341_amona_2#2,西蒙娜,如果终你一生，都没有后来者呢？
-char_341_amona_2#2,西蒙娜,如果你回去之后，这个科考站就会被废弃呢？
-char_248_mgllan,麦哲伦,我也不能为两个月后的那一点点可能性，放弃哪怕是一位不存在的探险家。
-char_248_mgllan,麦哲伦,西蒙娜姐......麦哲伦我，相信探险这种事业，相信探险家这种人。
-char_248_mgllan,麦哲伦,总有一天，我们的足迹会遍布这一整片大地。
-char_341_amona_2#2,西蒙娜,......把希望寄托于可能不会发生的未来，真的不会失望吗？
-char_248_mgllan,麦哲伦,没关系的，对探险家来说，我们一生都在发现，我们也一生都在失望。
-char_248_mgllan,麦哲伦,没有探险家的发现是仅仅依靠自己完成的，每一个探险家都是站在前人的肩膀上，每一个重大的发现都连接着遥远的过去。
-char_248_mgllan,麦哲伦,就好像我会来到这片冰原，一开始，只是因为在小时候听了一个故事。
-char_248_mgllan,麦哲伦,但是，现在我已经知道，无论我喜欢的那些存在不存在，我所做的，都有意义。
-char_248_mgllan,麦哲伦,哪怕只是那个虚无缥缈的，会让人失望的不存在的意义。
-char_248_mgllan,麦哲伦,唉这个加热器，功率会不会太大......上次把头发都烤焦了欸。不管，硬上啦！
-char_341_amona_2#2,西蒙娜,......我知道了。
-char_248_mgllan,麦哲伦,嗯！那我去了！
-char_341_amona_2#2,西蒙娜,那么，我替你去吧。
-char_248_mgllan,麦哲伦,欸？
-char_248_mgllan,麦哲伦,西蒙娜姐，你是来找人的吧？我们观测站没有雇佣其他雇员的需求哦！
-char_341_amona_2#2,西蒙娜,我已经找到那个人了。
-char_248_mgllan,麦哲伦,欸。
-char_248_mgllan,麦哲伦,欸，就是麦哲伦我吗？ 
-char_341_amona_2#2,西蒙娜,环境已经变得相当恶劣，预定要来的信使没法通知你了。
-char_341_amona_2#2,西蒙娜,容我重新自我介绍一下。罗德岛干员，代号“寒檀”。我是来接你的。当然，你可以继续叫我西蒙娜。
-char_341_amona_2#2,西蒙娜,接下来的工作让我来做。
-char_248_mgllan,麦哲伦,这样啊......
-char_248_mgllan,麦哲伦,不行。外面的环境太危险了！
-char_341_amona_2#2,西蒙娜,刚刚这句话，是我说的吧？
-char_248_mgllan,麦哲伦,不行不行不行，我可是科考人员，这是我的责任！
-char_341_amona_2#2,西蒙娜,不要小看我。
-char_248_mgllan,麦哲伦,欸。
-char_341_amona_2#2,西蒙娜,告诉我修理的方法，干员麦哲伦。外面的事情请交给我。
-char_248_mgllan,麦哲伦,那，那我知道了！这个，给你！
-char_341_amona_2#2,西蒙娜,这是？
-char_248_mgllan,麦哲伦,按下这个按钮，我就会立刻出来找你！还有这个装备，这个装备......
-char_341_amona_2#2,西蒙娜,呵呵，谢谢你......
-char_341_amona_2#2,西蒙娜,我真的找对人了呢。不用了，麦哲伦。
-char_248_mgllan,麦哲伦,不可以！我可不能让西蒙娜......
-char_341_amona_2#2,西蒙娜,不。干员麦哲伦......相信我。
-char_341_amona_2#2,西蒙娜,这片土地也一样信任着我。
-char_341_amona_2#2,西蒙娜,我们一生都在发现，也一生都在失望，吗。
-,？？？,愚蠢的萨米人，这种抵抗有什么意义？
-,？？？,你确实很厉害，我们走不出这场暴风雪了。
-,？？？,那又怎么样？乌萨斯依然会碾压你们，吞下你们的城市，吃掉你们的土地！
-,？？？,女巫......我们不会杀掉你。
-,？？？,我们会死，我们却要你活！你要活着，你要看整片大地都染血！
-,？？？,这东西送给你。我们这些死人的礼物，收下！用你的一只眼睛，收下！
-,？？？,惨叫啊，哭啊，然后活着！
-,？？？,我们死得光荣，你活得卑微！而且......你要一直活着！！
-,？？？,女巫！
-char_341_amona_2#2,西蒙娜,真是的。我以前怎么总是觉得这片大地会枯萎呢？
-char_341_amona_2#2,西蒙娜,只要有这样的孩子在，大地就会一直挣扎着繁茂下去才对。
-char_341_amona_2#2,西蒙娜,放心吧，麦哲伦。有些事情对你来说还太难了，交给我们大人去做，我们也会很开心啊。
-char_341_amona_2#2,西蒙娜,“......听啊♪......”
-char_341_amona_2#2,西蒙娜,“......白色的生命肆意绽放，漆黑的种子深植土壤......♪”
-char_341_amona_2#2,西蒙娜,“歌唱吧，美丽的女孩。哭泣吧，美丽的女孩♪”
-char_341_amona_2#2,西蒙娜,“风雪会听见你的歌，也会拥你入怀♪”
-char_341_amona_2#2,西蒙娜,——北地的风雪，听见歌声了吗？
-,西蒙娜,麦哲伦......我啊，想看你坚持自己的梦想。
-,西蒙娜,是啊，雪也该停了。
+Character,Name,Latest,English,Japanese
+-----,-----,-----,-----,-----
+,,08:30 A.M 天气/暴雪,,
+,,北地，因非冰原，莱茵生命420号临时科考观测站,,
+-----,-----,-----,-----,-----
+,Gadget,系统已解锁。,System unlocked.,
+,Gadget,确定年份：未知,Year determined: unknown,
+,Gadget,时间设置出现问题，现在转到手工控制。,There is a problem with the time setting. Turning to manual control now.,
+,Gadget,要进行下一步操作，请进行身份认证。,"To continue, please authenticate yourself.",
+char_248_mgllan,Magallan,唔，我想想......嗯，莱茵生命科学考察员，麦哲伦。,"Well, let me think... Uh, Rhine Lab's science investigator, Magallan.",
+,Gadget,认证中——,Comfirming identity——,
+,Gadget,认证完毕，声音样本已确认。,Authentication is complete. Voice sample confirmed.,
+,Gadget,哔哔——,Beep——,
+,Gadget,指纹已确认。,Fingerprints confirmed.,
+,Gadget,（活泼的女声）嗨，你好呀麦麦，欢迎回来！,"(Lively female voice) Hi, Ma, welcome back!",
+char_248_mgllan,Magallan,......,...,
+char_248_mgllan,Magallan,好怪哦！,This feel strange!,
+char_248_mgllan,Magallan,唉，早知道就不答应梅尔姐测试这个签到系统了，好奇怪的功能啊......,,
+char_248_mgllan,Magallan,呼，总而言之，开始干活吧！,"Whew, regardless, time to work!",
+char_248_mgllan,Magallan,今年最后一个勘察点，确认没有新的发现。,I confirmed the last site of the year has no new discoveries.,
+char_248_mgllan,Magallan,至此，本年度预定的勘查目标已经完成，确认其他各项任务完成后，将踏上返程。,"Currently, this year's scheduled exploration objectives have been completed, I also confirmed the completion of other tasks, and will set foot to return back soon.",
+char_248_mgllan,Magallan,呼，搞定。,"Phew, done.",
+char_248_mgllan,Magallan,写报告可真是我最不擅长的东西了，还是来听听录音吧。,,
+,Gadget,（活泼的女声）你好，麦麦。今天，是你本次外出勘察的第1，8，7天了哦。,"(Lively female voice) Hello, Ma. Today is your 1,8,7 days of surveying~",
+char_248_mgllan,Magallan,哇，这一次也已经出来这么久啦，我都没有感觉了。,"Wow, I've been out for so long this time, I didn't feel time past so fast.",
+,Gadget,（活泼的女声）你已经出去很久了，也该回来了吧？大家都想你了。,(Lively female voice) You've been out for a long time. I think it's time for you come back? Everyone missed you.,
+char_248_mgllan,Magallan,欸？！之前有这一段吗......难道是梅尔姐偷偷录的然后设置了触发条件？,,
+char_248_mgllan,Magallan,呜哇，不管怎么样，居然还有这样的小惊喜，好开心啊！,"Uwah, who cares how it's recorded, I'm so happy! This is such a nice small surprise!",
+char_248_mgllan,Magallan,不过，说是说可以回去了，但是......,"Well, I said I could go back, but...",
+char_248_mgllan,Magallan,这场暴风雪，恐怕还要持续至少一周呢，唉，幸好物资储备还算充裕。,"This blizzard will probably last for at least a week, thankfully my supplies are plentiful.",
+char_248_mgllan,Magallan,算啦，还是来确认一遍任务表吧，我记得应该还有几个没有填的。,"Okay, let's go over the task list, I remember there's a few things left I haven't filled in yet.",
+char_248_mgllan,Magallan,让我看看，嗯，周边的样本采集，完成。遗迹线索的寻找，没有~也算完成。,"Let's see, um, peripheral sampling, completed. The search of any clues for ruins, not completed yet~ There, all filled in.",
+char_248_mgllan,Magallan,和去年比没有什么新发现呢，要是再来一个和大前年一样的发现就好了。,"Compared to last year, I found nothing new. If only we have made the same discovery we found three years ago.",
+char_248_mgllan,Magallan,虽然说这才是常态啦，要是科长在肯定要批评我贪心了。,,
+char_248_mgllan,Magallan,应该没有了吧......嗯？还有一项空着，新材料的低温性质测试......啊。,"I think there's no work left to do... Hmm? There is a blank here, the test on the new material low temperature property... Ahh.",
+char_248_mgllan,Magallan,我完全忘记了这件事！！！不如说这个新材料被我放哪儿去了来着！！！,I completely forgot about it!!! I even forgot where I stored it?!!,
+char_248_mgllan,Magallan,糟了糟了，这个要是丢了，我可要被杀掉了！,,
+char_248_mgllan,Magallan,呼，好险好险，居然被塞在外层口袋里......,,
+char_248_mgllan,Magallan,外层口袋是零下43度，持续时间6小时，依然保持弹性。,,
+char_248_mgllan,Magallan,接下来测试一下硬度。,,
+char_248_mgllan,Magallan,嘿！,,
+char_248_mgllan,Magallan,嗯，也没有问题。好，接下来放进实验瓮就行。,,
+char_248_mgllan,Magallan,唔，幸亏还是有放在外套里......,,
+char_248_mgllan,Magallan,好吧，反正现在是暴风雪，干脆把它放到门外去摆一天看看低温疲劳性好了。,,
+char_248_mgllan,Magallan,现在外面的气温应该很合适吧。,,
+char_248_mgllan,Magallan,听着，麦哲伦，你要深呼吸，在打开门的瞬间，把东西丢出去，然后立刻关门。,"Listen, Magallan, you can do this! Take a deep breath, open the door, throw it out, and then close the door.",
+char_248_mgllan,Magallan,要快，准，狠！不然暴风雪灌进来可就糟了。,"Be quick, be accurate, be firm! There would be a disaster if the blizzard came in.",
+char_248_mgllan,Magallan,1，2，3！,,
+char_341_amona_2#2,？？？,......,...,
+char_248_mgllan,Magallan,......,...,
+char_341_amona_2#2,？？？,请问......,Excuse me...,
+char_248_mgllan,Magallan,啊啊啊啊啊啊啊啊啊啊！！！,,
+char_248_mgllan,Magallan,麦哲伦，你刚才好像看到了一个幽灵。,,
+char_248_mgllan,Magallan,麦哲伦，虽然她很漂亮，但一定是个幽灵。,,
+char_248_mgllan,Magallan,但是，这里可是北地，怎么可能会有别人？,,
+char_248_mgllan,Magallan,难、难道说真的是雪中的幽灵？,,
+char_248_mgllan,Magallan,不行不行，要再开门看看，要用科学的眼光去看待！！,,
+char_248_mgllan,Magallan,没有幽灵这种东西！我的体温也没有下降到出现幻觉！,,
+char_248_mgllan,Magallan,万一是新的族群，那就是大发现！加油啊，麦哲伦！,,
+char_341_amona_2#2,？？？,......,...,
+char_248_mgllan,Magallan,......,...,
+char_341_amona_2#2,？？？,请问，我能进来吗？,,
+char_248_mgllan,Magallan,呃，呃......你......我......,,
+char_341_amona_2#2,？？？,不用害怕。我是活人，不信的话，摸摸我的脸吧？,,
+char_248_mgllan,Magallan,呃？呃？,,
+char_248_mgllan,Magallan,好，好......,,
+char_248_mgllan,Magallan,呜啊，好暖和！怎么会，这不是在北地吗，怎么会......,,
+char_248_mgllan,Magallan,......您是萨米人吗？,,
+char_248_mgllan,Magallan,咦......欸。,,
+char_341_amona_2#2,？？？,虽然不知道是哪里让你感到失望，不过我确实是萨米人。你好，小姑娘。,,
+char_248_mgllan,Magallan,你，你好。虽然不知道你是怎么到这里来的，不过先进来吧，外面可不是普通人能活下来的温度！,,
+char_248_mgllan,Magallan,即使是萨米人，对这样的暴风雪也没辙吧？,,
+char_341_amona_2#2,？？？,谢谢你。,Thank you.,
+char_248_mgllan,Magallan,给，热茶。,Here's your hot tea.,
+char_341_amona_2#2,？？？,谢谢。,Thank you very much.,
+char_248_mgllan,Magallan,姐姐你叫什么？,What's your name?,
+char_341_amona_2#2,？？？,就叫我——,,
+char_341_amona_2#2,？？？,西蒙娜吧，西蒙娜。你的名字呢，小姑娘？,,
+char_248_mgllan,Magallan,代号麦哲伦！莱茵生命科考专员，420号观测站的负责人......,,
+char_248_mgllan,Magallan,说是这么说，其实现在只有我一个人在用啦。,,
+char_341_amona_2#2,Simona,是这样啊。,,
+char_248_mgllan,Magallan,西蒙娜，你为什么会来这里？还被困在暴风雪里......,,
+char_341_amona_2#2,Simona,我是受人所托来找人的。,I was asked to find someone.,
+char_248_mgllan,Magallan,找人？这里可是北地哦，别说人了，我一个月连生物都见不到几只呢。,,
+char_341_amona_2#2,Simona,委托我的人说，她应该就在这一带活动。,My requestor says she should be around in this area.,
+char_248_mgllan,Magallan,你找她要做什么呢？,Why are you finding her for?,
+char_341_amona_2#2,Simona,这场暴风雪将会持续很久很久，她可能会耽搁一些时间。我是来这里接她的。,,
+char_248_mgllan,Magallan,咦，是这样吗？！你是来接我的吗？,,
+char_341_amona_2#2,Simona,我也不太清楚呢。,,
+char_248_mgllan,Magallan,这，这样，不是接我的吗，欸。可是，现在的天气真的很恶劣，西蒙娜你不要紧吗？,,
+char_341_amona_2#2,Simona,萨米人......不，我了解雪。,A Sámian (Sámi)... Rather I should say I know much about snow.,
+char_341_amona_2#2,Simona,但天气继续恶劣下去的话，许多事情都会向没法预测的方向变化。,,
+char_248_mgllan,Magallan,唔，虽然我也看得出这场暴风雪可能要持续一段时间，但没想到这么严峻。,"Oh, while I predicted this blizzard might last for some time, I didn't expect it to be so severe.",
+char_248_mgllan,Magallan,还想等风势变弱一些再走呢......这样的话，反而要加快行程了。,,
+char_248_mgllan,Magallan,按照日程表和观测结果的话，明早可能是最佳时机了！,,
+char_248_mgllan,Magallan,嗯，物资储备也足足够了，我做的不错！,,
+char_341_amona_2#2,Simona,这么多物资，是给你一个人使用的吗？,,
+char_248_mgllan,Magallan,不是不是，这是为了让生活在这个观测站的人能坚持到明年科考季的时候！,,
+char_341_amona_2#2,Simona,......哦？,,
+char_248_mgllan,Magallan,如果西蒙娜姐要在这里住很久的话，也可以使用这些物资！,,
+char_248_mgllan,Magallan,嗯，但是，实验仪器，不可以乱碰哦！,,
+char_341_amona_2#2,Simona,嗯，好。,,
+char_248_mgllan,Magallan,好吧，既然这么决定了，那就开始整理行李吧！,"Well, that's decided then, let's start packing.",
+char_248_mgllan,Magallan,西蒙娜，不好意思，我要先准备一些东西。,,
+char_341_amona_2#2,Simona,嗯，没关系，你去吧，不用管我。,"Oh, that's all right. You can go ahead and leave me be.",
+,Magallan,行李箱，行李箱，行李箱去哪儿了来着？哦，想起来了，上个月被我拿来垫脚，放在厨房里了！,"Suitcase, suitcase, where did my suitcase go? Oh, come to think of it, I put it in the kitchen last month using it as a stepping stool!",
+char_248_mgllan,Magallan,测绘仪和无人机的状况......嗯，没有问题！,"Coordinate measuring machine and my drones... Phew, no problems with them!",
+char_248_mgllan,Magallan,不过得充一下电才行。,But they have to be charged up first.,
+char_341_amona_2#2,Simona,有没有我可以帮上忙的地方？,,
+char_248_mgllan,Magallan,啊，不用，这些我一个人就能完成的。,"Oh, no, I can do this all by myself.",
+char_248_mgllan,Magallan,一直以来我都是一个人完成这些工作的，已经很熟练啦。,,
+char_341_amona_2#2,Simona,所以你是在这里工作？,,
+char_248_mgllan,Magallan,嗯是的，我在这里从事研究和考察工作。,,
+char_341_amona_2#2,Simona,考察什么？,,
+char_248_mgllan,Magallan,整片北地冰原！,,
+char_341_amona_2#2,Simona,这里，只有你一个人？,,
+char_248_mgllan,Magallan,嗯，这就是我的工作啊？,,
+char_341_amona_2#2,Simona,不会很孤独吗？,,
+char_248_mgllan,Magallan,会！但是孤独和快乐没什么矛盾。,,
+char_248_mgllan,Magallan,我知道我的同事们都在等我回去，也知道这片冰原还有无数秘密等着我去揭开，所以没那么可怕啦。,,
+char_248_mgllan,Magallan,有时候我会很孤独，不过很多时候，我也很快乐！,,
+char_341_amona_2#2,Simona,一个人......这真的相当可怕。这样的生活，我不知道该说什么。,,
+char_248_mgllan,Magallan,不是每个人都能像我一样乐在其中啦。,,
+char_248_mgllan,Magallan,想要成为探险家，没有点本事可不行呢！,,
+char_248_mgllan,Magallan,啊，咳咳，是科考专员！,,
+char_341_amona_2#2,Simona,你还......真是相当乐观呢。,You are... That's pretty optimistic of you.,
+char_248_mgllan,Magallan,嘿嘿，借用一位前辈说的话，“探险家最好的朋友，就是孤独”！,"Hehe, to borrow a senior words, they once said, ""An explorer's best friend, is loneliness.""!",
+char_248_mgllan,Magallan,哦，不过科长说我好像养成了下意识自言自语的习惯。有吗？应该没有吧？,,
+char_341_amona_2#2,Simona,挺好的呀，麦哲伦小姐。你是很好的人。,,
+char_248_mgllan,Magallan,唔，嗯，哈哈，是这样吗？,,
+char_341_amona_2#2,Simona,嗯。,Yeah.,
+char_248_mgllan,Magallan,嗯，观测站的能源储备应该也没有问题，只要设定好时间进入休眠状态就好，接下来......,"Well, the observatory's energy reserves should be fine, as long as it's set to go dormant, and then...",
+char_248_mgllan,Magallan,嗯，再说一下，除了科研设备，其它的西蒙娜都可以随便用！,,
+char_341_amona_2#2,Simona,这样啊，谢谢你。,,
+char_341_amona_2#2,Simona,可我是感染者，这样混用物资和设施，真的没问题？,,
+char_341_amona_2#2,Simona,你看到了不是吗，麦哲伦？,,
+char_248_mgllan,Magallan,欸，我看到了呀，西蒙娜你也没刻意去掩盖。,,
+char_341_amona_2#2,Simona,你不害怕吗？,Aren't you scared of me?,
+char_248_mgllan,Magallan,第一眼有些吓人......是真的！毕竟这样分布的结晶真的很稀少......,,
+char_248_mgllan,Magallan,但是，姐姐实在是太漂亮了，那些结晶看起来都有些神秘！,,
+char_341_amona_2#2,Simona,不用避讳我的眼睛。,,
+char_248_mgllan,Magallan,啊，是眼睛......吗？西蒙娜姐也要好好注意诊疗，那可是很危险的部分啊......,,
+char_341_amona_2#2,Simona,这并不是我想问的。我是想问，你不害怕感染吗？,,
+char_248_mgllan,Magallan,啊，这个不用担心哦，莱茵生命的研究已经证明过很多次了，矿石病在人之间的传染条件是有规律可循的，并没有人们想的那么可怕。,,
+char_248_mgllan,Magallan,虽然很多人根本就不会去听......唉。,,
+char_248_mgllan,Magallan,我有很多朋友和同事，都是感染者哦！没问题的。,,
+char_341_amona_2#2,Simona,......是吗。,... I see.,
+char_248_mgllan,Magallan,啊，对了，莱茵生命的医学研究，虽然大家都很为我们的事业感到自豪！,,
+char_248_mgllan,Magallan,但是在感染者这个领域，是比不上一家叫做“罗德岛”的医药公司的......,,
+char_248_mgllan,Magallan,虽然同事也很生气，但不得不承认，他们在矿石病这个方面，确实很厉害呢,,
+char_248_mgllan,Magallan,结果后来，莱茵生命干脆就和罗德岛进行了合作，就连我也要去罗德岛了呢！,,
+char_248_mgllan,Magallan,好期待啊，不知道会是怎么样的地方，我居然可以继续参与科考工作！还以为就要一直住研究室了呢......,,
+char_341_amona_2#2,Simona,你是不是很喜欢聊天？,,
+char_248_mgllan,Magallan,那当然了！其实能和别人说说话，非常开心！唔，要是我说的太多，西蒙娜可以随时提醒，我会安静下来的......,,
+char_341_amona_2#2,Simona,不会。我喜欢你讲些我不知道的事情。,,
+char_248_mgllan,Magallan,唔，啊，有些不好意思......,,
+char_248_mgllan,Magallan,西蒙娜你要是想的话，也可以去罗德岛诊治！对了，我带你一起去吧。,,
+char_341_amona_2#2,Simona,你不怕我别有用心吗？,,
+char_248_mgllan,Magallan,别有用心？,,
+char_341_amona_2#2,Simona,就是，坏人。,,
+char_248_mgllan,Magallan,那西蒙娜，你是不是坏人呢？,,
+char_341_amona_2#2,Simona,......是啊，我是不是坏人呢。,"... Yeah, am I a bad person, huh.",
+char_248_mgllan,Magallan,......,...,
+char_341_amona_2#2,Simona,麦哲伦，你有感觉到这里的温度降低了吗？,"Magallan, do you feel the temperature drop here?",
+char_248_mgllan,Magallan,温度？咦，这么一说，确实比刚才要冷了一些......等等，难道说......,"The temperature? Well, it's a little colder than it was before... Wait, does that mean...",
+,,警报，检测到温控设施出现异常，即将切断外层供暖功能。,,
+,,警报......,Warning...,
+char_248_mgllan,Magallan,糟了，西蒙娜，让一下！我要看监控系统！,,
+char_248_mgllan,Magallan,不好，材料老化导致外部供暖管道泄露了......,,
+char_248_mgllan,Magallan,不好意思，我要出门一趟。,,
+char_341_amona_2#2,Simona,接下来会发生什么？,,
+char_248_mgllan,Magallan,如果允许系统切断外层供暖，观测站会在科考季之前就停止运作。至少，没法再提供生活功能了。,,
+char_341_amona_2#2,Simona,还能支持几天？,,
+char_248_mgllan,Magallan,两个月左右吧......哪怕西蒙娜很熟悉雪，也没法在这种地方生活的。,,
+char_341_amona_2#2,Simona,不会的，我很快就会离开北地。,,
+char_248_mgllan,Magallan,这样啊。,,
+char_341_amona_2#2,Simona,......你还在收拾什么？,,
+char_248_mgllan,Magallan,准，准备出门呀？,,
+char_341_amona_2#2,Simona,你刚才不是说能支撑到两个月之后？,,
+char_248_mgllan,Magallan,对啊，那是绝对不行的！必须要支撑到下个科考季才行！,,
+char_341_amona_2#2,Simona,外面的风雪已经不是常人能承受的地步了。这样艰难的环境，可能会危及你的生命，别出去。,,
+char_248_mgllan,Magallan,不行，观测站不仅仅是为了我运作的，它本来具备营地的作用，也应该一直维持下去。,,
+char_341_amona_2#2,Simona,这种天气不会有别人来的。,,
+char_248_mgllan,Magallan,西蒙娜不就是在这种天气里走到这里的吗？,,
+char_341_amona_2#2,Simona,我不一样，我不是探险家，麦哲伦。,,
+char_248_mgllan,Magallan,嘿哟......加热设备好重......,,
+char_248_mgllan,Magallan,那这座观测站就更重要了。,,
+char_248_mgllan,Magallan,对于探险家来说，观测站这类营地就是他们生命的节点。一旦观测站停运，那么失去资源、走到了这里的探险家，可能就会失去生命。,,
+char_341_amona_2#2,Simona,那么，从它建立开始直到今天，除了我，还有别的访客吗？,"But, since its founding, have there been any other visitors besides me?",
+char_248_mgllan,Magallan,没有。,,
+char_341_amona_2#2,Simona,这样的话，你的坚持真的有意义吗？,,
+char_248_mgllan,Magallan,有的。,There is.,
+char_341_amona_2#2,Simona,为什么这么肯定？,Why are you so sure?,
+char_248_mgllan,Magallan,因为总有人会走过这里，可能是明天，可能是下个科考季，也可能就是两个月以后。,,
+char_341_amona_2#2,Simona,这只是毫无根据的想法，麦哲伦，外面很危险。,,
+char_341_amona_2#2,Simona,没有人会来这里的，至少在旱季前，探险家们是不会来的。,,
+char_248_mgllan,Magallan,西蒙娜姐......你不是探险家，对吧？,,
+char_341_amona_2#2,Simona,没错。,,
+char_248_mgllan,Magallan,那么，不同的探险家，有不同的选择。,,
+char_248_mgllan,Magallan,有的人会选择在最平静的时候走到这里，为了能踏遍真个北地，现在还没有人做到，但很多人一直在努力。,,
+char_248_mgllan,Magallan,有的人会选择在最危险的时候走到这里，为的是能看到这片大地的所有变化，为的是能把这里的种种记录和景象，带回文明世界。,,
+char_248_mgllan,Magallan,玻利维亚的黑流树海，卡西米尔的环山高地平原，伊比利亚的水下火山......这些地方，过去都没有人去过。,"Bolivia's forests, Kazimierz's mountain plains, Iberia's underwater volcanoes... These places have never been visited by anyone before.",
+char_248_mgllan,Magallan,但是，现在，已经有人去过了，在那里，已经插上了探险家们的旗帜。,"Now, someone has been there to explore. The explorers' flag has been planted.",
+char_248_mgllan,Magallan,这片大地上还有许多我们未曾踏足的地方，但那也只是说，我们还没来及踏足。,,
+char_248_mgllan,Magallan,今天，这片冰原已经有我踏足了，那么，未来，总会有更多的人来到这里。,"Today, I have treak through this ice field, so, in the future, there will always be more people coming here.",
+char_248_mgllan,Magallan,我们也不会知道，他们是在什么条件下走来的。,,
+char_341_amona_2#2,Simona,如果终你一生，都没有后来者呢？,,
+char_341_amona_2#2,Simona,如果你回去之后，这个科考站就会被废弃呢？,,
+char_248_mgllan,Magallan,我也不能为两个月后的那一点点可能性，放弃哪怕是一位不存在的探险家。,,
+char_248_mgllan,Magallan,西蒙娜姐......麦哲伦我，相信探险这种事业，相信探险家这种人。,,
+char_248_mgllan,Magallan,总有一天，我们的足迹会遍布这一整片大地。,,
+char_341_amona_2#2,Simona,......把希望寄托于可能不会发生的未来，真的不会失望吗？,... You won't feel disappointed at all if we place our hopes in a future that may not happen?,
+char_248_mgllan,Magallan,没关系的，对探险家来说，我们一生都在发现，我们也一生都在失望。,"That's fine. As explorers, we spend our lives discovering new things, and we spend our lives being disappointed on things.",
+char_248_mgllan,Magallan,没有探险家的发现是仅仅依靠自己完成的，每一个探险家都是站在前人的肩膀上，每一个重大的发现都连接着遥远的过去。,,
+char_248_mgllan,Magallan,就好像我会来到这片冰原，一开始，只是因为在小时候听了一个故事。,,
+char_248_mgllan,Magallan,但是，现在我已经知道，无论我喜欢的那些存在不存在，我所做的，都有意义。,,
+char_248_mgllan,Magallan,哪怕只是那个虚无缥缈的，会让人失望的不存在的意义。,,
+char_248_mgllan,Magallan,唉这个加热器，功率会不会太大......上次把头发都烤焦了欸。不管，硬上啦！,,
+char_341_amona_2#2,Simona,......我知道了。,... I kind of understand.,
+char_248_mgllan,Magallan,嗯！那我去了！,,
+char_341_amona_2#2,Simona,那么，我替你去吧。,"Very well, I'll go in your stead.",
+char_248_mgllan,Magallan,欸？,,
+char_248_mgllan,Magallan,西蒙娜姐，你是来找人的吧？我们观测站没有雇佣其他雇员的需求哦！,,
+char_341_amona_2#2,Simona,我已经找到那个人了。,,
+char_248_mgllan,Magallan,欸。,,
+char_248_mgllan,Magallan,欸，就是麦哲伦我吗？ ,,
+char_341_amona_2#2,Simona,环境已经变得相当恶劣，预定要来的信使没法通知你了。,,
+char_341_amona_2#2,Simona,容我重新自我介绍一下。罗德岛干员，代号“寒檀”。我是来接你的。当然，你可以继续叫我西蒙娜。,,
+char_341_amona_2#2,Simona,接下来的工作让我来做。,,
+char_248_mgllan,Magallan,这样啊......,,
+char_248_mgllan,Magallan,不行。外面的环境太危险了！,,
+char_341_amona_2#2,Simona,刚刚这句话，是我说的吧？,,
+char_248_mgllan,Magallan,不行不行不行，我可是科考人员，这是我的责任！,,
+char_341_amona_2#2,Simona,不要小看我。,,
+char_248_mgllan,Magallan,欸。,,
+char_341_amona_2#2,Simona,告诉我修理的方法，干员麦哲伦。外面的事情请交给我。,,
+char_248_mgllan,Magallan,那，那我知道了！这个，给你！,,
+char_341_amona_2#2,Simona,这是？,,
+char_248_mgllan,Magallan,按下这个按钮，我就会立刻出来找你！还有这个装备，这个装备......,,
+char_341_amona_2#2,Simona,呵呵，谢谢你......,,
+char_341_amona_2#2,Simona,我真的找对人了呢。不用了，麦哲伦。,,
+char_248_mgllan,Magallan,不可以！我可不能让西蒙娜......,,
+char_341_amona_2#2,Simona,不。干员麦哲伦......相信我。,,
+char_341_amona_2#2,Simona,这片土地也一样信任着我。,,
+char_341_amona_2#2,Simona,我们一生都在发现，也一生都在失望，吗。,"We spend our whole lives discovering new things, and we spend our whole lives being disappointed on things, huh?",
+,？？？,愚蠢的萨米人，这种抵抗有什么意义？,,
+,？？？,你确实很厉害，我们走不出这场暴风雪了。,,
+,？？？,那又怎么样？乌萨斯依然会碾压你们，吞下你们的城市，吃掉你们的土地！,,
+,？？？,女巫......我们不会杀掉你。,,
+,？？？,我们会死，我们却要你活！你要活着，你要看整片大地都染血！,,
+,？？？,这东西送给你。我们这些死人的礼物，收下！用你的一只眼睛，收下！,,
+,？？？,惨叫啊，哭啊，然后活着！,,
+,？？？,我们死得光荣，你活得卑微！而且......你要一直活着！！,,
+,？？？,女巫！,,
+char_341_amona_2#2,Simona,真是的。我以前怎么总是觉得这片大地会枯萎呢？,,
+char_341_amona_2#2,Simona,只要有这样的孩子在，大地就会一直挣扎着繁茂下去才对。,,
+char_341_amona_2#2,Simona,放心吧，麦哲伦。有些事情对你来说还太难了，交给我们大人去做，我们也会很开心啊。,,
+char_341_amona_2#2,Simona,“......听啊♪......”,,
+char_341_amona_2#2,Simona,“......白色的生命肆意绽放，漆黑的种子深植土壤......♪”,,
+char_341_amona_2#2,Simona,“歌唱吧，美丽的女孩。哭泣吧，美丽的女孩♪”,,
+char_341_amona_2#2,Simona,“风雪会听见你的歌，也会拥你入怀♪”,,
+char_341_amona_2#2,Simona,——北地的风雪，听见歌声了吗？,,
+,Simona,麦哲伦......我啊，想看你坚持自己的梦想。,,
+,Simona,是啊，雪也该停了。,,
+-----,-----,-----,-----,-----
+,,莱茵生命临时极地科考点，时间XX-XX-XX,"Rhine Lab temporary polar research site, XX-XX-XX",
+,,唉，早知道就不答应梅尔姐姐测试这个签到系统了，好奇怪的功能啊......,"*Sigh* If I had known about this, I would not have agreed with sister May's (Mayor) request to test this check-in system. What a strange feature...",
+,,写报告可真是我最不擅长的东西了，还是来听听梅尔姐姐的声音吧。,Writing a report is not what I'm good at. Let's listen to sister May voice!,
+,,欸？！之前有这一段吗......难道是梅尔姐姐偷偷录的然后设置了触发条件？,What? ! Was there a recording like this before... Did sister May secretly recorded it and set the trigger?,
+,,虽然说这才是常态啦，要是缪缪在肯定要批评我贪心了。,"Although this is the norm, if MueMue (Muesys) was here she would criticize me of being too greedy.",
+,,呜哇，赶紧找找，这个要是丢了我可要被梅尔姐姐杀掉了！,"Uwah, I gotta find it fast. If I lose this, sister May will definately kill me!",
+,,呼，好险好险，原来被我塞在防寒服的口袋里忘了。,"Whew, I almost lost it, turns out I put it in my winter coat pocket and forgot all about it.",
+,,不过，我带在身上这么久没去管它都没出事，应该已经证明了它的低温耐性了......吧？,"But, I haven't had a problem with it being on me for so long, which should have proved its low temperature tolerance... ?",
+,,唔，虽然这一项只是梅尔姐姐私下拜托我的任务，不过还是应该再严谨一点才行。,"Well, although this is a private request that sister May asked me to do, I should be a little more serious.",
+,,好吧，反正现在是暴风雪，干脆把它放到门外去摆一天看看好了。,"Alright then, there's a blizzard going on anyways, so let's just leave the new material outside for a day.",
+,,现在外面的气温应该是最低的了。,The temperature outside should be the lowest now.,
+,,"1,2,3！","1,2,3!",
+,,鬼啊！！！,A ghost!!!,
+,,我刚才好像看到了一个超级漂亮的大姐姐，但是，这里可是极北之地，怎么可能会有人？,"I thought I saw a gorgeous woman, but this is the far north. How could there be anyone here?",
+,,难、难道说东国的雪女传说是真的？！,C-could it be that Yuki Onna legend from the east country is true? !,
+,,不行不行，我要再开门看看，这可是惊天大发现！,I must find out! I'll open the door again. What a discovery if it's true!,
+,,哇，是真的雪女！,"Wow, it's really a Yuki Onna!",
+,,......不对，这标志性的装束，加上耳朵，什么呀，原来只是萨米人吗。,"... Wait, something's not right, this clothing logo, plus the ears. Huh? It's just a Sámian (Sámi).",
+,,虽然不知道哪里让你失望了，不过我确实是萨米人。你好，小姑娘。,"I don't know where I let you down, but I am indeed a Sámian (Sámi). Nice to meet you, young lady.",
+,,你好，漂亮的姐姐。总之，虽然不知道你是怎么到这里来的，不过先进来吧。,"Nice to meet you as well, beautiful lady. Anyway, I don't know how you got here, but come on in.",
+,,即使是萨米人，对这样的暴风雪也没辙吧。,Even a Sámian (Sámi) would have a hard time in this blizzard.,
+,,你可以叫我西蒙娜，你呢？,You can call me Simona. What about yours?,
+,,我叫麦哲伦，是这座观测站的负责人......说是这么说，其实现在只有我一个人在用啦。,"My name's Magallan, and I'm the head of this observatory... Actually, I'm the only one using it right now.",
+,,原来如此。,I see.,
+,,西蒙娜姐姐为什么你会来这样的地方？,"So Simona, why would you come to a place like this?",
+,,找人？这里可是极北之地哦，别说人了，我一个月连生物都见不到几只呢。,"Looking for a person? This far in the north? I haven't seen a living creature in a month, let alone a person.",
+,,因为这场暴风雪将会持续很久很久，现在不回去，恐怕会有很久都回不去了，我是来接她的。,"Because this blizzard is going to last for a longer time. If we don't go back now, I'm afraid we won't be able to return for some time. I'm here to pick her up, you see.",
+,,咦，是这样吗？！,"Oh, I understand now!",
+,,我还想等它弱一点了再走呢，这样的话，反而要趁现在它还没有变大先走了。,"I wanted to wait until it was a little weaker, but if that's the case, then I must leave now before it becomes even bigger.",
+,,西蒙娜姐姐，不好意思，我要先准备一些东西。,"Simona, I'm sorry for the wait. But I have to get some things ready first.",
+,,麦哲伦，需要我帮忙吗？,"Magallan, do you need my help?",
+,,好吧。你是在这里工作吗?,Alright. Do you work here?,
+,,嗯，我在这里做勘测工作。,"Yes, I do survey work here.",
+,,勘测什么？,Surveying what?,
+,,勘测这片冰原，寻找它过去的历史。,Surveying the ice sheet and searching for past history.,
+,,只有你一个人？,Just you alone?,
+,,嗯......一开始是有不少研究员一起过来的，不过最后他们都受不了这里的气候和枯燥，所以回去了。,"Yes... At first there were a lot of researchers with me, but in the end they couldn't stand the climate and boredom, so they went back.",
+,,你呢？,How are you feeling?,
+,,我习惯了，毕竟我已经做勘测工作好多年啦。,"I'm used to it. After all, I've been doing surveying work for years.",
+,,......你不讨厌那些抛弃你的人吗？,... You don't hate those who left you here?,
+,,嗯......虽然没有能说话的人是有点遗憾，不过我也知道不是每个人都能像我一样乐在其中啦。,"Hmm... althought it's a pity there's no one to talk to, but I know not everyone enjoys this kind of work as much as I do.",
+,,哦，不过梅尔姐姐说我好像养成了下意识自言自语的习惯。有吗？应该没有吧？,"Oh, but sister May says I seem to have developed a habit of talking to myself subconsciously. Am I doing it now? Probably not, right?",
+,,就算是有，也没有问题，你就这样就很好。,"Even so, that's not a big problem. You're fine.",
+,,嘿嘿，是这样吗？,"Hehe, is that so?",
+,,呵呵，是的。,*Chuckles* Yes.,
+,,麦哲伦，你知道我是感染者吧？,"Magallan, you know I'm infected, right?",
+,,欸，嗯，毕竟西蒙娜姐姐你也没有怎么去掩盖。,"I do, after all, you didn't do much to cover yourself up.",
+,,啊，这个不用担心哦，我们莱茵生命前年的研究表明，矿石病在人之间的传染其实条件很限定的，并没有人们想的那么可怕。,"Ah, don't worry about that. Rhine Lab research on the year before shows that the transmission of Oripathy between people is actually very limited and not as terrible as people think.",
+,,啊，对了，我这次出发前，梅尔姐姐说接下来可能要和一个叫做“罗德岛”的组织合作了。,"Oh, by the way, before I leave, sister May said she might be working with an organization called Rhodes Island.",
+,,听说对方有能够抑制矿石病的技术呢，这可厉害了，我们都没有这样的技术。,"Rumor has it that they have the technology to suppress Oripathy, that's impressive of them, Rhine Lab doesn't have such technology.",
+,,西蒙娜姐姐你要是想的话，回去之后可以来莱茵生命找我，我带你去治病。,"Simona if you want to, you can come back to Rhine Lab and find me, I will seek treatment for you.",
+,,你不怕我是坏人吗？,Aren't you afraid I could be a bad person?,
+,,西蒙娜姐姐是坏人吗？,Is Simona a bad person?,
+,,我觉得姐姐这么漂亮，一定是好人。,"I think you're beautiful, so you must be a good person.",
+,,是吗？,Really?,
+,,警报，检测到温控设施出现异常，即将关闭供暖功能。,Warning. Abnormality in the temperature control system detected. Heating will be turned off soon.,
+,,让我看看监控系统。,Let me check the surveillance system.,
+,,糟了，好像是冰雹破开了供暖管道。,"Oh, no. It looks like hail broke the heating pipe.",
+,,这可不行，要立刻进行维修。,This can't be left unrepaired. I must repair it immediately.,
+,,快些收拾好行李直接离开不就好了吗？,Why don't you just pack up and leave?,
+,,不行。就这么离开的话，暴风雪会彻底破坏供暖设备。,"I can't. If I just leave, the blizzard will completely destroy the heating system.",
+,,修理很麻烦吗？,Is it difficult to repair?,
+,,唔嗯......管道被设置在比较高的地方，这个天气要爬上去的话，有点难。,"Uh-huh... The pipe is set up at a high place, which is a little difficult to climb in this weather.",
+,,那么，等到明年再来重新维修不就好了吗？你每年都会来的对吧？,"So, why not wait until next year to repair it? You come here every year, right?",
+,,不，这座观测站，并不是只是为我而存在的，它建立的意义，是为所有可能会来到这里的探险家提供一个居所。,"That's not the point, this observatory does not exist just for me, it is built to provide a home for all explorers who might come here.",
+,,......没有。,... No.,
+,,这样的话，你的坚持又有什么意义呢？,So what's the point of your insistence in repairing it?,
+,,因为，总有一天，会有人经过这里。,"Because, one day, someone will pass through here.",
+,,这只是毫无根据的想法而已。,That's just a baseless thought.,
+,,不是的。,No it's not.,
+,,这片大地上还有许多我们未曾踏足的地方，但那也只是说，我们还没踏足。,"There are many places on this land where we have not yet set foot, but that is only to say that we have not yet set foot.",
+,,即使只是为了这样的可能性，就已经值得我这么去做了。,"As long as the possibility exists, then it's all worth it.",
+,,那如果终你一生，都没有后来者呢？,What if no one comes here in your lifetime?,
+,,那我就会告诉我的孩子，告诉我的接班人，告诉莱茵生命的其他人，让他们维护好这里。,"Then I would tell my children, tell my successors, and tell the rest of Rhine Lab to please maintain this place.",
+,,因为总有一天，我们的足迹会遍布这一整片大地。,"Because there will be a day, where our footprints will be all over this vast land.",
+,,没有探险家的发现是仅仅依靠自己完成的，每一个探险家都是站在前人的肩膀上，每一个重大的发现连接着遥远的过去。,"No complete explorer's discovery relies on their own, every explorer is standing on the shoulders of predecessors, every major discovery connected with the distant past.",
+,,就好像我会来到这片冰原，一开始，只是因为在小时候听了一个故事，但是，现在我已经知道，我所追求的，或许是存在的。,"Just as I had come to this ice sheet, at first, because I had heard a story of this place as a child. Now I know that what I'm seeking for might exist.",
+,,欸，但是西蒙娜姐姐，你还要找人吧？,"Huh, Simona, weren't you looking for someone?",
+,,小傻瓜，你难道还没发现，我要找的就是你吗？,"Don't you see, little fool, that you're the one I'm looking for?",
+,,咦？找我？,What? Looking for me?,
+,,我不是说了吗，因为这片风雪太大了，预定的信使已经无法进入这里了，所以梅尔小姐委托我来迎接你回罗德岛。,"As I said, the couriers are no longer able to get in because of the blizzard, so Miss Mayer has entrusted me with your return to Rhodes Island.",
+,,欸，梅尔姐姐？罗德岛？,"Huh, sister May? Rhodes Island?",
+,,呵呵，是的。,*Chuckles* Yes.,
+,,那么，容我重新自我介绍一下。,"Well, allow me reintroduce myself.",
+,,罗德岛干员，代号“至霜”。我是来接你的。当然，你可以继续叫我西蒙娜。,"Rhodes Island operator, code name ""Amona"". I'm here to bring you back. Of course, you can keep calling me Simona.",
+,,这样啊......但是，真的可以拜托西蒙娜姐姐你吗？,"I see... But, is it really alright of me to ask for your help, Simona?",
+,,放心，冰雪是我的挚友，是我的亲人。对我来说，现在的外面，如同春天一般温暖。,"Rest assured, ice and snow is my friend and family. It's like spring out there to me.",
+,,哇，好厉害。,"Wow, that's awesome.",
+,,呵呵......那么，你可以告诉我，该怎么维修管道，然后在这里乖乖收拾你的行李。,"Haha... Then, you can tell me how to fix the pipes and then pack up your things here.",
+,,好的！,Okay!,
+,,愚蠢的萨米人，你们的抵抗没有意义，总有一天，乌萨斯会吞并你们。,"Stupid Sámian (Sámi), your resistance is meaningless. One day, Ursus will swallow you up.",
+,,恶魔，**，去死，去死啊！！！！,"Devil, **, die, die!!!!",
+,,啐，恶魔，你的战争结束了，留着你那只瞎掉的眼睛滚回萨米去吧！,"*Spit*, demon, your war is over, keep that blind eye of yours and go back to Sámi!",
+,,谢谢你，麦哲伦。,"Thank you so much, Magallan.",
+,,“暴风雪从脚下升起，寒风与霜雪遍布全境。”,"""Blizzard rises from below, its wind, its frost and snow shall cover the whole land.""",
+,,“留下纯白，生机还有那漆黑的种子。”,"""Leaving pure white, life, and dark seeds.""",
+,,“抵抗自然已经耗尽了人们的心力。”,"""Resistance to nature has exhausted the human heart.""",
+,,“但总有一些别有用心的家伙早已准备好尖刀，只为饱尝同伴的鲜血。”,"""But there are always people with ulterior motives who are ready to eat the blood of their own kind.""",
+,,“歌唱吧，美丽的女孩。悲泣吧，美丽的女孩。”,"""Sing, pretty maiden. Weep, fair maiden.""",
+,,“你将变作霜雪，你将化成寒风，你永不灭。”,"""You will become frost and snow, you will become the cold wind, and you will become immortal.""",

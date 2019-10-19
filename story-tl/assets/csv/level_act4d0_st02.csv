@@ -1,173 +1,184 @@
-Character,Name,Chinese,English
-,整合运动术师,W，我们遇到了点麻烦。
-,W,嚯......值得你们用这个频道联系我，怎么？发现了什么有趣的事情？
-,整合运动术师,不太有趣，W，在你重整那些萨卡兹雇佣兵的时候，有一支队伍叛逃了。
-,整合运动术师,好像是支负责清扫战场的后勤队伍，所以我们直接发起了追击。
-,整合运动术师,意料之内的，他们变成了一盘散沙，一触即溃，开始向城外撤离。
-,W,可喜可贺。
-,整合运动术师,但，意料之外的情况是......我们派去追击的小队，和我们失去了联系。
-,整合运动术师,作为佣兵们的新领头人，希望你能给出合理的解释。
-,整合运动术师,我们的小队为什么人间蒸发了？
-,,01:13 P.M.    天气/晴
-,,切尔诺伯格，郊外，荒野
-char_1504_cqbw,W,这种描述可不利于我理解喔？
-,整合运动术师,事实如此。协同小队没发现埋伏和陷阱，只知道敌人是萨卡兹人。
-char_1504_cqbw,W,那自然是萨卡兹了，我的佣兵还能有什么其他种族呢？不过，挺有趣的。接着说。
-,整合运动术师,最先接触的时候，目标被成功压制，出于谨慎，追击小队也有所保留。对方并不是什么强敌。
-,整合运动术师,然而某个时刻，通讯突然中断了。
-char_1504_cqbw,W,......嗯，比起你们，真正的野兽更善于隐藏自己的尖牙利齿，你们这也太大意了吧。
-,整合运动术师,我们该怎么办？
-char_1504_cqbw,W,那些萨卡兹人有什么特点？
-,整合运动术师,......不清楚，目击者大都失去了联络。从远处看，只知道有一名近身陷阵的战士。
-char_1504_cqbw,W,那就不要和他们正面接触。拖住那个人，我们一会见。
-char_1002_nsabr_2,整合运动刀兵,出了什么事？
-char_1504_cqbw#3,W,没什么，只是有一支不够成熟的小队中了诱饵。
-char_1002_nsabr_2,整合运动刀兵,我们要去支援他们吗？
-char_1504_cqbw,W,唉，明明大家都有自己的工作，为什么不能各自处理好分内的事情呢？
-char_1504_cqbw,W,嗯......不过这次就不深究了吧。毕竟我也非常在意我可怜的前领导带着哪些奇怪的萨卡兹人呢。
-char_1002_nsabr_2,整合运动刀兵,明白了。
-char_1002_nsabr_2,整合运动刀兵,通知全体小队，临战整备，转移到城郊。
-char_1011_wizard_1,整合运动术师,呃，该死，这家伙的动作又变快了！他还在隐藏实力吗？
-char_131_flameb_5#7,？？？,......太弱小了，所谓的整合运动只有这种水平吗？
-char_1011_wizard_1,整合运动术师,你这家伙！竟然小看我们——
-char_1504_cqbw#3,W,呵......
-char_1504_cqbw#3,W,本来就预想到会遇上几个老熟人，可没想到会是你啊。
-char_1011_wizard_1,整合运动术师,W，我们——
-char_1504_cqbw,W,归队，除非你想送死。别摆出那副急着报仇的表情，他还没有使出全力。哦，想送死的话，我就不拦着你咯？
-char_1011_wizard_1,整合运动术师,......收队。
-char_1011_wizard_1,W,很久不见了，佣兵刀术师。
-char_131_flameb_5,炎客,你——
-char_1504_cqbw#3,W,现在，叫我W。
-char_1504_cqbw#3,W,你呢？
-char_131_flameb_5,炎客,炎客。你应该明白，于我而言，互报姓名的意义。
-char_1504_cqbw#3,W,哎呀，可怕可怕，过去你手刃那些家伙的时候，也会互报姓名吗？
-char_131_flameb_5,炎客,委托和厮杀是不一样的。
-char_1504_cqbw#3,W,作为一个经历过那场战争的萨卡兹人忽然销声匿迹，很令人担心啊。
-char_1504_cqbw#3,W,佣兵嘛，只不过是换了个领头人就要跑路，让人很心慌喔？
-char_131_flameb_5,炎客,这无关紧要。
-char_131_flameb_5,炎客,不过没想到，你的部下连让我报上名字的价值都没有。
-char_1504_cqbw#4,W,那还真是荣幸......嗯，虽然他们成为我部下也没多长时间。啊，你是在邀请我杀了你？
-char_131_flameb_5,炎客,不，我对你仰仗外力的战斗方式毫无兴趣。
-char_131_flameb_5,炎客,但我得承认，战术也是一种技巧。如果你的战术比过去更加精湛，我愿意领教。
-char_1504_cqbw#3,W,......奇怪，你过去不是那种“只要杀了目标怎么都好”的类型吗？
-char_1002_nsabr_2,整合运动刀兵,W，小队已经分散到了指定点，已经彻底切断了敌人的退路，他逃不掉的。
-char_131_flameb_5,炎客,我也没想到你能成为这些家伙的领导者，大家都在改变。
-char_1504_cqbw#3,W,这些家伙？啊......你是说整合运动？
-char_1504_cqbw#3,W,还是说......萨卡兹们？
-char_1002_nsabr_2,整合运动刀兵,喝——！
-char_131_flameb_5#2,炎客,唔。
-char_1002_nsabr_2,整合运动刀兵,我是不会轻敌的，萨卡兹人，我注意你很久了。
-char_1002_nsabr_2,整合运动刀兵,很可惜，你没有机会钻空子。
-char_131_flameb_5#4,炎客,原来如此，你也是......
-char_131_flameb_5#4,炎客,这不是有意思多了吗，你能作为砥石为我所用吗？我的刀有些钝了。
-char_1002_nsabr_2,整合运动刀兵,挑衅？你也就现在能嚣张两下了！
-char_131_flameb_5#4,炎客,嗯，来吧。
-char_1002_nsabr_2,整合运动刀兵,唔呃！该死！你是怎么——
-char_1002_nsabr_2,整合运动刀兵,呃——！
-char_131_flameb_5#4,炎客,你还有空说话吗？
-char_1504_cqbw#3,W,......意料之内，他变得更强了。
-char_1011_wizard_1,整合运动术师,W！我们为什么就站在这里看着！？只要你下令，他立刻就会灰飞烟灭了！
-char_1504_cqbw#4,W,所以现在，我又能对你发号施令了？
-char_1011_wizard_1,整合运动术师,别在这种时候找茬！
-char_1504_cqbw#4,W,但我确实不是你们的指挥官呀。
-char_1504_cqbw#4,W,提个建议，收手吧，别刺激他了，自找麻烦最好换个时间。
-char_1002_nsabr_2,整合运动刀兵,......该死。
-char_1504_cqbw#3,W,不是吧？你难道真的打算单打独斗就解决他？别在这里搞笑啊。
-char_1002_nsabr_2,整合运动刀兵,嘁。
-char_131_flameb_5#2,炎客,下一个是谁？
-char_1504_cqbw#3,W,这么着急，是赶着去赴谁的约吗？
-char_131_flameb_5,炎客,我不是第一次杀出重围了。
-char_1504_cqbw#3,W,唔，嗯，原来如此。我想，你大概是在说内战时候的事吧？我有点兴趣，能说说吗？
-char_131_flameb_5,炎客,没什么。被人埋伏，所有人死了而我还活着，就这么简单。
-char_131_flameb_5,炎客,怎么样？还要继续吗？
-char_131_flameb_5,炎客,对我来说，刚才的战斗还远远不够。
-char_1504_cqbw#3,W,不......我在想，也许你应该加入我们。
-char_1011_wizard_1,整合运动术师,W！？他这个叛逃者，已经杀了那么多整合运动的——
-char_1504_cqbw#1,W,是我的佣兵们决定要用他，整合运动需要他。有意见？
-char_1011_wizard_1,整合运动术师,你！
-char_131_flameb_5,炎客,......
-char_1504_cqbw#3,W,不管怎么想，都是我们这边更有趣吧？战争，流血，还有那么多萨卡兹同僚......
-char_1504_cqbw#3,W,你追求的一切在这里都是打折大放送哦。
-char_1504_cqbw#3,W,当然，这份邀请也出于我个人的好奇心，我们一定有很多共同话题。
-char_131_flameb_5,炎客,我不这么认为。
-char_1504_cqbw#3,W,你也是感染者吧？加入整合运动又有什么不好呢？
-char_131_flameb_5,炎客,无序的破坏，带着某种目的的集团暴行，我看不出能从这样的组织里得到什么。
-char_131_flameb_5,炎客,战争？现在的你们不过是摩擦迸发出的点点火种，你应该知道真正的战争是什么样的。
-char_1504_cqbw#3,W,别这么说，我们也是有在努力工作的，何况整合运动之间也有区别嘛。
-char_1504_cqbw#3,W,虽然我的前任上司喜欢更纯粹些的东西，但我可是无论什么都乐在其中啊。
-char_131_flameb_5,炎客,如果非要说的话......是呢，我想领教一下塔露拉的剑术。
-char_1504_cqbw#3,W,那个龙女？虽然我不想称赞她，但你基本没有一丁点胜算喔。
-char_1504_cqbw#3,W,而且她那个，能算剑术吗？你在靠近她之前就会变成一块炭吧？
-char_131_flameb_5,炎客,我知道。
-char_131_flameb_5,炎客,当然，我也知道，如果我拒绝你的条件，我突围的机会同样小之又小。
-char_131_flameb_5,炎客,可这又何妨？只有在令人窒息的枷锁中挣脱，我才有可能更进一步。
-char_1504_cqbw#5,W,你......什么时候变得这么有情调了？
-char_131_flameb_5,炎客,我只是在寻求自己活着的意义。
-char_1504_cqbw#3,W,好吧，随你怎么说。不要管那个龙女了，单纯加入佣兵队伍如何？
-char_1504_cqbw#3,W,老工作的话，你也能更加得心应手吧。再说了，你不喜欢的上司，已经死了哦。
-char_131_flameb_5,炎客,你并不值得信任。你我都互相隐瞒了很多事情。
-char_131_flameb_5,炎客,......呵，有一个很不错的地方，那里比整合运动更适合磨砺我的刀刃。
-char_131_flameb_5,炎客,我看到了。不久之前，我看到你和那个外来的萨卡兹人交易的场面。但除此之外，他们的战斗令我心动。
-char_1504_cqbw#5,W,还有这种事？！
-char_131_flameb_5,炎客,就算他最后被你除掉了，事实就是事实，依然在那里。遮掩是没用的。
-char_1504_cqbw#4,W,唔。
-char_1504_cqbw#4,W,真是败给你啦！行啦行啦。我确实和他口头约定好，让他干掉我的上司，方便我去做事呢。
-char_1504_cqbw#4,W,毕竟大家也是老相识了嘛，面子也是要卖一个的。
-char_131_flameb_5,炎客,但你不可能放过他们。
-char_1504_cqbw#4,W,至少我放过了他想保护的人啊。
-char_1504_cqbw#4,W,我答应他，会给罗德岛的救援队提供帮助——这和我杀死他这件事，也没什么矛盾吧？
-char_1504_cqbw#4,W,再说了，我也有自己的规划，钓线总要放长一些才行。但手上的猎物，也没理由让他跑了。
-char_131_flameb_5,炎客,就算这样，他也消灭了你好不容易弄到手的精英战士。
-char_1504_cqbw#3,W,够了！这事，我可还是很生气的！
-char_1504_cqbw#3,W,唉。难得遇到一位旧识，本来还以为能搞好关系，最后还是你死我活，我也很伤心的。
-char_1002_nsabr_2,整合运动刀兵,......W，我们必须动手了。拖得太久会影响既定的计划。
-char_1504_cqbw,W,好啦，既然大家时间都很紧迫......你真的不打算改变你的看法？
-char_131_flameb_5,炎客,自然不会。
-char_1504_cqbw,W,最后一个问题，你现在的雇主是谁？啊，抱歉，反正你是不会说的吧。
-char_1504_cqbw,W,但我大致猜得到。
-char_131_flameb_5,炎客,是吗，我以为他们没有那么有名。
-char_1504_cqbw,W,我有不少旧识在那里。欸，虽然我的旧识到处都是啦，你也算是呢。
-char_131_flameb_5,炎客,前言不搭后语。
-char_1504_cqbw#3,W,不，我要说的是，我也许清楚一些你以前的佣兵队伍被消灭的内幕。
-char_1504_cqbw#3,W,尊敬的刀术师队长，策划了那次的阴谋，让你变成现在这样子的人，说不定就在你要去的地方哦？
-char_131_flameb_5,炎客,是吗？
-char_131_flameb_5,炎客,是吗......
-char_131_flameb_5,炎客,有趣。
-char_1504_cqbw#5,W,啊哈哈，原来你不知道！当然了，我也是刚刚才知道。
-char_1504_cqbw#5,W,很快你就会发现，事情肯定没你想的那么简单。
-char_1504_cqbw#5,W,我很期待你会怎么做，呵呵，你总会做些什么的。
-char_1011_wizard_1,整合运动术师,W！你还要等到什么时候！？
-char_1011_wizard_1,炎客,......
-char_1011_wizard_1,W,哎，说真的，我的萨卡兹们不会动手哦？要干活，你们自己去干。
-char_1011_wizard_1,W,刀术师——不，炎客，在之后的战斗里，你可能会死。
-char_1011_wizard_1,炎客,久违的死局。我很兴奋。
-char_1011_wizard_1,W,久违的？这么说来，也许你佣兵队的全灭并没让你变得冷酷，反而让你变得快乐起来了？
-char_1011_wizard_1,炎客,我和你没有相像之处，W，快乐不是值得追求的目标。
-char_1011_wizard_1,炎客,“上一次”让我失去了很多东西，但我眼前的道路却变得明晰而清澈。
-char_1011_wizard_1,炎客,这一次，希望你们不要让我失望。
-char_1011_wizard_1,W,你居然在笑哎。
-char_1011_wizard_1,W,如果我说这次会饶你一命，你信吗？
-char_1011_wizard_1,炎客,我，也想这么问。
-char_130_doberm_ex,杜宾,合同内容——似乎没有要求你在正式登舰前，就和整合运动正面冲突。
-char_131_flameb_5,炎客,是我个人的原因。
-char_130_doberm_ex,杜宾,我们欢迎感染者和有志于解决感染者问题的各类人才，但绝不接纳违反规则和条例的人。
-char_130_doberm_ex,杜宾,鉴于我们并不知道当时的具体情况，就不把这件事纳入考察了。
-char_130_doberm_ex,杜宾,下不为例。
-char_131_flameb_5,炎客,如果有必要，就按你们的方式处理。
-char_130_doberm_ex,杜宾,我们已经处理过了。你的动机和个人诉求，我们不会纳入考量——不如说。
-char_130_doberm_ex,杜宾,如果判断你是罗德岛无法接纳的人，那么即使你既高尚又正直，我们也不能网开一面。
-char_131_flameb_5,炎客,是的，仅仅是我的个人诉求。
-char_130_doberm_ex,杜宾,哼，不管这个，欢迎来到罗德岛。
-char_130_doberm_ex,杜宾,这么说吧，你的行为每时每刻，都会影响到身边干员，身边的干员也会针对你的行为作出决策。
-char_130_doberm_ex,杜宾,只要你遵守规则，罗德岛会十分宽容地对待你，无论你的过去怎么样。
-char_130_doberm_ex,杜宾,相反，听着，干员炎客，只要你做出哪怕一丁点出格的事情......
-char_131_flameb_5,炎客,唔。
-char_130_doberm_ex,杜宾,接下来，我领你去医疗部门吧，有个人想见见你。
-,PLAYER,——你是？
-char_131_flameb_5,炎客,......
-char_131_flameb_5,炎客,你......
-,PLAYER,抱歉，借过。
-char_131_flameb_5#4,炎客,......呵。
-char_131_flameb_5#4,炎客,真是这样。
-char_131_flameb_5#4,炎客,W，你还真是诚实啊......
-char_131_flameb_5#4,炎客,看来活久一点，确实有些益处。
+Character,Name,Latest,English,Japanese
+-----,-----,-----,-----,-----
+,Reunion Movement Caster,W，我们遇到了点麻烦。,"W, we have a problem.",
+,W,嚯......值得你们用这个频道联系我，怎么？发现了什么有趣的事情？,Ho... For you to contact me on this channel. Why? What did you found that was interesting?,
+,Reunion Movement Caster,不太有趣，W，在你重整那些萨卡兹雇佣兵的时候，有一支队伍叛逃了。,"Not that interesting, W. One of the teams went AWOL while you were reorganizing those Sarkaz mercenaries.",
+,Reunion Movement Caster,好像是支负责清扫战场的后勤队伍，所以我们直接发起了追击。,"I seems to be a clean up team that was supposed to get rid leftovers from the battlefield, so we launched a pursuit.",
+,Reunion Movement Caster,意料之内的，他们变成了一盘散沙，一触即溃，开始向城外撤离。,"Surprisingly, they scattered, collapsing their team, and began to evacuate the city.",
+,W,可喜可贺。,Congratulations.,
+,Reunion Movement Caster,但，意料之外的情况是......我们派去追击的小队，和我们失去了联系。,But the unexpected thing is... The team we sent in pursuit lost contact with us.,
+,Reunion Movement Caster,作为佣兵们的新领头人，希望你能给出合理的解释。,"As the new leader of the mercenaries, I hope you can give me a reasonable explanation.",
+,Reunion Movement Caster,我们的小队为什么人间蒸发了？,Why did our team disappeared?,
+-----,-----,-----,-----,-----
+,,01:13 P.M.    天气/晴,,
+,,切尔诺伯格，郊外，荒野,,
+-----,-----,-----,-----,-----
+char_1504_cqbw,W,这种描述可不利于我理解喔？,"Your kind of explanation is not good for my comprehension, you know?",
+,Reunion Movement Caster,事实如此。协同小队没发现埋伏和陷阱，只知道敌人是萨卡兹人。,"That's true. But the team found no ambushes or traps, only that the enemy was a Sarkaz.",
+char_1504_cqbw,W,那自然是萨卡兹了，我的佣兵还能有什么其他种族呢？不过，挺有趣的。接着说。,Of course it's Sarkaz. What other race are in my mercenary team? But that's interesting. Continue.,
+,Reunion Movement Caster,最先接触的时候，目标被成功压制，出于谨慎，追击小队也有所保留。对方并不是什么强敌。,"At first contact, the target was successfully suppressed, and out of caution, the pursuit team held back since the other side was not a strong enemy.",
+,Reunion Movement Caster,然而某个时刻，通讯突然中断了。,"At some point, however, communication was suddenly cut off.",
+char_1504_cqbw,W,......嗯，比起你们，真正的野兽更善于隐藏自己的尖牙利齿，你们这也太大意了吧。,"... Well, it seems real beasts are better at hiding their fangs than you, you were too careless.",
+,Reunion Movement Caster,我们该怎么办？,What should we do now?,
+char_1504_cqbw,W,那些萨卡兹人有什么特点？,What's the distinguishing feature of that Sarkaz?,
+,Reunion Movement Caster,......不清楚，目击者大都失去了联络。从远处看，只知道有一名近身陷阵的战士。,"... I don't know much. Witnesses are mostly out of contact. From a distance, only one soldier was known to be in close combat.",
+char_1504_cqbw,W,那就不要和他们正面接触。拖住那个人，我们一会见。,Don't confront them head on. Delay that person. I'll see you later.,
+char_1002_nsabr_2,Reunion Movement Swordman,出了什么事？,Did something happened?,
+char_1504_cqbw#3,W,没什么，只是有一支不够成熟的小队中了诱饵。,Nothing. It's one of the less mature teams has been baited.,
+char_1002_nsabr_2,Reunion Movement Swordman,我们要去支援他们吗？,Are we going to support them?,
+char_1504_cqbw,W,唉，明明大家都有自己的工作，为什么不能各自处理好分内的事情呢？,"Alas, clearly everyone has their own work to do, why can't each of them deal with the matter of duty?",
+char_1504_cqbw,W,嗯......不过这次就不深究了吧。毕竟我也非常在意我可怜的前领导带着哪些奇怪的萨卡兹人呢。,"Hmm... I won't go deep into the matter this time around. After all, I'm also very concerned about the strange Sarkaz that my poor former leader had with him.",
+char_1002_nsabr_2,Reunion Movement Swordman,明白了。,Understood.,
+char_1002_nsabr_2,Reunion Movement Swordman,通知全体小队，临战整备，转移到城郊。,"Call all units, tell them to get ready, it's time to move to the suburbs.",
+-----,-----,-----,-----,-----
+-----,-----,-----,-----,-----
+char_1011_wizard_1,Reunion Movement Caster,呃，该死，这家伙的动作又变快了！他还在隐藏实力吗？,"Uh, damn, this guy's moving fast again! Is he still hiding his true strength?",
+char_131_flameb_5#7,？？？,......太弱小了，所谓的整合运动只有这种水平吗？,... Too weak. Is this the only standard of Reunion Movement?,
+char_1011_wizard_1,Reunion Movement Caster,你这家伙！竟然小看我们——,You bastard! How dare you actually underestimate us——,
+char_1504_cqbw#3,W,呵......,I see...,
+char_1504_cqbw#3,W,本来就预想到会遇上几个老熟人，可没想到会是你啊。,"I was expecting to meet some old acquaintances, but I didn't think it would be you.",
+char_1011_wizard_1,Reunion Movement Caster,W，我们——,"W, we——",
+char_1504_cqbw,W,归队，除非你想送死。别摆出那副急着报仇的表情，他还没有使出全力。哦，想送死的话，我就不拦着你咯？,"Stand back unless you want to die. Don't show that expression of impatience for revenge. He hasn't done his best yet. Oh, if you want to die, I won't stop you at all.",
+char_1011_wizard_1,Reunion Movement Caster,......收队。,... Stand back.,
+char_1504_cqbw#4,W,很久不见了，佣兵刀术师。,"Long time no see, sellsword master.",
+char_131_flameb_5,Flamebringer,你——,You——,
+char_1504_cqbw#3,W,现在，叫我W。,"Now, call me W.",
+char_1504_cqbw#3,W,你呢？,How about you?,
+char_131_flameb_5,Flamebringer,炎客。你应该明白，于我而言，互报姓名的意义。,Flamebringer. You should understand what it means to me to exchange names.,
+char_1504_cqbw#3,W,哎呀，可怕可怕，过去你手刃那些家伙的时候，也会互报姓名吗？,"Aiyah, how scary. Did you gave your name to those people you killed in the past?",
+char_131_flameb_5,Flamebringer,委托和厮杀是不一样的。,Comission is different from fighting.,
+char_1504_cqbw#3,W,作为一个经历过那场战争的萨卡兹人忽然销声匿迹，很令人担心啊。,It was worrying for a Sarkaz who had lived through that war to suddenly disappear.,
+char_1504_cqbw#3,W,佣兵嘛，只不过是换了个领头人就要跑路，让人很心慌喔？,"Mercenaries, just a change of leadership and then they want to run away, they're making people nervous.",
+char_131_flameb_5,Flamebringer,这无关紧要。,It doesn't matter.,
+char_131_flameb_5,Flamebringer,不过没想到，你的部下连让我报上名字的价值都没有。,But I didn't think that your men are not even worthy of hearing my name.,
+char_1504_cqbw#4,W,那还真是荣幸......嗯，虽然他们成为我部下也没多长时间。啊，你是在邀请我杀了你？,"That's an honor... Well, they haven't been under me for very long. Oh, are you inviting me to kill you?",
+char_131_flameb_5,Flamebringer,不，我对你仰仗外力的战斗方式毫无兴趣。,"No, I'm not interested in the way you fight using tricks outside of true combat.",
+char_131_flameb_5,Flamebringer,但我得承认，战术也是一种技巧。如果你的战术比过去更加精湛，我愿意领教。,"But I must admit, tactics are a skill as well. If your tactics are better than what they used to be, I'd like to learn from you.",
+char_1504_cqbw#3,W,......奇怪，你过去不是那种“只要杀了目标怎么都好”的类型吗？,"... Strange, weren't you used to be the ""just kill my target"" type?",
+char_1002_nsabr_2,Reunion Movement Swordman,W，小队已经分散到了指定点，已经彻底切断了敌人的退路，他逃不掉的。,"W, the squad has been dispersed to the designated point, we've completely cut off the enemy's retreat, he can't escape.",
+char_131_flameb_5,Flamebringer,我也没想到你能成为这些家伙的领导者，大家都在改变。,I didn't expect you to be the leader of these guys. It seems everyone is changing.,
+char_1504_cqbw#3,W,这些家伙？啊......你是说整合运动？,These guys? Ah... You mean the Reunion Movement?,
+char_1504_cqbw#3,W,还是说......萨卡兹们？,Or say... Sarkaz's?,
+char_1002_nsabr_2,Reunion Movement Swordman,喝——！,Hurgh——！,
+char_131_flameb_5#2,Flamebringer,唔。,Hmm.,
+char_1002_nsabr_2,Reunion Movement Swordman,我是不会轻敌的，萨卡兹人，我注意你很久了。,"I don't underestimate the enemy, Sarkazian. I've been watching you for a long time.",
+char_1002_nsabr_2,Reunion Movement Swordman,很可惜，你没有机会钻空子。,"A shame, you don't have a chance to take advantage of this.",
+char_131_flameb_5#4,Flamebringer,原来如此，你也是......,I see. So you are too...,
+char_131_flameb_5#4,Flamebringer,这不是有意思多了吗，你能作为砥石为我所用吗？我的刀有些钝了。,Isn't this much more interesting? Can you be a whetstone for me? My sword has become a little blunt.,
+char_1002_nsabr_2,Reunion Movement Swordman,挑衅？你也就现在能嚣张两下了！,Insults? You sure are arrogant now!,
+char_131_flameb_5#4,Flamebringer,嗯，来吧。,Come get some.,
+char_1002_nsabr_2,Reunion Movement Swordman,唔呃！该死！你是怎么——,Augh! Damn! How did you——,
+char_1002_nsabr_2,Reunion Movement Swordman,呃——！,Ahh——!,
+char_131_flameb_5#4,Flamebringer,你还有空说话吗？,Do you still have some time to talk?,
+char_1504_cqbw#3,W,......意料之内，他变得更强了。,"... Not surprisingly, he became stronger.",
+char_1011_wizard_1,Reunion Movement Caster,W！我们为什么就站在这里看着！？只要你下令，他立刻就会灰飞烟灭了！,"W! Why are we just standing here watching! ? If you give the order now, he'll go up in smoke!",
+char_1504_cqbw#4,W,所以现在，我又能对你发号施令了？,So now I can give you orders?,
+char_1011_wizard_1,Reunion Movement Caster,别在这种时候找茬！,Don't pick on us at such a time!,
+char_1504_cqbw#4,W,但我确实不是你们的指挥官呀。,But I'm not really your commander.,
+char_1504_cqbw#4,W,提个建议，收手吧，别刺激他了，自找麻烦最好换个时间。,A piece of advice. Stop irritating him. It's better to ask for trouble at another time.,
+char_1002_nsabr_2,Reunion Movement Swordman,......该死。,... Damn it.,
+char_1504_cqbw#3,W,不是吧？你难道真的打算单打独斗就解决他？别在这里搞笑啊。,Are you serious? Are you really going to go at him alone? Don't be funny here.,
+char_1002_nsabr_2,Reunion Movement Swordman,嘁。,Bah!,
+char_131_flameb_5#2,Flamebringer,下一个是谁？,Who's next?,
+char_1504_cqbw#3,W,这么着急，是赶着去赴谁的约吗？,Are you in such a hurry to meet someone?,
+char_131_flameb_5,Flamebringer,我不是第一次杀出重围了。,It's not the first time I've broke through.,
+char_1504_cqbw#3,W,唔，嗯，原来如此。我想，你大概是在说内战时候的事吧？我有点兴趣，能说说吗？,"Well, well, I see. You're talking about the civil war, I suppose? I'm interested. Can you tell me more about it?",
+char_131_flameb_5,Flamebringer,没什么。被人埋伏，所有人死了而我还活着，就这么简单。,"It's nothing. There was an ambush, everybody's dead and I'm the only alive, it's as simple as that.",
+char_131_flameb_5,Flamebringer,怎么样？还要继续吗？,How's about it? Do you want to continue?,
+char_131_flameb_5,Flamebringer,对我来说，刚才的战斗还远远不够。,"To me, that fight was not enough.",
+char_1504_cqbw#3,W,不......我在想，也许你应该加入我们。,"No... I was thinking, maybe you should join us.",
+char_1011_wizard_1,Reunion Movement Caster,W！？他这个叛逃者，已经杀了那么多整合运动的——,"W! ? He, is a defector, he killed so many of the Reunion Movement——",
+char_1504_cqbw#1,W,是我的佣兵们决定要用他，整合运动需要他。有意见？,It was my mercenaries who decided to use him. The Reunion Movement needs him. You're having opinions?,
+char_1011_wizard_1,Reunion Movement Caster,你！,You!,
+char_131_flameb_5,Flamebringer,......,...,
+char_1504_cqbw#3,W,不管怎么想，都是我们这边更有趣吧？战争，流血，还有那么多萨卡兹同僚......,"Either way, isn't our side more interesting? War, bloodshed, and so many of Sarkaz comrades...",
+char_1504_cqbw#3,W,你追求的一切在这里都是打折大放送哦。,Everything you're after is on sale here.,
+char_1504_cqbw#3,W,当然，这份邀请也出于我个人的好奇心，我们一定有很多共同话题。,"Of course, this invitation is also out of my own personal curiosity, we must have a lot in common.",
+char_131_flameb_5,Flamebringer,我不这么认为。,I don't think so.,
+char_1504_cqbw#3,W,你也是感染者吧？加入整合运动又有什么不好呢？,You're infected? What's wrong with joining the Reunion Movement?,
+char_131_flameb_5,Flamebringer,无序的破坏，带着某种目的的集团暴行，我看不出能从这样的组织里得到什么。,I do not see what can be gained from joining such an organization as disorderly destructive and using mob violence with a certain purpose.,
+char_131_flameb_5,Flamebringer,战争？现在的你们不过是摩擦迸发出的点点火种，你应该知道真正的战争是什么样的。,"War? You're just a little spark of friction now, you should know what a real war looks like.",
+char_1504_cqbw#3,W,别这么说，我们也是有在努力工作的，何况整合运动之间也有区别嘛。,"Come on, we're working hard over here, and there's a difference between the Reunion Movement.",
+char_1504_cqbw#3,W,虽然我的前任上司喜欢更纯粹些的东西，但我可是无论什么都乐在其中啊。,"Although my former boss liked purer things, I find joy in everything.",
+char_131_flameb_5,Flamebringer,如果非要说的话......是呢，我想领教一下塔露拉的剑术。,"If I must say... well, I want to test Talulah's swordmanship.",
+char_1504_cqbw#3,W,那个龙女？虽然我不想称赞她，但你基本没有一丁点胜算喔。,"That dragon woman? I don't want to praise her, but you're not even close to her level.",
+char_1504_cqbw#3,W,而且她那个，能算剑术吗？你在靠近她之前就会变成一块炭吧？,"And her skill? Can that even be called swordsmanship? You'll be a lump of coal before you get near her, you know?",
+char_131_flameb_5,Flamebringer,我知道。,I know.,
+char_131_flameb_5,Flamebringer,当然，我也知道，如果我拒绝你的条件，我突围的机会同样小之又小。,"Of course, I know that if I reject your offer, my chances of breaking through are just as slim.",
+char_131_flameb_5,Flamebringer,可这又何妨？只有在令人窒息的枷锁中挣脱，我才有可能更进一步。,But why does it matter? Only by breaking free of such suffocating shackles could I improve further.,
+char_1504_cqbw#5,W,你......什么时候变得这么有情调了？,You...... When did you become so romantic?,
+char_131_flameb_5,Flamebringer,我只是在寻求自己活着的意义。,I'm just looking for my own meaning in life.,
+char_1504_cqbw#3,W,好吧，随你怎么说。不要管那个龙女了，单纯加入佣兵队伍如何？,"Well, whatever you say. Never mind that dragon woman, how about simply joining the mercenary team?",
+char_1504_cqbw#3,W,老工作的话，你也能更加得心应手吧。再说了，你不喜欢的上司，已经死了哦。,"You'll be better at your old job, too. Besides, the boss you don't like is dead.",
+char_131_flameb_5,Flamebringer,你并不值得信任。你我都互相隐瞒了很多事情。,You can't be trusted. You and I hide a lot from each other.,
+char_131_flameb_5,Flamebringer,......呵，有一个很不错的地方，那里比整合运动更适合磨砺我的刀刃。,"... Oh, there's a better place to sharpen my edge than Reunion Movement.",
+char_131_flameb_5,Flamebringer,我看到了。不久之前，我看到你和那个外来的萨卡兹人交易的场面。但除此之外，他们的战斗令我心动。,"I saw it. Not long ago, I saw you fighting against that outsider Sarkaz. But other than that, I was thrilled by their fight.",
+char_1504_cqbw#5,W,还有这种事？！,You saw?!,
+char_131_flameb_5,Flamebringer,就算他最后被你除掉了，事实就是事实，依然在那里。遮掩是没用的。,"Even if you got rid of him in the end, the truth is the truth. It's still there. Covering up is pointless.",
+char_1504_cqbw#4,W,唔。,Hmm.,
+char_1504_cqbw#4,W,真是败给你啦！行啦行啦。我确实和他口头约定好，让他干掉我的上司，方便我去做事呢。,"I really lost to you! Okay, okay. I did make a verbal pact with him to get rid of my boss so I could do my job.",
+char_1504_cqbw#4,W,毕竟大家也是老相识了嘛，面子也是要卖一个的。,"After all, we are also old acquaintances, he had to let me.",
+char_131_flameb_5,Flamebringer,但你不可能放过他们。,But you can't let them go.,
+char_1504_cqbw#4,W,至少我放过了他想保护的人啊。,At least I let go the people he was trying to protect.,
+char_1504_cqbw#4,W,我答应他，会给罗德岛的救援队提供帮助——这和我杀死他这件事，也没什么矛盾吧？,"I promised him I would help the Rhodes Island rescue team——it doesn't contradict me killing him, I think?",
+char_1504_cqbw#4,W,再说了，我也有自己的规划，钓线总要放长一些才行。但手上的猎物，也没理由让他跑了。,"Besides, I had my own plan. The bait line had to be longer. But there was no reason to let him run, he was prey.",
+char_131_flameb_5,Flamebringer,就算这样，他也消灭了你好不容易弄到手的精英战士。,"Even so, he's eliminated the elite warriors you've had a hard time getting.",
+char_1504_cqbw#3,W,够了！这事，我可还是很生气的！,Enough is enough! I'm still very angry about it!,
+char_1504_cqbw#3,W,唉。难得遇到一位旧识，本来还以为能搞好关系，最后还是你死我活，我也很伤心的。,"Alas. It was hard to meet an old acquaintance, and I thought I could get along well with him. I'm sad that it had to end up like this.",
+char_1002_nsabr_2,Reunion Movement Swordman,......W，我们必须动手了。拖得太久会影响既定的计划。,"... W, we have to start. Any further delays will affect the established plan.",
+char_1504_cqbw,W,好啦，既然大家时间都很紧迫......你真的不打算改变你的看法？,"Okay, since everyone is pressed for time... Are you really not going to change your mind?",
+char_131_flameb_5,Flamebringer,自然不会。,Of course not.,
+char_1504_cqbw,W,最后一个问题，你现在的雇主是谁？啊，抱歉，反正你是不会说的吧。,"Last question, who is your present employer? Oh, I'm sorry, you're not going to tell me anyways.",
+char_1504_cqbw,W,但我大致猜得到。,But I have a rough guess.,
+char_131_flameb_5,Flamebringer,是吗，我以为他们没有那么有名。,Really? I thought they weren't that famous.,
+char_1504_cqbw,W,我有不少旧识在那里。欸，虽然我的旧识到处都是啦，你也算是呢。,"I have a lot of old friends there. Well, even though I've got a lot of old acquaintances, you count too.",
+char_131_flameb_5,Flamebringer,前言不搭后语。,You're being incoherent.,
+char_1504_cqbw#3,W,不，我要说的是，我也许清楚一些你以前的佣兵队伍被消灭的内幕。,"No, what I'm saying is, I may know something about the death of your old mercenary unit.",
+char_1504_cqbw#3,W,尊敬的刀术师队长，策划了那次的阴谋，让你变成现在这样子的人，说不定就在你要去的地方哦？,"Dear captain of the sword division, who plotted that conspiracy to make you the person you are now, maybe that is where you need to go?",
+char_131_flameb_5,Flamebringer,是吗？,Is that so?,
+char_131_flameb_5,Flamebringer,是吗......,Is that so...,
+char_131_flameb_5,Flamebringer,有趣。,Interesting.,
+char_1504_cqbw#5,W,啊哈哈，原来你不知道！当然了，我也是刚刚才知道。,"Aha, so you don't know! Of course, I just found out about it.",
+char_1504_cqbw#5,W,很快你就会发现，事情肯定没你想的那么简单。,You will soon discover that things are not as simple as you think.,
+char_1504_cqbw#5,W,我很期待你会怎么做，呵呵，你总会做些什么的。,"I am looking forward to what you will do, hehe, you will always do something.",
+char_1011_wizard_1,Reunion Movement Caster,W！你还要等到什么时候！？,W! How long will you wait? ?,
+char_131_flameb_5,Flamebringer,......,...,
+char_1504_cqbw#1,W,哎，说真的，我的萨卡兹们不会动手哦？要干活，你们自己去干。,"Oh, seriously, my Sarkazian don't know how to just do it? If you need the work done. Do it yourself.",
+char_1504_cqbw#1,W,刀术师——不，炎客，在之后的战斗里，你可能会死。,"Swordmaster - no, Flamebringer, you may die in the battle that follows.",
+,Flamebringer,久违的死局。我很兴奋。,It's been a long awaited time for a game of death. I'm excited.,
+,W,久违的？这么说来，也许你佣兵队的全灭并没让你变得冷酷，反而让你变得快乐起来了？,"Long awaited? So maybe the demise of your mercenary squad didn't make you colder, but made you joyful instead?",
+,Flamebringer,我和你没有相像之处，W，快乐不是值得追求的目标。,,
+,Flamebringer,“上一次”让我失去了很多东西，但我眼前的道路却变得明晰而清澈。,"""Last time"" made me lose a lot of things, but the road before me has become clearer.",
+,Flamebringer,这一次，希望你们不要让我失望。,"This time, I hope you don't disappoint me.",
+,W,你居然在笑哎。,You're laughing.,
+,W,如果我说这次会饶你一命，你信吗？,"If I say I'll spare your life this time, do you believe me?",
+,Flamebringer,我，也想这么问。,"I, want to ask that as well.",
+char_130_doberm_ex,Dobermann,合同内容——似乎没有要求你在正式登舰前，就和整合运动正面冲突。,Contract content——it doesn't seem to require you to confront the Reunion Movement before you actually get on board of Rhodes Island.,
+char_131_flameb_5,Flamebringer,是我个人的原因。,It's for my personal reason.,
+char_130_doberm_ex,Dobermann,我们欢迎感染者和有志于解决感染者问题的各类人才，但绝不接纳违反规则和条例的人。,"We welcome those who are infected and those who are interested in solving the problem of infected people, but we will never accept those who violate the rules and regulations.",
+char_130_doberm_ex,Dobermann,鉴于我们并不知道当时的具体情况，就不把这件事纳入考察了。,"Since we don't know what actually happened at the time, we won't take it into account.",
+char_130_doberm_ex,Dobermann,下不为例。,Just this once.,
+char_131_flameb_5,Flamebringer,如果有必要，就按你们的方式处理。,"If necessary, I accept handling of your way.",
+char_130_doberm_ex,Dobermann,我们已经处理过了。你的动机和个人诉求，我们不会纳入考量——不如说。,"We've taken care of that. Your motives and personal aspirations, we won't take it into account——let's be clear.",
+char_130_doberm_ex,Dobermann,如果判断你是罗德岛无法接纳的人，那么即使你既高尚又正直，我们也不能网开一面。,"If we judge you to be an unacceptable person to Rhodes Island, even if you are noble and honest, we cannot afford to let you off the hook.",
+char_131_flameb_5,Flamebringer,是的，仅仅是我的个人诉求。,"Yes, it's just my personal request.",
+char_130_doberm_ex,Dobermann,哼，不管这个，欢迎来到罗德岛。,"Well, we'll leave it be. Welcome to Rhodes Island.",
+char_130_doberm_ex,Dobermann,这么说吧，你的行为每时每刻，都会影响到身边干员，身边的干员也会针对你的行为作出决策。,"Let's just say that every moment of every day, your actions will affect the people around you, and the people around you will make decisions about your actions.",
+char_130_doberm_ex,Dobermann,只要你遵守规则，罗德岛会十分宽容地对待你，无论你的过去怎么样。,"As long as you follow the rules, Rhodes Island is tolerant of you, no matter what your past is.",
+char_130_doberm_ex,Dobermann,相反，听着，干员炎客，只要你做出哪怕一丁点出格的事情......,"Instead, listen, operator Flamebringer, if you do anything even remotely out of line...",
+char_131_flameb_5,Flamebringer,唔。,Hmm.,
+char_130_doberm_ex,Dobermann,接下来，我领你去医疗部门吧，有个人想见见你。,"Next, I'll take you to the medical department. Someone wants to see you.",
+,PLAYER,——你是？,,
+char_131_flameb_5,Flamebringer,......,...,
+char_131_flameb_5,Flamebringer,你......,You...,
+-----,-----,-----,-----,-----
+,PLAYER,抱歉，借过。,,
+char_131_flameb_5#4,Flamebringer,......呵。,... Hmm.,
+char_131_flameb_5#4,Flamebringer,真是这样。,So it is true.,
+char_131_flameb_5#4,Flamebringer,W，你还真是诚实啊......,"W, you are so honest...",
+char_131_flameb_5#4,Flamebringer,看来活久一点，确实有些益处。,It seems that living longer does have some benefits.,
+-----,-----,-----,-----,-----
+,,切尔诺伯格,Chernoborg,
+,,我和你没有相像之处，W. 快乐不是值得追求的目标。,"I have nothing in common with you, W. Joy is not a goal worth pursuing.",
+,,,——You are?,
+,,,"I'm sorry, excuse me.",
